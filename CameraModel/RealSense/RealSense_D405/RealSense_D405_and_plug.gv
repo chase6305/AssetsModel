@@ -1,0 +1,38 @@
+digraph G {
+node [shape=box];
+"base_link" [label="base_link"];
+"camera_bottom_screw_frame" [label="camera_bottom_screw_frame"];
+"camera_link" [label="camera_link"];
+"camera_color_frame" [label="camera_color_frame"];
+"camera_color_optical_frame" [label="camera_color_optical_frame"];
+"camera_depth_frame" [label="camera_depth_frame"];
+"camera_depth_optical_frame" [label="camera_depth_optical_frame"];
+"camera_infra1_frame" [label="camera_infra1_frame"];
+"camera_infra1_optical_frame" [label="camera_infra1_optical_frame"];
+"camera_infra2_frame" [label="camera_infra2_frame"];
+"camera_infra2_optical_frame" [label="camera_infra2_optical_frame"];
+"camera_usb_plug_link" [label="camera_usb_plug_link"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"base_link" -> "camera_joint" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"camera_joint" -> "camera_bottom_screw_frame"
+"camera_bottom_screw_frame" -> "camera_link_joint" [label="xyz: 0.01085 0.009 0.021 \nrpy: 0 -0 0"]
+"camera_link_joint" -> "camera_link"
+"camera_link" -> "camera_color_joint" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"camera_color_joint" -> "camera_color_frame"
+"camera_color_frame" -> "camera_color_optical_joint" [label="xyz: 0 0 0 \nrpy: -1.5708 -0 -1.5708"]
+"camera_color_optical_joint" -> "camera_color_optical_frame"
+"camera_link" -> "camera_depth_joint" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"camera_depth_joint" -> "camera_depth_frame"
+"camera_depth_frame" -> "camera_depth_optical_joint" [label="xyz: 0 0 0 \nrpy: -1.5708 -0 -1.5708"]
+"camera_depth_optical_joint" -> "camera_depth_optical_frame"
+"camera_link" -> "camera_infra1_joint" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"camera_infra1_joint" -> "camera_infra1_frame"
+"camera_infra1_frame" -> "camera_infra1_optical_joint" [label="xyz: 0 0 0 \nrpy: -1.5708 -0 -1.5708"]
+"camera_infra1_optical_joint" -> "camera_infra1_optical_frame"
+"camera_link" -> "camera_infra2_joint" [label="xyz: 0 -0.018 0 \nrpy: 0 -0 0"]
+"camera_infra2_joint" -> "camera_infra2_frame"
+"camera_infra2_frame" -> "camera_infra2_optical_joint" [label="xyz: 0 0 0 \nrpy: -1.5708 -0 -1.5708"]
+"camera_infra2_optical_joint" -> "camera_infra2_optical_frame"
+"camera_link" -> "camera_usb_plug_joint" [label="xyz: -0.01238 0.012 0 \nrpy: 3.14159 -0 0"]
+"camera_usb_plug_joint" -> "camera_usb_plug_link"
+}

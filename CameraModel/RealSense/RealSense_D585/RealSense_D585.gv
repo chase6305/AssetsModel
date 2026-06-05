@@ -1,0 +1,62 @@
+digraph G {
+node [shape=box];
+"base_link" [label="base_link"];
+"camera_bottom_screw_frame" [label="camera_bottom_screw_frame"];
+"camera_link" [label="camera_link"];
+"camera_accel_frame" [label="camera_accel_frame"];
+"camera_accel_optical_frame" [label="camera_accel_optical_frame"];
+"camera_color_frame" [label="camera_color_frame"];
+"camera_color_optical_frame" [label="camera_color_optical_frame"];
+"camera_depth_frame" [label="camera_depth_frame"];
+"camera_depth_optical_frame" [label="camera_depth_optical_frame"];
+"camera_gyro_frame" [label="camera_gyro_frame"];
+"camera_gyro_optical_frame" [label="camera_gyro_optical_frame"];
+"camera_imu_optical_frame" [label="camera_imu_optical_frame"];
+"camera_infra1_frame" [label="camera_infra1_frame"];
+"camera_infra1_optical_frame" [label="camera_infra1_optical_frame"];
+"camera_infra2_frame" [label="camera_infra2_frame"];
+"camera_infra2_optical_frame" [label="camera_infra2_optical_frame"];
+"camera_labeled_point_cloud_frame" [label="camera_labeled_point_cloud_frame"];
+"camera_labeled_point_cloud_optical_frame" [label="camera_labeled_point_cloud_optical_frame"];
+"camera_occupancy_frame" [label="camera_occupancy_frame"];
+"camera_occupancy_optical_frame" [label="camera_occupancy_optical_frame"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"base_link" -> "camera_joint" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"camera_joint" -> "camera_bottom_screw_frame"
+"camera_bottom_screw_frame" -> "camera_link_joint" [label="xyz: 0.0363 0.0475 0.0215 \nrpy: 0 -0 0"]
+"camera_link_joint" -> "camera_link"
+"camera_link" -> "camera_accel_joint" [label="xyz: 0.0114 -0.0195 0 \nrpy: 0 -0 0"]
+"camera_accel_joint" -> "camera_accel_frame"
+"camera_accel_frame" -> "camera_accel_optical_joint" [label="xyz: 0 0 0 \nrpy: -1.5708 -5.55112e-17 -1.5708"]
+"camera_accel_optical_joint" -> "camera_accel_optical_frame"
+"camera_link" -> "camera_color_joint" [label="xyz: 0 -0.0475 0 \nrpy: 0 -0 0"]
+"camera_color_joint" -> "camera_color_frame"
+"camera_color_frame" -> "camera_color_optical_joint" [label="xyz: 0 0 0 \nrpy: -1.5708 -5.55112e-17 -1.5708"]
+"camera_color_optical_joint" -> "camera_color_optical_frame"
+"camera_link" -> "camera_depth_joint" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"camera_depth_joint" -> "camera_depth_frame"
+"camera_depth_frame" -> "camera_depth_optical_joint" [label="xyz: 0 0 0 \nrpy: -1.5708 -5.55112e-17 -1.5708"]
+"camera_depth_optical_joint" -> "camera_depth_optical_frame"
+"camera_link" -> "camera_gyro_joint" [label="xyz: 0.0114 -0.0195 0 \nrpy: 0 -0 0"]
+"camera_gyro_joint" -> "camera_gyro_frame"
+"camera_gyro_frame" -> "camera_gyro_optical_joint" [label="xyz: 0 0 0 \nrpy: -1.5708 -5.55112e-17 -1.5708"]
+"camera_gyro_optical_joint" -> "camera_gyro_optical_frame"
+"camera_gyro_optical_frame" -> "camera_imu_optical_joint" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"camera_imu_optical_joint" -> "camera_imu_optical_frame"
+"camera_link" -> "camera_infra1_joint" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"camera_infra1_joint" -> "camera_infra1_frame"
+"camera_infra1_frame" -> "camera_infra1_optical_joint" [label="xyz: 0 0 0 \nrpy: -1.5708 -5.55112e-17 -1.5708"]
+"camera_infra1_optical_joint" -> "camera_infra1_optical_frame"
+"camera_link" -> "camera_infra2_joint" [label="xyz: 0 -0.095 0 \nrpy: 0 -0 0"]
+"camera_infra2_joint" -> "camera_infra2_frame"
+"camera_infra2_frame" -> "camera_infra2_optical_joint" [label="xyz: 0 0 0 \nrpy: -1.5708 -5.55112e-17 -1.5708"]
+"camera_infra2_optical_joint" -> "camera_infra2_optical_frame"
+"camera_link" -> "camera_labeled_point_cloud_joint" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"camera_labeled_point_cloud_joint" -> "camera_labeled_point_cloud_frame"
+"camera_labeled_point_cloud_frame" -> "camera_labeled_point_cloud_optical_joint" [label="xyz: 0 0 0 \nrpy: -1.5708 -5.55112e-17 -1.5708"]
+"camera_labeled_point_cloud_optical_joint" -> "camera_labeled_point_cloud_optical_frame"
+"camera_link" -> "camera_occupancy_joint" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"camera_occupancy_joint" -> "camera_occupancy_frame"
+"camera_occupancy_frame" -> "camera_occupancy_optical_joint" [label="xyz: 0 0 0 \nrpy: -1.5708 -5.55112e-17 -1.5708"]
+"camera_occupancy_optical_joint" -> "camera_occupancy_optical_frame"
+}

@@ -1,0 +1,224 @@
+<?xml version="1.0" ?>
+<robot name="KUKA_KR16_2">
+  <material name="KUKAPedestal">
+    <color rgba="0.50588 0.470588 0.3882 1.0" />
+  </material>
+  <material name="KUKAWhite">
+    <color rgba="0.9450 0.92549 1.0 1.0" />
+  </material>
+  <material name="KUKAOrange">
+    <color rgba="0.964705 0.470588 0.15686 1.0" />
+  </material>
+  <material name="KUKABlack">
+    <color rgba="0.05490 0.05490 0.062745 1.0" />
+  </material>
+  <!-- LINKS -->
+  <!-- base link -->
+  <link name="base_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <mass value="2"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="Visual/BaseLink.dae"/>
+      </geometry>
+      <material name="KUKABlack" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="Collision/BaseLink.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- link 1 (A1) -->
+  <link name="link_1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <mass value="2"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="Visual/Link1.dae"/>
+      </geometry>
+      <material name="KUKAOrange" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="Collision/Link1.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- link 2 -->
+  <link name="link_2">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <mass value="2"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="Visual/Link2.dae"/>
+      </geometry>
+      <material name="KUKAOrange" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="Collision/Link2.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- link 3 -->
+  <link name="link_3">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <mass value="2"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="Visual/Link3.dae"/>
+      </geometry>
+      <material name="KUKAOrange" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="Collision/Link3.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- link 4 -->
+  <link name="link_4">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <mass value="2"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="Visual/Link4.dae"/>
+      </geometry>
+      <material name="KUKAOrange" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="Collision/Link4.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- link 5 -->
+  <link name="link_5">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <mass value="2"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="Visual/Link5.dae"/>
+      </geometry>
+      <material name="KUKAOrange" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="Collision/Link5.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- link 6 -->
+  <link name="link_6">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <mass value="2"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="Visual/Link6.dae"/>
+      </geometry>
+      <material name="KUKAOrange" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="Collision/Link6.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- tool 0 -->
+  <!-- This frame corresponds to the $FLANGE coordinate system in KUKA KRC controllers. -->
+  <link name="ee_link"/>
+  <!-- END LINKS -->
+  <!-- JOINTS -->
+  <!-- joint 1 (A1) -->
+  <joint name="joint1" type="revolute">
+    <origin rpy="0 0 0" xyz="0 0 0.675"/>
+    <parent link="base_link"/>
+    <child link="link_1"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="0" lower="-3.22885911619" upper="3.22885911619" velocity="2.72271363311"/>
+  </joint>
+  <!-- joint 2 (A2) -->
+  <joint name="jont2" type="revolute">
+    <origin rpy="0 0 0" xyz="0.26 0 0"/>
+    <parent link="link_1"/>
+    <child link="link_2"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="0" lower="-2.70526034059" upper="0.610865238198" velocity="2.72271363311"/>
+  </joint>
+  <!-- joint 3 (A3) -->
+  <joint name="joint3" type="revolute">
+    <origin rpy="0 0 0" xyz="0.68 0 0"/>
+    <parent link="link_2"/>
+    <child link="link_3"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="0" lower="-2.26892802759" upper="2.68780704807" velocity="2.72271363311"/>
+  </joint>
+  <!-- joint 4 (A4) -->
+  <joint name="joint4" type="revolute">
+    <origin rpy="0 0 0" xyz="0.67 0 -0.035"/>
+    <parent link="link_3"/>
+    <child link="link_4"/>
+    <axis xyz="-1 0 0"/>
+    <limit effort="0" lower="-6.10865238198" upper="6.10865238198" velocity="5.75958653158"/>
+  </joint>
+  <!-- joint 5 (A5) -->
+  <joint name="joint5" type="revolute">
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <parent link="link_4"/>
+    <child link="link_5"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="0" lower="-2.26892802759" upper="2.26892802759" velocity="5.75958653158"/>
+  </joint>
+  <!-- joint 6 (A6) -->
+  <joint name="joint6" type="revolute">
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <parent link="link_5"/>
+    <child link="link_6"/>
+    <axis xyz="-1 0 0"/>
+    <limit effort="0" lower="-6.10865238198" upper="6.10865238198" velocity="10.7337748998"/>
+  </joint>
+  <!-- tool frame - fixed frame -->
+  <joint name="jointEE" type="fixed">
+    <parent link="link_6"/>
+    <child link="ee_link"/>
+    <origin rpy="0 1.57079632679 0" xyz="0.158 0 0"/>
+  </joint>
+  <!-- END JOINTS -->
+</robot>
+

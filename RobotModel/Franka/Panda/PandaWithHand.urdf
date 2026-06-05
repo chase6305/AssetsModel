@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<robot name="Franka_Panda"> 
+  <link name="base_link"> 
+    <visual> 
+      <origin xyz="0 0 0" rpy="0 0 0"/>  
+      <geometry> 
+        <mesh filename="Visual/BaseLink.dae"/> 
+      </geometry> 
+    </visual>  
+    <collision> 
+      <origin xyz="0 0 0" rpy="0 0 0"/>  
+      <geometry> 
+        <mesh filename="Collision/BaseLink.stl"/> 
+      </geometry> 
+    </collision> 
+  </link>  
+  <link name="Link1"> 
+    <visual> 
+      <origin xyz="0 0 0" rpy="0 0 0"/>  
+      <geometry> 
+        <mesh filename="Visual/Link1.dae"/> 
+      </geometry> 
+    </visual>  
+    <collision> 
+      <origin xyz="0 0 0" rpy="0 0 0"/>  
+      <geometry> 
+        <mesh filename="Collision/Link1.stl"/> 
+      </geometry> 
+    </collision> 
+  </link>  
+  <link name="Link2"> 
+    <visual> 
+      <origin xyz="0 0 0" rpy="0 0 0"/>  
+      <geometry> 
+        <mesh filename="Visual/Link2.dae"/> 
+      </geometry> 
+    </visual>  
+    <collision> 
+      <origin xyz="0 0 0" rpy="0 0 0"/>  
+      <geometry> 
+        <mesh filename="Collision/Link2.stl"/> 
+      </geometry> 
+    </collision> 
+  </link>  
+  <link name="Link3"> 
+    <visual> 
+      <origin xyz="0 0 0" rpy="0 0 0"/>  
+      <geometry> 
+        <mesh filename="Visual/Link3.dae"/> 
+      </geometry> 
+    </visual>  
+    <collision> 
+      <origin xyz="0 0 0" rpy="0 0 0"/>  
+      <geometry> 
+        <mesh filename="Collision/Link3.stl"/> 
+      </geometry> 
+    </collision> 
+  </link>  
+  <link name="Link4"> 
+    <visual> 
+      <origin xyz="0 0 0" rpy="0 0 0"/>  
+      <geometry> 
+        <mesh filename="Visual/Link4.dae"/> 
+      </geometry> 
+    </visual>  
+    <collision> 
+      <origin xyz="0 0 0" rpy="0 0 0"/>  
+      <geometry> 
+        <mesh filename="Collision/Link4.stl"/> 
+      </geometry> 
+    </collision> 
+  </link>  
+  <link name="Link5"> 
+    <visual> 
+      <origin xyz="0 0 0" rpy="0 0 0"/>  
+      <geometry> 
+        <mesh filename="Visual/Link5.dae"/> 
+      </geometry> 
+    </visual>  
+    <collision> 
+      <origin xyz="0 0 0" rpy="0 0 0"/>  
+      <geometry> 
+        <mesh filename="Collision/Link5.stl"/> 
+      </geometry> 
+    </collision> 
+  </link>  
+  <link name="Link6"> 
+    <visual> 
+      <origin xyz="0 0 0" rpy="0 0 0"/>  
+      <geometry> 
+        <mesh filename="Visual/Link6.dae"/> 
+      </geometry> 
+    </visual>  
+    <collision> 
+      <origin xyz="0 0 0" rpy="0 0 0"/>  
+      <geometry> 
+        <mesh filename="Collision/Link6.stl"/> 
+      </geometry> 
+    </collision> 
+  </link>  
+  <link name="Link7"> 
+    <visual> 
+      <origin xyz="0 0 0" rpy="0 0 0"/>  
+      <geometry> 
+        <mesh filename="Visual/Link7.dae"/> 
+      </geometry> 
+    </visual>  
+    <collision> 
+      <origin xyz="0 0 0" rpy="0 0 0"/>  
+      <geometry> 
+        <mesh filename="Collision/Link7.stl"/> 
+      </geometry> 
+    </collision> 
+  </link>  
+  <link name="ee_link"/>  
+
+
+  <link name="gripper_base_link"> 
+    <visual> 
+      <geometry> 
+        <mesh filename="Visual/Hand.dae"/> 
+      </geometry> 
+    </visual>  
+    <collision> 
+      <geometry> 
+        <mesh filename="Collision/Hand.stl"/> 
+      </geometry> 
+    </collision> 
+  </link>  
+  <link name="leftfinger"> 
+    <visual> 
+      <geometry> 
+        <mesh filename="Visual/LeftFinger.dae"/> 
+      </geometry> 
+    </visual>  
+    <collision> 
+      <geometry> 
+        <mesh filename="Collision/LeftFinger.stl"/> 
+      </geometry> 
+    </collision> 
+  </link>  
+  <link name="rightfinger"> 
+    <visual> 
+      <origin xyz="0 0 0" rpy="0 0 3.1415926"/>  
+      <geometry> 
+        <mesh filename="Visual/RightFinger.dae"/> 
+      </geometry> 
+    </visual>  
+    <collision> 
+      <origin xyz="0 0 0" rpy="0 0 3.1415926"/>  
+      <geometry> 
+        <mesh filename="Collision/RightFinger.stl"/> 
+      </geometry> 
+    </collision> 
+  </link>  
+
+  <!-- joints: main serial chain -->  
+  <joint name="Joint1" type="revolute"> 
+    <origin xyz="0 0 0.333" rpy="0 0 0"/>  
+    <parent link="base_link"/>  
+    <child link="Link1"/>  
+    <axis xyz="0 0 1"/>  
+    <limit effort="87" lower="-2.8973" upper="2.8973" velocity="2.1750" acceleration="15" jerk="7500"/> 
+  </joint>  
+  <joint name="Joint2" type="revolute"> 
+    <origin xyz="0 0 0" rpy="-1.5708 0 0"/>  
+    <parent link="Link1"/>  
+    <child link="Link2"/>  
+    <axis xyz="0 0 1"/>  
+    <limit effort="87" lower="-1.7628" upper="1.7628" velocity="2.1750" acceleration="7.5" jerk="3750"/> 
+  </joint>  
+  <joint name="Joint3" type="revolute"> 
+    <origin xyz="0 -0.316 0" rpy="1.5708 0 0"/>  
+    <parent link="Link2"/>  
+    <child link="Link3"/>  
+    <axis xyz="0 0 1"/>  
+    <limit effort="87" lower="-2.8973" upper="2.8973" velocity="2.1750" acceleration="10" jerk="5000"/> 
+  </joint>  
+  <joint name="Joint4" type="revolute"> 
+    <origin xyz="0.0825 0 0" rpy="1.5708 0 0"/>  
+    <parent link="Link3"/>  
+    <child link="Link4"/>  
+    <axis xyz="0 0 1"/>  
+    <limit effort="87" lower="-3.0718" upper="-0.0698" velocity="2.1750" acceleration="12.5" jerk="6250"/> 
+  </joint>  
+  <joint name="Joint5" type="revolute"> 
+    <origin xyz="-0.0825 0.384 0" rpy="-1.5708 0 0"/>  
+    <parent link="Link4"/>  
+    <child link="Link5"/>  
+    <axis xyz="0 0 1"/>  
+    <limit effort="12" lower="-2.8973" upper="2.8973" velocity="2.6100" acceleration="15" jerk="7500"/> 
+  </joint>  
+  <joint name="Joint6" type="revolute"> 
+    <origin xyz="0 0 0" rpy="1.5708 0 0"/>  
+    <parent link="Link5"/>  
+    <child link="Link6"/>  
+    <axis xyz="0 0 1"/>  
+    <limit effort="12" lower="-0.0175" upper="3.7525" velocity="2.6100" acceleration="20" jerk="10000"/> 
+  </joint>  
+  <joint name="Joint7" type="revolute"> 
+    <origin xyz="0.088 0 0" rpy="1.5708 0 0"/>  
+    <parent link="Link6"/>  
+    <child link="Link7"/>  
+    <axis xyz="0 0 1"/>  
+    <limit effort="12" lower="-2.8973" upper="2.8973" velocity="2.6100" acceleration="20" jerk="10000"/> 
+  </joint>  
+  <joint name="jointEE" type="fixed"> 
+    <parent link="Link7"/>  
+    <child link="ee_link"/>  
+    <origin rpy="0 0 0" xyz="0 0 0.107"/> 
+  </joint> 
+
+  <joint name="arm_to_hand" type="fixed"> 
+    <parent link="Link7"/>  
+    <child link="gripper_base_link"/>  
+    <origin rpy="0 0 -0.785398163397" xyz="0 0 0.107"/> 
+  </joint> 
+
+  <joint name="finger_joint1" type="prismatic"> 
+    <parent link="gripper_base_link"/>  
+    <child link="leftfinger"/>  
+    <origin xyz="0 0.04 0.0584" rpy="0 0 0"/>  
+    <axis xyz="0 1 0"/>  
+    <limit effort="20" lower="0.0" upper="0.04" velocity="0.2"/> 
+  </joint>  
+  <joint name="finger_joint2" type="prismatic"> 
+    <parent link="gripper_base_link"/>  
+    <child link="rightfinger"/>  
+    <origin xyz="0 -0.04 0.0584" rpy="0 0 0"/>  
+    <axis xyz="0 -1 0"/>  
+    <limit effort="20" lower="0.0" upper="0.04" velocity="0.2"/>  
+    <mimic joint="finger_joint1" multiplier="1" offset="0"/> 
+  </joint>  
+
+</robot>

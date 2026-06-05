@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="Fanuc_M_10iD_12">
+	<material name="FANUCGray40">
+		<color rgba="0.4 0.4 0.4 1" />
+	</material>
+	<material name="FANUCYellow">
+		<color rgba="0.96 0.76 0.13 1" />
+	</material>
+	<material name="FANUCBlack">
+		<color rgba="0.15 0.15 0.15 1" />
+	</material>
+
+	<link name="base_link">
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="Visual/BaseLink.dae" />
+			</geometry>
+      	<material name="FANUCGray40" />
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="Collision/BaseLink.stl" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="Link1">
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="Visual/Link1.dae" />
+			</geometry>
+			<material name="FANUCYellow" />
+		</visual>	
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="Collision/Link1.stl" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="Link2">
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="Visual/Link2.dae" />
+			</geometry>
+			<material name="FANUCYellow" />
+		</visual>	
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="Collision/Link2.stl" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="Link3">
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="Visual/Link3.dae" />
+			</geometry>
+			<material name="FANUCYellow" />
+		</visual>	
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="Collision/Link3.stl" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="Link4">
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="Visual/Link4.dae" />
+			</geometry>
+			<material name="FANUCYellow" />
+		</visual>	
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="Collision/Link4.stl" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="Link5">
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="Visual/Link5.dae" />
+			</geometry>
+			<material name="FANUCYellow" />
+		</visual>	
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="Collision/Link5.stl" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="Link6">
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="Visual/Link6.dae" />
+			</geometry>
+			<material name="FANUCBlack" />
+		</visual>	
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="Collision/Link6.stl" />
+			</geometry>
+		</collision>
+	</link>
+	<link name="ee_link" />
+
+	<joint name="Joint1" type="revolute">
+		<axis xyz="0.0 0.0 1.0" />
+		<parent link="base_link" />
+		<child link="Link1" />
+		<origin xyz="0.0 0.0 -0.1465" rpy="0 0 0" />
+		<limit lower="-2.967" upper="2.967" effort="0" velocity="4.53"/>
+		<home_position value = "0" />
+	</joint>
+	<joint name="Joint2" type="revolute">
+		<axis xyz="0.0 1.0 0.0" />
+		<parent link="Link1" />
+		<child link="Link2" />
+		<origin xyz="0.075 0 0.1465" rpy="0 0 0" />
+		<limit acceleration="0.0" effort="0.0" lower="-1.0471" upper="1.32645" velocity="2.00712" />
+		<home_position value = "0" />
+	</joint>
+	<joint name="Joint3" type="revolute">
+		<axis xyz="0.0 -1.0 0.0" />
+		<parent link="Link2" />
+		<child link="Link3" />
+		<origin xyz="0.0 0.0 0.640" rpy="0 0 0" />
+		<limit lower="-1.57" upper="2.53" effort="0" velocity="4.18"/>
+	</joint>
+	<joint name="Joint4" type="revolute">
+		<axis xyz="-1.0 0.0 0.0" />
+		<parent link="Link3" />
+		<child link="Link4" />
+		<origin xyz="0.2555 0 0.195" rpy="0.0 0.0 0.0" />
+		<limit lower="-3.14" upper="4.66" effort="0" velocity="4.53"/>
+		<home_position value = "0" />
+	</joint>
+	<joint name="Joint5" type="revolute">
+		<axis xyz="0.0 -1.0 0.0" />
+		<parent link="Link4" />
+		<child link="Link5" />
+		<origin xyz="0.4445 -0.0572 0" rpy="0 0 0" />
+		<limit lower="-2.443" upper="2.443" effort="0" velocity="7.85"/>
+		<home_position value = "0" />
+	</joint>
+	<joint name="Joint6" type="revolute">
+		<axis xyz="-1.0 0.0 0.0" />
+		<parent link="Link5" />
+		<child link="Link6" />
+		<origin xyz="0.075 0.0572 0" rpy="0 0 0" />
+		<limit lower="-3.22886" upper="3.22886" effort="0" velocity="12.56"/>
+		<home_position value = "0" />
+	</joint>
+	<joint name="jointEE" type="fixed">
+		<parent link="Link6" />
+		<child link="ee_link" />
+        <origin xyz="0.0 0.0 0.0" rpy="3.1415926535 -1.570796327 0.0" />  
+	</joint>
+
+    <link name="base" />
+    <joint name="base" type="fixed">
+      <origin xyz="0 0 0.3035" rpy="0 0 0"/>
+      <parent link="base"/>
+      <child link="base_link"/>
+    </joint>
+
+</robot>

@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<robot name="RealSense_D436">
+  <!-- Materials -->
+  <material name="black">
+    <color rgba="0.2 0.2 0.2 1.0"/>
+  </material>
+  <material name="aluminum">
+    <color rgba="0.5 0.5 0.5 1.0"/>
+  </material>
+  <material name="orange">
+    <color rgba="1.0 0.4 0.0 1.0"/>
+  </material>
+  <material name="blue">
+    <color rgba="0.0 0.0 1.0 1.0"/>
+  </material>
+  <material name="red">
+    <color rgba="1.0 0.0 0.0 1.0"/>
+  </material>
+  <material name="white">
+    <color rgba="1.0 1.0 1.0 1.0"/>
+  </material>
+
+  <!-- root link -->
+  <link name="base_link"/>
+
+  <!-- camera body, origin at bottom screw mount -->
+  <joint name="camera_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="camera_bottom_screw_frame" />
+  </joint>
+  <link name="camera_bottom_screw_frame"/>
+
+  <joint name="camera_link_joint" type="fixed">
+    <origin xyz="0.0106 0.0175 0.0125" rpy="0 0 0"/>
+    <parent link="camera_bottom_screw_frame"/>
+    <child link="camera_link" />
+  </joint>
+
+  <link name="camera_link">
+    <visual>
+      <!-- mesh origin: front plate between the two IR axes -->
+      <origin xyz="0.0043 -0.0175 0"
+              rpy="1.57079632679 0 1.57079632679"/>
+      <geometry>
+        <mesh filename="meshes/d436.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 -0.0175 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.02505 0.090 0.025"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.072" />
+      <origin xyz="0 0 0" />
+      <inertia ixx="0.003881243" ixy="0.0" ixz="0.0"
+               iyy="0.000498940" iyz="0.0" izz="0.003879257" />
+    </inertial>
+  </link>
+
+  <!-- depth -->
+  <joint name="camera_depth_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="camera_link"/>
+    <child link="camera_depth_frame" />
+  </joint>
+  <link name="camera_depth_frame"/>
+
+  <joint name="camera_depth_optical_joint" type="fixed">
+    <origin xyz="0 0 0"
+            rpy="-1.57079632679 0 -1.57079632679" />
+    <parent link="camera_depth_frame" />
+    <child link="camera_depth_optical_frame" />
+  </joint>
+  <link name="camera_depth_optical_frame"/>
+
+  <!-- left IR -->
+  <joint name="camera_infra1_joint" type="fixed">
+    <origin xyz="0 0.0 0" rpy="0 0 0" />
+    <parent link="camera_link" />
+    <child link="camera_infra1_frame" />
+  </joint>
+  <link name="camera_infra1_frame"/>
+
+  <joint name="camera_infra1_optical_joint" type="fixed">
+    <origin xyz="0 0 0"
+            rpy="-1.57079632679 0 -1.57079632679" />
+    <parent link="camera_infra1_frame" />
+    <child link="camera_infra1_optical_frame" />
+  </joint>
+  <link name="camera_infra1_optical_frame"/>
+
+  <!-- right IR -->
+  <joint name="camera_infra2_joint" type="fixed">
+    <origin xyz="0 -0.050 0" rpy="0 0 0" />
+    <parent link="camera_link" />
+    <child link="camera_infra2_frame" />
+  </joint>
+  <link name="camera_infra2_frame"/>
+
+  <joint name="camera_infra2_optical_joint" type="fixed">
+    <origin xyz="0 0 0"
+            rpy="-1.57079632679 0 -1.57079632679" />
+    <parent link="camera_infra2_frame" />
+    <child link="camera_infra2_optical_frame" />
+  </joint>
+  <link name="camera_infra2_optical_frame"/>
+
+  <!-- color -->
+  <joint name="camera_color_joint" type="fixed">
+    <origin xyz="-0.00555 0.015 0" rpy="0 0 0" />
+    <parent link="camera_link" />
+    <child link="camera_color_frame" />
+  </joint>
+  <link name="camera_color_frame"/>
+
+  <joint name="camera_color_optical_joint" type="fixed">
+    <origin xyz="0 0 0"
+            rpy="-1.57079632679 0 -1.57079632679" />
+    <parent link="camera_color_frame" />
+    <child link="camera_color_optical_frame" />
+  </joint>
+  <link name="camera_color_optical_frame"/>
+
+  <!-- IMU accel -->
+  <link name="camera_accel_frame" />
+  <link name="camera_accel_optical_frame" />
+
+  <joint name="camera_accel_joint" type="fixed">
+    <origin xyz="-0.01174 -0.00552 0.0051" rpy="0 0 0" />
+    <parent link="camera_link" />
+    <child link="camera_accel_frame" />
+  </joint>
+
+  <joint name="camera_accel_optical_joint" type="fixed">
+    <origin xyz="0 0 0"
+            rpy="-1.57079632679 0 -1.57079632679" />
+    <parent link="camera_accel_frame" />
+    <child link="camera_accel_optical_frame" />
+  </joint>
+
+  <!-- IMU gyro -->
+  <link name="camera_gyro_frame" />
+  <link name="camera_gyro_optical_frame" />
+
+  <joint name="camera_gyro_joint" type="fixed">
+    <origin xyz="-0.01174 -0.00552 0.0051" rpy="0 0 0" />
+    <parent link="camera_link" />
+    <child link="camera_gyro_frame" />
+  </joint>
+
+  <joint name="camera_gyro_optical_joint" type="fixed">
+    <origin xyz="0 0 0"
+            rpy="-1.57079632679 0 -1.57079632679" />
+    <parent link="camera_gyro_frame" />
+    <child link="camera_gyro_optical_frame" />
+  </joint>
+
+</robot>
