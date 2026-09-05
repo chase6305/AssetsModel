@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <robot name="Rokae_SR3">
   <!-- Constants for robot dimensions -->
   <material name="black">
@@ -28,19 +28,19 @@
   <material name="Beige">
     <color rgba="1.0 0.784 0.5765 1.0"/>
   </material>
-    
+
   <!--base-->
   <link name="base_link">
     <visual>
       <geometry>
-        <mesh filename="Visual/BaseLink.dae"/>
+        <mesh filename="Visual/glb/BaseLink.glb"/>
       </geometry>
       <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/BaseLink.stl"/>
+        <mesh filename="Collision/glb/BaseLink.glb"/>
       </geometry>
     </collision>
     <inertial>
@@ -66,12 +66,12 @@
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
   </transmission>
-  
+
   <!--link 1-->
   <link name="Link1">
     <visual>
       <geometry>
-        <mesh filename="Visual/Link1.dae"/>
+        <mesh filename="Visual/glb/Link1.glb"/>
       </geometry>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <material name="white"/>
@@ -83,7 +83,7 @@
     </inertial>
     <collision>
       <geometry>
-        <mesh filename="Collision/Link1.stl"/>
+        <mesh filename="Collision/glb/Link1.glb"/>
       </geometry>
       <origin rpy="0 0 0" xyz="0 0 0"/>
     </collision>
@@ -105,12 +105,12 @@
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
   </transmission>
-  
+
   <!--link 2-->
   <link name="Link2">
     <visual>
       <geometry>
-        <mesh filename="Visual/Link2.dae"/>
+        <mesh filename="Visual/glb/Link2.glb"/>
       </geometry>
       <origin rpy="0 0 0" xyz="0 0 0.0"/>
       <material name="white"/>
@@ -122,7 +122,7 @@
     </inertial>
     <collision>
       <geometry>
-        <mesh filename="Collision/Link2.stl"/>
+        <mesh filename="Collision/glb/Link2.glb"/>
       </geometry>
       <origin rpy="0 0 0" xyz="0 0 0.0"/>
     </collision>
@@ -148,7 +148,7 @@
   <link name="Link3">
     <visual>
       <geometry>
-        <mesh filename="Visual/Link3.dae"/>
+        <mesh filename="Visual/glb/Link3.glb"/>
       </geometry>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <material name="white"/>
@@ -160,7 +160,7 @@
     </inertial>
     <collision>
       <geometry>
-        <mesh filename="Collision/Link3.stl"/>
+        <mesh filename="Collision/glb/Link3.glb"/>
       </geometry>
       <origin rpy="0 0 0" xyz="0 0 0"/>
     </collision>
@@ -188,7 +188,7 @@
   <link name="Link4">
     <visual>
       <geometry>
-        <mesh filename="Visual/Link4.dae"/>
+        <mesh filename="Visual/glb/Link4.glb"/>
       </geometry>
       <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
       <material name="white"/>
@@ -200,7 +200,7 @@
     </inertial>
     <collision>
       <geometry>
-        <mesh filename="Collision/Link4.stl"/>
+        <mesh filename="Collision/glb/Link4.glb"/>
       </geometry>
       <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
     </collision>
@@ -222,12 +222,12 @@
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
   </transmission>
-  
+
   <!--link 5-->
   <link name="Link5">
     <visual>
       <geometry>
-        <mesh filename="Visual/Link5.dae"/>
+        <mesh filename="Visual/glb/Link5.glb"/>
       </geometry>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <material name="white"/>
@@ -239,7 +239,7 @@
     </inertial>
     <collision>
       <geometry>
-        <mesh filename="Collision/Link5.stl"/>
+        <mesh filename="Collision/glb/Link5.glb"/>
       </geometry>
       <origin rpy="0 0 0" xyz="0 0 0"/>
     </collision>
@@ -261,12 +261,12 @@
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
   </transmission>
-  
+
   <!--link 6-->
   <link name="Link6">
     <visual>
       <geometry>
-        <mesh filename="Visual/Link6.dae"/>
+        <mesh filename="Visual/glb/Link6.glb"/>
       </geometry>
       <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
       <material name="white"/>
@@ -278,7 +278,7 @@
     </inertial>
     <collision>
       <geometry>
-        <mesh filename="Collision/Link6.stl"/>
+        <mesh filename="Collision/glb/Link6.glb"/>
       </geometry>
       <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
     </collision>

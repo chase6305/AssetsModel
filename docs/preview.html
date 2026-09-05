@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AssetsModel · 网格优化对比</title>
+<style>
+  :root { color-scheme: light; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: #1f2b40; background: #f5f7fa; }
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  main { max-width: 1120px; margin: auto; padding: 56px 24px; }
+  .eyebrow { color: #457467; letter-spacing: .14em; font-size: 12px; font-weight: 700; }
+  h1 { font-size: clamp(30px, 5vw, 48px); margin: 12px 0 14px; letter-spacing: -.04em; }
+  h2 { font-size: 21px; margin: 0 0 8px; }
+  p { color: #627083; line-height: 1.8; }
+  .intro { max-width: 680px; margin-bottom: 36px; }
+  .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+  article { background: white; border: 1px solid #e3e8ee; border-radius: 18px; overflow: hidden; }
+  .description { padding: 24px; }
+  .description p { margin: 0; font-size: 14px; }
+  .comparison { position: relative; aspect-ratio: 8 / 7; --split: 50%; background: #eee; }
+  .comparison img { width: 100%; height: 100%; object-fit: contain; display: block; }
+  .comparison .before { position: absolute; inset: 0; clip-path: inset(0 calc(100% - var(--split)) 0 0); }
+  .divider { position: absolute; top: 0; bottom: 0; left: var(--split); width: 2px; background: #457467; pointer-events: none; }
+  .label { position: absolute; top: 16px; padding: 6px 10px; background: #ffffffdc; border-radius: 6px; font-size: 12px; }
+  .left { left: 16px; } .right { right: 16px; }
+  .controls { display: flex; align-items: center; gap: 12px; padding: 14px 24px 20px; font-size: 12px; color: #627083; }
+  .controls span { white-space: nowrap; flex-shrink: 0; }
+  input { width: 100%; accent-color: #457467; cursor: ew-resize; }
+  .gallery { margin-top: 48px; }
+  .gallery .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .gallery img { width: 100%; display: block; }
+  .glb-section { margin-top: 48px; }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 24px 0; }
+  .stat { border-radius: 14px; background: #eaf2ef; padding: 20px; }
+  .stat strong { display: block; font-size: clamp(24px, 3vw, 34px); color: #2b594e; letter-spacing: -.04em; }
+  .stat span { font-size: 13px; color: #536c64; }
+  .glb-section img { width: 100%; display: block; }
+  .links { display: flex; gap: 12px 24px; flex-wrap: wrap; margin: 24px 0; }
+  footer { margin-top: 36px; font-size: 13px; color: #627083; line-height: 1.8; }
+  a { color: #326c5c; }
+  @media (max-width: 720px) { .grid, .gallery .grid { grid-template-columns: 1fr; } main { padding: 32px 16px; } }
+</style>
+<main>
+  <div class="eyebrow">ASSETSMODEL / GEOMETRY REVIEW</div>
+  <h1>更轻的网格，保留细节。</h1>
+  <p class="intro">拖动滑块查看实际模型的减面前后效果。两侧使用同一套渲染参数；减少密集面片，并保留原材质与机械轮廓。</p>
+  <section class="grid" aria-label="减面前后对比">
+    <article>
+      <div class="description"><h2>RealSense D415</h2><p>425,160 → 20,000 面 · 减少 95.3%</p></div>
+      <div class="comparison" id="camera-comparison">
+        <img src="previews/d415-after.png" alt="减面后的 D415 相机外壳">
+        <img class="before" src="previews/d415-before.png" alt="原始 D415 相机外壳">
+        <div class="divider"></div><span class="label left">原始</span><span class="label right">优化后</span>
+      </div>
+      <div class="controls"><span>对比</span><input type="range" min="0" max="100" value="50" aria-label="D415 原始图像显示比例" data-target="camera-comparison"></div>
+    </article>
+    <article>
+      <div class="description"><h2>AE AIR10 · Link2</h2><p>330,132 → 33,012 面 · 减少 90.0%</p></div>
+      <div class="comparison" id="robot-comparison">
+        <img src="previews/ae-link-after.png" alt="减面并优化法线后的 AE 连杆">
+        <img class="before" src="previews/ae-link-before.png" alt="原始 AE 连杆">
+        <div class="divider"></div><span class="label left">原始</span><span class="label right">优化后</span>
+      </div>
+      <div class="controls"><span>对比</span><input type="range" min="0" max="100" value="50" aria-label="AE 连杆原始图像显示比例" data-target="robot-comparison"></div>
+    </article>
+  </section>
+  <section class="gallery" aria-label="模型预览">
+    <h2>模型预览</h2><p>使用各模型自带材质的零姿态展示。</p>
+    <div class="grid">
+      <article><img src="previews/ae.png" alt="AE AIR10 机器人" loading="lazy"><div class="description">AE AIR10-1210</div></article>
+      <article><img src="previews/panda.png" alt="Franka Panda 机器人与夹爪" loading="lazy"><div class="description">Franka Panda</div></article>
+      <article><img src="previews/ur5e.png" alt="UR5e 机器人" loading="lazy"><div class="description">Universal Robots UR5e</div></article>
+    </div>
+  </section>
+  <section class="glb-section" aria-label="GLB 资源与预览">
+    <h2>GLB 资源已就绪</h2>
+    <p>783 个 GLB 与 67 个 URDF。网格按 glb/ 与 stl/ 分层存放，DAE 已移除；可直接复制所需模型目录。</p>
+    <div class="stats">
+      <div class="stat"><strong>311.2 MiB</strong><span>GLB 网格体积</span></div>
+      <div class="stat"><strong>−49.7%</strong><span>相比减面后的 DAE / STL</span></div>
+      <div class="stat"><strong>201 / 201</strong><span>装配姿态对比通过</span></div>
+    </div>
+    <div class="grid">
+      <article><img src="previews/glb-d415.png" alt="从 GLB 网格加载的 RealSense D415 相机" loading="lazy"><div class="description"><h2>RealSense D415</h2><p>平滑曲面与硬边法线 · 实际 GLB 装配渲染</p></div></article>
+      <article><img src="previews/glb-ae.png" alt="从 GLB 网格加载的 AE AIR10 机器人" loading="lazy"><div class="description"><h2>AE AIR10-1210</h2><p>保留材质分组和链接坐标 · 实际 GLB 装配渲染</p></div></article>
+    </div>
+    <div class="links"><a href="CATALOG.md">浏览 GLB 模型目录 ↗</a><a href="GLB_REPORT.md">转换与验证报告 ↗</a><a href="ASSET_LAYOUT.md">使用 GLB 资源 ↗</a></div>
+  </section>
+  <footer>减面验证使用双向表面采样；格式转换额外逐角点核对位置。图像用于外观复核。<a href="OPTIMIZATION_REPORT.md">减面记录</a> · <a href="MESH_WORKFLOW.md">复现流程</a></footer>
+</main>
+<script>
+  document.querySelectorAll('input[data-target]').forEach(input => {
+    input.addEventListener('input', () => {
+      document.getElementById(input.dataset.target).style.setProperty('--split', `${input.value}%`);
+    });
+  });
+</script>
+</html>

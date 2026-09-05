@@ -1,58 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<robot name="Franka_Panda_Hand"> 
-  <link name="base_link"> 
-    <visual> 
-      <geometry> 
-        <mesh filename="Visual/Hand.dae"/> 
-      </geometry> 
-    </visual>  
-    <collision> 
-      <geometry> 
-        <mesh filename="Collision/Hand.stl"/> 
-      </geometry> 
-    </collision> 
-  </link>  
-  <link name="leftfinger"> 
-    <visual> 
-      <geometry> 
-        <mesh filename="Visual/Finger.dae"/> 
-      </geometry> 
-    </visual>  
-    <collision> 
-      <geometry> 
-        <mesh filename="Collision/Finger.stl"/> 
-      </geometry> 
-    </collision> 
-  </link>  
-  <link name="rightfinger"> 
-    <visual> 
-      <origin xyz="0 0 0" rpy="0 0 3.1415926"/>  
-      <geometry> 
-        <mesh filename="Visual/Finger.dae"/> 
-      </geometry> 
-    </visual>  
-    <collision> 
-      <origin xyz="0 0 0" rpy="0 0 3.1415926"/>  
-      <geometry> 
-        <mesh filename="Collision/Finger.stl"/> 
-      </geometry> 
-    </collision> 
-  </link>  
-  <joint name="finger_joint1" type="prismatic"> 
-    <parent link="base_link"/>  
-    <child link="leftfinger"/>  
-    <origin xyz="0 0.04 0.0584" rpy="0 0 0"/>  
-    <axis xyz="0 1 0"/>  
-    <limit effort="20" lower="0.0" upper="0.04" velocity="0.2"/> 
-  </joint>  
-  <joint name="finger_joint2" type="prismatic"> 
-    <parent link="base_link"/>  
-    <child link="rightfinger"/>  
-    <origin xyz="0 -0.04 0.0584" rpy="0 0 0"/>  
-    <axis xyz="0 1 0"/>  
-    <limit effort="20" lower="0.0" upper="0.04" velocity="0.2"/>  
-    <mimic joint="finger_joint1" multiplier="1" offset="0"/> 
-  </joint>  
-  <link name="ee_link"/> 
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="Franka_Panda_Hand">
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <mesh filename="Visual/glb/Hand.glb"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/glb/Hand.glb"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="leftfinger">
+    <visual>
+      <geometry>
+        <mesh filename="Visual/glb/LeftFinger.glb"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/glb/LeftFinger.glb"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="rightfinger">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 3.1415926"/>
+      <geometry>
+        <mesh filename="Visual/glb/RightFinger.glb"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 3.1415926"/>
+      <geometry>
+        <mesh filename="Collision/glb/RightFinger.glb"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="finger_joint1" type="prismatic">
+    <parent link="base_link"/>
+    <child link="leftfinger"/>
+    <origin xyz="0 0 0.0584" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="20" lower="0.0" upper="0.04" velocity="0.2"/>
+  </joint>
+  <joint name="finger_joint2" type="prismatic">
+    <parent link="base_link"/>
+    <child link="rightfinger"/>
+    <origin xyz="0 0 0.0584" rpy="0 0 0"/>
+    <axis xyz="0 -1 0"/>
+    <limit effort="20" lower="0.0" upper="0.04" velocity="0.2"/>
+    <mimic joint="finger_joint1" multiplier="1" offset="0"/>
+  </joint>
+  <link name="ee_link"/>
+  <!-- The end-effector frame is at the hand mounting flange. -->
+  <joint name="jointEE" type="fixed">
+    <parent link="base_link"/>
+    <child link="ee_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
 </robot>

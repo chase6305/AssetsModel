@@ -1,0 +1,24 @@
+{
+  "method": "trimesh.load_scene(process=False), one warmup and median of 3 loads per version; same machine and warm filesystem cache",
+  "results": [
+    {
+      "path": "CameraModel/RealSense/RealSense_D415/meshes/d415.stl",
+      "seconds_before": 0.012541941134259105,
+      "seconds_after": 0.0010194620117545128,
+      "speedup": 12.302509548810155
+    },
+    {
+      "path": "RobotModel/AE/AIR10_1210/Visual/Link2.dae",
+      "seconds_before": 0.4840609058737755,
+      "seconds_after": 0.027576345019042492,
+      "speedup": 17.553483086301444
+    },
+    {
+      "path": "RobotModel/Hans/E10/Visual/Link6.dae",
+      "seconds_before": 0.5158364870585501,
+      "seconds_after": 0.033551705069839954,
+      "speedup": 15.374374744437116
+    }
+  ],
+  "stage": "Historical optimization/conversion before format-directory migration; current asset paths are recorded in docs/glb-manifest.json."
+}

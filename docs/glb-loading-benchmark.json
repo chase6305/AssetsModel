@@ -1,0 +1,34 @@
+{
+  "method": "trimesh.load_scene(process=False); one warmup, median of 5 loads, warm filesystem cache",
+  "results": [
+    {
+      "source": "CameraModel/RealSense/RealSense_D415/meshes/d415.stl",
+      "glb": "CameraModel/RealSense/RealSense_D415/meshes/glb/d415.glb",
+      "source_seconds": 0.0013523478992283344,
+      "glb_seconds": 0.000590556999668479,
+      "speedup": 2.2899532136398384
+    },
+    {
+      "source": "RobotModel/AE/AIR10_1210/Visual/Link2.dae",
+      "glb": "RobotModel/AE/AIR10_1210/Visual/glb/Link2.glb",
+      "source_seconds": 0.03204864799045026,
+      "glb_seconds": 0.0006416530814021826,
+      "speedup": 49.94700239016299
+    },
+    {
+      "source": "RobotModel/Hans/E10/Visual/Link6.dae",
+      "glb": "RobotModel/Hans/E10/Visual/glb/Link6.glb",
+      "source_seconds": 0.035117731895297766,
+      "glb_seconds": 0.0006685748230665922,
+      "speedup": 52.526255377402876
+    },
+    {
+      "source": "RobotModel/AE/AIR35_1700/Collision/Link1.stl",
+      "glb": "RobotModel/AE/AIR35_1700/Collision/glb/Link1.glb",
+      "source_seconds": 0.008089226903393865,
+      "glb_seconds": 0.0010143991094082594,
+      "speedup": 7.974402607778947
+    }
+  ],
+  "path_semantics": "Source paths describe the historical conversion input; GLB paths refer to the current format directories. Timings were collected before directory migration."
+}

@@ -1,0 +1,480 @@
+{
+  "summary": {
+    "urdfs": 67,
+    "poses": 201,
+    "errors": 0,
+    "mode": "comparison",
+    "yourdfpy": "0.0.60"
+  },
+  "models": [
+    {
+      "path": "CameraModel/RealSense/RealSense_D405/RealSense_D405.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 0,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D405/RealSense_D405_and_plug.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 0,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D415/RealSense_D415.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 0,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D415/RealSense_D415_and_plug.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 0,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D435/RealSense_D435.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 0,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D435/RealSense_D435_and_plug.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 0,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D436/RealSense_D436.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 0,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D436/RealSense_D436_and_plug.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 0,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D455/RealSense_D455.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 0,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D585/RealSense_D585.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 0,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/ABB/IRB1200_5_90/IRB1200_5_90.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/ABB/IRB1200_7_70/IRB1200_7_70.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/ABB/IRB1600_10_145/IRB1600_10_145.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/ABB/IRB1600_6_120/IRB1600_6_120.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_165/IRB2600_12_165.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 1.1119412057780664e-09
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_185/IRB2600_12_185.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/ABB/IRB4400L_30_243/IRB4400L_30_243.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/ABB/IRB4600_20_250/IRB4600_20_250.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 4.56752011613102e-18
+    },
+    {
+      "path": "RobotModel/ABB/IRB4600_40_255/IRB4600_40_255.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 4.56752011613102e-18
+    },
+    {
+      "path": "RobotModel/AE/AIR10_1210/AIR10_1210.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/AE/AIR10_1720/AIR10_1720.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/AE/AIR12_940/AIR12_940.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/AE/AIR35_1700/AIR35_1700.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/Agile/Diana_7/Diana_7.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 7,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/Agile/Diana_7/Diana_7_safe_limit.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 7,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/Agile/Diana_7/Diana_7_soft_limit.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 7,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/M_10iD_12.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/M_20iA.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/Fanuc/M_710iC_70/M_710iC_70.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/Fanuc/R_2000iC_165F/R_2000iC_165F.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/Franka/Panda/Panda.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 7,
+      "max_bounds_error_m": 2.7935123103617343e-09
+    },
+    {
+      "path": "RobotModel/Franka/Panda/PandaHand.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 1,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/Franka/Panda/PandaWithHand.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 8,
+      "max_bounds_error_m": 9.318477656172774e-10
+    },
+    {
+      "path": "RobotModel/Hans/E05/E05.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/Hans/E10/E10.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_2/KR10_R1100_2.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_sixx/KR10_R1100_sixx.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1420/KR10_R1420.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R900_2/KR10_R900_2.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/KUKA/KR120_R2500_PRO/KR120_R2500_PRO.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_2/KR150_2.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_R3100_2/KR150_R3100_2.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/KUKA/KR16_2/KR16_2.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/KR210_L150.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/KUKA/KR3_R540/KR3_R540.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/KUKA/KR5_ARC/KR5_ARC.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R700_sixx/KR6_R700_sixx.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 2.1714863240873683e-10
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R900_sixx/KR6_R900_sixx.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/Motoman/GP12/GP12.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/Motoman/GP180/GP180.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/Motoman/GP180_120/GP180_120.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/Motoman/GP20HL/GP20HL.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/Motoman/GP25/GP25.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/Motoman/GP7/GP7.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/Motoman/GP8/GP8.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/Motoman/GP88/GP88.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/Motoman/MH12/MH12.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/Motoman/MH50/MH50.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/Rokae/SR3/SR3.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/Rokae/SR5/SR5.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR10/UR10.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR10e/UR10e.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3/UR3.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/UR3e.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5/UR5.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 3.780087354243733e-11
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5e/UR5e.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 6,
+      "max_bounds_error_m": 0.0
+    },
+    {
+      "path": "ToolModel/Robotiq2F85/Robotiq2F85.urdf",
+      "status": "passed",
+      "poses": 3,
+      "actuated_joints": 1,
+      "max_bounds_error_m": 0.0
+    }
+  ]
+}

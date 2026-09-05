@@ -1,29 +1,29 @@
 <?xml version='1.0' encoding='utf-8'?>
 <robot name="KUKA_KR10_R1100_sixx">
   <material name="KUKAPedestal">
-    <color rgba="0.50588 0.470588 0.3882 1.0" />
+    <color rgba="0.50588 0.470588 0.3882 1.0"/>
   </material>
   <material name="KUKAWhite">
-    <color rgba="0.9450 0.92549 1.0 1.0" />
+    <color rgba="0.9450 0.92549 1.0 1.0"/>
   </material>
   <material name="KUKAOrange">
-    <color rgba="0.964705 0.470588 0.15686 1.0" />
+    <color rgba="0.964705 0.470588 0.15686 1.0"/>
   </material>
   <material name="KUKABlack">
-    <color rgba="0.05490 0.05490 0.062745 1.0" />
+    <color rgba="0.05490 0.05490 0.062745 1.0"/>
   </material>
     <link name="base_link">
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="Visual/BaseLink.dae" />
+          <mesh filename="Visual/glb/BaseLink.glb"/>
         </geometry>
-        <material name="KUKABlack" />
+        <material name="KUKABlack"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="Collision/BaseLink.stl" />
+          <mesh filename="Collision/glb/BaseLink.glb"/>
         </geometry>
       </collision>
     </link>
@@ -31,14 +31,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="Visual/Link1.dae" />
+          <mesh filename="Visual/glb/Link1.glb"/>
         </geometry>
-        <material name="KUKAOrange" />
+        <material name="KUKAOrange"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="Collision/Link1.stl" />
+          <mesh filename="Collision/glb/Link1.glb"/>
         </geometry>
       </collision>
     </link>
@@ -46,14 +46,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="Visual/Link2.dae"/>
+          <mesh filename="Visual/glb/Link2.glb"/>
         </geometry>
-        <material name="KUKAOrange" />
+        <material name="KUKAOrange"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="Collision/Link2.stl" />
+          <mesh filename="Collision/glb/Link2.glb"/>
         </geometry>
       </collision>
     </link>
@@ -61,14 +61,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="Visual/Link3.dae" />
+          <mesh filename="Visual/glb/Link3.glb"/>
         </geometry>
-        <material name="KUKAOrange" />
+        <material name="KUKAOrange"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="Collision/Link3.stl" />
+          <mesh filename="Collision/glb/Link3.glb"/>
         </geometry>
       </collision>
     </link>
@@ -76,14 +76,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="Visual/Link4.dae" />
+          <mesh filename="Visual/glb/Link4.glb"/>
         </geometry>
-        <material name="KUKAOrange" />
+        <material name="KUKAOrange"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="Collision/Link4.stl" />
+          <mesh filename="Collision/glb/Link4.glb"/>
         </geometry>
       </collision>
     </link>
@@ -91,14 +91,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="Visual/Link5.dae" />
+          <mesh filename="Visual/glb/Link5.glb"/>
         </geometry>
-        <material name="KUKAOrange" />
+        <material name="KUKAOrange"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="Collision/Link5.stl" />
+          <mesh filename="Collision/glb/Link5.glb"/>
         </geometry>
       </collision>
     </link>
@@ -106,14 +106,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="Visual/Link6.dae" />
+          <mesh filename="Visual/glb/Link6.glb"/>
         </geometry>
-        <material name="KUKAPedestal" />
+        <material name="KUKAPedestal"/>
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="Collision/Link6.stl" />
+          <mesh filename="Collision/glb/Link6.glb"/>
         </geometry>
       </collision>
     </link>

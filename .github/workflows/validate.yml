@@ -1,0 +1,43 @@
+name: Validate assets
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/validate_assets.py --meshes --layout --json /tmp/assets-validation.json
+
+  geometry:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: pip
+          cache-dependency-path: requirements-mesh.txt
+      - run: python -m pip install -r requirements-mesh.txt
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/audit_meshes.py --json /tmp/mesh-audit.json
+      - run: python scripts/compare_asset_trees.py --assets . --json /tmp/loader-validation.json
+
+  gltf-format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --prefix /tmp/assetsmodel-gltf-validation --no-audit --no-fund --ignore-scripts gltf-validator@2.0.0-dev.3.10
+      - run: node scripts/validate_glb.cjs --root . --json /tmp/glb-format-validation.json
+        env:
+          NODE_PATH: /tmp/assetsmodel-gltf-validation/node_modules

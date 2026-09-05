@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <robot name="RealSense_D405_and_plug">
 
   <!-- Materials -->
@@ -28,38 +28,35 @@
   <joint name="camera_joint" type="fixed">
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <parent link="base_link"/>
-    <child link="camera_bottom_screw_frame" />
+    <child link="camera_bottom_screw_frame"/>
   </joint>
   <link name="camera_bottom_screw_frame"/>
 
   <joint name="camera_link_joint" type="fixed">
     <origin xyz="0.01085 0.009 0.021" rpy="0 0 0"/>
     <parent link="camera_bottom_screw_frame"/>
-    <child link="camera_link" />
+    <child link="camera_link"/>
   </joint>
 
   <link name="camera_link">
     <visual>
       <!-- mesh origin: front plate between the two IR axes -->
-      <origin xyz="0.0038 -0.009 0"
-              rpy="1.5707963267948966 0 1.5707963267948966"/>
+      <origin xyz="0.0038 -0.009 0" rpy="1.5707963267948966 0 1.5707963267948966"/>
       <geometry>
-        <mesh filename="meshes/d405.stl"/>
+        <mesh filename="meshes/glb/d405.glb"/>
       </geometry>
       <material name="aluminum"/>
     </visual>
     <collision>
-      <origin xyz="0.0038 -0.009 0"
-              rpy="1.5707963267948966 0 1.5707963267948966"/>
+      <origin xyz="0.0038 -0.009 0" rpy="1.5707963267948966 0 1.5707963267948966"/>
       <geometry>
         <box size="0.023 0.042 0.042"/>
       </geometry>
     </collision>
     <inertial>
-      <mass value="0.072" />
-      <origin xyz="0 0 0" />
-      <inertia ixx="0.003881243" ixy="0.0" ixz="0.0"
-               iyy="0.000498940" iyz="0.0" izz="0.003879257" />
+      <mass value="0.072"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.003881243" ixy="0.0" ixz="0.0" iyy="0.000498940" iyz="0.0" izz="0.003879257"/>
     </inertial>
   </link>
 
@@ -67,63 +64,59 @@
   <joint name="camera_depth_joint" type="fixed">
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <parent link="camera_link"/>
-    <child link="camera_depth_frame" />
+    <child link="camera_depth_frame"/>
   </joint>
   <link name="camera_depth_frame"/>
 
   <joint name="camera_depth_optical_joint" type="fixed">
-    <origin xyz="0 0 0"
-            rpy="-1.5707963267948966 0 -1.5707963267948966"/>
-    <parent link="camera_depth_frame" />
-    <child link="camera_depth_optical_frame" />
+    <origin xyz="0 0 0" rpy="-1.5707963267948966 0 -1.5707963267948966"/>
+    <parent link="camera_depth_frame"/>
+    <child link="camera_depth_optical_frame"/>
   </joint>
   <link name="camera_depth_optical_frame"/>
 
   <!-- left IR -->
   <joint name="camera_infra1_joint" type="fixed">
-    <origin xyz="0 0.0 0" rpy="0 0 0" />
-    <parent link="camera_link" />
-    <child link="camera_infra1_frame" />
+    <origin xyz="0 0.0 0" rpy="0 0 0"/>
+    <parent link="camera_link"/>
+    <child link="camera_infra1_frame"/>
   </joint>
   <link name="camera_infra1_frame"/>
 
   <joint name="camera_infra1_optical_joint" type="fixed">
-    <origin xyz="0 0 0"
-            rpy="-1.5707963267948966 0 -1.5707963267948966"/>
-    <parent link="camera_infra1_frame" />
-    <child link="camera_infra1_optical_frame" />
+    <origin xyz="0 0 0" rpy="-1.5707963267948966 0 -1.5707963267948966"/>
+    <parent link="camera_infra1_frame"/>
+    <child link="camera_infra1_optical_frame"/>
   </joint>
   <link name="camera_infra1_optical_frame"/>
 
   <!-- right IR -->
   <joint name="camera_infra2_joint" type="fixed">
-    <origin xyz="0 -0.018 0" rpy="0 0 0" />
-    <parent link="camera_link" />
-    <child link="camera_infra2_frame" />
+    <origin xyz="0 -0.018 0" rpy="0 0 0"/>
+    <parent link="camera_link"/>
+    <child link="camera_infra2_frame"/>
   </joint>
   <link name="camera_infra2_frame"/>
 
   <joint name="camera_infra2_optical_joint" type="fixed">
-    <origin xyz="0 0 0"
-            rpy="-1.5707963267948966 0 -1.5707963267948966"/>
-    <parent link="camera_infra2_frame" />
-    <child link="camera_infra2_optical_frame" />
+    <origin xyz="0 0 0" rpy="-1.5707963267948966 0 -1.5707963267948966"/>
+    <parent link="camera_infra2_frame"/>
+    <child link="camera_infra2_optical_frame"/>
   </joint>
   <link name="camera_infra2_optical_frame"/>
 
   <!-- color -->
   <joint name="camera_color_joint" type="fixed">
-    <origin xyz="0 0.0 0" rpy="0 0 0" />
-    <parent link="camera_link" />
-    <child link="camera_color_frame" />
+    <origin xyz="0 0.0 0" rpy="0 0 0"/>
+    <parent link="camera_link"/>
+    <child link="camera_color_frame"/>
   </joint>
   <link name="camera_color_frame"/>
 
   <joint name="camera_color_optical_joint" type="fixed">
-    <origin xyz="0 0 0"
-            rpy="-1.5707963267948966 0 -1.5707963267948966"/>
-    <parent link="camera_color_frame" />
-    <child link="camera_color_optical_frame" />
+    <origin xyz="0 0 0" rpy="-1.5707963267948966 0 -1.5707963267948966"/>
+    <parent link="camera_color_frame"/>
+    <child link="camera_color_optical_frame"/>
   </joint>
   <link name="camera_color_optical_frame"/>
 
@@ -133,14 +126,14 @@
       <origin xyz="0 -0.022425 0" rpy="0 0 1.57079632679"/>
       <geometry>
         <!--box size="0.044850 0.008 0.0185" /-->
-        <mesh filename="meshes/plug.stl" />
+        <mesh filename="meshes/glb/plug.glb"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 -0.022425 0" rpy="0 0 1.57079632679"/>
       <geometry>
         <!--box size="0.044850 0.008 0.0185" /-->
-        <mesh filename="meshes/plug_collision.stl" />
+        <mesh filename="meshes/glb/plug_collision.glb"/>
       </geometry>
     </collision>
   </link>
@@ -150,7 +143,7 @@
          d405_cam_width/2 - d405_cam_depth_py = 0.012 -->
     <origin xyz="-0.01238 0.012 0" rpy="3.1415926535897931 0 0"/>
     <parent link="camera_link"/>
-    <child link="camera_usb_plug_link" />
+    <child link="camera_usb_plug_link"/>
   </joint>
 
 </robot>

@@ -1,98 +1,73 @@
 # AssetsModel
 
-AssetsModel is a URDF asset repository for industrial robots, cameras, and end-effectors. The repository is organized by asset category, vendor, and model name so that each model can be referenced directly from simulation, planning, or visualization projects.
+Portable URDF assets for robot planning, simulation, and visualization.
 
-## Repository Layout
+**67 URDF variants · 10 robot vendors · 783 GLB meshes · 405 optional STL meshes**
 
-```text
-AssetsModel/
-├── CameraModel/
-│   └── <Vendor>/<Model>/
-├── RobotModel/
-│   └── <Vendor>/<Model>/
-└── ToolModel/
-    └── <Model>/
-```
+[Model catalog](docs/CATALOG.md) · [Asset layout](docs/ASSET_LAYOUT.md) · [Before / after viewer](docs/preview.html) · [GLB conversion report](docs/GLB_REPORT.md) · [工具使用说明](docs/MESH_WORKFLOW.md)
 
-### CameraModel
+All URDFs now reference **GLB meshes in their model directories**. Visual and collision resources use format subdirectories such as `Visual/glb/`, `Visual/stl/`, `Collision/glb/` and `Collision/stl/`; cameras and tools use `meshes/glb/` and `meshes/stl/`. **DAE files and the duplicate top-level GLB tree have been removed.** GLBs occupy **311.2 MiB**; retained STL alternatives occupy **245.3 MiB**. Copy a model directory, or export only its GLB runtime resources using the [workflow](docs/MESH_WORKFLOW.md).
 
-Camera assets are grouped by vendor and model. A typical camera directory contains:
+| AE AIR10-1210 | Franka Panda | Universal Robots UR5e |
+| :---: | :---: | :---: |
+| ![AE AIR10](docs/previews/ae.png) | ![Franka Panda](docs/previews/panda.png) | ![UR5e](docs/previews/ur5e.png) |
 
-- one or more URDF files
-- a meshes directory for geometry assets
-- optional Graphviz source files and exported PDF diagrams
+Previews use the supplied materials and zero joint positions. Meshes retain their original model coordinates and units.
 
-Examples:
+## Find a model
 
-- `CameraModel/RealSense/RealSense_D405/RealSense_D405.urdf`
-- `CameraModel/RealSense/RealSense_D405/RealSense_D405_and_plug.urdf`
+| Category | URDF variants | Directory convention |
+| --- | ---: | --- |
+| Industrial robots and arm/hand variants | 56 | `RobotModel/<Vendor>/<Model>/` |
+| RealSense cameras and plug variants | 10 | `CameraModel/RealSense/<Model>/` |
+| Robotiq 2F85 gripper | 1 | `ToolModel/Robotiq2F85/` |
 
-### RobotModel
+The [complete catalog](docs/CATALOG.md) links every URDF and lists its link and actuated-joint counts. Mimic joints are excluded from the actuated-joint count.
 
-Robot assets are grouped by brand and robot model. A typical robot directory contains:
+## Use an asset
 
-- a main URDF file
-- a `Visual/` directory for visual meshes
-- a `Collision/` directory for collision meshes
-- optional preview images
-
-Examples:
-
-- `RobotModel/ABB/IRB1200_5_90/IRB1200_5_90.urdf`
-- `RobotModel/UniversalRobots/UR5e/UR5e.urdf`
-
-### ToolModel
-
-Tool assets contain URDF descriptions and supporting meshes for grippers or other end-effectors.
-
-Example:
-
-- `ToolModel/Robotiq2F85/Robotiq2F85.urdf`
-
-## File Conventions
-
-- Each model usually uses the directory name as the URDF base name.
-- Mesh paths in URDF files are stored as relative paths so the model folder can be moved or reused as a self-contained unit.
-- Robot models commonly separate visual and collision geometry into different directories.
-- Some camera models provide multiple URDF variants, such as a base model and a version with an added plug.
-
-## How To Use
-
-Reference the URDF file you need directly from your simulator or robotics application.
-
-Example paths:
+Pass the URDF path to your robotics application. Keep the URDF and its mesh directories together when copying a model.
 
 ```text
-RobotModel/ABB/IRB1200_5_90/IRB1200_5_90.urdf
-CameraModel/RealSense/RealSense_D405/RealSense_D405.urdf
+RobotModel/UniversalRobots/UR5e/UR5e.urdf
+CameraModel/RealSense/RealSense_D405/RealSense_D405_and_plug.urdf
 ToolModel/Robotiq2F85/Robotiq2F85.urdf
 ```
 
-Because mesh files are referenced relatively, keep the URDF file and its sibling asset directories together when copying a model into another workspace.
+All resource references are relative to the URDF directory and point to `glb/` subdirectories. Existing `Visual` and `Collision` capitalization is retained; format directory names are lowercase. STL alternatives are optional and are not referenced by the default URDFs. Compose robot/tool/camera assemblies in the consuming project.
 
-## Recommended Integration Workflow
+## Mesh quality
 
-1. Select the required robot, camera, or tool model.
-2. Load the corresponding URDF into your robotics framework.
-3. Verify that all referenced mesh files are available at their original relative paths.
-4. If needed, combine robot, camera, and tool models in a higher-level assembly package.
+The September 2026 optimization reduced mesh data from **1,256.9 MiB to 618.5 MiB (50.8%)**, and triangle count from **20,608,370 to 10,407,054 (49.5%)**.
 
-## Contribution Notes
+- Simplified 161 dense meshes with measured geometry checks.
+- Cleaned 5,015 additional zero-area triangles across 71 meshes.
+- Preserved material groups and added smooth normals with 30° hard edges to processed DAE surfaces.
+- Retained original geometry when simplification failed the acceptance checks.
 
-When adding a new asset:
+| D415: 425,160 → 20,000 triangles | AE Link2: 330,132 → 33,012 triangles |
+| :---: | :---: |
+| ![D415 optimized](docs/previews/d415-after.png) | ![AE Link2 optimized](docs/previews/ae-link-after.png) |
 
-1. Place it under the correct top-level category.
-2. Follow the existing vendor and model naming pattern.
-3. Keep URDF filenames aligned with the model directory name when possible.
-4. Store mesh resources next to the URDF using relative paths.
-5. Separate visual and collision meshes when the asset type requires both.
+Use the [interactive comparison](docs/preview.html) for original/optimized views, or the [report](docs/OPTIMIZATION_REPORT.md) for per-file counts and measured limits. Statistics cover mesh files, excluding Git history and documentation.
 
-## Current Scope
+## Validate and maintain
 
-The repository currently includes:
+Basic checks require Python 3.10+ and no third-party packages:
 
-- industrial robot models from multiple vendors
-- RealSense camera models and variants
-- end-effector assets such as the Robotiq 2F85 gripper
+```bash
+python3 scripts/validate_assets.py --meshes --layout --json /tmp/assets-validation.json
+python3 -m unittest discover -s tests -v
+```
 
-This repository is intended to act as a reusable asset library for robotics development, offline programming, simulation, and visualization.
+Geometry audit, simplification, and rendering use the optional [mesh dependencies](requirements-mesh.txt); simplification/rendering also require Blender. See the [workflow](docs/MESH_WORKFLOW.md) for commands, backup behavior, and acceptance thresholds.
+
+The supplied models are not all ready for dynamic simulation: the validator reports missing inertial data and zero effort/velocity limits separately. Review these parameters for your application. Geometric sampling is not a certified collision clearance bound.
+
+## Contribute
+
+1. Follow the category/vendor/model layout and keep each model directory self-contained.
+2. Use relative GLB resource paths and format subdirectories; retain optional STL files under `stl/`. Convert incoming DAE files before adding assets.
+3. Preserve link frames, units, material assignments, and meaningful mechanical details.
+4. Run validation and the geometry audit; add the model to the generated catalog.
+5. Document physical parameter sources and include a preview when available.

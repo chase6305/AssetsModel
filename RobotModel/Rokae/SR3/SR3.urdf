@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <robot name="Rokae_SR3">
   <material name="black">
     <color rgba="0.0 0.0 0.0 1.0"/>
@@ -32,13 +32,13 @@
   <link name="base_link">
     <visual>
       <geometry>
-        <mesh filename="Visual/BaseLink.dae"/>
+        <mesh filename="Visual/glb/BaseLink.glb"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/BaseLink.stl"/>
+        <mesh filename="Collision/glb/BaseLink.glb"/>
       </geometry>
     </collision>
     <inertial>
@@ -50,13 +50,13 @@
   <link name="link1">
     <visual>
       <geometry>
-        <mesh filename="Visual/Link1.dae"/>
+        <mesh filename="Visual/glb/Link1.glb"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/Link1.stl"/>
+        <mesh filename="Collision/glb/Link1.glb"/>
       </geometry>
     </collision>
     <inertial>
@@ -68,13 +68,13 @@
   <link name="link2">
     <visual>
       <geometry>
-        <mesh filename="Visual/Link2.dae"/>
+        <mesh filename="Visual/glb/Link2.glb"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/Link2.stl"/>
+        <mesh filename="Collision/glb/Link2.glb"/>
       </geometry>
     </collision>
     <inertial>
@@ -86,13 +86,13 @@
   <link name="link3">
     <visual>
       <geometry>
-        <mesh filename="Visual/Link3.dae"/>
+        <mesh filename="Visual/glb/Link3.glb"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/Link3.stl"/>
+        <mesh filename="Collision/glb/Link3.glb"/>
       </geometry>
     </collision>
     <inertial>
@@ -104,13 +104,13 @@
   <link name="link4">
     <visual>
       <geometry>
-        <mesh filename="Visual/Link4.dae"/>
+        <mesh filename="Visual/glb/Link4.glb"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/Link4.stl"/>
+        <mesh filename="Collision/glb/Link4.glb"/>
       </geometry>
     </collision>
     <inertial>
@@ -122,13 +122,13 @@
   <link name="link5">
     <visual>
       <geometry>
-        <mesh filename="Visual/Link5.dae"/>
+        <mesh filename="Visual/glb/Link5.glb"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/Link5.stl"/>
+        <mesh filename="Collision/glb/Link5.glb"/>
       </geometry>
     </collision>
     <inertial>
@@ -140,13 +140,13 @@
   <link name="link6">
     <visual>
       <geometry>
-        <mesh filename="Visual/Link6.dae"/>
+        <mesh filename="Visual/glb/Link6.glb"/>
       </geometry>
       <material name="white"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/Link6.stl"/>
+        <mesh filename="Collision/glb/Link6.glb"/>
       </geometry>
     </collision>
     <inertial>

@@ -1,11 +1,11 @@
-<?xml version="1.0" ?>
-<robot name="UR5" xmlns:xacro="http://ros.org/wiki/xacro">
+<?xml version='1.0' encoding='utf-8'?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="UR5">
 
   <!-- link list -->
   <link name="base_link">
     <visual>
       <geometry>
-        <mesh filename="Visual/base.dae"/>
+        <mesh filename="Visual/glb/base.glb"/>
       </geometry>
       <material name="LightGrey">
         <color rgba="0.7 0.7 0.7 1.0"/>
@@ -13,7 +13,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/base.stl"/>
+        <mesh filename="Collision/glb/base.glb"/>
       </geometry>
     </collision>
     <inertial>
@@ -25,7 +25,7 @@
   <link name="shoulder_link">
     <visual>
       <geometry>
-        <mesh filename="Visual/shoulder.dae"/>
+        <mesh filename="Visual/glb/shoulder.glb"/>
       </geometry>
       <material name="Blue">
         <color rgba="0.376 0.576 0.674 1.0"/>
@@ -33,7 +33,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/shoulder.stl"/>
+        <mesh filename="Collision/glb/shoulder.glb"/>
       </geometry>
     </collision>
     <inertial>
@@ -45,7 +45,7 @@
   <link name="upper_arm_link">
     <visual>
       <geometry>
-        <mesh filename="Visual/upperarm.dae"/>
+        <mesh filename="Visual/glb/upperarm.glb"/>
       </geometry>
       <material name="LightGrey">
         <color rgba="0.7 0.7 0.7 1.0"/>
@@ -53,7 +53,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/upperarm.stl"/>
+        <mesh filename="Collision/glb/upperarm.glb"/>
       </geometry>
     </collision>
     <inertial>
@@ -65,7 +65,7 @@
   <link name="forearm_link">
     <visual>
       <geometry>
-        <mesh filename="Visual/forearm.dae"/>
+        <mesh filename="Visual/glb/forearm.glb"/>
       </geometry>
       <material name="LightGrey">
         <color rgba="0.7 0.7 0.7 1.0"/>
@@ -73,7 +73,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/forearm.stl"/>
+        <mesh filename="Collision/glb/forearm.glb"/>
       </geometry>
     </collision>
     <inertial>
@@ -85,7 +85,7 @@
   <link name="wrist_1_link">
     <visual>
       <geometry>
-        <mesh filename="Visual/wrist1.dae"/>
+        <mesh filename="Visual/glb/wrist1.glb"/>
       </geometry>
       <material name="Blue">
         <color rgba="0.376 0.576 0.674 1.0"/>
@@ -93,7 +93,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/wrist1.stl"/>
+        <mesh filename="Collision/glb/wrist1.glb"/>
       </geometry>
     </collision>
     <inertial>
@@ -105,7 +105,7 @@
   <link name="wrist_2_link">
     <visual>
       <geometry>
-        <mesh filename="Visual/wrist2.dae"/>
+        <mesh filename="Visual/glb/wrist2.glb"/>
       </geometry>
       <material name="Blue">
         <color rgba="0.376 0.576 0.674 1.0"/>
@@ -113,7 +113,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/wrist2.stl"/>
+        <mesh filename="Collision/glb/wrist2.glb"/>
       </geometry>
     </collision>
     <inertial>
@@ -125,7 +125,7 @@
   <link name="wrist_3_link">
     <visual>
       <geometry>
-        <mesh filename="Visual/wrist3.dae"/>
+        <mesh filename="Visual/glb/wrist3.glb"/>
       </geometry>
       <material name="LightGrey">
         <color rgba="0.7 0.7 0.7 1.0"/>
@@ -133,7 +133,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/wrist3.stl"/>
+        <mesh filename="Collision/glb/wrist3.glb"/>
       </geometry>
     </collision>
     <inertial>
