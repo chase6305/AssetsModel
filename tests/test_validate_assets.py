@@ -60,24 +60,43 @@ class ValidationTests(unittest.TestCase):
         self.assertEqual(result["errors"], [])
         self.assertTrue(result["warnings"])
 
-    def test_panda_fingers_close_and_open_symmetrically(self):
-        folder = SCRIPT.parents[1] / "RobotModel" / "Franka" / "Panda"
-        for filename in ("PandaHand.urdf", "PandaWithHand.urdf"):
+    def test_fr3_fingers_close_and_open_symmetrically(self):
+        folder = SCRIPT.parents[1] / "RobotModel" / "Franka" / "FR3"
+        for filename in ("FR3Hand.urdf", "FR3WithHand.urdf"):
             robot = ET.parse(folder / filename).getroot()
-            first = robot.find("joint[@name='finger_joint1']")
-            second = robot.find("joint[@name='finger_joint2']")
+            first = robot.find("joint[@name='fr3_finger_joint1']")
+            second = robot.find("joint[@name='fr3_finger_joint2']")
+            self.assertEqual(second.find("mimic").get("joint"), first.get("name"))
             for q in (0.0, 0.02, 0.04):
                 positions = []
                 for joint in (first, second):
                     y0 = float(joint.find("origin").get("xyz").split()[1])
                     axis_y = float(joint.find("axis").get("xyz").split()[1])
-                    positions.append(y0 + q * axis_y)
+                    yaw = float(joint.find("origin").get("rpy").split()[2])
+                    positions.append(y0 + q * axis_y * math.cos(yaw))
                 self.assertAlmostEqual(positions[0], -positions[1])
                 self.assertAlmostEqual(positions[0] - positions[1], 2 * q)
-            right = robot.find("link[@name='rightfinger']")
-            for kind in ("visual", "collision"):
-                yaw = float(right.find(f"{kind}/origin").get("rpy").split()[2])
-                self.assertAlmostEqual(yaw, math.pi, places=6)
+
+    def test_fr3_variants_have_inertia_and_matching_component_parameters(self):
+        folder = SCRIPT.parents[1] / "RobotModel" / "Franka" / "FR3"
+        full = ET.parse(folder / "FR3WithHand.urdf").getroot()
+        def signature(element):
+            return element.tag, element.attrib, [signature(child) for child in element]
+        for filename in ("FR3.urdf", "FR3Hand.urdf", "FR3WithHand.urdf"):
+            result = validator.validate_urdf(folder / filename, glb_only=True)
+            self.assertEqual(result["errors"], [])
+            self.assertEqual(result["warnings"], [])
+            robot = ET.parse(folder / filename).getroot()
+            for element in robot:
+                if element.tag not in ("link", "joint"):
+                    continue
+                counterpart = full.find(f"{element.tag}[@name='{element.get('name')}']")
+                self.assertEqual(signature(element), signature(counterpart))
+        # FR3 joint 6 differs substantially from the retired Panda limits.
+        limit = full.find("joint[@name='fr3_joint6']/limit")
+        self.assertEqual((float(limit.get("lower")), float(limit.get("upper"))), (0.5445, 4.5169))
+        tcp = full.find("joint[@name='fr3_hand_tcp_joint']/origin")
+        self.assertEqual(tcp.get("xyz"), "0 0 0.1034")
 
 
 if __name__ == "__main__":
