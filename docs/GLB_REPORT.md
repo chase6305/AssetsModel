@@ -1,5 +1,7 @@
 # GLB 转换与进一步优化报告
 
+> 下文记录历史 GLB 转换阶段。后续 FR3 替换、材质修复和网格优化的当前数据见[2026-11-03 质量检查](QUALITY_REVIEW.md)。
+
 全部 **783 个 DAE/STL 网格**已经转换为 GLB，**67 个 URDF** 统一引用模型内的 `glb/` 子目录。可直接从[模型目录](CATALOG.md)复制需要的模型。
 
 后续目录整理已移除全部 378 个 DAE 和顶层重复的 GLB 目录。原有 405 个 STL 保留在 `Visual/stl/`、`Collision/stl/` 或 `meshes/stl/`；GLB 位于同级 `glb/`。当前 GLB 与 STL 合计 **556.4 MiB**，其中 GLB 为 311.2 MiB。下面的 DAE/STL 体积是历史阶段数据，现行结构见[资源布局](ASSET_LAYOUT.md)。
