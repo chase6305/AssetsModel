@@ -28,6 +28,7 @@ jobs:
       - run: python -m pip install -r requirements-mesh.txt
       - run: python -m unittest discover -s tests -v
       - run: python scripts/audit_meshes.py --json /tmp/mesh-audit.json
+      - run: python scripts/audit_asset_quality.py --json /tmp/asset-quality.json
       - run: python scripts/compare_asset_trees.py --assets . --json /tmp/loader-validation.json
 
   gltf-format:

@@ -16,8 +16,11 @@ python3 -m unittest discover -s tests -v
 ```bash
 python3 -m pip install -r requirements-mesh.txt
 python3 scripts/audit_meshes.py --json /tmp/mesh-audit.json
+python3 scripts/audit_asset_quality.py --json /tmp/asset-quality.json
 python3 scripts/compare_asset_trees.py --assets . --json /tmp/loader-validation.json
 ```
+
+`audit_asset_quality.py` 检查 GLB 的有限坐标、单位法线及 PBR 参数范围，并按每个 URDF 的外观/碰撞引用分别统计运行时面片、图元和唯一资源字节数。重复使用同一个网格会计入多次绘制，CAD 辅助场景不会计入默认场景预算。碰撞网格可省略法线；外观网格缺少法线、透明度被 OPAQUE 模式忽略时给出警告。该检查同样接入 CI；面片数量和材质选择用于人工审阅，不作为统一的美观评分或硬性面数限制。
 
 完整 glTF 格式检查使用 [Khronos 官方校验器](https://github.com/KhronosGroup/glTF-Validator)，需要 Node.js 22；CI 同样执行此检查。依赖可安装到临时目录：
 
@@ -43,7 +46,25 @@ python3 scripts/convert_glb.py --files /tmp/incoming/Link.dae \
 
 转换不进行第二次减面。DAE 场景变换烘焙到各网格的局部坐标；位置、角点法线和材质分组分别处理。每个写回的三角形顶点都与转换前比较。碰撞资源省略法线与材质；STL 外观按 30° 阈值平滑局部顶点扇区，并保留硬边。仅位置及法线均一致时才合并外观顶点。小网格使用 16 位索引，超出范围时使用 32 位索引。
 
-GLB 主场景只包含表面；原 DAE 辅助线保存在可选第二场景。输入目录 DAE/STL 同名时分别输出 `Link.glb` 与 `Link.stl.glb`，避免覆盖。常见的全白顶点颜色作为恒等颜色乘数省略；非白顶点颜色或带纹理的源 DAE 会明确报错。现有 783 个 GLB 均已完成转换和验证。归档的旧格式模型树也可通过显式 `--root` 转换，输出同样使用 `glb/` 子目录。
+GLB 主场景只包含表面；原 DAE 辅助线保存在可选第二场景。输入目录 DAE/STL 同名时分别输出 `Link.glb` 与 `Link.stl.glb`，避免覆盖。常见的全白顶点颜色作为恒等颜色乘数省略；非白顶点颜色或带纹理的源 DAE 会明确报错。当前资源数量及后续修改见[质量检查](QUALITY_REVIEW.md)。归档的旧格式模型树也可通过显式 `--root` 转换，输出同样使用 `glb/` 子目录。
+
+## GLB 外观维护
+
+三个工具默认只分析，写入均须加 `--apply --backup-dir /tmp/独立备份目录`。备份应位于资源树外；原文件与备份内容不符时拒绝覆盖。
+
+```bash
+# 同材质静态子网格合批，逐场景验证角点属性不变。
+python3 scripts/batch_glb.py RobotModel/KUKA --report /tmp/glb-batching.json
+
+# 只有所有 URDF 外观引用都声明同一颜色时，才补齐无材质 GLB。
+python3 scripts/embed_urdf_materials.py --json /tmp/glb-materials.json
+
+# 仅检查有完整邻接和法线证据的孤立反向面。
+python3 scripts/repair_glb_winding.py RobotModel/UniversalRobots/UR10 \
+  --report /tmp/glb-winding.json
+```
+
+合批拒绝层级变换、蒙皮、动画、纹理和未知元数据，透明混合表面不合并；CAD 辅助场景成员关系保留。颜色补齐保留既有材质，跳过缺色、颜色冲突和外观/碰撞共享资源。绕序修复不重新计算法线，只交换符合条件的三角形索引。各工具的适用范围有意受限，新增格式应先完善对应保真验证。
 
 ## 按模型打包
 
