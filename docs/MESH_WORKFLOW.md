@@ -93,6 +93,22 @@ python3 scripts/validate_assets.py --layout --markdown docs/CATALOG.md
 
 ## 减面
 
+### GLB 正反重合表面
+
+`compact_double_sided.py` 面向一类特殊的视觉冗余：同一图元、同一不透明材质中，位置完全重合、绕序相反、每个对应角点法线精确互为负值的三角形对。工具只把符合条件的部分另设为 `doubleSided=true` 的单层图元，其余面保留原材质和背面剔除；带 UV、额外顶点属性或透明材质的图元不处理，碰撞及视觉/碰撞共享网格也不处理。需要时先执行已有的严格材质合批，再验证展开后的正反面几何和法线签名一致。
+
+```bash
+python3 scripts/compact_double_sided.py RobotModel/KUKA/KR210_L150/Visual/glb \
+  --report /tmp/double-sided-analysis.json
+python3 scripts/compact_double_sided.py RobotModel/KUKA/KR210_L150/Visual/glb \
+  --apply --backup-dir /tmp/assets-before-double-sided \
+  --report /tmp/double-sided-result.json
+```
+
+本轮 6 个 KUKA 外观 GLB 合计减少 12,874 面及 899,424 字节。材质合批后的双面拆分会增加少量绘制；整个组合的运行时预算见[阶段报告](glb-double-sided.json)。glTF 的[双面规范](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html#double-sided)要求背面法线反号。实际 WebGL 的 12 对正反视角对比中，每张最多 3 像素有差异，99% 分位均为零，详见[像素报告](glb-paired-surface-webgl.json)。此结论适用于 glTF 栅格外观；Cycles 对原有重合表面及透明背面模拟的射线、自阴影处理存在差异，不能视为所有渲染器都像素一致。
+
+### STL/DAE 源网格
+
 以下减面与退化面清理工具面向 STL/DAE 源网格，不直接修改 GLB。目前仓库中它们只会处理保留的 STL；更新 STL 后，需要单独转换并验证对应 GLB。部分 `glb/Link.glb` 来自原 DAE，不能假设同名 STL 含有相同几何和材质。首轮 DAE 减面记录保留在[历史报告](OPTIMIZATION_REPORT.md)。
 
 安装可选依赖，并确保 `blender` 在 PATH 中。实际处理环境为 Blender 5.2.1、Python 3.10、trimesh 4.12.2；Blender 工作脚本使用 4.1+ 的法线 API。

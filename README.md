@@ -6,7 +6,7 @@ Portable URDF assets for robot planning, simulation, and visualization.
 
 [Model catalog](docs/CATALOG.md) · [Asset layout](docs/ASSET_LAYOUT.md) · [Before / after viewer](docs/preview.html) · [Current quality review](docs/QUALITY_REVIEW.md) · [GLB conversion report](docs/GLB_REPORT.md) · [工具使用说明](docs/MESH_WORKFLOW.md)
 
-All URDFs now reference **GLB meshes in their model directories**. Visual and collision resources use format subdirectories such as `Visual/glb/`, `Visual/stl/`, `Collision/glb/` and `Collision/stl/`; cameras and tools use `meshes/glb/` and `meshes/stl/`. **DAE files and the duplicate top-level GLB tree have been removed.** GLBs occupy about **308.2 MiB**; optional STL alternatives are also retained. Copy a model directory, or export only its GLB runtime resources using the [workflow](docs/MESH_WORKFLOW.md).
+All URDFs now reference **GLB meshes in their model directories**. Visual and collision resources use format subdirectories such as `Visual/glb/`, `Visual/stl/`, `Collision/glb/` and `Collision/stl/`; cameras and tools use `meshes/glb/` and `meshes/stl/`. **DAE files and the duplicate top-level GLB tree have been removed.** GLBs occupy about **307.3 MiB**; optional STL alternatives are also retained. Copy a model directory, or export only its GLB runtime resources using the [workflow](docs/MESH_WORKFLOW.md).
 
 | AE AIR10-1210 | Franka FR3 | Universal Robots UR5e |
 | :---: | :---: | :---: |
@@ -38,7 +38,7 @@ All resource references are relative to the URDF directory and point to `glb/` s
 
 ## Mesh quality
 
-The [November 2026 review](docs/QUALITY_REVIEW.md) batches static meshes by material, embeds missing URDF colors into five visual GLBs, repairs two reversed UR10 triangles, and makes previews retain actual PBR materials. The review includes measured geometry checks and before/after images.
+The [November 2026 review](docs/QUALITY_REVIEW.md) batches static meshes by material, embeds missing URDF colors into five visual GLBs, repairs two reversed UR10 triangles, and makes previews retain actual PBR materials. Exact paired surfaces in six KUKA visual GLBs also use double-sided materials, removing 12,874 triangles. The review includes measured geometry checks and before/after images.
 
 The September 2026 optimization reduced mesh data from **1,256.9 MiB to 618.5 MiB (50.8%)**, and triangle count from **20,608,370 to 10,407,054 (49.5%)**.
 

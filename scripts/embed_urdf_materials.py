@@ -113,9 +113,9 @@ def main():
                  "sha256_before": hashlib.sha256(data).hexdigest(),
                  "sha256_after": hashlib.sha256(payload or data).hexdigest()}
         if payload is not None and args.apply:
-            backup = args.backup_dir.resolve() / relative
-            if backup == path:
-                raise ValueError("Backup resolves to source")
+            backup = (args.backup_dir.resolve() / relative).resolve()
+            if backup.is_relative_to(root):
+                raise ValueError("Backup resolves inside the asset tree")
             backup.parent.mkdir(parents=True, exist_ok=True)
             if backup.exists() and backup.read_bytes() != data:
                 raise ValueError("Backup contains different data; choose a fresh directory")

@@ -82,8 +82,10 @@ def glb_material(tree, binary, index, color):
     # A URDF color is a fallback for unpainted source STL meshes. Embedded GLB
     # material groups take precedence so imported CAD colors are not flattened.
     if index is None:
-        return {"base_color": color, "metallic": 0.0, "roughness": 1.0,
-                "emissive": [0, 0, 0], "alpha_mode": "OPAQUE", "double_sided": False}
+        standalone = color is None
+        color = [1, 1, 1, 1] if standalone else color
+        return {"base_color": color, "metallic": 1.0 if standalone else 0.0, "roughness": 1.0,
+                "emissive": [0, 0, 0], "alpha_mode": "BLEND" if color[3] < 1 else "OPAQUE", "double_sided": False}
     material = tree["materials"][index]
     pbr = material.get("pbrMetallicRoughness", {})
     unsupported = [key for key in material if key.endswith("Texture")]
@@ -252,7 +254,10 @@ def main():
                         color = [float(x) for x in rgba.get("rgba").split()]
                 items.extend(load_parts(args.asset.parent / mesh.get("filename"), matrix, color))
     else:
-        items.extend(load_parts(args.asset, np.eye(4), [0.48, 0.52, 0.58, 1]))
+        # Standalone GLB follows glTF's implicit white metallic material. A URDF
+        # supplies its own fallback above; unpainted STL keeps a neutral display.
+        color = None if args.asset.suffix.lower() == ".glb" else [0.48, 0.52, 0.58, 1]
+        items.extend(load_parts(args.asset, np.eye(4), color))
     if not items:
         raise ValueError("No visual meshes")
     count = write_pack(items, args.output)

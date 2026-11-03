@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 from collections import Counter, defaultdict
+import hashlib
 import json
 from pathlib import Path
 import xml.etree.ElementTree as ET
@@ -54,11 +55,13 @@ def scene_meshes(tree):
 
 def audit_glb(path, roles=()):
     """Inspect stored shading and count active-scene draw instances separately."""
-    tree, binary = read_glb(path)
-    container = validate_glb(path)
+    payload = Path(path).read_bytes()
+    tree, binary = read_glb(payload)
+    container = validate_glb(payload)
     instances = Counter(scene_meshes(tree))
     errors, warnings = [], []
-    result = {"bytes": Path(path).stat().st_size, "roles": sorted(roles),
+    result = {"bytes": len(payload), "sha256": hashlib.sha256(payload).hexdigest(),
+              "roles": sorted(roles),
               "stored_triangles": container["faces"], "line_segments": container["lines"],
               "default_scene_triangles": 0, "default_scene_primitives": 0,
               "materials": len(tree.get("materials", [])), "normal_vertices": 0,

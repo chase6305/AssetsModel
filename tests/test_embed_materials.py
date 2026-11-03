@@ -107,6 +107,24 @@ class MaterialReferenceTests(unittest.TestCase):
         self.assertIn("shared with collision", report["files"][0]["reason"])
         self.assertEqual(self.target.read_bytes(), fixture.data)
 
+    def test_backup_symlink_into_source_is_rejected_before_mutation(self):
+        fixture = EmbedMaterialsTests()
+        fixture.setUp()
+        self.target.write_bytes(fixture.data)
+        (self.model / "a.urdf").write_text(self.urdf)
+        backup = Path(self.temporary.name) / "backup"
+        alias = backup / self.target.relative_to(self.root)
+        alias.parent.mkdir(parents=True)
+        alias.symlink_to(self.target)
+        script = Path(__file__).resolve().parents[1] / "scripts" / "embed_urdf_materials.py"
+        result = subprocess.run([sys.executable, str(script), "--root", str(self.root),
+                                 "--apply", "--backup-dir", str(backup),
+                                 "--json", str(self.root / "report.json")],
+                                capture_output=True, text=True)
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("Backup resolves inside", result.stderr)
+        self.assertEqual(self.target.read_bytes(), fixture.data)
+
 
 if __name__ == "__main__":
     unittest.main()

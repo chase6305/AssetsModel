@@ -13,7 +13,7 @@ AVAILABLE = all(importlib.util.find_spec(x) for x in ("numpy", "trimesh", "colla
 if AVAILABLE:
     import numpy as np
     from convert_glb import GLBWriter
-    from prepare_preview import load_parts, write_pack
+    from prepare_preview import glb_material, load_parts, write_pack
 
 
 @unittest.skipUnless(AVAILABLE, "Optional geometry dependencies not installed")
@@ -24,12 +24,12 @@ class PreviewTests(unittest.TestCase):
                    [[0, 0, 1]] * 3, material)
         return writer
 
-    def load(self, writer, transform=None, color=None):
+    def load(self, writer, transform=None, color=(0.6, 0.65, 0.7, 1)):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "surface.glb"
             path.write_bytes(writer.export())
             return list(load_parts(path, np.eye(4) if transform is None else transform,
-                                   [0.6, 0.65, 0.7, 1] if color is None else color))
+                                   list(color) if color is not None else None))
 
     def test_preserves_floating_point_pbr_instead_of_flattening_to_urdf_color(self):
         material = {"pbrMetallicRoughness": {"baseColorFactor": [0.0123456789, 0.23456789, 0.9, 0.6],
@@ -48,6 +48,18 @@ class PreviewTests(unittest.TestCase):
         self.assertEqual(part["material"]["base_color"], [0.2, 0.3, 0.4, 1])
         self.assertEqual(part["material"]["metallic"], 0)
         self.assertEqual(part["material"]["roughness"], 1)
+
+    def test_unpainted_standalone_glb_uses_gltf_implicit_material(self):
+        part, = self.load(self.make_writer(), color=None)
+        properties = part["material"]
+        self.assertEqual(properties["base_color"], [1, 1, 1, 1])
+        self.assertEqual(properties["metallic"], 1)
+        self.assertEqual(properties["roughness"], 1)
+
+    def test_transparent_urdf_fallback_retains_its_alpha(self):
+        properties = glb_material({}, b"", None, color=[0.1, 0.2, 0.3, 0.4])
+        self.assertEqual(properties["alpha_mode"], "BLEND")
+        self.assertEqual(properties["base_color"][3], 0.4)
 
     def test_embedded_material_uses_gltf_defaults_for_omitted_pbr_fields(self):
         part, = self.load(self.make_writer({"name": "default"}))
