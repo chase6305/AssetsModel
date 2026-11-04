@@ -1,0 +1,357 @@
+{
+  "model": "RobotModel/ABB/IRB2600_12_165",
+  "files": [
+    {
+      "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/BaseLink.glb",
+      "source_sha256": "e59bb9b51ffb1cc30071d441ab1f87d85b7d72e91d339db883b2388a19bfcfd3",
+      "output_sha256": "d50a402dcbdc1c354c27f6aab79d01b9547be49f38e5ececed2c398adad11190",
+      "source_bytes": 4919592,
+      "output_bytes": 2010908,
+      "materials_nodes_scenes_unchanged": true,
+      "triangle_corners_and_winding_exact": true,
+      "primitives": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "material": 0,
+          "triangles": 42087,
+          "originally_flat_triangles": 42087,
+          "eligible_faces": 41373,
+          "protected_faces": 714,
+          "protected_area_fraction": 1.8982230616571435e-05,
+          "surface_area_local": 0.7709452304167028,
+          "protected_surface_area_local": 1.4634260156515656e-05,
+          "processing_policy": "protect_direction_outlier_faces",
+          "status": "refined",
+          "changed_normal_corners": 116944,
+          "changed_normal_corners_exact": 116944,
+          "flat_triangles_after": 5816,
+          "smooth_triangles_after": 36271,
+          "corner_positions_exact": true,
+          "protected_normal_corners_byte_exact": true
+        },
+        {
+          "mesh": 1,
+          "primitive": 0,
+          "material": 1,
+          "triangles": 19397,
+          "originally_flat_triangles": 19397,
+          "eligible_faces": 19328,
+          "protected_faces": 69,
+          "protected_area_fraction": 5.550493218624041e-05,
+          "surface_area_local": 0.16643052490820795,
+          "protected_surface_area_local": 9.237714998750478e-06,
+          "processing_policy": "protect_direction_outlier_faces",
+          "status": "refined",
+          "changed_normal_corners": 53914,
+          "changed_normal_corners_exact": 53914,
+          "flat_triangles_after": 4912,
+          "smooth_triangles_after": 14485,
+          "corner_positions_exact": true,
+          "protected_normal_corners_byte_exact": true
+        }
+      ]
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link1.glb",
+      "source_sha256": "e7c20d363813427f195b9f999dc109afe7e026e8d9add78d852dc5448a5e14eb",
+      "output_sha256": "e7c20d363813427f195b9f999dc109afe7e026e8d9add78d852dc5448a5e14eb",
+      "source_bytes": 591480,
+      "output_bytes": 591480,
+      "materials_nodes_scenes_unchanged": true,
+      "triangle_corners_and_winding_exact": true,
+      "primitives": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "material": 0,
+          "triangles": 19999,
+          "originally_flat_triangles": 2553,
+          "status": "retained",
+          "reason": "authored smooth normals exist in this primitive"
+        }
+      ]
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link2.glb",
+      "source_sha256": "85efe050337fb380b829d52f8a74fa1a2ce0e18b9492e98116e935b7a767a30f",
+      "output_sha256": "aa71bd14f7f86c3123e7b08f747a52b1f41a953158d466ccfd0967fe38b6a352",
+      "source_bytes": 1005696,
+      "output_bytes": 422108,
+      "materials_nodes_scenes_unchanged": true,
+      "triangle_corners_and_winding_exact": true,
+      "primitives": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "material": 0,
+          "triangles": 13241,
+          "originally_flat_triangles": 13241,
+          "eligible_faces": 13201,
+          "protected_faces": 40,
+          "protected_area_fraction": 3.6296334841939784e-06,
+          "surface_area_local": 0.4942503784770378,
+          "protected_surface_area_local": 1.7939477232958033e-06,
+          "processing_policy": "protect_direction_outlier_faces",
+          "status": "refined",
+          "changed_normal_corners": 34964,
+          "changed_normal_corners_exact": 34964,
+          "flat_triangles_after": 2608,
+          "smooth_triangles_after": 10633,
+          "corner_positions_exact": true,
+          "protected_normal_corners_byte_exact": true
+        },
+        {
+          "mesh": 1,
+          "primitive": 0,
+          "material": 1,
+          "triangles": 85,
+          "originally_flat_triangles": 85,
+          "eligible_faces": 85,
+          "protected_faces": 0,
+          "protected_area_fraction": 0.0,
+          "surface_area_local": 0.004074883151439504,
+          "protected_surface_area_local": 0.0,
+          "processing_policy": "protect_direction_outlier_faces",
+          "status": "refined",
+          "changed_normal_corners": 254,
+          "changed_normal_corners_exact": 254,
+          "flat_triangles_after": 0,
+          "smooth_triangles_after": 85,
+          "corner_positions_exact": true,
+          "protected_normal_corners_byte_exact": true
+        },
+        {
+          "mesh": 2,
+          "primitive": 0,
+          "material": 1,
+          "triangles": 122,
+          "originally_flat_triangles": 122,
+          "eligible_faces": 122,
+          "protected_faces": 0,
+          "protected_area_fraction": 0.0,
+          "surface_area_local": 0.012662956068035245,
+          "protected_surface_area_local": 0.0,
+          "processing_policy": "protect_direction_outlier_faces",
+          "status": "refined",
+          "changed_normal_corners": 246,
+          "changed_normal_corners_exact": 246,
+          "flat_triangles_after": 110,
+          "smooth_triangles_after": 12,
+          "corner_positions_exact": true,
+          "protected_normal_corners_byte_exact": true
+        }
+      ]
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link3.glb",
+      "source_sha256": "ddb80efd6210ebfed2ac62c9c36749cb430ab17f7108dcef5c43f3f557c1f440",
+      "output_sha256": "ddb80efd6210ebfed2ac62c9c36749cb430ab17f7108dcef5c43f3f557c1f440",
+      "source_bytes": 545488,
+      "output_bytes": 545488,
+      "materials_nodes_scenes_unchanged": true,
+      "triangle_corners_and_winding_exact": true,
+      "primitives": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "material": 0,
+          "triangles": 19972,
+          "originally_flat_triangles": 714,
+          "status": "retained",
+          "reason": "authored smooth normals exist in this primitive"
+        },
+        {
+          "mesh": 1,
+          "primitive": 0,
+          "material": 1,
+          "triangles": 54,
+          "originally_flat_triangles": 0,
+          "status": "retained",
+          "reason": "authored smooth normals exist in this primitive"
+        }
+      ]
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link4.glb",
+      "source_sha256": "a32fbce7432928f81ae177fda04d49ee95e9746ac9031b4b54afd31100530959",
+      "output_sha256": "a32fbce7432928f81ae177fda04d49ee95e9746ac9031b4b54afd31100530959",
+      "source_bytes": 472860,
+      "output_bytes": 472860,
+      "materials_nodes_scenes_unchanged": true,
+      "triangle_corners_and_winding_exact": true,
+      "primitives": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "material": 0,
+          "triangles": 21654,
+          "originally_flat_triangles": 390,
+          "status": "retained",
+          "reason": "authored smooth normals exist in this primitive"
+        },
+        {
+          "mesh": 1,
+          "primitive": 0,
+          "material": 1,
+          "triangles": 40,
+          "originally_flat_triangles": 24,
+          "status": "retained",
+          "reason": "authored smooth normals exist in this primitive"
+        },
+        {
+          "mesh": 2,
+          "primitive": 0,
+          "material": 2,
+          "triangles": 100,
+          "originally_flat_triangles": 16,
+          "status": "retained",
+          "reason": "authored smooth normals exist in this primitive"
+        }
+      ]
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link5.glb",
+      "source_sha256": "a6211a3712c708792bafc5ec34b2a52ff20a7ccaabd19d084acf9011f37afdb9",
+      "output_sha256": "204c9cea76b09651e04602bf9f807a0b7443357bb33f719e0506a71206f8f61d",
+      "source_bytes": 1145048,
+      "output_bytes": 323384,
+      "materials_nodes_scenes_unchanged": true,
+      "triangle_corners_and_winding_exact": true,
+      "primitives": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "material": 0,
+          "triangles": 14880,
+          "originally_flat_triangles": 14880,
+          "eligible_faces": 14818,
+          "protected_faces": 62,
+          "protected_area_fraction": 1.8142917353594763e-05,
+          "surface_area_local": 0.040195344637225586,
+          "protected_surface_area_local": 7.292608157524422e-07,
+          "processing_policy": "protect_direction_outlier_faces",
+          "status": "refined",
+          "changed_normal_corners": 43177,
+          "changed_normal_corners_exact": 43177,
+          "flat_triangles_after": 639,
+          "smooth_triangles_after": 14241,
+          "corner_positions_exact": true,
+          "protected_normal_corners_byte_exact": true
+        }
+      ]
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link6.glb",
+      "source_sha256": "d359819115b67aee8258b3f2127b400f8b17f3c69601ae814463b956b726c13e",
+      "output_sha256": "285ea2a50d8d0f4eea7cec13b9b6e4f48aa4e5d830b8e7dd41fd12ca3f7d540c",
+      "source_bytes": 315212,
+      "output_bytes": 110532,
+      "materials_nodes_scenes_unchanged": true,
+      "triangle_corners_and_winding_exact": true,
+      "primitives": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "material": 0,
+          "triangles": 4410,
+          "originally_flat_triangles": 4410,
+          "eligible_faces": 4407,
+          "protected_faces": 3,
+          "protected_area_fraction": 1.2054466790864212e-06,
+          "surface_area_local": 0.01242465199175572,
+          "protected_surface_area_local": 1.4977255482266422e-08,
+          "processing_policy": "protect_direction_outlier_faces",
+          "status": "refined",
+          "changed_normal_corners": 11401,
+          "changed_normal_corners_exact": 11401,
+          "flat_triangles_after": 620,
+          "smooth_triangles_after": 3790,
+          "corner_positions_exact": true,
+          "protected_normal_corners_byte_exact": true
+        }
+      ]
+    }
+  ],
+  "source_bytes": 8995376,
+  "output_bytes": 4476760,
+  "refined_triangles": 94222,
+  "eligible_faces": 93334,
+  "protected_faces": 888,
+  "changed_normal_corners": 260900,
+  "surface_area_local": 1.5009839696504046,
+  "protected_surface_area_local": 2.641016094979665e-05,
+  "primitive_statuses": {
+    "refined": 7,
+    "authored smooth normals exist in this primitive": 6
+  },
+  "protected_surface_area_fraction": 1.7595231850442653e-05,
+  "rendered_previews": [
+    {
+      "view": "hero",
+      "path": "/tmp/assetsmodel-session-normal-pilot-round2-local/abb2600-hero.png",
+      "sha256": "cbd20cb25357ae95b8d3934f0c252d5753c3ab7b8eeb9a1d811647d7008ef011",
+      "metadata": {
+        "pack": "/tmp/assetsmodel-session-normal-pilot-round2-local/abb2600-pack",
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 900,
+        "height": 810,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "CYCLES",
+        "view_transform": "AgX",
+        "single_sided_materials": "double-sided approximation",
+        "blender": "5.2.2 LTS",
+        "parts": 13,
+        "bounds_m": [
+          [
+            -0.4009838104248047,
+            -0.25726819038391113,
+            0.0
+          ],
+          [
+            1.03,
+            0.28078386187553406,
+            1.382021878361702
+          ]
+        ],
+        "ortho_scale": 3.289252281188965
+      }
+    },
+    {
+      "view": "rear",
+      "path": "/tmp/assetsmodel-session-normal-pilot-round2-local/abb2600-rear.png",
+      "sha256": "bfd1cf8328a5d6389774c25918d94268dbf0a9256b10daecd8fa476afc82860d",
+      "metadata": {
+        "pack": "/tmp/assetsmodel-session-normal-pilot-round2-local/abb2600-pack",
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 900,
+        "height": 810,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "CYCLES",
+        "view_transform": "AgX",
+        "single_sided_materials": "double-sided approximation",
+        "blender": "5.2.2 LTS",
+        "parts": 13,
+        "bounds_m": [
+          [
+            -0.4009838104248047,
+            -0.25726819038391113,
+            0.0
+          ],
+          [
+            1.03,
+            0.28078386187553406,
+            1.382021878361702
+          ]
+        ],
+        "ortho_scale": 3.2685468196868896
+      }
+    }
+  ]
+}

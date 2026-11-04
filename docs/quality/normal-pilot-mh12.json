@@ -1,0 +1,302 @@
+{
+  "model": "RobotModel/Motoman/MH12",
+  "files": [
+    {
+      "path": "RobotModel/Motoman/MH12/Visual/glb/BaseLink.glb",
+      "source_sha256": "8b20ca9a7e7f21a3f476f4cf822ae185a3da50e9c6a62d65e80675dc3de47eb7",
+      "output_sha256": "5dab9bcfd1708f1311256275cfdbbe212835a2dba18b1c07b621a29202078d8b",
+      "source_bytes": 725488,
+      "output_bytes": 279808,
+      "materials_nodes_scenes_unchanged": true,
+      "triangle_corners_and_winding_exact": true,
+      "primitives": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "material": 0,
+          "triangles": 9936,
+          "originally_flat_triangles": 9936,
+          "eligible_faces": 9123,
+          "protected_faces": 813,
+          "protected_area_fraction": 1.9653493856616456e-05,
+          "surface_area_local": 0.4687800272156899,
+          "protected_surface_area_local": 9.213165384988056e-06,
+          "processing_policy": "protect_direction_outlier_faces",
+          "status": "refined",
+          "changed_normal_corners": 24318,
+          "changed_normal_corners_exact": 24318,
+          "flat_triangles_after": 2156,
+          "smooth_triangles_after": 7780,
+          "corner_positions_exact": true,
+          "protected_normal_corners_byte_exact": true
+        }
+      ]
+    },
+    {
+      "path": "RobotModel/Motoman/MH12/Visual/glb/Link1.glb",
+      "source_sha256": "0d60ebe960193919f431930b025f0f8d1dc3215b7700e2ab3ded2179bfd4de1c",
+      "output_sha256": "65640e64f24d58d59d242597805623e8c20c6d4be9da6746024c20cf86fa8ae3",
+      "source_bytes": 1143748,
+      "output_bytes": 356384,
+      "materials_nodes_scenes_unchanged": true,
+      "triangle_corners_and_winding_exact": true,
+      "primitives": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "material": 0,
+          "triangles": 15221,
+          "originally_flat_triangles": 15221,
+          "eligible_faces": 15219,
+          "protected_faces": 2,
+          "protected_area_fraction": 4.968811036704172e-08,
+          "surface_area_local": 0.776808808953683,
+          "protected_surface_area_local": 3.859816183338083e-08,
+          "processing_policy": "protect_direction_outlier_faces",
+          "status": "refined",
+          "changed_normal_corners": 43017,
+          "changed_normal_corners_exact": 43017,
+          "flat_triangles_after": 1157,
+          "smooth_triangles_after": 14064,
+          "corner_positions_exact": true,
+          "protected_normal_corners_byte_exact": true
+        }
+      ]
+    },
+    {
+      "path": "RobotModel/Motoman/MH12/Visual/glb/Link2.glb",
+      "source_sha256": "657cb1dab9eb86405490cb0312b56d16cf6fefa2606192c17986ca89d5368adc",
+      "output_sha256": "e841a03a9bad5b833939131765329964250e9ecc06a78ae865561ba671b703ab",
+      "source_bytes": 1495552,
+      "output_bytes": 432760,
+      "materials_nodes_scenes_unchanged": true,
+      "triangle_corners_and_winding_exact": true,
+      "primitives": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "material": 0,
+          "triangles": 19376,
+          "originally_flat_triangles": 19376,
+          "eligible_faces": 19006,
+          "protected_faces": 370,
+          "protected_area_fraction": 3.711859889820146e-05,
+          "surface_area_local": 0.38296215365878766,
+          "protected_surface_area_local": 1.4215018574851933e-05,
+          "processing_policy": "protect_direction_outlier_faces",
+          "status": "refined",
+          "changed_normal_corners": 55583,
+          "changed_normal_corners_exact": 55583,
+          "flat_triangles_after": 1160,
+          "smooth_triangles_after": 18216,
+          "corner_positions_exact": true,
+          "protected_normal_corners_byte_exact": true
+        }
+      ]
+    },
+    {
+      "path": "RobotModel/Motoman/MH12/Visual/glb/Link3.glb",
+      "source_sha256": "ae55dbfaa7fd1fe693d8aa254e74970138d804aced8082ce70b7f22711f40538",
+      "output_sha256": "d6e4f217124e42ce8e4c1442db23592c8cc6df6ad29cb0218606ec4154c16621",
+      "source_bytes": 1072772,
+      "output_bytes": 344616,
+      "materials_nodes_scenes_unchanged": true,
+      "triangle_corners_and_winding_exact": true,
+      "primitives": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "material": 0,
+          "triangles": 14249,
+          "originally_flat_triangles": 14249,
+          "eligible_faces": 14247,
+          "protected_faces": 2,
+          "protected_area_fraction": 5.229511016451549e-07,
+          "surface_area_local": 0.4759139536854665,
+          "protected_surface_area_local": 2.4887972636811597e-07,
+          "processing_policy": "protect_direction_outlier_faces",
+          "status": "refined",
+          "changed_normal_corners": 40082,
+          "changed_normal_corners_exact": 40082,
+          "flat_triangles_after": 1250,
+          "smooth_triangles_after": 12999,
+          "corner_positions_exact": true,
+          "protected_normal_corners_byte_exact": true
+        }
+      ]
+    },
+    {
+      "path": "RobotModel/Motoman/MH12/Visual/glb/Link4.glb",
+      "source_sha256": "54fb9edaaaf883106e81024d97cb5dd8501624444fd60bf6993b69cfa9dc813b",
+      "output_sha256": "8575a404955a4f1444bde14b9e27050064d542dbf2a96de6150f6553967ec6b6",
+      "source_bytes": 925404,
+      "output_bytes": 273636,
+      "materials_nodes_scenes_unchanged": true,
+      "triangle_corners_and_winding_exact": true,
+      "primitives": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "material": 0,
+          "triangles": 12224,
+          "originally_flat_triangles": 12224,
+          "eligible_faces": 12198,
+          "protected_faces": 26,
+          "protected_area_fraction": 1.3804584730708805e-06,
+          "surface_area_local": 0.27263855417201666,
+          "protected_surface_area_local": 3.7636620219255464e-07,
+          "processing_policy": "protect_direction_outlier_faces",
+          "status": "refined",
+          "changed_normal_corners": 34437,
+          "changed_normal_corners_exact": 34437,
+          "flat_triangles_after": 824,
+          "smooth_triangles_after": 11400,
+          "corner_positions_exact": true,
+          "protected_normal_corners_byte_exact": true
+        }
+      ]
+    },
+    {
+      "path": "RobotModel/Motoman/MH12/Visual/glb/Link5.glb",
+      "source_sha256": "da7ff4ec9221a9eab7e42fb3ca5c07791a77e18de6a624d3663a94720e3980fe",
+      "output_sha256": "5768d36cc5a5b0b63533b1c7ef874996a91e99a0cac5a1f3fdd6b5f32674b5c2",
+      "source_bytes": 908016,
+      "output_bytes": 270528,
+      "materials_nodes_scenes_unchanged": true,
+      "triangle_corners_and_winding_exact": true,
+      "primitives": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "material": 0,
+          "triangles": 11874,
+          "originally_flat_triangles": 11874,
+          "eligible_faces": 11812,
+          "protected_faces": 62,
+          "protected_area_fraction": 7.944981452664454e-06,
+          "surface_area_local": 0.0931915981271201,
+          "protected_surface_area_local": 7.404055186641286e-07,
+          "processing_policy": "protect_direction_outlier_faces",
+          "status": "refined",
+          "changed_normal_corners": 33639,
+          "changed_normal_corners_exact": 33639,
+          "flat_triangles_after": 867,
+          "smooth_triangles_after": 11007,
+          "corner_positions_exact": true,
+          "protected_normal_corners_byte_exact": true
+        }
+      ]
+    },
+    {
+      "path": "RobotModel/Motoman/MH12/Visual/glb/Link6.glb",
+      "source_sha256": "032252069415a3efa19454e58e90dee5eb70c3f1680be5d08ae057b9557e1628",
+      "output_sha256": "c0682508b6e4f6f02fecdeed515eaf60a53287bbe8d996bcd7cf58472d2cb5d6",
+      "source_bytes": 80092,
+      "output_bytes": 45112,
+      "materials_nodes_scenes_unchanged": true,
+      "triangle_corners_and_winding_exact": true,
+      "primitives": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "material": 0,
+          "triangles": 1300,
+          "originally_flat_triangles": 1300,
+          "eligible_faces": 1300,
+          "protected_faces": 0,
+          "protected_area_fraction": 0.0,
+          "surface_area_local": 0.01907893738952397,
+          "protected_surface_area_local": 0.0,
+          "processing_policy": "protect_direction_outlier_faces",
+          "status": "refined",
+          "changed_normal_corners": 2496,
+          "changed_normal_corners_exact": 2496,
+          "flat_triangles_after": 512,
+          "smooth_triangles_after": 788,
+          "corner_positions_exact": true,
+          "protected_normal_corners_byte_exact": true
+        }
+      ]
+    }
+  ],
+  "source_bytes": 6351072,
+  "output_bytes": 2002844,
+  "refined_triangles": 84180,
+  "eligible_faces": 82905,
+  "protected_faces": 1275,
+  "changed_normal_corners": 233572,
+  "surface_area_local": 2.4893740332022882,
+  "protected_surface_area_local": 2.483243356889817e-05,
+  "primitive_statuses": {
+    "refined": 7
+  },
+  "protected_surface_area_fraction": 9.975372618856376e-06,
+  "rendered_previews": [
+    {
+      "view": "hero",
+      "path": "/tmp/assetsmodel-session-normal-pilot-round2-local/mh12-hero.png",
+      "sha256": "3581b7a3d5c34bf8749cd8fee8a166de8d199e480321f394d57221e04bcc935b",
+      "metadata": {
+        "pack": "/tmp/assetsmodel-session-normal-pilot-round2-local/mh12-pack",
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 900,
+        "height": 810,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "CYCLES",
+        "view_transform": "AgX",
+        "single_sided_materials": "double-sided approximation",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.28540000319480896,
+            -0.19949980080127716,
+            0.0
+          ],
+          [
+            0.895,
+            0.19850000739097595,
+            1.3639999567866326
+          ]
+        ],
+        "ortho_scale": 3.220919132232666
+      }
+    },
+    {
+      "view": "rear",
+      "path": "/tmp/assetsmodel-session-normal-pilot-round2-local/mh12-rear.png",
+      "sha256": "feb268dea3e752ab3c898617d1b04f9eb351fa3bbe304e6a18f4c4a76a8ec878",
+      "metadata": {
+        "pack": "/tmp/assetsmodel-session-normal-pilot-round2-local/mh12-pack",
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 900,
+        "height": 810,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "CYCLES",
+        "view_transform": "AgX",
+        "single_sided_materials": "double-sided approximation",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.28540000319480896,
+            -0.19949980080127716,
+            0.0
+          ],
+          [
+            0.895,
+            0.19850000739097595,
+            1.3639999567866326
+          ]
+        ],
+        "ortho_scale": 3.207108974456787
+      }
+    }
+  ]
+}

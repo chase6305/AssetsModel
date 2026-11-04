@@ -1,0 +1,947 @@
+{
+  "summary": {
+    "mode": "apply",
+    "visual_glbs": 91,
+    "changed_glbs": 3,
+    "imported_visual_glbs_excluded": 8,
+    "changed_materials": 3,
+    "roles": {
+      "metal": 3
+    },
+    "all_changed_geometry_unchanged": true,
+    "profile": "assetsmodel-brand-materials-v1",
+    "palette_linear_rgba": {
+      "peitian_yellow": [
+        0.86315721,
+        0.4735315,
+        0.00972122,
+        1.0
+      ],
+      "kuka_orange": [
+        0.86315721,
+        0.1746474,
+        0.01520851,
+        1.0
+      ],
+      "kuka_agilus_white": [
+        0.80695226,
+        0.82278575,
+        0.79910274,
+        1.0
+      ],
+      "kuka_dark_interface": [
+        0.02955683,
+        0.03433981,
+        0.03820437,
+        1.0
+      ],
+      "fanuc_yellow": [
+        0.90466117,
+        0.59720179,
+        0.00802319,
+        1.0
+      ],
+      "motoman_blue": [
+        0.0,
+        0.15592646,
+        0.47932018,
+        1.0
+      ],
+      "ur_blue": [
+        0.19120168,
+        0.40197778,
+        0.57112483,
+        1.0
+      ],
+      "rokae_soft_cyan": [
+        0.48514994,
+        0.72305513,
+        0.83076988,
+        1.0
+      ],
+      "white_paint": [
+        0.77582222,
+        0.79129794,
+        0.7605245,
+        1.0
+      ],
+      "franka_shell": [
+        0.83879901,
+        0.85499261,
+        0.86315721,
+        1.0
+      ],
+      "graphite": [
+        0.03433981,
+        0.04373503,
+        0.05126946,
+        1.0
+      ],
+      "black_polymer": [
+        0.01444384,
+        0.01938236,
+        0.02518686,
+        1.0
+      ],
+      "aluminium": [
+        0.52099557,
+        0.55834039,
+        0.59061884,
+        1.0
+      ],
+      "fanuc_m20_casting": [
+        0.05448028,
+        0.05780543,
+        0.05780543,
+        1.0
+      ],
+      "fanuc_m710_casting": [
+        0.02955683,
+        0.03433981,
+        0.03820437,
+        1.0
+      ],
+      "fanuc_r2000_casting": [
+        0.03688945,
+        0.04231141,
+        0.04666509,
+        1.0
+      ],
+      "fanuc_dark_interface": [
+        0.02955683,
+        0.03433981,
+        0.03820437,
+        1.0
+      ]
+    }
+  },
+  "generated_at": "2026-11-03T15:37:45.203471+00:00",
+  "files": [
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_2/Visual/glb/BaseLink.glb",
+      "status": "unchanged",
+      "before_sha256": "709b8baec8bc50457a7456c788276c0e1477f49255e930e35cac5435080c72e7",
+      "bin_sha256": "a157a7b46c195d8c1683275e99dcfb34627dc1bdbaad838c090589d5a6ba7c22",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_2/Visual/glb/Link1.glb",
+      "status": "unchanged",
+      "before_sha256": "bbda6e0c8736c152d18357b26f4d378a4a049252d44f7b41af2a28a574a70d7b",
+      "bin_sha256": "22321b1136b5773fd5a1a328bcb15980695dd621ce9881902ef36a14e0a50456",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_2/Visual/glb/Link2.glb",
+      "status": "unchanged",
+      "before_sha256": "ac0d62ca2f38e507d4f5d323e60a432d37d98f578f42cc004558226d92081318",
+      "bin_sha256": "f381ddd0cf8c2f5f5569c76eacd918b1614464dfae124299c4369f13b5c0c2aa",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_2/Visual/glb/Link3.glb",
+      "status": "unchanged",
+      "before_sha256": "29efd05116fba1673e394caa41bddfbc3b5416e093c419578a95f834e5d2ca85",
+      "bin_sha256": "a2a8bc6c97875d0856a3a73c64ce9acd8df68a873d5b8648623a7250f01eed55",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_2/Visual/glb/Link4.glb",
+      "status": "unchanged",
+      "before_sha256": "bd03fa3873b029a9dda144853063c3c670a233f5a6cdb1d7111872ddc34b42ac",
+      "bin_sha256": "5cadaf6a638bf0948312ec78f7cab0f052d21540e08862f4f78e24209bc0a152",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_2/Visual/glb/Link5.glb",
+      "status": "unchanged",
+      "before_sha256": "fba79e0e208bfea9d4f1e0b0f67ac0bf045890528841d1f7f7337fb61c111abd",
+      "bin_sha256": "395a64b93db20d503fa5221f2dd03641cff52ccc27d8627df1a575f24227082a",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_2/Visual/glb/Link6.glb",
+      "status": "applied",
+      "before_sha256": "600a328a74119a4ece77c5536b41313f54accce9009ea77fbc3fe83dc6dbf0f2",
+      "bin_sha256": "ce7bb821697fdda79185f33286603b96a1384ebbcf58c7848b3833a7e3d28134",
+      "materials": [
+        {
+          "index": 0,
+          "name": "link_06_part_000_mtl_003-material",
+          "role": "metal",
+          "palette": "kuka_dark_interface",
+          "before": {
+            "name": "link_06_part_000_mtl_003-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.6,
+                0.6,
+                0.6,
+                1.0
+              ],
+              "metallicFactor": 0.82,
+              "roughnessFactor": 0.27
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "metal",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "link_06_part_000_mtl_003-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.02955683,
+                0.03433981,
+                0.03820437,
+                1.0
+              ],
+              "metallicFactor": 0.82,
+              "roughnessFactor": 0.27
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "metal",
+                "palette": "kuka_dark_interface"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "44168933c27347597bc4e78023a0594b1f12621e2e6a0512e871fc37d0f41aa2",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 6514
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_sixx/Visual/glb/BaseLink.glb",
+      "status": "unchanged",
+      "before_sha256": "effaa74824a8bc87ee99fe7068defa43ed6201076cfcecec6244e1e90644c56d",
+      "bin_sha256": "8182d25a0999400faeb1c3e48098ae7e93acc8d79627d89ea05ec2a41ac7ad0d",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_sixx/Visual/glb/Link1.glb",
+      "status": "unchanged",
+      "before_sha256": "e5de012c7a2416c769e3386d447cf3aa7ce22d8f5b4ce393d9e85fdd24ebd117",
+      "bin_sha256": "86da1016d5c70e28e637221c5163d5dd00219a6b6ce355032296842c4d208301",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_sixx/Visual/glb/Link2.glb",
+      "status": "unchanged",
+      "before_sha256": "8355bf488982ca74e49187ad0ac58f5eb90c3cf6d9926cc5bc393e629ece2bcb",
+      "bin_sha256": "c69c5acd7df5c6fb53e12e7a2fd5795d71ea44a3793871581f6581c90cc00498",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_sixx/Visual/glb/Link3.glb",
+      "status": "unchanged",
+      "before_sha256": "ad3cdca6806bf5194f49cca05ff0ca5d8197b3bdeef5a0c0a527304bbdb991ff",
+      "bin_sha256": "a917584dc7a52134c989f4a1252f718cb7337c684b798d65b874b917856f5c37",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_sixx/Visual/glb/Link4.glb",
+      "status": "unchanged",
+      "before_sha256": "a7385acac45abb32435bb8f3a414a68faf89227eac6daab6ac70dfcb4d1205ef",
+      "bin_sha256": "89f1bff1d5c4a047d076fffbeac4ad19a9441c83c889ca3cd32eb20c1409b4f8",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_sixx/Visual/glb/Link5.glb",
+      "status": "unchanged",
+      "before_sha256": "b1c9a3f670cc6cd70a16e5fdfdea43f4ca6a1ecd1aa828e74c52e450a6acaa5c",
+      "bin_sha256": "afced63233fb71fe7613fa07f419958d4f46e95f0190f717c3a52fadb815f1c1",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_sixx/Visual/glb/Link6.glb",
+      "status": "unchanged",
+      "before_sha256": "d7a8757f01a13e1cd9e467064946428c09ccd54609e6edb4db6297260e04df19",
+      "bin_sha256": "bc5f301c55b7d0cdb20d589746c96a3a257d1f99015324cdaf72204e41583c16",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1420/Visual/glb/BaseLink.glb",
+      "status": "unchanged",
+      "before_sha256": "fc0dd9170abd84b6e49628db6f2aaf5e3b1be7090c65a5174d715c6bff573968",
+      "bin_sha256": "6238ece3de19d53e4568d77d7e407f84bc5a49f57c438926c75d559001353fa7",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1420/Visual/glb/Link1.glb",
+      "status": "unchanged",
+      "before_sha256": "ec16521f86ee0e0f1e7e793d38fea39dd4354ed1ef5d0d5441566dc17bff45b6",
+      "bin_sha256": "d5172b6b79cbc5a87be3598a97f67d1d2ea066efbc1c364e677aeccbd78dd4fa",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1420/Visual/glb/Link2.glb",
+      "status": "unchanged",
+      "before_sha256": "ca95d5376bcf29556c2ae08a04249b2f5d0faea271acf04c18a661ed576ce0e7",
+      "bin_sha256": "cb457844a0e0f61ffda69ab052012de1ebad9607f28a0f75f0b6aa905d4b7c46",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1420/Visual/glb/Link3.glb",
+      "status": "unchanged",
+      "before_sha256": "6696f24334f757339c854ff0ef0ce4ef256417a641cce186f25372c77b5e612c",
+      "bin_sha256": "56ea574e967981a6fb72687548481bc248da6f3a99fdb395229ed39518b81324",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1420/Visual/glb/Link4.glb",
+      "status": "unchanged",
+      "before_sha256": "0835c1c3fc1c701207dbda1ce5a249d52a361b67ecca099f685ac6fbdc787285",
+      "bin_sha256": "f19d479848efc16f0b3ef5aefc7dd66ffef74b6709674aa088a6a7dd03abd685",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1420/Visual/glb/Link5.glb",
+      "status": "unchanged",
+      "before_sha256": "ffbad65d860642bd5b72febeb8cc3f977d9d3c8c5206b437ee646cff3a3e121b",
+      "bin_sha256": "859a9f298bea9e7395967c90ff839cce495bed5ecd9de8dd71296283f9e2462b",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1420/Visual/glb/Link6.glb",
+      "status": "unchanged",
+      "before_sha256": "2c3d5317722e3b1e6fc965f96288a49a2c4a604a86e2061cf5651a01aa54c786",
+      "bin_sha256": "cf8da108dbd087f4d116cc70e8361df0861635389955298ad96b977c08dfd4f7",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R900_2/Visual/glb/BaseLink.glb",
+      "status": "unchanged",
+      "before_sha256": "02ed7b76a2ac55f3dd95d218b7da384742fd96418fd4609b4426b02fd0b1f3b4",
+      "bin_sha256": "0ab4bbf0cbfdd6412e1c439fc2415159d29bfe05f9f3b5f7ba4f0e4ed1055f9c",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R900_2/Visual/glb/Link1.glb",
+      "status": "unchanged",
+      "before_sha256": "41630e7de209d077a679f1eb6317cad99ee0dab11fa7ee393e313f8ff4ec9b16",
+      "bin_sha256": "7ae2e051bfb364000b8ea81b99e000b0ee730372904aee919a80c9b3eb40ecf3",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R900_2/Visual/glb/Link2.glb",
+      "status": "unchanged",
+      "before_sha256": "375dadff9de257166e37bc02ff8b3ccfaa0e621b99ab1da5fd75ac576ebb54b8",
+      "bin_sha256": "cb55235e1d80efe6fc2c0fad8225769b88d18188e875c113a4ee767ad11d9ec0",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R900_2/Visual/glb/Link3.glb",
+      "status": "unchanged",
+      "before_sha256": "5fb300cc21b41d9a0367c1a9038beab970f94abe637d0dec5da9b7d2223a7727",
+      "bin_sha256": "89416199b2a2131f4b3872748d59287f7fd96c17d75ca3ae46f667cc4f2d6af7",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R900_2/Visual/glb/Link4.glb",
+      "status": "unchanged",
+      "before_sha256": "c3bc03acc31321e82df042bd46d6391e74904663abac922ad0844a34fb8ceb14",
+      "bin_sha256": "82a1475966e1bcce8b3259483eaa34173024475eec2c5ac4f025191010e20d64",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R900_2/Visual/glb/Link5.glb",
+      "status": "unchanged",
+      "before_sha256": "1a7783ee1af4356ff21acd7ee2d685d1c29dcdb80deba66f69094846827e1b3e",
+      "bin_sha256": "58f75bda35d74afa6a7110e47f6800035c8699cee0b78217696b6d1a58f07fc2",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R900_2/Visual/glb/Link6.glb",
+      "status": "applied",
+      "before_sha256": "7b2f9fcb821ca8f699fee1eec97d4d95d4b0907e1e3454fbccfb2d660aecf8df",
+      "bin_sha256": "1b3f8c2316e8cf7cf069eb54840870d243eca3cd23cd38d080001bf6762ace11",
+      "materials": [
+        {
+          "index": 0,
+          "name": "link_06_part_000_mtl_001-material",
+          "role": "metal",
+          "palette": "kuka_dark_interface",
+          "before": {
+            "name": "link_06_part_000_mtl_001-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.5163949,
+                0.5559411,
+                0.5999999,
+                1.0
+              ],
+              "metallicFactor": 0.82,
+              "roughnessFactor": 0.27
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "metal",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "link_06_part_000_mtl_001-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.02955683,
+                0.03433981,
+                0.03820437,
+                1.0
+              ],
+              "metallicFactor": 0.82,
+              "roughnessFactor": 0.27
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "metal",
+                "palette": "kuka_dark_interface"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "fe57160488ade0296b0d6cac6adc902047ffcd7e8ff83f107e5338d0ba407dda",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 1204
+    },
+    {
+      "path": "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/BaseLink.glb",
+      "status": "unchanged",
+      "before_sha256": "b47915d3456c6f8b3f3871c5ed7e6fb99c90844ff0f827508835d3329fa51475",
+      "bin_sha256": "95f008e77760770ebf9b6a8a3c57c0d7fdbebaa7195bc51ea08ddf4eaba449e9",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/Link1.glb",
+      "status": "unchanged",
+      "before_sha256": "e2fc0b4a1fe1effcb6a55d318c723b1d3ddd3664c3034d1d51d3d0553ecbf1c9",
+      "bin_sha256": "55ddf72db7eaf9ca0a9e796bcefd76820926bce4b4f7a4a35f3e856cedd29d37",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/Link2.glb",
+      "status": "unchanged",
+      "before_sha256": "1d24cad06e61dba2f21950b5d15dcdee168858473e0899ceb35c52e4eff7c98c",
+      "bin_sha256": "54fea9a893af7b752bfaddd58b36704f72264c4e926df1f0a3cd2d5ccb04ccae",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/Link3.glb",
+      "status": "unchanged",
+      "before_sha256": "a8407dccb92162f1371d499ae40cda310652116fdf358e5f2096a8284d886fb0",
+      "bin_sha256": "7e0facca7d31b48b4608856311b7f4b291b21789697b5cffd3428d41c6956f39",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/Link4.glb",
+      "status": "unchanged",
+      "before_sha256": "33e3d1dcea8066449bb4f7b2af562b158dffa44036326c0e7c27aedcc28381b0",
+      "bin_sha256": "4416940d20739f8232c10381eb5afcd2cf52bc19c165387ad12162d9a775f6aa",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/Link5.glb",
+      "status": "unchanged",
+      "before_sha256": "97abc336bf05d1f4ac91fa44fd2234dbcbb81acadfbf41737133d8be319a5731",
+      "bin_sha256": "fa57651a7bc710b9285c32c5e6d8725f7856702e7b4bb03bb9dc10ae5593ff39",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/Link6.glb",
+      "status": "unchanged",
+      "before_sha256": "9fbd42ad6ce8b98179aec3062004e74fe8170c7b8391a3f8873cee582578dbc0",
+      "bin_sha256": "c7f3f33823607e29668b538f8dcc8e56776996043a756e8b07d2e75737a16385",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_2/Visual/glb/BaseLink.glb",
+      "status": "unchanged",
+      "before_sha256": "91c185c0009f120035a1db98b884e248eaff801320a4bf977c6b0dacb759edd2",
+      "bin_sha256": "ec73b04063c56d4efafeee39d22bedbacf5f8d0f92fcf51660a6d2d5e2275ae8",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_2/Visual/glb/Link1.glb",
+      "status": "unchanged",
+      "before_sha256": "681a528c6e1d486fa87c3a86be29e62915f9e6b3fa2dafba274e96a5e1f518a5",
+      "bin_sha256": "14b899d5777165072a11ce0725be933d74914fa38b04ea4e42e8ac6b733dbd61",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_2/Visual/glb/Link2.glb",
+      "status": "unchanged",
+      "before_sha256": "d9041983cb255b288e0afbf3babfd52c4d0b66f1026c03ccc9c6d4ef65c6f280",
+      "bin_sha256": "b5bec28bce745c3cbcf71d6162b416f0d37b0e587875def40a0c652c372c54e0",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_2/Visual/glb/Link3.glb",
+      "status": "unchanged",
+      "before_sha256": "87d65a0904ecde2698af22538c2f51d60183c896411fd6bac82fec6a606daef8",
+      "bin_sha256": "cc16233d20ce6e06766dc4913f269ad1e684de9df93a9c839312d56013939a4e",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_2/Visual/glb/Link4.glb",
+      "status": "unchanged",
+      "before_sha256": "a7b2af888c16d1375520aa2978f788a4416e1b3dc3a40f8eee9284ef2770eaf8",
+      "bin_sha256": "0df03c112e9efd2225cb7f597dba1f8bb6c0b01bb6d8d6fb01e1c9528e89ac74",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_2/Visual/glb/Link5.glb",
+      "status": "unchanged",
+      "before_sha256": "05f9f02fe5fa037f94dc15b7e5271fbe9d0042e37674766bc46a25752c9a2143",
+      "bin_sha256": "d24918b1ac7e8b65dea8fb69eefb1af7941c08bd75fbe104bde4ee41843f0141",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_2/Visual/glb/Link6.glb",
+      "status": "unchanged",
+      "before_sha256": "597688a641a1a5ac01e8aa33440825054feab773287e494481d8f8df7e703cb4",
+      "bin_sha256": "d1199f861f1b474172726a5bf0ddf42cfd5dd6905111bc2343ceb15bfd5640cb",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_R3100_2/Visual/glb/BaseLink.glb",
+      "status": "unchanged",
+      "before_sha256": "7ab8c05d7ad05b0bf044138ca271949c0885aac2e0b319aa422c7baae6330532",
+      "bin_sha256": "9f988f3014b7ac130950274e5983cb6159df1fe14ba3a4f3540c629177b4c5ec",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_R3100_2/Visual/glb/Link1.glb",
+      "status": "unchanged",
+      "before_sha256": "619fb7b0f532f3af62e5456576899be5eeaf3662a3815b5d039fa8ba00c93fc2",
+      "bin_sha256": "dd8019533600447de377cfadfe9acf27acc8cebdb0091f860961ec1c40dcc764",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_R3100_2/Visual/glb/Link2.glb",
+      "status": "unchanged",
+      "before_sha256": "008240cc585809982424ac04a4bfd68540fa8722885805db1cf484def082856b",
+      "bin_sha256": "6cf702868e6fc567ac68e0e926fd869966261f812f238d0770b47a09878d6401",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_R3100_2/Visual/glb/Link3.glb",
+      "status": "unchanged",
+      "before_sha256": "2a3ca563a7e6b089aa11dd9c27a333bcbc2810c179d215d5bdbfabd33218808b",
+      "bin_sha256": "fb4b6cb16891a8cfcfddeadb4d6a56c6d4683086beb0f930ec7ab9601b5ac0f8",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_R3100_2/Visual/glb/Link4.glb",
+      "status": "unchanged",
+      "before_sha256": "39539df79f591074f07ca38330fce59982ce0cad58f94342b28437b66c09dfc0",
+      "bin_sha256": "44c7f15a13491b5ee907407d8ff6ff8578b4f9945b77c7c0b18e5062c92ada28",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_R3100_2/Visual/glb/Link5.glb",
+      "status": "unchanged",
+      "before_sha256": "e1e94dcf944394227e6ac15fdb3a1fc21dded2be6f731b1bbe243e0e2fa24581",
+      "bin_sha256": "e892916500c8dc645c754461114fbf507f8b41ebb1a9033a1d87e3d5ecec31b6",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_R3100_2/Visual/glb/Link6.glb",
+      "status": "unchanged",
+      "before_sha256": "907157bd411ed0f5dc0063aab7ef831c944ba7f80d5269633c2763300619735c",
+      "bin_sha256": "ba2eb84e67379e486eb5504dc2b47eff3908c74105263ee08997817d563a4c2b",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR16_2/Visual/glb/BaseLink.glb",
+      "status": "unchanged",
+      "before_sha256": "6a69e3c3eb40594872d1414491188217dbd3fc93238c8e2d61f67ad7e5b38f03",
+      "bin_sha256": "2f807e1e51087f3674ee56186299994bfacf8b91cd6c58723fb2b8894e2a2aa5",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR16_2/Visual/glb/Link1.glb",
+      "status": "unchanged",
+      "before_sha256": "20176d4f48ad71e322fa95e396f6d8d00bc4502a9b629abdd8185a2baae07596",
+      "bin_sha256": "75bccd0d5411b45d481e2678b8faa9ea6b178557a1112d1b3bc46f62f768c1d3",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR16_2/Visual/glb/Link2.glb",
+      "status": "unchanged",
+      "before_sha256": "721fd1bfd62939fb5b020d8eca181e7f9977950c42fab4e4cf86dadd20ae9f72",
+      "bin_sha256": "04a82f325b7271d3503f202d9372d3e0afbfea382d694fd86908e5e98253f194",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR16_2/Visual/glb/Link3.glb",
+      "status": "unchanged",
+      "before_sha256": "3ae4d39d4223cb511482e83d8cb681fde53c6be467932682a34e08a61aa95cd1",
+      "bin_sha256": "65621a1e8722db0200325bf3587d518829fd663dda47d078c3c7ed2c3632805b",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR16_2/Visual/glb/Link4.glb",
+      "status": "unchanged",
+      "before_sha256": "fc5dec7e45aad978acee7e48412f5aeb79a9446c89c90c521ca86f7e6b75653d",
+      "bin_sha256": "c9e67133fc848acc5cfc61029114393842bf06b6b393e50a7e73ae2c98f5f12a",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR16_2/Visual/glb/Link5.glb",
+      "status": "unchanged",
+      "before_sha256": "e2a424d5282246fb5f2d10481a7d615d9a99fab3f921810786d97baabd36d3cc",
+      "bin_sha256": "c55b728743479af7ad0570d2a9d79557d5191cc8c6f177805b4a1e6b402617ac",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR16_2/Visual/glb/Link6.glb",
+      "status": "unchanged",
+      "before_sha256": "990ed1ed946de55ceb70da84c0e48d56ae95acfdef053ecc30ea62390fb0ceed",
+      "bin_sha256": "b4715ad198ade776698a32390905d4fd306114572e014b209f3d18fe67ccbb39",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/BaseLink.glb",
+      "status": "unchanged",
+      "before_sha256": "e5e329a1773283c2b8170bf6c5b9483cfb8d467e220dea09998751833c8d4527",
+      "bin_sha256": "edbb03330cc31a106072a3bf84ea9b7c2e0ed5cb1b47e55cf1145d7ff481c381",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link1.glb",
+      "status": "unchanged",
+      "before_sha256": "94612bbb98880cdb257662bba865ca4d4001a75deb96241284e7f002353f53b9",
+      "bin_sha256": "e20feae2b2835513ece2abcb4ac00033bf58d9ddb274cdf621ac7b9c62300693",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link2.glb",
+      "status": "unchanged",
+      "before_sha256": "3c72904f77f7107556002c079b2f7a0c9f54b3cd06c8631e5e987266fbe5d5e1",
+      "bin_sha256": "616cf581f89b5c039cccbed102841a2bd570d879b64b4dfecb8e7baf65a39e13",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link3.glb",
+      "status": "unchanged",
+      "before_sha256": "2be3969a84bc85d758fddfdd5a12dc5bbfa4f3f0443afd6ee604deacfcd16acf",
+      "bin_sha256": "dbf43beeabc1f6ac1a980d051cc89a60363611f6026036f86cb6126e6006b344",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link4.glb",
+      "status": "unchanged",
+      "before_sha256": "b5e0694fad82f77ebc13e03be491fddd8ddf7a544649f1796a3f9130869b7b50",
+      "bin_sha256": "73f26c6c091038309c68abd23d0fb73a41f94f51c78e3c0f6321e18d19640344",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link5.glb",
+      "status": "unchanged",
+      "before_sha256": "8edeaa109547f7bdb2b7e2ecb555b544024e7af6e75ebca23f21a82338bc1f81",
+      "bin_sha256": "baa707832b87bc4eb3e83556a9e14f52ea4e9d4aa1eca0c52c22378bc11c5c11",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link6.glb",
+      "status": "unchanged",
+      "before_sha256": "cb3254040b9f91ea97fd47d6523cff4986fcbb36e2eda50c2d9389acd16ab457",
+      "bin_sha256": "925e66c6006618642eaf675d598bbb0a7c5b21ed10adb31ca792463dcdce7bff",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR3_R540/Visual/glb/BaseLink.glb",
+      "status": "unchanged",
+      "before_sha256": "737904f997c5a4eb25411cc7776faa4cec2e57dd0edc2c95c574d2e2fb57f977",
+      "bin_sha256": "268a17f5b9e548658e9c88745fb426b51783cd2cf8085fadc7356f2b03f012ee",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR3_R540/Visual/glb/Link1.glb",
+      "status": "unchanged",
+      "before_sha256": "4a4f8d5ca251d7585b2e97a8729df03b72b67cdac11885c6b96f1f92b493ab80",
+      "bin_sha256": "b43bf765ec8ed7bef83d72ddb85efb6d6cdeb4b9ea8d0dfea3ab76b7b48fdfce",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR3_R540/Visual/glb/Link2.glb",
+      "status": "unchanged",
+      "before_sha256": "522498efb713d81bd9db1ac60d59ce6a9f96b8623595184fb8236cefb917b0fd",
+      "bin_sha256": "eb0d324a010d8964072a1edaec5a4b73f9da3bed7aee0cca613beef7057361d7",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR3_R540/Visual/glb/Link3.glb",
+      "status": "unchanged",
+      "before_sha256": "113f3f97706408dd23715c2b81b461a1b36c085c01d428957afc394f56a70dc7",
+      "bin_sha256": "9c3395c7f460a49be7d838e1f18501cd9dfa9c8fbead81cdf360071e926ede39",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR3_R540/Visual/glb/Link4.glb",
+      "status": "unchanged",
+      "before_sha256": "345fb4ca96d99b76d9e5d96054c11e7cc2c268d116ebd875fff2689bc4e59455",
+      "bin_sha256": "8c061ceaa33eb595d88fa89b124dd09576f792529f02b6791d3873c252a53056",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR3_R540/Visual/glb/Link5.glb",
+      "status": "unchanged",
+      "before_sha256": "f94ebe51a66ab17a17cbb754877a8f453977217423235e65a2fd889a4df27f55",
+      "bin_sha256": "68c3cb1d539f7b23ba95e901b24d52bc95977cabfda7dff0021e881300adbb74",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR3_R540/Visual/glb/Link6.glb",
+      "status": "applied",
+      "before_sha256": "e1553c24c3968fd7803a4f6bcfb38fed8e2ea357706115d0cfb514431e3350f7",
+      "bin_sha256": "bb4282612e44bab23d6f467130d13a1e0f53ad43d802a4eae803445eb59783f2",
+      "materials": [
+        {
+          "index": 0,
+          "name": "link_06_part_000_mtl-material",
+          "role": "metal",
+          "palette": "kuka_dark_interface",
+          "before": {
+            "name": "link_06_part_000_mtl-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.6,
+                0.6,
+                0.6,
+                1.0
+              ],
+              "metallicFactor": 0.82,
+              "roughnessFactor": 0.27
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "metal",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "link_06_part_000_mtl-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.02955683,
+                0.03433981,
+                0.03820437,
+                1.0
+              ],
+              "metallicFactor": 0.82,
+              "roughnessFactor": 0.27
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "metal",
+                "palette": "kuka_dark_interface"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "ad3eb63db938ea1d06739df7310e163477c02528bb67b98ecd8a51578120921c",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 6242
+    },
+    {
+      "path": "RobotModel/KUKA/KR5_ARC/Visual/glb/BaseLink.glb",
+      "status": "unchanged",
+      "before_sha256": "369030f1217a8e355bc12ef00b0edea82ec5657f85919680791d2734abe6075d",
+      "bin_sha256": "abd41fcd8fd99a682b4ed8f1e62d60806f5b011c90bdd12ee9e0db9d5e50a71c",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR5_ARC/Visual/glb/Link1.glb",
+      "status": "unchanged",
+      "before_sha256": "f93af57e31b16f63439869704aa5021e6b84757bc6adaef95440839e656988d2",
+      "bin_sha256": "14291d2254400451453bca30b5bcb8d541d6cadc473ba427bc4f85a8bbec9559",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR5_ARC/Visual/glb/Link2.glb",
+      "status": "unchanged",
+      "before_sha256": "a128b2a8e1893db7a6f1c1e45da06febadf756d2c900b39d4a68cdeea11e449c",
+      "bin_sha256": "1e68293b411b1f03837c185313c5d995639466fb1e3edb49464a562ba80f3827",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR5_ARC/Visual/glb/Link3.glb",
+      "status": "unchanged",
+      "before_sha256": "bc040f5ab017437fbcd42590a9dd3f0d65d2b4c9429224d68776a7dbba04cfbf",
+      "bin_sha256": "d28a4123d56ce23041d495f169e121ee392f2a09fc8fbac21a65e86dcd72c4bd",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR5_ARC/Visual/glb/Link4.glb",
+      "status": "unchanged",
+      "before_sha256": "d349ca71e82717d2848e2d3015240bc2492a97fbc6550e53b374111f9c4c192d",
+      "bin_sha256": "2a333dcc066db2edfcbcc5f6b52868a5c1bd4b8a231f4ea6142f28239a4e9413",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR5_ARC/Visual/glb/Link5.glb",
+      "status": "unchanged",
+      "before_sha256": "9442a5f57d5803f412559f0168e9cbd0564332c7963f71d42ccb1877801873e9",
+      "bin_sha256": "62bc7953cc5ddc1871e8a9e14de37d3e307936ad7da9c9e2783283e35e87c29c",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR5_ARC/Visual/glb/Link6.glb",
+      "status": "unchanged",
+      "before_sha256": "58746326bdf800a81854245534643771d48393964209e2e42aa7aeca2bc5748c",
+      "bin_sha256": "6709868811c793317ecec4c8dc020aac40230d022d30948f8fbd94168631d516",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R700_sixx/Visual/glb/BaseLink.glb",
+      "status": "unchanged",
+      "before_sha256": "ef70c464acd21db434851c2bc9f0e26737884be1132f656a71e6e57c737d3f3b",
+      "bin_sha256": "83d9a9bba1a344f9b1d10c0e0a56a50b5d01422c63faa9329d047e18d9bf44e9",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R700_sixx/Visual/glb/Link1.glb",
+      "status": "unchanged",
+      "before_sha256": "c6d71f0606f77b55487ff6fd25a5b70b2d9f87fda2fa3c9f42ca792be34b555d",
+      "bin_sha256": "8b99b18c94fb07ee81fb5b8d607a42e40bfd96f7497aa875e9a9449d626194bf",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R700_sixx/Visual/glb/Link2.glb",
+      "status": "unchanged",
+      "before_sha256": "5e39e989ec5cf3eb4183c0893063844ea19c9510c42cf49f7fa9e465f2a083c4",
+      "bin_sha256": "22530e234b752cf15187a4aef65b1b0294720f3f20fc50e7d3f88c56e2771a1a",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R700_sixx/Visual/glb/Link3.glb",
+      "status": "unchanged",
+      "before_sha256": "1a3bdfb71f3ae33422c7cb011d07795c008990ac38bb9092a6080fd998577499",
+      "bin_sha256": "bf34c9ce30deaabd2e038d0969f27e912a8d663f438b85229255e93ff47cb767",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R700_sixx/Visual/glb/Link4.glb",
+      "status": "unchanged",
+      "before_sha256": "6cc7a9bd65e2ecf10197b8813e3ef2b32ca3f82ea66ff8c5b79c9b0ee92f3a33",
+      "bin_sha256": "ebc6ef73d61611308f2728a72d2727547384d898c44489fff66d051dda8be2a6",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R700_sixx/Visual/glb/Link5.glb",
+      "status": "unchanged",
+      "before_sha256": "ebe0dcc4d7a43d186c44a13a99e67574f9798c6459a1e8875c05a1221f9cd939",
+      "bin_sha256": "e7da436065a18c4e3297db1a545d36e5b4e73165f46fb9da93e257033f27c361",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R700_sixx/Visual/glb/Link6.glb",
+      "status": "unchanged",
+      "before_sha256": "b83ae48bf1abb6fc52b8976fa7be4348797a9efdafed8203150e488787591d70",
+      "bin_sha256": "879a3f4b94fc5e3e49f67fea8833bb302dc3f76d798a2f1bb380afa6b94e4a4a",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R900_sixx/Visual/glb/BaseLink.glb",
+      "status": "unchanged",
+      "before_sha256": "9b6ae56c21fd532b78449d03b0e3b9edbd090ea92fb02e23d3d3c6dd11de1126",
+      "bin_sha256": "83d9a9bba1a344f9b1d10c0e0a56a50b5d01422c63faa9329d047e18d9bf44e9",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R900_sixx/Visual/glb/Link1.glb",
+      "status": "unchanged",
+      "before_sha256": "c6d71f0606f77b55487ff6fd25a5b70b2d9f87fda2fa3c9f42ca792be34b555d",
+      "bin_sha256": "8b99b18c94fb07ee81fb5b8d607a42e40bfd96f7497aa875e9a9449d626194bf",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R900_sixx/Visual/glb/Link2.glb",
+      "status": "unchanged",
+      "before_sha256": "22825e751a63e330476df25eff11dbe226a2f653d752e917d6aba5f5f7a8a1a6",
+      "bin_sha256": "7c6406476f2f08496177765f12ebfb2ba2ee296d5717e154b0b787322317326d",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R900_sixx/Visual/glb/Link3.glb",
+      "status": "unchanged",
+      "before_sha256": "64cb236584f14a85fd1aac0e4c242c59d22114dde285bc8639e2631068ec35ae",
+      "bin_sha256": "044c27a895e846d8783042528ff2919d12519334595308250f8665ad94db6e6f",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R900_sixx/Visual/glb/Link4.glb",
+      "status": "unchanged",
+      "before_sha256": "e3c41326454b2910f237c06ed9714bd2f1cf98e965e13fb80059da9b689fd81f",
+      "bin_sha256": "eb20efecb0d25170fc2e3b9c526c683598906b42dbf6b4e0d8dcbfbeec6c3835",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R900_sixx/Visual/glb/Link5.glb",
+      "status": "unchanged",
+      "before_sha256": "6f82b8a0703d5369d675cf1a914cad1bbc24b436fde31fbec26d10367afaa49c",
+      "bin_sha256": "9929f85e73e5cc83d2ee7b33473bb71f948357cc221297594fd1ac5142a66df0",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R900_sixx/Visual/glb/Link6.glb",
+      "status": "unchanged",
+      "before_sha256": "53d00166c65d4f8ad23631f9b9c42660f5000da52d39639e3e4f8211eeda62c7",
+      "bin_sha256": "69ac485b281e1e4c558b2e9924490f6e5841570aa4be176af47c8d4b2f9c027b",
+      "materials": []
+    }
+  ]
+}

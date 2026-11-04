@@ -1,0 +1,196 @@
+{
+  "renders": [
+    {
+      "id": "abb-irb1200",
+      "label": "ABB IRB1200-7/0.7",
+      "urdf": "RobotModel/ABB/IRB1200_7_70/IRB1200_7_70.urdf",
+      "view": "hero",
+      "joints": {},
+      "image": "abb-irb1200-hero.png",
+      "source_sha256": "590c2b6992c739ca0e838f1d988095fd0f94d21708558df51fe464763eb5497b"
+    },
+    {
+      "id": "abb-irb1200",
+      "label": "ABB IRB1200-7/0.7",
+      "urdf": "RobotModel/ABB/IRB1200_7_70/IRB1200_7_70.urdf",
+      "view": "rear",
+      "joints": {},
+      "image": "abb-irb1200-rear.png",
+      "source_sha256": "20ac83b9cd69aebbd891801f316c540104144d35b2e0f896a5ca7432858a6b74"
+    },
+    {
+      "id": "ae-air10",
+      "label": "AE AIR10-1210",
+      "urdf": "RobotModel/AE/AIR10_1210/AIR10_1210.urdf",
+      "view": "hero",
+      "joints": {},
+      "image": "ae-air10-hero.png",
+      "source_sha256": "094d3da2447ed9deadcd3d7091c0d04bb84439e306eae50e816809b21712aa8b"
+    },
+    {
+      "id": "ae-air10",
+      "label": "AE AIR10-1210",
+      "urdf": "RobotModel/AE/AIR10_1210/AIR10_1210.urdf",
+      "view": "rear",
+      "joints": {},
+      "image": "ae-air10-rear.png",
+      "source_sha256": "5d33c9a277779c69601ff7fc323023b65b789ece697c2792a1833b1c862856d9"
+    },
+    {
+      "id": "agile-diana7",
+      "label": "Agile Diana 7",
+      "urdf": "RobotModel/Agile/Diana_7/Diana_7.urdf",
+      "view": "hero",
+      "joints": {},
+      "image": "agile-diana7-hero.png",
+      "source_sha256": "ddd48a0dcf88b14c6ce54423b6971bcd16e91d89af36a76bb672a480a31d91f4"
+    },
+    {
+      "id": "agile-diana7",
+      "label": "Agile Diana 7",
+      "urdf": "RobotModel/Agile/Diana_7/Diana_7.urdf",
+      "view": "rear",
+      "joints": {},
+      "image": "agile-diana7-rear.png",
+      "source_sha256": "eda855631afbde7bcb5ae7bdf55e292c5480aba945d2f3ddff7baec9b4ec20ac"
+    },
+    {
+      "id": "fanuc-m10",
+      "label": "FANUC M-10iD/12",
+      "urdf": "RobotModel/Fanuc/M_10iD_12/M_10iD_12.urdf",
+      "view": "hero",
+      "joints": {},
+      "image": "fanuc-m10-hero.png",
+      "source_sha256": "56db2d38dffde10b9334f6746b27f4eaa63afdc18779f462e5cac377eb848448"
+    },
+    {
+      "id": "fanuc-m10",
+      "label": "FANUC M-10iD/12",
+      "urdf": "RobotModel/Fanuc/M_10iD_12/M_10iD_12.urdf",
+      "view": "rear",
+      "joints": {},
+      "image": "fanuc-m10-rear.png",
+      "source_sha256": "57914a7a334cd6dc930fb7b03c6b252aac9509ab1f4f339c60a37fcb1fe9dbd5"
+    },
+    {
+      "id": "franka-fr3",
+      "label": "Franka Research 3",
+      "urdf": "RobotModel/Franka/FR3/FR3WithHand.urdf",
+      "view": "hero",
+      "joints": {
+        "fr3_joint2": -0.5,
+        "fr3_joint4": -1.8,
+        "fr3_joint6": 1.4,
+        "fr3_joint7": 0.7,
+        "fr3_finger_joint1": 0.03
+      },
+      "image": "franka-fr3-hero.png",
+      "source_sha256": "c8fffefe2a841dc8a096b1fdafcaaddf3b206bdee541ca4ba7a1197eaa0397e4"
+    },
+    {
+      "id": "franka-fr3",
+      "label": "Franka Research 3",
+      "urdf": "RobotModel/Franka/FR3/FR3WithHand.urdf",
+      "view": "rear",
+      "joints": {
+        "fr3_joint2": -0.5,
+        "fr3_joint4": -1.8,
+        "fr3_joint6": 1.4,
+        "fr3_joint7": 0.7,
+        "fr3_finger_joint1": 0.03
+      },
+      "image": "franka-fr3-rear.png",
+      "source_sha256": "2a4c18635ab5e954e0540b9a899db9cf6df2da2b4dc611c066cf93b2fc6d1000"
+    },
+    {
+      "id": "hans-e05",
+      "label": "Han's E05",
+      "urdf": "RobotModel/Hans/E05/E05.urdf",
+      "view": "hero",
+      "joints": {},
+      "image": "hans-e05-hero.png",
+      "source_sha256": "6252a9a83931baac98236f37488894f9aebb7b17ed6f5f565217dfed2ba2f1bf"
+    },
+    {
+      "id": "hans-e05",
+      "label": "Han's E05",
+      "urdf": "RobotModel/Hans/E05/E05.urdf",
+      "view": "rear",
+      "joints": {},
+      "image": "hans-e05-rear.png",
+      "source_sha256": "8528977090f227c5e4f8d54970e6f9e1cf9a4f42e6598b2b55063daa148c6fd4"
+    },
+    {
+      "id": "kuka-kr10",
+      "label": "KUKA KR10 R1100-2",
+      "urdf": "RobotModel/KUKA/KR10_R1100_2/KR10_R1100_2.urdf",
+      "view": "hero",
+      "joints": {},
+      "image": "kuka-kr10-hero.png",
+      "source_sha256": "da433383ad81b79f7960cec7d6baa27ad9e046663839bf3e290c92c1460ad711"
+    },
+    {
+      "id": "kuka-kr10",
+      "label": "KUKA KR10 R1100-2",
+      "urdf": "RobotModel/KUKA/KR10_R1100_2/KR10_R1100_2.urdf",
+      "view": "rear",
+      "joints": {},
+      "image": "kuka-kr10-rear.png",
+      "source_sha256": "17f650e8edf2097e530631f5aba95ea20256e38e16e5f967e87d05426740dcf4"
+    },
+    {
+      "id": "motoman-gp7",
+      "label": "Yaskawa Motoman GP7",
+      "urdf": "RobotModel/Motoman/GP7/GP7.urdf",
+      "view": "hero",
+      "joints": {},
+      "image": "motoman-gp7-hero.png",
+      "source_sha256": "badf5432a9baaad370624fa84aed5c80315ce7adcf2c3986f074d7faf17f6748"
+    },
+    {
+      "id": "motoman-gp7",
+      "label": "Yaskawa Motoman GP7",
+      "urdf": "RobotModel/Motoman/GP7/GP7.urdf",
+      "view": "rear",
+      "joints": {},
+      "image": "motoman-gp7-rear.png",
+      "source_sha256": "18992511bab4968143a6822db07bf4648ff47ba24d884b32eff21173a0cbb4ed"
+    },
+    {
+      "id": "rokae-sr5",
+      "label": "ROKAE SR5",
+      "urdf": "RobotModel/Rokae/SR5/SR5.urdf",
+      "view": "hero",
+      "joints": {},
+      "image": "rokae-sr5-hero.png",
+      "source_sha256": "5ca06f5f59c07abef3bbb3d567c30fa9998391d20ac898316adb48e392c0df51"
+    },
+    {
+      "id": "rokae-sr5",
+      "label": "ROKAE SR5",
+      "urdf": "RobotModel/Rokae/SR5/SR5.urdf",
+      "view": "rear",
+      "joints": {},
+      "image": "rokae-sr5-rear.png",
+      "source_sha256": "bb39b74cba45361791ae3082ba1b49977e47a52cc42a28ade2e068a503d3657d"
+    },
+    {
+      "id": "ur5e",
+      "label": "Universal Robots UR5e",
+      "urdf": "RobotModel/UniversalRobots/UR5e/UR5e.urdf",
+      "view": "hero",
+      "joints": {},
+      "image": "ur5e-hero.png",
+      "source_sha256": "64ad5c2ba6b1080366d2d590ffb10fb529fab3d9578bf6e481c84f3d52a0eb01"
+    },
+    {
+      "id": "ur5e",
+      "label": "Universal Robots UR5e",
+      "urdf": "RobotModel/UniversalRobots/UR5e/UR5e.urdf",
+      "view": "rear",
+      "joints": {},
+      "image": "ur5e-rear.png",
+      "source_sha256": "2af208c173dd9d96dbdeee025c5a6c02bd9c6b1e41eaa723dbeec2ee040dd348"
+    }
+  ]
+}

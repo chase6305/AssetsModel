@@ -1,0 +1,376 @@
+{
+  "summary": {
+    "mode": "apply",
+    "visual_glbs": 21,
+    "changed_glbs": 2,
+    "imported_visual_glbs_excluded": 0,
+    "changed_materials": 2,
+    "roles": {
+      "brushed_metal": 2
+    },
+    "all_changed_geometry_unchanged": true,
+    "profile": "assetsmodel-brand-materials-v1",
+    "palette_linear_rgba": {
+      "peitian_yellow": [
+        0.86315721,
+        0.4735315,
+        0.00972122,
+        1.0
+      ],
+      "kuka_orange": [
+        0.86315721,
+        0.1746474,
+        0.01520851,
+        1.0
+      ],
+      "fanuc_yellow": [
+        0.90466117,
+        0.59720179,
+        0.00802319,
+        1.0
+      ],
+      "motoman_blue": [
+        0.0,
+        0.15592646,
+        0.47932018,
+        1.0
+      ],
+      "ur_blue": [
+        0.19120168,
+        0.40197778,
+        0.57112483,
+        1.0
+      ],
+      "white_paint": [
+        0.77582222,
+        0.79129794,
+        0.7605245,
+        1.0
+      ],
+      "franka_shell": [
+        0.83879901,
+        0.85499261,
+        0.86315721,
+        1.0
+      ],
+      "graphite": [
+        0.03433981,
+        0.04373503,
+        0.05126946,
+        1.0
+      ],
+      "black_polymer": [
+        0.01444384,
+        0.01938236,
+        0.02518686,
+        1.0
+      ],
+      "aluminium": [
+        0.52099557,
+        0.55834039,
+        0.59061884,
+        1.0
+      ],
+      "fanuc_m20_casting": [
+        0.05448028,
+        0.05780543,
+        0.05780543,
+        1.0
+      ],
+      "fanuc_m710_casting": [
+        0.02955683,
+        0.03433981,
+        0.03820437,
+        1.0
+      ],
+      "fanuc_r2000_casting": [
+        0.03688945,
+        0.04231141,
+        0.04666509,
+        1.0
+      ],
+      "fanuc_dark_interface": [
+        0.02955683,
+        0.03433981,
+        0.03820437,
+        1.0
+      ]
+    }
+  },
+  "generated_at": "2026-11-03T15:27:17.521359+00:00",
+  "files": [
+    {
+      "path": "RobotModel/Hans/E05/Visual/glb/BaseLink.glb",
+      "status": "unchanged",
+      "before_sha256": "8bf806fd5940c1ca8c772a11e5d4c393471efbda542813af348bfe22119e27d6",
+      "bin_sha256": "1f02d86bcb14a5c374a6056b489ee32cd1d7e960859c62748688cfde49a505f5",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Hans/E05/Visual/glb/Link1.glb",
+      "status": "unchanged",
+      "before_sha256": "3a535ca165a5ae7e7d0558c36877b4d4b7ef922938fe2602e27aebd7407aaeda",
+      "bin_sha256": "eceb1a4e736e45be18ccbc9e29314d9e1dc2cef02fce945193434ddb4c2147a2",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Hans/E05/Visual/glb/Link2.glb",
+      "status": "unchanged",
+      "before_sha256": "61729ac86686424757cad2038fdefdf09f316252704cacc753782fdd99acabf7",
+      "bin_sha256": "505b63e9446622d4667dd1ce118014ecb2cb750998df617b60f033cb54089bc2",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Hans/E05/Visual/glb/Link3.glb",
+      "status": "unchanged",
+      "before_sha256": "65c77d98d5f29d2e80bcca87991f90f85c7c6507bbe400fcc6d4fb709975abc9",
+      "bin_sha256": "306852299bd5f9c2c632eb3200ad5c8c9c127c6d6974d5e1a277ca453e5bf1cd",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Hans/E05/Visual/glb/Link4.glb",
+      "status": "unchanged",
+      "before_sha256": "c276cfc77c4d2cc0f5fa168828625c7c823630e6be651cf97e787d4870c2fd82",
+      "bin_sha256": "0774fc12e5ce26ce0c788a1a69003fed3db8d976dc6bc599e554105a4e83ca7c",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Hans/E05/Visual/glb/Link5.glb",
+      "status": "unchanged",
+      "before_sha256": "5212665af97c139f9891b7d466c09a8e9f339db5a629675eee823d52dc134f15",
+      "bin_sha256": "d663f11ed9b5fb60b94d45317e3115c98d089dc112229c5780ac3feb6668e786",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Hans/E05/Visual/glb/Link6.glb",
+      "status": "applied",
+      "before_sha256": "91a192edc71e6b3e1337561641d9954ec107d28771a26b1e3dab8924ad274380",
+      "bin_sha256": "51eaa6aee8ba54ebee6748996607d43cc887fbf8caed6e2fe42d2e8490507022",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Material-material",
+          "role": "brushed_metal",
+          "palette": "aluminium",
+          "before": {
+            "name": "Material-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.83879901,
+                0.85499261,
+                0.86315721,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.46
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "plastic",
+                "palette": "franka_shell"
+              }
+            }
+          },
+          "after": {
+            "name": "Material-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.52099557,
+                0.55834039,
+                0.59061884,
+                1.0
+              ],
+              "metallicFactor": 0.72,
+              "roughnessFactor": 0.34
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "brushed_metal",
+                "palette": "aluminium"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "40c56e93a30390c58f03f3db0fed936c80cc7541e6c46ce66e8db7ab65237a5e",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 20000
+    },
+    {
+      "path": "RobotModel/Hans/E10/Visual/glb/BaseLink.glb",
+      "status": "unchanged",
+      "before_sha256": "15608a726af9dab2d4b96bf3eac810681f0507927b8462f89a1b88902e8bfaef",
+      "bin_sha256": "41782af9b00b3750129db55c7c891aeea4061e7c464e2efdfefaccdfeabda118",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Hans/E10/Visual/glb/BaseLink.stl.glb",
+      "status": "unchanged",
+      "before_sha256": "1f8abe33fee8ae8e10a23da24febd1a45ccc363910859c69f614c3e30b428136",
+      "bin_sha256": "6934057c950b604a7b9456afff303fe724d6327ae5acecdee433fefad0ed294c",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Hans/E10/Visual/glb/Link1.glb",
+      "status": "unchanged",
+      "before_sha256": "9e8558cf6e6db4f215b90dbc29896818f3b0f077ff14f35a1c7ed4a55928a279",
+      "bin_sha256": "51f5f15fad48d247d71ee2737ee7113b02e54ae0971c32a75245562c78c8db10",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Hans/E10/Visual/glb/Link1.stl.glb",
+      "status": "unchanged",
+      "before_sha256": "b87dc5fbccdab48a15630d5e11b13b492201b666affd70baf909a09272e21ad3",
+      "bin_sha256": "0ff731b38b51a6f4c91a4cea883df486123c270f83bc8932f8bd03174de735d5",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Hans/E10/Visual/glb/Link2.glb",
+      "status": "unchanged",
+      "before_sha256": "749ae37878191f49d3ba9e48b1f95d0ee27853a312cab47e9977569848a27aa4",
+      "bin_sha256": "bf2ebc22819f0e89178c791a6ab9c9c9b90730b9fac5d4d7f92d0921462d7ba3",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Hans/E10/Visual/glb/Link2.stl.glb",
+      "status": "unchanged",
+      "before_sha256": "b1b5c0e76254e0477d48113277ccf3bee8eebc04d681251985acc420d48caab1",
+      "bin_sha256": "9b7cf8f98425d86c5d3e8899d91ddbb8e955c1837c2052ae43901ce4c9c1acb7",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Hans/E10/Visual/glb/Link3.glb",
+      "status": "unchanged",
+      "before_sha256": "298e574e78145964939a02ec774b66bc7d2fc8690be07e1bc6d678f90b65b075",
+      "bin_sha256": "3773c4495b60c1a77fc06a30b22315d5ba04994aad3b70f80b8b50bb12076233",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Hans/E10/Visual/glb/Link3.stl.glb",
+      "status": "unchanged",
+      "before_sha256": "f7fc042923acf03352fb22249aca41a13d352f7f6902c19feba70af0c817b130",
+      "bin_sha256": "5d6b84f2c78988d8fe891874483ebbe8625eca829aa0c00baf053369df6a93cd",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Hans/E10/Visual/glb/Link4.glb",
+      "status": "unchanged",
+      "before_sha256": "02bb951fa29d23b8f3186e82cb5cc64c972231bc2e32ec45709acbbf88269abb",
+      "bin_sha256": "06483c5b781f1b1bc5422b03417d65f5f8ccb691f90dc5e21a5e9b99520f4fe8",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Hans/E10/Visual/glb/Link4.stl.glb",
+      "status": "unchanged",
+      "before_sha256": "2c29a9d1eafc0c6e66684c91d0c031287b3754d5668011f7141fdf71b701ae8b",
+      "bin_sha256": "88df663b4c911a2c55ec5ed144bac533bcdfe58989baf6fcaca0ee3226624dae",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Hans/E10/Visual/glb/Link5.glb",
+      "status": "unchanged",
+      "before_sha256": "71487aff5a86de31eee68316028bc33e2aa4c71310b833223abc3f771612d28e",
+      "bin_sha256": "e5e67e1540d9c49e99cbdab11ce6502e203848ccbf3757a354fa7eebfdb3ddf9",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Hans/E10/Visual/glb/Link5.stl.glb",
+      "status": "unchanged",
+      "before_sha256": "132953bc73cd41efc6ab3d7bf728942fa0b9da894c6b1d72c98bdfcf78de1715",
+      "bin_sha256": "c7e1a4121eb8e4e1ee320632beb558a5d86181805d947c82730427379b5d5a87",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Hans/E10/Visual/glb/Link6.glb",
+      "status": "applied",
+      "before_sha256": "350d81099368b19593bda67fa636dd443c7b716da5ddc49b8c8757b4c0ed8c63",
+      "bin_sha256": "632176c272b71a7a3ecfc57672a8f5d33ac7fbf022475cf7ee1538ce0a3bfe01",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Material_033-material",
+          "role": "brushed_metal",
+          "palette": "aluminium",
+          "before": {
+            "name": "Material_033-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.83879901,
+                0.85499261,
+                0.86315721,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.46
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "plastic",
+                "palette": "franka_shell"
+              }
+            }
+          },
+          "after": {
+            "name": "Material_033-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.52099557,
+                0.55834039,
+                0.59061884,
+                1.0
+              ],
+              "metallicFactor": 0.72,
+              "roughnessFactor": 0.34
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "brushed_metal",
+                "palette": "aluminium"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "be0f3db376e99ffbdab071e55f322cc7602472f0678dc83aad2c3686a23e1e5e",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 38131
+    },
+    {
+      "path": "RobotModel/Hans/E10/Visual/glb/Link6.stl.glb",
+      "status": "unchanged",
+      "before_sha256": "a93d4792ab104a0ff727afb4a019af5b64e86d610614689f9634637d4494a6c8",
+      "bin_sha256": "e2cc4b1e33e58a3d19cf8b6196502f68255d105288549217c449de4b1cf2be5a",
+      "materials": []
+    }
+  ]
+}

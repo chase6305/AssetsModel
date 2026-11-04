@@ -1,0 +1,727 @@
+{
+  "summary": {
+    "mode": "apply",
+    "visual_glbs": 35,
+    "changed_glbs": 6,
+    "imported_visual_glbs_excluded": 0,
+    "changed_materials": 6,
+    "roles": {
+      "paint_dark": 3,
+      "metal": 3
+    },
+    "all_changed_geometry_unchanged": true,
+    "profile": "assetsmodel-brand-materials-v1",
+    "palette_linear_rgba": {
+      "peitian_yellow": [
+        0.86315721,
+        0.4735315,
+        0.00972122,
+        1.0
+      ],
+      "kuka_orange": [
+        0.86315721,
+        0.1746474,
+        0.01520851,
+        1.0
+      ],
+      "fanuc_yellow": [
+        0.90466117,
+        0.59720179,
+        0.00802319,
+        1.0
+      ],
+      "motoman_blue": [
+        0.0,
+        0.15592646,
+        0.47932018,
+        1.0
+      ],
+      "ur_blue": [
+        0.19120168,
+        0.40197778,
+        0.57112483,
+        1.0
+      ],
+      "white_paint": [
+        0.77582222,
+        0.79129794,
+        0.7605245,
+        1.0
+      ],
+      "franka_shell": [
+        0.83879901,
+        0.85499261,
+        0.86315721,
+        1.0
+      ],
+      "graphite": [
+        0.03433981,
+        0.04373503,
+        0.05126946,
+        1.0
+      ],
+      "black_polymer": [
+        0.01444384,
+        0.01938236,
+        0.02518686,
+        1.0
+      ],
+      "aluminium": [
+        0.52099557,
+        0.55834039,
+        0.59061884,
+        1.0
+      ],
+      "fanuc_m20_casting": [
+        0.05448028,
+        0.05780543,
+        0.05780543,
+        1.0
+      ],
+      "fanuc_m710_casting": [
+        0.02955683,
+        0.03433981,
+        0.03820437,
+        1.0
+      ],
+      "fanuc_r2000_casting": [
+        0.03688945,
+        0.04231141,
+        0.04666509,
+        1.0
+      ],
+      "fanuc_dark_interface": [
+        0.02955683,
+        0.03433981,
+        0.03820437,
+        1.0
+      ]
+    }
+  },
+  "generated_at": "2026-11-03T15:23:37.733551+00:00",
+  "files": [
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/BaseLink.glb",
+      "status": "unchanged",
+      "before_sha256": "03bc3aeb6e559d90762460dd408f63d0b45bab4fd8ce022824cecc79aabd0843",
+      "bin_sha256": "654ce06958fdad577f9e880e6fe9fa9f9ac4fdbb4a9deb2eb3595908033ad973",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/BaseLink.stl.glb",
+      "status": "unchanged",
+      "before_sha256": "f3bb731fcf8460279631ad1a0f21f5f539bf6620a9cbec0efe200d1bb67721e9",
+      "bin_sha256": "e9904f7b7a668588961de481c01e993e99228728c4b7fde8ee515fb6c0245dc3",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link1.glb",
+      "status": "unchanged",
+      "before_sha256": "d0ffe1710792cd06ae11ae188f88baeb85458d1cb1fd5c9f8982f3bf1ed32ba8",
+      "bin_sha256": "0d83fe9f35473923bf68a0d303d1c376db8cef1fd588d41c4520b193985e8200",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link1.stl.glb",
+      "status": "unchanged",
+      "before_sha256": "25c3e539971390d8cb0441d5e598230da91f6b282467b343cd911e2f6e4e6560",
+      "bin_sha256": "17f67a1d964188b1b87b7bae729f83e40807c1e387aa686057eee9d6a653c4f9",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link2.glb",
+      "status": "unchanged",
+      "before_sha256": "bb1a7b389f926388e251f590b4ddc73890a23b0a9ffdfc18cbf018d85d88256d",
+      "bin_sha256": "d6fee87f82c25cf4f67be73c50848c1d3a68b638bae42920a794ce9e6d07dd87",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link2.stl.glb",
+      "status": "unchanged",
+      "before_sha256": "b36594f4752b3f24bb74e28ae7cb37cfd892259ce96ae844f82270a307659334",
+      "bin_sha256": "d3bb848a3c163c0e589d5fcd06961ba25eadb00672f6ecd1cc8dfcd85e53c207",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link3.glb",
+      "status": "unchanged",
+      "before_sha256": "e583d3f645ed09e4ef32115c602c0dc941608fc78048b77bdc65f7771e8bfef1",
+      "bin_sha256": "9cf7430a86ffafd66411a68f2a9f5fc30dd8c60da1bf40b5c26ecd2036835df8",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link3.stl.glb",
+      "status": "unchanged",
+      "before_sha256": "51257e55f8c03d697a20e3755b6d1e118c60719851ef7893d487073041894052",
+      "bin_sha256": "bdbd2fcd8188ec9d829867321f11d86762ab639c40d3eb0201309235912589a1",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link4.glb",
+      "status": "unchanged",
+      "before_sha256": "15e7e9753bb678294f7949434c4aa626bf1651a6111828a2904ccd44a2ec6027",
+      "bin_sha256": "21d4ac34abbd7b614a5c0ea48ef93286c049401879b1531b7cc2dd453a2f0425",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link4.stl.glb",
+      "status": "unchanged",
+      "before_sha256": "5ba417cfd2ad4ad2ce8466ba65fd5a5910fc7bdd5281709fc7e1bf84350b5165",
+      "bin_sha256": "277d4cfb7541683a1f430058e148280c3ad14586840f14b96285f424b3053802",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link5.glb",
+      "status": "unchanged",
+      "before_sha256": "d8d9eddce7240e95aa09728e5f7c6e680d9a701d09c0bd808ab82bd135109a08",
+      "bin_sha256": "0edf85667c8370f28aa1777a2710fc2c9887130ef7e596f4c899ba5baec55bfa",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link5.stl.glb",
+      "status": "unchanged",
+      "before_sha256": "ea9e606cd65aed7a76fcd7c270f460ebac891b0a5718e98252463076d039902b",
+      "bin_sha256": "53ce0bc8a2dd7cc32256fb0b1d3f26e2efb3cdba8b471224d3998ac3f3696a06",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link6.glb",
+      "status": "unchanged",
+      "before_sha256": "270bf60c790ba364f17579a969f4491a92d5cd05561b891cb349d98f2b035cdc",
+      "bin_sha256": "674290057f00a72f08be19ff7b1492d30c3db30de9a6f8061a13793e41ebd8b2",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link6.stl.glb",
+      "status": "unchanged",
+      "before_sha256": "4b6234cf27511af40fc168c6c35228454cbf4f2b4b2469aac35f184057b534a9",
+      "bin_sha256": "f11e4686e026a2d0a735fbc72d38395e9ba138c4863718d0277d310546457db7",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Visual/glb/BaseLink.glb",
+      "status": "applied",
+      "before_sha256": "9773c1d60d5d802826213ec98d73dbb9b663391863445922773cd0e571cb06d0",
+      "bin_sha256": "41ed665882637d0dee8356efadeaf76d667e30e9b3caf5ab92bc88a5374ec295",
+      "materials": [
+        {
+          "index": 0,
+          "name": "RAL9005_008-material",
+          "role": "paint_dark",
+          "palette": "fanuc_m20_casting",
+          "before": {
+            "name": "RAL9005_008-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.00200704,
+                0.00200704,
+                0.00200704,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.46
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint_dark",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "RAL9005_008-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.05448028,
+                0.05780543,
+                0.05780543,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.46
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint_dark",
+                "palette": "fanuc_m20_casting"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "0581fb45a8ec80bfea9a804b16e429d61c0f3c7f4b0ed5de8d0863f52f7e155b",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 18742
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Visual/glb/Link1.glb",
+      "status": "unchanged",
+      "before_sha256": "a7236fbb75e9346df993dd3b7347732033925a8362ba8039f09a8247778a4307",
+      "bin_sha256": "ac90507e63fe3ffe726de85a70e3333e4bd620395a4e8f6e0adc0091e921699b",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Visual/glb/Link2.glb",
+      "status": "unchanged",
+      "before_sha256": "da0f8fa3ffd61d620c80849d842858ded91219e50a468ff99cab6f44e4968958",
+      "bin_sha256": "174d74b5f52ea96a2ca0ff359e32414900dd4f0f784bf7614a6317028b772de7",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Visual/glb/Link3.glb",
+      "status": "unchanged",
+      "before_sha256": "3f74ceaa012830a4bd2886e1f07cf7da992f9d965a30e1766233a5d9a432003e",
+      "bin_sha256": "6c435672419b844ad7129ef6ae597170fb1e2afb94ea770548893507388d1c54",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Visual/glb/Link4.glb",
+      "status": "unchanged",
+      "before_sha256": "a1630d45c3ac61dee5d4e7524190756c83b72a4e82ed79933fee386634a6b47f",
+      "bin_sha256": "85a6edf7230357c7be852a1550cfaab3862f3278ea77da0aeda21b94ff14c2cf",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Visual/glb/Link5.glb",
+      "status": "unchanged",
+      "before_sha256": "2c6bdb161588c77f2eeff03faa07c54a41a3992629049efe37e6cb506cb15f4c",
+      "bin_sha256": "48b16c2b7e0be907a01b9885d8827c84fd4c5f9a443a6114aa65e7c2f5cc89fb",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Visual/glb/Link6.glb",
+      "status": "applied",
+      "before_sha256": "a08ac45c977405fe63fb2d18c859200e426cde2d03b8f7c01ccaafa1a0f1c53c",
+      "bin_sha256": "01f72f688c0f3c901e50a0b3f0c296e0d8472db0c54e9db35942b17a6f7d9e9c",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Material_003-material",
+          "role": "metal",
+          "palette": "fanuc_dark_interface",
+          "before": {
+            "name": "Material_003-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.8,
+                0.8,
+                0.8,
+                1.0
+              ],
+              "metallicFactor": 0.82,
+              "roughnessFactor": 0.27
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "metal",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "Material_003-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.02955683,
+                0.03433981,
+                0.03820437,
+                1.0
+              ],
+              "metallicFactor": 0.82,
+              "roughnessFactor": 0.27
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "metal",
+                "palette": "fanuc_dark_interface"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "5a095e6f609aa950f2acbe20d69b84b43783818ef7c8d18054c51261034f4547",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 128
+    },
+    {
+      "path": "RobotModel/Fanuc/M_710iC_70/Visual/glb/BaseLink.glb",
+      "status": "applied",
+      "before_sha256": "4775a6bb00630d44d9212ef638f18ea4d4d589c21e1c5f58de7dedb6c4f857dc",
+      "bin_sha256": "3258e2f9ae5239e9db275071a7c159a8e3a9da6c5ab9fec6d1afe6a750acda72",
+      "materials": [
+        {
+          "index": 0,
+          "name": "link_01_part_000_mtl_001_001-material",
+          "role": "paint_dark",
+          "palette": "fanuc_m710_casting",
+          "before": {
+            "name": "link_01_part_000_mtl_001_001-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.4,
+                0.4,
+                0.4,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.46
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint_dark",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "link_01_part_000_mtl_001_001-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.02955683,
+                0.03433981,
+                0.03820437,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.46
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint_dark",
+                "palette": "fanuc_m710_casting"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "87ce19ca26b45dce85a3fc435c7f1eeec850593d08631d6ce5817d341f0e7666",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 3382
+    },
+    {
+      "path": "RobotModel/Fanuc/M_710iC_70/Visual/glb/Link1.glb",
+      "status": "unchanged",
+      "before_sha256": "badc894fc7a9d257100f04811da829e01abf5424609e27620252717739530844",
+      "bin_sha256": "f622eedcf04165ae58d5f4c4e2fb890aaf494148bbcd130267b04fa4ad4ac554",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_710iC_70/Visual/glb/Link2.glb",
+      "status": "unchanged",
+      "before_sha256": "d54fae83f56a98d21c9e8615c94753160f9b85e86c86d8c5732164cb99dd8e43",
+      "bin_sha256": "4977f0a0cf600c4203034e79921974ccd9aa5252b556018d3a6dfdd59ffa11c0",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_710iC_70/Visual/glb/Link3.glb",
+      "status": "unchanged",
+      "before_sha256": "5fe7f5127dd89d4f6aa4ab462aa7e559c36d19a68637186a91f5e606b53e7de6",
+      "bin_sha256": "d393f6df95469f038385af535845d523cd2e096e25af65d7d3624dede7893b9d",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_710iC_70/Visual/glb/Link4.glb",
+      "status": "unchanged",
+      "before_sha256": "67301ca458d1c4f73590bd58ab1da486e7cdb1359858bba1c9602e1f25974d64",
+      "bin_sha256": "b2dd7039bcfe91a3dc285da5238294bb23828dbd2a40ff3ac65af665b6985ec0",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_710iC_70/Visual/glb/Link5.glb",
+      "status": "unchanged",
+      "before_sha256": "e367c049a6374e1155a6db8249bf5736521043f88dd94beeed58fdc55e9bd7ff",
+      "bin_sha256": "62a13cde97c2aabea41061ba3cec2d2e1b74b7d639a4afcee9d03bcb92c974fb",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_710iC_70/Visual/glb/Link6.glb",
+      "status": "applied",
+      "before_sha256": "adbce14ad2d78670a0cc8bba4d8117d4cfbf01b53a562d793026c992d7296c9e",
+      "bin_sha256": "ac2ea7cb2dc4953fa83265261be624fe51746f7a68ef6956a2e4c14b667676a4",
+      "materials": [
+        {
+          "index": 0,
+          "name": "link_01_part_000_mtl_001_001-material",
+          "role": "metal",
+          "palette": "fanuc_dark_interface",
+          "before": {
+            "name": "link_01_part_000_mtl_001_001-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.4,
+                0.4,
+                0.4,
+                1.0
+              ],
+              "metallicFactor": 0.82,
+              "roughnessFactor": 0.27
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "metal",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "link_01_part_000_mtl_001_001-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.02955683,
+                0.03433981,
+                0.03820437,
+                1.0
+              ],
+              "metallicFactor": 0.82,
+              "roughnessFactor": 0.27
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "metal",
+                "palette": "fanuc_dark_interface"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "9bd25bf53b2226d81827a1b3a163b753fff39cb5000947bce09b72d04391d31b",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 2822
+    },
+    {
+      "path": "RobotModel/Fanuc/R_2000iC_165F/Visual/glb/BaseLink.glb",
+      "status": "applied",
+      "before_sha256": "8e1364bdc017fde53b851ad689ecc8eb8c85587b8ec1e66036d0e5a186e683b6",
+      "bin_sha256": "55ddf425ddc8a9c25bb07d74437bfc8441f3d0aab9411c507c2f9a753d18eae3",
+      "materials": [
+        {
+          "index": 0,
+          "name": "link_01_part_000_mtl_001_003-material",
+          "role": "paint_dark",
+          "palette": "fanuc_r2000_casting",
+          "before": {
+            "name": "link_01_part_000_mtl_001_003-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.4,
+                0.4,
+                0.4,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.46
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint_dark",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "link_01_part_000_mtl_001_003-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.03688945,
+                0.04231141,
+                0.04666509,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.46
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint_dark",
+                "palette": "fanuc_r2000_casting"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "04aed650a7d1491407f222ac88dd270db43a569266b28e53df0f61cc69af7e61",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 3742
+    },
+    {
+      "path": "RobotModel/Fanuc/R_2000iC_165F/Visual/glb/Link1.glb",
+      "status": "unchanged",
+      "before_sha256": "a3b59425366488fd0f7ad692c8c554b7b33b12273a273ebbf5848e382abeffcf",
+      "bin_sha256": "df8d1e56fedbc510c0603226ee4863ff16f05987397f1b7a08ba6ed9717fa7a7",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/R_2000iC_165F/Visual/glb/Link2.glb",
+      "status": "unchanged",
+      "before_sha256": "b0652e21e6fc47d6ce07c97b99fed39882d6c31789eb56e68617fa276fe1eeee",
+      "bin_sha256": "87c6c426ff33a56ac75ef9bb2ce3805ced57b82c12499ff38b04838fdafee7e3",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/R_2000iC_165F/Visual/glb/Link3.glb",
+      "status": "unchanged",
+      "before_sha256": "510d98bdd1d50554b3bcfdf08b94d265eaaf3008798e0f8ab3415b87e6af111f",
+      "bin_sha256": "dee8e3e98a8f026cf8b912f37e98354c7a22ae7d4998287dbf132165b53bec80",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/R_2000iC_165F/Visual/glb/Link4.glb",
+      "status": "unchanged",
+      "before_sha256": "29c55c7455cc8a3bba04ee25c672cb194920235ff3ccef9595e10204eeccfb38",
+      "bin_sha256": "fabd33f3cc00e6a534cf2b5994a809be98f1173f5abf57902adf814569a3753a",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/R_2000iC_165F/Visual/glb/Link5.glb",
+      "status": "unchanged",
+      "before_sha256": "7d30335a79de6f660dbeb77157b96c8bab504fb86f558b4a1dc9772be745d58d",
+      "bin_sha256": "8190ad456a05ebfa4567da3f705dca0b2495869d12c2ed1d00eff6d70f481313",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Fanuc/R_2000iC_165F/Visual/glb/Link6.glb",
+      "status": "applied",
+      "before_sha256": "50e452ac9f8abcd353eea35542089a0a8a242c45a350723c06611e38291da622",
+      "bin_sha256": "a74ef641cc2ceeed35f0273d998804d4530b58da35276d8833b3daae9e4ae561",
+      "materials": [
+        {
+          "index": 0,
+          "name": "link_01_part_000_mtl_001_008-material",
+          "role": "metal",
+          "palette": "fanuc_dark_interface",
+          "before": {
+            "name": "link_01_part_000_mtl_001_008-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.15,
+                0.15,
+                0.15,
+                1.0
+              ],
+              "metallicFactor": 0.82,
+              "roughnessFactor": 0.27
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "metal",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "link_01_part_000_mtl_001_008-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.02955683,
+                0.03433981,
+                0.03820437,
+                1.0
+              ],
+              "metallicFactor": 0.82,
+              "roughnessFactor": 0.27
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "metal",
+                "palette": "fanuc_dark_interface"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "bc6dbca08128bb6b446781dcdc48b854a9734284a6942e0c3fd5eef48bf5564a",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 1623
+    }
+  ]
+}

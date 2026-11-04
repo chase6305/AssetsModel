@@ -1,0 +1,28 @@
+{
+  "pack": "/tmp/assetsmodel-session-final-new-packs/ufact-lite6",
+  "view": "rear",
+  "azimuth_degrees": 125.00000000000001,
+  "elevation_degrees": 22.0,
+  "width": 1000,
+  "height": 900,
+  "samples": 128,
+  "theme": "dark",
+  "engine": "BLENDER_EEVEE",
+  "view_transform": "AgX",
+  "single_sided_materials": "native culling",
+  "blender": "5.2.2 LTS",
+  "parts": 13,
+  "bounds_m": [
+    [
+      -0.08157502859830856,
+      -0.06500004976987839,
+      0.0
+    ],
+    [
+      0.12830067976890042,
+      0.14219370483418844,
+      0.48369877430977093
+    ]
+  ],
+  "ortho_scale": 3.0716207027435303
+}

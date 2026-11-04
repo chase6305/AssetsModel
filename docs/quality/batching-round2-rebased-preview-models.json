@@ -1,0 +1,103 @@
+{
+  "status": "reviewed_no_visible_change",
+  "source_snapshot": "/tmp/assetsmodel-session-batching-round2-rebased-before",
+  "trial_overlay": "/tmp/assetsmodel-session-batching-round2-rebased-after",
+  "models": [
+    {
+      "id": "kuka-kr120-r2500-pro",
+      "label": "KUKA / KR120_R2500_PRO",
+      "urdf": "RobotModel/KUKA/KR120_R2500_PRO/KR120_R2500_PRO.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64
+    },
+    {
+      "id": "kuka-kr16-2",
+      "label": "KUKA / KR16_2",
+      "urdf": "RobotModel/KUKA/KR16_2/KR16_2.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64
+    },
+    {
+      "id": "kuka-kr210-l150",
+      "label": "KUKA / KR210_L150",
+      "urdf": "RobotModel/KUKA/KR210_L150/KR210_L150.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64
+    },
+    {
+      "id": "universalrobots-ur10e",
+      "label": "UniversalRobots / UR10e",
+      "urdf": "RobotModel/UniversalRobots/UR10e/UR10e.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64
+    },
+    {
+      "id": "universalrobots-ur3",
+      "label": "UniversalRobots / UR3",
+      "urdf": "RobotModel/UniversalRobots/UR3/UR3.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64
+    },
+    {
+      "id": "universalrobots-ur3e",
+      "label": "UniversalRobots / UR3e",
+      "urdf": "RobotModel/UniversalRobots/UR3e/UR3e.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64
+    },
+    {
+      "id": "universalrobots-ur5",
+      "label": "UniversalRobots / UR5",
+      "urdf": "RobotModel/UniversalRobots/UR5/UR5.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64
+    },
+    {
+      "id": "universalrobots-ur5e",
+      "label": "UniversalRobots / UR5e",
+      "urdf": "RobotModel/UniversalRobots/UR5e/UR5e.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64
+    }
+  ],
+  "settings": {
+    "engine": "eevee",
+    "samples": 64,
+    "width": 760,
+    "height": 680
+  },
+  "reviewed_at": "2026-11-03T14:59:38.297779+00:00",
+  "report": "docs/quality/batching-round2-rebased-trial.json"
+}

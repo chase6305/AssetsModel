@@ -1,0 +1,28 @@
+{
+  "pack": "/tmp/assetsmodel-session-final-brand-after-packs/ae-air10",
+  "view": "rear",
+  "azimuth_degrees": 125.00000000000001,
+  "elevation_degrees": 22.0,
+  "width": 1000,
+  "height": 900,
+  "samples": 128,
+  "theme": "dark",
+  "engine": "BLENDER_EEVEE",
+  "view_transform": "AgX",
+  "single_sided_materials": "native culling",
+  "blender": "5.2.2 LTS",
+  "parts": 7,
+  "bounds_m": [
+    [
+      -0.21885868906974792,
+      -0.16400092840194702,
+      -8.759968750382541e-07
+    ],
+    [
+      0.14496161043643951,
+      0.1640034317970276,
+      1.7820004134429606
+    ]
+  ],
+  "ortho_scale": 2.7400901317596436
+}

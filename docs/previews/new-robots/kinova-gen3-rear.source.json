@@ -1,0 +1,13 @@
+{
+  "id": "kinova-gen3",
+  "label": "Kinova Gen3 \u00b7 7 DOF",
+  "urdf": "RobotModel/Kinova/Gen3/Gen3.urdf",
+  "view": "rear",
+  "joints": {
+    "joint_2": 0.5,
+    "joint_4": 1.1,
+    "joint_6": -0.6
+  },
+  "image": "kinova-gen3-rear.png",
+  "source_sha256": "03a059230e17912f2cd5e8b39caaf08d5c85de16dd6530fa22ac28badaf0d9ee"
+}

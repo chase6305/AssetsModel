@@ -1,0 +1,13 @@
+{
+  "id": "kuka-iiwa14",
+  "label": "KUKA LBR iiwa 14 R820",
+  "urdf": "RobotModel/KUKA/iiwa14/iiwa14.urdf",
+  "view": "hero",
+  "joints": {
+    "iiwa_joint_2": 0.65,
+    "iiwa_joint_4": -1.1,
+    "iiwa_joint_6": 0.8
+  },
+  "image": "kuka-iiwa14-hero.png",
+  "source_sha256": "271a02d5ee2863d6c136013f83f389e2d1973155568bd312f349e872a98924f3"
+}

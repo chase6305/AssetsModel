@@ -1,0 +1,9 @@
+{
+  "id": "ae-air10",
+  "label": "AE AIR10-1210",
+  "urdf": "RobotModel/AE/AIR10_1210/AIR10_1210.urdf",
+  "view": "rear",
+  "joints": {},
+  "image": "ae-air10-rear.png",
+  "source_sha256": "4021322ed3a973abaa38fb879ffd45b734670f7682ce1d4d5e441999d92c93da"
+}

@@ -1,0 +1,345 @@
+{
+  "generated_at": "2026-11-03T13:44:56.516166+00:00",
+  "scope": "Current default-scene visual GLBs with >=5 triangle draw calls; excludes active FANUC M_10iD_12 and provenance-imported models.",
+  "candidates": [
+    {
+      "path": "RobotModel/Franka/FR3/Visual/glb/hand.glb",
+      "source_sha256": "b215bec07a2a7a9e6bd7d5d76ab8cc5cce235f27989d66ede3c950da34cba466",
+      "source_bytes": 555608,
+      "before_draw_calls": 5,
+      "status": "pending"
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Visual/glb/link0.glb",
+      "source_sha256": "07d3f32833a1b4ee3af0a0088953a5d6ffb25129211880dbf3781da7273c9ca2",
+      "source_bytes": 1463320,
+      "before_draw_calls": 7,
+      "status": "pending"
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Visual/glb/link6.glb",
+      "source_sha256": "f1e73e5e1e56f868e553551acb111c9d15f8d931e3cf752e4aeea07e52ecc2de",
+      "source_bytes": 940580,
+      "before_draw_calls": 8,
+      "status": "pending"
+    },
+    {
+      "path": "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/Link3.glb",
+      "source_sha256": "d172672267f3737bbdf842e522c29013cc203571c1a7f7a838b53af631414fef",
+      "source_bytes": 918724,
+      "before_draw_calls": 5,
+      "status": "pending"
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_2/Visual/glb/Link1.glb",
+      "source_sha256": "24194cedb27ddd824224c204408955767a4a64662d0d16d8293dcbff408dfc49",
+      "source_bytes": 1027596,
+      "before_draw_calls": 7,
+      "status": "pending"
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_2/Visual/glb/Link3.glb",
+      "source_sha256": "fd0717b11e438957c8bb3181a2e7d2137f5f240c63fde71231fcdf5740de2d1a",
+      "source_bytes": 559272,
+      "before_draw_calls": 6,
+      "status": "pending"
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_2/Visual/glb/Link4.glb",
+      "source_sha256": "077a5d7d0345b5482b86ded3c8affa5bf17ba84915f08474ddde8fb7e9e70461",
+      "source_bytes": 590924,
+      "before_draw_calls": 5,
+      "status": "pending"
+    },
+    {
+      "path": "RobotModel/KUKA/KR16_2/Visual/glb/Link3.glb",
+      "source_sha256": "25040f71acce9522d5598b2e5a441a39d3949e54c72f6f804fa9ec5cce574ddb",
+      "source_bytes": 245904,
+      "before_draw_calls": 5,
+      "status": "pending"
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/BaseLink.glb",
+      "source_sha256": "c509a4bb899c7a657c9cabf6e44d60ce1ab8006e278e73a7f4034373aad3304b",
+      "source_bytes": 202704,
+      "before_draw_calls": 18,
+      "status": "pending"
+    },
+    {
+      "path": "RobotModel/KUKA/KR5_ARC/Visual/glb/Link1.glb",
+      "source_sha256": "f0b2d425a76f121496ef29fe25002d0a6502598fb614bdda0a3b64f89be861b5",
+      "source_bytes": 541172,
+      "before_draw_calls": 7,
+      "status": "pending"
+    },
+    {
+      "path": "RobotModel/KUKA/KR5_ARC/Visual/glb/Link2.glb",
+      "source_sha256": "c3ab1c75c688dc2214ac4a1eedc589bdd8b4ea4089aae99ce644eac2c0191fc2",
+      "source_bytes": 344584,
+      "before_draw_calls": 6,
+      "status": "pending"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR10/Visual/glb/Link3.glb",
+      "source_sha256": "54ce77fbe14a26eec7e3b9e4d008eb2725b19e4633981b8482e84ddf747cd5dd",
+      "source_bytes": 524620,
+      "before_draw_calls": 5,
+      "status": "pending"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR10e/Visual/glb/Link2.glb",
+      "source_sha256": "72121a3ded5ccd34b277700dbc294becb3144f0bb4699796e86797b1f0b4ba76",
+      "source_bytes": 655484,
+      "before_draw_calls": 8,
+      "status": "pending"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR10e/Visual/glb/Link3.glb",
+      "source_sha256": "f767eb46c112e631a4c15087932fea5a2cb8ab77ba8e933d5059398e8c07a2af",
+      "source_bytes": 1404196,
+      "before_draw_calls": 7,
+      "status": "pending"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3/Visual/glb/Link1.glb",
+      "source_sha256": "a65d910668dfcffab23a7c7ec34d443a53820fa55457bcc66934df5c1561b068",
+      "source_bytes": 599848,
+      "before_draw_calls": 6,
+      "status": "pending"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3/Visual/glb/Link2.glb",
+      "source_sha256": "0b161127058ff707daf26e89c080d911c259df5181f03fd7772b0d56176e9c89",
+      "source_bytes": 853676,
+      "before_draw_calls": 11,
+      "status": "pending"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3/Visual/glb/Link3.glb",
+      "source_sha256": "b2690f34184fea740eac583c98ac528a13938e55ea381aab11e3108963c2aaa5",
+      "source_bytes": 339356,
+      "before_draw_calls": 6,
+      "status": "pending"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link1.glb",
+      "source_sha256": "4daf6d99623074990d79ae0446ece5acdeda133c0b7f2c7d7215172662ddc874",
+      "source_bytes": 600092,
+      "before_draw_calls": 6,
+      "status": "pending"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link2.glb",
+      "source_sha256": "1ab8526aa4628f825016046c9a372f329b286ba743b9bd61fdda29ced67031fa",
+      "source_bytes": 853784,
+      "before_draw_calls": 11,
+      "status": "pending"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link3.glb",
+      "source_sha256": "830921d829c448699940a1ecafd3e58660bf5a9d10bbeefcb54499433a3602d6",
+      "source_bytes": 1319656,
+      "before_draw_calls": 7,
+      "status": "pending"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5/Visual/glb/upperarm.glb",
+      "source_sha256": "50ac3c7180e8bc26710a2ffb35ab2b07aa87fe8ad9d8cc8f5c9101c6965602aa",
+      "source_bytes": 407556,
+      "before_draw_calls": 7,
+      "status": "pending"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5e/Visual/glb/Link2.glb",
+      "source_sha256": "8c67d4b4a769c991caa6a2d000d1b8cbc5259ec9457e939107d710814584659f",
+      "source_bytes": 722588,
+      "before_draw_calls": 8,
+      "status": "pending"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5e/Visual/glb/Link3.glb",
+      "source_sha256": "b8263aac1057f5fddaa0863ce10f5e55588e409f19189f0bdcfa1859177f2f40",
+      "source_bytes": 1174648,
+      "before_draw_calls": 7,
+      "status": "pending"
+    }
+  ],
+  "excluded_files": [
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/BaseLink.glb",
+      "reason": "active Fanuc normals work"
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/BaseLink.stl.glb",
+      "reason": "active Fanuc normals work"
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link1.glb",
+      "reason": "active Fanuc normals work"
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link1.stl.glb",
+      "reason": "active Fanuc normals work"
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link2.glb",
+      "reason": "active Fanuc normals work"
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link2.stl.glb",
+      "reason": "active Fanuc normals work"
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link3.glb",
+      "reason": "active Fanuc normals work"
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link3.stl.glb",
+      "reason": "active Fanuc normals work"
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link4.glb",
+      "reason": "active Fanuc normals work"
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link4.stl.glb",
+      "reason": "active Fanuc normals work"
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link5.glb",
+      "reason": "active Fanuc normals work"
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link5.stl.glb",
+      "reason": "active Fanuc normals work"
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link6.glb",
+      "reason": "active Fanuc normals work"
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link6.stl.glb",
+      "reason": "active Fanuc normals work"
+    },
+    {
+      "path": "RobotModel/KUKA/iiwa14/Visual/glb/link_0.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/KUKA/iiwa14/Visual/glb/link_1.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/KUKA/iiwa14/Visual/glb/link_2.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/KUKA/iiwa14/Visual/glb/link_3.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/KUKA/iiwa14/Visual/glb/link_4.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/KUKA/iiwa14/Visual/glb/link_5.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/KUKA/iiwa14/Visual/glb/link_6.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/KUKA/iiwa14/Visual/glb/link_7.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/Kinova/Gen3/Visual/glb/base_link.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/Kinova/Gen3/Visual/glb/bracelet_no_vision_link.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/Kinova/Gen3/Visual/glb/forearm_link.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/Kinova/Gen3/Visual/glb/half_arm_1_link.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/Kinova/Gen3/Visual/glb/half_arm_2_link.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/Kinova/Gen3/Visual/glb/shoulder_link.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/Kinova/Gen3/Visual/glb/spherical_wrist_1_link.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/Kinova/Gen3/Visual/glb/spherical_wrist_2_link.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/UFACTORY/Lite6/Visual/glb/link1.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/UFACTORY/Lite6/Visual/glb/link2.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/UFACTORY/Lite6/Visual/glb/link3.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/UFACTORY/Lite6/Visual/glb/link4.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/UFACTORY/Lite6/Visual/glb/link5.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/UFACTORY/Lite6/Visual/glb/link6.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/UFACTORY/Lite6/Visual/glb/link_base.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/UFACTORY/xArm6/Visual/glb/link1.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/UFACTORY/xArm6/Visual/glb/link2.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/UFACTORY/xArm6/Visual/glb/link3.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/UFACTORY/xArm6/Visual/glb/link4.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/UFACTORY/xArm6/Visual/glb/link5.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/UFACTORY/xArm6/Visual/glb/link6.glb",
+      "reason": "new imported provenance model"
+    },
+    {
+      "path": "RobotModel/UFACTORY/xArm6/Visual/glb/link_base.glb",
+      "reason": "new imported provenance model"
+    }
+  ]
+}

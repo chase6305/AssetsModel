@@ -1,0 +1,9 @@
+{
+  "id": "fanuc-m10",
+  "label": "FANUC M-10iD/12",
+  "urdf": "RobotModel/Fanuc/M_10iD_12/M_10iD_12.urdf",
+  "view": "rear",
+  "joints": {},
+  "image": "fanuc-m10-rear.png",
+  "source_sha256": "a4123c171a46ddaa85043a6b2d2c4c6b33bbfb6b30f249492ca379e0320eb074"
+}

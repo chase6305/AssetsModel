@@ -1,0 +1,64 @@
+{
+  "trial_only": true,
+  "source_model": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/snapshot/RobotModel/UniversalRobots/UR5",
+  "output_model": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/final-trial-guarded/RobotModel/UniversalRobots/UR5",
+  "mask_path": "/home/ubuntu/workspace/chase/AssetsModel/docs/quality/ur5-local-normal-mask.json",
+  "mask_sha256": "c2f7152531fc0ef1f45cb6753a086860668c72e8a2fefa0f7340834a95e0060d",
+  "script_sha256": "bbb47417c2bf7cbbe6df09ebce7188c9b7979c1c8405d9f9298ffd6fa14820bc",
+  "files": [
+    {
+      "path": "Visual/glb/wrist1.glb",
+      "source_sha256": "39e646c1b18015cbcb775366b5e8aafcd213eccbc144b99a147c1fb70a9f4759",
+      "output_sha256": "55964bc1d578221d451d4583560e89af612a76137807e635ba3b79f4a7207566",
+      "source_bytes": 330860,
+      "output_bytes": 330328,
+      "primitives": [
+        {
+          "mesh": 1,
+          "primitive": 0,
+          "material_name": "verbindung_001-material",
+          "changed_normal_corners": 722,
+          "total_corners": 9294,
+          "unselected_corner_normals_byte_exact": true
+        },
+        {
+          "mesh": 2,
+          "primitive": 0,
+          "material_name": "blau_001-material",
+          "changed_normal_corners": 2003,
+          "total_corners": 32076,
+          "unselected_corner_normals_byte_exact": true
+        }
+      ],
+      "ordered_geometry_and_winding_byte_exact": true,
+      "material_node_scene_exact": true
+    },
+    {
+      "path": "Visual/glb/shoulder.glb",
+      "source_sha256": "a061185c1ca792cd98637aabda48090c512b29fc824ea177b93e2f6531d618d6",
+      "output_sha256": "64c075905411bae9d62914b6172c4d6ac82c93858da2e605564fd47bd27820b8",
+      "source_bytes": 329408,
+      "output_bytes": 330860,
+      "primitives": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "material_name": "verbindung-material",
+          "changed_normal_corners": 883,
+          "total_corners": 12156,
+          "unselected_corner_normals_byte_exact": true
+        },
+        {
+          "mesh": 2,
+          "primitive": 0,
+          "material_name": "blau-material",
+          "changed_normal_corners": 2197,
+          "total_corners": 27900,
+          "unselected_corner_normals_byte_exact": true
+        }
+      ],
+      "ordered_geometry_and_winding_byte_exact": true,
+      "material_node_scene_exact": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ufact-lite6",
+  "label": "UFACTORY Lite6",
+  "urdf": "RobotModel/UFACTORY/Lite6/Lite6.urdf",
+  "view": "rear",
+  "joints": {},
+  "image": "ufact-lite6-rear.png",
+  "source_sha256": "5fdd219245ecb3d02c1a3c2503e82684fedc609dc2d79d375c80253ecf5acccc"
+}

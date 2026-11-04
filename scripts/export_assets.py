@@ -32,6 +32,11 @@ def export_assets(root, models, output, referenced_only=False):
             files.add((urdf.parent / resource.get("filename")).resolve())
     if not referenced_only:
         files.update(p for folder in folders for p in folder.rglob("*.glb"))
+    # Keep the redistribution notices with upstream-derived robot geometry,
+    # including in minimal runtime exports.
+    for folder in folders:
+        for pattern in ("LICENSE*", "NOTICE*", "COPYING*", "provenance.json"):
+            files.update(p for p in folder.rglob(pattern) if p.is_file())
     if any(not p.is_file() or not p.resolve().is_relative_to(root) for p in files):
         raise ValueError("A resource is missing or escapes the asset root")
     output.mkdir(parents=True, exist_ok=True)
@@ -44,6 +49,7 @@ def export_assets(root, models, output, referenced_only=False):
         records.append({"path": relative.as_posix(), "bytes": target.stat().st_size,
                         "sha256": hashlib.sha256(target.read_bytes()).hexdigest()})
     report = {"summary": {"urdfs": len(urdfs), "glbs": sum(p.suffix == ".glb" for p in files),
+                           "metadata_files": sum(p.suffix not in (".urdf", ".glb") for p in files),
                            "bytes": sum(x["bytes"] for x in records)}, "files": records}
     (output / "manifest.json").write_text(json.dumps(report, indent=2) + "\n")
     return report

@@ -1,0 +1,28 @@
+{
+  "pack": "/tmp/assetsmodel-session-final-brand-after-packs/fanuc-m10",
+  "view": "rear",
+  "azimuth_degrees": 125.00000000000001,
+  "elevation_degrees": 22.0,
+  "width": 1000,
+  "height": 900,
+  "samples": 128,
+  "theme": "dark",
+  "engine": "BLENDER_EEVEE",
+  "view_transform": "AgX",
+  "single_sided_materials": "native culling",
+  "blender": "5.2.2 LTS",
+  "parts": 11,
+  "bounds_m": [
+    [
+      -0.27769479155540466,
+      -0.2463759034872055,
+      -0.14649998807907105
+    ],
+    [
+      0.8500005404410217,
+      0.19314150512218475,
+      1.2445987043380737
+    ]
+  ],
+  "ortho_scale": 3.195512294769287
+}

@@ -1,0 +1,28 @@
+{
+  "pack": "/tmp/assetsmodel-session-final-brand-before-packs/motoman-gp7",
+  "view": "hero",
+  "azimuth_degrees": -55.0,
+  "elevation_degrees": 23.0,
+  "width": 1000,
+  "height": 900,
+  "samples": 128,
+  "theme": "dark",
+  "engine": "BLENDER_EEVEE",
+  "view_transform": "AgX",
+  "single_sided_materials": "native culling",
+  "blender": "5.2.2 LTS",
+  "parts": 7,
+  "bounds_m": [
+    [
+      -0.13733290135860443,
+      -0.1150004118680954,
+      -5.957160101388581e-05
+    ],
+    [
+      0.5600168514251709,
+      0.1150009036064148,
+      0.8783029034733772
+    ]
+  ],
+  "ortho_scale": 3.152651309967041
+}

@@ -1,0 +1,102 @@
+{
+  "description": "Representative models: fixed camera/lighting, zero joints except explicitly recorded valid display configurations (radians/metres).",
+  "models": [
+    {
+      "id": "abb-irb1200",
+      "label": "ABB IRB1200-7/0.7",
+      "urdf": "RobotModel/ABB/IRB1200_7_70/IRB1200_7_70.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ]
+    },
+    {
+      "id": "ae-air10",
+      "label": "AE AIR10-1210",
+      "urdf": "RobotModel/AE/AIR10_1210/AIR10_1210.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ]
+    },
+    {
+      "id": "agile-diana7",
+      "label": "Agile Diana 7",
+      "urdf": "RobotModel/Agile/Diana_7/Diana_7.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ]
+    },
+    {
+      "id": "fanuc-m10",
+      "label": "FANUC M-10iD/12",
+      "urdf": "RobotModel/Fanuc/M_10iD_12/M_10iD_12.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ]
+    },
+    {
+      "id": "franka-fr3",
+      "label": "Franka Research 3",
+      "urdf": "RobotModel/Franka/FR3/FR3WithHand.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "joints": {
+        "fr3_joint2": -0.5,
+        "fr3_joint4": -1.8,
+        "fr3_joint6": 1.4,
+        "fr3_joint7": 0.7,
+        "fr3_finger_joint1": 0.03
+      }
+    },
+    {
+      "id": "hans-e05",
+      "label": "Han's E05",
+      "urdf": "RobotModel/Hans/E05/E05.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ]
+    },
+    {
+      "id": "kuka-kr10",
+      "label": "KUKA KR10 R1100-2",
+      "urdf": "RobotModel/KUKA/KR10_R1100_2/KR10_R1100_2.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ]
+    },
+    {
+      "id": "motoman-gp7",
+      "label": "Yaskawa Motoman GP7",
+      "urdf": "RobotModel/Motoman/GP7/GP7.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ]
+    },
+    {
+      "id": "rokae-sr5",
+      "label": "ROKAE SR5",
+      "urdf": "RobotModel/Rokae/SR5/SR5.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ]
+    },
+    {
+      "id": "ur5e",
+      "label": "Universal Robots UR5e",
+      "urdf": "RobotModel/UniversalRobots/UR5e/UR5e.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ]
+    }
+  ]
+}

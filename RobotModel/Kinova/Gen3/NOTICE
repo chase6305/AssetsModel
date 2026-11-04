@@ -1,0 +1,8 @@
+Gen3: derived from https://github.com/Kinovarobotics/ros_kortex at commit c3280d8a6a6b5d96590d51538e3f265710a6c77d.
+Upstream license: BSD-3-Clause; full text is in LICENSE.
+Input description: kortex_description/arms/gen3/7dof/urdf/GEN3-7DOF-NOVISION_FOR_URDF_ARM_V12.urdf.
+Changes: expanded xacro; omitted ROS plugins/controllers/transmissions; converted referenced meshes
+to embedded GLB; localized resource paths; adjusted visual PBR factors. Link frames, joint axes,
+limits, valid inertia, source surface geometry and mesh origin/scale are preserved.
+Any omitted invalid source inertia or unused zero axis on a fixed joint is documented verbatim in provenance.json.
+Brand appearance uses the source CAD material groups. Added PBR factors are visual approximations.

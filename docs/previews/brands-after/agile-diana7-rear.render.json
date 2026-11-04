@@ -1,0 +1,28 @@
+{
+  "pack": "/tmp/assetsmodel-session-final-brand-after-packs/agile-diana7",
+  "view": "rear",
+  "azimuth_degrees": 125.00000000000001,
+  "elevation_degrees": 22.0,
+  "width": 1000,
+  "height": 900,
+  "samples": 128,
+  "theme": "dark",
+  "engine": "BLENDER_EEVEE",
+  "view_transform": "AgX",
+  "single_sided_materials": "native culling",
+  "blender": "5.2.2 LTS",
+  "parts": 20,
+  "bounds_m": [
+    [
+      -0.1414213925600052,
+      -0.1414213925600052,
+      4.999899829272181e-05
+    ],
+    [
+      0.12679440021514893,
+      0.10400017304578343,
+      1.3165003453079833
+    ]
+  ],
+  "ortho_scale": 2.7417807579040527
+}

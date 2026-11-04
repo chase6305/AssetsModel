@@ -1,0 +1,9 @@
+{
+  "id": "rokae-sr5",
+  "label": "ROKAE SR5",
+  "urdf": "RobotModel/Rokae/SR5/SR5.urdf",
+  "view": "rear",
+  "joints": {},
+  "image": "rokae-sr5-rear.png",
+  "source_sha256": "d6d2d172510366594762c4097f5c527d17d9481688a07111835ee1a024b3378b"
+}

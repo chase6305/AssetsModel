@@ -1,0 +1,866 @@
+{
+  "generated_at": "2026-11-03T13:44:56.516589+00:00",
+  "updated_at": "2026-11-03T13:46:50.788341+00:00",
+  "status": "trial_validation_complete",
+  "source_root": "/home/ubuntu/workspace/chase/AssetsModel",
+  "source_snapshot_root": "/tmp/assetsmodel-session-batching-round2-before",
+  "trial_root": "/tmp/assetsmodel-session-batching-round2-trial",
+  "candidate_manifest": "docs/quality/batching-round2-candidates.json",
+  "adoption": "trial_only",
+  "files": [
+    {
+      "path": "RobotModel/Franka/FR3/Visual/glb/hand.glb",
+      "source_sha256": "b215bec07a2a7a9e6bd7d5d76ab8cc5cce235f27989d66ede3c950da34cba466",
+      "source_bytes": 555608,
+      "before_draw_calls": 5,
+      "status": "skipped",
+      "reason": "No draw-call reduction with exact material/node grouping",
+      "elapsed_seconds": 0.10353411099640653
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Visual/glb/link0.glb",
+      "source_sha256": "07d3f32833a1b4ee3af0a0088953a5d6ffb25129211880dbf3781da7273c9ca2",
+      "source_bytes": 1463320,
+      "before_draw_calls": 7,
+      "status": "skipped",
+      "reason": "No draw-call reduction with exact material/node grouping",
+      "elapsed_seconds": 0.5529909220058471
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Visual/glb/link6.glb",
+      "source_sha256": "f1e73e5e1e56f868e553551acb111c9d15f8d931e3cf752e4aeea07e52ecc2de",
+      "source_bytes": 940580,
+      "before_draw_calls": 8,
+      "status": "skipped",
+      "reason": "No draw-call reduction with exact material/node grouping",
+      "elapsed_seconds": 0.35078773502027616
+    },
+    {
+      "path": "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/Link3.glb",
+      "source_sha256": "d172672267f3737bbdf842e522c29013cc203571c1a7f7a838b53af631414fef",
+      "source_bytes": 918724,
+      "before_draw_calls": 5,
+      "status": "trial",
+      "trial_sha256": "2de8f2807b73cd9d10240cacdc87329e62721f6c0ef70be9c83267a88701f9a2",
+      "trial_bytes": 916116,
+      "bytes_saved": 2608,
+      "after_draw_calls": 2,
+      "geometry_triangles": 12108,
+      "source_unchanged_after_trial": true,
+      "exact_corner_material_world_multisets_equal": true,
+      "materials_unchanged": true,
+      "scene_metadata_unchanged": true,
+      "scene_primitive_counts": [
+        12108
+      ],
+      "before_load": {
+        "median_ms": 1.5037480043247342,
+        "runs_ms": [
+          2.335780009161681,
+          1.567599014379084,
+          1.4275230350904167,
+          1.5037480043247342,
+          1.3643340207636356
+        ],
+        "loaded_geometries": 5
+      },
+      "after_load": {
+        "median_ms": 0.9970750543288887,
+        "runs_ms": [
+          0.9056809940375388,
+          0.9970750543288887,
+          1.361448026727885,
+          1.092335965950042,
+          0.993328052572906
+        ],
+        "loaded_geometries": 2
+      },
+      "recommendation": "review",
+      "elapsed_seconds": 0.7725312989787199,
+      "independent_struct_counter_equal_per_scene": true,
+      "snapshot_sha256_matches_source": true,
+      "source_sha256_still_current": true,
+      "khronos": {
+        "sha256": "2de8f2807b73cd9d10240cacdc87329e62721f6c0ef70be9c83267a88701f9a2",
+        "errors": 0,
+        "warnings": 0
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_2/Visual/glb/Link1.glb",
+      "source_sha256": "24194cedb27ddd824224c204408955767a4a64662d0d16d8293dcbff408dfc49",
+      "source_bytes": 1027596,
+      "before_draw_calls": 7,
+      "status": "skipped",
+      "reason": "No draw-call reduction with exact material/node grouping",
+      "elapsed_seconds": 0.16139752400340512
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_2/Visual/glb/Link3.glb",
+      "source_sha256": "fd0717b11e438957c8bb3181a2e7d2137f5f240c63fde71231fcdf5740de2d1a",
+      "source_bytes": 559272,
+      "before_draw_calls": 6,
+      "status": "skipped",
+      "reason": "No draw-call reduction with exact material/node grouping",
+      "elapsed_seconds": 0.0676849419833161
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_2/Visual/glb/Link4.glb",
+      "source_sha256": "077a5d7d0345b5482b86ded3c8affa5bf17ba84915f08474ddde8fb7e9e70461",
+      "source_bytes": 590924,
+      "before_draw_calls": 5,
+      "status": "skipped",
+      "reason": "No draw-call reduction with exact material/node grouping",
+      "elapsed_seconds": 0.06446092296391726
+    },
+    {
+      "path": "RobotModel/KUKA/KR16_2/Visual/glb/Link3.glb",
+      "source_sha256": "25040f71acce9522d5598b2e5a441a39d3949e54c72f6f804fa9ec5cce574ddb",
+      "source_bytes": 245904,
+      "before_draw_calls": 5,
+      "status": "trial",
+      "trial_sha256": "89f200185e0f27c2744d2bf2f857f12278f54542023314965e3e32ff5d4f65a0",
+      "trial_bytes": 243404,
+      "bytes_saved": 2500,
+      "after_draw_calls": 2,
+      "geometry_triangles": 3424,
+      "source_unchanged_after_trial": true,
+      "exact_corner_material_world_multisets_equal": true,
+      "materials_unchanged": true,
+      "scene_metadata_unchanged": true,
+      "scene_primitive_counts": [
+        3424
+      ],
+      "before_load": {
+        "median_ms": 0.8276230073533952,
+        "runs_ms": [
+          1.265375001821667,
+          0.8397569763474166,
+          0.7292859954759479,
+          0.8276230073533952,
+          0.6208100239746273
+        ],
+        "loaded_geometries": 5
+      },
+      "after_load": {
+        "median_ms": 0.4616070073097944,
+        "runs_ms": [
+          0.4135860363021493,
+          0.37938100285828114,
+          2.1916349651291966,
+          0.7115619955584407,
+          0.4616070073097944
+        ],
+        "loaded_geometries": 2
+      },
+      "recommendation": "review",
+      "elapsed_seconds": 0.13254553399747238,
+      "independent_struct_counter_equal_per_scene": true,
+      "snapshot_sha256_matches_source": true,
+      "source_sha256_still_current": true,
+      "khronos": {
+        "sha256": "89f200185e0f27c2744d2bf2f857f12278f54542023314965e3e32ff5d4f65a0",
+        "errors": 0,
+        "warnings": 0
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/BaseLink.glb",
+      "source_sha256": "c509a4bb899c7a657c9cabf6e44d60ce1ab8006e278e73a7f4034373aad3304b",
+      "source_bytes": 202704,
+      "before_draw_calls": 18,
+      "status": "trial",
+      "trial_sha256": "4a629e6f221d1ba3e99f21c1797e99b465b8ab0cd01876e6ff19be6ac85a0a52",
+      "trial_bytes": 188508,
+      "bytes_saved": 14196,
+      "after_draw_calls": 2,
+      "geometry_triangles": 2630,
+      "source_unchanged_after_trial": true,
+      "exact_corner_material_world_multisets_equal": true,
+      "materials_unchanged": true,
+      "scene_metadata_unchanged": true,
+      "scene_primitive_counts": [
+        2630,
+        2631
+      ],
+      "before_load": {
+        "median_ms": 1.7745030345395207,
+        "runs_ms": [
+          2.0747630042023957,
+          1.6786910127848387,
+          1.5654959715902805,
+          4.780066024977714,
+          1.7745030345395207
+        ],
+        "loaded_geometries": 19
+      },
+      "after_load": {
+        "median_ms": 0.38179598050192,
+        "runs_ms": [
+          0.5011019529774785,
+          0.39243599167093635,
+          0.3788000321947038,
+          0.38179598050192,
+          0.34156994661316276
+        ],
+        "loaded_geometries": 3
+      },
+      "recommendation": "review",
+      "elapsed_seconds": 0.13891162403160706,
+      "independent_struct_counter_equal_per_scene": true,
+      "snapshot_sha256_matches_source": true,
+      "source_sha256_still_current": true,
+      "khronos": {
+        "sha256": "4a629e6f221d1ba3e99f21c1797e99b465b8ab0cd01876e6ff19be6ac85a0a52",
+        "errors": 0,
+        "warnings": 0
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR5_ARC/Visual/glb/Link1.glb",
+      "source_sha256": "f0b2d425a76f121496ef29fe25002d0a6502598fb614bdda0a3b64f89be861b5",
+      "source_bytes": 541172,
+      "before_draw_calls": 7,
+      "status": "skipped",
+      "reason": "No draw-call reduction with exact material/node grouping",
+      "elapsed_seconds": 0.10355667403200641
+    },
+    {
+      "path": "RobotModel/KUKA/KR5_ARC/Visual/glb/Link2.glb",
+      "source_sha256": "c3ab1c75c688dc2214ac4a1eedc589bdd8b4ea4089aae99ce644eac2c0191fc2",
+      "source_bytes": 344584,
+      "before_draw_calls": 6,
+      "status": "skipped",
+      "reason": "No draw-call reduction with exact material/node grouping",
+      "elapsed_seconds": 0.041686263983137906
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR10/Visual/glb/Link3.glb",
+      "source_sha256": "54ce77fbe14a26eec7e3b9e4d008eb2725b19e4633981b8482e84ddf747cd5dd",
+      "source_bytes": 524620,
+      "before_draw_calls": 5,
+      "status": "skipped",
+      "reason": "No draw-call reduction with exact material/node grouping",
+      "elapsed_seconds": 0.2582829470047727
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR10e/Visual/glb/Link2.glb",
+      "source_sha256": "72121a3ded5ccd34b277700dbc294becb3144f0bb4699796e86797b1f0b4ba76",
+      "source_bytes": 655484,
+      "before_draw_calls": 8,
+      "status": "trial",
+      "trial_sha256": "685ac57d05167f842cad8d02e2dbc825606efe78111d5997acd9a24937caa2d1",
+      "trial_bytes": 651188,
+      "bytes_saved": 4296,
+      "after_draw_calls": 4,
+      "geometry_triangles": 23129,
+      "source_unchanged_after_trial": true,
+      "exact_corner_material_world_multisets_equal": true,
+      "materials_unchanged": true,
+      "scene_metadata_unchanged": true,
+      "scene_primitive_counts": [
+        23129,
+        23131
+      ],
+      "before_load": {
+        "median_ms": 1.6635920037515461,
+        "runs_ms": [
+          1.7332740244455636,
+          1.4481029938906431,
+          1.544094004202634,
+          1.6635920037515461,
+          2.4141590110957623
+        ],
+        "loaded_geometries": 9
+      },
+      "after_load": {
+        "median_ms": 1.3919960474595428,
+        "runs_ms": [
+          1.870475010946393,
+          2.4592549889348447,
+          1.1186159681528807,
+          1.3904229854233563,
+          1.3919960474595428
+        ],
+        "loaded_geometries": 5
+      },
+      "recommendation": "review",
+      "elapsed_seconds": 1.1286687050014734,
+      "independent_struct_counter_equal_per_scene": true,
+      "snapshot_sha256_matches_source": true,
+      "source_sha256_still_current": true,
+      "khronos": {
+        "sha256": "685ac57d05167f842cad8d02e2dbc825606efe78111d5997acd9a24937caa2d1",
+        "errors": 0,
+        "warnings": 0
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR10e/Visual/glb/Link3.glb",
+      "source_sha256": "f767eb46c112e631a4c15087932fea5a2cb8ab77ba8e933d5059398e8c07a2af",
+      "source_bytes": 1404196,
+      "before_draw_calls": 7,
+      "status": "trial",
+      "trial_sha256": "010ea68d9c228e8ac1c28664532cadc4852086f91610a80a2a0e715bb36b07bd",
+      "trial_bytes": 1400832,
+      "bytes_saved": 3364,
+      "after_draw_calls": 4,
+      "geometry_triangles": 17929,
+      "source_unchanged_after_trial": true,
+      "exact_corner_material_world_multisets_equal": true,
+      "materials_unchanged": true,
+      "scene_metadata_unchanged": true,
+      "scene_primitive_counts": [
+        17929
+      ],
+      "before_load": {
+        "median_ms": 1.2461679871194065,
+        "runs_ms": [
+          5.055439018178731,
+          1.50022201705724,
+          1.2384540168568492,
+          1.2461679871194065,
+          1.1660470045171678
+        ],
+        "loaded_geometries": 7
+      },
+      "after_load": {
+        "median_ms": 2.2244679857976735,
+        "runs_ms": [
+          2.2244679857976735,
+          3.338436014018953,
+          4.231874016113579,
+          1.146328984759748,
+          1.2159909820184112
+        ],
+        "loaded_geometries": 4
+      },
+      "recommendation": "review",
+      "elapsed_seconds": 0.5652813460328616,
+      "independent_struct_counter_equal_per_scene": true,
+      "snapshot_sha256_matches_source": true,
+      "source_sha256_still_current": true,
+      "khronos": {
+        "sha256": "010ea68d9c228e8ac1c28664532cadc4852086f91610a80a2a0e715bb36b07bd",
+        "errors": 0,
+        "warnings": 0
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3/Visual/glb/Link1.glb",
+      "source_sha256": "a65d910668dfcffab23a7c7ec34d443a53820fa55457bcc66934df5c1561b068",
+      "source_bytes": 599848,
+      "before_draw_calls": 6,
+      "status": "trial",
+      "trial_sha256": "b3c0b5c13eeca6ecd295c9bc9663624275e9933d05d211b9e76b9367e88cfcf0",
+      "trial_bytes": 596828,
+      "bytes_saved": 3020,
+      "after_draw_calls": 3,
+      "geometry_triangles": 15508,
+      "source_unchanged_after_trial": true,
+      "exact_corner_material_world_multisets_equal": true,
+      "materials_unchanged": true,
+      "scene_metadata_unchanged": true,
+      "scene_primitive_counts": [
+        15508,
+        15509
+      ],
+      "before_load": {
+        "median_ms": 0.8883289992809296,
+        "runs_ms": [
+          1.3703540316782892,
+          0.8883289992809296,
+          1.3761949958279729,
+          0.8043989655561745,
+          0.8503760327585042
+        ],
+        "loaded_geometries": 7
+      },
+      "after_load": {
+        "median_ms": 0.525127979926765,
+        "runs_ms": [
+          0.579392013605684,
+          0.4865140072070062,
+          0.525127979926765,
+          0.49605302046984434,
+          0.565936032216996
+        ],
+        "loaded_geometries": 4
+      },
+      "recommendation": "review",
+      "elapsed_seconds": 0.7968605339992791,
+      "independent_struct_counter_equal_per_scene": true,
+      "snapshot_sha256_matches_source": true,
+      "source_sha256_still_current": true,
+      "khronos": {
+        "sha256": "b3c0b5c13eeca6ecd295c9bc9663624275e9933d05d211b9e76b9367e88cfcf0",
+        "errors": 0,
+        "warnings": 0
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3/Visual/glb/Link2.glb",
+      "source_sha256": "0b161127058ff707daf26e89c080d911c259df5181f03fd7772b0d56176e9c89",
+      "source_bytes": 853676,
+      "before_draw_calls": 11,
+      "status": "trial",
+      "trial_sha256": "eca397019669445f2ca64374b3cf42d18f748f000df29cdd9a54c2b28c31f8b3",
+      "trial_bytes": 846524,
+      "bytes_saved": 7152,
+      "after_draw_calls": 3,
+      "geometry_triangles": 19565,
+      "source_unchanged_after_trial": true,
+      "exact_corner_material_world_multisets_equal": true,
+      "materials_unchanged": true,
+      "scene_metadata_unchanged": true,
+      "scene_primitive_counts": [
+        19565,
+        19566
+      ],
+      "before_load": {
+        "median_ms": 1.6395259881392121,
+        "runs_ms": [
+          1.9560580258257687,
+          1.615201006643474,
+          1.6395259881392121,
+          1.550476998090744,
+          1.9615389755927026
+        ],
+        "loaded_geometries": 12
+      },
+      "after_load": {
+        "median_ms": 1.174461969640106,
+        "runs_ms": [
+          1.453072007279843,
+          2.6502980035729706,
+          1.174461969640106,
+          0.6429419736377895,
+          1.0344659676775336
+        ],
+        "loaded_geometries": 4
+      },
+      "recommendation": "review",
+      "elapsed_seconds": 1.1563734359806404,
+      "independent_struct_counter_equal_per_scene": true,
+      "snapshot_sha256_matches_source": true,
+      "source_sha256_still_current": true,
+      "khronos": {
+        "sha256": "eca397019669445f2ca64374b3cf42d18f748f000df29cdd9a54c2b28c31f8b3",
+        "errors": 0,
+        "warnings": 0
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3/Visual/glb/Link3.glb",
+      "source_sha256": "b2690f34184fea740eac583c98ac528a13938e55ea381aab11e3108963c2aaa5",
+      "source_bytes": 339356,
+      "before_draw_calls": 6,
+      "status": "trial",
+      "trial_sha256": "b2c7b6e45eac2095c615b09ffa51bd1b8c1facbcffcf1bfdc3bbdc7ee4843e18",
+      "trial_bytes": 336408,
+      "bytes_saved": 2948,
+      "after_draw_calls": 3,
+      "geometry_triangles": 9479,
+      "source_unchanged_after_trial": true,
+      "exact_corner_material_world_multisets_equal": true,
+      "materials_unchanged": true,
+      "scene_metadata_unchanged": true,
+      "scene_primitive_counts": [
+        9479
+      ],
+      "before_load": {
+        "median_ms": 0.9165620431303978,
+        "runs_ms": [
+          1.3222930137999356,
+          0.9165620431303978,
+          1.024516997858882,
+          0.7962739909999073,
+          0.8080760017037392
+        ],
+        "loaded_geometries": 6
+      },
+      "after_load": {
+        "median_ms": 0.4514280008152127,
+        "runs_ms": [
+          0.5142270238138735,
+          0.5908129969611764,
+          0.43004698818549514,
+          0.4514280008152127,
+          0.44191000051796436
+        ],
+        "loaded_geometries": 3
+      },
+      "recommendation": "review",
+      "elapsed_seconds": 0.22503082099137828,
+      "independent_struct_counter_equal_per_scene": true,
+      "snapshot_sha256_matches_source": true,
+      "source_sha256_still_current": true,
+      "khronos": {
+        "sha256": "b2c7b6e45eac2095c615b09ffa51bd1b8c1facbcffcf1bfdc3bbdc7ee4843e18",
+        "errors": 0,
+        "warnings": 0
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link1.glb",
+      "source_sha256": "4daf6d99623074990d79ae0446ece5acdeda133c0b7f2c7d7215172662ddc874",
+      "source_bytes": 600092,
+      "before_draw_calls": 6,
+      "status": "trial",
+      "trial_sha256": "216b28099a1b3598f5dce064518975599ae29d4961283ef99b80659551ef4b42",
+      "trial_bytes": 597060,
+      "bytes_saved": 3032,
+      "after_draw_calls": 3,
+      "geometry_triangles": 15506,
+      "source_unchanged_after_trial": true,
+      "exact_corner_material_world_multisets_equal": true,
+      "materials_unchanged": true,
+      "scene_metadata_unchanged": true,
+      "scene_primitive_counts": [
+        15506,
+        15507
+      ],
+      "before_load": {
+        "median_ms": 1.0080860229209065,
+        "runs_ms": [
+          1.5396969974972308,
+          1.0120839579030871,
+          1.0080860229209065,
+          0.9217020124197006,
+          0.9417700348421931
+        ],
+        "loaded_geometries": 7
+      },
+      "after_load": {
+        "median_ms": 0.5956719978712499,
+        "runs_ms": [
+          0.6305190036073327,
+          0.581183994654566,
+          0.5956719978712499,
+          0.5794009775854647,
+          0.6417189724743366
+        ],
+        "loaded_geometries": 4
+      },
+      "recommendation": "review",
+      "elapsed_seconds": 0.8511385750025511,
+      "independent_struct_counter_equal_per_scene": true,
+      "snapshot_sha256_matches_source": true,
+      "source_sha256_still_current": true,
+      "khronos": {
+        "sha256": "216b28099a1b3598f5dce064518975599ae29d4961283ef99b80659551ef4b42",
+        "errors": 0,
+        "warnings": 0
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link2.glb",
+      "source_sha256": "1ab8526aa4628f825016046c9a372f329b286ba743b9bd61fdda29ced67031fa",
+      "source_bytes": 853784,
+      "before_draw_calls": 11,
+      "status": "trial",
+      "trial_sha256": "422cd88b10cbdf32042dfa3131cde1bc81dd3e1bef0a1f80bdda12d856fac0da",
+      "trial_bytes": 846536,
+      "bytes_saved": 7248,
+      "after_draw_calls": 3,
+      "geometry_triangles": 19565,
+      "source_unchanged_after_trial": true,
+      "exact_corner_material_world_multisets_equal": true,
+      "materials_unchanged": true,
+      "scene_metadata_unchanged": true,
+      "scene_primitive_counts": [
+        19565,
+        19566
+      ],
+      "before_load": {
+        "median_ms": 1.5460490249097347,
+        "runs_ms": [
+          2.1505480399355292,
+          2.168602019082755,
+          1.5145889483392239,
+          1.5460490249097347,
+          1.423916022758931
+        ],
+        "loaded_geometries": 12
+      },
+      "after_load": {
+        "median_ms": 0.7745220209471881,
+        "runs_ms": [
+          0.8565179887227714,
+          0.8411590242758393,
+          0.7745220209471881,
+          0.6273520411923528,
+          0.6274119950830936
+        ],
+        "loaded_geometries": 4
+      },
+      "recommendation": "review",
+      "elapsed_seconds": 1.018856778042391,
+      "independent_struct_counter_equal_per_scene": true,
+      "snapshot_sha256_matches_source": true,
+      "source_sha256_still_current": true,
+      "khronos": {
+        "sha256": "422cd88b10cbdf32042dfa3131cde1bc81dd3e1bef0a1f80bdda12d856fac0da",
+        "errors": 0,
+        "warnings": 0
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link3.glb",
+      "source_sha256": "830921d829c448699940a1ecafd3e58660bf5a9d10bbeefcb54499433a3602d6",
+      "source_bytes": 1319656,
+      "before_draw_calls": 7,
+      "status": "trial",
+      "trial_sha256": "fe22d748b550fb10866511327a6236e6df532c23d24d28dc19a535acd0857c4b",
+      "trial_bytes": 1316344,
+      "bytes_saved": 3312,
+      "after_draw_calls": 4,
+      "geometry_triangles": 16871,
+      "source_unchanged_after_trial": true,
+      "exact_corner_material_world_multisets_equal": true,
+      "materials_unchanged": true,
+      "scene_metadata_unchanged": true,
+      "scene_primitive_counts": [
+        16871
+      ],
+      "before_load": {
+        "median_ms": 2.6765369693748653,
+        "runs_ms": [
+          3.0652760178782046,
+          3.1167640117928386,
+          1.5680709620937705,
+          1.7479719826951623,
+          2.6765369693748653
+        ],
+        "loaded_geometries": 7
+      },
+      "after_load": {
+        "median_ms": 1.3314809766598046,
+        "runs_ms": [
+          1.4700940228067338,
+          1.3314809766598046,
+          3.3821279648691416,
+          1.194039999973029,
+          1.156307989731431
+        ],
+        "loaded_geometries": 4
+      },
+      "recommendation": "review",
+      "elapsed_seconds": 0.545654874003958,
+      "independent_struct_counter_equal_per_scene": true,
+      "snapshot_sha256_matches_source": true,
+      "source_sha256_still_current": true,
+      "khronos": {
+        "sha256": "fe22d748b550fb10866511327a6236e6df532c23d24d28dc19a535acd0857c4b",
+        "errors": 0,
+        "warnings": 0
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5/Visual/glb/upperarm.glb",
+      "source_sha256": "50ac3c7180e8bc26710a2ffb35ab2b07aa87fe8ad9d8cc8f5c9101c6965602aa",
+      "source_bytes": 407556,
+      "before_draw_calls": 7,
+      "status": "trial",
+      "trial_sha256": "ecf8c24aeb34847623ce95a573a146115145fc7b9b04fc2434b358e983c6c65a",
+      "trial_bytes": 404444,
+      "bytes_saved": 3112,
+      "after_draw_calls": 4,
+      "geometry_triangles": 20086,
+      "source_unchanged_after_trial": true,
+      "exact_corner_material_world_multisets_equal": true,
+      "materials_unchanged": true,
+      "scene_metadata_unchanged": true,
+      "scene_primitive_counts": [
+        20086
+      ],
+      "before_load": {
+        "median_ms": 0.9426120086573064,
+        "runs_ms": [
+          1.4047300210222602,
+          0.9426120086573064,
+          1.0294560343027115,
+          0.854474026709795,
+          0.8778490009717643
+        ],
+        "loaded_geometries": 7
+      },
+      "after_load": {
+        "median_ms": 0.6301880348473787,
+        "runs_ms": [
+          0.6176640163175762,
+          0.6301880348473787,
+          0.6467889761552215,
+          0.5996089894324541,
+          0.6565980147570372
+        ],
+        "loaded_geometries": 4
+      },
+      "recommendation": "review",
+      "elapsed_seconds": 0.5275130110094324,
+      "independent_struct_counter_equal_per_scene": true,
+      "snapshot_sha256_matches_source": true,
+      "source_sha256_still_current": true,
+      "khronos": {
+        "sha256": "ecf8c24aeb34847623ce95a573a146115145fc7b9b04fc2434b358e983c6c65a",
+        "errors": 0,
+        "warnings": 0
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5e/Visual/glb/Link2.glb",
+      "source_sha256": "8c67d4b4a769c991caa6a2d000d1b8cbc5259ec9457e939107d710814584659f",
+      "source_bytes": 722588,
+      "before_draw_calls": 8,
+      "status": "trial",
+      "trial_sha256": "cc03a8112bb4e5abbb232700deb4d572a80b7f1819585ccb89cb3a185fd82b86",
+      "trial_bytes": 718260,
+      "bytes_saved": 4328,
+      "after_draw_calls": 4,
+      "geometry_triangles": 25989,
+      "source_unchanged_after_trial": true,
+      "exact_corner_material_world_multisets_equal": true,
+      "materials_unchanged": true,
+      "scene_metadata_unchanged": true,
+      "scene_primitive_counts": [
+        25989,
+        25991
+      ],
+      "before_load": {
+        "median_ms": 1.5895310207270086,
+        "runs_ms": [
+          1.764533983077854,
+          1.3806839706376195,
+          1.3308500056155026,
+          1.5956429997459054,
+          1.5895310207270086
+        ],
+        "loaded_geometries": 10
+      },
+      "after_load": {
+        "median_ms": 1.1872570030391216,
+        "runs_ms": [
+          1.192737021483481,
+          0.7308589993044734,
+          1.1872570030391216,
+          1.3263809960335493,
+          0.8209699881263077
+        ],
+        "loaded_geometries": 6
+      },
+      "recommendation": "review",
+      "elapsed_seconds": 1.4237229449790902,
+      "independent_struct_counter_equal_per_scene": true,
+      "snapshot_sha256_matches_source": true,
+      "source_sha256_still_current": true,
+      "khronos": {
+        "sha256": "cc03a8112bb4e5abbb232700deb4d572a80b7f1819585ccb89cb3a185fd82b86",
+        "errors": 0,
+        "warnings": 0
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5e/Visual/glb/Link3.glb",
+      "source_sha256": "b8263aac1057f5fddaa0863ce10f5e55588e409f19189f0bdcfa1859177f2f40",
+      "source_bytes": 1174648,
+      "before_draw_calls": 7,
+      "status": "trial",
+      "trial_sha256": "468e18dc1eea534e7036b148931ffde6f1d17f7eca2962b57d7e2d2c85716924",
+      "trial_bytes": 1171340,
+      "bytes_saved": 3308,
+      "after_draw_calls": 4,
+      "geometry_triangles": 15056,
+      "source_unchanged_after_trial": true,
+      "exact_corner_material_world_multisets_equal": true,
+      "materials_unchanged": true,
+      "scene_metadata_unchanged": true,
+      "scene_primitive_counts": [
+        15056
+      ],
+      "before_load": {
+        "median_ms": 1.2927669449709356,
+        "runs_ms": [
+          1.995301980059594,
+          1.3354580150917172,
+          1.2927669449709356,
+          1.1231150128878653,
+          1.1676590074785054
+        ],
+        "loaded_geometries": 7
+      },
+      "after_load": {
+        "median_ms": 0.9201689972542226,
+        "runs_ms": [
+          0.9201689972542226,
+          0.8768470142967999,
+          1.5558380400761962,
+          1.6611869796179235,
+          0.8968339534476399
+        ],
+        "loaded_geometries": 4
+      },
+      "recommendation": "review",
+      "elapsed_seconds": 0.4750119079835713,
+      "independent_struct_counter_equal_per_scene": true,
+      "snapshot_sha256_matches_source": true,
+      "source_sha256_still_current": true,
+      "khronos": {
+        "sha256": "468e18dc1eea534e7036b148931ffde6f1d17f7eca2962b57d7e2d2c85716924",
+        "errors": 0,
+        "warnings": 0
+      }
+    }
+  ],
+  "summary": {
+    "candidates": 23,
+    "attempted": 23,
+    "trials": 14,
+    "skipped": 9,
+    "errors": 0,
+    "before_draw_calls": 112,
+    "after_draw_calls": 45,
+    "before_bytes": 10298216,
+    "after_bytes": 10233792,
+    "source_unchanged_after_trial": true,
+    "independent_struct_counter_comparisons_passed": 14,
+    "draw_calls_removed": 67,
+    "bytes_saved": 64424,
+    "all_trial_files_smaller": true,
+    "all_trial_source_sha256_still_current": true
+  },
+  "independent_verification": "stdlib struct decoder and raw corner attributes/full-material Counter per scene; no batch_visual_meshes comparison helper; all selected nodes verified flat identity transforms.",
+  "khronos": {
+    "meshes": 14,
+    "validator": "Khronos glTF-Validator",
+    "version": "2.0.0-dev.3.10",
+    "errors": 0,
+    "warnings": 0,
+    "infos": 0,
+    "hints": 0
+  },
+  "tool_script_sha256": "93b429a0f0c3a3555d700df4d4d3a5db798ea2a664ddb240e55b5dfae9d484b5",
+  "recommended_render_checks": [
+    {
+      "model": "RobotModel/KUKA/KR210_L150",
+      "reason": "BaseLink 18\u21922; finishes already-reviewed six-link batching."
+    },
+    {
+      "model": "RobotModel/UniversalRobots/UR3e",
+      "reason": "Three affected links including Link2 11\u21923; largest remaining UR draw-call gain."
+    },
+    {
+      "model": "RobotModel/UniversalRobots/UR5e",
+      "reason": "Two affected links with four retained material groups each."
+    },
+    {
+      "model": "RobotModel/KUKA/KR16_2",
+      "reason": "Link3 5\u21922; representative of KR16/KR120 link meshes."
+    }
+  ],
+  "notes": [
+    "Trial files are not applied to the repository. Check source SHA-256 again before adoption.",
+    "All original oriented triangle/line attributes and full material definitions survive; no normals or triangle counts change.",
+    "Five-run loader timings are noisy. For example UR10e Link3 median was slower in this sample despite fewer draw calls; do not promise universal loader or GPU speedups.",
+    "Nine skipped candidates have no reduction under exact material-index/node-payload grouping; no semantics-equivalence material merging was attempted."
+  ]
+}

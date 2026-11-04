@@ -1,0 +1,70 @@
+{
+  "summary": {
+    "mode": "apply",
+    "glbs": 1,
+    "triangle_material_bindings": 1,
+    "all_bin_unchanged": true,
+    "only_material_and_missing_bindings_changed": true
+  },
+  "generated_at": "2026-11-03T12:37:20.984096+00:00",
+  "files": [
+    {
+      "path": "RobotModel/ABB/IRB1200_5_90/Visual/glb/Link5.glb",
+      "urdf_references": [
+        {
+          "urdf": "RobotModel/ABB/IRB1200_5_90/IRB1200_5_90.urdf",
+          "name": "ABBWhite",
+          "rgba": [
+            0.9254902,
+            0.9254902,
+            0.9058824,
+            1.0
+          ]
+        }
+      ],
+      "added_material_bindings": [
+        {
+          "mesh": 0,
+          "primitive": 0
+        }
+      ],
+      "before_sha256": "e61e7739561c7788b9cefc6585f59fe9f1f75e1bcc3cca18c7a3864179127bd3",
+      "after_sha256": "0645f78130905064b64bb00c803fa0546f2879ae410cb1e35f810c9d0991851f",
+      "bin_sha256": "29c556641b702bedcb014029e7b293b620ff0ab7d9cf9d8e7373c688b6c58f8b",
+      "bin_unchanged": true,
+      "only_material_and_missing_bindings_changed": true,
+      "embedded_material": {
+        "name": "ABBWhite",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.77582222,
+            0.79129794,
+            0.7605245,
+            1.0
+          ],
+          "metallicFactor": 0.0,
+          "roughnessFactor": 0.36
+        },
+        "extras": {
+          "urdf_material_source": [
+            {
+              "urdf": "RobotModel/ABB/IRB1200_5_90/IRB1200_5_90.urdf",
+              "name": "ABBWhite",
+              "rgba": [
+                0.9254902,
+                0.9254902,
+                0.9058824,
+                1.0
+              ]
+            }
+          ],
+          "assetsmodel_material": {
+            "profile": "assetsmodel-brand-materials-v1",
+            "role": "paint",
+            "palette": "white_paint"
+          }
+        }
+      }
+    }
+  ]
+}
