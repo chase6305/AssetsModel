@@ -1,0 +1,355 @@
+{
+  "status": "passed",
+  "generated_at": "2026-11-03T16:04:17.346Z",
+  "html": "docs/preview.html",
+  "html_sha256": "1bc430ed0391c03290428cdf8c5c1154171b037a6d83421ab44b6881b992c9fa",
+  "method": "Real Chrome on the current local preview.html; all images decoded, every slider dispatched, every brand view switched to rear, desktop/mobile checked.",
+  "browser": "Google Chrome",
+  "viewports": [
+    {
+      "label": "desktop",
+      "brand_cards": 10,
+      "loaded_images": 30,
+      "all_images_decoded": true,
+      "all_slider_events_passed": true,
+      "all_view_switches_passed": true,
+      "horizontal_overflow": false,
+      "stats": [
+        "214.7 MiB",
+        "+4 款",
+        "201 / 201"
+      ],
+      "image_urls": [
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/abb-irb1200-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/abb-irb1200-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/ae-air10-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/ae-air10-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/agile-diana7-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/agile-diana7-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/fanuc-m10-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/fanuc-m10-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/franka-fr3-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/franka-fr3-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/hans-e05-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/hans-e05-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/kuka-kr10-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/kuka-kr10-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/motoman-gp7-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/motoman-gp7-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/rokae-sr5-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/rokae-sr5-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/ur5e-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/ur5e-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/new-robots/ufact-xarm6-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/new-robots/ufact-lite6-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/new-robots/kuka-iiwa14-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/new-robots/kinova-gen3-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/d415-after.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/d415-before.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/ae-link-after.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/ae-link-before.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/glb-d415.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/glb-ae.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/abb-irb1200-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/abb-irb1200-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/ae-air10-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/ae-air10-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/agile-diana7-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/agile-diana7-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/fanuc-m10-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/fanuc-m10-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/franka-fr3-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/franka-fr3-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/hans-e05-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/hans-e05-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/kuka-kr10-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/kuka-kr10-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/motoman-gp7-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/motoman-gp7-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/rokae-sr5-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/rokae-sr5-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/ur5e-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/ur5e-rear.png"
+      ],
+      "width": 1440,
+      "height": 1100,
+      "page_errors": [],
+      "screenshot": "/tmp/assetsmodel-session-viewer-check/final-desktop.png",
+      "screenshot_sha256": "d30dfb217e6ce73d8d1cd5cfb6fea24ac483f6d2a947cdd4f6045c1790c93365"
+    },
+    {
+      "label": "mobile",
+      "brand_cards": 10,
+      "loaded_images": 30,
+      "all_images_decoded": true,
+      "all_slider_events_passed": true,
+      "all_view_switches_passed": true,
+      "horizontal_overflow": false,
+      "stats": [
+        "214.7 MiB",
+        "+4 款",
+        "201 / 201"
+      ],
+      "image_urls": [
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/abb-irb1200-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/abb-irb1200-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/ae-air10-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/ae-air10-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/agile-diana7-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/agile-diana7-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/fanuc-m10-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/fanuc-m10-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/franka-fr3-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/franka-fr3-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/hans-e05-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/hans-e05-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/kuka-kr10-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/kuka-kr10-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/motoman-gp7-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/motoman-gp7-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/rokae-sr5-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/rokae-sr5-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/ur5e-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/ur5e-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/new-robots/ufact-xarm6-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/new-robots/ufact-lite6-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/new-robots/kuka-iiwa14-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/new-robots/kinova-gen3-hero.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/d415-after.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/d415-before.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/ae-link-after.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/ae-link-before.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/glb-d415.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/glb-ae.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/abb-irb1200-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/abb-irb1200-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/ae-air10-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/ae-air10-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/agile-diana7-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/agile-diana7-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/fanuc-m10-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/fanuc-m10-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/franka-fr3-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/franka-fr3-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/hans-e05-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/hans-e05-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/kuka-kr10-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/kuka-kr10-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/motoman-gp7-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/motoman-gp7-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/rokae-sr5-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/rokae-sr5-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-after/ur5e-rear.png",
+        "file:///home/ubuntu/workspace/chase/AssetsModel/docs/previews/brands-before/ur5e-rear.png"
+      ],
+      "width": 390,
+      "height": 844,
+      "page_errors": [],
+      "screenshot": "/tmp/assetsmodel-session-viewer-check/final-mobile.png",
+      "screenshot_sha256": "317216f9c02d765674cda06d1c3cce7a314fd3dff86face53cf5cc0c81046014"
+    }
+  ],
+  "unique_publication_and_historical_images_checked": 50,
+  "images": [
+    {
+      "path": "docs/previews/brands-after/abb-irb1200-hero.png",
+      "sha256": "3442854f2d7ccf9dd002c23b9017e90c6d6d5835bf2232a10554dcaaa7a6f325"
+    },
+    {
+      "path": "docs/previews/brands-before/abb-irb1200-hero.png",
+      "sha256": "5f3d1861066833a9d4cb7889af18c67e7da446c80931509aafdc8e1319a30d24"
+    },
+    {
+      "path": "docs/previews/brands-after/ae-air10-hero.png",
+      "sha256": "5fee29a338fe07c75e073df298fa098b99f4c2ffe0575093cfd15f4d66114651"
+    },
+    {
+      "path": "docs/previews/brands-before/ae-air10-hero.png",
+      "sha256": "7162ba7c4d4aeb9896d62f5a7fe6f9cbeb57839080d9e3b513705c6f44886a4c"
+    },
+    {
+      "path": "docs/previews/brands-after/agile-diana7-hero.png",
+      "sha256": "d63a0caf6258d322bd6ae1c4855917f8f64e989ce5b6ef318a7c771b72415f9a"
+    },
+    {
+      "path": "docs/previews/brands-before/agile-diana7-hero.png",
+      "sha256": "f97f9828730658405a67332de29709dbbf83140e82c39dbd462d9f55410765e4"
+    },
+    {
+      "path": "docs/previews/brands-after/fanuc-m10-hero.png",
+      "sha256": "37a94c47c5faa696e8b4ecf1f62fc3c84e53b7c96afb39a10380f188a35f7ec8"
+    },
+    {
+      "path": "docs/previews/brands-before/fanuc-m10-hero.png",
+      "sha256": "3e533a27de0363b29246711123f210aad9c0690eab30ca14406323e50294450d"
+    },
+    {
+      "path": "docs/previews/brands-after/franka-fr3-hero.png",
+      "sha256": "8fce87a6a691fe04ff9ea3214c99073b6050e9197c68dc286ae4ea635ed8a813"
+    },
+    {
+      "path": "docs/previews/brands-before/franka-fr3-hero.png",
+      "sha256": "fbb16df9082688c6e423fd4a90ee4af6dce70d927965088ff91955448c533cab"
+    },
+    {
+      "path": "docs/previews/brands-after/hans-e05-hero.png",
+      "sha256": "91fd15c6ae7fd4fef43f8d7a8b2b4ff1c45d00e3db556a10b9c73491ae472052"
+    },
+    {
+      "path": "docs/previews/brands-before/hans-e05-hero.png",
+      "sha256": "c8217f2e245b9503559ad2c24ff64e0008eddbc78ab2ed780e817256cb94e3ad"
+    },
+    {
+      "path": "docs/previews/brands-after/kuka-kr10-hero.png",
+      "sha256": "6f613db313540739b9faafeef9e8261f96bb85f16d541e14278f3d579aa507bc"
+    },
+    {
+      "path": "docs/previews/brands-before/kuka-kr10-hero.png",
+      "sha256": "7c5e17c597b1aedcd631e28ff2ebfef7f8375e98aeac290238b10fc4fa3224f5"
+    },
+    {
+      "path": "docs/previews/brands-after/motoman-gp7-hero.png",
+      "sha256": "5aa55045c01798f98907eb598a808a0937a6fe6fd5f2382fe1dc0a11bb5316d1"
+    },
+    {
+      "path": "docs/previews/brands-before/motoman-gp7-hero.png",
+      "sha256": "4c688bab288c0807cdd28a774ef4cac7fa0e9be1e4e4aa8f78ccd7c46f27a7bc"
+    },
+    {
+      "path": "docs/previews/brands-after/rokae-sr5-hero.png",
+      "sha256": "19d9f2a02bc78d3b7c5b41d26cde015ec97651e0aacc368990f602e865ba6688"
+    },
+    {
+      "path": "docs/previews/brands-before/rokae-sr5-hero.png",
+      "sha256": "8e1d4a82c0c2b1e3f23797d53b5c841a16743ab68fc71b8a594df48b1289fd64"
+    },
+    {
+      "path": "docs/previews/brands-after/ur5e-hero.png",
+      "sha256": "dacbaec85835cba0221b50deb1e2144fd7d006d67c7c0f865eab5379771d606d"
+    },
+    {
+      "path": "docs/previews/brands-before/ur5e-hero.png",
+      "sha256": "63a45e64a36149dca73fd8c2db0896957c57bacd7d26e1f820589339cc009c85"
+    },
+    {
+      "path": "docs/previews/new-robots/ufact-xarm6-hero.png",
+      "sha256": "9010cc15bf208c0cc1f544807c5f07d35a4e31d28e732b6a90e12c6ab0e1d2e1"
+    },
+    {
+      "path": "docs/previews/new-robots/ufact-lite6-hero.png",
+      "sha256": "a786e401592d78add60a6540d6d4258360fab428318e10eba7d8c666baa616bf"
+    },
+    {
+      "path": "docs/previews/new-robots/kuka-iiwa14-hero.png",
+      "sha256": "1748120ca482b7f364d05631f05e91b32230389a57c877e3db960ec2be76cf9b"
+    },
+    {
+      "path": "docs/previews/new-robots/kinova-gen3-hero.png",
+      "sha256": "ea78e9dde82d78ddbebdb057d6160d10bda4920c46e6fa6c38f71e1678d87525"
+    },
+    {
+      "path": "docs/previews/d415-after.png",
+      "sha256": "de70423adfe01683eeb0770a09bbf55f15145047ccd06432f88a3ad9a5c52a5e"
+    },
+    {
+      "path": "docs/previews/d415-before.png",
+      "sha256": "4585ee5d1cc8eb9d1b1c2184d7ff56c68fd6ff06f5168ae036b357b4cae88003"
+    },
+    {
+      "path": "docs/previews/ae-link-after.png",
+      "sha256": "84b511ee5d4b3d56697934f67e520d33f3199fcb5fbeb02bd900274a82291da4"
+    },
+    {
+      "path": "docs/previews/ae-link-before.png",
+      "sha256": "0e4ef0b62d7c87772009dc788f2e94765a57334acfce55533d416e1c218b7d0a"
+    },
+    {
+      "path": "docs/previews/glb-d415.png",
+      "sha256": "ad567077c9d73ad5782e01376813286ac8b7443371be97f3cf77bcc9eb7f733e"
+    },
+    {
+      "path": "docs/previews/glb-ae.png",
+      "sha256": "5cde78e7f2603921b3705848ef403dcd812c6da6333faae0214ccd789b8c2344"
+    },
+    {
+      "path": "docs/previews/brands-after/abb-irb1200-rear.png",
+      "sha256": "dfe783972dff54e56505793b26eef137c1693fb278ec8bc1fb523448f716f587"
+    },
+    {
+      "path": "docs/previews/brands-before/abb-irb1200-rear.png",
+      "sha256": "3cf30a3f801383fbf2610e0287279b5776469675ba8057f008cfdc635bc07d82"
+    },
+    {
+      "path": "docs/previews/brands-after/ae-air10-rear.png",
+      "sha256": "4180b150aca547e56629df896e22fc9087d9791ca4869e015486d130e13193a5"
+    },
+    {
+      "path": "docs/previews/brands-before/ae-air10-rear.png",
+      "sha256": "0b3a1b6019af836115bdadf8968ed6c8a6d119c280bdcbfbd073941445886d43"
+    },
+    {
+      "path": "docs/previews/brands-after/agile-diana7-rear.png",
+      "sha256": "a16e1d6f32f7e7aa0aa9f4c9ef1a93656bbd6cbe4dc97f8ec0bda2bfb0f18eb4"
+    },
+    {
+      "path": "docs/previews/brands-before/agile-diana7-rear.png",
+      "sha256": "ac8c6f1d6395ce1e925b846372e1b62111bcc87695c85b30a1f2aa0f7b67ccbf"
+    },
+    {
+      "path": "docs/previews/brands-after/fanuc-m10-rear.png",
+      "sha256": "e1339c6dc6fe885e405fdf296504df7254ce452b7e99bdadd1fa85dd7d339004"
+    },
+    {
+      "path": "docs/previews/brands-before/fanuc-m10-rear.png",
+      "sha256": "1c8b0f8cc765b84d0340210ee3f824d8bc60c5ab8dbb68ee98ce4229b97a0356"
+    },
+    {
+      "path": "docs/previews/brands-after/franka-fr3-rear.png",
+      "sha256": "ec2b6efc649f6f27e5e4d935a2165fe34efb6af0acf37b2b59c1e4c108a345ec"
+    },
+    {
+      "path": "docs/previews/brands-before/franka-fr3-rear.png",
+      "sha256": "ef34169a6f29c4f725fb13dad4bca18059367225eab121a6d0de5ef3671d1f63"
+    },
+    {
+      "path": "docs/previews/brands-after/hans-e05-rear.png",
+      "sha256": "ac7185ac2a0795f3f69c1be0d3d8945df34fdadfae43fdde3eb7334b568a63c0"
+    },
+    {
+      "path": "docs/previews/brands-before/hans-e05-rear.png",
+      "sha256": "d717df94bf30175a07f9272e5f9b28617104ff60c893eec81c3499edb7eb8373"
+    },
+    {
+      "path": "docs/previews/brands-after/kuka-kr10-rear.png",
+      "sha256": "a7f99e0f036235e0f78571bd7cb9c536ad5a2824be01d2a0cb864cfddd228e1e"
+    },
+    {
+      "path": "docs/previews/brands-before/kuka-kr10-rear.png",
+      "sha256": "c0036efd8c25a63448248a24d7d263c2a5cde3a6f85353e500cc20b81f3e777c"
+    },
+    {
+      "path": "docs/previews/brands-after/motoman-gp7-rear.png",
+      "sha256": "66e643d4d47344b653c6f47f08645aa1f9380e5cbc5446eb18bb29ad0c10f0f0"
+    },
+    {
+      "path": "docs/previews/brands-before/motoman-gp7-rear.png",
+      "sha256": "9559298cccd73e894545ebcb5365d2c5e62a2e2f2baa339a9c8ca558637aa17f"
+    },
+    {
+      "path": "docs/previews/brands-after/rokae-sr5-rear.png",
+      "sha256": "81b1caea2ed58bd66abec02354507ca50ddee7f178e0957e4f075f4b251f1216"
+    },
+    {
+      "path": "docs/previews/brands-before/rokae-sr5-rear.png",
+      "sha256": "a4ec286c80d174f6bbcb4af5852668bed930871bd3a107b6ae0189bfc680b718"
+    },
+    {
+      "path": "docs/previews/brands-after/ur5e-rear.png",
+      "sha256": "eba88c81ba6663431e7cbe72ca0b7a13d4c443ea7f11b38bc5cb34235b94e659"
+    },
+    {
+      "path": "docs/previews/brands-before/ur5e-rear.png",
+      "sha256": "d12977873f7a77d693c5c8872ec573ba1f49a326785650d305f29186b47bf5b6"
+    }
+  ]
+}

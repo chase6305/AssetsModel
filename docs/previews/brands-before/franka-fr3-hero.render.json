@@ -1,0 +1,28 @@
+{
+  "pack": "/tmp/assetsmodel-session-final-brand-before-packs/franka-fr3",
+  "view": "hero",
+  "azimuth_degrees": -55.0,
+  "elevation_degrees": 23.0,
+  "width": 1000,
+  "height": 900,
+  "samples": 128,
+  "theme": "dark",
+  "engine": "BLENDER_EEVEE",
+  "view_transform": "AgX",
+  "single_sided_materials": "native culling",
+  "blender": "5.2.2 LTS",
+  "parts": 37,
+  "bounds_m": [
+    [
+      -0.1739751598802401,
+      -0.12939999997615814,
+      -0.0
+    ],
+    [
+      0.4097071915296465,
+      0.12992100417614003,
+      0.9202832493304227
+    ]
+  ],
+  "ortho_scale": 3.0742335319519043
+}

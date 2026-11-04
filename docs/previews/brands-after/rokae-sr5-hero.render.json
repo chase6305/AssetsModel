@@ -1,0 +1,28 @@
+{
+  "pack": "/tmp/assetsmodel-session-final-brand-after-packs/rokae-sr5",
+  "view": "hero",
+  "azimuth_degrees": -55.0,
+  "elevation_degrees": 23.0,
+  "width": 1000,
+  "height": 900,
+  "samples": 128,
+  "theme": "dark",
+  "engine": "BLENDER_EEVEE",
+  "view_transform": "AgX",
+  "single_sided_materials": "native culling",
+  "blender": "5.2.2 LTS",
+  "parts": 9,
+  "bounds_m": [
+    [
+      -0.07499998062849045,
+      -0.15298840403556824,
+      -1.2697970452890672e-10
+    ],
+    [
+      0.1063091978430748,
+      0.18065376958251,
+      1.2315
+    ]
+  ],
+  "ortho_scale": 2.773904800415039
+}

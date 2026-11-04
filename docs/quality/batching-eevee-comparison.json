@@ -1,0 +1,27 @@
+{
+  "engine": "BLENDER_EEVEE",
+  "scope": "KR210_L150 complete assembly, three matching studio views",
+  "comparisons": [
+    {
+      "view": "hero",
+      "mean_absolute_channel_error_255": 0.0,
+      "rms_channel_error_255": 0.0,
+      "max_channel_error_255": 0.0,
+      "identical_pixels_percent": 100.0
+    },
+    {
+      "view": "rear",
+      "mean_absolute_channel_error_255": 1.4814814814814815e-06,
+      "rms_channel_error_255": 0.0012171612389003691,
+      "max_channel_error_255": 1.0,
+      "identical_pixels_percent": 99.99966666666667
+    },
+    {
+      "view": "top",
+      "mean_absolute_channel_error_255": 0.0,
+      "rms_channel_error_255": 0.0,
+      "max_channel_error_255": 0.0,
+      "identical_pixels_percent": 100.0
+    }
+  ]
+}

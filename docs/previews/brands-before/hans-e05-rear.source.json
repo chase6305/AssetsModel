@@ -1,0 +1,9 @@
+{
+  "id": "hans-e05",
+  "label": "Han's E05",
+  "urdf": "RobotModel/Hans/E05/E05.urdf",
+  "view": "rear",
+  "joints": {},
+  "image": "hans-e05-rear.png",
+  "source_sha256": "8528977090f227c5e4f8d54970e6f9e1cf9a4f42e6598b2b55063daa148c6fd4"
+}

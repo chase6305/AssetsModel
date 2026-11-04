@@ -1,0 +1,28 @@
+{
+  "pack": "/tmp/assetsmodel-session-final-new-packs/kuka-iiwa14",
+  "view": "rear",
+  "azimuth_degrees": 125.00000000000001,
+  "elevation_degrees": 22.0,
+  "width": 1000,
+  "height": 900,
+  "samples": 128,
+  "theme": "dark",
+  "engine": "BLENDER_EEVEE",
+  "view_transform": "AgX",
+  "single_sided_materials": "native culling",
+  "blender": "5.2.2 LTS",
+  "parts": 8,
+  "bounds_m": [
+    [
+      -0.13600000739097595,
+      -0.12138441205024719,
+      -4.32100193847873e-07
+    ],
+    [
+      0.7480088250082993,
+      0.1321071982383728,
+      0.7631125832807955
+    ]
+  ],
+  "ortho_scale": 2.9419779777526855
+}

@@ -1,0 +1,583 @@
+{
+  "status": "complete",
+  "generated_at": "2026-11-03T16:07:39.394905+00:00",
+  "summary": {
+    "images": 48,
+    "brand_before_after_pairs": 20,
+    "new_robot_views": 8,
+    "all_source_fingerprints_current": true,
+    "all_render_settings_native_culling": true,
+    "before_after_camera_pose_and_geometry_bounds_equal": true
+  },
+  "visual_review": "Root actually viewed all 40 brand comparison images in four paired contact pages plus the fresh native eight-view new-robot contact sheet. Native EEVEE keeps intended component colors, clear mechanical outlines and original labels/holes. Paint values remain visual approximations.",
+  "files": [
+    {
+      "stage": "brands-before",
+      "id": "abb-irb1200",
+      "view": "hero",
+      "path": "docs/previews/brands-before/abb-irb1200-hero.png",
+      "sha256": "5f3d1861066833a9d4cb7889af18c67e7da446c80931509aafdc8e1319a30d24",
+      "source_fingerprint": "590c2b6992c739ca0e838f1d988095fd0f94d21708558df51fe464763eb5497b",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-before",
+      "id": "abb-irb1200",
+      "view": "rear",
+      "path": "docs/previews/brands-before/abb-irb1200-rear.png",
+      "sha256": "3cf30a3f801383fbf2610e0287279b5776469675ba8057f008cfdc635bc07d82",
+      "source_fingerprint": "20ac83b9cd69aebbd891801f316c540104144d35b2e0f896a5ca7432858a6b74",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-before",
+      "id": "ae-air10",
+      "view": "hero",
+      "path": "docs/previews/brands-before/ae-air10-hero.png",
+      "sha256": "7162ba7c4d4aeb9896d62f5a7fe6f9cbeb57839080d9e3b513705c6f44886a4c",
+      "source_fingerprint": "094d3da2447ed9deadcd3d7091c0d04bb84439e306eae50e816809b21712aa8b",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-before",
+      "id": "ae-air10",
+      "view": "rear",
+      "path": "docs/previews/brands-before/ae-air10-rear.png",
+      "sha256": "0b3a1b6019af836115bdadf8968ed6c8a6d119c280bdcbfbd073941445886d43",
+      "source_fingerprint": "5d33c9a277779c69601ff7fc323023b65b789ece697c2792a1833b1c862856d9",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-before",
+      "id": "agile-diana7",
+      "view": "hero",
+      "path": "docs/previews/brands-before/agile-diana7-hero.png",
+      "sha256": "f97f9828730658405a67332de29709dbbf83140e82c39dbd462d9f55410765e4",
+      "source_fingerprint": "ddd48a0dcf88b14c6ce54423b6971bcd16e91d89af36a76bb672a480a31d91f4",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-before",
+      "id": "agile-diana7",
+      "view": "rear",
+      "path": "docs/previews/brands-before/agile-diana7-rear.png",
+      "sha256": "ac8c6f1d6395ce1e925b846372e1b62111bcc87695c85b30a1f2aa0f7b67ccbf",
+      "source_fingerprint": "eda855631afbde7bcb5ae7bdf55e292c5480aba945d2f3ddff7baec9b4ec20ac",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-before",
+      "id": "fanuc-m10",
+      "view": "hero",
+      "path": "docs/previews/brands-before/fanuc-m10-hero.png",
+      "sha256": "3e533a27de0363b29246711123f210aad9c0690eab30ca14406323e50294450d",
+      "source_fingerprint": "56db2d38dffde10b9334f6746b27f4eaa63afdc18779f462e5cac377eb848448",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-before",
+      "id": "fanuc-m10",
+      "view": "rear",
+      "path": "docs/previews/brands-before/fanuc-m10-rear.png",
+      "sha256": "1c8b0f8cc765b84d0340210ee3f824d8bc60c5ab8dbb68ee98ce4229b97a0356",
+      "source_fingerprint": "57914a7a334cd6dc930fb7b03c6b252aac9509ab1f4f339c60a37fcb1fe9dbd5",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-before",
+      "id": "franka-fr3",
+      "view": "hero",
+      "path": "docs/previews/brands-before/franka-fr3-hero.png",
+      "sha256": "fbb16df9082688c6e423fd4a90ee4af6dce70d927965088ff91955448c533cab",
+      "source_fingerprint": "c8fffefe2a841dc8a096b1fdafcaaddf3b206bdee541ca4ba7a1197eaa0397e4",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {
+        "fr3_joint2": -0.5,
+        "fr3_joint4": -1.8,
+        "fr3_joint6": 1.4,
+        "fr3_joint7": 0.7,
+        "fr3_finger_joint1": 0.03
+      }
+    },
+    {
+      "stage": "brands-before",
+      "id": "franka-fr3",
+      "view": "rear",
+      "path": "docs/previews/brands-before/franka-fr3-rear.png",
+      "sha256": "ef34169a6f29c4f725fb13dad4bca18059367225eab121a6d0de5ef3671d1f63",
+      "source_fingerprint": "2a4c18635ab5e954e0540b9a899db9cf6df2da2b4dc611c066cf93b2fc6d1000",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {
+        "fr3_joint2": -0.5,
+        "fr3_joint4": -1.8,
+        "fr3_joint6": 1.4,
+        "fr3_joint7": 0.7,
+        "fr3_finger_joint1": 0.03
+      }
+    },
+    {
+      "stage": "brands-before",
+      "id": "hans-e05",
+      "view": "hero",
+      "path": "docs/previews/brands-before/hans-e05-hero.png",
+      "sha256": "c8217f2e245b9503559ad2c24ff64e0008eddbc78ab2ed780e817256cb94e3ad",
+      "source_fingerprint": "6252a9a83931baac98236f37488894f9aebb7b17ed6f5f565217dfed2ba2f1bf",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-before",
+      "id": "hans-e05",
+      "view": "rear",
+      "path": "docs/previews/brands-before/hans-e05-rear.png",
+      "sha256": "d717df94bf30175a07f9272e5f9b28617104ff60c893eec81c3499edb7eb8373",
+      "source_fingerprint": "8528977090f227c5e4f8d54970e6f9e1cf9a4f42e6598b2b55063daa148c6fd4",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-before",
+      "id": "kuka-kr10",
+      "view": "hero",
+      "path": "docs/previews/brands-before/kuka-kr10-hero.png",
+      "sha256": "7c5e17c597b1aedcd631e28ff2ebfef7f8375e98aeac290238b10fc4fa3224f5",
+      "source_fingerprint": "da433383ad81b79f7960cec7d6baa27ad9e046663839bf3e290c92c1460ad711",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-before",
+      "id": "kuka-kr10",
+      "view": "rear",
+      "path": "docs/previews/brands-before/kuka-kr10-rear.png",
+      "sha256": "c0036efd8c25a63448248a24d7d263c2a5cde3a6f85353e500cc20b81f3e777c",
+      "source_fingerprint": "17f650e8edf2097e530631f5aba95ea20256e38e16e5f967e87d05426740dcf4",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-before",
+      "id": "motoman-gp7",
+      "view": "hero",
+      "path": "docs/previews/brands-before/motoman-gp7-hero.png",
+      "sha256": "4c688bab288c0807cdd28a774ef4cac7fa0e9be1e4e4aa8f78ccd7c46f27a7bc",
+      "source_fingerprint": "badf5432a9baaad370624fa84aed5c80315ce7adcf2c3986f074d7faf17f6748",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-before",
+      "id": "motoman-gp7",
+      "view": "rear",
+      "path": "docs/previews/brands-before/motoman-gp7-rear.png",
+      "sha256": "9559298cccd73e894545ebcb5365d2c5e62a2e2f2baa339a9c8ca558637aa17f",
+      "source_fingerprint": "18992511bab4968143a6822db07bf4648ff47ba24d884b32eff21173a0cbb4ed",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-before",
+      "id": "rokae-sr5",
+      "view": "hero",
+      "path": "docs/previews/brands-before/rokae-sr5-hero.png",
+      "sha256": "8e1d4a82c0c2b1e3f23797d53b5c841a16743ab68fc71b8a594df48b1289fd64",
+      "source_fingerprint": "5ca06f5f59c07abef3bbb3d567c30fa9998391d20ac898316adb48e392c0df51",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-before",
+      "id": "rokae-sr5",
+      "view": "rear",
+      "path": "docs/previews/brands-before/rokae-sr5-rear.png",
+      "sha256": "a4ec286c80d174f6bbcb4af5852668bed930871bd3a107b6ae0189bfc680b718",
+      "source_fingerprint": "bb39b74cba45361791ae3082ba1b49977e47a52cc42a28ade2e068a503d3657d",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-before",
+      "id": "ur5e",
+      "view": "hero",
+      "path": "docs/previews/brands-before/ur5e-hero.png",
+      "sha256": "63a45e64a36149dca73fd8c2db0896957c57bacd7d26e1f820589339cc009c85",
+      "source_fingerprint": "64ad5c2ba6b1080366d2d590ffb10fb529fab3d9578bf6e481c84f3d52a0eb01",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-before",
+      "id": "ur5e",
+      "view": "rear",
+      "path": "docs/previews/brands-before/ur5e-rear.png",
+      "sha256": "d12977873f7a77d693c5c8872ec573ba1f49a326785650d305f29186b47bf5b6",
+      "source_fingerprint": "2af208c173dd9d96dbdeee025c5a6c02bd9c6b1e41eaa723dbeec2ee040dd348",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-after",
+      "id": "abb-irb1200",
+      "view": "hero",
+      "path": "docs/previews/brands-after/abb-irb1200-hero.png",
+      "sha256": "3442854f2d7ccf9dd002c23b9017e90c6d6d5835bf2232a10554dcaaa7a6f325",
+      "source_fingerprint": "244d727c37d0432ab22ac58592d41d367682b413bcbae15a79e911f90be72155",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-after",
+      "id": "abb-irb1200",
+      "view": "rear",
+      "path": "docs/previews/brands-after/abb-irb1200-rear.png",
+      "sha256": "dfe783972dff54e56505793b26eef137c1693fb278ec8bc1fb523448f716f587",
+      "source_fingerprint": "955aa637437d911f33d923557ec04202fb048e3a785015b741cd2235eea5829d",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-after",
+      "id": "ae-air10",
+      "view": "hero",
+      "path": "docs/previews/brands-after/ae-air10-hero.png",
+      "sha256": "5fee29a338fe07c75e073df298fa098b99f4c2ffe0575093cfd15f4d66114651",
+      "source_fingerprint": "bf782e2798ffd453ff1b133bac37b2e9375158c988083e88b375bd599f1654cd",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-after",
+      "id": "ae-air10",
+      "view": "rear",
+      "path": "docs/previews/brands-after/ae-air10-rear.png",
+      "sha256": "4180b150aca547e56629df896e22fc9087d9791ca4869e015486d130e13193a5",
+      "source_fingerprint": "4021322ed3a973abaa38fb879ffd45b734670f7682ce1d4d5e441999d92c93da",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-after",
+      "id": "agile-diana7",
+      "view": "hero",
+      "path": "docs/previews/brands-after/agile-diana7-hero.png",
+      "sha256": "d63a0caf6258d322bd6ae1c4855917f8f64e989ce5b6ef318a7c771b72415f9a",
+      "source_fingerprint": "bdd6f15cd2574db7cd3aea36391e0df1f7b9311a4d4202bfa4c6c99bffef1376",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-after",
+      "id": "agile-diana7",
+      "view": "rear",
+      "path": "docs/previews/brands-after/agile-diana7-rear.png",
+      "sha256": "a16e1d6f32f7e7aa0aa9f4c9ef1a93656bbd6cbe4dc97f8ec0bda2bfb0f18eb4",
+      "source_fingerprint": "69f5b75a1deab2fa6b61edeed92c8d25b70dd2ad5bae6785bdee6206aee30fb4",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-after",
+      "id": "fanuc-m10",
+      "view": "hero",
+      "path": "docs/previews/brands-after/fanuc-m10-hero.png",
+      "sha256": "37a94c47c5faa696e8b4ecf1f62fc3c84e53b7c96afb39a10380f188a35f7ec8",
+      "source_fingerprint": "cc8887d885de122bbb8d21abf8ba8b9fe68d1937a859ca0a057b5126245724d2",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-after",
+      "id": "fanuc-m10",
+      "view": "rear",
+      "path": "docs/previews/brands-after/fanuc-m10-rear.png",
+      "sha256": "e1339c6dc6fe885e405fdf296504df7254ce452b7e99bdadd1fa85dd7d339004",
+      "source_fingerprint": "a4123c171a46ddaa85043a6b2d2c4c6b33bbfb6b30f249492ca379e0320eb074",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-after",
+      "id": "franka-fr3",
+      "view": "hero",
+      "path": "docs/previews/brands-after/franka-fr3-hero.png",
+      "sha256": "8fce87a6a691fe04ff9ea3214c99073b6050e9197c68dc286ae4ea635ed8a813",
+      "source_fingerprint": "c3d565110cb3371afab8ec67299fd8417e375f57bbc860310ffb43fcf8fbf58e",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {
+        "fr3_joint2": -0.5,
+        "fr3_joint4": -1.8,
+        "fr3_joint6": 1.4,
+        "fr3_joint7": 0.7,
+        "fr3_finger_joint1": 0.03
+      }
+    },
+    {
+      "stage": "brands-after",
+      "id": "franka-fr3",
+      "view": "rear",
+      "path": "docs/previews/brands-after/franka-fr3-rear.png",
+      "sha256": "ec2b6efc649f6f27e5e4d935a2165fe34efb6af0acf37b2b59c1e4c108a345ec",
+      "source_fingerprint": "435dd75b1b5432747378b27b3cde26a7c05bee975a8e69890486eb10472a3f4e",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {
+        "fr3_joint2": -0.5,
+        "fr3_joint4": -1.8,
+        "fr3_joint6": 1.4,
+        "fr3_joint7": 0.7,
+        "fr3_finger_joint1": 0.03
+      }
+    },
+    {
+      "stage": "brands-after",
+      "id": "hans-e05",
+      "view": "hero",
+      "path": "docs/previews/brands-after/hans-e05-hero.png",
+      "sha256": "91fd15c6ae7fd4fef43f8d7a8b2b4ff1c45d00e3db556a10b9c73491ae472052",
+      "source_fingerprint": "a47c55a3742000aa64199df43a4a3b0bb9fc5791dc31c9a738544c9e40d18e5b",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-after",
+      "id": "hans-e05",
+      "view": "rear",
+      "path": "docs/previews/brands-after/hans-e05-rear.png",
+      "sha256": "ac7185ac2a0795f3f69c1be0d3d8945df34fdadfae43fdde3eb7334b568a63c0",
+      "source_fingerprint": "03fedf3196be72c74418b3164733ed2d1b1d1adb83aa85bcadf0f528a54f863a",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-after",
+      "id": "kuka-kr10",
+      "view": "hero",
+      "path": "docs/previews/brands-after/kuka-kr10-hero.png",
+      "sha256": "6f613db313540739b9faafeef9e8261f96bb85f16d541e14278f3d579aa507bc",
+      "source_fingerprint": "318fbe007e6ed59f7dbfb793084b16e241dc86293e397e7ed101ce6d8dc4778e",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-after",
+      "id": "kuka-kr10",
+      "view": "rear",
+      "path": "docs/previews/brands-after/kuka-kr10-rear.png",
+      "sha256": "a7f99e0f036235e0f78571bd7cb9c536ad5a2824be01d2a0cb864cfddd228e1e",
+      "source_fingerprint": "26d4554c45e2345b9fbbfc737d806aafb74a84394e949d911f9fbc36b91cba41",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-after",
+      "id": "motoman-gp7",
+      "view": "hero",
+      "path": "docs/previews/brands-after/motoman-gp7-hero.png",
+      "sha256": "5aa55045c01798f98907eb598a808a0937a6fe6fd5f2382fe1dc0a11bb5316d1",
+      "source_fingerprint": "f22ce22e0e53abcfcfc3a4beda12f06bc660cd131180be47fbbd09180031c104",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-after",
+      "id": "motoman-gp7",
+      "view": "rear",
+      "path": "docs/previews/brands-after/motoman-gp7-rear.png",
+      "sha256": "66e643d4d47344b653c6f47f08645aa1f9380e5cbc5446eb18bb29ad0c10f0f0",
+      "source_fingerprint": "ddff2568c3cdf643b3acabd7e69006f16b8a0d6365feeb38639aafe290b3d3ed",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-after",
+      "id": "rokae-sr5",
+      "view": "hero",
+      "path": "docs/previews/brands-after/rokae-sr5-hero.png",
+      "sha256": "19d9f2a02bc78d3b7c5b41d26cde015ec97651e0aacc368990f602e865ba6688",
+      "source_fingerprint": "a3c84e85c6b9c01a4397335312cb6feb8c0f8800b3e17ab5c31a7ba7fc9da4be",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-after",
+      "id": "rokae-sr5",
+      "view": "rear",
+      "path": "docs/previews/brands-after/rokae-sr5-rear.png",
+      "sha256": "81b1caea2ed58bd66abec02354507ca50ddee7f178e0957e4f075f4b251f1216",
+      "source_fingerprint": "d6d2d172510366594762c4097f5c527d17d9481688a07111835ee1a024b3378b",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-after",
+      "id": "ur5e",
+      "view": "hero",
+      "path": "docs/previews/brands-after/ur5e-hero.png",
+      "sha256": "dacbaec85835cba0221b50deb1e2144fd7d006d67c7c0f865eab5379771d606d",
+      "source_fingerprint": "18713c61f822a465b50f30548b988fc73ae236addc2dd0a94f35e5e40eaa4483",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "brands-after",
+      "id": "ur5e",
+      "view": "rear",
+      "path": "docs/previews/brands-after/ur5e-rear.png",
+      "sha256": "eba88c81ba6663431e7cbe72ca0b7a13d4c443ea7f11b38bc5cb34235b94e659",
+      "source_fingerprint": "ad44ae35e0e413c5403e5d34d8d1c6d9020c567312134f39c716baf0503a80a7",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "new-robots",
+      "id": "ufact-xarm6",
+      "view": "hero",
+      "path": "docs/previews/new-robots/ufact-xarm6-hero.png",
+      "sha256": "9010cc15bf208c0cc1f544807c5f07d35a4e31d28e732b6a90e12c6ab0e1d2e1",
+      "source_fingerprint": "e99bfd29be0cbd6e150ef8040359f1a15bc63d65e67957a2776051053f205330",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "new-robots",
+      "id": "ufact-xarm6",
+      "view": "rear",
+      "path": "docs/previews/new-robots/ufact-xarm6-rear.png",
+      "sha256": "49ef5c431e3a3c1a24a1978fef137c46a1e7e55f66aba7852249d769fdd41b00",
+      "source_fingerprint": "cd5a03ba2d8efe35b5e6cda14c97153f56fdf91d9bf3e7863dbf977146c9f790",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "new-robots",
+      "id": "ufact-lite6",
+      "view": "hero",
+      "path": "docs/previews/new-robots/ufact-lite6-hero.png",
+      "sha256": "a786e401592d78add60a6540d6d4258360fab428318e10eba7d8c666baa616bf",
+      "source_fingerprint": "fbc61ba259ed82ff10801d7447ec3adf9126d5e31cefb240e6bc3af8f92b557b",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "new-robots",
+      "id": "ufact-lite6",
+      "view": "rear",
+      "path": "docs/previews/new-robots/ufact-lite6-rear.png",
+      "sha256": "74460e2feda5b0c702ae954787c3bef35d8483e5bb4480ddb61ce4945ec74c28",
+      "source_fingerprint": "5fdd219245ecb3d02c1a3c2503e82684fedc609dc2d79d375c80253ecf5acccc",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {}
+    },
+    {
+      "stage": "new-robots",
+      "id": "kuka-iiwa14",
+      "view": "hero",
+      "path": "docs/previews/new-robots/kuka-iiwa14-hero.png",
+      "sha256": "1748120ca482b7f364d05631f05e91b32230389a57c877e3db960ec2be76cf9b",
+      "source_fingerprint": "271a02d5ee2863d6c136013f83f389e2d1973155568bd312f349e872a98924f3",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {
+        "iiwa_joint_2": 0.65,
+        "iiwa_joint_4": -1.1,
+        "iiwa_joint_6": 0.8
+      }
+    },
+    {
+      "stage": "new-robots",
+      "id": "kuka-iiwa14",
+      "view": "rear",
+      "path": "docs/previews/new-robots/kuka-iiwa14-rear.png",
+      "sha256": "dec2f19f7c004f840d8d0c58a9f5ec638b8a334d9a05da55caac8f07488edb1b",
+      "source_fingerprint": "ce8ecf1e83a1484ec14a38944833e0e968e441c3071500603fdb57d6a1e5072a",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {
+        "iiwa_joint_2": 0.65,
+        "iiwa_joint_4": -1.1,
+        "iiwa_joint_6": 0.8
+      }
+    },
+    {
+      "stage": "new-robots",
+      "id": "kinova-gen3",
+      "view": "hero",
+      "path": "docs/previews/new-robots/kinova-gen3-hero.png",
+      "sha256": "ea78e9dde82d78ddbebdb057d6160d10bda4920c46e6fa6c38f71e1678d87525",
+      "source_fingerprint": "f63774a397e7ef8fdc4e3262ed4674e1a7389ac41e112be5885a35fa316d27f6",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {
+        "joint_2": 0.5,
+        "joint_4": 1.1,
+        "joint_6": -0.6
+      }
+    },
+    {
+      "stage": "new-robots",
+      "id": "kinova-gen3",
+      "view": "rear",
+      "path": "docs/previews/new-robots/kinova-gen3-rear.png",
+      "sha256": "3d7ec6db0746119446a8d9610d94f70c216670e2b6a2d4519e2045f90d952cb3",
+      "source_fingerprint": "03a059230e17912f2cd5e8b39caaf08d5c85de16dd6530fa22ac28badaf0d9ee",
+      "engine": "BLENDER_EEVEE",
+      "samples": 128,
+      "joints": {
+        "joint_2": 0.5,
+        "joint_4": 1.1,
+        "joint_6": -0.6
+      }
+    }
+  ]
+}

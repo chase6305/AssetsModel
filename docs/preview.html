@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AssetsModel · 网格优化对比</title>
+<title>AssetsModel · 品牌外观与网格评审</title>
 <style>
   :root { color-scheme: light; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: #1f2b40; background: #f5f7fa; }
   * { box-sizing: border-box; }
@@ -27,8 +27,13 @@
   .controls span { white-space: nowrap; flex-shrink: 0; }
   input { width: 100%; accent-color: #457467; cursor: ew-resize; }
   .gallery { margin-top: 48px; }
-  .gallery .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .gallery .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .gallery img { width: 100%; display: block; }
+  .brand-section { margin-top: 48px; }
+  .brand-section .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .brand-section .comparison { aspect-ratio: 10 / 9; }
+  .brand-section .description { display: flex; flex-wrap: wrap; align-items: start; justify-content: space-between; gap: 12px; }
+  .brand-section select { padding: 7px; border: 1px solid #ccd4dd; background: white; border-radius: 5px; }
   .glb-section { margin-top: 48px; }
   .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 24px 0; }
   .stat { border-radius: 14px; background: #eaf2ef; padding: 20px; }
@@ -38,13 +43,30 @@
   .links { display: flex; gap: 12px 24px; flex-wrap: wrap; margin: 24px 0; }
   footer { margin-top: 36px; font-size: 13px; color: #627083; line-height: 1.8; }
   a { color: #326c5c; }
-  @media (max-width: 720px) { .grid, .gallery .grid { grid-template-columns: 1fr; } main { padding: 32px 16px; } }
+  @media (max-width: 720px) { .grid, .gallery .grid, .brand-section .grid { grid-template-columns: 1fr; } main { padding: 32px 16px; } }
 </style>
 <main>
-  <div class="eyebrow">ASSETSMODEL / GEOMETRY REVIEW</div>
-  <h1>更轻的网格，保留细节。</h1>
-  <p class="intro">拖动滑块查看实际模型的减面前后效果。两侧使用同一套渲染参数；减少密集面片，并保留原材质与机械轮廓。</p>
-  <section class="grid" aria-label="减面前后对比">
+  <div class="eyebrow">ASSETSMODEL / ROBOT APPEARANCE REVIEW</div>
+  <h1>品牌色彩，机械细节。</h1>
+  <p class="intro">对比真实机器人模型的品牌主色与表面材质，查看新增常用机械臂。前后图使用相同相机、光照、姿态与色彩管理；下方同时保留早期减面案例。</p>
+  <nav class="links" aria-label="预览快速导航"><a href="#appearance">品牌外观</a><a href="#new-robots">新增机械臂</a><a href="#geometry-history">历史减面对比</a><a href="NORMAL_REFINEMENT.md">曲面法线改进</a></nav>
+  <section class="brand-section" id="appearance" aria-label="品牌材质优化对比">
+    <h2>品牌材质与表面细节</h2>
+    <p>同一相机、光照与色彩管理下比较实际 GLB：区分烤漆、塑料、密封圈与金属，并让品牌主色更接近产品外观。配色是视觉近似。部分模型使用记录在清单中的有效展示姿态。</p>
+    <p>KUKA KR10 R1100-2 按新代 AGILUS 标准白色展示，旧代 sixx 保留橙色；底座和法兰按具体型号复核。</p>
+    <div class="links"><a href="BRAND_MATERIALS.md">配色依据与参数 ↗</a><a href="quality/preview-models.json">相机视角与关节姿态清单 ↗</a></div>
+    <div class="grid" id="brand-gallery"></div>
+  </section>
+  <section class="gallery" id="new-robots" aria-label="新增常用机器人">
+    <h2>四款新增机械臂</h2><p>独立来源的真实网格与运动学。复制模型目录即可使用；<a href="NEW_ROBOTS.md">查看配置、来源与使用说明</a>。</p>
+    <div class="grid">
+      <article><img src="previews/new-robots/ufact-xarm6-hero.png" alt="UFACTORY xArm6 实际装配渲染" loading="lazy"><div class="description"><h2>UFACTORY xArm6</h2><p>6 自由度 · 裸臂 · 白壳与灰色关节盖</p></div></article>
+      <article><img src="previews/new-robots/ufact-lite6-hero.png" alt="UFACTORY Lite6 实际装配渲染" loading="lazy"><div class="description"><h2>UFACTORY Lite6</h2><p>6 自由度 · 裸臂 · 保留机械硬边的曲面法线</p></div></article>
+      <article><img src="previews/new-robots/kuka-iiwa14-hero.png" alt="KUKA iiwa14 实际装配渲染" loading="lazy"><div class="description"><h2>KUKA LBR iiwa 14 R820</h2><p>7 自由度 · 裸臂 · 橙灰材质分区</p></div></article>
+      <article><img src="previews/new-robots/kinova-gen3-hero.png" alt="Kinova Gen3 七自由度实际装配渲染" loading="lazy"><div class="description"><h2>Kinova Gen3</h2><p>7 自由度 · 无视觉模块 · 裸臂</p></div></article>
+    </div>
+  </section>
+  <section class="grid" id="geometry-history" aria-label="减面前后对比">
     <article>
       <div class="description"><h2>RealSense D415</h2><p>425,160 → 20,000 面 · 减少 95.3%</p></div>
       <div class="comparison" id="camera-comparison">
@@ -64,21 +86,13 @@
       <div class="controls"><span>对比</span><input type="range" min="0" max="100" value="50" aria-label="AE 连杆原始图像显示比例" data-target="robot-comparison"></div>
     </article>
   </section>
-  <section class="gallery" aria-label="模型预览">
-    <h2>模型预览</h2><p>使用各模型自带材质的零姿态展示。</p>
-    <div class="grid">
-      <article><img src="previews/ae.png" alt="AE AIR10 机器人" loading="lazy"><div class="description">AE AIR10-1210</div></article>
-      <article><img src="previews/panda.png" alt="Franka Panda 机器人与夹爪" loading="lazy"><div class="description">Franka Panda</div></article>
-      <article><img src="previews/ur5e.png" alt="UR5e 机器人" loading="lazy"><div class="description">Universal Robots UR5e</div></article>
-    </div>
-  </section>
   <section class="glb-section" aria-label="GLB 资源与预览">
     <h2>GLB 资源已就绪</h2>
-    <p>783 个 GLB 与 67 个 URDF。网格按 glb/ 与 stl/ 分层存放，DAE 已移除；可直接复制所需模型目录。</p>
+    <p>841 个 GLB 与 71 个 URDF。网格按 glb/ 与 stl/ 分层存放，DAE 已移除；可直接复制所需模型目录。</p>
     <div class="stats">
-      <div class="stat"><strong>311.2 MiB</strong><span>GLB 网格体积</span></div>
-      <div class="stat"><strong>−49.7%</strong><span>相比减面后的 DAE / STL</span></div>
-      <div class="stat"><strong>201 / 201</strong><span>装配姿态对比通过</span></div>
+      <div class="stat"><strong>214.7 MiB</strong><span>GLB 网格体积</span></div>
+      <div class="stat"><strong>+4 款</strong><span>新增独立型号</span></div>
+      <div class="stat"><strong>201 / 201</strong><span>原有模型装配姿态对比通过</span></div>
     </div>
     <div class="grid">
       <article><img src="previews/glb-d415.png" alt="从 GLB 网格加载的 RealSense D415 相机" loading="lazy"><div class="description"><h2>RealSense D415</h2><p>平滑曲面与硬边法线 · 实际 GLB 装配渲染</p></div></article>
@@ -89,6 +103,26 @@
   <footer>减面验证使用双向表面采样；格式转换额外逐角点核对位置。图像用于外观复核。<a href="OPTIMIZATION_REPORT.md">减面记录</a> · <a href="MESH_WORKFLOW.md">复现流程</a></footer>
 </main>
 <script>
+  const brandModels = [
+    ['abb-irb1200', 'ABB IRB1200-7/0.7'], ['ae-air10', 'AE AIR10-1210'],
+    ['agile-diana7', 'Agile Diana 7'], ['fanuc-m10', 'FANUC M-10iD/12'],
+    ['franka-fr3', 'Franka Research 3'], ['hans-e05', "Han's E05"],
+    ['kuka-kr10', 'KUKA KR10 R1100-2'], ['motoman-gp7', 'Yaskawa Motoman GP7'],
+    ['rokae-sr5', 'ROKAE SR5'], ['ur5e', 'Universal Robots UR5e']
+  ];
+  const gallery = document.getElementById('brand-gallery');
+  for (const [id, label] of brandModels) {
+    const article = document.createElement('article');
+    article.innerHTML = `<div class="description"><h2>${label}</h2><select aria-label="${label} 观察角度"><option value="hero">正面斜视</option><option value="rear">背面斜视</option></select></div>
+      <div class="comparison" id="brand-${id}"><img data-version="after" src="previews/brands-after/${id}-hero.png" alt="${label} 更新后实际网格" loading="lazy"><img class="before" data-version="before" src="previews/brands-before/${id}-hero.png" alt="${label} 更新前实际网格" loading="lazy"><div class="divider"></div><span class="label left">原始外观</span><span class="label right">更新后</span></div>
+      <div class="controls"><span>外观对比</span><input type="range" min="0" max="100" value="50" aria-label="${label} 原始外观显示比例" data-target="brand-${id}"></div>`;
+    article.querySelector('select').addEventListener('change', event => {
+      article.querySelectorAll('img[data-version]').forEach(img => {
+        img.src = `previews/brands-${img.dataset.version}/${id}-${event.target.value}.png`;
+      });
+    });
+    gallery.append(article);
+  }
   document.querySelectorAll('input[data-target]').forEach(input => {
     input.addEventListener('input', () => {
       document.getElementById(input.dataset.target).style.setProperty('--split', `${input.value}%`);

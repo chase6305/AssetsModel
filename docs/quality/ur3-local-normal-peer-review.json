@@ -1,0 +1,143 @@
+{
+  "status": "passed",
+  "trial_only": true,
+  "assets_applied": false,
+  "reviewed_at": "2026-11-03T16:17:22.495256+00:00",
+  "source_model": "/home/ubuntu/workspace/chase/AssetsModel/RobotModel/UniversalRobots/UR3",
+  "snapshot": "/tmp/assetsmodel-session-ur3-seam-diagnosis/snapshot/RobotModel/UniversalRobots/UR3",
+  "candidate": "/tmp/assetsmodel-session-ur3-seam-diagnosis/local-fan-trial/RobotModel/UniversalRobots/UR3",
+  "mask_sha256": "8354d5f9e31e9bf9120c3e3cbac4962fcd4df4dbf15d47adfcb062342decd229",
+  "peer_script": "/tmp/assetsmodel-session-ur3-seam-diagnosis/independent-peer-check.py",
+  "peer_script_sha256": "45378371f75b0c725b2e31a24ca9a0b891b88821b1b472e06f58c45d4c6e1b61",
+  "method": "Approved independent masked-normal verifier plus a separate stdlib decoder pass. Every opposite-directed exact-coordinate edge pair is checked even at valence>2; source/target corner order, P, nonselected N, existing hard endpoint gaps and near-coplanar growth are protected. No production smoothing/repair/writer imported.",
+  "masked_verifier_result": {
+    "files": 3,
+    "selected_corners": 25,
+    "changed_normal_corners": 25,
+    "newly_opposed_normal_corners": 0,
+    "hard_endpoint_pairs_merged_below_30deg": 0,
+    "near_coplanar_gap_growth_gt_1deg": 0,
+    "near_coplanar_new_gap_above_1deg": 0,
+    "near_coplanar_max_gap_growth_deg": 1.4787793334710982e-06,
+    "near_coplanar_gap_growth_gt_0_001deg": 0,
+    "whole_file_contact_edges": {
+      "files_supported": 3,
+      "cross_primitive_shared_edges": 0,
+      "geometric_and_authored_30deg_hard_endpoint_pairs": 15928,
+      "hard_endpoint_pairs_merged_below_30deg": 0,
+      "near_coplanar_max_gap_growth_deg": 1.4787793334710982e-06,
+      "near_coplanar_gap_growth_gt_0_001deg": 0,
+      "near_coplanar_gap_growth_gt_1deg": 0,
+      "near_coplanar_new_gap_above_1deg": 0,
+      "selected_boundary_near_coplanar_max_output_gap_deg": 0.0,
+      "selected_boundary_smooth_geometry_max_output_gap_deg": 0.0
+    }
+  },
+  "files": [
+    {
+      "path": "Visual/glb/Link3.glb",
+      "source_sha256": "b2c7b6e45eac2095c615b09ffa51bd1b8c1facbcffcf1bfdc3bbdc7ee4843e18",
+      "candidate_sha256": "4da51424cfa841d6529363d6ea913c3397b8de2b4fcdfd3e6af9a88862205cef",
+      "position_corners_byte_exact": 28437,
+      "normal_corners_total": 28437,
+      "selected_and_actual_changed_corners_exact": 14,
+      "unselected_normal_corners_byte_exact": 28423,
+      "independent_all_valence_edge_pairs": {
+        "coordinate_edges": 14306,
+        "multi_entry_edges": 6,
+        "all_opposite_directed_edge_pairs_checked": 14078,
+        "selected_boundary_pairs": 2,
+        "selected_contact_pairs_across_primitives": 0,
+        "near_coplanar_growth_gt_0_001deg": 0,
+        "near_coplanar_max_growth_deg": 1.2074182697257333e-06,
+        "hard_pairs_lost_below_30deg": 0,
+        "selected_smooth_source_gap_reductions_above_25deg": 4
+      }
+    },
+    {
+      "path": "Visual/glb/Link4.glb",
+      "source_sha256": "24ffa3ab47029783e35a1e0abeee1fcd3565a98f2733c858c5c629ea782b47a7",
+      "candidate_sha256": "c68b33c2a613cc9923c0c1e84fcb3cf83239d78dcf4195654c06f55d110e1c59",
+      "position_corners_byte_exact": 21048,
+      "normal_corners_total": 21048,
+      "selected_and_actual_changed_corners_exact": 7,
+      "unselected_normal_corners_byte_exact": 21041,
+      "independent_all_valence_edge_pairs": {
+        "coordinate_edges": 10586,
+        "multi_entry_edges": 5,
+        "all_opposite_directed_edge_pairs_checked": 10434,
+        "selected_boundary_pairs": 0,
+        "selected_contact_pairs_across_primitives": 0,
+        "near_coplanar_growth_gt_0_001deg": 0,
+        "near_coplanar_max_growth_deg": 1.4787793334710982e-06,
+        "hard_pairs_lost_below_30deg": 0,
+        "selected_smooth_source_gap_reductions_above_25deg": 1
+      }
+    },
+    {
+      "path": "Visual/glb/Link5.glb",
+      "source_sha256": "cf9008b29059a377b8efdad3b1e6349c1050654764cc48b2bd29e477729e5621",
+      "candidate_sha256": "a0ddcc954c21f3e7d4dc210f49acd13f03efff90f180908afe74801844e68f00",
+      "position_corners_byte_exact": 21210,
+      "normal_corners_total": 21210,
+      "selected_and_actual_changed_corners_exact": 4,
+      "unselected_normal_corners_byte_exact": 21206,
+      "independent_all_valence_edge_pairs": {
+        "coordinate_edges": 10709,
+        "multi_entry_edges": 2,
+        "all_opposite_directed_edge_pairs_checked": 10441,
+        "selected_boundary_pairs": 1,
+        "selected_contact_pairs_across_primitives": 0,
+        "near_coplanar_growth_gt_0_001deg": 0,
+        "near_coplanar_max_growth_deg": 0.0,
+        "hard_pairs_lost_below_30deg": 0,
+        "selected_smooth_source_gap_reductions_above_25deg": 1
+      }
+    }
+  ],
+  "unchanged_visual_files": [
+    {
+      "path": "Visual/glb/BaseLink.glb",
+      "source_and_output_sha256": "15a8dc1e08ba4102e4210156bd3ca4695f21be67a7d686aafabb7a8dfc42422f"
+    },
+    {
+      "path": "Visual/glb/Link1.glb",
+      "source_and_output_sha256": "0e870f84304c3bf663ffea257d72cba6feadb7e586bb281cbfa42a2d51ac63fd"
+    },
+    {
+      "path": "Visual/glb/Link2.glb",
+      "source_and_output_sha256": "d2ca004f4ed46779cd5b95416f05120249995964dc3dae01daa87ff2104f16e6"
+    },
+    {
+      "path": "Visual/glb/Link6.glb",
+      "source_and_output_sha256": "c451a6530bfce8ae7046ad026609e823a6a36d571ffc8c95215a424adcb2560e"
+    }
+  ],
+  "input_sha256": {
+    "/home/ubuntu/workspace/chase/AssetsModel/RobotModel/UniversalRobots/UR3/Visual/glb/Link3.glb": "b2c7b6e45eac2095c615b09ffa51bd1b8c1facbcffcf1bfdc3bbdc7ee4843e18",
+    "/tmp/assetsmodel-session-ur3-seam-diagnosis/snapshot/RobotModel/UniversalRobots/UR3/Visual/glb/Link3.glb": "b2c7b6e45eac2095c615b09ffa51bd1b8c1facbcffcf1bfdc3bbdc7ee4843e18",
+    "/tmp/assetsmodel-session-ur3-seam-diagnosis/local-fan-trial/RobotModel/UniversalRobots/UR3/Visual/glb/Link3.glb": "4da51424cfa841d6529363d6ea913c3397b8de2b4fcdfd3e6af9a88862205cef",
+    "/home/ubuntu/workspace/chase/AssetsModel/RobotModel/UniversalRobots/UR3/Visual/glb/Link4.glb": "24ffa3ab47029783e35a1e0abeee1fcd3565a98f2733c858c5c629ea782b47a7",
+    "/tmp/assetsmodel-session-ur3-seam-diagnosis/snapshot/RobotModel/UniversalRobots/UR3/Visual/glb/Link4.glb": "24ffa3ab47029783e35a1e0abeee1fcd3565a98f2733c858c5c629ea782b47a7",
+    "/tmp/assetsmodel-session-ur3-seam-diagnosis/local-fan-trial/RobotModel/UniversalRobots/UR3/Visual/glb/Link4.glb": "c68b33c2a613cc9923c0c1e84fcb3cf83239d78dcf4195654c06f55d110e1c59",
+    "/home/ubuntu/workspace/chase/AssetsModel/RobotModel/UniversalRobots/UR3/Visual/glb/Link5.glb": "cf9008b29059a377b8efdad3b1e6349c1050654764cc48b2bd29e477729e5621",
+    "/tmp/assetsmodel-session-ur3-seam-diagnosis/snapshot/RobotModel/UniversalRobots/UR3/Visual/glb/Link5.glb": "cf9008b29059a377b8efdad3b1e6349c1050654764cc48b2bd29e477729e5621",
+    "/tmp/assetsmodel-session-ur3-seam-diagnosis/local-fan-trial/RobotModel/UniversalRobots/UR3/Visual/glb/Link5.glb": "a0ddcc954c21f3e7d4dc210f49acd13f03efff90f180908afe74801844e68f00"
+  },
+  "endcheck_changes": [],
+  "conclusion": "Structural/byte/mask/boundary checks pass. Adoption still requires parent visual review of the25-corner change; this audit does not claim the visible overlapping-geometry artifact is eliminated.",
+  "official_khronos_validation": {
+    "report": "/tmp/assetsmodel-session-ur3-seam-diagnosis/independent-peer-khronos.json",
+    "meshes": 3,
+    "validator": "Khronos glTF-Validator",
+    "version": "2.0.0-dev.3.10",
+    "errors": 0,
+    "warnings": 0,
+    "infos": 0,
+    "hints": 0
+  },
+  "final_source_endcheck": {
+    "checked_at": "2026-11-03T16:27:26.214328+00:00",
+    "changes": []
+  }
+}

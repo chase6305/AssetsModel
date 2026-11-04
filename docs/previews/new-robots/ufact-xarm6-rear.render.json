@@ -1,0 +1,28 @@
+{
+  "pack": "/tmp/assetsmodel-session-final-new-packs/ufact-xarm6",
+  "view": "rear",
+  "azimuth_degrees": 125.00000000000001,
+  "elevation_degrees": 22.0,
+  "width": 1000,
+  "height": 900,
+  "samples": 128,
+  "theme": "dark",
+  "engine": "BLENDER_EEVEE",
+  "view_transform": "AgX",
+  "single_sided_materials": "native culling",
+  "blender": "5.2.2 LTS",
+  "parts": 13,
+  "bounds_m": [
+    [
+      -0.06299995630979538,
+      -0.08621836126795691,
+      0.0
+    ],
+    [
+      0.24587277096509935,
+      0.12332604909214911,
+      0.5962674087669685
+    ]
+  ],
+  "ortho_scale": 3.0568673610687256
+}

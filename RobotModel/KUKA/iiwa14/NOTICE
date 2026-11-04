@@ -1,0 +1,8 @@
+iiwa14: derived from https://github.com/IFL-CAMP/iiwa_stack at commit 44f9d13c1b444d5dc9fd3e43ba60b7d3b2ea2bbb.
+Upstream license: BSD-2-Clause; full text is in LICENSE.
+Input description: iiwa_description/urdf/iiwa14.urdf.xacro.
+Changes: expanded xacro; omitted ROS plugins/controllers/transmissions; converted referenced meshes
+to embedded GLB; localized resource paths; adjusted visual PBR factors. Link frames, joint axes,
+limits, valid inertia, source surface geometry and mesh origin/scale are preserved.
+Any omitted invalid source inertia is documented verbatim in provenance.json.
+Brand appearance uses the source CAD material groups. Added PBR factors are visual approximations.

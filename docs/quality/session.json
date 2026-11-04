@@ -1,0 +1,307 @@
+{
+  "started_at": "2026-11-03T12:23:10Z",
+  "target_end": "2026-11-03T20:23:10Z",
+  "requested_duration_hours": 8,
+  "status": "completed_early_at_user_request",
+  "scope": [
+    "brand-aware PBR materials",
+    "mesh appearance and normals",
+    "3–5 common robot models",
+    "reproducible rendered previews and validation"
+  ],
+  "protected_user_changes": [
+    "ToolModel/Robotiq2F85/Robotiq2F85.urdf",
+    "ToolModel/Robotiq2F85/meshes/glb/*_fine.glb"
+  ],
+  "baseline_snapshot": "/tmp/assetsmodel-20261103-baseline",
+  "baseline_tests": {
+    "passed": 24,
+    "failed": 0
+  },
+  "iterations": [
+    {
+      "name": "brand-materials-pass-1",
+      "materials_changed": 563,
+      "glbs_changed": 367,
+      "existing_models_compared": 67,
+      "poses_compared": 201,
+      "comparison_errors": 0,
+      "tests_passed": 33,
+      "render_review": "in_progress"
+    },
+    {
+      "name": "preview-pipeline-accuracy",
+      "improvements": [
+        "exact linear PBR factors",
+        "authored corner normals",
+        "valid pose FK including mimic",
+        "automatic orthographic frame at arbitrary aspect ratio",
+        "failed Blender render cannot receive successful cache stamp"
+      ],
+      "full_review_models": 58,
+      "full_review_views": 232
+    },
+    {
+      "name": "source-backed-warm-yellow",
+      "brand": "AE / Peitian",
+      "srgb": "#EFB719",
+      "glbs_changed": 20,
+      "materials_changed": 20,
+      "geometry_binary_unchanged": true,
+      "report": "materials-ae-pass2.json"
+    },
+    {
+      "name": "four-new-model-source-verification",
+      "new_models": [
+        "UFACTORY xArm6",
+        "UFACTORY Lite6",
+        "KUKA iiwa14",
+        "Kinova Gen3 7DOF no-vision"
+      ],
+      "glbs_added": 60,
+      "independent_source_geometry_and_fk": "passed",
+      "legal_poses": 12,
+      "runtime_export_retains_notices": true,
+      "representative_renders": 8
+    },
+    {
+      "name": "format-and-runtime-validation",
+      "khronos_glbs": 841,
+      "khronos_errors": 0,
+      "khronos_warnings": 0,
+      "loader_models": 71,
+      "loader_poses": 213,
+      "loader_errors": 0,
+      "tests_passed": 59,
+      "stdlib_only_tests_passed": 20,
+      "optional_tests_skipped_without_dependencies": 39
+    },
+    {
+      "name": "strict-surface-kuka-batching",
+      "files_applied": 6,
+      "draw_calls_in_six_files_before": 153,
+      "draw_calls_in_six_files_after": 8,
+      "bytes_saved": 120480,
+      "positions_normals_materials_and_scenes_exact": true,
+      "eevee_review": "three views; two pixel-identical, remaining view three pixels differ by 1/255",
+      "existing_urdf_pose_comparison": "67 models / 201 poses passed"
+    },
+    {
+      "name": "fanuc-mechanical-curve-normals",
+      "files_applied": 7,
+      "triangles_preserved": 12395,
+      "changed_normal_corners": 34638,
+      "source_bytes": 964264,
+      "output_bytes": 473528,
+      "report": "fanuc-normal-refinement.json"
+    },
+    {
+      "name": "oriented-cad-curve-normals",
+      "model": "KUKA KR210_L150",
+      "files_applied": 7,
+      "triangles_preserved": 88216,
+      "changed_normal_corners": 235997,
+      "protected_source_faces": 725,
+      "introduced_opposed_normal_corners": 0,
+      "source_bytes": 6794032,
+      "output_bytes": 2340588,
+      "report": "oriented-normal-refinement.json"
+    },
+    {
+      "name": "local-face-protection-normal-pilots",
+      "models": 3,
+      "files_reviewed": 21,
+      "files_applied": 18,
+      "refined_primitives": 37,
+      "refined_group_triangles": 238062,
+      "protected_faces_in_refined_groups": 2203,
+      "changed_normal_corners": 671013,
+      "introduced_opposed_normal_corners": 0,
+      "source_bytes": 21388684,
+      "output_bytes": 9318848,
+      "report": "local-normal-pilots-applied.json"
+    },
+    {
+      "name": "whole-library-curve-normal-refinement",
+      "models": 45,
+      "glbs_applied": 228,
+      "selected_curved_primitives": 301,
+      "changed_normal_corners": 5188085,
+      "protected_flat_faces": 7044,
+      "geometry_corner_bytes_exact": true,
+      "newly_opposed_normal_corners": 0,
+      "visual_images_reviewed": 180,
+      "source_bytes": 146900780,
+      "output_bytes": 57266184,
+      "report": "global-normal-applied.json"
+    },
+    {
+      "name": "batching-after-normal-refinement",
+      "files_applied": 14,
+      "models": 8,
+      "draw_calls_before": 112,
+      "draw_calls_after": 45,
+      "bytes_saved": 58036,
+      "stale_old_trial_inputs_recomputed": 10,
+      "strict_position_normal_material_scene_multisets_exact": true,
+      "visual_images_reviewed": 32,
+      "report": "batching-round2-applied.json"
+    },
+    {
+      "name": "fanuc-model-specific-component-finishes",
+      "files_applied": 6,
+      "models": 3,
+      "geometry_binary_and_non_material_json_exact": true,
+      "roles": [
+        "charcoal base casting",
+        "dark metallic interface"
+      ],
+      "yellow_palette_changed": false,
+      "report": "materials-fanuc-components.json"
+    },
+    {
+      "name": "hans-oem-tool-flange-finish",
+      "files_applied": 2,
+      "models": 2,
+      "geometry_binary_and_non_material_json_exact": true,
+      "report": "materials-hans-flanges.json"
+    },
+    {
+      "name": "agilus-generation-standard-finish",
+      "files_applied": 15,
+      "models": [
+        "KR10_R900_2",
+        "KR10_R1100_2",
+        "KR3_R540"
+      ],
+      "srgb": "#E8EAE7",
+      "geometry_binary_and_non_material_json_exact": true,
+      "sixx_orange_retained": true,
+      "report": "materials-kuka-agilus-white.json"
+    },
+    {
+      "name": "rokae-sr3-pale-accent",
+      "files_applied": 1,
+      "changed_material_index": 1,
+      "srgb": "#B9DDEB",
+      "geometry_binary_and_non_material_json_exact": true,
+      "report": "materials-rokae-sr3-accent.json"
+    },
+    {
+      "name": "agilus-dark-flange-face",
+      "files_applied": 3,
+      "models": [
+        "KR10_R900_2",
+        "KR10_R1100_2",
+        "KR3_R540"
+      ],
+      "srgb": "#303437",
+      "metallic_and_roughness_retained": true,
+      "geometry_binary_and_non_material_json_exact": true,
+      "report": "materials-kuka-agilus-flanges.json"
+    },
+    {
+      "name": "ur5-proven-local-authored-normal-repair",
+      "files_applied": 2,
+      "normal_corners_changed": 5805,
+      "unselected_authored_normal_corners_byte_exact": 76875,
+      "newly_opposed_normal_corners": 0,
+      "new_near_coplanar_normal_seams": 0,
+      "geometric_hard_edges_merged": 0,
+      "source_bytes": 660268,
+      "output_bytes": 661188,
+      "report": "ur5-local-normal-applied.json"
+    },
+    {
+      "name": "post-adoption-final-validation",
+      "tests_passed": 109,
+      "stdlib_only_passed": 35,
+      "optional_skipped_without_dependencies": 74,
+      "khronos_glbs": 841,
+      "khronos_errors": 0,
+      "khronos_warnings": 0,
+      "loader_models": 71,
+      "loader_poses": 213,
+      "comparison_models": 67,
+      "comparison_poses": 201,
+      "asset_structure_errors": 0,
+      "asset_parameter_warnings": 233,
+      "baseline_glb_geometry_exact": 781,
+      "protected_files_byte_identical": 908
+    },
+    {
+      "name": "native-webgl-representative-acceptance",
+      "runtime": "Three.js 0.187.0 / real Chrome WebGL2",
+      "models": 12,
+      "images": 24,
+      "glbs": 89,
+      "visual_instances": 90,
+      "materials_checked": 156,
+      "data_errors": 0,
+      "fk_max_abs_error": 5.551115123125783e-16,
+      "report": "three-runtime-validation.json"
+    },
+    {
+      "name": "all-native-preview-and-common-webgl-data-checkpoint",
+      "native_models": 62,
+      "native_views": 248,
+      "publication_views": 48,
+      "native_source_fingerprints_current": true,
+      "three_glbs": 398,
+      "three_errors": 0,
+      "three_warnings": 0,
+      "three_report": "three-all-visuals-validation.json",
+      "ui_viewports": 2,
+      "ui_unique_images_decoded": 50,
+      "ui_all_events_passed": true,
+      "visual_followups": [
+        "UR3 original gray joint normal artifacts",
+        "M20 original planar wrist/base shading"
+      ]
+    }
+  ],
+  "active_jobs": [],
+  "current_inventory": {
+    "urdfs": 71,
+    "glbs": 841,
+    "stls": 404,
+    "glb_bytes": 225087844,
+    "stl_bytes": 256415586,
+    "robot_vendors": 12
+  },
+  "last_updated_at": "2026-11-03T16:37:17.226443+00:00",
+  "remaining_work": [],
+  "handoff_notes": "/tmp/assetsmodel-session-handoff.md",
+  "global_trial": {
+    "scope_report": "global-normal-scope.json",
+    "trial_report": "global-normal-trial.json",
+    "independent_report": "global-normal-independent-validation.json",
+    "preview_manifest": "global-normal-preview-models.json",
+    "preview_state": "/tmp/assetsmodel-session-global-normal-preview-state.json",
+    "preview_supervisor_pid": 3085043,
+    "status": "applied_after_full_visual_and_independent_review",
+    "models": 45,
+    "glbs": 228,
+    "primitive_groups": 301,
+    "source_bytes": 146900780,
+    "trial_bytes": 57266184,
+    "preserved_direction_outlier_faces": 7044,
+    "introduced_opposed_normal_corners": 0,
+    "applied": true,
+    "applied_at": "2026-11-03T14:44:15.961924+00:00"
+  },
+  "asset_stage": "Verified adoption checkpoint retained; all later UR3 and M20 candidates remain temporary and unadopted.",
+  "baseline_git_commit": "6bd45a7444a6aac34ea1cb26e785e2cf4d4784c5",
+  "finished_at": "2026-11-03T16:37:17.226443+00:00",
+  "actual_duration_hours": 4.235340678611111,
+  "stop_reason": "User requested 快速结束; remaining duration and unadopted optional trials cancelled.",
+  "final_source_sha_check": {
+    "files": 1373,
+    "mismatches": 0,
+    "reference": "existing-surface-preservation.json"
+  },
+  "unadopted_followups": [
+    "UR3 gray-joint original shading artifacts: temporary normal candidates only",
+    "FANUC M20 wrist/base planar original shading: temporary normal candidates only"
+  ]
+}

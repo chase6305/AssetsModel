@@ -1,0 +1,28 @@
+{
+  "pack": "/tmp/assetsmodel-session-final-brand-before-packs/abb-irb1200",
+  "view": "hero",
+  "azimuth_degrees": -55.0,
+  "elevation_degrees": 23.0,
+  "width": 1000,
+  "height": 900,
+  "samples": 128,
+  "theme": "dark",
+  "engine": "BLENDER_EEVEE",
+  "view_transform": "AgX",
+  "single_sided_materials": "native culling",
+  "blender": "5.2.2 LTS",
+  "parts": 10,
+  "bounds_m": [
+    [
+      -0.19265000522136688,
+      -0.13330790400505066,
+      0.0
+    ],
+    [
+      0.433,
+      0.1302632987499237,
+      0.8849499990940094
+    ]
+  ],
+  "ortho_scale": 3.131411552429199
+}

@@ -2,23 +2,23 @@
 
 Portable URDF assets for robot planning, simulation, and visualization.
 
-**67 URDF variants · 10 robot vendors · 783 GLB meshes · 405 optional STL meshes**
+**71 URDF variants · 12 robot vendors · 841 GLB meshes · 404 optional STL meshes**
 
-[Model catalog](docs/CATALOG.md) · [Asset layout](docs/ASSET_LAYOUT.md) · [Before / after viewer](docs/preview.html) · [GLB conversion report](docs/GLB_REPORT.md) · [工具使用说明](docs/MESH_WORKFLOW.md)
+[Model catalog](docs/CATALOG.md) · [New robots](docs/NEW_ROBOTS.md) · [Brand materials](docs/BRAND_MATERIALS.md) · [Surface normals](docs/NORMAL_REFINEMENT.md) · [Asset layout](docs/ASSET_LAYOUT.md) · [Before / after viewer](docs/preview.html) · [GLB conversion report](docs/GLB_REPORT.md) · [工具使用说明](docs/MESH_WORKFLOW.md)
 
-All URDFs now reference **GLB meshes in their model directories**. Visual and collision resources use format subdirectories such as `Visual/glb/`, `Visual/stl/`, `Collision/glb/` and `Collision/stl/`; cameras and tools use `meshes/glb/` and `meshes/stl/`. **DAE files and the duplicate top-level GLB tree have been removed.** GLBs occupy **311.2 MiB**; retained STL alternatives occupy **245.3 MiB**. Copy a model directory, or export only its GLB runtime resources using the [workflow](docs/MESH_WORKFLOW.md).
+All URDFs now reference **GLB meshes in their model directories**. Visual and collision resources use format subdirectories such as `Visual/glb/`, `Visual/stl/`, `Collision/glb/` and `Collision/stl/`; cameras and tools use `meshes/glb/` and `meshes/stl/`. **DAE files and the duplicate top-level GLB tree have been removed.** GLBs occupy **214.7 MiB**; retained STL alternatives occupy **244.5 MiB**. Copy a model directory, or export only its GLB runtime resources using the [workflow](docs/MESH_WORKFLOW.md).
 
-| AE AIR10-1210 | Franka Panda | Universal Robots UR5e |
+| Peitian AIR10-1210 | Franka FR3 | Universal Robots UR5e |
 | :---: | :---: | :---: |
-| ![AE AIR10](docs/previews/ae.png) | ![Franka Panda](docs/previews/panda.png) | ![UR5e](docs/previews/ur5e.png) |
+| ![Peitian AIR10](docs/previews/brands-after/ae-air10-hero.png) | ![Franka FR3](docs/previews/brands-after/franka-fr3-hero.png) | ![UR5e](docs/previews/brands-after/ur5e-hero.png) |
 
-Previews use the supplied materials and zero joint positions. Meshes retain their original model coordinates and units.
+Previews use the embedded PBR materials and the joint poses recorded in the [preview manifest](docs/quality/preview-models.json). Meshes retain their original model coordinates and units.
 
 ## Find a model
 
 | Category | URDF variants | Directory convention |
 | --- | ---: | --- |
-| Industrial robots and arm/hand variants | 56 | `RobotModel/<Vendor>/<Model>/` |
+| Industrial robots and arm/hand variants | 60 | `RobotModel/<Vendor>/<Model>/` |
 | RealSense cameras and plug variants | 10 | `CameraModel/RealSense/<Model>/` |
 | Robotiq 2F85 gripper | 1 | `ToolModel/Robotiq2F85/` |
 
@@ -37,6 +37,10 @@ ToolModel/Robotiq2F85/Robotiq2F85.urdf
 All resource references are relative to the URDF directory and point to `glb/` subdirectories. Existing `Visual` and `Collision` capitalization is retained; format directory names are lowercase. STL alternatives are optional and are not referenced by the default URDFs. Compose robot/tool/camera assemblies in the consuming project.
 
 ## Mesh quality
+
+The November 2026 update refines brand colors and distinguishes painted surfaces, polymers, rubber and metal. It smooths flat CAD shading on curved surfaces while retaining mechanical creases, and batches compatible static surfaces without changing their geometry. It also adds **xArm6, Lite6, KUKA iiwa14 and Kinova Gen3** using fixed upstream sources, with licenses and provenance retained. View the [material comparisons](docs/preview.html), [brand notes](docs/BRAND_MATERIALS.md) and [new-model verification](docs/quality/new-robots-independent-audit.json).
+
+Existing GLBs are **33.0% smaller** than the November task baseline. An [independent check of all 781 existing GLBs](docs/quality/existing-surface-preservation.json) confirms unchanged oriented geometry in every scene; old URDFs, collision assets and optional STL files remain byte-identical. Compatible [static draw batches](docs/MESH_BATCHING.md) fall from 265 to 53 across the 20 processed files.
 
 The September 2026 optimization reduced mesh data from **1,256.9 MiB to 618.5 MiB (50.8%)**, and triangle count from **20,608,370 to 10,407,054 (49.5%)**.
 

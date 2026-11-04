@@ -1,0 +1,43 @@
+{
+  "RobotModel": {
+    "urdfs": 60,
+    "glbs": 817,
+    "stls": 382,
+    "glb_bytes": 214360600,
+    "stl_bytes": 249100688
+  },
+  "CameraModel": {
+    "urdfs": 10,
+    "glbs": 14,
+    "stls": 12,
+    "glb_bytes": 9999440,
+    "stl_bytes": 5855058
+  },
+  "ToolModel": {
+    "urdfs": 1,
+    "glbs": 10,
+    "stls": 10,
+    "glb_bytes": 727804,
+    "stl_bytes": 1459840
+  },
+  "summary": {
+    "urdfs": 71,
+    "glbs": 841,
+    "stls": 404,
+    "glb_bytes": 225087844,
+    "stl_bytes": 256415586,
+    "robot_vendors": 12
+  },
+  "generated_at": "2026-11-03T15:48:21.184681+00:00",
+  "baseline_comparison": {
+    "baseline_glbs": 781,
+    "baseline_glb_bytes": 323430588,
+    "same_existing_glbs_current_bytes": 216673268,
+    "existing_glb_bytes_saved": 106757320,
+    "existing_glb_reduction_percent": 33.007799497306664,
+    "new_glbs": 60,
+    "new_glb_bytes": 8414576,
+    "current_total_glb_mib": 214.66049575805664,
+    "includes_docs_or_git_history": false
+  }
+}

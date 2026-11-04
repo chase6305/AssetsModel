@@ -1,0 +1,2977 @@
+{
+  "summary": {
+    "meshes": 228,
+    "validator": "Khronos glTF-Validator",
+    "version": "2.0.0-dev.3.10",
+    "errors": 0,
+    "warnings": 0,
+    "infos": 0,
+    "hints": 0
+  },
+  "meshes": [
+    {
+      "path": "RobotModel/ABB/IRB1200_5_90/Visual/glb/Link5.glb",
+      "sha256": "fa7b0500bfaeb9e5a4fcfc2efb7c6ed2ed738ecf05151911664d1e78883f8130",
+      "bytes": 279548,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB1200_7_70/Visual/glb/Link2.glb",
+      "sha256": "8059566d4485c579cc2f73a77277f38c14fa05bee56938a918c29179846c29b5",
+      "bytes": 260448,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB1200_7_70/Visual/glb/Link3.glb",
+      "sha256": "cf66cbf0562f3f1d692b35974114c25f4fb1b105e56311f7b6e3990b16c2f726",
+      "bytes": 163260,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB1600_10_145/Visual/glb/BaseLink.glb",
+      "sha256": "91c8957a9c457d784fcee1416a58b28dea25dd249b5567c59cad96d96b0b4f9e",
+      "bytes": 139832,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB1600_10_145/Visual/glb/Link1.glb",
+      "sha256": "4ac8cea6bd71b071ab904746c5ac10877baafa6cf0c2591b5745177f6bfe303b",
+      "bytes": 285092,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB1600_10_145/Visual/glb/Link2.glb",
+      "sha256": "9f75e860279a50235b0c46c312f79bffe67fcb7e0aadda78a17526b55e2c0f70",
+      "bytes": 187636,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB1600_10_145/Visual/glb/Link3.glb",
+      "sha256": "bc30c09a5e92fcf385a6ad81fa9a964b71682a8b1fe8999f910e8e1c0dcd58de",
+      "bytes": 215564,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB1600_10_145/Visual/glb/Link5.glb",
+      "sha256": "8eb36384def2e8c45a64bc86fb3e73e592ebb749bfcd72c88c5471243851d2be",
+      "bytes": 108076,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB1600_10_145/Visual/glb/Link6.glb",
+      "sha256": "46afa106370e5cc9bea44ec47cd9de74b3b22daee47888ef13f4b4078bb2c486",
+      "bytes": 105700,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB1600_6_120/Visual/glb/BaseLink.glb",
+      "sha256": "5cdea5deeca6279df1097bbf7ffc6cee00c5493a6f034beeaf074e58beead78c",
+      "bytes": 59376,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB1600_6_120/Visual/glb/Link1.glb",
+      "sha256": "ad09a0e02da09ce4a1195a5c222cfb1ff25c00c37426c4f98baee61016f01f86",
+      "bytes": 219708,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB1600_6_120/Visual/glb/Link2.glb",
+      "sha256": "9bdba0c363ebea8ecb9048643fa7fd44dab53a1cf24e5efe9f6cbebcf8bd453a",
+      "bytes": 64992,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB1600_6_120/Visual/glb/Link3.glb",
+      "sha256": "c0659bffd3a7d4801935d6b3ba8c84a7f6d6f6a9dffd83de25f0e3cbe39d6dd4",
+      "bytes": 165680,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB1600_6_120/Visual/glb/Link4.glb",
+      "sha256": "b3625905f36d435f81fd9a39d5bdf12e667f00bb07d0eadf2b4b38a9d9121ed7",
+      "bytes": 88516,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB1600_6_120/Visual/glb/Link5.glb",
+      "sha256": "1045152d89bd4d47ed1862ccf78d5904a57b9976ece6561a1d87fe74c8e04306",
+      "bytes": 46952,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB1600_6_120/Visual/glb/Link6.glb",
+      "sha256": "b5b7ba1f227e2e1b57aaca7826c815d99390eb09bae3db4cc403bccd6becb54a",
+      "bytes": 49616,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_185/Visual/glb/BaseLink.glb",
+      "sha256": "045cc305c0f51f993015cc1a8e270ba034bc881423af86c025937355fd8d4d12",
+      "bytes": 374320,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_185/Visual/glb/Link1.glb",
+      "sha256": "5ead312b9ae8a0a029937185348f30a52cc824ccb7bffbcbdc62a7c89dffeeb0",
+      "bytes": 383680,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_185/Visual/glb/Link2.glb",
+      "sha256": "f7e1ca2cd0d3257c254a30412aa2812fc3be751d5bc612245431e70d50609873",
+      "bytes": 161316,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_185/Visual/glb/Link3.glb",
+      "sha256": "8a01966df5979155e0b67653f93ea3497ff458c6537e04eff0c13d6636dd2c55",
+      "bytes": 327472,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_185/Visual/glb/Link5.glb",
+      "sha256": "c50bb7bfe48f6e2788c729961546e770b8c095a94852095be0bae2247dbd656a",
+      "bytes": 94604,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_185/Visual/glb/Link6.glb",
+      "sha256": "81743ff5103e29034217e24e5cd1c0a352207926755b52e1f9861de78157ba8f",
+      "bytes": 35696,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB4400L_30_243/Visual/glb/BaseLink.glb",
+      "sha256": "c5dcce014f0083e0e05e61df5c445ca7b5ab0b77960f045daba35cbf925807df",
+      "bytes": 31592,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB4400L_30_243/Visual/glb/Link1.glb",
+      "sha256": "ab6e6658daab3fb94f6ecbb52e027957cb122c73f5d4d8eee8143198cd0ef170",
+      "bytes": 135700,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB4400L_30_243/Visual/glb/Link2.glb",
+      "sha256": "7fabde95b2265aa300585f4813218e3d3c01aa30222e9dae371e83833ad2c5af",
+      "bytes": 48712,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB4400L_30_243/Visual/glb/Link3.glb",
+      "sha256": "51a044b3e45a118321ffa4f5bea9a794b4242ed6feb0f58ce47611db1b256150",
+      "bytes": 117416,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB4400L_30_243/Visual/glb/Link4.glb",
+      "sha256": "253e1e0abf8bef0fb26416af54cf9c14a4778cdd12c6d9cbd43861bb4d8ee746",
+      "bytes": 66348,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB4400L_30_243/Visual/glb/Link5.glb",
+      "sha256": "3c9b5029818636deda091818ed4fb4c7de62472c34b248e524fe20dd545bf5e1",
+      "bytes": 30176,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB4400L_30_243/Visual/glb/Link6.glb",
+      "sha256": "825928123180375591f19521c3ef05f4c8fc9574a749598015b49f14a3172a30",
+      "bytes": 39180,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB4600_20_250/Visual/glb/BaseLink.glb",
+      "sha256": "4f82b031ea933b229b9ec0055964efe58d9ecc1dd0585fbb05e2fe0c5fd471c0",
+      "bytes": 135100,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB4600_20_250/Visual/glb/Link1.glb",
+      "sha256": "fc1c3913d75b3590e062afe8dc0e9a9ff81bdf419f4de318af5d0d86f8dee6ff",
+      "bytes": 248484,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB4600_20_250/Visual/glb/Link2.glb",
+      "sha256": "6961b6aa1b4b2b3bd3d469be2aa5cea40638dfab814ac4fd4ab2deb41a757f00",
+      "bytes": 197608,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB4600_20_250/Visual/glb/Link3.glb",
+      "sha256": "255f28df6c268ad6b360e4b3b4ffa87297c29f2d1a92cb6e8fe29bf144c6bfc8",
+      "bytes": 291464,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB4600_20_250/Visual/glb/Link4.glb",
+      "sha256": "7f89f60718b4230490241990ce7433c91edb1e3c33bc5c48d79d80b37cec2885",
+      "bytes": 245544,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB4600_20_250/Visual/glb/Link5.glb",
+      "sha256": "4d4ccaf6cde516ef7570e4f2e6b0954f95eafbf486ee2e2909e830c3b172b2c6",
+      "bytes": 59476,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB4600_20_250/Visual/glb/Link6.glb",
+      "sha256": "29024af0a450594493156ee49ce83c1fcdae4062f5d8ba8f7894c632ac960e85",
+      "bytes": 27576,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB4600_40_255/Visual/glb/BaseLink.glb",
+      "sha256": "ea1b3afbaf66e4f790ca4f372f46b5d3142155c40f29fb3f100202662b303f49",
+      "bytes": 135108,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB4600_40_255/Visual/glb/Link1.glb",
+      "sha256": "9dfc493c68eb91fe81aacb5a759da427eb29ac8e998cbf79922eebebb045b915",
+      "bytes": 248484,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB4600_40_255/Visual/glb/Link2.glb",
+      "sha256": "ce8376aaa26db2d4b69553c2e003f88801a26e4bec5bc650ebc514a358b38a90",
+      "bytes": 197608,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB4600_40_255/Visual/glb/Link3.glb",
+      "sha256": "0af428d3d6ee6e5c76aeb4b39ccaa1e70689e77d4226846a12e520d00cb17b1d",
+      "bytes": 342464,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB4600_40_255/Visual/glb/Link4.glb",
+      "sha256": "a11d2af590708a1331401fd967f11d973f4c8358e1e73eb27c6ca394525d6941",
+      "bytes": 183092,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB4600_40_255/Visual/glb/Link5.glb",
+      "sha256": "3fd7fefa36d3a5d0e73de37afa37acaed62ac6aa2a1f507302637d913c3cf7ca",
+      "bytes": 94036,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB4600_40_255/Visual/glb/Link6.glb",
+      "sha256": "c61fec45e2e4fc995edeee76cf336b2d27a5bc106df9a6a2593ae829de8f8d2b",
+      "bytes": 65656,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/AE/AIR10_1210/Visual/glb/Link6.glb",
+      "sha256": "c30c95df2d7832069d2564ffa40f899a8adb88edbfece5fb0c2149a7cc827b36",
+      "bytes": 409044,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/AE/AIR10_1720/Visual/glb/Link6.glb",
+      "sha256": "c4900790876af2f9b0083f7b7ff114c88eb4839e2a30eb001aa05cefc8892100",
+      "bytes": 129668,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/AE/AIR12_940/Visual/glb/Link6.glb",
+      "sha256": "60bd2da18106d7c6c544c774b9bd275245f66c3bebc3a3230c35fa0af3451175",
+      "bytes": 400304,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/AE/AIR35_1700/Visual/glb/Link4.glb",
+      "sha256": "6a44d8d7c2e8e29b12d23918c1fb43867cd2398783109dd1e6b9900b88f1cf35",
+      "bytes": 2979552,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/AE/AIR35_1700/Visual/glb/Link6.glb",
+      "sha256": "fab8da1363243f8c64b2dbe5b7704882747919a73418b24d0f7015786cf957db",
+      "bytes": 289968,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Agile/Diana_7/Visual/glb/BaseLink.glb",
+      "sha256": "3f1fc6d4c6bf5c017f7ae13be92256d10a2677997df2c8d6f12944cd4e9733b5",
+      "bytes": 126488,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Agile/Diana_7/Visual/glb/Link1.glb",
+      "sha256": "62fcd1adbde4056192d0aeee0e9f4acd81e93c66532fa519e4c1f00b10b65e09",
+      "bytes": 212568,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Agile/Diana_7/Visual/glb/Link2.glb",
+      "sha256": "813eed364d6f0fee4132f303b7f111882ac5c2aff0caf26d3c2d1e3e1e4a5b1b",
+      "bytes": 196704,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Agile/Diana_7/Visual/glb/Link4.glb",
+      "sha256": "2c3ea62276965e89f49b247696363ce863a606e0f7e2d12deeffb1b05ae69731",
+      "bytes": 415952,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Agile/Diana_7/Visual/glb/Link7.glb",
+      "sha256": "28c64ad68f88e8daf4c8cc8becd82ae6e95eb9125eabb47a126a3f08797fb6d3",
+      "bytes": 276684,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Fanuc/M_710iC_70/Visual/glb/BaseLink.glb",
+      "sha256": "4775a6bb00630d44d9212ef638f18ea4d4d589c21e1c5f58de7dedb6c4f857dc",
+      "bytes": 117816,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Fanuc/M_710iC_70/Visual/glb/Link1.glb",
+      "sha256": "badc894fc7a9d257100f04811da829e01abf5424609e27620252717739530844",
+      "bytes": 148892,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Fanuc/M_710iC_70/Visual/glb/Link2.glb",
+      "sha256": "d54fae83f56a98d21c9e8615c94753160f9b85e86c86d8c5732164cb99dd8e43",
+      "bytes": 86364,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Fanuc/M_710iC_70/Visual/glb/Link3.glb",
+      "sha256": "5fe7f5127dd89d4f6aa4ab462aa7e559c36d19a68637186a91f5e606b53e7de6",
+      "bytes": 123076,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Fanuc/M_710iC_70/Visual/glb/Link4.glb",
+      "sha256": "67301ca458d1c4f73590bd58ab1da486e7cdb1359858bba1c9602e1f25974d64",
+      "bytes": 224764,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Fanuc/M_710iC_70/Visual/glb/Link5.glb",
+      "sha256": "e367c049a6374e1155a6db8249bf5736521043f88dd94beeed58fdc55e9bd7ff",
+      "bytes": 84848,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Fanuc/M_710iC_70/Visual/glb/Link6.glb",
+      "sha256": "adbce14ad2d78670a0cc8bba4d8117d4cfbf01b53a562d793026c992d7296c9e",
+      "bytes": 87272,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Fanuc/R_2000iC_165F/Visual/glb/BaseLink.glb",
+      "sha256": "8e1364bdc017fde53b851ad689ecc8eb8c85587b8ec1e66036d0e5a186e683b6",
+      "bytes": 127608,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Fanuc/R_2000iC_165F/Visual/glb/Link1.glb",
+      "sha256": "a3b59425366488fd0f7ad692c8c554b7b33b12273a273ebbf5848e382abeffcf",
+      "bytes": 161220,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Fanuc/R_2000iC_165F/Visual/glb/Link2.glb",
+      "sha256": "b0652e21e6fc47d6ce07c97b99fed39882d6c31789eb56e68617fa276fe1eeee",
+      "bytes": 72216,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Fanuc/R_2000iC_165F/Visual/glb/Link3.glb",
+      "sha256": "510d98bdd1d50554b3bcfdf08b94d265eaaf3008798e0f8ab3415b87e6af111f",
+      "bytes": 201176,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Fanuc/R_2000iC_165F/Visual/glb/Link4.glb",
+      "sha256": "29c55c7455cc8a3bba04ee25c672cb194920235ff3ccef9595e10204eeccfb38",
+      "bytes": 36592,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Fanuc/R_2000iC_165F/Visual/glb/Link5.glb",
+      "sha256": "7d30335a79de6f660dbeb77157b96c8bab504fb86f558b4a1dc9772be745d58d",
+      "bytes": 79364,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Fanuc/R_2000iC_165F/Visual/glb/Link6.glb",
+      "sha256": "50e452ac9f8abcd353eea35542089a0a8a242c45a350723c06611e38291da622",
+      "bytes": 59924,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Visual/glb/finger.glb",
+      "sha256": "1e9b006083fbaa74db8f2122f51c2757c6ebea5cec579b3c950b835f2b830f2a",
+      "bytes": 29068,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Visual/glb/hand.glb",
+      "sha256": "05b45e816ec10aac6befb87ae2d54237e37376549874d348bf9654f3801032fd",
+      "bytes": 191244,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Hans/E05/Visual/glb/BaseLink.glb",
+      "sha256": "8bf806fd5940c1ca8c772a11e5d4c393471efbda542813af348bfe22119e27d6",
+      "bytes": 217164,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Hans/E05/Visual/glb/Link2.glb",
+      "sha256": "61729ac86686424757cad2038fdefdf09f316252704cacc753782fdd99acabf7",
+      "bytes": 314948,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Hans/E05/Visual/glb/Link4.glb",
+      "sha256": "c276cfc77c4d2cc0f5fa168828625c7c823630e6be651cf97e787d4870c2fd82",
+      "bytes": 395648,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Hans/E05/Visual/glb/Link5.glb",
+      "sha256": "5212665af97c139f9891b7d466c09a8e9f339db5a629675eee823d52dc134f15",
+      "bytes": 477256,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Hans/E10/Visual/glb/Link4.glb",
+      "sha256": "02bb951fa29d23b8f3186e82cb5cc64c972231bc2e32ec45709acbbf88269abb",
+      "bytes": 365860,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_2/Visual/glb/Link1.glb",
+      "sha256": "b5b956b6af60a1d6c759ef0f2660736fbd9767a19c728712b7d15142ef08e380",
+      "bytes": 342328,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_2/Visual/glb/Link3.glb",
+      "sha256": "ad31ae0ff5d3384ec9917e5e7a978fe2e9e507ea23d546dd3d552fddcde7e4dd",
+      "bytes": 216156,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_2/Visual/glb/Link5.glb",
+      "sha256": "2e2c0593839b614a8500cda19758d7f50c3e2bacd2824609a1a6c5c402905ad3",
+      "bytes": 272128,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_2/Visual/glb/Link6.glb",
+      "sha256": "600a328a74119a4ece77c5536b41313f54accce9009ea77fbc3fe83dc6dbf0f2",
+      "bytes": 146032,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_sixx/Visual/glb/BaseLink.glb",
+      "sha256": "effaa74824a8bc87ee99fe7068defa43ed6201076cfcecec6244e1e90644c56d",
+      "bytes": 352200,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_sixx/Visual/glb/Link1.glb",
+      "sha256": "e5de012c7a2416c769e3386d447cf3aa7ce22d8f5b4ce393d9e85fdd24ebd117",
+      "bytes": 245724,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_sixx/Visual/glb/Link2.glb",
+      "sha256": "8355bf488982ca74e49187ad0ac58f5eb90c3cf6d9926cc5bc393e629ece2bcb",
+      "bytes": 400244,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_sixx/Visual/glb/Link3.glb",
+      "sha256": "ad3cdca6806bf5194f49cca05ff0ca5d8197b3bdeef5a0c0a527304bbdb991ff",
+      "bytes": 208756,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_sixx/Visual/glb/Link4.glb",
+      "sha256": "a7385acac45abb32435bb8f3a414a68faf89227eac6daab6ac70dfcb4d1205ef",
+      "bytes": 378668,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_sixx/Visual/glb/Link5.glb",
+      "sha256": "b1c9a3f670cc6cd70a16e5fdfdea43f4ca6a1ecd1aa828e74c52e450a6acaa5c",
+      "bytes": 107608,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1100_sixx/Visual/glb/Link6.glb",
+      "sha256": "d7a8757f01a13e1cd9e467064946428c09ccd54609e6edb4db6297260e04df19",
+      "bytes": 77204,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1420/Visual/glb/Link1.glb",
+      "sha256": "ec16521f86ee0e0f1e7e793d38fea39dd4354ed1ef5d0d5441566dc17bff45b6",
+      "bytes": 283984,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1420/Visual/glb/Link2.glb",
+      "sha256": "ca95d5376bcf29556c2ae08a04249b2f5d0faea271acf04c18a661ed576ce0e7",
+      "bytes": 244904,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1420/Visual/glb/Link3.glb",
+      "sha256": "6696f24334f757339c854ff0ef0ce4ef256417a641cce186f25372c77b5e612c",
+      "bytes": 251416,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1420/Visual/glb/Link4.glb",
+      "sha256": "0835c1c3fc1c701207dbda1ce5a249d52a361b67ecca099f685ac6fbdc787285",
+      "bytes": 214708,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1420/Visual/glb/Link5.glb",
+      "sha256": "ffbad65d860642bd5b72febeb8cc3f977d9d3c8c5206b437ee646cff3a3e121b",
+      "bytes": 76180,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R1420/Visual/glb/Link6.glb",
+      "sha256": "2c3d5317722e3b1e6fc965f96288a49a2c4a604a86e2061cf5651a01aa54c786",
+      "bytes": 52384,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R900_2/Visual/glb/BaseLink.glb",
+      "sha256": "02ed7b76a2ac55f3dd95d218b7da384742fd96418fd4609b4426b02fd0b1f3b4",
+      "bytes": 78412,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R900_2/Visual/glb/Link1.glb",
+      "sha256": "e0b51b2fd0bbaeb5ed9c9087230cb477d3ff90960def6f4e1383338cb5124146",
+      "bytes": 70600,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R900_2/Visual/glb/Link2.glb",
+      "sha256": "91fd0dbe3bdcb5bf750ac197b56b3e336937a8a2e988636773259e1e94bcad43",
+      "bytes": 80264,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R900_2/Visual/glb/Link3.glb",
+      "sha256": "ca76ba9aba4e83cc6593b77068633ad6bec1c127f7b3dabbcd5dc478290ab3c4",
+      "bytes": 66772,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R900_2/Visual/glb/Link4.glb",
+      "sha256": "c976e03ad7308814dc5273f80754c2b2dec98b0ae719bef32dd799cf215e3952",
+      "bytes": 130268,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R900_2/Visual/glb/Link5.glb",
+      "sha256": "e657f651e2a145d43a213631932a72c2b356cf8059c9947db24d9819f4dc9659",
+      "bytes": 107968,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR10_R900_2/Visual/glb/Link6.glb",
+      "sha256": "7b2f9fcb821ca8f699fee1eec97d4d95d4b0907e1e3454fbccfb2d660aecf8df",
+      "bytes": 35960,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/BaseLink.glb",
+      "sha256": "b47915d3456c6f8b3f3871c5ed7e6fb99c90844ff0f827508835d3329fa51475",
+      "bytes": 303244,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/Link1.glb",
+      "sha256": "e2fc0b4a1fe1effcb6a55d318c723b1d3ddd3664c3034d1d51d3d0553ecbf1c9",
+      "bytes": 345340,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/Link2.glb",
+      "sha256": "1d24cad06e61dba2f21950b5d15dcdee168858473e0899ceb35c52e4eff7c98c",
+      "bytes": 293020,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/Link3.glb",
+      "sha256": "0fdf60cef66a93a138786c6dd098ab69c43925e29fb46fbc33e68b96b8cbd61a",
+      "bytes": 320028,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/Link4.glb",
+      "sha256": "33e3d1dcea8066449bb4f7b2af562b158dffa44036326c0e7c27aedcc28381b0",
+      "bytes": 110448,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/Link5.glb",
+      "sha256": "97abc336bf05d1f4ac91fa44fd2234dbcbb81acadfbf41737133d8be319a5731",
+      "bytes": 243184,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/Link6.glb",
+      "sha256": "9fbd42ad6ce8b98179aec3062004e74fe8170c7b8391a3f8873cee582578dbc0",
+      "bytes": 62916,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_2/Visual/glb/Link1.glb",
+      "sha256": "681a528c6e1d486fa87c3a86be29e62915f9e6b3fa2dafba274e96a5e1f518a5",
+      "bytes": 360712,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_2/Visual/glb/Link2.glb",
+      "sha256": "d9041983cb255b288e0afbf3babfd52c4d0b66f1026c03ccc9c6d4ef65c6f280",
+      "bytes": 107908,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_2/Visual/glb/Link3.glb",
+      "sha256": "87d65a0904ecde2698af22538c2f51d60183c896411fd6bac82fec6a606daef8",
+      "bytes": 216916,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_2/Visual/glb/Link4.glb",
+      "sha256": "a7b2af888c16d1375520aa2978f788a4416e1b3dc3a40f8eee9284ef2770eaf8",
+      "bytes": 180524,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_2/Visual/glb/Link5.glb",
+      "sha256": "05f9f02fe5fa037f94dc15b7e5271fbe9d0042e37674766bc46a25752c9a2143",
+      "bytes": 158896,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_2/Visual/glb/Link6.glb",
+      "sha256": "597688a641a1a5ac01e8aa33440825054feab773287e494481d8f8df7e703cb4",
+      "bytes": 266224,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_R3100_2/Visual/glb/BaseLink.glb",
+      "sha256": "7ab8c05d7ad05b0bf044138ca271949c0885aac2e0b319aa422c7baae6330532",
+      "bytes": 414200,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_R3100_2/Visual/glb/Link1.glb",
+      "sha256": "619fb7b0f532f3af62e5456576899be5eeaf3662a3815b5d039fa8ba00c93fc2",
+      "bytes": 711388,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_R3100_2/Visual/glb/Link2.glb",
+      "sha256": "008240cc585809982424ac04a4bfd68540fa8722885805db1cf484def082856b",
+      "bytes": 204432,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_R3100_2/Visual/glb/Link3.glb",
+      "sha256": "2a3ca563a7e6b089aa11dd9c27a333bcbc2810c179d215d5bdbfabd33218808b",
+      "bytes": 378784,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_R3100_2/Visual/glb/Link4.glb",
+      "sha256": "39539df79f591074f07ca38330fce59982ce0cad58f94342b28437b66c09dfc0",
+      "bytes": 114704,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_R3100_2/Visual/glb/Link5.glb",
+      "sha256": "e1e94dcf944394227e6ac15fdb3a1fc21dded2be6f731b1bbe243e0e2fa24581",
+      "bytes": 159896,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_R3100_2/Visual/glb/Link6.glb",
+      "sha256": "907157bd411ed0f5dc0063aab7ef831c944ba7f80d5269633c2763300619735c",
+      "bytes": 38524,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR16_2/Visual/glb/BaseLink.glb",
+      "sha256": "6a69e3c3eb40594872d1414491188217dbd3fc93238c8e2d61f67ad7e5b38f03",
+      "bytes": 87956,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR16_2/Visual/glb/Link1.glb",
+      "sha256": "20176d4f48ad71e322fa95e396f6d8d00bc4502a9b629abdd8185a2baae07596",
+      "bytes": 124596,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR16_2/Visual/glb/Link2.glb",
+      "sha256": "721fd1bfd62939fb5b020d8eca181e7f9977950c42fab4e4cf86dadd20ae9f72",
+      "bytes": 89840,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR16_2/Visual/glb/Link3.glb",
+      "sha256": "cea95f3895d4d9f26b74808d61f1209ad75918a00cedd190eb52e6f537a70a91",
+      "bytes": 120408,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR16_2/Visual/glb/Link4.glb",
+      "sha256": "fc5dec7e45aad978acee7e48412f5aeb79a9446c89c90c521ca86f7e6b75653d",
+      "bytes": 101996,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR16_2/Visual/glb/Link5.glb",
+      "sha256": "e2a424d5282246fb5f2d10481a7d615d9a99fab3f921810786d97baabd36d3cc",
+      "bytes": 57068,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR16_2/Visual/glb/Link6.glb",
+      "sha256": "990ed1ed946de55ceb70da84c0e48d56ae95acfdef053ecc30ea62390fb0ceed",
+      "bytes": 34536,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR3_R540/Visual/glb/BaseLink.glb",
+      "sha256": "737904f997c5a4eb25411cc7776faa4cec2e57dd0edc2c95c574d2e2fb57f977",
+      "bytes": 212808,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR3_R540/Visual/glb/Link1.glb",
+      "sha256": "05119b2065a873869b0662c5222265be422478e1082cc9de7c08dd19caff940a",
+      "bytes": 149060,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR3_R540/Visual/glb/Link2.glb",
+      "sha256": "8513ce81b1e83852c106ee24038c3aa3db0758c5262714a72b5885eb500a5794",
+      "bytes": 303316,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR3_R540/Visual/glb/Link3.glb",
+      "sha256": "dc7614946071c32dc249c7023d9c0787cde572d5e085d08794e282f2071f69a3",
+      "bytes": 207192,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR3_R540/Visual/glb/Link4.glb",
+      "sha256": "9b822a80a857d45fbc97d60884b286ae4fc53725f249435e0c4e79a1253feaa2",
+      "bytes": 391092,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR3_R540/Visual/glb/Link5.glb",
+      "sha256": "96c18b1af70e74ba608596a373bb636fa48b2502472cc02fbecdabb8d3dc1b2b",
+      "bytes": 250764,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR3_R540/Visual/glb/Link6.glb",
+      "sha256": "e1553c24c3968fd7803a4f6bcfb38fed8e2ea357706115d0cfb514431e3350f7",
+      "bytes": 211336,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR5_ARC/Visual/glb/BaseLink.glb",
+      "sha256": "369030f1217a8e355bc12ef00b0edea82ec5657f85919680791d2734abe6075d",
+      "bytes": 269268,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR5_ARC/Visual/glb/Link1.glb",
+      "sha256": "f93af57e31b16f63439869704aa5021e6b84757bc6adaef95440839e656988d2",
+      "bytes": 202740,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR5_ARC/Visual/glb/Link2.glb",
+      "sha256": "a128b2a8e1893db7a6f1c1e45da06febadf756d2c900b39d4a68cdeea11e449c",
+      "bytes": 147800,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR5_ARC/Visual/glb/Link3.glb",
+      "sha256": "bc040f5ab017437fbcd42590a9dd3f0d65d2b4c9429224d68776a7dbba04cfbf",
+      "bytes": 139708,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR5_ARC/Visual/glb/Link4.glb",
+      "sha256": "d349ca71e82717d2848e2d3015240bc2492a97fbc6550e53b374111f9c4c192d",
+      "bytes": 73048,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR5_ARC/Visual/glb/Link5.glb",
+      "sha256": "9442a5f57d5803f412559f0168e9cbd0564332c7963f71d42ccb1877801873e9",
+      "bytes": 54188,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR5_ARC/Visual/glb/Link6.glb",
+      "sha256": "58746326bdf800a81854245534643771d48393964209e2e42aa7aeca2bc5748c",
+      "bytes": 22084,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R700_sixx/Visual/glb/BaseLink.glb",
+      "sha256": "ef70c464acd21db434851c2bc9f0e26737884be1132f656a71e6e57c737d3f3b",
+      "bytes": 254912,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R700_sixx/Visual/glb/Link1.glb",
+      "sha256": "c6d71f0606f77b55487ff6fd25a5b70b2d9f87fda2fa3c9f42ca792be34b555d",
+      "bytes": 117604,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R700_sixx/Visual/glb/Link2.glb",
+      "sha256": "5e39e989ec5cf3eb4183c0893063844ea19c9510c42cf49f7fa9e465f2a083c4",
+      "bytes": 253704,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R700_sixx/Visual/glb/Link3.glb",
+      "sha256": "1a3bdfb71f3ae33422c7cb011d07795c008990ac38bb9092a6080fd998577499",
+      "bytes": 130712,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R700_sixx/Visual/glb/Link4.glb",
+      "sha256": "6cc7a9bd65e2ecf10197b8813e3ef2b32ca3f82ea66ff8c5b79c9b0ee92f3a33",
+      "bytes": 296724,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R700_sixx/Visual/glb/Link5.glb",
+      "sha256": "ebe0dcc4d7a43d186c44a13a99e67574f9798c6459a1e8875c05a1221f9cd939",
+      "bytes": 71992,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R700_sixx/Visual/glb/Link6.glb",
+      "sha256": "b83ae48bf1abb6fc52b8976fa7be4348797a9efdafed8203150e488787591d70",
+      "bytes": 46968,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R900_sixx/Visual/glb/BaseLink.glb",
+      "sha256": "9b6ae56c21fd532b78449d03b0e3b9edbd090ea92fb02e23d3d3c6dd11de1126",
+      "bytes": 254900,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R900_sixx/Visual/glb/Link1.glb",
+      "sha256": "c6d71f0606f77b55487ff6fd25a5b70b2d9f87fda2fa3c9f42ca792be34b555d",
+      "bytes": 117604,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R900_sixx/Visual/glb/Link2.glb",
+      "sha256": "22825e751a63e330476df25eff11dbe226a2f653d752e917d6aba5f5f7a8a1a6",
+      "bytes": 193528,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R900_sixx/Visual/glb/Link3.glb",
+      "sha256": "64cb236584f14a85fd1aac0e4c242c59d22114dde285bc8639e2631068ec35ae",
+      "bytes": 131396,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R900_sixx/Visual/glb/Link4.glb",
+      "sha256": "e3c41326454b2910f237c06ed9714bd2f1cf98e965e13fb80059da9b689fd81f",
+      "bytes": 179712,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R900_sixx/Visual/glb/Link5.glb",
+      "sha256": "6f82b8a0703d5369d675cf1a914cad1bbc24b436fde31fbec26d10367afaa49c",
+      "bytes": 71488,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/KUKA/KR6_R900_sixx/Visual/glb/Link6.glb",
+      "sha256": "53d00166c65d4f8ad23631f9b9c42660f5000da52d39639e3e4f8211eeda62c7",
+      "bytes": 46968,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP12/Visual/glb/BaseLink.glb",
+      "sha256": "20edf3cf4455f178450c8f581ecde2609bf2478a1e73ec1a027d3bea8156a6c2",
+      "bytes": 256200,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP12/Visual/glb/Link1.glb",
+      "sha256": "0f06ddf6d4955b3a207bda1ed6b31c792f60213a19fc732278c50bbb6d0f987a",
+      "bytes": 573220,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP12/Visual/glb/Link2.glb",
+      "sha256": "22c1cdb00f680cd172713658001d48c5394b07e3364968a40a21d74806973741",
+      "bytes": 398448,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP12/Visual/glb/Link3.glb",
+      "sha256": "f7fe5286484f3c234fe760ffbaa118f9b9f1faae388bf20dc3583adfc8221017",
+      "bytes": 495416,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP12/Visual/glb/Link4.glb",
+      "sha256": "e772b1bc6e77dd06f2c55b30c85d7db02771da2bfd89795ebc73b26d7a1edd8d",
+      "bytes": 378492,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP12/Visual/glb/Link5.glb",
+      "sha256": "faa11e76f5348ff8f8500e82eab028029acd6e81e7a74ecf8bf3ece916b90db6",
+      "bytes": 150356,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP12/Visual/glb/Link6.glb",
+      "sha256": "6c47d2e4ae8f2e16b186f3ac91d93c921ba4e3c5c19236c9332fd3a4efd88498",
+      "bytes": 34320,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP180/Visual/glb/BaseLink.glb",
+      "sha256": "eb09f181231c4de9cf48a2412c734998ab9f66c0939e148ba2d9ff63ef444fba",
+      "bytes": 285144,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP180/Visual/glb/Link1.glb",
+      "sha256": "cc23d31c042fac2b646070ba97968fd5fc038b351b912ea82fc21cc462e148a0",
+      "bytes": 283544,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP180/Visual/glb/Link2.glb",
+      "sha256": "637d3862c181824bf4f13a8cc95721ac506ca20eac127b0fe33c7d61fb054508",
+      "bytes": 177524,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP180/Visual/glb/Link3.glb",
+      "sha256": "76e27d11f9135295b4e9e5be4f331ead1e3a04d09e9e42601b9e7458a6d5c13d",
+      "bytes": 293960,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP180/Visual/glb/Link4.glb",
+      "sha256": "29bf01321d5f43cbcf4c4385774630ce0168ab025b232c3d351a82edd90a230d",
+      "bytes": 149788,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP180/Visual/glb/Link5.glb",
+      "sha256": "8dcb1e9da1b2427cc71dbeb6b88be241930dfd60126343c7b058600fd7b4740b",
+      "bytes": 139748,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP180/Visual/glb/Link6.glb",
+      "sha256": "9cc765b1b9c24f3925cb0c9955a24bfccce8ce05b16616238841e1cf575f3e77",
+      "bytes": 23800,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP180_120/Visual/glb/BaseLink.glb",
+      "sha256": "bef45ac7638de005b0af63e5a8c20ad960dfe1341005599f50b98a844ee11fdf",
+      "bytes": 419740,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP180_120/Visual/glb/Link1.glb",
+      "sha256": "0a7ba78d8dcbd65bba7e65708816c4a039daa9dc439429c7c75891dd62693912",
+      "bytes": 684644,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP180_120/Visual/glb/Link2.glb",
+      "sha256": "9bc6e0eb466c4bf1fadfbd2b5ea968a7124b4a28c9cb8c17aa20f02eb24d9233",
+      "bytes": 332540,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP180_120/Visual/glb/Link3.glb",
+      "sha256": "bcf57ab4a8eaaf1aae4dfc85817013ed056b5c3799b750b7fe53aee75ce5b9f9",
+      "bytes": 595676,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP180_120/Visual/glb/Link4.glb",
+      "sha256": "965155abb8da78e4da80e96808d91ee5290595c77b6b0830ab03cd8d79350e0c",
+      "bytes": 351908,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP180_120/Visual/glb/Link5.glb",
+      "sha256": "70c75de51d166bd89887c170d2e9d38eccda101f59f287cae5795f012bf50fc5",
+      "bytes": 213800,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP180_120/Visual/glb/Link6.glb",
+      "sha256": "e1f26b5ed72ca503588f21bcdcefe778adc37f98b5b1c496d918aa56ff40cec5",
+      "bytes": 147340,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP20HL/Visual/glb/Link1.glb",
+      "sha256": "b54c56323f538a917febfb187f51735391688729231992085836f925e48d1799",
+      "bytes": 1721004,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP20HL/Visual/glb/Link2.glb",
+      "sha256": "99c884f1444f3e32daf71367ebe6d704256e1320e66ff07900092eaf97583fe2",
+      "bytes": 459784,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP20HL/Visual/glb/Link5.glb",
+      "sha256": "0ec30afd8c9c2e9252674f8b8cca28e6c141d88299e7c13b6f8d8ee87e895c16",
+      "bytes": 379140,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP20HL/Visual/glb/Link6.glb",
+      "sha256": "ba5ba9538fdd2464234d60a65b3e2deed56246c4413e7cff960a1a510cea5e30",
+      "bytes": 70400,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP25/Visual/glb/BaseLink.glb",
+      "sha256": "ef084768bca5fda116ee1c3076d55f2fee9c6f5d4b31374ee0b72ae2f1afb9ff",
+      "bytes": 295744,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP25/Visual/glb/Link1.glb",
+      "sha256": "d257e3b7710cf12f8c7ab46cd026095b45f2686649c0aa82bff2a8b224e3a908",
+      "bytes": 693852,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP25/Visual/glb/Link2.glb",
+      "sha256": "b5d41db6565a0b17f7aa05dba6222f1cf9953bafa6b140888fbabe5d9bcddfdd",
+      "bytes": 224804,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP25/Visual/glb/Link3.glb",
+      "sha256": "d6afbdc7c500048b786a620489171f0fdf7f7c0f186a840414127cfe2c6601a7",
+      "bytes": 691964,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP25/Visual/glb/Link4.glb",
+      "sha256": "9159d697649a018a6e6675ec09849dd5aedb6179bd4e7c6a534c1bff95251bfc",
+      "bytes": 475400,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP25/Visual/glb/Link5.glb",
+      "sha256": "94b6011ba76b58adf37fdb40556bb3c0f890bd89d6b1eb6dbca1413326a43c54",
+      "bytes": 272044,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP25/Visual/glb/Link6.glb",
+      "sha256": "3f39e608ede9a1133cc72baf824a3aac97262d3ef18604d16c52ea8ac8ce67dd",
+      "bytes": 47796,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP7/Visual/glb/BaseLink.glb",
+      "sha256": "8a37963441fb86d61b70c377f00839f1bba00e544af168bec55142809efdeabc",
+      "bytes": 337820,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP7/Visual/glb/Link1.glb",
+      "sha256": "fa0421f911932fc69aad3faed5595dd70ccc2c92d1f00717df646f49ddb196cb",
+      "bytes": 206868,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP7/Visual/glb/Link3.glb",
+      "sha256": "0e72540b3d5b0410c7d1f7573300369d484d5508f89176ef3b9083cc4f2150dc",
+      "bytes": 287572,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP7/Visual/glb/Link4.glb",
+      "sha256": "5ae05bd231d649426cc4f50a8d147d103aebbcdb09c25c1d8fed5aeb116c82e2",
+      "bytes": 381784,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP7/Visual/glb/Link5.glb",
+      "sha256": "3d1cea1d139d5541979d64afa76c6d8170552d099969ce6cd167322f851cb604",
+      "bytes": 101364,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP7/Visual/glb/Link6.glb",
+      "sha256": "a630fbc7b5fb8d656dd8ff1de2b0939d9a38a0af58c3f0689ae053cd5f0a36a9",
+      "bytes": 39400,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP8/Visual/glb/BaseLink.glb",
+      "sha256": "722be628d49c49adb038c72a95a5e8ce772181f89fb785b18bcd7b04fa4ab856",
+      "bytes": 325056,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP8/Visual/glb/Link1.glb",
+      "sha256": "a3dfcd3828e4e817a86ef58a306758c998b1d7642cc6107b51c8652fb9661261",
+      "bytes": 202220,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP8/Visual/glb/Link3.glb",
+      "sha256": "5e3319f74ecd1272e8b2e4d5cb5d0589d171cef1b6ebd11e67eea2babd55d2e7",
+      "bytes": 288612,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP8/Visual/glb/Link4.glb",
+      "sha256": "4f67c8720d7ed537ad4443372a966ffd5c1e4183247cec1c635b5dcb191127f2",
+      "bytes": 360096,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP8/Visual/glb/Link5.glb",
+      "sha256": "6344dac9ec0775cb5b88dc0b640e77d3b4e9032fff306e9cfcc70558683afee1",
+      "bytes": 100732,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP8/Visual/glb/Link6.glb",
+      "sha256": "83af11f7df0d48bd6d68be906c3bf687d628966b85b922b8f28cf73932049056",
+      "bytes": 21500,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP88/Visual/glb/BaseLink.glb",
+      "sha256": "89efa4b89e1b49d9157acb4d48fed9243cdbe9ff02793ef61a239ca4d645faa6",
+      "bytes": 531904,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP88/Visual/glb/Link1.glb",
+      "sha256": "f5d5436312576eebb93f14b452c9e79a3e005ce0151dd2a436ece1cd3e95e424",
+      "bytes": 1135260,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP88/Visual/glb/Link2.glb",
+      "sha256": "80a167f8882d340587e5027298a29930a186f62f502204d237c7daf9d46ddd4d",
+      "bytes": 509496,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP88/Visual/glb/Link3.glb",
+      "sha256": "24189532b6e4141a8fd19142839a3bebf7ec52bece637d17599886d693a69335",
+      "bytes": 1449804,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP88/Visual/glb/Link4.glb",
+      "sha256": "8a8b6aa4d438f7b4af9d29e90c293eaf5378d3c69de6a08e3d1799bcbda63eb9",
+      "bytes": 215464,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP88/Visual/glb/Link5.glb",
+      "sha256": "78eaec8c0bd9402a30cd33bf3f6bb590f9a1bf3b71f38248f4bb58824baa4556",
+      "bytes": 243136,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/GP88/Visual/glb/Link6.glb",
+      "sha256": "47f90da66550a478049812f1be8fc7669d5448c3e4bbeaa008a56d58e55e8ddb",
+      "bytes": 77704,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/MH50/Visual/glb/BaseLink.glb",
+      "sha256": "36616e1e465a9053d5bf3cd009720fbe804621fa40cb1eadf2a543a65d458473",
+      "bytes": 415628,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/MH50/Visual/glb/Link1.glb",
+      "sha256": "9645669fb303022899a6b8ab012b7c08d295e0498793956770f8f73117502fa4",
+      "bytes": 507256,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/MH50/Visual/glb/Link2.glb",
+      "sha256": "29fbd5bbd175c5d26aa421290de6d27231a7ba753f444c0a36601624171486d6",
+      "bytes": 433944,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/MH50/Visual/glb/Link3.glb",
+      "sha256": "6364d739cb72e05b24e0dd09ceab3181e33a517a09586da05e9c88392cdbf8b4",
+      "bytes": 500232,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/MH50/Visual/glb/Link4.glb",
+      "sha256": "4ecd29aaa4159206648e43fd13a9fd3c64c5c72a9dd54eaed154e644734d3425",
+      "bytes": 244708,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/MH50/Visual/glb/Link5.glb",
+      "sha256": "8609211d9e4a5b6b1386e6edfdb1464c22a4e7911ded5fc50e69e2d668f7d45a",
+      "bytes": 394096,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/MH50/Visual/glb/Link6.glb",
+      "sha256": "0b0c1e0192dda93758e4ccf3121890ee1f98057f187cb9594e552ab6bf18197f",
+      "bytes": 44064,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Rokae/SR3/Visual/glb/Link4.glb",
+      "sha256": "5f1925b222e37d30fdfe87df3fb5e217205bf02240a5b7caaa14a3830d31c1e0",
+      "bytes": 424828,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Rokae/SR5/Visual/glb/Link4.glb",
+      "sha256": "908268ba71511d1d3d276fd33105cd1d17c21ea508e1ab4e94dcbac823ba165b",
+      "bytes": 365236,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/Rokae/SR5/Visual/glb/Link6.glb",
+      "sha256": "83cc829fc04773e3a43fb8bec8fb2cdb182e9e8448bc01dbd88837278145e387",
+      "bytes": 371968,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR10/Visual/glb/BaseLink.glb",
+      "sha256": "b2d7171f4b5393567931e5422f70fcf868c9e606a86184ebcc07fb08df29be2d",
+      "bytes": 66264,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR10/Visual/glb/Link1.glb",
+      "sha256": "2ce11fc6c7415d8e80bb7f8681cb6bfb0e4d87804713a10c9963bb011c2d2c8f",
+      "bytes": 398708,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR10e/Visual/glb/BaseLink.glb",
+      "sha256": "e1f8a2d35b4ee841e8fe17a2ede94036f382cc095777fd8dbe1b41ca4b675db6",
+      "bytes": 137328,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR10e/Visual/glb/Link3.glb",
+      "sha256": "6fa48682594edc603c1499c40c5066d162a5740999641d13cf9d8cc9a1390bc0",
+      "bytes": 480040,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR10e/Visual/glb/Link4.glb",
+      "sha256": "cbc3b9872a5e2ba3f8b08680f78a6bcba0d33fd8393944115e92dc1a8adcaec3",
+      "bytes": 391528,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR10e/Visual/glb/Link5.glb",
+      "sha256": "db969766ceb6509dd25a9f15276d5fbd4c9455b4062f61e28b7308d8d9289a0d",
+      "bytes": 436572,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR10e/Visual/glb/Link6.glb",
+      "sha256": "81ed8ddd7c69b87696891e8c0b1aad7a755279cc43d2a1d414e3daf4f45a14dc",
+      "bytes": 39164,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3/Visual/glb/Link1.glb",
+      "sha256": "90acb7d7ce55c63793ebd9d4dc44088a0e8ee0f59d12168aa58c670f3eb6ac46",
+      "bytes": 581388,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3/Visual/glb/Link2.glb",
+      "sha256": "c6d932e89c9ac5e4632c0333e173a63b3e40bdd524622836cd9174f17112576f",
+      "bytes": 839572,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3/Visual/glb/Link6.glb",
+      "sha256": "c451a6530bfce8ae7046ad026609e823a6a36d571ffc8c95215a424adcb2560e",
+      "bytes": 20672,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5e/Visual/glb/BaseLink.glb",
+      "sha256": "ecf1672bcd36514eb1901bc9261e36122d0a56aaeaf0710e7cd2d6e98182ca3e",
+      "bytes": 141136,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5e/Visual/glb/Link3.glb",
+      "sha256": "ff3effd49c12de41f38d1c6a7d9c1b096e490b1fd327aef65f90ed3fbc94896c",
+      "bytes": 403088,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5e/Visual/glb/Link4.glb",
+      "sha256": "daf30fbeccf09eb8b38f50d590a8838f218c6adb8e9c1ee17ecff9e0daa1597a",
+      "bytes": 416816,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5e/Visual/glb/Link6.glb",
+      "sha256": "469e2c52bc0b355ffd8eee1845e42d77b31358ab34e3db6dfba5fc0793cf8739",
+      "bytes": 30284,
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    }
+  ]
+}

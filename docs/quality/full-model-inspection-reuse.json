@@ -1,0 +1,1364 @@
+{
+  "method": "Compare exact decoded RGB at actual inspection resolution for lossless peer contacts, and byte-identical recreated JPEG contacts for root first15. Blender PNG metadata contains Date and RenderTime, so raw PNG file SHA may differ with unchanged pixels. Original contacts remain untouched.",
+  "peer_views": [
+    {
+      "id": "kuka-kr10-r1100-sixx",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+      "reference_contact_sha256": "b5aa9fcdc5f0ad7c42f2845153e1de2f942138fa9a40c6ec689ecac1d64dba84",
+      "inspection_rgb_sha256": "5482fee531390e515f544d78e85ceb3cd2f1aa6bd759c3a7864eb66d09161801",
+      "current_thumbnail_rgb_sha256": "5482fee531390e515f544d78e85ceb3cd2f1aa6bd759c3a7864eb66d09161801",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr10-r1100-sixx",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+      "reference_contact_sha256": "b5aa9fcdc5f0ad7c42f2845153e1de2f942138fa9a40c6ec689ecac1d64dba84",
+      "inspection_rgb_sha256": "ba61c2e54a0b8455eff065ef5377e1bd050327f99f5e718a01c61653cfbb41e6",
+      "current_thumbnail_rgb_sha256": "ba61c2e54a0b8455eff065ef5377e1bd050327f99f5e718a01c61653cfbb41e6",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr10-r1100-sixx",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+      "reference_contact_sha256": "b5aa9fcdc5f0ad7c42f2845153e1de2f942138fa9a40c6ec689ecac1d64dba84",
+      "inspection_rgb_sha256": "b612405e7030439caef269cf2e9b09a1a5a96b4f0950fb8cdd2b632edab6b699",
+      "current_thumbnail_rgb_sha256": "b612405e7030439caef269cf2e9b09a1a5a96b4f0950fb8cdd2b632edab6b699",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr10-r1100-sixx",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+      "reference_contact_sha256": "b5aa9fcdc5f0ad7c42f2845153e1de2f942138fa9a40c6ec689ecac1d64dba84",
+      "inspection_rgb_sha256": "c81dfaf97b59703b42b0e59790e2fe61719126ba3a833743ed6b316215f9bafe",
+      "current_thumbnail_rgb_sha256": "c81dfaf97b59703b42b0e59790e2fe61719126ba3a833743ed6b316215f9bafe",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr10-r1420",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+      "reference_contact_sha256": "b5aa9fcdc5f0ad7c42f2845153e1de2f942138fa9a40c6ec689ecac1d64dba84",
+      "inspection_rgb_sha256": "376583d6f346e54a543fd208ab261e6ee2440b05dcf58ec586970e9f7f126c47",
+      "current_thumbnail_rgb_sha256": "376583d6f346e54a543fd208ab261e6ee2440b05dcf58ec586970e9f7f126c47",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr10-r1420",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+      "reference_contact_sha256": "b5aa9fcdc5f0ad7c42f2845153e1de2f942138fa9a40c6ec689ecac1d64dba84",
+      "inspection_rgb_sha256": "3cf044245ae2e7d57f79b45bf422c3e4a2ae3649819a37637f0ce788cd752762",
+      "current_thumbnail_rgb_sha256": "3cf044245ae2e7d57f79b45bf422c3e4a2ae3649819a37637f0ce788cd752762",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr10-r1420",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+      "reference_contact_sha256": "b5aa9fcdc5f0ad7c42f2845153e1de2f942138fa9a40c6ec689ecac1d64dba84",
+      "inspection_rgb_sha256": "670c16755a253bba557ace1e8ba44c985591e021cb32036db1617718839f3224",
+      "current_thumbnail_rgb_sha256": "670c16755a253bba557ace1e8ba44c985591e021cb32036db1617718839f3224",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr10-r1420",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+      "reference_contact_sha256": "b5aa9fcdc5f0ad7c42f2845153e1de2f942138fa9a40c6ec689ecac1d64dba84",
+      "inspection_rgb_sha256": "a3d36436a7bd3db9571d3f39a8f4c380df178aa931a8929d763a90085a7d2ae5",
+      "current_thumbnail_rgb_sha256": "a3d36436a7bd3db9571d3f39a8f4c380df178aa931a8929d763a90085a7d2ae5",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr120-r2500-pro",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+      "reference_contact_sha256": "b5aa9fcdc5f0ad7c42f2845153e1de2f942138fa9a40c6ec689ecac1d64dba84",
+      "inspection_rgb_sha256": "dc182486d3e0ba55f5994ea54703f312c5c8418ea0c718ad97e2d438a88fc063",
+      "current_thumbnail_rgb_sha256": "dc182486d3e0ba55f5994ea54703f312c5c8418ea0c718ad97e2d438a88fc063",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr120-r2500-pro",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+      "reference_contact_sha256": "b5aa9fcdc5f0ad7c42f2845153e1de2f942138fa9a40c6ec689ecac1d64dba84",
+      "inspection_rgb_sha256": "3c340728fda398b39b088a1f389d730431362dc73743f039530b99d483b658ac",
+      "current_thumbnail_rgb_sha256": "3c340728fda398b39b088a1f389d730431362dc73743f039530b99d483b658ac",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr120-r2500-pro",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+      "reference_contact_sha256": "b5aa9fcdc5f0ad7c42f2845153e1de2f942138fa9a40c6ec689ecac1d64dba84",
+      "inspection_rgb_sha256": "b22dc0bc4474527593a905897bc3718f3310f443eac58d74ee7614588b64dc6f",
+      "current_thumbnail_rgb_sha256": "b22dc0bc4474527593a905897bc3718f3310f443eac58d74ee7614588b64dc6f",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr120-r2500-pro",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+      "reference_contact_sha256": "b5aa9fcdc5f0ad7c42f2845153e1de2f942138fa9a40c6ec689ecac1d64dba84",
+      "inspection_rgb_sha256": "8a51b81c19fb85d39a9b096c515e1011358e16a4d719a69ab18bf63121f6a6d5",
+      "current_thumbnail_rgb_sha256": "8a51b81c19fb85d39a9b096c515e1011358e16a4d719a69ab18bf63121f6a6d5",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr150-2",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+      "reference_contact_sha256": "5fafb177179dc35f4bc07a3eddc5c5312fc8bcb95bbde57935c602d002233350",
+      "inspection_rgb_sha256": "d24c5823bd24618179ac011cda1975550f6bbbd9752cdbfc8e716d2cbe8960b5",
+      "current_thumbnail_rgb_sha256": "d24c5823bd24618179ac011cda1975550f6bbbd9752cdbfc8e716d2cbe8960b5",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr150-2",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+      "reference_contact_sha256": "5fafb177179dc35f4bc07a3eddc5c5312fc8bcb95bbde57935c602d002233350",
+      "inspection_rgb_sha256": "7986dc3bdd6ff88cc59dec9e53dea791088b3847d10bd7c7b058e49d2cf064d2",
+      "current_thumbnail_rgb_sha256": "7986dc3bdd6ff88cc59dec9e53dea791088b3847d10bd7c7b058e49d2cf064d2",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr150-2",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+      "reference_contact_sha256": "5fafb177179dc35f4bc07a3eddc5c5312fc8bcb95bbde57935c602d002233350",
+      "inspection_rgb_sha256": "09a773cefa5bb7c85f60137a64cea0f1a098a7ae0b526ffa2ab6f61e7e2c67fd",
+      "current_thumbnail_rgb_sha256": "09a773cefa5bb7c85f60137a64cea0f1a098a7ae0b526ffa2ab6f61e7e2c67fd",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr150-2",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+      "reference_contact_sha256": "5fafb177179dc35f4bc07a3eddc5c5312fc8bcb95bbde57935c602d002233350",
+      "inspection_rgb_sha256": "87839f45b5f50c5050f60cc35de766ada8057bc4173ba361241b4f4c6f1ce9c3",
+      "current_thumbnail_rgb_sha256": "87839f45b5f50c5050f60cc35de766ada8057bc4173ba361241b4f4c6f1ce9c3",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr150-r3100-2",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+      "reference_contact_sha256": "5fafb177179dc35f4bc07a3eddc5c5312fc8bcb95bbde57935c602d002233350",
+      "inspection_rgb_sha256": "96a807be59fd69ce4a9c2255a0f4ce0822844d3951937632be0297fb4b0b621f",
+      "current_thumbnail_rgb_sha256": "96a807be59fd69ce4a9c2255a0f4ce0822844d3951937632be0297fb4b0b621f",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr150-r3100-2",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+      "reference_contact_sha256": "5fafb177179dc35f4bc07a3eddc5c5312fc8bcb95bbde57935c602d002233350",
+      "inspection_rgb_sha256": "8e11462c671d3e38957b1abbff0c55955dfba674c159d6534a960277d7d7ac68",
+      "current_thumbnail_rgb_sha256": "8e11462c671d3e38957b1abbff0c55955dfba674c159d6534a960277d7d7ac68",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr150-r3100-2",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+      "reference_contact_sha256": "5fafb177179dc35f4bc07a3eddc5c5312fc8bcb95bbde57935c602d002233350",
+      "inspection_rgb_sha256": "b86d88ae81977ca74dba6e6a2b5bd94772cb203784878d99ff90180c4a5f6a52",
+      "current_thumbnail_rgb_sha256": "b86d88ae81977ca74dba6e6a2b5bd94772cb203784878d99ff90180c4a5f6a52",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr150-r3100-2",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+      "reference_contact_sha256": "5fafb177179dc35f4bc07a3eddc5c5312fc8bcb95bbde57935c602d002233350",
+      "inspection_rgb_sha256": "582131c1060f92fcb3ffbee8c9c3f614c362f511c39e35f3fa1963d9783b5d84",
+      "current_thumbnail_rgb_sha256": "582131c1060f92fcb3ffbee8c9c3f614c362f511c39e35f3fa1963d9783b5d84",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr16-2",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+      "reference_contact_sha256": "5fafb177179dc35f4bc07a3eddc5c5312fc8bcb95bbde57935c602d002233350",
+      "inspection_rgb_sha256": "1bf3bd455748e1f7f7a4377f35429180a8d11fcb2e492db2b5bdb38eeb1123e5",
+      "current_thumbnail_rgb_sha256": "1bf3bd455748e1f7f7a4377f35429180a8d11fcb2e492db2b5bdb38eeb1123e5",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr16-2",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+      "reference_contact_sha256": "5fafb177179dc35f4bc07a3eddc5c5312fc8bcb95bbde57935c602d002233350",
+      "inspection_rgb_sha256": "ca3e961819a70e454825016b4d30d11770e94012a2a891edc3f85e01a44030a9",
+      "current_thumbnail_rgb_sha256": "ca3e961819a70e454825016b4d30d11770e94012a2a891edc3f85e01a44030a9",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr16-2",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+      "reference_contact_sha256": "5fafb177179dc35f4bc07a3eddc5c5312fc8bcb95bbde57935c602d002233350",
+      "inspection_rgb_sha256": "b4f39653c435166aa21102828588a8c2be97a3b3e71a5f16906e9d627594d6e5",
+      "current_thumbnail_rgb_sha256": "b4f39653c435166aa21102828588a8c2be97a3b3e71a5f16906e9d627594d6e5",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr16-2",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+      "reference_contact_sha256": "5fafb177179dc35f4bc07a3eddc5c5312fc8bcb95bbde57935c602d002233350",
+      "inspection_rgb_sha256": "0d248440bd995985e3b94291ae2ee4c22ab908204f04d8dcb6a258d754e225bf",
+      "current_thumbnail_rgb_sha256": "0d248440bd995985e3b94291ae2ee4c22ab908204f04d8dcb6a258d754e225bf",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr210-l150",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+      "reference_contact_sha256": "d5f5d76a2182aa322c779b954332cc7e8041fc4cbe2695fb4452db3bb0da5d04",
+      "inspection_rgb_sha256": "152580dad0821a6fd84d4d826dc80d0071b72c1bf74f7b17749581104a685ceb",
+      "current_thumbnail_rgb_sha256": "152580dad0821a6fd84d4d826dc80d0071b72c1bf74f7b17749581104a685ceb",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr210-l150",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+      "reference_contact_sha256": "d5f5d76a2182aa322c779b954332cc7e8041fc4cbe2695fb4452db3bb0da5d04",
+      "inspection_rgb_sha256": "0f9b4f3f34870088797e2f187ea25032e0b7245ebde001ffaa66b4168f771d63",
+      "current_thumbnail_rgb_sha256": "0f9b4f3f34870088797e2f187ea25032e0b7245ebde001ffaa66b4168f771d63",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr210-l150",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+      "reference_contact_sha256": "d5f5d76a2182aa322c779b954332cc7e8041fc4cbe2695fb4452db3bb0da5d04",
+      "inspection_rgb_sha256": "4076a534c77379496272efc865aebc713c8a0761f5e4ad0100dd805318ac320e",
+      "current_thumbnail_rgb_sha256": "4076a534c77379496272efc865aebc713c8a0761f5e4ad0100dd805318ac320e",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr210-l150",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+      "reference_contact_sha256": "d5f5d76a2182aa322c779b954332cc7e8041fc4cbe2695fb4452db3bb0da5d04",
+      "inspection_rgb_sha256": "f78362c2749697da7a066f94f6fec056f0ba8a644a644d827534d208cb5dccc8",
+      "current_thumbnail_rgb_sha256": "f78362c2749697da7a066f94f6fec056f0ba8a644a644d827534d208cb5dccc8",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr5-arc",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+      "reference_contact_sha256": "d5f5d76a2182aa322c779b954332cc7e8041fc4cbe2695fb4452db3bb0da5d04",
+      "inspection_rgb_sha256": "412f12ab7e05f9f8c03c8e6fc1bade88dd28c2e6e59b935e57f1e0a94a14e080",
+      "current_thumbnail_rgb_sha256": "412f12ab7e05f9f8c03c8e6fc1bade88dd28c2e6e59b935e57f1e0a94a14e080",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr5-arc",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+      "reference_contact_sha256": "d5f5d76a2182aa322c779b954332cc7e8041fc4cbe2695fb4452db3bb0da5d04",
+      "inspection_rgb_sha256": "a4a9b25666b47f0fc1237f4178e30a5538b56446a662a10831da8f60bf08ba5f",
+      "current_thumbnail_rgb_sha256": "a4a9b25666b47f0fc1237f4178e30a5538b56446a662a10831da8f60bf08ba5f",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr5-arc",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+      "reference_contact_sha256": "d5f5d76a2182aa322c779b954332cc7e8041fc4cbe2695fb4452db3bb0da5d04",
+      "inspection_rgb_sha256": "eb44ceaf5598bd2d9286adc17137986770e4982685cbd79a55b2fbcd9af94401",
+      "current_thumbnail_rgb_sha256": "eb44ceaf5598bd2d9286adc17137986770e4982685cbd79a55b2fbcd9af94401",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr5-arc",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+      "reference_contact_sha256": "d5f5d76a2182aa322c779b954332cc7e8041fc4cbe2695fb4452db3bb0da5d04",
+      "inspection_rgb_sha256": "3272f0c4090384b030ece038da07dfea0d177e3e1341ea34290ab449e54d6369",
+      "current_thumbnail_rgb_sha256": "3272f0c4090384b030ece038da07dfea0d177e3e1341ea34290ab449e54d6369",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr6-r700-sixx",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+      "reference_contact_sha256": "d5f5d76a2182aa322c779b954332cc7e8041fc4cbe2695fb4452db3bb0da5d04",
+      "inspection_rgb_sha256": "606d6696fe1cb347a47da2653baa1d49dc0ced5436148b820a833cd284a93703",
+      "current_thumbnail_rgb_sha256": "606d6696fe1cb347a47da2653baa1d49dc0ced5436148b820a833cd284a93703",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr6-r700-sixx",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+      "reference_contact_sha256": "d5f5d76a2182aa322c779b954332cc7e8041fc4cbe2695fb4452db3bb0da5d04",
+      "inspection_rgb_sha256": "d9d89ee4a89a425df52d8b64e540f0b63bf79b56a73114b22a107a47e7e4666a",
+      "current_thumbnail_rgb_sha256": "d9d89ee4a89a425df52d8b64e540f0b63bf79b56a73114b22a107a47e7e4666a",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr6-r700-sixx",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+      "reference_contact_sha256": "d5f5d76a2182aa322c779b954332cc7e8041fc4cbe2695fb4452db3bb0da5d04",
+      "inspection_rgb_sha256": "1c5071620b7fc136a0532ca7f7889dd24ba5898b051fb671ade5f0cef8152f28",
+      "current_thumbnail_rgb_sha256": "1c5071620b7fc136a0532ca7f7889dd24ba5898b051fb671ade5f0cef8152f28",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr6-r700-sixx",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+      "reference_contact_sha256": "d5f5d76a2182aa322c779b954332cc7e8041fc4cbe2695fb4452db3bb0da5d04",
+      "inspection_rgb_sha256": "0a3a628621b711a0bbef3080dd6434a0d73972b4e9d257d18ec391b6b5c8532c",
+      "current_thumbnail_rgb_sha256": "0a3a628621b711a0bbef3080dd6434a0d73972b4e9d257d18ec391b6b5c8532c",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr6-r900-sixx",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+      "reference_contact_sha256": "29cc85c666779dad6a2c5a15573a2e215df12322e54b181313bc2339bd16fa52",
+      "inspection_rgb_sha256": "33f136fb7fe334ef05ec6da3c0e637da5f7f044fd04bb8bcf46d642edb2517e5",
+      "current_thumbnail_rgb_sha256": "33f136fb7fe334ef05ec6da3c0e637da5f7f044fd04bb8bcf46d642edb2517e5",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr6-r900-sixx",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+      "reference_contact_sha256": "29cc85c666779dad6a2c5a15573a2e215df12322e54b181313bc2339bd16fa52",
+      "inspection_rgb_sha256": "2752b5edab9f359d25d8462c181b54ced71b022d12ae48b49d74ec6199642623",
+      "current_thumbnail_rgb_sha256": "2752b5edab9f359d25d8462c181b54ced71b022d12ae48b49d74ec6199642623",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr6-r900-sixx",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+      "reference_contact_sha256": "29cc85c666779dad6a2c5a15573a2e215df12322e54b181313bc2339bd16fa52",
+      "inspection_rgb_sha256": "382cb415ab1868571c67f16015d376bc1644edff8a48935a84d4e80b07c3afe7",
+      "current_thumbnail_rgb_sha256": "382cb415ab1868571c67f16015d376bc1644edff8a48935a84d4e80b07c3afe7",
+      "equal": true
+    },
+    {
+      "id": "kuka-kr6-r900-sixx",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+      "reference_contact_sha256": "29cc85c666779dad6a2c5a15573a2e215df12322e54b181313bc2339bd16fa52",
+      "inspection_rgb_sha256": "6ce9ba6642cefe0b7e2f75bba2f3c795ac4341b6b5ba2dfdbb992d6850ffd3b7",
+      "current_thumbnail_rgb_sha256": "6ce9ba6642cefe0b7e2f75bba2f3c795ac4341b6b5ba2dfdbb992d6850ffd3b7",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp12",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+      "reference_contact_sha256": "29cc85c666779dad6a2c5a15573a2e215df12322e54b181313bc2339bd16fa52",
+      "inspection_rgb_sha256": "30e43683c3d614cf1c3ce1554fc185360c36b7c2cee6b39743c2c38838c9a9d0",
+      "current_thumbnail_rgb_sha256": "30e43683c3d614cf1c3ce1554fc185360c36b7c2cee6b39743c2c38838c9a9d0",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp12",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+      "reference_contact_sha256": "29cc85c666779dad6a2c5a15573a2e215df12322e54b181313bc2339bd16fa52",
+      "inspection_rgb_sha256": "9edfb4714bed29e249d1cee0be007817944acdab3ed0cd6b9a07fc751b4b71ee",
+      "current_thumbnail_rgb_sha256": "9edfb4714bed29e249d1cee0be007817944acdab3ed0cd6b9a07fc751b4b71ee",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp12",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+      "reference_contact_sha256": "29cc85c666779dad6a2c5a15573a2e215df12322e54b181313bc2339bd16fa52",
+      "inspection_rgb_sha256": "2f6647ab0344c17edcf65f5bb8cac724da0e3988cb81921557dbb7b27d20d3cf",
+      "current_thumbnail_rgb_sha256": "2f6647ab0344c17edcf65f5bb8cac724da0e3988cb81921557dbb7b27d20d3cf",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp12",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+      "reference_contact_sha256": "29cc85c666779dad6a2c5a15573a2e215df12322e54b181313bc2339bd16fa52",
+      "inspection_rgb_sha256": "c67a330279f6be8462f9ac7d9a4e35c1c221f9b0678262101071bbe7abfbca03",
+      "current_thumbnail_rgb_sha256": "c67a330279f6be8462f9ac7d9a4e35c1c221f9b0678262101071bbe7abfbca03",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp180",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+      "reference_contact_sha256": "29cc85c666779dad6a2c5a15573a2e215df12322e54b181313bc2339bd16fa52",
+      "inspection_rgb_sha256": "30f3af3d0f1995a134a0d7f7fd541c4ad6e118c5852a9dfcc6e9ab7bd52be357",
+      "current_thumbnail_rgb_sha256": "30f3af3d0f1995a134a0d7f7fd541c4ad6e118c5852a9dfcc6e9ab7bd52be357",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp180",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+      "reference_contact_sha256": "29cc85c666779dad6a2c5a15573a2e215df12322e54b181313bc2339bd16fa52",
+      "inspection_rgb_sha256": "1a33ed3c7638e756f20f878bf1dd2f3399ddb5b9253478bc6ac3165487753551",
+      "current_thumbnail_rgb_sha256": "1a33ed3c7638e756f20f878bf1dd2f3399ddb5b9253478bc6ac3165487753551",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp180",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+      "reference_contact_sha256": "29cc85c666779dad6a2c5a15573a2e215df12322e54b181313bc2339bd16fa52",
+      "inspection_rgb_sha256": "2d7405fc34074a35c3a56887974c17c87e052447a660e490fd0e6ed64c38a888",
+      "current_thumbnail_rgb_sha256": "2d7405fc34074a35c3a56887974c17c87e052447a660e490fd0e6ed64c38a888",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp180",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+      "reference_contact_sha256": "29cc85c666779dad6a2c5a15573a2e215df12322e54b181313bc2339bd16fa52",
+      "inspection_rgb_sha256": "120f9007643cf62666027501911eb3edc270792b7281d1669f35c5e232a3471b",
+      "current_thumbnail_rgb_sha256": "120f9007643cf62666027501911eb3edc270792b7281d1669f35c5e232a3471b",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp180-120",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+      "reference_contact_sha256": "3a67084258651815c18fa2d665ccdd064354cfacfd7886855ed88df08701f0d4",
+      "inspection_rgb_sha256": "3c7ded3020c38d4f47e52b2e2abb1b072f352529b0b3b2ede5b10a3de425a363",
+      "current_thumbnail_rgb_sha256": "3c7ded3020c38d4f47e52b2e2abb1b072f352529b0b3b2ede5b10a3de425a363",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp180-120",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+      "reference_contact_sha256": "3a67084258651815c18fa2d665ccdd064354cfacfd7886855ed88df08701f0d4",
+      "inspection_rgb_sha256": "9f92384f3751886280cfdb5981c9fd7043df124b86a76e31f0f9cbe2649f48de",
+      "current_thumbnail_rgb_sha256": "9f92384f3751886280cfdb5981c9fd7043df124b86a76e31f0f9cbe2649f48de",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp180-120",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+      "reference_contact_sha256": "3a67084258651815c18fa2d665ccdd064354cfacfd7886855ed88df08701f0d4",
+      "inspection_rgb_sha256": "1959fa7b17461414a8499faeb0308409e8d0e134cf453bb214992174d9693bda",
+      "current_thumbnail_rgb_sha256": "1959fa7b17461414a8499faeb0308409e8d0e134cf453bb214992174d9693bda",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp180-120",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+      "reference_contact_sha256": "3a67084258651815c18fa2d665ccdd064354cfacfd7886855ed88df08701f0d4",
+      "inspection_rgb_sha256": "b0b738d7c00b07ff12db43793547210381d27a1c6648206f820a209971087a31",
+      "current_thumbnail_rgb_sha256": "b0b738d7c00b07ff12db43793547210381d27a1c6648206f820a209971087a31",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp20hl",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+      "reference_contact_sha256": "3a67084258651815c18fa2d665ccdd064354cfacfd7886855ed88df08701f0d4",
+      "inspection_rgb_sha256": "63ec5eec6ac3ef9470cab3fe8b1037e5bcc3ae6cd40dcad00a1524b930ed6306",
+      "current_thumbnail_rgb_sha256": "63ec5eec6ac3ef9470cab3fe8b1037e5bcc3ae6cd40dcad00a1524b930ed6306",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp20hl",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+      "reference_contact_sha256": "3a67084258651815c18fa2d665ccdd064354cfacfd7886855ed88df08701f0d4",
+      "inspection_rgb_sha256": "b7f54ea53ef3408db636852ab461a5c16b3643990c66f6624ea037b7a4841b8c",
+      "current_thumbnail_rgb_sha256": "b7f54ea53ef3408db636852ab461a5c16b3643990c66f6624ea037b7a4841b8c",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp20hl",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+      "reference_contact_sha256": "3a67084258651815c18fa2d665ccdd064354cfacfd7886855ed88df08701f0d4",
+      "inspection_rgb_sha256": "c1d3cf6f9e3b18995e0fabc19cddd37acd532d516aca67927326ff1542767237",
+      "current_thumbnail_rgb_sha256": "c1d3cf6f9e3b18995e0fabc19cddd37acd532d516aca67927326ff1542767237",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp20hl",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+      "reference_contact_sha256": "3a67084258651815c18fa2d665ccdd064354cfacfd7886855ed88df08701f0d4",
+      "inspection_rgb_sha256": "b5a16e4dca956c03a5a449b91d92d50cf6afa7613ce786e5dbc491717353571a",
+      "current_thumbnail_rgb_sha256": "b5a16e4dca956c03a5a449b91d92d50cf6afa7613ce786e5dbc491717353571a",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp25",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+      "reference_contact_sha256": "3a67084258651815c18fa2d665ccdd064354cfacfd7886855ed88df08701f0d4",
+      "inspection_rgb_sha256": "975a9e5e2ebdbba48d46a92e32a50d31a61f22c04d332f1645bd25e4cd4e1d11",
+      "current_thumbnail_rgb_sha256": "975a9e5e2ebdbba48d46a92e32a50d31a61f22c04d332f1645bd25e4cd4e1d11",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp25",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+      "reference_contact_sha256": "3a67084258651815c18fa2d665ccdd064354cfacfd7886855ed88df08701f0d4",
+      "inspection_rgb_sha256": "2ec58ad4dfb4b7224cd233e725c46ac9863b27f06496965fbdf74a5e39c196cb",
+      "current_thumbnail_rgb_sha256": "2ec58ad4dfb4b7224cd233e725c46ac9863b27f06496965fbdf74a5e39c196cb",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp25",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+      "reference_contact_sha256": "3a67084258651815c18fa2d665ccdd064354cfacfd7886855ed88df08701f0d4",
+      "inspection_rgb_sha256": "8f377343327efe1dc730662024c9abe758b5406d1ee5e8bd459823e21e5a14a4",
+      "current_thumbnail_rgb_sha256": "8f377343327efe1dc730662024c9abe758b5406d1ee5e8bd459823e21e5a14a4",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp25",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+      "reference_contact_sha256": "3a67084258651815c18fa2d665ccdd064354cfacfd7886855ed88df08701f0d4",
+      "inspection_rgb_sha256": "dd458b2a963a5907ad66a7e982a8231a599ec3641f222a32e0c0ab5ca46c8e7e",
+      "current_thumbnail_rgb_sha256": "dd458b2a963a5907ad66a7e982a8231a599ec3641f222a32e0c0ab5ca46c8e7e",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp7",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+      "reference_contact_sha256": "e05a28b79b624d09b3dc927b0dd74175698dde03edada4d148804272aeb8a3e8",
+      "inspection_rgb_sha256": "c6f1c0090dec479f0a8e109da62e5f361728ec73d8b9d9391fa574e5db760fee",
+      "current_thumbnail_rgb_sha256": "c6f1c0090dec479f0a8e109da62e5f361728ec73d8b9d9391fa574e5db760fee",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp7",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+      "reference_contact_sha256": "e05a28b79b624d09b3dc927b0dd74175698dde03edada4d148804272aeb8a3e8",
+      "inspection_rgb_sha256": "f62488ec62090851cc9fa83e05acdbf0bdcef00e472262cf71bcbc3520866966",
+      "current_thumbnail_rgb_sha256": "f62488ec62090851cc9fa83e05acdbf0bdcef00e472262cf71bcbc3520866966",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp7",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+      "reference_contact_sha256": "e05a28b79b624d09b3dc927b0dd74175698dde03edada4d148804272aeb8a3e8",
+      "inspection_rgb_sha256": "54fc1d2032557f70bdda7e0213c39d942e7e9df9430063f0f3445b5aed0d79f2",
+      "current_thumbnail_rgb_sha256": "54fc1d2032557f70bdda7e0213c39d942e7e9df9430063f0f3445b5aed0d79f2",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp7",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+      "reference_contact_sha256": "e05a28b79b624d09b3dc927b0dd74175698dde03edada4d148804272aeb8a3e8",
+      "inspection_rgb_sha256": "43a2d0c4cf13d92e9e064932101e721e00af52769f45476b4ab989b800843264",
+      "current_thumbnail_rgb_sha256": "43a2d0c4cf13d92e9e064932101e721e00af52769f45476b4ab989b800843264",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp8",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+      "reference_contact_sha256": "e05a28b79b624d09b3dc927b0dd74175698dde03edada4d148804272aeb8a3e8",
+      "inspection_rgb_sha256": "b667eb12f408f4901343fbd7238a7a4c76b5d85bc75ed53586b19f22b77f042c",
+      "current_thumbnail_rgb_sha256": "b667eb12f408f4901343fbd7238a7a4c76b5d85bc75ed53586b19f22b77f042c",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp8",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+      "reference_contact_sha256": "e05a28b79b624d09b3dc927b0dd74175698dde03edada4d148804272aeb8a3e8",
+      "inspection_rgb_sha256": "d963ef821bb8d774efc650443c660bce780033fbb9efcc57663b8016ca1ff35a",
+      "current_thumbnail_rgb_sha256": "d963ef821bb8d774efc650443c660bce780033fbb9efcc57663b8016ca1ff35a",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp8",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+      "reference_contact_sha256": "e05a28b79b624d09b3dc927b0dd74175698dde03edada4d148804272aeb8a3e8",
+      "inspection_rgb_sha256": "ea75c3d08bcf1123522e4a4101af9901a032dbafab84e8b5ad095038a50710b7",
+      "current_thumbnail_rgb_sha256": "ea75c3d08bcf1123522e4a4101af9901a032dbafab84e8b5ad095038a50710b7",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp8",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+      "reference_contact_sha256": "e05a28b79b624d09b3dc927b0dd74175698dde03edada4d148804272aeb8a3e8",
+      "inspection_rgb_sha256": "9f547b95caf28cbf0d27da1b9e4f10cfbf7db7955e0e37f54332bd4701596061",
+      "current_thumbnail_rgb_sha256": "9f547b95caf28cbf0d27da1b9e4f10cfbf7db7955e0e37f54332bd4701596061",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp88",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+      "reference_contact_sha256": "e05a28b79b624d09b3dc927b0dd74175698dde03edada4d148804272aeb8a3e8",
+      "inspection_rgb_sha256": "8e0df580297f624523b74be8ee538bffa6a1f59d3d113668cb2857566904ef13",
+      "current_thumbnail_rgb_sha256": "8e0df580297f624523b74be8ee538bffa6a1f59d3d113668cb2857566904ef13",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp88",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+      "reference_contact_sha256": "e05a28b79b624d09b3dc927b0dd74175698dde03edada4d148804272aeb8a3e8",
+      "inspection_rgb_sha256": "48d319a2fcf674eff1132e72ec1f62a69a3ac4772982c02e17eed13d32b28a6a",
+      "current_thumbnail_rgb_sha256": "48d319a2fcf674eff1132e72ec1f62a69a3ac4772982c02e17eed13d32b28a6a",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp88",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+      "reference_contact_sha256": "e05a28b79b624d09b3dc927b0dd74175698dde03edada4d148804272aeb8a3e8",
+      "inspection_rgb_sha256": "949935215426fcfc68afd47c5d38bf2c9f0a3f9048b674a5c25f78145d805b46",
+      "current_thumbnail_rgb_sha256": "949935215426fcfc68afd47c5d38bf2c9f0a3f9048b674a5c25f78145d805b46",
+      "equal": true
+    },
+    {
+      "id": "motoman-gp88",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+      "reference_contact_sha256": "e05a28b79b624d09b3dc927b0dd74175698dde03edada4d148804272aeb8a3e8",
+      "inspection_rgb_sha256": "adb460fee6b0a68caf436c8a8596712117f0001280f877e273e7921f81f6e452",
+      "current_thumbnail_rgb_sha256": "adb460fee6b0a68caf436c8a8596712117f0001280f877e273e7921f81f6e452",
+      "equal": true
+    },
+    {
+      "id": "motoman-mh12",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+      "reference_contact_sha256": "783d7e4934001339a6fc46cb2ebe7ca34f0c7fba6107c213dc5c360f52da885d",
+      "inspection_rgb_sha256": "84ce6c24c8cf0b43b5e044fa6bdb35f7cbe036cd5e9370d530ad3c2fe908fcde",
+      "current_thumbnail_rgb_sha256": "84ce6c24c8cf0b43b5e044fa6bdb35f7cbe036cd5e9370d530ad3c2fe908fcde",
+      "equal": true
+    },
+    {
+      "id": "motoman-mh12",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+      "reference_contact_sha256": "783d7e4934001339a6fc46cb2ebe7ca34f0c7fba6107c213dc5c360f52da885d",
+      "inspection_rgb_sha256": "5c88d57096d83d3b4eac05c2f856d02c04215c93292506924940e1ec90361f13",
+      "current_thumbnail_rgb_sha256": "5c88d57096d83d3b4eac05c2f856d02c04215c93292506924940e1ec90361f13",
+      "equal": true
+    },
+    {
+      "id": "motoman-mh12",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+      "reference_contact_sha256": "783d7e4934001339a6fc46cb2ebe7ca34f0c7fba6107c213dc5c360f52da885d",
+      "inspection_rgb_sha256": "c95fe7720e8d13f196999bf30729737e53d5c0d2c284cfb1edb018b4605de355",
+      "current_thumbnail_rgb_sha256": "c95fe7720e8d13f196999bf30729737e53d5c0d2c284cfb1edb018b4605de355",
+      "equal": true
+    },
+    {
+      "id": "motoman-mh12",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+      "reference_contact_sha256": "783d7e4934001339a6fc46cb2ebe7ca34f0c7fba6107c213dc5c360f52da885d",
+      "inspection_rgb_sha256": "93a55d1484e884717399c44304a3b9802ae13e8fc898d6438160d0269b74e85a",
+      "current_thumbnail_rgb_sha256": "93a55d1484e884717399c44304a3b9802ae13e8fc898d6438160d0269b74e85a",
+      "equal": true
+    },
+    {
+      "id": "motoman-mh50",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+      "reference_contact_sha256": "783d7e4934001339a6fc46cb2ebe7ca34f0c7fba6107c213dc5c360f52da885d",
+      "inspection_rgb_sha256": "b3cd3a89875a7d3288970788c890ff3953167f1eabc43918b89808bdb76ae678",
+      "current_thumbnail_rgb_sha256": "b3cd3a89875a7d3288970788c890ff3953167f1eabc43918b89808bdb76ae678",
+      "equal": true
+    },
+    {
+      "id": "motoman-mh50",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+      "reference_contact_sha256": "783d7e4934001339a6fc46cb2ebe7ca34f0c7fba6107c213dc5c360f52da885d",
+      "inspection_rgb_sha256": "ad67574759b384c5a63d66ee9e630c3b7d0e7ef5f8e59aec5bc37fcd94325793",
+      "current_thumbnail_rgb_sha256": "ad67574759b384c5a63d66ee9e630c3b7d0e7ef5f8e59aec5bc37fcd94325793",
+      "equal": true
+    },
+    {
+      "id": "motoman-mh50",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+      "reference_contact_sha256": "783d7e4934001339a6fc46cb2ebe7ca34f0c7fba6107c213dc5c360f52da885d",
+      "inspection_rgb_sha256": "0d3e45f2c7070b2eb0c777d83137bacbe759cec585892df702dd291778afbc67",
+      "current_thumbnail_rgb_sha256": "0d3e45f2c7070b2eb0c777d83137bacbe759cec585892df702dd291778afbc67",
+      "equal": true
+    },
+    {
+      "id": "motoman-mh50",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+      "reference_contact_sha256": "783d7e4934001339a6fc46cb2ebe7ca34f0c7fba6107c213dc5c360f52da885d",
+      "inspection_rgb_sha256": "55ce4036bf34c445d12b2de87caeac3841f194100d9fb00fb9e9f556d8c10614",
+      "current_thumbnail_rgb_sha256": "55ce4036bf34c445d12b2de87caeac3841f194100d9fb00fb9e9f556d8c10614",
+      "equal": true
+    },
+    {
+      "id": "rokae-sr5",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+      "reference_contact_sha256": "783d7e4934001339a6fc46cb2ebe7ca34f0c7fba6107c213dc5c360f52da885d",
+      "inspection_rgb_sha256": "82d6a8cc20e63cb14f5881c1fb74993b29aa5eca5f7b51705bd2e2c8acf37f36",
+      "current_thumbnail_rgb_sha256": "82d6a8cc20e63cb14f5881c1fb74993b29aa5eca5f7b51705bd2e2c8acf37f36",
+      "equal": true
+    },
+    {
+      "id": "rokae-sr5",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+      "reference_contact_sha256": "783d7e4934001339a6fc46cb2ebe7ca34f0c7fba6107c213dc5c360f52da885d",
+      "inspection_rgb_sha256": "90ed58b33dcc23d6674d25f35b52987301bf764ff2919900e88522a80c894793",
+      "current_thumbnail_rgb_sha256": "90ed58b33dcc23d6674d25f35b52987301bf764ff2919900e88522a80c894793",
+      "equal": true
+    },
+    {
+      "id": "rokae-sr5",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+      "reference_contact_sha256": "783d7e4934001339a6fc46cb2ebe7ca34f0c7fba6107c213dc5c360f52da885d",
+      "inspection_rgb_sha256": "ae5aa0c58f383dfb2f1be2867e6107cb491b1b88538ea05810b054ead837ee00",
+      "current_thumbnail_rgb_sha256": "ae5aa0c58f383dfb2f1be2867e6107cb491b1b88538ea05810b054ead837ee00",
+      "equal": true
+    },
+    {
+      "id": "rokae-sr5",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+      "reference_contact_sha256": "783d7e4934001339a6fc46cb2ebe7ca34f0c7fba6107c213dc5c360f52da885d",
+      "inspection_rgb_sha256": "dd812f0af57818aa3d6999ca1ed9b224b521a482b55c4f8be1bc488ab20a5026",
+      "current_thumbnail_rgb_sha256": "dd812f0af57818aa3d6999ca1ed9b224b521a482b55c4f8be1bc488ab20a5026",
+      "equal": true
+    },
+    {
+      "id": "universalrobots-ur10",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+      "reference_contact_sha256": "476010045c264a553cae96c1ab794f364db901b431919a35d105e529b1c5238c",
+      "inspection_rgb_sha256": "b2ad1e78f75845f30b0ff92ea857d0344f06ad4371b4e5e2e40c52f7d44245c1",
+      "current_thumbnail_rgb_sha256": "b2ad1e78f75845f30b0ff92ea857d0344f06ad4371b4e5e2e40c52f7d44245c1",
+      "equal": true
+    },
+    {
+      "id": "universalrobots-ur10",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+      "reference_contact_sha256": "476010045c264a553cae96c1ab794f364db901b431919a35d105e529b1c5238c",
+      "inspection_rgb_sha256": "b76d88366abb6620c21a66d60329d668849f766e170e8defcf80e9eed6b9c7a1",
+      "current_thumbnail_rgb_sha256": "b76d88366abb6620c21a66d60329d668849f766e170e8defcf80e9eed6b9c7a1",
+      "equal": true
+    },
+    {
+      "id": "universalrobots-ur10",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+      "reference_contact_sha256": "476010045c264a553cae96c1ab794f364db901b431919a35d105e529b1c5238c",
+      "inspection_rgb_sha256": "46135a17efa56c148ee353b3028fdb7f4b4160c6b557ac49d696a6230fc7de15",
+      "current_thumbnail_rgb_sha256": "46135a17efa56c148ee353b3028fdb7f4b4160c6b557ac49d696a6230fc7de15",
+      "equal": true
+    },
+    {
+      "id": "universalrobots-ur10",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+      "reference_contact_sha256": "476010045c264a553cae96c1ab794f364db901b431919a35d105e529b1c5238c",
+      "inspection_rgb_sha256": "9221dc2268c7863e105b1886466d0816e2d6466aa17ba055a1ca59b5c778b66d",
+      "current_thumbnail_rgb_sha256": "9221dc2268c7863e105b1886466d0816e2d6466aa17ba055a1ca59b5c778b66d",
+      "equal": true
+    },
+    {
+      "id": "universalrobots-ur10e",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+      "reference_contact_sha256": "476010045c264a553cae96c1ab794f364db901b431919a35d105e529b1c5238c",
+      "inspection_rgb_sha256": "c4afb3b757b1615580d4836adb0e029a792410da40d5b419c3f1646f042a99e6",
+      "current_thumbnail_rgb_sha256": "c4afb3b757b1615580d4836adb0e029a792410da40d5b419c3f1646f042a99e6",
+      "equal": true
+    },
+    {
+      "id": "universalrobots-ur10e",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+      "reference_contact_sha256": "476010045c264a553cae96c1ab794f364db901b431919a35d105e529b1c5238c",
+      "inspection_rgb_sha256": "69475c8441e2ee5d82336cc22c32b51d12543555cbf44105c6b1f6ca83f4e8b8",
+      "current_thumbnail_rgb_sha256": "69475c8441e2ee5d82336cc22c32b51d12543555cbf44105c6b1f6ca83f4e8b8",
+      "equal": true
+    },
+    {
+      "id": "universalrobots-ur10e",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+      "reference_contact_sha256": "476010045c264a553cae96c1ab794f364db901b431919a35d105e529b1c5238c",
+      "inspection_rgb_sha256": "7d8cd2c9bb9418a421e6389ba29113e8a0429c2fa05f67c16ee6ab84a2887519",
+      "current_thumbnail_rgb_sha256": "7d8cd2c9bb9418a421e6389ba29113e8a0429c2fa05f67c16ee6ab84a2887519",
+      "equal": true
+    },
+    {
+      "id": "universalrobots-ur10e",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+      "reference_contact_sha256": "476010045c264a553cae96c1ab794f364db901b431919a35d105e529b1c5238c",
+      "inspection_rgb_sha256": "2aa16b9ff79021acde79d6ff037912f43eb109bab0891ce7a3dec1b82735a721",
+      "current_thumbnail_rgb_sha256": "2aa16b9ff79021acde79d6ff037912f43eb109bab0891ce7a3dec1b82735a721",
+      "equal": true
+    },
+    {
+      "id": "universalrobots-ur3",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+      "reference_contact_sha256": "476010045c264a553cae96c1ab794f364db901b431919a35d105e529b1c5238c",
+      "inspection_rgb_sha256": "4f0cea2313e2f50f166deb577fe6c0d2fa44b3edd1b1f6e0251bd65568e2efc7",
+      "current_thumbnail_rgb_sha256": "4f0cea2313e2f50f166deb577fe6c0d2fa44b3edd1b1f6e0251bd65568e2efc7",
+      "equal": true
+    },
+    {
+      "id": "universalrobots-ur3",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+      "reference_contact_sha256": "476010045c264a553cae96c1ab794f364db901b431919a35d105e529b1c5238c",
+      "inspection_rgb_sha256": "470870b77e9bc42caac213734d822e124fd0c7b5d221ee8339c25bfd567ac6c0",
+      "current_thumbnail_rgb_sha256": "470870b77e9bc42caac213734d822e124fd0c7b5d221ee8339c25bfd567ac6c0",
+      "equal": true
+    },
+    {
+      "id": "universalrobots-ur3",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+      "reference_contact_sha256": "476010045c264a553cae96c1ab794f364db901b431919a35d105e529b1c5238c",
+      "inspection_rgb_sha256": "ccab22a2de95004193e4bbb7ef7d258ba0db7c5971bfb9d47e3061a2eeb00205",
+      "current_thumbnail_rgb_sha256": "ccab22a2de95004193e4bbb7ef7d258ba0db7c5971bfb9d47e3061a2eeb00205",
+      "equal": true
+    },
+    {
+      "id": "universalrobots-ur3",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+      "reference_contact_sha256": "476010045c264a553cae96c1ab794f364db901b431919a35d105e529b1c5238c",
+      "inspection_rgb_sha256": "d85c14abc37065e1d8d0e188d669472c775126f6896e93d91da9e611f3ae1c69",
+      "current_thumbnail_rgb_sha256": "d85c14abc37065e1d8d0e188d669472c775126f6896e93d91da9e611f3ae1c69",
+      "equal": true
+    },
+    {
+      "id": "universalrobots-ur3e",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+      "reference_contact_sha256": "0aef1fe4fb54c8e646c589607ecad648c90ab7d933b036904205bcb8ecf7d2cb",
+      "inspection_rgb_sha256": "a57ef6277530f4d1b58c776fd9e436a5d88461a33fa1c3b4e9e59e3a3c04a895",
+      "current_thumbnail_rgb_sha256": "a57ef6277530f4d1b58c776fd9e436a5d88461a33fa1c3b4e9e59e3a3c04a895",
+      "equal": true
+    },
+    {
+      "id": "universalrobots-ur3e",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+      "reference_contact_sha256": "0aef1fe4fb54c8e646c589607ecad648c90ab7d933b036904205bcb8ecf7d2cb",
+      "inspection_rgb_sha256": "16b2f427ed5e8fcfe8cde08c63b63cc794a625a4e6c79ef27487503325c35caa",
+      "current_thumbnail_rgb_sha256": "16b2f427ed5e8fcfe8cde08c63b63cc794a625a4e6c79ef27487503325c35caa",
+      "equal": true
+    },
+    {
+      "id": "universalrobots-ur3e",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+      "reference_contact_sha256": "0aef1fe4fb54c8e646c589607ecad648c90ab7d933b036904205bcb8ecf7d2cb",
+      "inspection_rgb_sha256": "504577f8d43f60ec23a2371be3cf0c2f034380d1011054908af236a64e708e25",
+      "current_thumbnail_rgb_sha256": "504577f8d43f60ec23a2371be3cf0c2f034380d1011054908af236a64e708e25",
+      "equal": true
+    },
+    {
+      "id": "universalrobots-ur3e",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+      "reference_contact_sha256": "0aef1fe4fb54c8e646c589607ecad648c90ab7d933b036904205bcb8ecf7d2cb",
+      "inspection_rgb_sha256": "fe00499096bfbaff4bbf6be18850befc7b84e63bc7a0beccc9dbf2336fa970de",
+      "current_thumbnail_rgb_sha256": "fe00499096bfbaff4bbf6be18850befc7b84e63bc7a0beccc9dbf2336fa970de",
+      "equal": true
+    },
+    {
+      "id": "universalrobots-ur5e",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+      "reference_contact_sha256": "0aef1fe4fb54c8e646c589607ecad648c90ab7d933b036904205bcb8ecf7d2cb",
+      "inspection_rgb_sha256": "cbd3b44f06c35703052a3094f6b416ed3968b8b0e30d2eaa1a1032482ff9f044",
+      "current_thumbnail_rgb_sha256": "cbd3b44f06c35703052a3094f6b416ed3968b8b0e30d2eaa1a1032482ff9f044",
+      "equal": true
+    },
+    {
+      "id": "universalrobots-ur5e",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+      "reference_contact_sha256": "0aef1fe4fb54c8e646c589607ecad648c90ab7d933b036904205bcb8ecf7d2cb",
+      "inspection_rgb_sha256": "00f71c7f5af344a8ac932084beaef9f536e71082f22813fed5062f8c49cb16b0",
+      "current_thumbnail_rgb_sha256": "00f71c7f5af344a8ac932084beaef9f536e71082f22813fed5062f8c49cb16b0",
+      "equal": true
+    },
+    {
+      "id": "universalrobots-ur5e",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+      "reference_contact_sha256": "0aef1fe4fb54c8e646c589607ecad648c90ab7d933b036904205bcb8ecf7d2cb",
+      "inspection_rgb_sha256": "544ddd03c7f1d7f5d0d71abb39d6c4587249911ca21eacce6aba18648c46ca50",
+      "current_thumbnail_rgb_sha256": "544ddd03c7f1d7f5d0d71abb39d6c4587249911ca21eacce6aba18648c46ca50",
+      "equal": true
+    },
+    {
+      "id": "universalrobots-ur5e",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+      "reference_contact_sha256": "0aef1fe4fb54c8e646c589607ecad648c90ab7d933b036904205bcb8ecf7d2cb",
+      "inspection_rgb_sha256": "457c5220d0285ffd357f2d952e21402253efbca9f40533bbbe468b9a46f0500d",
+      "current_thumbnail_rgb_sha256": "457c5220d0285ffd357f2d952e21402253efbca9f40533bbbe468b9a46f0500d",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d405",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+      "reference_contact_sha256": "0aef1fe4fb54c8e646c589607ecad648c90ab7d933b036904205bcb8ecf7d2cb",
+      "inspection_rgb_sha256": "666fdf16ad8bf7091183c5b04a533edf2d89db69e244efdfa9b496eed25fecbf",
+      "current_thumbnail_rgb_sha256": "666fdf16ad8bf7091183c5b04a533edf2d89db69e244efdfa9b496eed25fecbf",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d405",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+      "reference_contact_sha256": "0aef1fe4fb54c8e646c589607ecad648c90ab7d933b036904205bcb8ecf7d2cb",
+      "inspection_rgb_sha256": "05354bf7000d7d3ac2b1abbdda2b9525d76e5d52821fca3b26234d4d197721f6",
+      "current_thumbnail_rgb_sha256": "05354bf7000d7d3ac2b1abbdda2b9525d76e5d52821fca3b26234d4d197721f6",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d405",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+      "reference_contact_sha256": "0aef1fe4fb54c8e646c589607ecad648c90ab7d933b036904205bcb8ecf7d2cb",
+      "inspection_rgb_sha256": "e8bcff8c0b1ca3ad56660c381d44769d33e5955e984799bd6754bd786f0e275f",
+      "current_thumbnail_rgb_sha256": "e8bcff8c0b1ca3ad56660c381d44769d33e5955e984799bd6754bd786f0e275f",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d405",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+      "reference_contact_sha256": "0aef1fe4fb54c8e646c589607ecad648c90ab7d933b036904205bcb8ecf7d2cb",
+      "inspection_rgb_sha256": "f4a08c6f77a93b47175fb4684dae9beff6213958b7184436d56fb785c0002c48",
+      "current_thumbnail_rgb_sha256": "f4a08c6f77a93b47175fb4684dae9beff6213958b7184436d56fb785c0002c48",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d415",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+      "reference_contact_sha256": "d988d6d588b5766e6c28bd0594f42d49ba6691a05959d334e47be5751fcab4b9",
+      "inspection_rgb_sha256": "de61153c580b7f437de067dc462503c98ce892b2bedc27feffbc401e5da7d38b",
+      "current_thumbnail_rgb_sha256": "de61153c580b7f437de067dc462503c98ce892b2bedc27feffbc401e5da7d38b",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d415",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+      "reference_contact_sha256": "d988d6d588b5766e6c28bd0594f42d49ba6691a05959d334e47be5751fcab4b9",
+      "inspection_rgb_sha256": "ded9fd5f592f566681dd54eabb1397b7fae55613cbf2cb8d082e39413bd617ea",
+      "current_thumbnail_rgb_sha256": "ded9fd5f592f566681dd54eabb1397b7fae55613cbf2cb8d082e39413bd617ea",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d415",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+      "reference_contact_sha256": "d988d6d588b5766e6c28bd0594f42d49ba6691a05959d334e47be5751fcab4b9",
+      "inspection_rgb_sha256": "b2e50eb2f9036209b938117c62bd8ff8b9c45656cc94ef86f6cd98b0c37a3f9c",
+      "current_thumbnail_rgb_sha256": "b2e50eb2f9036209b938117c62bd8ff8b9c45656cc94ef86f6cd98b0c37a3f9c",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d415",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+      "reference_contact_sha256": "d988d6d588b5766e6c28bd0594f42d49ba6691a05959d334e47be5751fcab4b9",
+      "inspection_rgb_sha256": "e6ce3f857dbbd610b10aa8d6cf953d6e180c10b9f3a2bdb03d4759a3acd59d32",
+      "current_thumbnail_rgb_sha256": "e6ce3f857dbbd610b10aa8d6cf953d6e180c10b9f3a2bdb03d4759a3acd59d32",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d435",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+      "reference_contact_sha256": "d988d6d588b5766e6c28bd0594f42d49ba6691a05959d334e47be5751fcab4b9",
+      "inspection_rgb_sha256": "93a1a6394052df764f6a983f7378886de7ad6a9c6d0243536b3c856c39e76b88",
+      "current_thumbnail_rgb_sha256": "93a1a6394052df764f6a983f7378886de7ad6a9c6d0243536b3c856c39e76b88",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d435",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+      "reference_contact_sha256": "d988d6d588b5766e6c28bd0594f42d49ba6691a05959d334e47be5751fcab4b9",
+      "inspection_rgb_sha256": "87927420e97bd21675d4daae7c7c0f3a476cfccfceee4b11fff8c1439d890152",
+      "current_thumbnail_rgb_sha256": "87927420e97bd21675d4daae7c7c0f3a476cfccfceee4b11fff8c1439d890152",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d435",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+      "reference_contact_sha256": "d988d6d588b5766e6c28bd0594f42d49ba6691a05959d334e47be5751fcab4b9",
+      "inspection_rgb_sha256": "6d9c82ff7a30a98c21316d4a514a7e4821660aabd1bba7be776cabb790dd60fa",
+      "current_thumbnail_rgb_sha256": "6d9c82ff7a30a98c21316d4a514a7e4821660aabd1bba7be776cabb790dd60fa",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d435",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+      "reference_contact_sha256": "d988d6d588b5766e6c28bd0594f42d49ba6691a05959d334e47be5751fcab4b9",
+      "inspection_rgb_sha256": "5527342d3bf1573ff548a7008fe14f7bd271b4774306176029d294743585b508",
+      "current_thumbnail_rgb_sha256": "5527342d3bf1573ff548a7008fe14f7bd271b4774306176029d294743585b508",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d436",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+      "reference_contact_sha256": "d988d6d588b5766e6c28bd0594f42d49ba6691a05959d334e47be5751fcab4b9",
+      "inspection_rgb_sha256": "93a1a6394052df764f6a983f7378886de7ad6a9c6d0243536b3c856c39e76b88",
+      "current_thumbnail_rgb_sha256": "93a1a6394052df764f6a983f7378886de7ad6a9c6d0243536b3c856c39e76b88",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d436",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+      "reference_contact_sha256": "d988d6d588b5766e6c28bd0594f42d49ba6691a05959d334e47be5751fcab4b9",
+      "inspection_rgb_sha256": "87927420e97bd21675d4daae7c7c0f3a476cfccfceee4b11fff8c1439d890152",
+      "current_thumbnail_rgb_sha256": "87927420e97bd21675d4daae7c7c0f3a476cfccfceee4b11fff8c1439d890152",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d436",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+      "reference_contact_sha256": "d988d6d588b5766e6c28bd0594f42d49ba6691a05959d334e47be5751fcab4b9",
+      "inspection_rgb_sha256": "6d9c82ff7a30a98c21316d4a514a7e4821660aabd1bba7be776cabb790dd60fa",
+      "current_thumbnail_rgb_sha256": "6d9c82ff7a30a98c21316d4a514a7e4821660aabd1bba7be776cabb790dd60fa",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d436",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+      "reference_contact_sha256": "d988d6d588b5766e6c28bd0594f42d49ba6691a05959d334e47be5751fcab4b9",
+      "inspection_rgb_sha256": "5527342d3bf1573ff548a7008fe14f7bd271b4774306176029d294743585b508",
+      "current_thumbnail_rgb_sha256": "5527342d3bf1573ff548a7008fe14f7bd271b4774306176029d294743585b508",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d455",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+      "reference_contact_sha256": "76e41c06ba43aa35cb6b9501c570e8e22e5fac17633243dc7a3df4b4f878cd7a",
+      "inspection_rgb_sha256": "ad69b45ed31511bb2e26d24b43d61a478fb3d1d53294ce94f0004f003197838c",
+      "current_thumbnail_rgb_sha256": "ad69b45ed31511bb2e26d24b43d61a478fb3d1d53294ce94f0004f003197838c",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d455",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+      "reference_contact_sha256": "76e41c06ba43aa35cb6b9501c570e8e22e5fac17633243dc7a3df4b4f878cd7a",
+      "inspection_rgb_sha256": "814cb05d1ee10091b54963e0962e9124837b459791f7866a9f29ef48d18cd359",
+      "current_thumbnail_rgb_sha256": "814cb05d1ee10091b54963e0962e9124837b459791f7866a9f29ef48d18cd359",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d455",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+      "reference_contact_sha256": "76e41c06ba43aa35cb6b9501c570e8e22e5fac17633243dc7a3df4b4f878cd7a",
+      "inspection_rgb_sha256": "b7d865bd051b3e4228d94655d0c0092f95fd0183b2a5500f2e66db34a5d0cdc7",
+      "current_thumbnail_rgb_sha256": "b7d865bd051b3e4228d94655d0c0092f95fd0183b2a5500f2e66db34a5d0cdc7",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d455",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+      "reference_contact_sha256": "76e41c06ba43aa35cb6b9501c570e8e22e5fac17633243dc7a3df4b4f878cd7a",
+      "inspection_rgb_sha256": "0dc32b576f0b8bfd816225fe0f779ddeae451ba4e513e5bbb2c17cda4f34f85e",
+      "current_thumbnail_rgb_sha256": "0dc32b576f0b8bfd816225fe0f779ddeae451ba4e513e5bbb2c17cda4f34f85e",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d585",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+      "reference_contact_sha256": "76e41c06ba43aa35cb6b9501c570e8e22e5fac17633243dc7a3df4b4f878cd7a",
+      "inspection_rgb_sha256": "cdf0cf65fb1de92d2c19f0b5d0503edfef72b273ada0d29875a4b4cfca029059",
+      "current_thumbnail_rgb_sha256": "cdf0cf65fb1de92d2c19f0b5d0503edfef72b273ada0d29875a4b4cfca029059",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d585",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+      "reference_contact_sha256": "76e41c06ba43aa35cb6b9501c570e8e22e5fac17633243dc7a3df4b4f878cd7a",
+      "inspection_rgb_sha256": "af36c1775265e0d0649bd5fb59a2af15790a42784ef8628f4b7d3dca9f4ce21f",
+      "current_thumbnail_rgb_sha256": "af36c1775265e0d0649bd5fb59a2af15790a42784ef8628f4b7d3dca9f4ce21f",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d585",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+      "reference_contact_sha256": "76e41c06ba43aa35cb6b9501c570e8e22e5fac17633243dc7a3df4b4f878cd7a",
+      "inspection_rgb_sha256": "7cba1e2007274b5f8183c85bf8f74a9c010ef19ab3e3b91b162659916b130d1f",
+      "current_thumbnail_rgb_sha256": "7cba1e2007274b5f8183c85bf8f74a9c010ef19ab3e3b91b162659916b130d1f",
+      "equal": true
+    },
+    {
+      "id": "realsense-realsense-d585",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+      "reference_contact_sha256": "76e41c06ba43aa35cb6b9501c570e8e22e5fac17633243dc7a3df4b4f878cd7a",
+      "inspection_rgb_sha256": "04316c29e7071564e76869d0754da2863b3b28576f4fdfa3d950cc3a6b130b0e",
+      "current_thumbnail_rgb_sha256": "04316c29e7071564e76869d0754da2863b3b28576f4fdfa3d950cc3a6b130b0e",
+      "equal": true
+    },
+    {
+      "id": "ufact-xarm6",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+      "reference_contact_sha256": "76e41c06ba43aa35cb6b9501c570e8e22e5fac17633243dc7a3df4b4f878cd7a",
+      "inspection_rgb_sha256": "0301d100bedb5e72210d7e3fc1b5c8f7f24b7d6ebaf1e66948a76dd23bdc9d0f",
+      "current_thumbnail_rgb_sha256": "0301d100bedb5e72210d7e3fc1b5c8f7f24b7d6ebaf1e66948a76dd23bdc9d0f",
+      "equal": true
+    },
+    {
+      "id": "ufact-xarm6",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+      "reference_contact_sha256": "76e41c06ba43aa35cb6b9501c570e8e22e5fac17633243dc7a3df4b4f878cd7a",
+      "inspection_rgb_sha256": "9e79fbee080e2c99a10b8682cbfe1cb92226967c5645a3b9cbbade8a8ba4ccfe",
+      "current_thumbnail_rgb_sha256": "9e79fbee080e2c99a10b8682cbfe1cb92226967c5645a3b9cbbade8a8ba4ccfe",
+      "equal": true
+    },
+    {
+      "id": "ufact-xarm6",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+      "reference_contact_sha256": "76e41c06ba43aa35cb6b9501c570e8e22e5fac17633243dc7a3df4b4f878cd7a",
+      "inspection_rgb_sha256": "c8316806e628caf2440f2c866ce3a7b6b50f266f5f809fc2f5f0e175a4de0983",
+      "current_thumbnail_rgb_sha256": "c8316806e628caf2440f2c866ce3a7b6b50f266f5f809fc2f5f0e175a4de0983",
+      "equal": true
+    },
+    {
+      "id": "ufact-xarm6",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+      "reference_contact_sha256": "76e41c06ba43aa35cb6b9501c570e8e22e5fac17633243dc7a3df4b4f878cd7a",
+      "inspection_rgb_sha256": "4b3f4a8280ae34b9baed530df1e039f3e04647b784d71e05984aa078d5f5ff39",
+      "current_thumbnail_rgb_sha256": "4b3f4a8280ae34b9baed530df1e039f3e04647b784d71e05984aa078d5f5ff39",
+      "equal": true
+    },
+    {
+      "id": "ufact-lite6",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+      "reference_contact_sha256": "ab81fbf67597c81dab7dc6dbaece20e11e1b189cbf6ac1ff1ba7e85eb3b561bb",
+      "inspection_rgb_sha256": "668256627dd1bfee4edd6213b4821f5940b4d878d8311e307d84d0b454b81ae4",
+      "current_thumbnail_rgb_sha256": "668256627dd1bfee4edd6213b4821f5940b4d878d8311e307d84d0b454b81ae4",
+      "equal": true
+    },
+    {
+      "id": "ufact-lite6",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+      "reference_contact_sha256": "ab81fbf67597c81dab7dc6dbaece20e11e1b189cbf6ac1ff1ba7e85eb3b561bb",
+      "inspection_rgb_sha256": "21bdf95f6c92d88ad286b03a495b6bb630454f25ad51326ee28eb749fbda6995",
+      "current_thumbnail_rgb_sha256": "21bdf95f6c92d88ad286b03a495b6bb630454f25ad51326ee28eb749fbda6995",
+      "equal": true
+    },
+    {
+      "id": "ufact-lite6",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+      "reference_contact_sha256": "ab81fbf67597c81dab7dc6dbaece20e11e1b189cbf6ac1ff1ba7e85eb3b561bb",
+      "inspection_rgb_sha256": "452c2f8f85eeb2c91db7d333cc027f0bc1372a5b7027be3034803ad3e92df9ee",
+      "current_thumbnail_rgb_sha256": "452c2f8f85eeb2c91db7d333cc027f0bc1372a5b7027be3034803ad3e92df9ee",
+      "equal": true
+    },
+    {
+      "id": "ufact-lite6",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+      "reference_contact_sha256": "ab81fbf67597c81dab7dc6dbaece20e11e1b189cbf6ac1ff1ba7e85eb3b561bb",
+      "inspection_rgb_sha256": "f14617048858076973019c095a521582c108d0b5ff170e94ccb1f6ea79043d99",
+      "current_thumbnail_rgb_sha256": "f14617048858076973019c095a521582c108d0b5ff170e94ccb1f6ea79043d99",
+      "equal": true
+    },
+    {
+      "id": "kuka-iiwa14",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+      "reference_contact_sha256": "ab81fbf67597c81dab7dc6dbaece20e11e1b189cbf6ac1ff1ba7e85eb3b561bb",
+      "inspection_rgb_sha256": "b2b68e9167d0d5326c070e9aa1a75278cb5e55dd7716fdd3c47a68df34de7b00",
+      "current_thumbnail_rgb_sha256": "b2b68e9167d0d5326c070e9aa1a75278cb5e55dd7716fdd3c47a68df34de7b00",
+      "equal": true
+    },
+    {
+      "id": "kuka-iiwa14",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+      "reference_contact_sha256": "ab81fbf67597c81dab7dc6dbaece20e11e1b189cbf6ac1ff1ba7e85eb3b561bb",
+      "inspection_rgb_sha256": "a7c11954c6bb230df78835bf516a45863f8ef5ed71c44429bd079938f9790bad",
+      "current_thumbnail_rgb_sha256": "a7c11954c6bb230df78835bf516a45863f8ef5ed71c44429bd079938f9790bad",
+      "equal": true
+    },
+    {
+      "id": "kuka-iiwa14",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+      "reference_contact_sha256": "ab81fbf67597c81dab7dc6dbaece20e11e1b189cbf6ac1ff1ba7e85eb3b561bb",
+      "inspection_rgb_sha256": "763e5ce00af9d157419cf6be595291338882bb5c6a2ab5423b21a5922e981d08",
+      "current_thumbnail_rgb_sha256": "763e5ce00af9d157419cf6be595291338882bb5c6a2ab5423b21a5922e981d08",
+      "equal": true
+    },
+    {
+      "id": "kuka-iiwa14",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+      "reference_contact_sha256": "ab81fbf67597c81dab7dc6dbaece20e11e1b189cbf6ac1ff1ba7e85eb3b561bb",
+      "inspection_rgb_sha256": "a0c6b52ef728c9b24e169783d4e0daa9cb6d21b800800cefdad339b51dd1dddd",
+      "current_thumbnail_rgb_sha256": "a0c6b52ef728c9b24e169783d4e0daa9cb6d21b800800cefdad339b51dd1dddd",
+      "equal": true
+    },
+    {
+      "id": "kinova-gen3",
+      "view": "hero",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+      "reference_contact_sha256": "ab81fbf67597c81dab7dc6dbaece20e11e1b189cbf6ac1ff1ba7e85eb3b561bb",
+      "inspection_rgb_sha256": "e2eae1e20b5055dd057c8e6c8e460c2f31f26f6cef435d2d98e2282652163949",
+      "current_thumbnail_rgb_sha256": "e2eae1e20b5055dd057c8e6c8e460c2f31f26f6cef435d2d98e2282652163949",
+      "equal": true
+    },
+    {
+      "id": "kinova-gen3",
+      "view": "front",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+      "reference_contact_sha256": "ab81fbf67597c81dab7dc6dbaece20e11e1b189cbf6ac1ff1ba7e85eb3b561bb",
+      "inspection_rgb_sha256": "c3613ad872db99ade0a1e5e5fbf95caf3b432904461d1aa96fd47cf1ea090541",
+      "current_thumbnail_rgb_sha256": "c3613ad872db99ade0a1e5e5fbf95caf3b432904461d1aa96fd47cf1ea090541",
+      "equal": true
+    },
+    {
+      "id": "kinova-gen3",
+      "view": "rear",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+      "reference_contact_sha256": "ab81fbf67597c81dab7dc6dbaece20e11e1b189cbf6ac1ff1ba7e85eb3b561bb",
+      "inspection_rgb_sha256": "c4706bd098dc88b082f82b99e7db1cdc5c582ce76ffebffff007c555cf6d4ee8",
+      "current_thumbnail_rgb_sha256": "c4706bd098dc88b082f82b99e7db1cdc5c582ce76ffebffff007c555cf6d4ee8",
+      "equal": true
+    },
+    {
+      "id": "kinova-gen3",
+      "view": "top",
+      "reference_contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+      "reference_contact_sha256": "ab81fbf67597c81dab7dc6dbaece20e11e1b189cbf6ac1ff1ba7e85eb3b561bb",
+      "inspection_rgb_sha256": "2bd4efcf8a906ff959ab55388280606629c508d11c473de096d9f03b8c172761",
+      "current_thumbnail_rgb_sha256": "2bd4efcf8a906ff959ab55388280606629c508d11c473de096d9f03b8c172761",
+      "equal": true
+    }
+  ],
+  "root_contacts": [
+    {
+      "models": [
+        "abb-irb1200-5-90",
+        "abb-irb1200-7-70",
+        "abb-irb1600-10-145"
+      ],
+      "reference": "/tmp/assetsmodel-session-full-native-contacts/models-01-03.jpg",
+      "reference_sha256": "f2cf240e886c65fb3f7c5118529be7793f964bb2b958ef30d6d8364f2b5d5d95",
+      "current_recreated_contact_sha256": "f2cf240e886c65fb3f7c5118529be7793f964bb2b958ef30d6d8364f2b5d5d95",
+      "equal": true
+    },
+    {
+      "models": [
+        "abb-irb1600-6-120",
+        "abb-irb2600-12-165",
+        "abb-irb2600-12-185"
+      ],
+      "reference": "/tmp/assetsmodel-session-full-native-contacts/models-04-06.jpg",
+      "reference_sha256": "cb6ab553098d3b116a7d28d4c08f1bdee98b6999edd164b182b3573112e81532",
+      "current_recreated_contact_sha256": "cb6ab553098d3b116a7d28d4c08f1bdee98b6999edd164b182b3573112e81532",
+      "equal": true
+    },
+    {
+      "models": [
+        "abb-irb4400l-30-243",
+        "abb-irb4600-20-250",
+        "abb-irb4600-40-255"
+      ],
+      "reference": "/tmp/assetsmodel-session-full-native-contacts/models-07-09.jpg",
+      "reference_sha256": "f1fc70f37dbd868ab1b1635bf6e9cb7b0c804f5a0d9ce1dd16634470da53c283",
+      "current_recreated_contact_sha256": "f1fc70f37dbd868ab1b1635bf6e9cb7b0c804f5a0d9ce1dd16634470da53c283",
+      "equal": true
+    },
+    {
+      "models": [
+        "ae-air10-1210",
+        "ae-air10-1720",
+        "ae-air12-940"
+      ],
+      "reference": "/tmp/assetsmodel-session-full-native-contacts/models-10-12.jpg",
+      "reference_sha256": "b61a6045d431c9fbd19eea3bda900857ce8a0d3de7ea75ece5dcd602a3d00d7b",
+      "current_recreated_contact_sha256": "b61a6045d431c9fbd19eea3bda900857ce8a0d3de7ea75ece5dcd602a3d00d7b",
+      "equal": true
+    },
+    {
+      "models": [
+        "ae-air35-1700",
+        "agile-diana-7",
+        "fanuc-m-10id-12"
+      ],
+      "reference": "/tmp/assetsmodel-session-full-native-contacts/models-13-15.jpg",
+      "reference_sha256": "93e1b3fad00801bb9d31179448e25242193a3e3eaa6abaa98ebbbc6b85daf1cd",
+      "current_recreated_contact_sha256": "93e1b3fad00801bb9d31179448e25242193a3e3eaa6abaa98ebbbc6b85daf1cd",
+      "equal": true
+    }
+  ],
+  "summary": {
+    "peer_views_compared": 144,
+    "peer_pixel_matches": 144,
+    "root_contacts_compared": 5,
+    "root_contact_matches": 5
+  }
+}

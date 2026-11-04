@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-11-03T15:49:18.342406+00:00",
+  "full_environment": {
+    "command": "python3 -m unittest discover -s tests -v",
+    "tests_run": 109,
+    "passed": 109,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "stdlib_only": {
+    "command": "python3 -S -m unittest discover -s tests -v",
+    "tests_run": 109,
+    "passed": 35,
+    "skipped_optional_dependencies": 74,
+    "failures": 0,
+    "errors": 0
+  },
+  "diff_whitespace": {
+    "command": "git diff --check",
+    "exit_code": 0
+  },
+  "test_file_sha256": {
+    "tests/test_batching.py": "c91fba4288b679c9d4b2c1be49362052219ca3caa5b3869ed8336512c70acc75",
+    "tests/test_embed_materials.py": "31cfb14b0f48af13891237805b1245ff81eef4c02fa39b35167669ca8b75ff21",
+    "tests/test_export_assets.py": "1e2e172edf2104e1398c674acd54e81784acfee79f660f83b80319c3972971ab",
+    "tests/test_glb.py": "3cb7ccadba0a9037adfd565204dc46d0464af9d4fd4ae0933c8fbc7bda3315cf",
+    "tests/test_masked_normals.py": "0f11e7d54093498fc0f5f816c262fa34a0c2bc84feeb3a39a5571232de0d87a0",
+    "tests/test_materials.py": "a4d40ccc2f883ade4d4157fdad6df52c2c97c59515647e39ac9386b05639aafb",
+    "tests/test_mesh_quality.py": "8cb99559fd053e433c04c628caac8cb213fba124947251f629f017cf9a7361d4",
+    "tests/test_normal_pipeline_validation.py": "200f299e30e0ce07b3def18059e24c50b92b726774b69764a2f49de595e2dec2",
+    "tests/test_oriented_normals.py": "bb0d7d14a7f1fbc301fa41477bc13c84107ec675423f088629c1a8596a1bf929",
+    "tests/test_preview.py": "cddc9b867d8f81f53963aef398ebc8e4001d6029d0205d3c520d7a5912a99571",
+    "tests/test_render_geometry_analysis.py": "972c7cfe0b508ca42d04f79baa76f5a8d341b624e2ddd130a8c67db9b4a96cd6",
+    "tests/test_runtime_visuals.py": "2e285fe6b0ef0808de2b13d2cfe71815ca9d3166647b3e72f16c6b6fda6b6875",
+    "tests/test_surface_preservation.py": "5b39920e257638b6b2448336651c226089736cd3446e3c7a9b0397b434a95f4a",
+    "tests/test_validate_assets.py": "3ed03c5d89107ec0a144e2d8b35c69961b14f3a7ff086d6f6d9a5112e0c2ecbf",
+    "tests/test_visual_normals.py": "69ad58d0106f458eddb062d2d8550b6465def4512afa8b37d692c84eb6485927"
+  },
+  "note": "Recorded from completed command output; optional geometry tests skip cleanly without site packages."
+}

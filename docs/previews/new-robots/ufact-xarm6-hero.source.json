@@ -1,0 +1,9 @@
+{
+  "id": "ufact-xarm6",
+  "label": "UFACTORY xArm6",
+  "urdf": "RobotModel/UFACTORY/xArm6/xArm6.urdf",
+  "view": "hero",
+  "joints": {},
+  "image": "ufact-xarm6-hero.png",
+  "source_sha256": "e99bfd29be0cbd6e150ef8040359f1a15bc63d65e67957a2776051053f205330"
+}

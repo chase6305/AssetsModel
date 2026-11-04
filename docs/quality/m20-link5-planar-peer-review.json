@@ -1,0 +1,107 @@
+{
+  "status": "passed",
+  "trial_only": true,
+  "assets_applied": false,
+  "reviewed_at": "2026-11-03T16:23:48.718783+00:00",
+  "source_model": "/home/ubuntu/workspace/chase/AssetsModel/RobotModel/Fanuc/M_20iA",
+  "snapshot": "/tmp/assetsmodel-session-source-normal-outliers/snapshot/RobotModel/Fanuc/M_20iA",
+  "candidate": "/tmp/assetsmodel-session-source-normal-outliers/link5-planar-trial/RobotModel/Fanuc/M_20iA",
+  "mask_sha256": "8b937d73e16dcd46cbb234330aff4180b092eae57f99020ee36e2cb122cd9b9b",
+  "peer_script": "/tmp/assetsmodel-session-local-normal-peer-check.py",
+  "peer_script_sha256": "c587ee3be40495e1a96727843c549393c61b0f3d3b335716d469e48ece19f18c",
+  "method": "Approved independent masked-normal verifier plus a separate stdlib decoder pass. Every opposite-directed exact-coordinate edge pair is checked even at valence>2; source/target corner order, P, nonselected N, existing hard endpoint gaps and near-coplanar growth are protected. No production smoothing/repair/writer imported.",
+  "masked_verifier_result": {
+    "files": 1,
+    "selected_corners": 244,
+    "changed_normal_corners": 244,
+    "newly_opposed_normal_corners": 0,
+    "hard_endpoint_pairs_merged_below_30deg": 0,
+    "near_coplanar_gap_growth_gt_1deg": 0,
+    "near_coplanar_new_gap_above_1deg": 0,
+    "near_coplanar_max_gap_growth_deg": 1.2074182697257333e-06,
+    "near_coplanar_gap_growth_gt_0_001deg": 0,
+    "whole_file_contact_edges": {
+      "files_supported": 1,
+      "cross_primitive_shared_edges": 0,
+      "geometric_and_authored_30deg_hard_endpoint_pairs": 273,
+      "hard_endpoint_pairs_merged_below_30deg": 0,
+      "near_coplanar_max_gap_growth_deg": 1.2074182697257333e-06,
+      "near_coplanar_gap_growth_gt_0_001deg": 0,
+      "near_coplanar_gap_growth_gt_1deg": 0,
+      "near_coplanar_new_gap_above_1deg": 0,
+      "selected_boundary_near_coplanar_max_output_gap_deg": 0.0,
+      "selected_boundary_smooth_geometry_max_output_gap_deg": 0.0
+    }
+  },
+  "files": [
+    {
+      "path": "Visual/glb/Link5.glb",
+      "source_sha256": "2c6bdb161588c77f2eeff03faa07c54a41a3992629049efe37e6cb506cb15f4c",
+      "candidate_sha256": "235663deae306b8cedbf458024b3c2fba0cc83ce9ef6d229de30f060665a4007",
+      "position_corners_byte_exact": 14598,
+      "normal_corners_total": 14598,
+      "selected_and_actual_changed_corners_exact": 244,
+      "unselected_normal_corners_byte_exact": 14354,
+      "selected_source_N_to_geometric_face_max_deg": 55.686540664491794,
+      "selected_output_N_to_geometric_face_max_deg": 46.33779069260955,
+      "independent_all_valence_edge_pairs": {
+        "coordinate_edges": 7299,
+        "multi_entry_edges": 0,
+        "all_opposite_directed_edge_pairs_checked": 7299,
+        "selected_boundary_pairs": 112,
+        "selected_contact_pairs_across_primitives": 0,
+        "near_coplanar_growth_gt_0_001deg": 0,
+        "near_coplanar_max_growth_deg": 1.2074182697257333e-06,
+        "hard_pairs_lost_below_30deg": 0,
+        "selected_smooth_source_gap_reductions_above_25deg": 19
+      }
+    }
+  ],
+  "unchanged_visual_files": [
+    {
+      "path": "Visual/glb/BaseLink.glb",
+      "source_and_output_sha256": "0581fb45a8ec80bfea9a804b16e429d61c0f3c7f4b0ed5de8d0863f52f7e155b"
+    },
+    {
+      "path": "Visual/glb/Link1.glb",
+      "source_and_output_sha256": "a7236fbb75e9346df993dd3b7347732033925a8362ba8039f09a8247778a4307"
+    },
+    {
+      "path": "Visual/glb/Link2.glb",
+      "source_and_output_sha256": "da0f8fa3ffd61d620c80849d842858ded91219e50a468ff99cab6f44e4968958"
+    },
+    {
+      "path": "Visual/glb/Link3.glb",
+      "source_and_output_sha256": "3f74ceaa012830a4bd2886e1f07cf7da992f9d965a30e1766233a5d9a432003e"
+    },
+    {
+      "path": "Visual/glb/Link4.glb",
+      "source_and_output_sha256": "a1630d45c3ac61dee5d4e7524190756c83b72a4e82ed79933fee386634a6b47f"
+    },
+    {
+      "path": "Visual/glb/Link6.glb",
+      "source_and_output_sha256": "5a095e6f609aa950f2acbe20d69b84b43783818ef7c8d18054c51261034f4547"
+    }
+  ],
+  "input_sha256": {
+    "/home/ubuntu/workspace/chase/AssetsModel/RobotModel/Fanuc/M_20iA/Visual/glb/Link5.glb": "2c6bdb161588c77f2eeff03faa07c54a41a3992629049efe37e6cb506cb15f4c",
+    "/tmp/assetsmodel-session-source-normal-outliers/snapshot/RobotModel/Fanuc/M_20iA/Visual/glb/Link5.glb": "2c6bdb161588c77f2eeff03faa07c54a41a3992629049efe37e6cb506cb15f4c",
+    "/tmp/assetsmodel-session-source-normal-outliers/link5-planar-trial/RobotModel/Fanuc/M_20iA/Visual/glb/Link5.glb": "235663deae306b8cedbf458024b3c2fba0cc83ce9ef6d229de30f060665a4007"
+  },
+  "endcheck_changes": [],
+  "conclusion": "Structural/byte/mask/boundary checks pass. Adoption still requires parent visual review; this audit does not claim the visible source artifact is eliminated or independently infer original CAD author intent.",
+  "official_khronos_validation": {
+    "report": "/tmp/assetsmodel-session-source-normal-outliers/link5-planar-independent-peer-khronos.json",
+    "meshes": 1,
+    "validator": "Khronos glTF-Validator",
+    "version": "2.0.0-dev.3.10",
+    "errors": 0,
+    "warnings": 0,
+    "infos": 0,
+    "hints": 0
+  },
+  "final_source_endcheck": {
+    "checked_at": "2026-11-03T16:27:26.226762+00:00",
+    "changes": []
+  }
+}

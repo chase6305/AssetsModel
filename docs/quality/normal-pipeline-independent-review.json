@@ -1,0 +1,242 @@
+{
+  "generated_at": "2026-11-03T14:03:19.973679+00:00",
+  "scope": "The seven already-adopted FANUC M_10iD_12 visual GLBs; future normal trials are not covered by this snapshot.",
+  "independent_decoder": "tests/test_normal_pipeline_validation.py; stdlib struct/json/math only, run using python3 -S",
+  "source_snapshot": "/tmp/assetsmodel-session-before-fanuc-normals",
+  "files": [
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/BaseLink.glb",
+      "source_sha256": "ae3ffa727b8bf41075a4a677be29a750be325d08aa9ee4584ae888cedc7d78aa",
+      "current_sha256": "03bc3aeb6e559d90762460dd408f63d0b45bab4fd8ce022824cecc79aabd0843",
+      "status": "passed",
+      "checks": {
+        "primitives": 1,
+        "triangles": 1566,
+        "line_segments": 0,
+        "position_corners_byte_exact": 4698,
+        "normal_corners_changed_bytes": 3995,
+        "protected_faces": 0,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 0,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.379127016562734e-08
+      }
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link1.glb",
+      "source_sha256": "43569395cae60adb372d4c2f4434b97e95a9a9d78f5f41220e29a18b47448f70",
+      "current_sha256": "d0ffe1710792cd06ae11ae188f88baeb85458d1cb1fd5c9f8982f3bf1ed32ba8",
+      "status": "passed",
+      "checks": {
+        "primitives": 2,
+        "triangles": 2020,
+        "line_segments": 0,
+        "position_corners_byte_exact": 6060,
+        "normal_corners_changed_bytes": 5647,
+        "protected_faces": 0,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 0,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.134203324124286e-08
+      }
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link2.glb",
+      "source_sha256": "5dba79558a9e9079a7094076d8221d4522ff9fb1ed8b38a5409b8126ef40b87e",
+      "current_sha256": "bb1a7b389f926388e251f590b4ddc73890a23b0a9ffdfc18cbf018d85d88256d",
+      "status": "passed",
+      "checks": {
+        "primitives": 2,
+        "triangles": 2408,
+        "line_segments": 0,
+        "position_corners_byte_exact": 7224,
+        "normal_corners_changed_bytes": 6983,
+        "protected_faces": 0,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 0,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.0492604047592806e-08
+      }
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link3.glb",
+      "source_sha256": "9f5e5473844f5954c06f03d5bb08c63823f5381df4d52a59f9e90b8ed3cadbef",
+      "current_sha256": "e583d3f645ed09e4ef32115c602c0dc941608fc78048b77bdc65f7771e8bfef1",
+      "status": "passed",
+      "checks": {
+        "primitives": 2,
+        "triangles": 1587,
+        "line_segments": 0,
+        "position_corners_byte_exact": 4761,
+        "normal_corners_changed_bytes": 4214,
+        "protected_faces": 0,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 0,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.37415216270054e-08
+      }
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link4.glb",
+      "source_sha256": "2e249400d367969c7eadef5f6195911bb57fdea88d75f6d41518175a10299d57",
+      "current_sha256": "15e7e9753bb678294f7949434c4aa626bf1651a6111828a2904ccd44a2ec6027",
+      "status": "passed",
+      "checks": {
+        "primitives": 2,
+        "triangles": 1984,
+        "line_segments": 0,
+        "position_corners_byte_exact": 5952,
+        "normal_corners_changed_bytes": 5733,
+        "protected_faces": 0,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 0,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.6839585765567904e-08
+      }
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link5.glb",
+      "source_sha256": "e3204536d73a4b448f3d5ebbf2ca60f4e24833b560c1132c11a30e2b92158bce",
+      "current_sha256": "d8d9eddce7240e95aa09728e5f7c6e680d9a701d09c0bd808ab82bd135109a08",
+      "status": "passed",
+      "checks": {
+        "primitives": 1,
+        "triangles": 2494,
+        "line_segments": 0,
+        "position_corners_byte_exact": 7482,
+        "normal_corners_changed_bytes": 7195,
+        "protected_faces": 0,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 0,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.766490202534612e-08
+      }
+    },
+    {
+      "path": "RobotModel/Fanuc/M_10iD_12/Visual/glb/Link6.glb",
+      "source_sha256": "63f63338747641b1aef4f025274b1badce1703440dda905d890eea56ef3bdc96",
+      "current_sha256": "270bf60c790ba364f17579a969f4491a92d5cd05561b891cb349d98f2b035cdc",
+      "status": "passed",
+      "checks": {
+        "primitives": 1,
+        "triangles": 336,
+        "line_segments": 0,
+        "position_corners_byte_exact": 1008,
+        "normal_corners_changed_bytes": 879,
+        "protected_faces": 0,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 0,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 3.438724149873451e-08
+      }
+    }
+  ],
+  "summary": {
+    "files": 7,
+    "errors": 0,
+    "primitives": 11,
+    "triangles": 12395,
+    "line_segments": 0,
+    "position_corners_byte_exact": 37185,
+    "normal_corners_changed_bytes": 34646,
+    "protected_faces": 0,
+    "authored_smooth_primitives_retained": 0,
+    "protected_faces_in_flat_primitives": 0,
+    "protected_faces_in_authored_smooth_primitives": 0,
+    "newly_opposed_normal_corners": 0,
+    "max_normal_length_error": 4.766490202534612e-08
+  },
+  "findings": [
+    {
+      "id": "static-morph-accessor-repacking",
+      "original_result": "Valid static morph source was accepted; repacking left a target accessor out of bounds. Khronos reported one error.",
+      "resolution": "refine now explicitly refuses morph weights/targets and semantic extensions before writing any candidate.",
+      "regression_test": "test_static_morph_targets_are_rejected_before_accessor_repacking"
+    },
+    {
+      "id": "retained-byte-vertex-row-alignment",
+      "original_result": "A retained legal normalized RGB byte attribute with stride4 was repacked at illegal stride3 when another primitive was refined. Khronos reported one error.",
+      "resolution": "vertex accessor repacking now adds 4-byte row padding and caches by vertex/index role.",
+      "regression_test": "test_retained_rgb_byte_vertices_remain_aligned_or_are_explicitly_rejected",
+      "fixed_candidate_khronos": {
+        "meshes": 1,
+        "validator": "Khronos glTF-Validator",
+        "version": "2.0.0-dev.3.10",
+        "errors": 0,
+        "warnings": 0,
+        "infos": 0,
+        "hints": 0
+      }
+    }
+  ],
+  "tests": {
+    "independent_tests_passed": 5,
+    "test_file": "tests/test_normal_pipeline_validation.py",
+    "negative_control": "A changed source POSITION corner is rejected by the independent checker.",
+    "normal_related_tests_passed": 23
+  },
+  "scope_status": "passed_for_reviewed_actual_files_and_regression_cases; future source/trial files require their own audit",
+  "updated_at": "2026-11-03T14:16:02.843418+00:00",
+  "independent_decoder_sha256": "35e74b8701d1f947a9cb2fdbb6c290ca1d5d3679d5001c48ad0f7b7add97a99a",
+  "reviewed_refiner_sha256": "897e3ad41763091a73acd6a7d888047d0ae0cb297ed169d84661d054128f4a7a",
+  "reviewed_oriented_helper_sha256": "a1181ba9ffc8880b0f052dc0ff12aaca41f70c300c91061277c1efbf00c1f609",
+  "additional_actual_file_audits": [
+    {
+      "report": "normal-local-pilot-independent-validation.json",
+      "scope": "21 local-direction-outlier-protection pilot GLBs (MH12, UR3e, ABB IRB2600_12_165), pre-adoption current source SHA checked",
+      "summary": {
+        "files": 21,
+        "errors": 0,
+        "primitives": 55,
+        "triangles": 334120,
+        "line_segments": 2,
+        "position_corners_byte_exact": 1002364,
+        "normal_corners_changed_bytes": 671013,
+        "protected_faces": 76363,
+        "authored_smooth_primitives_retained": 16,
+        "protected_faces_in_flat_primitives": 2203,
+        "protected_faces_in_authored_smooth_primitives": 74160,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 5.0127872852634425e-08
+      }
+    },
+    {
+      "report": "oriented-normal-independent-validation.json",
+      "scope": "Seven already-adopted KUKA KR210_L150 oriented-sheet normal GLBs; independently compared against SHA-checked pre-adoption backup",
+      "summary": {
+        "files": 7,
+        "errors": 0,
+        "primitives": 38,
+        "triangles": 88216,
+        "line_segments": 42,
+        "position_corners_byte_exact": 264732,
+        "normal_corners_changed_bytes": 235999,
+        "protected_faces": 725,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 725,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "source_opposed_normal_corners": 42,
+        "output_opposed_normal_corners": 42,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.5850353846965675e-08
+      }
+    }
+  ],
+  "combined_actual_scope": {
+    "files": 35,
+    "triangles": 434731,
+    "line_segments": 44,
+    "position_corners_byte_exact": 1304281,
+    "normal_corners_changed_bytes": 941658,
+    "newly_opposed_normal_corners": 0,
+    "errors": 0,
+    "note": "Disjoint file sets: FANUC M10iD12, MH12, UR3e, ABB IRB2600_12_165, KUKA KR210_L150. Snapshot scope only; batching changes primitive layouts and requires its separate multiset validator."
+  }
+}

@@ -1,0 +1,2798 @@
+{
+  "status": "complete_with_visual_followup",
+  "started_at": "2026-11-03T15:49:59.966975+00:00",
+  "updated_at": "2026-11-03T15:59:35.809707+00:00",
+  "reviewer": "independent normal_pipeline_review agent",
+  "method": "Actual view_image inspection of lossless contacts, 3 model rows x hero/front/rear/top columns, 600x540 image thumbnail per cell from native 1000x900 PNG. Original or enlarged details inspected where recorded. Per-image SHA and original source fingerprint retained; inspection is a visual screen, not a certified defect bound or proof of baseline appearance equivalence. Current images can reuse evidence only if image SHA matches.",
+  "models_total_in_root_manifest": 62,
+  "root_reviewed_models_excluded": [
+    "abb-irb1200-5-90",
+    "abb-irb1200-7-70",
+    "abb-irb1600-10-145",
+    "abb-irb1600-6-120",
+    "abb-irb2600-12-165",
+    "abb-irb2600-12-185",
+    "abb-irb4400l-30-243",
+    "abb-irb4600-20-250",
+    "abb-irb4600-40-255",
+    "ae-air10-1210",
+    "ae-air10-1720",
+    "ae-air12-940",
+    "ae-air35-1700",
+    "agile-diana-7",
+    "fanuc-m-10id-12",
+    "franka-fr3"
+  ],
+  "pending_refresh_models_excluded": [
+    "fanuc-m-20ia",
+    "fanuc-m-710ic-70",
+    "fanuc-r-2000ic-165f",
+    "hans-e05",
+    "hans-e10",
+    "kuka-kr10-r1100-2",
+    "kuka-kr10-r900-2",
+    "kuka-kr3-r540",
+    "rokae-sr3",
+    "universalrobots-ur5"
+  ],
+  "models_in_peer_scope": 36,
+  "models_reviewed": 36,
+  "images_reviewed": 144,
+  "contacts": [
+    {
+      "path": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+      "sha256": "b5aa9fcdc5f0ad7c42f2845153e1de2f942138fa9a40c6ec689ecac1d64dba84",
+      "models": [
+        "kuka-kr10-r1100-sixx",
+        "kuka-kr10-r1420",
+        "kuka-kr120-r2500-pro"
+      ]
+    },
+    {
+      "path": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+      "sha256": "5fafb177179dc35f4bc07a3eddc5c5312fc8bcb95bbde57935c602d002233350",
+      "models": [
+        "kuka-kr150-2",
+        "kuka-kr150-r3100-2",
+        "kuka-kr16-2"
+      ]
+    },
+    {
+      "path": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+      "sha256": "d5f5d76a2182aa322c779b954332cc7e8041fc4cbe2695fb4452db3bb0da5d04",
+      "models": [
+        "kuka-kr210-l150",
+        "kuka-kr5-arc",
+        "kuka-kr6-r700-sixx"
+      ]
+    },
+    {
+      "path": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+      "sha256": "29cc85c666779dad6a2c5a15573a2e215df12322e54b181313bc2339bd16fa52",
+      "models": [
+        "kuka-kr6-r900-sixx",
+        "motoman-gp12",
+        "motoman-gp180"
+      ]
+    },
+    {
+      "path": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+      "sha256": "3a67084258651815c18fa2d665ccdd064354cfacfd7886855ed88df08701f0d4",
+      "models": [
+        "motoman-gp180-120",
+        "motoman-gp20hl",
+        "motoman-gp25"
+      ]
+    },
+    {
+      "path": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+      "sha256": "e05a28b79b624d09b3dc927b0dd74175698dde03edada4d148804272aeb8a3e8",
+      "models": [
+        "motoman-gp7",
+        "motoman-gp8",
+        "motoman-gp88"
+      ]
+    },
+    {
+      "path": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+      "sha256": "783d7e4934001339a6fc46cb2ebe7ca34f0c7fba6107c213dc5c360f52da885d",
+      "models": [
+        "motoman-mh12",
+        "motoman-mh50",
+        "rokae-sr5"
+      ]
+    },
+    {
+      "path": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+      "sha256": "476010045c264a553cae96c1ab794f364db901b431919a35d105e529b1c5238c",
+      "models": [
+        "universalrobots-ur10",
+        "universalrobots-ur10e",
+        "universalrobots-ur3"
+      ]
+    },
+    {
+      "path": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+      "sha256": "0aef1fe4fb54c8e646c589607ecad648c90ab7d933b036904205bcb8ecf7d2cb",
+      "models": [
+        "universalrobots-ur3e",
+        "universalrobots-ur5e",
+        "realsense-realsense-d405"
+      ]
+    },
+    {
+      "path": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+      "sha256": "d988d6d588b5766e6c28bd0594f42d49ba6691a05959d334e47be5751fcab4b9",
+      "models": [
+        "realsense-realsense-d415",
+        "realsense-realsense-d435",
+        "realsense-realsense-d436"
+      ]
+    },
+    {
+      "path": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+      "sha256": "76e41c06ba43aa35cb6b9501c570e8e22e5fac17633243dc7a3df4b4f878cd7a",
+      "models": [
+        "realsense-realsense-d455",
+        "realsense-realsense-d585",
+        "ufact-xarm6"
+      ]
+    },
+    {
+      "path": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+      "sha256": "ab81fbf67597c81dab7dc6dbaece20e11e1b189cbf6ac1ff1ba7e85eb3b561bb",
+      "models": [
+        "ufact-lite6",
+        "kuka-iiwa14",
+        "kinova-gen3"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "id": "kuka-kr10-r1100-sixx",
+      "label": "KUKA / KR10_R1100_sixx",
+      "urdf": "RobotModel/KUKA/KR10_R1100_sixx/KR10_R1100_sixx.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr10-r1100-sixx-hero.png",
+          "image_sha256": "6225a96f7e830a8784732d2a65b722f171a87e1f85c00b8cd5289c703385ea18",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "978688386914248e64d35935dfe1fc66dbb861cb4d0729c054f38babf548a4ea",
+          "source_json_sha256": "73d2d9be3f5eebcbdf28265fedb93d8188433be6619a2a1bb74f9ac2d1e9e3e0",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+          "actual_review_note": "Shoulder undercut, round pivot and wrist flange retain continuous visible edges.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr10-r1100-sixx-front.png",
+          "image_sha256": "e1744f278a5ed2328073336bc8830b12bbe345ce06eb7e0bee0a7a1f8e2f5a75",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "513172d87b65ee1948840fead79e7eec2e35cbd1125fdf9b49ca3ac4f6f0bc26",
+          "source_json_sha256": "353f24e9ae175330865e9a47f732e94099acd48b27f2717b62355070a7f8ed44",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+          "actual_review_note": "Horizontal arm silhouette and gray base remain fully in frame; no jagged shear across joints.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr10-r1100-sixx-rear.png",
+          "image_sha256": "006b31eef9994ce5a4641cc077972f82af8f7d9a5136a700ac3330a4ebb6ea10",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "86c4eebe5d1643e7e2c5b02eb5e23a89961fc9c6b38493f64ee570c419a32193",
+          "source_json_sha256": "f8a12b0eb4ea6d0b7a260284ef22c5d4512c9de7bfa83ffa4db8290aca56a781",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+          "actual_review_note": "Rear drive housing and orange link backs remain solid; curved highlights are smooth.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr10-r1100-sixx-top.png",
+          "image_sha256": "9b9fde95d3bc52378332d8d817ffd151d616608bdb2d5c206adebfb45e8a5f39",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "e04f03470347e32730c15fea3da054ef0766380437ab88e1e456b3398926c360",
+          "source_json_sha256": "313b4f92362e62412d9b229fdd51fc1b4427f3cf01be0c9a0201a623727c38d7",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+          "actual_review_note": "Cast channels, pivot recess and wrist opening are mechanically bounded; small fittings remain visible.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:50:40.042404+00:00",
+      "review_note": "Orange arm and gray base remain distinct; shoulder relief and top casting openings have coherent edges in the four views. No conspicuous inversion, surface striping, or frame clipping observed.",
+      "findings": []
+    },
+    {
+      "id": "kuka-kr10-r1420",
+      "label": "KUKA / KR10_R1420",
+      "urdf": "RobotModel/KUKA/KR10_R1420/KR10_R1420.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr10-r1420-hero.png",
+          "image_sha256": "a936a56235c93b8e81abe6b5fbcceb73c17dcb18d58c592b56a47ce7f2d1c9d4",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "fbd58b47fd33e49ebee411a1a4a1a7476c8c5a953704fb5891a0fa158d32a5e2",
+          "source_json_sha256": "386e142445bc8cf250a3834fb28638c477e81a3db0f3dc4bd42750cc01047f5b",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+          "actual_review_note": "Open casting around the shoulder is bounded by ribs; servo housings remain attached.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr10-r1420-front.png",
+          "image_sha256": "ac86fd68799c01f65a217c68cb45e1d25fa6f7f1ce911df98421a4340951738c",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "eb591eea7b95063c3b667a38e5d5c4596074b8f6944e5d8464c6092e63ea9f09",
+          "source_json_sha256": "af0c2418954f439bd0c8b27b6bc649ab3858f213d690cec940e1020560ba0f67",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+          "actual_review_note": "Long horizontal link, concentric pivot caps and wrist remain continuous without frame clipping.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr10-r1420-rear.png",
+          "image_sha256": "1895da755f2830b07d4650c9576a02a94af141d79abc18aac98bd019e079655a",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "c2a56d4e9b1cf6f84a7dc7a104db55b6819beeef7c2769c4fa884ff8ddd05d38",
+          "source_json_sha256": "29bab8775a9cd86765c208a7164fc913982a98c4160003e1f3955cef814fa4b9",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+          "actual_review_note": "Rear drive detail and open link ribs remain legible; no obvious broad backface loss.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr10-r1420-top.png",
+          "image_sha256": "fe2d0eac2da2af1bce2f6ddb9a0cf5bbb045c68a8979322173d92ade20fb9d9f",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "b00065c03394a0a82b019aba28f1b4f5a736afd5fa19ef15dbf48c3cd888f92c",
+          "source_json_sha256": "f55ae738c1ecafc9cba88e8d79b6a63a02122889140359e9198879f6b8082dbd",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+          "actual_review_note": "Offset links and casting cutouts have coherent outlines; no obvious twisted or cut surface.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:50:40.042415+00:00",
+      "review_note": "Open ribbed casting and orange/gray partitions are visible consistently from four directions; no unexplained missing shell region or obvious new shading stripe.",
+      "findings": []
+    },
+    {
+      "id": "kuka-kr120-r2500-pro",
+      "label": "KUKA / KR120_R2500_PRO",
+      "urdf": "RobotModel/KUKA/KR120_R2500_PRO/KR120_R2500_PRO.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr120-r2500-pro-hero.png",
+          "image_sha256": "c7c1a5a8e90572c41355beecfed069e6fc298b1af7aea8fec54b2890287fa14e",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "f2676d8077edca2498e9cdf93da12a0799243ad5799bb0dde1aed938c5358e2d",
+          "source_json_sha256": "8840082c117ab885b8945c5b5afa2d901beef62a357ff2acd65bb9b75d1e2f8c",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+          "actual_review_note": "Curved main link, base and dark motor caps have continuous visible surfaces.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr120-r2500-pro-front.png",
+          "image_sha256": "a5291795fd86127930635a4e4faa4bfdd64f17813263f111db3f1c730d2e6c25",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "a91197a19fe82986264e9518790e2525e16da2db26271f327c91683f500115ab",
+          "source_json_sha256": "a3541025172f2153d854cc236d993d6627ccd2211883743fc7fcbc8fe02293e2",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+          "actual_review_note": "Arm and wrist collars remain aligned; thin vertical feature is a visible mechanical strut.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr120-r2500-pro-rear.png",
+          "image_sha256": "68b3683e6043153eb58147bde3f97a300d9446097263a35e17aed87cd29959c3",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "9c348d4a97326eb4e1cc81f4398c9364232ab19596ef05306cfa4bae72d6ad98",
+          "source_json_sha256": "2c0b7ee84a88e8fb8567ba4aac4745f25820d989b62a6572418a2414c995eae8",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+          "actual_review_note": "Dark rear motor block and joint covers remain present and attached.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr120-r2500-pro-top.png",
+          "image_sha256": "06f3990bff0f8628086aed2d339c700e38856fd3cf825371a6bc7b0419ab636f",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "5ae6d4aa93b98f92d937ab6f7dc3da337051bb72f12e3e2eacb4242f3868190e",
+          "source_json_sha256": "1478173045a088da44f8c0202730c3255b171584a09e8568c2044b52e380673e",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-01.png",
+          "actual_review_note": "Bracket apertures and black joint regions retain coherent boundaries; model fully contained.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:50:40.042417+00:00",
+      "review_note": "Orange structure, dark drive caps and base form distinct mechanical regions; through-open bracket regions read as intentional casting geometry rather than isolated missing polygons.",
+      "findings": []
+    },
+    {
+      "id": "kuka-kr150-2",
+      "label": "KUKA / KR150_2",
+      "urdf": "RobotModel/KUKA/KR150_2/KR150_2.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr150-2-hero.png",
+          "image_sha256": "ba345eddcd0f79978305dc71ea8d3ba5a70523c617353bc025fb7423cb92ff7a",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "d3c735d409fb66d4956c911d217b38e465fec76e8bda04be282c96407d3c217c",
+          "source_json_sha256": "fa68670f537cffae479f98a4efbe47c0a01d6643ebf497441ed4b547fb2d25ec",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+          "actual_review_note": "Main cast link and curved wrist collar remain continuous; gray motor housing is distinct.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr150-2-front.png",
+          "image_sha256": "6bccc15810f06148bc0feb5ceebb6dd203dda0888706d5e54617e9a3116e8bf5",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "1d3b3851b8087db7c9db15b087c7a74681d43ff0fa38ca3f430070eb487cfb91",
+          "source_json_sha256": "8163803f8e79adb9cb9f36422de9b541bf1a045957c5518044d88b5726e4ef4b",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+          "actual_review_note": "Long horizontal assembly and wrist flange remain framed; fine KUKA lettering is visible.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr150-2-rear.png",
+          "image_sha256": "66c341088fce7283e8ba1dd11528f3433e2442531be9852f2f42e35ea5bc3927",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "514542a562252f63b6b26cbdb7e2add7c66c9f032073f44ccd5284aa0740f609",
+          "source_json_sha256": "c5ddd8aae10429bb4c35b51c34285e741b0fdff499fdf913548ce645fd0b2e59",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+          "actual_review_note": "Rear motor blocks and circular pivot collar remain attached, without obvious missing backs.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr150-2-top.png",
+          "image_sha256": "0ebe9c205f63f74c37bce61937a81edfafb8d7539606b2ae5925db1ca808727a",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "43fe0ac842edde8af170b6ca28a41ba05e5a2cb514dcf09f7ef27f0bf6ee990b",
+          "source_json_sha256": "9bd8f907465cc5b2e70b98b78939f585a3edce77e25e720edd4257e99353cde6",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+          "actual_review_note": "Offset link path and open shoulder bracket are coherent; gray drive blocks retain their silhouettes.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:51:08.334502+00:00",
+      "review_note": "Orange structure, gray base and gray drive units form consistent partitions in four views. Pivot bores and open shoulder bracket remain mechanically bounded; no conspicuous striping or cut shell.",
+      "findings": []
+    },
+    {
+      "id": "kuka-kr150-r3100-2",
+      "label": "KUKA / KR150_R3100_2",
+      "urdf": "RobotModel/KUKA/KR150_R3100_2/KR150_R3100_2.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr150-r3100-2-hero.png",
+          "image_sha256": "19bde3355b4591619b2da1d273314a3e37f593077d09fae9f874cf48e8219b6d",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "0ddd8b312e67525ff129fcd7216eb5e5a97032a546fd7647c13176bd22ad5b21",
+          "source_json_sha256": "7c02574d096e5c4fe9886b366cd2e7bb8acd99d4dee095abc6b58ed88ffc73ad",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+          "actual_review_note": "Tall arm silhouette, upper wrist and detailed base are fully contained.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr150-r3100-2-front.png",
+          "image_sha256": "9e19f2fbb64d3c18f20b52dcdb343dc63179bfc3bdf7b03dda2fb57e12752661",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "6c6417c9de2f78c35b81a26dcb39634b487503a617fe9685679615cd78155705",
+          "source_json_sha256": "1acfcd6c4c271dcaa9db7242f4a8b3f11c58a65c66d3dab10597d3900d2c8465",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+          "actual_review_note": "Narrow long links and joint transitions are continuous with no obvious clipped tip.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr150-r3100-2-rear.png",
+          "image_sha256": "4e1bea4d11d0943d005b34e6ed49f44a929dc88c1544944f6b131b74dc511665",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "c1dc4e37fc71e851a0470ae7c61ae531d5dc316e01f8e79b4f424a839eb4b4d8",
+          "source_json_sha256": "b07c988684548ea04ab12dcf4d49601f5d14458a10ef2903ba3c2c7c5c2c3d84",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+          "actual_review_note": "Rear actuator, cable loops and base detail remain present; no broad inversion observed.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr150-r3100-2-top.png",
+          "image_sha256": "0136786197f9329df7b52d8286653e32209de73d92fcfbffd6f87e2b89f714a0",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "f424843fd1727752b940b4ea37f9baf3f21932e3aad0285a3e2b8c5369f29239",
+          "source_json_sha256": "23de66f1475c106ece6c16293966b8b1a583ffd6bb24435c1f505dd61da90d9c",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+          "actual_review_note": "Strong axial foreshortening is consistent with upright pose; flange and base structures are visible.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "joints": {
+        "Joint2": -1.2653637076958888
+      },
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:51:08.334515+00:00",
+      "review_note": "Upright source pose is fully framed in all directions. Long arm surfaces, base hardware and small cable loops remain legible; overhead foreshortening is expected from this pose.",
+      "findings": []
+    },
+    {
+      "id": "kuka-kr16-2",
+      "label": "KUKA / KR16_2",
+      "urdf": "RobotModel/KUKA/KR16_2/KR16_2.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr16-2-hero.png",
+          "image_sha256": "f7a83b8d68e7c20ab16bd210a97fed0064378ff81d31a7fc9278da9cd00d60bd",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "e7280d127f108f5d810f44e4fa97c55ef3861729154469980d032a01a1dce30b",
+          "source_json_sha256": "b243edf226476d2e451f05603de4133638534ad3fca598c9ede3ece7a414fbcc",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+          "actual_review_note": "Curved link, open casting relief and black base retain clear boundaries.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr16-2-front.png",
+          "image_sha256": "f97723fb327091fe130761f74c57118b9e6c22edb5567c2e9e55b6e6f89a6746",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "b419015b8fb9f246ca7807fa063f6d2f74ab18c05ef08541b96259a5df9f8844",
+          "source_json_sha256": "e76f441f5f961288c63826fd498fa2a38dd799b8f610e89d1bf39bfd865c0d8c",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+          "actual_review_note": "Concentric link recesses and wrist are continuous; square drive units remain separate source shapes.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr16-2-rear.png",
+          "image_sha256": "4c60bad4013fc4fb17881f46ad65ad6b7148d0c49f42896c7e9f9da7948cae4c",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "83e799d8f91be2884d3226576845b44e94505e84c39c95aa813b32fab2529abd",
+          "source_json_sha256": "1cf4722fd8fb90603f37b50698ac285e285af93b10e601d56556d431f47dd383",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+          "actual_review_note": "Black drive blocks and rear shoulder wall remain visible without apparent backface loss.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr16-2-top.png",
+          "image_sha256": "d85d8ab0ad299a4f92b69354706841e8c065fb1eab30c3ce51b6e21754358b71",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "9f47a16ac31c8ebd5c433836dde532ff3dd90b819a1eee47c29f6bf19cbfe616",
+          "source_json_sha256": "bed7965bde4a51c4b58ba499e39e7e9d38c1a6b6043391b16a8a1c8d0b49bf1d",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-02.png",
+          "actual_review_note": "Circular shoulder opening and offset link outline remain intact and mechanically bounded.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:51:08.334518+00:00",
+      "review_note": "Orange cast link and deliberately blocky black drive housings remain distinct. Large bounded casting holes are coherent from multiple directions, with no isolated missing-surface artifact observed.",
+      "findings": []
+    },
+    {
+      "id": "kuka-kr210-l150",
+      "label": "KUKA / KR210_L150",
+      "urdf": "RobotModel/KUKA/KR210_L150/KR210_L150.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr210-l150-hero.png",
+          "image_sha256": "2e30f0f768839b612658d09019368a53524db7bdf884831293212d20a3221787",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "9a77f9fb9ba5b2cc45073ac41a04efec3ac192430b1b82ea759d1a2467b0c228",
+          "source_json_sha256": "8ba4430aa105cb4456f8b96da7fc2df3cf40882235ba3a8cbba6ed1f0a292d23",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+          "actual_review_note": "Upright arm, elbow cylinder and gray drive housings are contained with continuous surfaces.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr210-l150-front.png",
+          "image_sha256": "d4255b3792721cecd49bb44ac62535342a018fce3bbf461d22222450725ca071",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "8f933126ec09f73aab16a74790b662848dd3f6b4e4f7c8758bbe6e5862fd9f12",
+          "source_json_sha256": "020a1e56056cbfc6aa4b96c6e72bc1b8f1eaeda30ac406f187c7f4d344f99fa2",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+          "actual_review_note": "Native 1000x900 inspected: cylinder highlight is smooth; narrow bands correspond to stepped collar geometry near wrist.",
+          "full_native_inspection": true,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr210-l150-rear.png",
+          "image_sha256": "3c594b0165eec9c25aa950a8f2268fa2573c31525e58fa93e62de362be20c035",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "d91988025ecdd0538ba5323f3f8465c008cd3b7ff834db89e65b29aea762ea04",
+          "source_json_sha256": "17e6d8bf7f78f61f1d54cc10981bc282eb2a3896c4785bafecf84bfa847bfd83",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+          "actual_review_note": "Rear pivot bore and gray motor stack are coherent; no broad missing shell observed.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr210-l150-top.png",
+          "image_sha256": "0abc5e02ede71add01317be727884c1c84893587e748c7351be32bc012dc82c6",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "34a87348b1c6f5f25eac7aed52c1e33a7e8cb0cd03e7e09fc3a9480944cc4b25",
+          "source_json_sha256": "ce5a84dcae9dbe91b77338a01ee3e956fc16b75ba8d13cfee2b31371f745ca3f",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+          "actual_review_note": "Open shoulder bracket, offset links and wrist fork retain connected mechanical outlines.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "engine": "eevee",
+      "samples": 128,
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:51:53.374678+00:00",
+      "review_note": "Four views plus native-resolution front inspected. Main cylinder has a broad smooth highlight; narrow circumferential lines near the wrist align with visible stepped collars. Shoulder bores and gray drive housings remain bounded.",
+      "findings": []
+    },
+    {
+      "id": "kuka-kr5-arc",
+      "label": "KUKA / KR5_ARC",
+      "urdf": "RobotModel/KUKA/KR5_ARC/KR5_ARC.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr5-arc-hero.png",
+          "image_sha256": "fdf7a6ff4de1886e357c3d2bef2e062241539ef863bbf8dfa21f36c2d2704770",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "d41293b48b0086c7245754bced0b1e6b75489cceca0c9b313af3c168a93e86b2",
+          "source_json_sha256": "3bb3c7a4aacbe222485477968412ecbc4bc5226ea0323f187b64e0c8f4f390dc",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+          "actual_review_note": "Harness route, attachment brackets and orange wrist fork remain visible and attached.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr5-arc-front.png",
+          "image_sha256": "f85d775e78cf32ddac719c987bb058e926fafcd0ed1d244c240f7e6681169c01",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "38bb85681eeca668d07d33e796d0d7c86a6a00f12907c8df1b2f9a1a9bb2f18b",
+          "source_json_sha256": "088b1183042d92415677dd9db7e4502358a6d87ddc50ec64fc9aff6388405a29",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+          "actual_review_note": "Long arm and cable follow coherent paths with no apparent cut or isolated surface gap.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr5-arc-rear.png",
+          "image_sha256": "0caa21d3940773d4eee7b7ffc8d43c0881a649f3cc9be77dcce0166bef709f98",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "5805efcd9757f83bcb56cfcbac8c8425eb6a94b3d176b4fe0215f909503fc694",
+          "source_json_sha256": "1003fa09cfb458d2a7ac9b1e3c92501a5422e7ad6e80d55ba03aafc672682c1d",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+          "actual_review_note": "Rear motor stack and shoulder cap retain their silhouettes; cable remains separate.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr5-arc-top.png",
+          "image_sha256": "6a0f4e3a94c9ccc0fe6e10249eae296edf7108c1af9c85241e9b6bf12b98ac98",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "1bc8544375964998bb9e31a949fbd8adbcbd174abce7e5abf84abff4528d3849",
+          "source_json_sha256": "508c03ea51eadacfb7737917d66b6067bb8085a2cbcffa394fe6250206358f3e",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+          "actual_review_note": "Harness, bounded shoulder recess and narrow wrist fork remain legible without clipping.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:51:53.374690+00:00",
+      "review_note": "External dark harness and blocky motor units remain separate from orange cast links in all views. Open wrist fork and bracket recesses are mechanically bounded; no conspicuous new hole or stripe.",
+      "findings": []
+    },
+    {
+      "id": "kuka-kr6-r700-sixx",
+      "label": "KUKA / KR6_R700_sixx",
+      "urdf": "RobotModel/KUKA/KR6_R700_sixx/KR6_R700_sixx.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr6-r700-sixx-hero.png",
+          "image_sha256": "3e9920cf015a34efa5a1aee952d9e6cd2f9e10fbba5643c9e4f941bad77f8de2",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "0ca8ca89b5546f68fcad953c617ad8bdc73107025b3c7549e7f9291725ff125a",
+          "source_json_sha256": "a022f5dacecb3e83dd0bd66bbaacc08d92e23445a139bf11432084133b064886",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+          "actual_review_note": "Rounded pivots and inner shoulder relief have coherent boundaries; wrist face visible.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr6-r700-sixx-front.png",
+          "image_sha256": "214bdc4c846fd2e03d45042bc9fd427039b685713f91fac5f9164c24ee5e6c3e",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "40fadc2f6123927ec6c78e600c8597c33f820a38d34bfbc975467d53a177feab",
+          "source_json_sha256": "702246505eba5d4c2da8d90e37a405938db3409534aec5d82ca204a2dfc79690",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+          "actual_review_note": "Smooth continuous arm highlight and circular caps; full model remains in frame.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr6-r700-sixx-rear.png",
+          "image_sha256": "71a82564bf559badfce8d3c6f3bdb0e2b45649481263932a20a83215d3762390",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "f722f99eae4d4ead39f35a3731951be025a2846c54db331431ce7365fb2efd4c",
+          "source_json_sha256": "34a41fb87d5e8a289636f43c9bdc2dd73a57034168ef97836bec538b82121301",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+          "actual_review_note": "Gray rear drive plate and orange shell backs remain visible without obvious inversion.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr6-r700-sixx-top.png",
+          "image_sha256": "e8b52030729d7aab8bae3d426e8006c676f9bc18850caea20bdbce5ab2e93194",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "9b0fa6cff8fb9474be9c87a85fd58eabee2916d91580cefaf1b8aecde76ecde9",
+          "source_json_sha256": "98a140477dc9842f56a7d834e681d0081ab50022d367dc76aa16adb8c712a5c7",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-03.png",
+          "actual_review_note": "Cast top channels, oval link relief and wrist opening retain mechanically bounded outlines.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:51:53.374692+00:00",
+      "review_note": "Orange shell and gray base/drive unit maintain consistent partitions. Bright inner shoulder relief reads as an illuminated bounded cast recess across views; no unexplained missing face or broad shading stripe.",
+      "findings": []
+    },
+    {
+      "id": "kuka-kr6-r900-sixx",
+      "label": "KUKA / KR6_R900_sixx",
+      "urdf": "RobotModel/KUKA/KR6_R900_sixx/KR6_R900_sixx.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr6-r900-sixx-hero.png",
+          "image_sha256": "a80be09dd9d8187fdc06a02dabeb786b1b1191e9bd5fbe2d66ff10697589a076",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "9cd4ab204bb858de3451c36716fbeba9f2df35f771bc6421bd126ea0a6618d9d",
+          "source_json_sha256": "79176c88b46dc3cbff4a790135f7ad1b14041d3e619da8f181c7e9feed58353d",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+          "actual_review_note": "Shoulder relief and wrist ring remain bounded; shell joins form continuous outlines.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr6-r900-sixx-front.png",
+          "image_sha256": "0c8af1a7b9fe2309f3b1fb91ecb0386b4b2d77cb34ea57f426ff0f919d450881",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "d69cf4b1c915ff106371e9db0ef6ee65e0ea555c2b643a77b07ba206c84fe7d0",
+          "source_json_sha256": "57704a1e39a0ac9acf4fa8e589dacfa7bb65239fda667ee0ee7de96e0969a069",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+          "actual_review_note": "Arm has smooth broad highlights and continuous circular pivots without clipping.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr6-r900-sixx-rear.png",
+          "image_sha256": "19373972e4c99645beb12b76e275f7bd528c081dcfb40d8c0e8ad71ebe4862ed",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "1d465e83f31befd0062c0620ac6e4345a178267d6a0c1865d2ab11c483f75857",
+          "source_json_sha256": "d2d35994266c5a728ed742d77c895c74c40962689e31c4b6d158fc846ec04d4a",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+          "actual_review_note": "Rear drive plate and orange cast backs remain visible; no isolated dark missing-face region.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-kr6-r900-sixx-top.png",
+          "image_sha256": "39e9afc7759527ade808a53435be10ba6d0656a6f4a49be1185dbaa3342bc7cd",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "6500a37d04de99b350c64ef861a8f65f677b7e5d6d5e16f8b60b9d83065554f0",
+          "source_json_sha256": "cd22d20a46ad9155af1205b1c31baf6f9d0a307789a45cbd3ca6afdc3fb11d94",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+          "actual_review_note": "Red lettering, oval casting channel and wrist fork opening remain legible.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:52:22.086374+00:00",
+      "review_note": "Orange/gray regions and red KUKA lettering remain legible. Rounded shell, bounded shoulder relief and cast top openings are coherent in four views; no conspicuous new waviness or cut surface.",
+      "findings": []
+    },
+    {
+      "id": "motoman-gp12",
+      "label": "Motoman / GP12",
+      "urdf": "RobotModel/Motoman/GP12/GP12.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp12-hero.png",
+          "image_sha256": "cf6930876421b67626ecda0679ca9f466417e817153016ba3a145c8568f5001a",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "46dfccf4c9f835849c92dab14db53132ff631c8790c250978b08dfbf9a3ff758",
+          "source_json_sha256": "eb95bfbeb6b780739569ac88aa396ba918dc7a3cfcd6857723be2013f9bb0044",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+          "actual_review_note": "Curved long link, open side rib and wrist face remain solid and connected.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp12-front.png",
+          "image_sha256": "45d5f23ee61936c9fa35a1e8d739feeb59b295951c4e07391b71b55668f759da",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "98c034ff2895c3f3b7ba195ec04c995f2d53521ed60c3429c0bee572d14cba4b",
+          "source_json_sha256": "2bf85fb01da1c63a7c8718c5f5c05b81554e100a8a1f4390aac6e3c408b57baa",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+          "actual_review_note": "Lower-link lattice and joint caps remain visible; full upright silhouette is framed.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp12-rear.png",
+          "image_sha256": "ed6e541b3770d94a59db686aaab846386f3494931203124f03f1d2e355e8f74a",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "621b142893ca21bedbbb598cc8ef0a2c0da20561bba75380c171a349d2c9975f",
+          "source_json_sha256": "1224949a425ae09465d75e911446a392766849f99ad219329225af563cd96d73",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+          "actual_review_note": "Rear joint hardware and side openings retain mechanically bounded edges.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp12-top.png",
+          "image_sha256": "38ea5ad46d485552be01c075638522582da5c79d9545a2222d27e232e0b69b69",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "6c1a10778962b33cb033b8061e5de09e3d8c7ee52a436a00f89944cd714f2a5a",
+          "source_json_sha256": "b5968e76540b5e592537ef38b7546f098881445cbe6991cbb65b58a7dfb0c39c",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+          "actual_review_note": "Wrist U-shaped cutout and base/joint hardware remain distinct; no obvious surface inversion.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:52:22.086391+00:00",
+      "review_note": "Blue cast structure and detailed joint housings remain coherent. Large lower-link and wrist cutouts are bounded openings visible consistently across views, not isolated missing triangles.",
+      "findings": []
+    },
+    {
+      "id": "motoman-gp180",
+      "label": "Motoman / GP180",
+      "urdf": "RobotModel/Motoman/GP180/GP180.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp180-hero.png",
+          "image_sha256": "7fea367220ac0f274ed74f69d3dd91e775b91fc244ea70a82b2755269bdaeec5",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "ae853731b483e8b92fb8c66440d2f4349a5790ff5c39c7d904a0d48a1a20e138",
+          "source_json_sha256": "72eaf22b9da99b9fa59082724f72805d9d39533c3a95c84cd32140d65bde8ab0",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+          "actual_review_note": "Tall cast arm and dark wrist face remain fully contained; no broad missing shell observed.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp180-front.png",
+          "image_sha256": "06fe948a309d616d6cc1c03d9576b905366bffe3cc84a04eb9876f490cc16665",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "42bf38cac52e5669e1d708249fcf42b2d582efc3c4257242b96381a16a1d68aa",
+          "source_json_sha256": "dbce8245f129c89e737cdaefccd2e860a3ec3c0360225f96cbe408b283b2d67b",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+          "actual_review_note": "Horizontal forearm and long main-link profile are continuous; ribs and joints remain readable.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp180-rear.png",
+          "image_sha256": "070517123a3c9a4fed095ed12cf6d29c9bce42a32d68c297f2c256cd5616bdfd",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "1454f5856678aae698fcb69e2683cffdc804bd596fd05898a2b48acc0d92f5c2",
+          "source_json_sha256": "8faa523f906a1e1dd3621f912872d946807144ad2e31a0cb2c0f680d9521d1d4",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+          "actual_review_note": "Rear shell highlight and lower joint hardware remain continuous, without obvious jagged shear.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp180-top.png",
+          "image_sha256": "8f8d0dee89c4f2b2df84a9658b395125571d68e5a2addb2f3137cb249cbf6bdf",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "0a38f98e868e8552945318af45ec2519ef06603978d9f0ce67e6b0eea77b1dad",
+          "source_json_sha256": "4a3a1f5a71aba8a77a4bfca46b55741e4c3bd456d059a3848a7e6edf4d844459",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-04.png",
+          "actual_review_note": "Joint circles, slim forearm and wrist fork retain coherent outlines and mechanical partitions.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:52:22.086393+00:00",
+      "review_note": "Blue tall body, horizontal forearm and joint hardware are complete in the four views. Broad cast highlights transition coherently; small source ribs and fittings remain present.",
+      "findings": []
+    },
+    {
+      "id": "motoman-gp180-120",
+      "label": "Motoman / GP180_120",
+      "urdf": "RobotModel/Motoman/GP180_120/GP180_120.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp180-120-hero.png",
+          "image_sha256": "7594c268b5a902b5d8e5b7c819199af669b96bad39599884400d52e66a3f20d5",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "68449c58a42c27bfe3bd9fc7490214f2629a68827a2822b1d7972fc76f3aa011",
+          "source_json_sha256": "7e9aa4500ec3599be2b1cb0af317c2e749193ef5a87298ac0adac3f7d48d9265",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+          "actual_review_note": "Long narrow forearm and black wrist face are contained; tall main casting is solid.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp180-120-front.png",
+          "image_sha256": "cd801ee7b2a7b51f395d7fe96537af3b1317453177b46b94d8323cf66638d770",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "f30f319d3c6849e344abc409b7c239edbb5524a94d240286dbcb1b13c681036a",
+          "source_json_sha256": "089392fe64abb7fada0380be8a836836ac082856c75270ebf9756fd09dee2344",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+          "actual_review_note": "Horizontal cylinder, circular wrist joint and ribbed main link retain continuous outlines.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp180-120-rear.png",
+          "image_sha256": "a754778479cf3f9ae8ffbe4cf17a21c75189bae7209940fa95343c8918d038eb",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "14b22563ace4c6417f31c14dc062a8f23d67e5763b81a0eb6f748c0e12a13cd5",
+          "source_json_sha256": "a7a084a26047b947a552074a60af2591a53a117a61d938077e4efdde646f953e",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+          "actual_review_note": "Rear joint cluster, cast openings and lower mounting hardware remain legible.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp180-120-top.png",
+          "image_sha256": "c3d69dea526da99eefd1f30df511dde72d673241151e02ddc52dc0c20de98b9a",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "25704da83eb7b6140b0975cf73ff0fc0e37e2902e625f368f62a1385262db7ca",
+          "source_json_sha256": "15881a127a37693ab3f07ecb0fa79226ecd5f3c76fb3e122a8b38adfe0c41c4f",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+          "actual_review_note": "Long slender forearm and pivot/base hardware are aligned; no isolated missing region observed.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:52:52.422960+00:00",
+      "review_note": "Extended forearm, tall cast body and detailed base remain continuous in four views; smooth cylinder highlights and joint collars show no conspicuous striping or clipping.",
+      "findings": []
+    },
+    {
+      "id": "motoman-gp20hl",
+      "label": "Motoman / GP20HL",
+      "urdf": "RobotModel/Motoman/GP20HL/GP20HL.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp20hl-hero.png",
+          "image_sha256": "3df9e7771023920345976678ce854b8049d468dcdb0f97a8ceade7fdde9717bc",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "a4a948339d3f586a1d8b722d07ec3098991f4ae1c2523d0ba1944163bc901985",
+          "source_json_sha256": "c7d5e369a680025fb8b6b770639c1cced74f9de3b3be6998c1b3c244f3a7b6e8",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+          "actual_review_note": "Long reach and small wrist face remain fully framed; pipe route and braces are visible.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp20hl-front.png",
+          "image_sha256": "5ec82c5c0f570549d9e45f4a294f6a695cb3de3ec23eaeac6896a0a835906c5f",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "9d415762b1f6f120b0f5185e879fb6cafbbce3f925696dbdd46eec192ccf1091",
+          "source_json_sha256": "28b5483c52ca2952952decc32f9afecfd80830217eaa211280dc4fbfc693a44b",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+          "actual_review_note": "Squared long-link sections and repeated mounting ribs remain structurally continuous.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp20hl-rear.png",
+          "image_sha256": "a0af963c4116a550387f7dd5b1597e853ee3a8ecf353db3afb01cf88a39f8cb8",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "07923e7d4afc380e7c88bac4c13a2a95ff5d0e700c6d3986a4697c2c18060e84",
+          "source_json_sha256": "34d9e94d9cb5f0659051be46f8534fd7c27416ed4bbbc7f163fb68302eb65cf6",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+          "actual_review_note": "Rear shell has a bounded planar highlight; joint housings and base pipes remain present.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp20hl-top.png",
+          "image_sha256": "b5494f358edcffb149cc17e910ac8fc6c42bd9354b217fd9ea174f1371baaafb",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "dab175e009e298d684cfb200d367c3bc7f0192ee76b1b4b1b529b3c4aafbc03f",
+          "source_json_sha256": "f15da268b79f4f02f0f9a02606923bb8dc0a6539c93bf83ae54e5a95452a12fc",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+          "actual_review_note": "Narrow arm sections, external pipe and U-shaped wrist relief retain clear boundaries.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:52:52.422972+00:00",
+      "review_note": "Long-reach polygonal link sections, external piping and bounded wrist fork remain coherent. Straight planar highlight boundaries follow the cast link shapes; no conspicuous new tear or hole.",
+      "findings": []
+    },
+    {
+      "id": "motoman-gp25",
+      "label": "Motoman / GP25",
+      "urdf": "RobotModel/Motoman/GP25/GP25.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp25-hero.png",
+          "image_sha256": "3faf99a724f4e780de7dd917eba5f0920f263f7d8c572de44baac6548a2eccde",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "fca5d1ebc61c60909ed63b9bd980846670e2e546af6a8651e361657ae9368964",
+          "source_json_sha256": "d292f0e873679da0975f3ec0819085275f48d0d37af9ed89198ae1a28641eb37",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+          "actual_review_note": "Upper-link relief, curved wrist housing and lower pivot remain continuous.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp25-front.png",
+          "image_sha256": "df7b36d0574af072b8c4dd3ca975f0e8a3b08b0a41dc9b6c5f80351a17df7b02",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "a622199bc7774660756267bd6f04368ef59e6b6d61dccee6665cb450eb6091a0",
+          "source_json_sha256": "8cdb39f949ca0a5dfc0aa3c150dc3a7824deca1a517c8bbaa1942d606d705799",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+          "actual_review_note": "Open cast windows and circular lower joint have coherent outlines; model fully framed.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp25-rear.png",
+          "image_sha256": "250a9beda7ede2d2649359212db6f60a6f88388dfa012b891341960ed28bbe1b",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "2bd674a8f1595015fb1c2ccf5de0cf1089f3f730d3733c02d9ea8e8c5dc4c1c0",
+          "source_json_sha256": "0a219786684de361e0776d91b05ae12a3fffde1efc26cb2b240a25d70f9772a5",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+          "actual_review_note": "Rear side holes, elbow hardware and lower pivot retain defined edges and surfaces.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp25-top.png",
+          "image_sha256": "2f6504cccf84e72a194926dc58aca67dfef5f96b5bb3de4c4f1e03ca11fe8c41",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "af14c4cea239d89859a88965987ac505921bc737e31d3bd11a915c1dc51f4b1e",
+          "source_json_sha256": "9fbbf9dd03b61ccdf09c628ced8d8d47b7c8f50037ae782041cc3a4398da080d",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-05.png",
+          "actual_review_note": "Wrist fork and surrounding casting remain bounded; motor/joint surfaces do not show unexplained cuts.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:52:52.422974+00:00",
+      "review_note": "Blue cast structure and round pivot hardware remain coherent in all views. Visible openings in the link and wrist are bounded by complete casting edges; no obvious inversion or new broad stripe.",
+      "findings": []
+    },
+    {
+      "id": "motoman-gp7",
+      "label": "Motoman / GP7",
+      "urdf": "RobotModel/Motoman/GP7/GP7.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp7-hero.png",
+          "image_sha256": "af70354d2f1dae38722ff695f5388a02c2ceacad1162b9a7133b91fb2578a5a4",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "34c51269b3629fc27bad7f3efbbabbda39a9fc9eb7decec0cc37a43ef83562dc",
+          "source_json_sha256": "7ae5b91a57b007aa26e85caa854967acec2102939553eb538a4b77fc0c868b2d",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+          "actual_review_note": "Curved main link, bounded inner relief and wrist face remain intact.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp7-front.png",
+          "image_sha256": "b3577c8f664ca59799f77b9b327f5dd2b3abb7d0a934e0791b3fbfc49a21c7ba",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "87243e534e22837726917914e0092c8bdc3e3e8930c1868f3be4aea0d90cbb4d",
+          "source_json_sha256": "4bddb168d2f7064396efa9038d68a1cfedac83f41817dc5c0879e72d91341c44",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+          "actual_review_note": "Continuous rounded main-link silhouette and joint transitions are fully framed.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp7-rear.png",
+          "image_sha256": "dab266d1aabb15589ab2fd7af3d03aa74274e12118417513014c2a55a562611a",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "1846267c87478b89cda7fa4b7b566744bfdefe2b12dc756a8b2ba438e4bdb582",
+          "source_json_sha256": "8b1cc523f778a7d7161e48ecd5f3f14f7347659d66c50b15379e219283809a2e",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+          "actual_review_note": "Rear relief highlights are bounded; rear base and joint covers remain visible.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp7-top.png",
+          "image_sha256": "2c685036a572f4e0080d50ae9c119563b5ff78bdecceb6bb92cf1e02d7d913c0",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "dede98fbd88148346b06e9206f00105c7a57706ab693e79f6c60050933a63983",
+          "source_json_sha256": "687b9986650de5077064a34fa6292a08610f40770b5cf4e950c2c591e50b4026",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+          "actual_review_note": "Square inset plate, wrist fork and upper joint cap retain coherent edges.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:53:26.268830+00:00",
+      "review_note": "Rounded blue shell and cast relief regions are coherent in all four views. Bright inner relief surfaces remain bounded by casting geometry; no obvious missing shell, broad stripe or inversion observed.",
+      "findings": []
+    },
+    {
+      "id": "motoman-gp8",
+      "label": "Motoman / GP8",
+      "urdf": "RobotModel/Motoman/GP8/GP8.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp8-hero.png",
+          "image_sha256": "b03e5aa5b1cf34b12745764a2e4f42f563d4f628c498f8cc100e56c1aadd43aa",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "788282f55f24c65d448a9cebe724fe4164bfb46aa43a0fd79963794adaeffb1f",
+          "source_json_sha256": "05450c9a8a884ceda174840645f713f43aeb3404c92da75d6b1213ef02079ace",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+          "actual_review_note": "Cast windows have complete surrounding ribs; wrist flange remains visible.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp8-front.png",
+          "image_sha256": "aacbf5ec2c1ba0219fecec9f66f88e2568304da8a1e040cc9f4acacd17f5db6b",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "1724993bd7756ed14a5f895274e38d9fd956b9f20fece7112125ecdc07501f7f",
+          "source_json_sha256": "56e4b2cd24449e700714ecba34de60e1e42c40298d2baed583f7e8f967ed97c3",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+          "actual_review_note": "Main link and base surfaces form smooth continuous silhouettes without clipping.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp8-rear.png",
+          "image_sha256": "ac753f66f35b325f7b4d7688b588e048b32f09b3e69bc73013ae187eff25bd11",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "8f8f81d287e90f7ee0abe0aef5773a5553bb4d31ecad73f84e0c1b9b04b8b7fa",
+          "source_json_sha256": "7ea52d0000194bd476efce55947c62dd6ce3aceb87d690e7d88c64244f98cf26",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+          "actual_review_note": "Rear openings and joint caps retain coherent boundaries; no broad backface loss observed.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp8-top.png",
+          "image_sha256": "978a743056b93645696788d9e861a1dbad383b3dc38bf45e7aca043f91299c65",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "1587010aad5da8a8d83373da64cb01cdba876bd75fdc6fee1a23c9df3d4cf490",
+          "source_json_sha256": "b6f73fbdb43ccf0af2fa64f0a28dd05b601eb46cc3f15c1f1efd63040a28dbf1",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+          "actual_review_note": "Wrist U-slot, inset plate and mounting holes remain mechanically bounded.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:53:26.268842+00:00",
+      "review_note": "Rounded blue body and intentional cast windows remain distinct. The upper/lower bounded windows and smooth outer main-link highlights are visible consistently across directions.",
+      "findings": []
+    },
+    {
+      "id": "motoman-gp88",
+      "label": "Motoman / GP88",
+      "urdf": "RobotModel/Motoman/GP88/GP88.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp88-hero.png",
+          "image_sha256": "bec497db462519c2475b41b8ae2cd1d954c8d25376781176ca0a22ec1cf2636c",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "c1dfcefd7c4f7bc009858fd217e1f6968e8376150c8e6fc41be03b88727c684c",
+          "source_json_sha256": "092f3685e58091020fea8950612f59b7aaa7f6bae1f28e68c92779ce958ca50f",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+          "actual_review_note": "Tall assembly, external lines and wrist are fully contained.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp88-front.png",
+          "image_sha256": "43382f26e4b84ad88adf20f4a6dda25d48ed27d18130c2133498a5f84aca8c38",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "47d2fbd70759acc9ea7476e231ffd32192895c71cc0aaa24afd23a95d718faf8",
+          "source_json_sha256": "02a389ef1643eadeeaa6fc8cc2b76ea5d51161c9843cb5eee00b82d33331bf79",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+          "actual_review_note": "Thin arm ribs and long forearm remain aligned; detailed base lines are present.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp88-rear.png",
+          "image_sha256": "be60caf98c38b46ea91681b45c0e1be6a239c9be1c1cc40ae46b478d26074f8e",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "04009c637e59499718ef4f6bead1fb9b25f9bd1315519a843bfb64b92fa68129",
+          "source_json_sha256": "7b83c8269416c6437ae0bea399c1024e8ea135ce5fa9fc1a25db1026230fc958",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+          "actual_review_note": "Rear joint and harness cluster remain attached, without obvious tearing at link transitions.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-gp88-top.png",
+          "image_sha256": "4187b39d519537264a00ef4e5807a118eda3d0e551847e340470f4546e38ec6a",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "afa560d8ce6ddf1dd6039f193c254b6ca09eb616e758998413f271f99e147f71",
+          "source_json_sha256": "ca484f2c248102796cfd07f8b804e0392c7450933d9e646e094ef883a1d0c449",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-06.png",
+          "actual_review_note": "Wrist fork and detailed base pipe loops retain coherent outlines and spacing.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:53:26.268845+00:00",
+      "review_note": "Detailed external lines, narrow main casting and long forearm remain coherent. Hard highlight transitions follow ribs and planar link features; no conspicuous shear or new missing region.",
+      "findings": []
+    },
+    {
+      "id": "motoman-mh12",
+      "label": "Motoman / MH12",
+      "urdf": "RobotModel/Motoman/MH12/MH12.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-mh12-hero.png",
+          "image_sha256": "9da90cb9fdff5a5361ea5010b8af9425c7d05469a65dd8b37b364b634bfed563",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "8c8921969658a2c9aaa0087b3421db877b20fc1da07e46b1ce027e7c13021172",
+          "source_json_sha256": "b6bfaec12d837e06a2a4db82d3079eb3352b0ca4a4a8cc7210f84ce73d38695e",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+          "actual_review_note": "Open cast reliefs, lower pivot and dark wrist face retain clear edges.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-mh12-front.png",
+          "image_sha256": "32fa05844d94b196b4cfca14155ae7d9b43c069aa23db962c6a561bc523ce6b2",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "c7c6f49d15bc22a47002a0afedda232195e560ca593fa6f200bf54f4d3298beb",
+          "source_json_sha256": "f4f6d15f558b17070ace0ae129198eabee308e9583fa04633b833e8c060d5b6b",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+          "actual_review_note": "Long-link relief windows and rounded joint transitions are continuous and contained.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-mh12-rear.png",
+          "image_sha256": "189b4f0292333f09d92a691b99d5715807a5c67abde3e3a5fb32db0344fe236a",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "e26febddc938d2e5af5b61cbe253354ba47ad53a4cfff309f96ca769c15aeaa2",
+          "source_json_sha256": "b6e14eb5a903cc3bdb2abcd700548dc8bf693320f143fdc85a643c2dc20f20b4",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+          "actual_review_note": "Rear elbow hardware, link wall and lower mounting features remain visible without broad cuts.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-mh12-top.png",
+          "image_sha256": "6dda1e58331f22507b427c8b4fbca75d9790ccda09856998579f1e8f3b72345a",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "4c02c5cb291d0a8df51a056d345957b278ae5892409f1b03133f73b5438419fa",
+          "source_json_sha256": "d82f2ab500eb960bcf14c498ffe040f7343f70c868c6cafe20bbf08f836566fa",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+          "actual_review_note": "Wrist U-shaped opening and base hardware remain mechanically bounded.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:53:57.836555+00:00",
+      "review_note": "Curved blue cast arm, bounded link reliefs and detailed joint housings remain coherent. Main link highlights and wrist fork show no conspicuous new striping or missing surface.",
+      "findings": []
+    },
+    {
+      "id": "motoman-mh50",
+      "label": "Motoman / MH50",
+      "urdf": "RobotModel/Motoman/MH50/MH50.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-mh50-hero.png",
+          "image_sha256": "b9a5427896de0bf1e7016567d4bb48306ec67ba0f7f7d69875241f6ba020e9a6",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "b81f6f2d4a93bca1e3b93ba4ab806033d424423de80dc9357ea16beba9a5a76e",
+          "source_json_sha256": "c581c5d02f0bf485dc5b9c39ab71cea5d5047bf354bd1f4157d90a5b47455ade",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+          "actual_review_note": "Tall assembly and circular pivot plates are contained with continuous cast surfaces.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-mh50-front.png",
+          "image_sha256": "e876de567f442fcc98c01b40d737262946fee4b1455a5d4449f09cc504fd217d",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "9383123a54082f7088b7cc4989dd6e2e52b2cf98eb80d8a28ee5ed2686409b78",
+          "source_json_sha256": "7187d114d814f61f08b3f9ffa18fe0fbbd354bcc8c0f1016b61c184652000a82",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+          "actual_review_note": "Round plates, bolt patterns and transverse reinforcing ribs remain legible.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-mh50-rear.png",
+          "image_sha256": "ed2e22821b5d3b78d5edfd8977ae2e19a931cbe3ab03e7ef0c04623603dc46ee",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "2f72656cd7eac51c08f11115858dd83ced1782a34cb32d6126e2848056a3a549",
+          "source_json_sha256": "9e4c107f7a73a22f3465ef5616079c561e64ee107067cee6c6abe6e683a76f3e",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+          "actual_review_note": "Rear link holes and elbow hardware have coherent boundaries; no obvious inversion.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/motoman-mh50-top.png",
+          "image_sha256": "0917af9f6c4d5379337588630f7c9543b246d457c09f7564fc52923e51a33d99",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "89cf18920cee00e43082a8d488621baa9c9c8b064062ff670b3eb2b1842d9cf0",
+          "source_json_sha256": "93101f5c34410ca532d3be6a439d5305622ef853f62803bb6a37db36572e0a67",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+          "actual_review_note": "Narrow forearm ribs, wrist fork and base/joint fittings remain aligned.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:53:57.836570+00:00",
+      "review_note": "Planar main casting, detailed circular pivot plates and slender ribbed forearm remain complete. Repeated machined holes are bounded source features rather than isolated missing polygons.",
+      "findings": []
+    },
+    {
+      "id": "rokae-sr5",
+      "label": "Rokae / SR5",
+      "urdf": "RobotModel/Rokae/SR5/SR5.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/rokae-sr5-hero.png",
+          "image_sha256": "a0cf8417e5ef526682e930f50f1f8994aaa3f9ffcdc18733ab28f97a632ebc6c",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "83cb26499cff07c1a6e67e151c853bd2c1fa70161f8feb33e9ce485b532a87ea",
+          "source_json_sha256": "4fa02e080c54b7461321d64f207091b6df7287b0c8df60e0a9242f2bf2313724",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+          "actual_review_note": "White rounded shell links are connected and fully framed; blue accent ring remains visible.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/rokae-sr5-front.png",
+          "image_sha256": "81b8a2cc0d8468260ae0d10aeba1f3ecfd5ac04d3fe9f9566b047462862e4d09",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "4508b1173a185884a203ee888b1cc8faa58b32c379d20a6a0d6be9ebe12b69f0",
+          "source_json_sha256": "1209286db812e201a5cf42315ca6a2b88561f73a5534daeb4a8e2e86ce8b7a24",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+          "actual_review_note": "Narrow upright profile and joint bulges remain smooth without an obvious longitudinal stripe.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/rokae-sr5-rear.png",
+          "image_sha256": "894baf8df6daef69008bd38cb25f6187f2c9e2908cbc5a494b8197b1f272f48a",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "aaa0d06486981cfb580c047023759518d7ed58d55ba2e4187f7777ce8cc017e8",
+          "source_json_sha256": "a69feb63ad19cf7da6676a47e6269c99f7463c806222ce0492e9120dbbacfadb",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+          "actual_review_note": "Rear white shell, small fittings and terminal cap remain intact.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/rokae-sr5-top.png",
+          "image_sha256": "03fee010422887c5b4dbbb244b50ff31b2e2497de1c7c3ff7c798fbe4bf02355",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "13c7b323cb78dd055e82792d638d7f560eeb933499b907f16c5ff084a277aab9",
+          "source_json_sha256": "c3ce89e1d218772e5f038bdcf13aabbc1ad61789c186057177520d8993b70a29",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-07.png",
+          "actual_review_note": "End-on gray bolted flange and white shell seams are visible; no unexplained hole or cut observed.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:53:57.836572+00:00",
+      "review_note": "White collaborative-arm shell, thin blue accent ring and gray terminal flange remain distinct. Upright pose and overhead foreshortening explain the tight top silhouette; shell seams remain coherent.",
+      "findings": []
+    },
+    {
+      "id": "universalrobots-ur10",
+      "label": "UniversalRobots / UR10",
+      "urdf": "RobotModel/UniversalRobots/UR10/UR10.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/universalrobots-ur10-hero.png",
+          "image_sha256": "0856f25011b31766d0c99b3e204c3b3e132065202c48fe1357f7f457dcfe87a0",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "58bc1b8f885b88eb0143b8b6e1ae877e528b3e39668a4c75ff4992688e5b45d2",
+          "source_json_sha256": "b4bcd09bef46247aa69a1590efaf461add9210ebc3793df59ad3cbddf5ba0aa9",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+          "actual_review_note": "Gray tubes, pale blue caps and end flange remain connected and fully framed.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/universalrobots-ur10-front.png",
+          "image_sha256": "92930d40d924bf0475c1797b81ca0dbb8f54e178b95ffb145ce55869fcb1785c",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "0b422d4b4861a8f6dbe08590abd2ba64dc26b0498088c75dd6442503e6b27e14",
+          "source_json_sha256": "76cf37393ff52f531966c70a66869303fbf83e12fdef03e563abbc59dd5c01f1",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+          "actual_review_note": "Long horizontal cylinders show continuous highlights; cap and shoulder remain legible.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/universalrobots-ur10-rear.png",
+          "image_sha256": "44d1203c7c861cbdc1cd4fce79e2fb4edf03c1cad6a9e61e4e5a1ad894496f5d",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "bb3259225f3707866a4d2b31bbea6f73b0e4d028f7875e2f31e97474675094cb",
+          "source_json_sha256": "ce7c6987e90c6dd12fd4a35c1e0d5b3012573df2a1aa6ab9e632f9615b1f2a50",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+          "actual_review_note": "Rear cap and tube transitions retain coherent boundaries without obvious broad inversion.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/universalrobots-ur10-top.png",
+          "image_sha256": "7e78db4680ba1c8d05e94d6d89243e498f3cb0e111a74c3c97012f4c34d275b7",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "b25db1464e79e4a824c47787d27d29e8e58f2add96266632c13ddfda7a896de6",
+          "source_json_sha256": "6e507c79586d19c1eb77c6ee06d545ab209ac9a031cae35532ee029a0703d975",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+          "actual_review_note": "Offset joint arrangement and parallel cylindrical sections remain connected and framed.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:56:13.825382+00:00",
+      "review_note": "Silver/gray tubes and pale blue joint caps retain distinct partitions. Broad cylindrical highlights and cap geometry remain coherent in four views; no conspicuous missing shell or clipping observed.",
+      "findings": []
+    },
+    {
+      "id": "universalrobots-ur10e",
+      "label": "UniversalRobots / UR10e",
+      "urdf": "RobotModel/UniversalRobots/UR10e/UR10e.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/universalrobots-ur10e-hero.png",
+          "image_sha256": "693e0f95f89d2ce0d0744fb461868a247ed4dfaea420f58eba9cddc1909da348",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "63c1393aaeb85347922fae18369091a20b2e8e8144066f3bc0fc606f55e4d22b",
+          "source_json_sha256": "81162a84af9c188a57e96100e23d5252d3e3e0c84be69d1a38338b88d99dd265",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+          "actual_review_note": "Dark rubber boundaries and rounded joint covers remain separate from silver cylinders.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/universalrobots-ur10e-front.png",
+          "image_sha256": "7e33c738a08361b852545fad0b944296df71614034db84bb02a20b0a35f7d9c8",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "0c7fdecc41842af7f0c816396b161c832343ad7a2dae9b62f95c4f7ad171e5bf",
+          "source_json_sha256": "ed43f04b88f7558712e119bf0e7e7a68b9f5f0258e04130ed25e1b3d1779a5dd",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+          "actual_review_note": "Tube highlights are continuous; joints and wrist remain contained.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/universalrobots-ur10e-rear.png",
+          "image_sha256": "67e62a3cf5c802397bf679ae6214313951aca92105424f6f78b88183a5d6dde4",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "b81e5dedce43a78ca43e8c043091e25088938f59033b02ae2d29543cccc1c8e8",
+          "source_json_sha256": "f81758aa13c1937ae11195739130c8e16749a3b36f6276891df1454fa85ce1d5",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+          "actual_review_note": "Rear covers, rubber rings and base shell remain complete with smooth broad highlights.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/universalrobots-ur10e-top.png",
+          "image_sha256": "6249999a4f565281a010ddac59096e4c8924ce722128732edce15297916d9567",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "30dabc1d7af124fd04c59b1099c4c938a2fe668b150ba630f43a8b6800d51646",
+          "source_json_sha256": "97995b1d798ed89867f15c0c010b99c3154b2bcd27158043e5a553050835a5e6",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+          "actual_review_note": "Offset links and cap screw ring remain visible; no unexplained cut or inversion observed.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:56:13.825393+00:00",
+      "review_note": "Silver tubes, gray housings, blue caps and dark rubber joint rings remain distinct. Four-view surfaces and silhouettes are coherent; no obvious new seam or missing back observed.",
+      "findings": []
+    },
+    {
+      "id": "universalrobots-ur3",
+      "label": "UniversalRobots / UR3",
+      "urdf": "RobotModel/UniversalRobots/UR3/UR3.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/universalrobots-ur3-hero.png",
+          "image_sha256": "e986e22677b49e109dc98ba73d8ae63a23dceb2946dd6277707fd18158563957",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "b8737258c39ac9b14423afc6d9da5c658e54f84b956267069b4ae560ef83301a",
+          "source_json_sha256": "d8e15e6698f658d018712c00201f6c7e70ab7f78f3328dd36cbd1b8f5f3e5d6c",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+          "actual_review_note": "Tube/cap partitions remain distinct; angular highlight transitions on gray joint shells warrant follow-up.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/universalrobots-ur3-front.png",
+          "image_sha256": "40dfcc480eebb6d935ecece2f2de2e7c033c2dae981f958a6373ee800a35664a",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "cdcbdf91f2b5ad28fbddf43318c3a7a4f89eb02a8cbbbc83f399758feb42bb97",
+          "source_json_sha256": "99d7500a8abe38b7a20c4dea6d104f13d126b24a2443cc623dea4504541175ff",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+          "actual_review_note": "Complete silhouette and flange remain framed; base apertures are bounded source features.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/universalrobots-ur3-rear.png",
+          "image_sha256": "d2582c2143191925151e7d0f366e0e71df7eb793354891843f91de86c0378179",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "f65392307910952b93f55e531a4854ee1649fcbebebab211baaec3d8626d6dfb",
+          "source_json_sha256": "ba56fc6f901478292617f58e4981ecf57609d14724b91e33027358eb5be7776c",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+          "actual_review_note": "Native1000x900: fine dark lines and triangular gray-joint highlight patches visible near shoulder, elbow and wrist; reported to root.",
+          "full_native_inspection": true,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/universalrobots-ur3-top.png",
+          "image_sha256": "7d565aa85f0cabe1ab21d4e20cdb228ad5d88b82ad92d775e016e758c7242a69",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "a15fd4ee8e50ffe62ea34fdce58b6e8c0c9b7345cc8cd1463caccb8803dbdbf7",
+          "source_json_sha256": "9d785a5149bc97f9a12c962b58e8be53b14cb4c4c7951de6511d650a1820a994",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-08.png",
+          "actual_review_note": "Joint caps, offset tubes and base mounting holes remain coherent; thin joint-shell shading lines remain a follow-up finding.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:56:13.825396+00:00",
+      "review_note": "Four views plus native rear inspected. Model is fully framed and material partitions remain distinct, but thin dark hairlines and triangular shading patches are visible on gray cast joint transitions; baseline/source-normal diagnosis is required before classifying them as inherited or new.",
+      "findings": [
+        {
+          "type": "visible_joint_shading_artifact",
+          "status": "needs_baseline_diagnosis",
+          "image": "/tmp/assetsmodel-session-full-previews/universalrobots-ur3-rear.png",
+          "regions_native_pixels": [
+            [
+              330,
+              300
+            ],
+            [
+              550,
+              350
+            ],
+            [
+              785,
+              400
+            ]
+          ],
+          "description": "Thin dark hairlines and angular/triangular highlight patches on gray shoulder, elbow and wrist transition shells; no corresponding broad silhouette hole observed.",
+          "baseline_normal_probe": "/tmp/assetsmodel-session-ur3-baseline-normal-proof.json"
+        }
+      ]
+    },
+    {
+      "id": "universalrobots-ur3e",
+      "label": "UniversalRobots / UR3e",
+      "urdf": "RobotModel/UniversalRobots/UR3e/UR3e.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/universalrobots-ur3e-hero.png",
+          "image_sha256": "e242cd7ce62594e20b308fb1b5904b25a824964e9c00b2d4925deabfd18f1dad",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "e7b0c3fa9a1e0215e15be124bfc0a7341b03701f7dd5aece0fe21045629948c9",
+          "source_json_sha256": "d0020ab7c175e42bcd7ef787422c51d5f0cbb7deba85dbe0cef34ee9646550a3",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+          "actual_review_note": "Tube/cap/rubber partitions remain clear and assembled; flange fully contained.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/universalrobots-ur3e-front.png",
+          "image_sha256": "51a9807c176e30374d307fe086e49d2aa6acc7f99461d28939009d43d036374a",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "bb3585ff947614acc989e9e40d24effdbd01661d591867f61ab3370e8b23bc6b",
+          "source_json_sha256": "14e9c118ef461f93f739a2f04c66b63b25e8b72ff044c9a09bfac1e9ac169b04",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+          "actual_review_note": "Short horizontal tubes show continuous highlights and distinct ring boundaries.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/universalrobots-ur3e-rear.png",
+          "image_sha256": "9de7c53aaf89df2a7abbbe14e9b902bdb256d3fde404c74a5ff99ed9df3f80a8",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "b64c530f6bfcdc7105ba6d5651f0122aa12e7c7546112f067ee24b88b5819096",
+          "source_json_sha256": "29d9ad86aca41baa550dfd91bec063de9212771c4ba3a52f1cf75387123a7b4a",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+          "actual_review_note": "Rear cap and rounded joint surfaces remain present with coherent broad highlights.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/universalrobots-ur3e-top.png",
+          "image_sha256": "e42c7e6ddab5f35d6faa09042529f4c81984d6cd91a6620248adbff7954b7a8d",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "09f8d616dc0bc655dbaeebba2d66f8329462303651adfa8f68df304ac9a30535",
+          "source_json_sha256": "65fa7204f7a71a2ec16ff61a212fb5bea744e8dee6376f0a36f127aa0c8366aa",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+          "actual_review_note": "Offset arrangement and inset blue caps remain bounded without apparent cut or inversion.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:57:31.303779+00:00",
+      "review_note": "Silver tubes, pale blue caps and dark joint rings remain distinct in all views. Rounded transitions and small base-rim details remain coherent; no conspicuous large seam or missing region observed.",
+      "findings": []
+    },
+    {
+      "id": "universalrobots-ur5e",
+      "label": "UniversalRobots / UR5e",
+      "urdf": "RobotModel/UniversalRobots/UR5e/UR5e.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/universalrobots-ur5e-hero.png",
+          "image_sha256": "e5929f2f00bd2a7f1d06ba5f45dbdfc743a6469c6ae7dee0d41bb7c32752405b",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "3d35dc1d03828daadf8e093a4cb3ea2c456839b020e9c6393600f2eb9105b388",
+          "source_json_sha256": "56c1366fbb9183c483ef25457c88f487badcc562f95f034a6d84cf2513943e6d",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+          "actual_review_note": "Silver cylinders and gray/blue joint regions retain continuous visible surfaces.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/universalrobots-ur5e-front.png",
+          "image_sha256": "8c9b26560690e078e7dbdc64dbbd51b576dd63ef9f38268055f14e88a899f3f0",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "5ad7314a474c40e127595d1bf5ef26e617988c2b5b5f81df6911552e97daebec",
+          "source_json_sha256": "e9e61b9a5905c4c1983dda1cc3a9dc7b4b204064f7b7bc3545b14f01c9e1dd34",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+          "actual_review_note": "Broad cylinder highlights and joint rings remain aligned and fully contained.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/universalrobots-ur5e-rear.png",
+          "image_sha256": "4b16b051e56ee596b697eee0611a061bb71af65d4eae21cff388238356d24a1a",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "e031f339166535b30ba0b3c6115b97f04b5462e15ddabf9af0e69c052a2b5b68",
+          "source_json_sha256": "24827e9e622567d4b52e739a968e5de823cb322269f21788dc3e623201a56e30",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+          "actual_review_note": "Rear housings, rubber rings and blue covers remain visible without missing backs.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/universalrobots-ur5e-top.png",
+          "image_sha256": "530bcdbda64e1fc450df5b17ab57e553e420b9388946a1e8b3ed3642f9e7c355",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "bd773c5f298962d9e17b5ba66570d5355543421040b6de813d30a1a4eeabc470",
+          "source_json_sha256": "eb7a2b96c0c9a734387fcdec33300dbc4695d5139fb94384ed2a661b8992c5e5",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+          "actual_review_note": "Offset joints and parallel cylindrical sections remain coherent; no isolated unexplained gap observed.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:57:31.303792+00:00",
+      "review_note": "Four-view silver/gray shell, blue caps and black rubber rings remain coherent. Cylinder highlights are continuous and end flanges remain attached; no conspicuous broad triangular stripe observed at contact scale.",
+      "findings": []
+    },
+    {
+      "id": "realsense-realsense-d405",
+      "label": "RealSense / RealSense_D405",
+      "urdf": "CameraModel/RealSense/RealSense_D405/RealSense_D405.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d405-hero.png",
+          "image_sha256": "fb4a28ed496cf4d93937b151b1aaf28dc78357bf8b351212bfb31709e1f2ce02",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "82cfb71b26ffb80d1b8b3afc46c23bd9764866fe721587209fbaf0fefb66bbe8",
+          "source_json_sha256": "1bad738946a4dea13dd51502e017a755c3c2523d5224ee83e9c5d889ba2f69f0",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+          "actual_review_note": "Rounded broad housing panel and perimeter seam remain intact; panel appears plain gray.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d405-front.png",
+          "image_sha256": "09524161d1621521c501e5db7036565fac755fdafd5150f34d65cc42cd82378d",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "d3f13436a73fa1e637a891ee2ad2265aa8efbc4f6d98a1943f0f522b11a0ea96",
+          "source_json_sha256": "ff32e47c9c7b891ac21284ac76808a06f9117809a4c6148bae590c037faa1bfd",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+          "actual_review_note": "Named front world-axis view shows narrow side profile; shell seam and outer silhouette are continuous.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d405-rear.png",
+          "image_sha256": "ce8fcb9cdc3de7b493b0ac5dc8b45a7a0ea2a0f71c372598fad326aa1d8425ef",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "ce3f92703001acfe80173d62489cfa3389b6c755b32352001a499be7ec7e6843",
+          "source_json_sha256": "f729f1cd72bf4a8eb63bfd2e9f1d47ffc551aba32874fc799ccef27277b50fb5",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+          "actual_review_note": "USB-style connector aperture, screw holes and rear shell panel remain bounded and legible.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d405-top.png",
+          "image_sha256": "6b05901beab608a9dfbcbdbc6508aeb80e8a0c70333565783adc94d39ef9e37a",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "990c96335024beadfa7ff304da037d99e14b00bf68d2443ef17ace3d6144b0ef",
+          "source_json_sha256": "4a69bdbaedc938f2e87d537002a8c9eda3a7ad451269d79861076e0668f2f41a",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-09.png",
+          "actual_review_note": "Edge-on housing outline and central seam remain coherent without clipping.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:57:31.303794+00:00",
+      "review_note": "Gray housing-level camera asset is complete across four world-axis views; rounded shell, connector aperture and mounting holes are visible. Optics/markings are not resolved on the broad blank panel in these renders; Camera assets are baseline-byte-protected, so this is recorded as a source/detail limitation rather than a newly introduced robot-mesh change.",
+      "findings": [
+        {
+          "type": "source_detail_limit",
+          "status": "baseline_camera_bytes_unchanged",
+          "description": "Housing-level gray appearance; front optical/brand detail is not visually resolved in the broad-panel view. No new hole or shell loss observed."
+        }
+      ]
+    },
+    {
+      "id": "realsense-realsense-d415",
+      "label": "RealSense / RealSense_D415",
+      "urdf": "CameraModel/RealSense/RealSense_D415/RealSense_D415.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d415-hero.png",
+          "image_sha256": "9300a31ebfa47425b04f4f4bb2b2f0a51473fa3a7f5652480eb880f249cfb8e5",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "33bf4563faf66881942603c218498f5052818c0f6535978c32404f6762a14a38",
+          "source_json_sha256": "b77f1601bd1119f516749287c8c1e4ddac661f7e8224d38bfdb78d182d22fbf3",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+          "actual_review_note": "Rounded broad panel, top vent ribs and perimeter housing seam remain bounded.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d415-front.png",
+          "image_sha256": "d4a4d19c6805d69968dac0fff1270d7bdffdb6715eeb583621c9da03d0e88942",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "eb58bbec25276bd833e930977b86f9bb12c04d64fc1fbcaa96cfac4bba4f755c",
+          "source_json_sha256": "42b458d4b3a19ca5cafa91101aa06258363da06f2659738f406e6bb6c8138fa8",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+          "actual_review_note": "Edge-on connector opening and mounting holes are visible; casing silhouette is continuous.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d415-rear.png",
+          "image_sha256": "3761992d47c6cba5928e04c5cdd1b4146cbabd076279e34c02815f11f4e0f05a",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "d5c44211e343ae3e947b20ae42bf317fc80def16ac535dd14ac4608e8da3b822",
+          "source_json_sha256": "55da641133d5a277c92aacb7fe329ddf12bc0d3ece309280c55e478ba70c71a9",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+          "actual_review_note": "Rear panel and mounting holes retain coherent surfaces and seams.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d415-top.png",
+          "image_sha256": "489f34f1eee283b9516eb44a99935fb8ddf52f2c3a5bb43e91d551657c78197c",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "00c8c5af9e1ba0cf3223deedb907b76486f71e065e851bab480b95280023276c",
+          "source_json_sha256": "c753f4872c1f07afaf9ece6d9a5ae845a4d795131a584c724332dd5d9be149f9",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+          "actual_review_note": "Vent slots and panel edge remain continuous; dark/gray slots follow existing recessed geometry.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:58:05.965309+00:00",
+      "review_note": "Gray camera housing, ventilation slots, connector aperture and rear mounting holes remain intact in four views. Broad front panel appears plain; camera files are baseline-byte-identical and this housing-level appearance is a source detail limit.",
+      "findings": [
+        {
+          "type": "source_detail_limit",
+          "status": "baseline_camera_bytes_unchanged",
+          "description": "Broad panel lacks visually resolved optical/branding detail in this gray housing asset; no new shell loss observed."
+        }
+      ]
+    },
+    {
+      "id": "realsense-realsense-d435",
+      "label": "RealSense / RealSense_D435",
+      "urdf": "CameraModel/RealSense/RealSense_D435/RealSense_D435.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d435-hero.png",
+          "image_sha256": "adb507dfd1bb1c202b79ec445bc90f68470dbdbf9b93793804aa294311f87962",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "d7228652865cf3b6ad5755fd7896baeb9a7a3699e5b599c43224fc75cb763be9",
+          "source_json_sha256": "604fcb268da80e2417f002fd6894544f8a37b9607fc6824f6e28fe4f70dd84d4",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+          "actual_review_note": "Multiple circular optical recesses and rounded front bezel remain bounded.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d435-front.png",
+          "image_sha256": "ab9a3b5ded78abaa6c9ada21bd0681581b543324d7f097826a259907aaf7aaef",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "31dd46876101713f33b85b0aca3d4906110c1d287ee65c8d691daae526dbdc2e",
+          "source_json_sha256": "acba79ac0bd9060cb8836392788a4c10a4ceeafb7e4d243f2d3c92b3f164332b",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+          "actual_review_note": "Connector-side aperture, screw holes and dense vent rib geometry remain visible.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d435-rear.png",
+          "image_sha256": "41516fa81b9e25383dc5e75a3f4ed8dbb40c3a643a2079ba337ace18a63e1579",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "2543e105e52a4f2050adc2986c5cced769dda7ee04722e305ab5c984bd80815f",
+          "source_json_sha256": "4ef94aa1bc396df5c3871df557ddda3c220fc455c047a54281c66fc6f02d0c97",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+          "actual_review_note": "Rear panel holes and long rounded shell have coherent surfaces and a bounded panel seam.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d435-top.png",
+          "image_sha256": "275297a86ff2ea85e089fd323aefc42ee4da063c0c3b755f1db3337f626bebae",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "68b1e91e9938bde92906a1c209bd3b92284f3197418c0ec4179bf4feeae0385c",
+          "source_json_sha256": "6721e54eeb1360916ccf8795628a0fecb7a76c3da780a532de99907f382ae566",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+          "actual_review_note": "Vent slot row and housing outline remain legible, with no obvious frame clipping.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:58:05.965323+00:00",
+      "review_note": "Monochrome camera geometry includes distinct optical recesses, top vents, connector opening and rear mounting holes. Four-view shell and intended openings are coherent, without obvious new missing surfaces.",
+      "findings": []
+    },
+    {
+      "id": "realsense-realsense-d436",
+      "label": "RealSense / RealSense_D436",
+      "urdf": "CameraModel/RealSense/RealSense_D436/RealSense_D436.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d436-hero.png",
+          "image_sha256": "94062489f8402390db289b3a8b1108ebf3e0961a84a087a58308cd043e34a053",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "aedf6ede5bcbe8b50cc37f1ef6ccbb817782a327ca5fc91b3ce7cc2f7d3d5473",
+          "source_json_sha256": "dc5c9242dcbc93a42729f5ba838a7d5046bf449ddbb8ed3dc0e3ca47824cf5ea",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+          "actual_review_note": "Circular optical recesses and long rounded bezel retain complete boundaries.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d436-front.png",
+          "image_sha256": "67d7c23bfad8281cf3b96c6bafada62e4fb9661523258b363afd169039ed970d",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "338417badbb72ae0f4a1a5269df982257fbcf9ab5940efd22bd620cd39fb81a2",
+          "source_json_sha256": "fb320b4c6bab4955856105b66d50c9196508caee54268bfb47c44cf147054a94",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+          "actual_review_note": "Narrow side/connector region and dense vent ribs remain coherent.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d436-rear.png",
+          "image_sha256": "e962c3b2c37fa32e26416622608a6d1dd3837853b88aad1c5c5ed5179ff26d21",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "afd354b2ac97a0242c084410fb5d85f3a885005eefb7df659fa5a7056762917e",
+          "source_json_sha256": "6cfde710707aa2f8738fe470de6d63ea279e6de03235bbb08cf7335cba5cfffd",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+          "actual_review_note": "Rear mounting holes and top shell seam remain bounded without apparent cuts.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d436-top.png",
+          "image_sha256": "695e4622c547d4a29c043d6f763e0c701dc4e7d56235b20967ebfbecf11ba2cb",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "52dbcee3110e086c1742c179f8a0a7b59d18154275313f99a9008290399dc4f6",
+          "source_json_sha256": "faabe0542f0d39d9180be0fc3abcc5eb7805f09d2fc3862ee54a3057886dbc97",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-10.png",
+          "actual_review_note": "Vent slot row and end caps remain fully framed and continuous.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:58:05.965325+00:00",
+      "review_note": "Monochrome optical recesses, ventilation slots and rounded housing retain coherent edges across four views. This review establishes visual integrity of the unchanged source geometry, not photographic material fidelity.",
+      "findings": []
+    },
+    {
+      "id": "realsense-realsense-d455",
+      "label": "RealSense / RealSense_D455",
+      "urdf": "CameraModel/RealSense/RealSense_D455/RealSense_D455.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d455-hero.png",
+          "image_sha256": "24a5cef743c7e3ed80a973efb8520e34a905574174a426d44499b3c3eb1df080",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "e97fbd79e13ea0f557a2739f711c47873545b068beecaccd8bf3f1c4ef884638",
+          "source_json_sha256": "c7ac611f86b7a197871cc1a5865a856b88ff88507d603d4644f557c9b22599de",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+          "actual_review_note": "Rounded front bezel and shallow optical recesses remain continuous.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d455-front.png",
+          "image_sha256": "6ba5e14e3f015561350384868ee5d47876a0db64cb9700d03a1bd323511093ce",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "b9fe9bfd027b8025e4f6acfccf8909737d13efb973475bf05d6f3167c5f2cf58",
+          "source_json_sha256": "ddbef2b18ce795d08032e74a2f89e6d97674430c3b7171af972e3712685e95f2",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+          "actual_review_note": "Named front world-axis view is edge-on; curved housing profile is intact.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d455-rear.png",
+          "image_sha256": "67cdf2096cbdaeed41ea2c1c1b3aa56db406f334e20057da2754309908408c61",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "2a089c66cc9a143f87af485fc0b8ccf304950cbf2d1f24f2e1e9b4aa3c844b29",
+          "source_json_sha256": "563a8bab598213714744c0b9b34001de6e56fd2a72e370ef58ce832d7144bae8",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+          "actual_review_note": "Broad rear panel and lower housing seam retain coherent boundaries.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d455-top.png",
+          "image_sha256": "40eb38608912966fc4945742f41d934e9f471ad3596c80cab86a5aed163cb75d",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "61fe509fe512d2b275240c2c5b2dddcfd336246d6ad7bf7050a957e97ce72aa8",
+          "source_json_sha256": "529a305a44877c281ea45eed0973fcf3440fc447037e174aa27b0114569e47b7",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+          "actual_review_note": "Rounded narrow shell outline is complete and fully framed.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:58:37.432946+00:00",
+      "review_note": "Rounded monochrome camera shell and shallow circular/rectangular optical recesses retain bounded outlines. Surface/texture detail is simplified in the unchanged source asset; no new shell tear or missing region observed.",
+      "findings": []
+    },
+    {
+      "id": "realsense-realsense-d585",
+      "label": "RealSense / RealSense_D585",
+      "urdf": "CameraModel/RealSense/RealSense_D585/RealSense_D585.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d585-hero.png",
+          "image_sha256": "a55758e8f5479aa5e6879cb94aa1db5480fb894b1b42fddf0d23e8f1a26c2adf",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "5e2901ce476c0185f68843e1eab7e03e0d882bc463547b7cd6d20f8ea3c02a45",
+          "source_json_sha256": "a3c1cadcb541b095c779889c6172dba5803d38ecd25acd80daa327e23975cf6a",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+          "actual_review_note": "Optical recesses, fastener holes, hard-edged housing and vent grill remain bounded.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d585-front.png",
+          "image_sha256": "374d92c46abfaecd14904a9564d180bc21d76902dfa4ca12dab3e579e4be00c6",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "61615549cbac9f61570024b1d46697364ef579924724f52b85bcdcf171c861d8",
+          "source_json_sha256": "8a9ab8c9d8f59b2ff3dd8f5643e5976c4c98216ef2d288ef7c3d34df21981dc0",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+          "actual_review_note": "Threaded side connector, repeated vent openings and stepped housing are fully contained.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d585-rear.png",
+          "image_sha256": "bb74b9997d327f70b8073343b80c55cd3a3443a0f68c8f41ff8a3381fbd11bc6",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "0df5b1f33633858b48dd527dcc02982ecb56ead6b9b1741f8b642ba2adaf217b",
+          "source_json_sha256": "8e4e6b60b742c7c60cf306695b4583b6dba1b492dcf2ba683e46d8b3821c3ec6",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+          "actual_review_note": "Rear housing details, connector thread and long ventilation slots remain coherent.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/realsense-realsense-d585-top.png",
+          "image_sha256": "21768ebc89bdde4003d088563e851f2727d4ed3cd55f8b77daa838ba93b011cf",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "a727b2985ffa91cc003cf233ec5d5737709b68b01d963c7896ad90fdbbfadd28",
+          "source_json_sha256": "d7e17cf37936286838ca8968c6efcee3e2eb40c0298f302e1609ebd4f9bdee96",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+          "actual_review_note": "Vent grill, four mounting holes and stepped outline remain complete without clipping.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:58:37.432958+00:00",
+      "review_note": "Detailed industrial housing, optical apertures, ventilation slots and threaded connector remain coherent across four views. Hard planar surfaces and repeated slots follow the source mechanical construction.",
+      "findings": []
+    },
+    {
+      "id": "ufact-xarm6",
+      "label": "UFACTORY xArm6",
+      "urdf": "RobotModel/UFACTORY/xArm6/xArm6.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/ufact-xarm6-hero.png",
+          "image_sha256": "25ed36241db190dedbd08b1d610075c77f4fd6377a7681c86dff3a5dce78b2e4",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "39b2b6047f0cf5d9381298277fdb52614c1dc2b80d5a8bc7f8fff6a6e811dfa5",
+          "source_json_sha256": "3c3924f5d3f8dc4769f7a4065d7259694c919b3f75977cb9ba67831272129182",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+          "actual_review_note": "White shell chain, gray base and suspended wrist remain attached and fully framed.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/ufact-xarm6-front.png",
+          "image_sha256": "667c738a2c4936def6ed265397fa7852ca9035ce9a20f3e4ad7f8d1457a8d8c0",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "bbf92e356178756ce446a1f0db5759fb71fae33c07b4bbe4d157b55c3841c424",
+          "source_json_sha256": "95368235edd0894d1ec4a9f074acea594d037b1dc3c1b03d672c2b88c8d096d1",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+          "actual_review_note": "Folded link chain and gray wrist/base rings show continuous broad highlights.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/ufact-xarm6-rear.png",
+          "image_sha256": "3f30992053d6ca4c7aafcae025dcfa49648b462d1aba53c742caa66eeda1d167",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "07348d647d5f60935647b6444aad1394260527d15e44490fd0ec551629348d9f",
+          "source_json_sha256": "e2672a897bb6d99fb5067236823ba8202baf6dbcfd5090ff4f5d32f4b97b8b13",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+          "actual_review_note": "Rear white shell surfaces and exposed gray collar are intact without apparent inversion.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/ufact-xarm6-top.png",
+          "image_sha256": "d852728196bf3d6180974cb6a4de1ac95cb72b323d39b7fc75add12f22a144f4",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "21733a74314b898913fbac96dce0f4cb2f80655b925043464d02a7f4507aaf86",
+          "source_json_sha256": "1fc5a75ec9dc07981849b117fc785da5e497959352f768cefb8619409891de92",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-11.png",
+          "actual_review_note": "Overlapping folded links are consistently occluded; gray ring and rounded outer shells retain coherent edges.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:58:37.432960+00:00",
+      "review_note": "New robot inspected in four views: rounded white shells, gray base/rings and gray wrist collar remain distinct. Folded source pose causes expected overhead occlusion; visible shell outlines and joint transitions are coherent.",
+      "findings": []
+    },
+    {
+      "id": "ufact-lite6",
+      "label": "UFACTORY Lite6",
+      "urdf": "RobotModel/UFACTORY/Lite6/Lite6.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/ufact-lite6-hero.png",
+          "image_sha256": "5deaeb890eb2b866d135818a86b8c4fe9b908206c01131cb4a308a39381a371d",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "ca43e6160311b121a7aef8b7b71bb57f8cf3c83de2a5b4627d437eb9d4736102",
+          "source_json_sha256": "8415106b51829eaef87a66b3397fa7b1044b8bbbe5b737ecc827d4250ffc2b26",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+          "actual_review_note": "Folded white shell chain, gray wrist/base collar and box base are fully contained.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/ufact-lite6-front.png",
+          "image_sha256": "9e047b74dad2306c2ea1f23d602848d68c01c5e2ae74c274f6437fcfbf7444b3",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "67258fddd57e460d193d75788d1cdbb25a708348a9b137ef4e889dc7eb7ba371",
+          "source_json_sha256": "fc02d2118fc6abfc375ffac317079640200769f9a3cbb63f7384a3ab9a4f2ea9",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+          "actual_review_note": "Joint cover emblem and gray rings are visible; broad shell highlights remain continuous.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/ufact-lite6-rear.png",
+          "image_sha256": "49c5c350b8788acb471bb97bedbf53e8a4eeaee187b4cd3872b521e5295c2a89",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "01b56a895b4c59ee9e70a1bacc9a1d6c01bdf14929cbd4e707caab97d7d0664f",
+          "source_json_sha256": "92f1fb8bb1314ee9a2c130c2322c1d481d03cfd092f48bdea1e4d6f770d31892",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+          "actual_review_note": "Rear arm and base vent/detail panel remain intact without apparent inversion.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/ufact-lite6-top.png",
+          "image_sha256": "004e4876d8cee756ca966aeea8116ec58bf2ab6b92671f50844b17582fa3abf5",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "3d6cb24bd5f34846d9761b0d72f4a11520355bd6e5e1f95676bba1b2614ff75f",
+          "source_json_sha256": "52bb43a04d1f6968ae2e99c0148c3106f6ad9fe9d3f661cee22ffff318caa9fb",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+          "actual_review_note": "Overlapping folded shells and base mounting holes retain bounded outlines; no isolated missing region observed.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:59:35.640338+00:00",
+      "review_note": "New robot inspected in four views: rounded white shells, gray collars and rectangular white base remain distinct. Folded source pose creates expected top-view overlap; visible surfaces and logo/end-flange detail remain coherent.",
+      "findings": []
+    },
+    {
+      "id": "kuka-iiwa14",
+      "label": "KUKA LBR iiwa 14 R820",
+      "urdf": "RobotModel/KUKA/iiwa14/iiwa14.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-iiwa14-hero.png",
+          "image_sha256": "62f8b7e17bfccb195ffdccdf6576f09c14645625ee30912f6e5023c355917de7",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "ac38d8809ea0a45c498d0f79be526da31e53e01e997a4db848ad93eebe59c171",
+          "source_json_sha256": "283ecca28053826e1709c3280542156875812a0ba9e7c072546d870c167bfcad",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+          "actual_review_note": "Curved orange link chain, gray base and terminal plate remain connected and framed.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-iiwa14-front.png",
+          "image_sha256": "ac853ac8e92c477133da384f91a4a7f4ab5cf34b8aa1d2d268eac49d82130db2",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "ee27004603c14700924d280a4a049f5dfb7d11300d7c667e82461f905c42cb1b",
+          "source_json_sha256": "6d3feb998a95c05b0e640070e4371d7e195c8629f6c7b27870f5c218f11611f2",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+          "actual_review_note": "Rounded joint bulges and broad highlights are continuous through the posed chain.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-iiwa14-rear.png",
+          "image_sha256": "d3c955cdefa0217396f85a36c66f0b57bbf3917099713b71dc4ab12f68c003a2",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "8d2f016403c823b5b552b616fba3c8be2217a14fd4764559a1392c394ca9bf69",
+          "source_json_sha256": "269bcdf359b3bdd6e5bc9300714eef6203214ecb7abeb73fe0d3e58e90f923b0",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+          "actual_review_note": "Rear shell curves and gray base ribs remain coherent without broad backface loss.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/kuka-iiwa14-top.png",
+          "image_sha256": "73aae44236f82b4d3c8cdb7004f07f4943a873111c2bb7171000a58febbeb384",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "dee5350854a21522a0a72714e16160eb6faad6d49e7133dc084e4b5f19b3341f",
+          "source_json_sha256": "da96025d8b5b5a50d89eadffd0c25df246ab0957d6cc71a98c519ed683f6da0d",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+          "actual_review_note": "Serpentine seven-axis link shape and broad highlights remain continuous; end plate is present.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "joints": {
+        "iiwa_joint_2": 0.65,
+        "iiwa_joint_4": -1.1,
+        "iiwa_joint_6": 0.8
+      },
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:59:35.640350+00:00",
+      "review_note": "New seven-axis orange shell and gray base/flange inspected from four directions. Compound rounded link shapes carry continuous broad highlights; no conspicuous triangular stripe, cut or missing shell observed.",
+      "findings": []
+    },
+    {
+      "id": "kinova-gen3",
+      "label": "Kinova Gen3 \u00b7 7 DOF",
+      "urdf": "RobotModel/Kinova/Gen3/Gen3.urdf",
+      "views": [
+        {
+          "view": "hero",
+          "image": "/tmp/assetsmodel-session-full-previews/kinova-gen3-hero.png",
+          "image_sha256": "1cc0801617f5f3a149ea10630f96cd1c509e1b8dee61fc56ed0ebf6034a157a7",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "1eb93672d5496a9dd09339ce90250584ecb31e5660297de969e2bc9dfb9bb5ae",
+          "source_json_sha256": "a87c45c70b710eeafe20b3c898daa5ab9d951471ab31109783b6af59eeb4b519",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+          "actual_review_note": "White link chain, narrow shell seams and end flange remain complete and fully framed.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "front",
+          "image": "/tmp/assetsmodel-session-full-previews/kinova-gen3-front.png",
+          "image_sha256": "3689590d6401ae92a1498c88e178514b961d59cfdf959cfd5221bef3be2e7018",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "58b1722008b10a9f2be527d722a29a65148e8a7278cbd5143fd4d35c568809b3",
+          "source_json_sha256": "48cf89638a1468151333f0f45469772ccd84c21735d5903800864b6c3a8f351b",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+          "actual_review_note": "Long tapered link and wrist chain have continuous silhouettes; bounded planar highlight changes follow shell shape.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "rear",
+          "image": "/tmp/assetsmodel-session-full-previews/kinova-gen3-rear.png",
+          "image_sha256": "e8c770f37097b9a86e6114a19134293f1866a3df8ae7df8d159b0e3c09a2b604",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "da012229114d7e5f4953f3ef118793eb26ccabaa08976a205bbc22f9dde25acd",
+          "source_json_sha256": "0569670a7e682ff5b5fc8db6c6ee3f0909d651a8e587ecafd93207e0214e2a85",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+          "actual_review_note": "Rear curves and joint transitions remain present without obvious missing backs.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        },
+        {
+          "view": "top",
+          "image": "/tmp/assetsmodel-session-full-previews/kinova-gen3-top.png",
+          "image_sha256": "147d9722e2cd7ccf1607be7c3a530c0c5f3834cd42cfef855e2c4eb1110b986d",
+          "image_size": [
+            1000,
+            900
+          ],
+          "source_fingerprint": "1b93c56b148a2570e2f5f6ca3a2587f07950ba75255bc8187e0ceb937b1f6d46",
+          "source_json_sha256": "4c0194c34bb049e8f31f0ae6e0d4ba17c72fe47964d6a62856951dcf11a04ff5",
+          "contact": "/tmp/assetsmodel-session-full-peer-contacts/contact-12.png",
+          "actual_review_note": "Offset links, narrow ring seams and terminal flange retain coherent outlines.",
+          "full_native_inspection": false,
+          "reviewed_image_sha_still_matches": true
+        }
+      ],
+      "joints": {
+        "joint_2": 0.5,
+        "joint_4": 1.1,
+        "joint_6": -0.6
+      },
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T15:59:35.640352+00:00",
+      "review_note": "New white seven-axis arm inspected in four views. Thin circumferential shell seams and planar/rounded link transitions remain coherent; all links and terminal flange are visible without clipping.",
+      "findings": []
+    }
+  ],
+  "visual_followups": [
+    {
+      "id": "universalrobots-ur3",
+      "type": "visible_joint_shading_artifact",
+      "status": "needs_baseline_diagnosis",
+      "image": "/tmp/assetsmodel-session-full-previews/universalrobots-ur3-rear.png",
+      "regions_native_pixels": [
+        [
+          330,
+          300
+        ],
+        [
+          550,
+          350
+        ],
+        [
+          785,
+          400
+        ]
+      ],
+      "description": "Thin dark hairlines and angular/triangular highlight patches on gray shoulder, elbow and wrist transition shells; no corresponding broad silhouette hole observed.",
+      "baseline_normal_probe": "/tmp/assetsmodel-session-ur3-baseline-normal-proof.json"
+    }
+  ],
+  "source_detail_limitations": [
+    {
+      "id": "realsense-realsense-d405",
+      "type": "source_detail_limit",
+      "status": "baseline_camera_bytes_unchanged",
+      "description": "Housing-level gray appearance; front optical/brand detail is not visually resolved in the broad-panel view. No new hole or shell loss observed."
+    },
+    {
+      "id": "realsense-realsense-d415",
+      "type": "source_detail_limit",
+      "status": "baseline_camera_bytes_unchanged",
+      "description": "Broad panel lacks visually resolved optical/branding detail in this gray housing asset; no new shell loss observed."
+    }
+  ],
+  "reviewed_image_sha_mismatch_count": 0,
+  "completed_at": "2026-11-03T15:59:35.809786+00:00"
+}

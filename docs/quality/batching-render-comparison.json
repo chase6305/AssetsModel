@@ -1,0 +1,38 @@
+{
+  "scope": "KR210_L150 complete assembly, fixed studio settings, three views",
+  "comparisons": [
+    {
+      "view": "hero",
+      "resolution": [
+        1000,
+        900
+      ],
+      "mean_absolute_channel_error_255": 0.18082777777777778,
+      "rms_channel_error_255": 2.611260019394639,
+      "max_channel_error_255": 115.0,
+      "identical_pixels_percent": 96.12899999999999
+    },
+    {
+      "view": "rear",
+      "resolution": [
+        1000,
+        900
+      ],
+      "mean_absolute_channel_error_255": 0.25110444444444446,
+      "rms_channel_error_255": 3.0260236712985673,
+      "max_channel_error_255": 104.0,
+      "identical_pixels_percent": 94.50766666666667
+    },
+    {
+      "view": "top",
+      "resolution": [
+        1000,
+        900
+      ],
+      "mean_absolute_channel_error_255": 0.3724166666666667,
+      "rms_channel_error_255": 3.5751428357894035,
+      "max_channel_error_255": 108.0,
+      "identical_pixels_percent": 93.97055555555556
+    }
+  ]
+}

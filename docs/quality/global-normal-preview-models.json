@@ -1,0 +1,990 @@
+{
+  "status": "reviewed_no_visible_regression",
+  "created_at": "2026-11-03T14:17:43.533749+00:00",
+  "trial_report": "docs/quality/global-normal-trial.json",
+  "trial_report_sha256": "8cc03c101b34ccefc5032129db3a5e1946713151df3f6bb83296439115c85c7d",
+  "source_snapshot": "/tmp/assetsmodel-session-global-normal-before",
+  "candidate_overlay_snapshot": "/tmp/assetsmodel-session-global-normal-preview-after",
+  "changed_visual_glbs": 228,
+  "changed_model_directories": 45,
+  "preview_models": 45,
+  "coverage": "Every changed actual URDF visual resource is covered by at least one selected model/variant.",
+  "render_settings": {
+    "engine": "eevee",
+    "samples": 64,
+    "width": 760,
+    "height": 680,
+    "views": [
+      "hero",
+      "rear"
+    ]
+  },
+  "models": [
+    {
+      "id": "abb-irb1200-5-90",
+      "label": "ABB / IRB1200_5_90",
+      "urdf": "RobotModel/ABB/IRB1200_5_90/IRB1200_5_90.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/ABB/IRB1200_5_90/Visual/glb/Link5.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "abb-irb1200-7-70",
+      "label": "ABB / IRB1200_7_70",
+      "urdf": "RobotModel/ABB/IRB1200_7_70/IRB1200_7_70.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/ABB/IRB1200_7_70/Visual/glb/Link2.glb",
+        "RobotModel/ABB/IRB1200_7_70/Visual/glb/Link3.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "abb-irb1600-10-145",
+      "label": "ABB / IRB1600_10_145",
+      "urdf": "RobotModel/ABB/IRB1600_10_145/IRB1600_10_145.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/ABB/IRB1600_10_145/Visual/glb/BaseLink.glb",
+        "RobotModel/ABB/IRB1600_10_145/Visual/glb/Link1.glb",
+        "RobotModel/ABB/IRB1600_10_145/Visual/glb/Link2.glb",
+        "RobotModel/ABB/IRB1600_10_145/Visual/glb/Link3.glb",
+        "RobotModel/ABB/IRB1600_10_145/Visual/glb/Link5.glb",
+        "RobotModel/ABB/IRB1600_10_145/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "abb-irb1600-6-120",
+      "label": "ABB / IRB1600_6_120",
+      "urdf": "RobotModel/ABB/IRB1600_6_120/IRB1600_6_120.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/ABB/IRB1600_6_120/Visual/glb/BaseLink.glb",
+        "RobotModel/ABB/IRB1600_6_120/Visual/glb/Link1.glb",
+        "RobotModel/ABB/IRB1600_6_120/Visual/glb/Link2.glb",
+        "RobotModel/ABB/IRB1600_6_120/Visual/glb/Link3.glb",
+        "RobotModel/ABB/IRB1600_6_120/Visual/glb/Link4.glb",
+        "RobotModel/ABB/IRB1600_6_120/Visual/glb/Link5.glb",
+        "RobotModel/ABB/IRB1600_6_120/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "abb-irb2600-12-185",
+      "label": "ABB / IRB2600_12_185",
+      "urdf": "RobotModel/ABB/IRB2600_12_185/IRB2600_12_185.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/ABB/IRB2600_12_185/Visual/glb/BaseLink.glb",
+        "RobotModel/ABB/IRB2600_12_185/Visual/glb/Link1.glb",
+        "RobotModel/ABB/IRB2600_12_185/Visual/glb/Link2.glb",
+        "RobotModel/ABB/IRB2600_12_185/Visual/glb/Link3.glb",
+        "RobotModel/ABB/IRB2600_12_185/Visual/glb/Link5.glb",
+        "RobotModel/ABB/IRB2600_12_185/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "abb-irb4400l-30-243",
+      "label": "ABB / IRB4400L_30_243",
+      "urdf": "RobotModel/ABB/IRB4400L_30_243/IRB4400L_30_243.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/ABB/IRB4400L_30_243/Visual/glb/BaseLink.glb",
+        "RobotModel/ABB/IRB4400L_30_243/Visual/glb/Link1.glb",
+        "RobotModel/ABB/IRB4400L_30_243/Visual/glb/Link2.glb",
+        "RobotModel/ABB/IRB4400L_30_243/Visual/glb/Link3.glb",
+        "RobotModel/ABB/IRB4400L_30_243/Visual/glb/Link4.glb",
+        "RobotModel/ABB/IRB4400L_30_243/Visual/glb/Link5.glb",
+        "RobotModel/ABB/IRB4400L_30_243/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "abb-irb4600-20-250",
+      "label": "ABB / IRB4600_20_250",
+      "urdf": "RobotModel/ABB/IRB4600_20_250/IRB4600_20_250.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/ABB/IRB4600_20_250/Visual/glb/BaseLink.glb",
+        "RobotModel/ABB/IRB4600_20_250/Visual/glb/Link1.glb",
+        "RobotModel/ABB/IRB4600_20_250/Visual/glb/Link2.glb",
+        "RobotModel/ABB/IRB4600_20_250/Visual/glb/Link3.glb",
+        "RobotModel/ABB/IRB4600_20_250/Visual/glb/Link4.glb",
+        "RobotModel/ABB/IRB4600_20_250/Visual/glb/Link5.glb",
+        "RobotModel/ABB/IRB4600_20_250/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "abb-irb4600-40-255",
+      "label": "ABB / IRB4600_40_255",
+      "urdf": "RobotModel/ABB/IRB4600_40_255/IRB4600_40_255.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/ABB/IRB4600_40_255/Visual/glb/BaseLink.glb",
+        "RobotModel/ABB/IRB4600_40_255/Visual/glb/Link1.glb",
+        "RobotModel/ABB/IRB4600_40_255/Visual/glb/Link2.glb",
+        "RobotModel/ABB/IRB4600_40_255/Visual/glb/Link3.glb",
+        "RobotModel/ABB/IRB4600_40_255/Visual/glb/Link4.glb",
+        "RobotModel/ABB/IRB4600_40_255/Visual/glb/Link5.glb",
+        "RobotModel/ABB/IRB4600_40_255/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "ae-air10-1210",
+      "label": "AE / AIR10_1210",
+      "urdf": "RobotModel/AE/AIR10_1210/AIR10_1210.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/AE/AIR10_1210/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "ae-air10-1720",
+      "label": "AE / AIR10_1720",
+      "urdf": "RobotModel/AE/AIR10_1720/AIR10_1720.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/AE/AIR10_1720/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "ae-air12-940",
+      "label": "AE / AIR12_940",
+      "urdf": "RobotModel/AE/AIR12_940/AIR12_940.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/AE/AIR12_940/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "ae-air35-1700",
+      "label": "AE / AIR35_1700",
+      "urdf": "RobotModel/AE/AIR35_1700/AIR35_1700.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/AE/AIR35_1700/Visual/glb/Link4.glb",
+        "RobotModel/AE/AIR35_1700/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "agile-diana-7",
+      "label": "Agile / Diana_7",
+      "urdf": "RobotModel/Agile/Diana_7/Diana_7.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/Agile/Diana_7/Visual/glb/BaseLink.glb",
+        "RobotModel/Agile/Diana_7/Visual/glb/Link1.glb",
+        "RobotModel/Agile/Diana_7/Visual/glb/Link2.glb",
+        "RobotModel/Agile/Diana_7/Visual/glb/Link4.glb",
+        "RobotModel/Agile/Diana_7/Visual/glb/Link7.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "fanuc-m-710ic-70",
+      "label": "Fanuc / M_710iC_70",
+      "urdf": "RobotModel/Fanuc/M_710iC_70/M_710iC_70.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/Fanuc/M_710iC_70/Visual/glb/BaseLink.glb",
+        "RobotModel/Fanuc/M_710iC_70/Visual/glb/Link1.glb",
+        "RobotModel/Fanuc/M_710iC_70/Visual/glb/Link2.glb",
+        "RobotModel/Fanuc/M_710iC_70/Visual/glb/Link3.glb",
+        "RobotModel/Fanuc/M_710iC_70/Visual/glb/Link4.glb",
+        "RobotModel/Fanuc/M_710iC_70/Visual/glb/Link5.glb",
+        "RobotModel/Fanuc/M_710iC_70/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "fanuc-r-2000ic-165f",
+      "label": "Fanuc / R_2000iC_165F",
+      "urdf": "RobotModel/Fanuc/R_2000iC_165F/R_2000iC_165F.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/Fanuc/R_2000iC_165F/Visual/glb/BaseLink.glb",
+        "RobotModel/Fanuc/R_2000iC_165F/Visual/glb/Link1.glb",
+        "RobotModel/Fanuc/R_2000iC_165F/Visual/glb/Link2.glb",
+        "RobotModel/Fanuc/R_2000iC_165F/Visual/glb/Link3.glb",
+        "RobotModel/Fanuc/R_2000iC_165F/Visual/glb/Link4.glb",
+        "RobotModel/Fanuc/R_2000iC_165F/Visual/glb/Link5.glb",
+        "RobotModel/Fanuc/R_2000iC_165F/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "franka-fr3",
+      "label": "Franka / FR3",
+      "urdf": "RobotModel/Franka/FR3/FR3WithHand.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/Franka/FR3/Visual/glb/finger.glb",
+        "RobotModel/Franka/FR3/Visual/glb/hand.glb"
+      ],
+      "joints": {
+        "fr3_joint4": -1.8,
+        "fr3_joint6": 1.4,
+        "fr3_joint2": -0.5,
+        "fr3_joint7": 0.7,
+        "fr3_finger_joint1": 0.03
+      }
+    },
+    {
+      "id": "hans-e05",
+      "label": "Hans / E05",
+      "urdf": "RobotModel/Hans/E05/E05.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/Hans/E05/Visual/glb/BaseLink.glb",
+        "RobotModel/Hans/E05/Visual/glb/Link2.glb",
+        "RobotModel/Hans/E05/Visual/glb/Link4.glb",
+        "RobotModel/Hans/E05/Visual/glb/Link5.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "hans-e10",
+      "label": "Hans / E10",
+      "urdf": "RobotModel/Hans/E10/E10.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/Hans/E10/Visual/glb/Link4.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "kuka-kr10-r1100-2",
+      "label": "KUKA / KR10_R1100_2",
+      "urdf": "RobotModel/KUKA/KR10_R1100_2/KR10_R1100_2.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/KUKA/KR10_R1100_2/Visual/glb/Link1.glb",
+        "RobotModel/KUKA/KR10_R1100_2/Visual/glb/Link3.glb",
+        "RobotModel/KUKA/KR10_R1100_2/Visual/glb/Link5.glb",
+        "RobotModel/KUKA/KR10_R1100_2/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "kuka-kr10-r1100-sixx",
+      "label": "KUKA / KR10_R1100_sixx",
+      "urdf": "RobotModel/KUKA/KR10_R1100_sixx/KR10_R1100_sixx.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/KUKA/KR10_R1100_sixx/Visual/glb/BaseLink.glb",
+        "RobotModel/KUKA/KR10_R1100_sixx/Visual/glb/Link1.glb",
+        "RobotModel/KUKA/KR10_R1100_sixx/Visual/glb/Link2.glb",
+        "RobotModel/KUKA/KR10_R1100_sixx/Visual/glb/Link3.glb",
+        "RobotModel/KUKA/KR10_R1100_sixx/Visual/glb/Link4.glb",
+        "RobotModel/KUKA/KR10_R1100_sixx/Visual/glb/Link5.glb",
+        "RobotModel/KUKA/KR10_R1100_sixx/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "kuka-kr10-r1420",
+      "label": "KUKA / KR10_R1420",
+      "urdf": "RobotModel/KUKA/KR10_R1420/KR10_R1420.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/KUKA/KR10_R1420/Visual/glb/Link1.glb",
+        "RobotModel/KUKA/KR10_R1420/Visual/glb/Link2.glb",
+        "RobotModel/KUKA/KR10_R1420/Visual/glb/Link3.glb",
+        "RobotModel/KUKA/KR10_R1420/Visual/glb/Link4.glb",
+        "RobotModel/KUKA/KR10_R1420/Visual/glb/Link5.glb",
+        "RobotModel/KUKA/KR10_R1420/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "kuka-kr10-r900-2",
+      "label": "KUKA / KR10_R900_2",
+      "urdf": "RobotModel/KUKA/KR10_R900_2/KR10_R900_2.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/KUKA/KR10_R900_2/Visual/glb/BaseLink.glb",
+        "RobotModel/KUKA/KR10_R900_2/Visual/glb/Link1.glb",
+        "RobotModel/KUKA/KR10_R900_2/Visual/glb/Link2.glb",
+        "RobotModel/KUKA/KR10_R900_2/Visual/glb/Link3.glb",
+        "RobotModel/KUKA/KR10_R900_2/Visual/glb/Link4.glb",
+        "RobotModel/KUKA/KR10_R900_2/Visual/glb/Link5.glb",
+        "RobotModel/KUKA/KR10_R900_2/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "kuka-kr120-r2500-pro",
+      "label": "KUKA / KR120_R2500_PRO",
+      "urdf": "RobotModel/KUKA/KR120_R2500_PRO/KR120_R2500_PRO.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/BaseLink.glb",
+        "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/Link1.glb",
+        "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/Link2.glb",
+        "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/Link3.glb",
+        "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/Link4.glb",
+        "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/Link5.glb",
+        "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "kuka-kr150-2",
+      "label": "KUKA / KR150_2",
+      "urdf": "RobotModel/KUKA/KR150_2/KR150_2.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/KUKA/KR150_2/Visual/glb/Link1.glb",
+        "RobotModel/KUKA/KR150_2/Visual/glb/Link2.glb",
+        "RobotModel/KUKA/KR150_2/Visual/glb/Link3.glb",
+        "RobotModel/KUKA/KR150_2/Visual/glb/Link4.glb",
+        "RobotModel/KUKA/KR150_2/Visual/glb/Link5.glb",
+        "RobotModel/KUKA/KR150_2/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "kuka-kr150-r3100-2",
+      "label": "KUKA / KR150_R3100_2",
+      "urdf": "RobotModel/KUKA/KR150_R3100_2/KR150_R3100_2.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/KUKA/KR150_R3100_2/Visual/glb/BaseLink.glb",
+        "RobotModel/KUKA/KR150_R3100_2/Visual/glb/Link1.glb",
+        "RobotModel/KUKA/KR150_R3100_2/Visual/glb/Link2.glb",
+        "RobotModel/KUKA/KR150_R3100_2/Visual/glb/Link3.glb",
+        "RobotModel/KUKA/KR150_R3100_2/Visual/glb/Link4.glb",
+        "RobotModel/KUKA/KR150_R3100_2/Visual/glb/Link5.glb",
+        "RobotModel/KUKA/KR150_R3100_2/Visual/glb/Link6.glb"
+      ],
+      "joints": {
+        "Joint2": -1.2653637076958888
+      }
+    },
+    {
+      "id": "kuka-kr16-2",
+      "label": "KUKA / KR16_2",
+      "urdf": "RobotModel/KUKA/KR16_2/KR16_2.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/KUKA/KR16_2/Visual/glb/BaseLink.glb",
+        "RobotModel/KUKA/KR16_2/Visual/glb/Link1.glb",
+        "RobotModel/KUKA/KR16_2/Visual/glb/Link2.glb",
+        "RobotModel/KUKA/KR16_2/Visual/glb/Link3.glb",
+        "RobotModel/KUKA/KR16_2/Visual/glb/Link4.glb",
+        "RobotModel/KUKA/KR16_2/Visual/glb/Link5.glb",
+        "RobotModel/KUKA/KR16_2/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "kuka-kr3-r540",
+      "label": "KUKA / KR3_R540",
+      "urdf": "RobotModel/KUKA/KR3_R540/KR3_R540.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/KUKA/KR3_R540/Visual/glb/BaseLink.glb",
+        "RobotModel/KUKA/KR3_R540/Visual/glb/Link1.glb",
+        "RobotModel/KUKA/KR3_R540/Visual/glb/Link2.glb",
+        "RobotModel/KUKA/KR3_R540/Visual/glb/Link3.glb",
+        "RobotModel/KUKA/KR3_R540/Visual/glb/Link4.glb",
+        "RobotModel/KUKA/KR3_R540/Visual/glb/Link5.glb",
+        "RobotModel/KUKA/KR3_R540/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "kuka-kr5-arc",
+      "label": "KUKA / KR5_ARC",
+      "urdf": "RobotModel/KUKA/KR5_ARC/KR5_ARC.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/KUKA/KR5_ARC/Visual/glb/BaseLink.glb",
+        "RobotModel/KUKA/KR5_ARC/Visual/glb/Link1.glb",
+        "RobotModel/KUKA/KR5_ARC/Visual/glb/Link2.glb",
+        "RobotModel/KUKA/KR5_ARC/Visual/glb/Link3.glb",
+        "RobotModel/KUKA/KR5_ARC/Visual/glb/Link4.glb",
+        "RobotModel/KUKA/KR5_ARC/Visual/glb/Link5.glb",
+        "RobotModel/KUKA/KR5_ARC/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "kuka-kr6-r700-sixx",
+      "label": "KUKA / KR6_R700_sixx",
+      "urdf": "RobotModel/KUKA/KR6_R700_sixx/KR6_R700_sixx.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/KUKA/KR6_R700_sixx/Visual/glb/BaseLink.glb",
+        "RobotModel/KUKA/KR6_R700_sixx/Visual/glb/Link1.glb",
+        "RobotModel/KUKA/KR6_R700_sixx/Visual/glb/Link2.glb",
+        "RobotModel/KUKA/KR6_R700_sixx/Visual/glb/Link3.glb",
+        "RobotModel/KUKA/KR6_R700_sixx/Visual/glb/Link4.glb",
+        "RobotModel/KUKA/KR6_R700_sixx/Visual/glb/Link5.glb",
+        "RobotModel/KUKA/KR6_R700_sixx/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "kuka-kr6-r900-sixx",
+      "label": "KUKA / KR6_R900_sixx",
+      "urdf": "RobotModel/KUKA/KR6_R900_sixx/KR6_R900_sixx.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/KUKA/KR6_R900_sixx/Visual/glb/BaseLink.glb",
+        "RobotModel/KUKA/KR6_R900_sixx/Visual/glb/Link1.glb",
+        "RobotModel/KUKA/KR6_R900_sixx/Visual/glb/Link2.glb",
+        "RobotModel/KUKA/KR6_R900_sixx/Visual/glb/Link3.glb",
+        "RobotModel/KUKA/KR6_R900_sixx/Visual/glb/Link4.glb",
+        "RobotModel/KUKA/KR6_R900_sixx/Visual/glb/Link5.glb",
+        "RobotModel/KUKA/KR6_R900_sixx/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "motoman-gp12",
+      "label": "Motoman / GP12",
+      "urdf": "RobotModel/Motoman/GP12/GP12.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/Motoman/GP12/Visual/glb/BaseLink.glb",
+        "RobotModel/Motoman/GP12/Visual/glb/Link1.glb",
+        "RobotModel/Motoman/GP12/Visual/glb/Link2.glb",
+        "RobotModel/Motoman/GP12/Visual/glb/Link3.glb",
+        "RobotModel/Motoman/GP12/Visual/glb/Link4.glb",
+        "RobotModel/Motoman/GP12/Visual/glb/Link5.glb",
+        "RobotModel/Motoman/GP12/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "motoman-gp180",
+      "label": "Motoman / GP180",
+      "urdf": "RobotModel/Motoman/GP180/GP180.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/Motoman/GP180/Visual/glb/BaseLink.glb",
+        "RobotModel/Motoman/GP180/Visual/glb/Link1.glb",
+        "RobotModel/Motoman/GP180/Visual/glb/Link2.glb",
+        "RobotModel/Motoman/GP180/Visual/glb/Link3.glb",
+        "RobotModel/Motoman/GP180/Visual/glb/Link4.glb",
+        "RobotModel/Motoman/GP180/Visual/glb/Link5.glb",
+        "RobotModel/Motoman/GP180/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "motoman-gp180-120",
+      "label": "Motoman / GP180_120",
+      "urdf": "RobotModel/Motoman/GP180_120/GP180_120.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/Motoman/GP180_120/Visual/glb/BaseLink.glb",
+        "RobotModel/Motoman/GP180_120/Visual/glb/Link1.glb",
+        "RobotModel/Motoman/GP180_120/Visual/glb/Link2.glb",
+        "RobotModel/Motoman/GP180_120/Visual/glb/Link3.glb",
+        "RobotModel/Motoman/GP180_120/Visual/glb/Link4.glb",
+        "RobotModel/Motoman/GP180_120/Visual/glb/Link5.glb",
+        "RobotModel/Motoman/GP180_120/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "motoman-gp20hl",
+      "label": "Motoman / GP20HL",
+      "urdf": "RobotModel/Motoman/GP20HL/GP20HL.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/Motoman/GP20HL/Visual/glb/Link1.glb",
+        "RobotModel/Motoman/GP20HL/Visual/glb/Link2.glb",
+        "RobotModel/Motoman/GP20HL/Visual/glb/Link5.glb",
+        "RobotModel/Motoman/GP20HL/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "motoman-gp25",
+      "label": "Motoman / GP25",
+      "urdf": "RobotModel/Motoman/GP25/GP25.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/Motoman/GP25/Visual/glb/BaseLink.glb",
+        "RobotModel/Motoman/GP25/Visual/glb/Link1.glb",
+        "RobotModel/Motoman/GP25/Visual/glb/Link2.glb",
+        "RobotModel/Motoman/GP25/Visual/glb/Link3.glb",
+        "RobotModel/Motoman/GP25/Visual/glb/Link4.glb",
+        "RobotModel/Motoman/GP25/Visual/glb/Link5.glb",
+        "RobotModel/Motoman/GP25/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "motoman-gp7",
+      "label": "Motoman / GP7",
+      "urdf": "RobotModel/Motoman/GP7/GP7.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/Motoman/GP7/Visual/glb/BaseLink.glb",
+        "RobotModel/Motoman/GP7/Visual/glb/Link1.glb",
+        "RobotModel/Motoman/GP7/Visual/glb/Link3.glb",
+        "RobotModel/Motoman/GP7/Visual/glb/Link4.glb",
+        "RobotModel/Motoman/GP7/Visual/glb/Link5.glb",
+        "RobotModel/Motoman/GP7/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "motoman-gp8",
+      "label": "Motoman / GP8",
+      "urdf": "RobotModel/Motoman/GP8/GP8.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/Motoman/GP8/Visual/glb/BaseLink.glb",
+        "RobotModel/Motoman/GP8/Visual/glb/Link1.glb",
+        "RobotModel/Motoman/GP8/Visual/glb/Link3.glb",
+        "RobotModel/Motoman/GP8/Visual/glb/Link4.glb",
+        "RobotModel/Motoman/GP8/Visual/glb/Link5.glb",
+        "RobotModel/Motoman/GP8/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "motoman-gp88",
+      "label": "Motoman / GP88",
+      "urdf": "RobotModel/Motoman/GP88/GP88.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/Motoman/GP88/Visual/glb/BaseLink.glb",
+        "RobotModel/Motoman/GP88/Visual/glb/Link1.glb",
+        "RobotModel/Motoman/GP88/Visual/glb/Link2.glb",
+        "RobotModel/Motoman/GP88/Visual/glb/Link3.glb",
+        "RobotModel/Motoman/GP88/Visual/glb/Link4.glb",
+        "RobotModel/Motoman/GP88/Visual/glb/Link5.glb",
+        "RobotModel/Motoman/GP88/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "motoman-mh50",
+      "label": "Motoman / MH50",
+      "urdf": "RobotModel/Motoman/MH50/MH50.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/Motoman/MH50/Visual/glb/BaseLink.glb",
+        "RobotModel/Motoman/MH50/Visual/glb/Link1.glb",
+        "RobotModel/Motoman/MH50/Visual/glb/Link2.glb",
+        "RobotModel/Motoman/MH50/Visual/glb/Link3.glb",
+        "RobotModel/Motoman/MH50/Visual/glb/Link4.glb",
+        "RobotModel/Motoman/MH50/Visual/glb/Link5.glb",
+        "RobotModel/Motoman/MH50/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "rokae-sr3",
+      "label": "Rokae / SR3",
+      "urdf": "RobotModel/Rokae/SR3/SR3.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/Rokae/SR3/Visual/glb/Link4.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "rokae-sr5",
+      "label": "Rokae / SR5",
+      "urdf": "RobotModel/Rokae/SR5/SR5.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/Rokae/SR5/Visual/glb/Link4.glb",
+        "RobotModel/Rokae/SR5/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "universalrobots-ur10",
+      "label": "UniversalRobots / UR10",
+      "urdf": "RobotModel/UniversalRobots/UR10/UR10.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/UniversalRobots/UR10/Visual/glb/BaseLink.glb",
+        "RobotModel/UniversalRobots/UR10/Visual/glb/Link1.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "universalrobots-ur10e",
+      "label": "UniversalRobots / UR10e",
+      "urdf": "RobotModel/UniversalRobots/UR10e/UR10e.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/UniversalRobots/UR10e/Visual/glb/BaseLink.glb",
+        "RobotModel/UniversalRobots/UR10e/Visual/glb/Link3.glb",
+        "RobotModel/UniversalRobots/UR10e/Visual/glb/Link4.glb",
+        "RobotModel/UniversalRobots/UR10e/Visual/glb/Link5.glb",
+        "RobotModel/UniversalRobots/UR10e/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "universalrobots-ur3",
+      "label": "UniversalRobots / UR3",
+      "urdf": "RobotModel/UniversalRobots/UR3/UR3.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/UniversalRobots/UR3/Visual/glb/Link1.glb",
+        "RobotModel/UniversalRobots/UR3/Visual/glb/Link2.glb",
+        "RobotModel/UniversalRobots/UR3/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    },
+    {
+      "id": "universalrobots-ur5e",
+      "label": "UniversalRobots / UR5e",
+      "urdf": "RobotModel/UniversalRobots/UR5e/UR5e.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engine": "eevee",
+      "samples": 64,
+      "changed_visual_glbs": [
+        "RobotModel/UniversalRobots/UR5e/Visual/glb/BaseLink.glb",
+        "RobotModel/UniversalRobots/UR5e/Visual/glb/Link3.glb",
+        "RobotModel/UniversalRobots/UR5e/Visual/glb/Link4.glb",
+        "RobotModel/UniversalRobots/UR5e/Visual/glb/Link6.glb"
+      ],
+      "joints": {}
+    }
+  ],
+  "execution": {
+    "supervisor_pid": 3085043,
+    "state_path": "/tmp/assetsmodel-session-global-normal-preview-state.json",
+    "logs": {
+      "before": "/tmp/assetsmodel-session-global-normal-preview-before.log",
+      "after": "/tmp/assetsmodel-session-global-normal-preview-after.log"
+    },
+    "render_pids": {
+      "before": 3148651,
+      "after": 3148652
+    }
+  },
+  "rendered_at": "2026-11-03T14:36:34.581469+00:00",
+  "contact_sheets": [
+    {
+      "path": "/tmp/assetsmodel-session-global-normal-contact-sheets/models-01-08.jpg",
+      "models": [
+        "abb-irb1200-5-90",
+        "abb-irb1200-7-70",
+        "abb-irb1600-10-145",
+        "abb-irb1600-6-120",
+        "abb-irb2600-12-185",
+        "abb-irb4400l-30-243",
+        "abb-irb4600-20-250",
+        "abb-irb4600-40-255"
+      ],
+      "sha256": "9c15c2f4096fc2fa92d28538d16df1791bce485ff84139a6d0f5580e5bb96cc5"
+    },
+    {
+      "path": "/tmp/assetsmodel-session-global-normal-contact-sheets/models-09-16.jpg",
+      "models": [
+        "ae-air10-1210",
+        "ae-air10-1720",
+        "ae-air12-940",
+        "ae-air35-1700",
+        "agile-diana-7",
+        "fanuc-m-710ic-70",
+        "fanuc-r-2000ic-165f",
+        "franka-fr3"
+      ],
+      "sha256": "15ccd74a1ff7c39fcceb304a451e5bfc89c510622181a389a1da2f81e7e4bb89"
+    },
+    {
+      "path": "/tmp/assetsmodel-session-global-normal-contact-sheets/models-17-24.jpg",
+      "models": [
+        "hans-e05",
+        "hans-e10",
+        "kuka-kr10-r1100-2",
+        "kuka-kr10-r1100-sixx",
+        "kuka-kr10-r1420",
+        "kuka-kr10-r900-2",
+        "kuka-kr120-r2500-pro",
+        "kuka-kr150-2"
+      ],
+      "sha256": "ba84c86c1ed18a504eb2c1b351d05c2b4532fdd7997b7e0165272f96dea59624"
+    },
+    {
+      "path": "/tmp/assetsmodel-session-global-normal-contact-sheets/models-25-32.jpg",
+      "models": [
+        "kuka-kr150-r3100-2",
+        "kuka-kr16-2",
+        "kuka-kr3-r540",
+        "kuka-kr5-arc",
+        "kuka-kr6-r700-sixx",
+        "kuka-kr6-r900-sixx",
+        "motoman-gp12",
+        "motoman-gp180"
+      ],
+      "sha256": "5d7e9ab18d6aac868e3dd925c916067f5cc48925ad99c0a00679e57d8817c8c5"
+    },
+    {
+      "path": "/tmp/assetsmodel-session-global-normal-contact-sheets/models-33-40.jpg",
+      "models": [
+        "motoman-gp180-120",
+        "motoman-gp20hl",
+        "motoman-gp25",
+        "motoman-gp7",
+        "motoman-gp8",
+        "motoman-gp88",
+        "motoman-mh50",
+        "rokae-sr3"
+      ],
+      "sha256": "ae9fdbb55ef113f305d60b9874196d066a214efb38c5666eae8ce952027f5020"
+    },
+    {
+      "path": "/tmp/assetsmodel-session-global-normal-contact-sheets/models-41-45.jpg",
+      "models": [
+        "rokae-sr5",
+        "universalrobots-ur10",
+        "universalrobots-ur10e",
+        "universalrobots-ur3",
+        "universalrobots-ur5e"
+      ],
+      "sha256": "f9516b36e5c33f95b384cf74e774d709a924dcd9b120d8534e39ee208fc67566"
+    }
+  ],
+  "review_report": "docs/quality/global-normal-visual-review.json",
+  "reviewed_at": "2026-11-03T14:41:29.417533+00:00",
+  "reviewed_models": 45,
+  "reviewed_images": 180
+}

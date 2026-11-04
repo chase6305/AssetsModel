@@ -1,0 +1,8 @@
+xArm6: derived from https://github.com/xArm-Developer/xarm_ros at commit cf51617d98bc55a88d9aa735acfa43a0bbb8e425.
+Upstream license: BSD-3-Clause; full text is in LICENSE.
+Input description: xarm_description/urdf/xarm_device.urdf.xacro.
+Changes: expanded xacro; omitted ROS plugins/controllers/transmissions; converted referenced meshes
+to embedded GLB; localized resource paths; adjusted visual PBR factors. Link frames, joint axes,
+limits, valid inertia, source surface geometry and mesh origin/scale are preserved.
+Any omitted invalid source inertia is documented verbatim in provenance.json.
+Brand appearance uses the source CAD material groups. Added PBR factors are visual approximations.

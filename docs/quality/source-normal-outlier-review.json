@@ -1,0 +1,5465 @@
+{
+  "status": "closed_at_user_request_no_additional_asset_changes",
+  "generated_at": "2026-11-03T16:08:26.720498+00:00",
+  "read_only": true,
+  "source_assets_unchanged": true,
+  "source_files": [
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Collision/glb/BaseLink.glb",
+      "snapshot_sha256": "13ba0cbfc6b176924e30ec39f082d1184f48ac606f682dc20f2d6436d828dcf7",
+      "current_sha256": "13ba0cbfc6b176924e30ec39f082d1184f48ac606f682dc20f2d6436d828dcf7",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Collision/glb/Link1.glb",
+      "snapshot_sha256": "c34fd1e1ba103e84cdfa0b99e6927226f7fbcd9aa46bdfbaf73b7001fe451667",
+      "current_sha256": "c34fd1e1ba103e84cdfa0b99e6927226f7fbcd9aa46bdfbaf73b7001fe451667",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Collision/glb/Link2.glb",
+      "snapshot_sha256": "3b4f1e56cf55c9f07e1788cdb6a048dd6d14df3823af475f2fe754fd6b674e7e",
+      "current_sha256": "3b4f1e56cf55c9f07e1788cdb6a048dd6d14df3823af475f2fe754fd6b674e7e",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Collision/glb/Link3.glb",
+      "snapshot_sha256": "9a70e10fcf2b5819c3d9e55951dda78b14b065b2bcb88b90e63bab9bfe7652a9",
+      "current_sha256": "9a70e10fcf2b5819c3d9e55951dda78b14b065b2bcb88b90e63bab9bfe7652a9",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Collision/glb/Link4.glb",
+      "snapshot_sha256": "b12c7c9dd230159e131fda9ca2d101bc4cdfa9a9034e442613a24c0009f7b3f7",
+      "current_sha256": "b12c7c9dd230159e131fda9ca2d101bc4cdfa9a9034e442613a24c0009f7b3f7",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Collision/glb/Link5.glb",
+      "snapshot_sha256": "d01cdafd67b6b009a72029bef0b758fa54446088c1d7ce56a71f73281dfaeb0c",
+      "current_sha256": "d01cdafd67b6b009a72029bef0b758fa54446088c1d7ce56a71f73281dfaeb0c",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Collision/glb/Link6.glb",
+      "snapshot_sha256": "9ea00ac59716c3c476867a07c7329a1e3d5948339b69947303833f844c2cc1b9",
+      "current_sha256": "9ea00ac59716c3c476867a07c7329a1e3d5948339b69947303833f844c2cc1b9",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/M_20iA.urdf",
+      "snapshot_sha256": "d254209d721446e451e6c95b612992344e06444d5cb61a28bc6c27675ae2f7a8",
+      "current_sha256": "d254209d721446e451e6c95b612992344e06444d5cb61a28bc6c27675ae2f7a8",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Visual/glb/BaseLink.glb",
+      "snapshot_sha256": "0581fb45a8ec80bfea9a804b16e429d61c0f3c7f4b0ed5de8d0863f52f7e155b",
+      "current_sha256": "0581fb45a8ec80bfea9a804b16e429d61c0f3c7f4b0ed5de8d0863f52f7e155b",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Visual/glb/Link1.glb",
+      "snapshot_sha256": "a7236fbb75e9346df993dd3b7347732033925a8362ba8039f09a8247778a4307",
+      "current_sha256": "a7236fbb75e9346df993dd3b7347732033925a8362ba8039f09a8247778a4307",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Visual/glb/Link2.glb",
+      "snapshot_sha256": "da0f8fa3ffd61d620c80849d842858ded91219e50a468ff99cab6f44e4968958",
+      "current_sha256": "da0f8fa3ffd61d620c80849d842858ded91219e50a468ff99cab6f44e4968958",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Visual/glb/Link3.glb",
+      "snapshot_sha256": "3f74ceaa012830a4bd2886e1f07cf7da992f9d965a30e1766233a5d9a432003e",
+      "current_sha256": "3f74ceaa012830a4bd2886e1f07cf7da992f9d965a30e1766233a5d9a432003e",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Visual/glb/Link4.glb",
+      "snapshot_sha256": "a1630d45c3ac61dee5d4e7524190756c83b72a4e82ed79933fee386634a6b47f",
+      "current_sha256": "a1630d45c3ac61dee5d4e7524190756c83b72a4e82ed79933fee386634a6b47f",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Visual/glb/Link5.glb",
+      "snapshot_sha256": "2c6bdb161588c77f2eeff03faa07c54a41a3992629049efe37e6cb506cb15f4c",
+      "current_sha256": "2c6bdb161588c77f2eeff03faa07c54a41a3992629049efe37e6cb506cb15f4c",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Visual/glb/Link6.glb",
+      "snapshot_sha256": "5a095e6f609aa950f2acbe20d69b84b43783818ef7c8d18054c51261034f4547",
+      "current_sha256": "5a095e6f609aa950f2acbe20d69b84b43783818ef7c8d18054c51261034f4547",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Collision/glb/finger.glb",
+      "snapshot_sha256": "d8ad476810a774301fc1c2e6a5c8939d13273fe6710d00e73ba154216515444f",
+      "current_sha256": "d8ad476810a774301fc1c2e6a5c8939d13273fe6710d00e73ba154216515444f",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Collision/glb/hand.glb",
+      "snapshot_sha256": "9879ce3c88acae24cfeb352589a9c4e9083e1b1a13165fe02ec51d379c71831b",
+      "current_sha256": "9879ce3c88acae24cfeb352589a9c4e9083e1b1a13165fe02ec51d379c71831b",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Collision/glb/link0.glb",
+      "snapshot_sha256": "6e12b460c419bf5a44f0cb24ad611794f8464042690f2e5726770e46807e0274",
+      "current_sha256": "6e12b460c419bf5a44f0cb24ad611794f8464042690f2e5726770e46807e0274",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Collision/glb/link1.glb",
+      "snapshot_sha256": "892ce8cf979e6f7cabee0902a1cea8cb1b17c4ed3d160c7da80cf691b954e283",
+      "current_sha256": "892ce8cf979e6f7cabee0902a1cea8cb1b17c4ed3d160c7da80cf691b954e283",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Collision/glb/link2.glb",
+      "snapshot_sha256": "49998aadf09c6b0faf51b08924de98a3c4f56a97aba0d52bd2c843060285238f",
+      "current_sha256": "49998aadf09c6b0faf51b08924de98a3c4f56a97aba0d52bd2c843060285238f",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Collision/glb/link3.glb",
+      "snapshot_sha256": "abd4a8c39897a016e578edef1aaf04beb6e725dbd9f73cb3d26c94a9905a2c57",
+      "current_sha256": "abd4a8c39897a016e578edef1aaf04beb6e725dbd9f73cb3d26c94a9905a2c57",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Collision/glb/link4.glb",
+      "snapshot_sha256": "52ca2a318a09a937df953e1f021a22425783a422401d3d714c336373871f9bd7",
+      "current_sha256": "52ca2a318a09a937df953e1f021a22425783a422401d3d714c336373871f9bd7",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Collision/glb/link5.glb",
+      "snapshot_sha256": "90103e93a2f142bfedc003868378e92aa42bbaec1da56718d1f8095637df78a7",
+      "current_sha256": "90103e93a2f142bfedc003868378e92aa42bbaec1da56718d1f8095637df78a7",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Collision/glb/link6.glb",
+      "snapshot_sha256": "5c8038a413a692f3b56b90425eaa039ea16151a5986188c18a746e7859ff53d6",
+      "current_sha256": "5c8038a413a692f3b56b90425eaa039ea16151a5986188c18a746e7859ff53d6",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Collision/glb/link7.glb",
+      "snapshot_sha256": "37db4ee204edf82975c8f4b57ab0a982b91eea8cc7f6e6737f863cec21d0c7be",
+      "current_sha256": "37db4ee204edf82975c8f4b57ab0a982b91eea8cc7f6e6737f863cec21d0c7be",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/FR3.urdf",
+      "snapshot_sha256": "70fe46f30f2d19c6396b9861708533ed426c1d99a0d36563e6c7a763ffd17632",
+      "current_sha256": "70fe46f30f2d19c6396b9861708533ed426c1d99a0d36563e6c7a763ffd17632",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/FR3Hand.urdf",
+      "snapshot_sha256": "8fd9e1631c5af09bb5c24642d775f545d09f5c2e774b8ff56036bfbc921cb26f",
+      "current_sha256": "8fd9e1631c5af09bb5c24642d775f545d09f5c2e774b8ff56036bfbc921cb26f",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/FR3WithHand.urdf",
+      "snapshot_sha256": "314b595fed7444231ccf7afd94c2937555c1e6f97af3724a538244b4afce4a73",
+      "current_sha256": "314b595fed7444231ccf7afd94c2937555c1e6f97af3724a538244b4afce4a73",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/LICENSE",
+      "snapshot_sha256": "4b25434e6ec2012e28a484f1d7924a0fd1a8bf232c2be2d50d584d299d04d6d6",
+      "current_sha256": "4b25434e6ec2012e28a484f1d7924a0fd1a8bf232c2be2d50d584d299d04d6d6",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/NOTICE",
+      "snapshot_sha256": "13991525876741e3dc94c46e0afce111dc0a5c6156c89bbbefd06547b84738fd",
+      "current_sha256": "13991525876741e3dc94c46e0afce111dc0a5c6156c89bbbefd06547b84738fd",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Visual/glb/finger.glb",
+      "snapshot_sha256": "1e9b006083fbaa74db8f2122f51c2757c6ebea5cec579b3c950b835f2b830f2a",
+      "current_sha256": "1e9b006083fbaa74db8f2122f51c2757c6ebea5cec579b3c950b835f2b830f2a",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Visual/glb/hand.glb",
+      "snapshot_sha256": "05b45e816ec10aac6befb87ae2d54237e37376549874d348bf9654f3801032fd",
+      "current_sha256": "05b45e816ec10aac6befb87ae2d54237e37376549874d348bf9654f3801032fd",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Visual/glb/link0.glb",
+      "snapshot_sha256": "07d3f32833a1b4ee3af0a0088953a5d6ffb25129211880dbf3781da7273c9ca2",
+      "current_sha256": "07d3f32833a1b4ee3af0a0088953a5d6ffb25129211880dbf3781da7273c9ca2",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Visual/glb/link1.glb",
+      "snapshot_sha256": "d1867744de426ecfd4937cb8f902b0af31b76fdfe617a39b28b6770280cf4158",
+      "current_sha256": "d1867744de426ecfd4937cb8f902b0af31b76fdfe617a39b28b6770280cf4158",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Visual/glb/link2.glb",
+      "snapshot_sha256": "6ecd5f1dce6b1d7a7365fd87c18d34dc0cdbe39aabb33195240943e39213a7f8",
+      "current_sha256": "6ecd5f1dce6b1d7a7365fd87c18d34dc0cdbe39aabb33195240943e39213a7f8",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Visual/glb/link3.glb",
+      "snapshot_sha256": "f2e0ee78a7903d922a752e853208c1b3eec91337b3e90461f024a231b6984943",
+      "current_sha256": "f2e0ee78a7903d922a752e853208c1b3eec91337b3e90461f024a231b6984943",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Visual/glb/link4.glb",
+      "snapshot_sha256": "eefe01e9d045837abb59f2d8897971dde61c94b2660098f8ee3ba9c5d7ca2533",
+      "current_sha256": "eefe01e9d045837abb59f2d8897971dde61c94b2660098f8ee3ba9c5d7ca2533",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Visual/glb/link5.glb",
+      "snapshot_sha256": "4c225c5844a5d390b99ec3a902add5fdcbf4c9c300cc0edc5d532484385054f8",
+      "current_sha256": "4c225c5844a5d390b99ec3a902add5fdcbf4c9c300cc0edc5d532484385054f8",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Visual/glb/link6.glb",
+      "snapshot_sha256": "f1e73e5e1e56f868e553551acb111c9d15f8d931e3cf752e4aeea07e52ecc2de",
+      "current_sha256": "f1e73e5e1e56f868e553551acb111c9d15f8d931e3cf752e4aeea07e52ecc2de",
+      "unchanged": true
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Visual/glb/link7.glb",
+      "snapshot_sha256": "367082efda1db185b1a987abafc9c9695843fc21da34cd2435ab8de5257c2be6",
+      "current_sha256": "367082efda1db185b1a987abafc9c9695843fc21da34cd2435ab8de5257c2be6",
+      "unchanged": true
+    }
+  ],
+  "input_audit": {
+    "path": "docs/quality/visual-audit.json",
+    "sha256": "ab7e1d6b3247b9bf617e4a2835f82ac3065ecce20809b6538624fe4bfd5e54da",
+    "summary": {
+      "files": 419,
+      "errors": 0,
+      "triangles": 5637045,
+      "degenerate_triangles": 0,
+      "triangles_without_authored_normals": 0,
+      "zero_normal_vertices": 0,
+      "off_unit_normal_vertices": 0,
+      "opposed_normal_corners": 1863,
+      "textured_materials": 0
+    }
+  },
+  "scope": {
+    "models": [
+      "Franka FR3",
+      "FANUC M_20iA"
+    ],
+    "visual_glbs": 17,
+    "opposed_normal_corners": 1698,
+    "fraction_of_reported1863_corners": 0.9114331723027376,
+    "coverage_note": "This focuses the two models containing most counts. Other models, including the independent UR3 follow-up, are outside this report."
+  },
+  "geometry_and_normal_baseline_comparison": {
+    "file": "/tmp/assetsmodel-session-source-normal-outliers/baseline-outlier-comparison.json",
+    "files_checked": 17,
+    "all_ordered_PN_triangle_multiset_identical_files": 15,
+    "different_files": [
+      "FR3 hand.glb",
+      "FR3 finger.glb"
+    ],
+    "differences_explained": "The two gripper files were intentionally processed in the prior flat-shading pass and have no opposed corners. All fifteen arm/body files retain their baseline ordered P/N triangle multisets.",
+    "every_scoped_current_opposed_triangle_has_identical_ordered_PN_in_initial_baseline": true,
+    "note": "Baseline provenance does not excuse a visible defect; current actual-material renders are reviewed separately."
+  },
+  "fr3_root_numeric_evidence": {
+    "source": "/tmp/assetsmodel-session-fr3-normal-outlier-stats.json",
+    "records": [
+      {
+        "path": "RobotModel/Franka/FR3/Visual/glb/finger.glb",
+        "primitives_with_opposed": []
+      },
+      {
+        "path": "RobotModel/Franka/FR3/Visual/glb/hand.glb",
+        "primitives_with_opposed": []
+      },
+      {
+        "path": "RobotModel/Franka/FR3/Visual/glb/link0.glb",
+        "primitives_with_opposed": [
+          {
+            "mesh": 0,
+            "primitive": 0,
+            "material": "_01_Base_URDF_color_0_0_0.017",
+            "triangles": 9333,
+            "opposed_corners": 75,
+            "opposed_faces": 25,
+            "all_3_corners_opposed_faces": 25,
+            "min_dot": -0.7155393525200706,
+            "opposed_below_minus_0_5": 71,
+            "opposed_face_area_fraction": 0.0006628639742925142,
+            "opposed_face_area_m2_quantiles": [
+              1.3536269941551233e-11,
+              5.465424941465824e-08,
+              5.492387191427819e-08,
+              5.504037114896887e-08
+            ],
+            "opposed_aspect_quantiles": [
+              67.84224249221269,
+              72.88307698484884,
+              74.01933977986852,
+              74.2914839737797
+            ],
+            "opposed_altitude_to_position_ulp_quantiles": [
+              78.90228898344968,
+              4858.432330455459,
+              9695.238760805241,
+              9739.603874275288
+            ],
+            "opposed_faces_with_altitude_under_4ulp": 0,
+            "opposed_faces_with_aspect_above_100": 0
+          },
+          {
+            "mesh": 1,
+            "primitive": 0,
+            "material": "_01_Base_URDF_color_0_174_255.017",
+            "triangles": 858,
+            "opposed_corners": 3,
+            "opposed_faces": 1,
+            "all_3_corners_opposed_faces": 1,
+            "min_dot": -0.3755159479562217,
+            "opposed_below_minus_0_5": 0,
+            "opposed_face_area_fraction": 3.138592429807811e-07,
+            "opposed_face_area_m2_quantiles": [
+              7.022043671770984e-10,
+              7.022043671770984e-10,
+              7.022043671770984e-10,
+              7.022043671770984e-10
+            ],
+            "opposed_aspect_quantiles": [
+              7743.6237883178455,
+              7743.6237883178455,
+              7743.6237883178455,
+              7743.6237883178455
+            ],
+            "opposed_altitude_to_position_ulp_quantiles": [
+              53.192430769524364,
+              53.192430769524364,
+              53.192430769524364,
+              53.192430769524364
+            ],
+            "opposed_faces_with_altitude_under_4ulp": 0,
+            "opposed_faces_with_aspect_above_100": 1
+          },
+          {
+            "mesh": 2,
+            "primitive": 0,
+            "material": "_01_Base_URDF_color_192_192_192.017",
+            "triangles": 7197,
+            "opposed_corners": 3,
+            "opposed_faces": 1,
+            "all_3_corners_opposed_faces": 1,
+            "min_dot": -0.11694399789378603,
+            "opposed_below_minus_0_5": 0,
+            "opposed_face_area_fraction": 2.330930286745675e-09,
+            "opposed_face_area_m2_quantiles": [
+              1.3414282499437053e-11,
+              1.3414282499437053e-11,
+              1.3414282499437053e-11,
+              1.3414282499437053e-11
+            ],
+            "opposed_aspect_quantiles": [
+              971.5773899513837,
+              971.5773899513837,
+              971.5773899513837,
+              971.5773899513837
+            ],
+            "opposed_altitude_to_position_ulp_quantiles": [
+              20.755596582189188,
+              20.755596582189188,
+              20.755596582189188,
+              20.755596582189188
+            ],
+            "opposed_faces_with_altitude_under_4ulp": 0,
+            "opposed_faces_with_aspect_above_100": 1
+          },
+          {
+            "mesh": 3,
+            "primitive": 0,
+            "material": "_01_Base_URDF_color_202_209_238.017",
+            "triangles": 14602,
+            "opposed_corners": 3,
+            "opposed_faces": 1,
+            "all_3_corners_opposed_faces": 1,
+            "min_dot": -0.04046226247061775,
+            "opposed_below_minus_0_5": 0,
+            "opposed_face_area_fraction": 4.722803892409138e-08,
+            "opposed_face_area_m2_quantiles": [
+              5.151193636543719e-09,
+              5.151193636543719e-09,
+              5.151193636543719e-09,
+              5.151193636543719e-09
+            ],
+            "opposed_aspect_quantiles": [
+              23686.756190699183,
+              23686.756190699183,
+              23686.756190699183,
+              23686.756190699183
+            ],
+            "opposed_altitude_to_position_ulp_quantiles": [
+              41.187112293060665,
+              41.187112293060665,
+              41.187112293060665,
+              41.187112293060665
+            ],
+            "opposed_faces_with_altitude_under_4ulp": 0,
+            "opposed_faces_with_aspect_above_100": 1
+          },
+          {
+            "mesh": 4,
+            "primitive": 0,
+            "material": "_01_Base_URDF_color_255_255_255.017",
+            "triangles": 1774,
+            "opposed_corners": 30,
+            "opposed_faces": 10,
+            "all_3_corners_opposed_faces": 10,
+            "min_dot": -1.0,
+            "opposed_below_minus_0_5": 30,
+            "opposed_face_area_fraction": 2.2018646715344344e-07,
+            "opposed_face_area_m2_quantiles": [
+              4.853339952148872e-13,
+              5.030281746698506e-13,
+              5.561148486155057e-11,
+              5.47110551307739e-10
+            ],
+            "opposed_aspect_quantiles": [
+              4.330127018922194,
+              37.442958088270544,
+              429.36569232059446,
+              3385.6484542046815
+            ],
+            "opposed_altitude_to_position_ulp_quantiles": [
+              7.386811414489669,
+              21.107371507331656,
+              60.267430485904086,
+              62.129181567466176
+            ],
+            "opposed_faces_with_altitude_under_4ulp": 0,
+            "opposed_faces_with_aspect_above_100": 2
+          },
+          {
+            "mesh": 5,
+            "primitive": 0,
+            "material": "_01_Base_URDF_color_255_66_6.017",
+            "triangles": 19121,
+            "opposed_corners": 2,
+            "opposed_faces": 2,
+            "all_3_corners_opposed_faces": 0,
+            "min_dot": -0.06325744930335851,
+            "opposed_below_minus_0_5": 0,
+            "opposed_face_area_fraction": 4.581058732108524e-08,
+            "opposed_face_area_m2_quantiles": [
+              3.3443470215388515e-11,
+              1.203478938975362e-10,
+              1.8987143284325437e-10,
+              2.072523175796839e-10
+            ],
+            "opposed_aspect_quantiles": [
+              367.3568920702745,
+              8923.930094566962,
+              15769.188656564313,
+              17480.50329706365
+            ],
+            "opposed_altitude_to_position_ulp_quantiles": [
+              3.863126256177549,
+              35.10082499580976,
+              60.09098398751553,
+              66.33852373544197
+            ],
+            "opposed_faces_with_altitude_under_4ulp": 1,
+            "opposed_faces_with_aspect_above_100": 2
+          },
+          {
+            "mesh": 6,
+            "primitive": 0,
+            "material": "_01_Base_URDF_color_64_64_64.026",
+            "triangles": 9927,
+            "opposed_corners": 50,
+            "opposed_faces": 20,
+            "all_3_corners_opposed_faces": 15,
+            "min_dot": -0.9831772240581553,
+            "opposed_below_minus_0_5": 40,
+            "opposed_face_area_fraction": 0.00014545303897530926,
+            "opposed_face_area_m2_quantiles": [
+              1.2703754581591646e-11,
+              5.432990333880283e-08,
+              3.4402167796692975e-07,
+              3.8093423024056297e-07
+            ],
+            "opposed_aspect_quantiles": [
+              23.273628583148565,
+              100.79420307149812,
+              396.4938985922284,
+              38365.37268408925
+            ],
+            "opposed_altitude_to_position_ulp_quantiles": [
+              43.68629837035826,
+              1063.9667904615767,
+              6052.125933889127,
+              6638.474135384167
+            ],
+            "opposed_faces_with_altitude_under_4ulp": 0,
+            "opposed_faces_with_aspect_above_100": 13
+          }
+        ]
+      },
+      {
+        "path": "RobotModel/Franka/FR3/Visual/glb/link1.glb",
+        "primitives_with_opposed": []
+      },
+      {
+        "path": "RobotModel/Franka/FR3/Visual/glb/link2.glb",
+        "primitives_with_opposed": []
+      },
+      {
+        "path": "RobotModel/Franka/FR3/Visual/glb/link3.glb",
+        "primitives_with_opposed": [
+          {
+            "mesh": 1,
+            "primitive": 0,
+            "material": "_04_05_ELBOW_URDF_color_64_64_64.044",
+            "triangles": 14772,
+            "opposed_corners": 147,
+            "opposed_faces": 58,
+            "all_3_corners_opposed_faces": 40,
+            "min_dot": -1.0,
+            "opposed_below_minus_0_5": 83,
+            "opposed_face_area_fraction": 0.00014694632395454395,
+            "opposed_face_area_m2_quantiles": [
+              4.960030723264807e-12,
+              1.2813791111554898e-09,
+              1.8809163393012527e-07,
+              4.625307514021852e-07
+            ],
+            "opposed_aspect_quantiles": [
+              7.9159789206226145,
+              178.0922011658899,
+              2592.667276121419,
+              45590.35929650502
+            ],
+            "opposed_altitude_to_position_ulp_quantiles": [
+              11.126230315427248,
+              317.88268048970497,
+              7965.241344157133,
+              16872.85983918496
+            ],
+            "opposed_faces_with_altitude_under_4ulp": 0,
+            "opposed_faces_with_aspect_above_100": 35
+          }
+        ]
+      },
+      {
+        "path": "RobotModel/Franka/FR3/Visual/glb/link4.glb",
+        "primitives_with_opposed": [
+          {
+            "mesh": 1,
+            "primitive": 0,
+            "material": "_04_05_ELBOW_URDF_color_64_64_64.043",
+            "triangles": 14774,
+            "opposed_corners": 143,
+            "opposed_faces": 57,
+            "all_3_corners_opposed_faces": 39,
+            "min_dot": -1.0,
+            "opposed_below_minus_0_5": 83,
+            "opposed_face_area_fraction": 0.00015983514043411306,
+            "opposed_face_area_m2_quantiles": [
+              4.958710337518806e-12,
+              1.2214592921178322e-09,
+              2.0086098463803989e-07,
+              4.6249775218219183e-07
+            ],
+            "opposed_aspect_quantiles": [
+              7.926292594563116,
+              141.17329666389787,
+              2595.3328362156367,
+              45760.39471846189
+            ],
+            "opposed_altitude_to_position_ulp_quantiles": [
+              11.084878294608755,
+              311.2710854094921,
+              9911.611445590415,
+              17302.806203894706
+            ],
+            "opposed_faces_with_altitude_under_4ulp": 0,
+            "opposed_faces_with_aspect_above_100": 33
+          }
+        ]
+      },
+      {
+        "path": "RobotModel/Franka/FR3/Visual/glb/link5.glb",
+        "primitives_with_opposed": [
+          {
+            "mesh": 2,
+            "primitive": 0,
+            "material": "_06_LOWER_ARM_URDF_color_64_64_64.021",
+            "triangles": 16426,
+            "opposed_corners": 330,
+            "opposed_faces": 130,
+            "all_3_corners_opposed_faces": 98,
+            "min_dot": -0.9974707280603119,
+            "opposed_below_minus_0_5": 129,
+            "opposed_face_area_fraction": 1.8674004183425532e-06,
+            "opposed_face_area_m2_quantiles": [
+              4.993089275373563e-13,
+              1.4203324922837297e-10,
+              7.854322468189837e-10,
+              2.7118935006528652e-09
+            ],
+            "opposed_aspect_quantiles": [
+              2.9953755554661226,
+              4796.668747913973,
+              13759.256766092423,
+              36677.274625136204
+            ],
+            "opposed_altitude_to_position_ulp_quantiles": [
+              6.88398940416956,
+              23.130908331277922,
+              108.62085726504706,
+              440.82065546674494
+            ],
+            "opposed_faces_with_altitude_under_4ulp": 0,
+            "opposed_faces_with_aspect_above_100": 124
+          }
+        ]
+      },
+      {
+        "path": "RobotModel/Franka/FR3/Visual/glb/link6.glb",
+        "primitives_with_opposed": [
+          {
+            "mesh": 4,
+            "primitive": 0,
+            "material": "_07_WRIST_URDF_color_202_209_238.014",
+            "triangles": 16270,
+            "opposed_corners": 155,
+            "opposed_faces": 55,
+            "all_3_corners_opposed_faces": 49,
+            "min_dot": -1.0,
+            "opposed_below_minus_0_5": 115,
+            "opposed_face_area_fraction": 1.7359028218501568e-07,
+            "opposed_face_area_m2_quantiles": [
+              5.01055360396796e-13,
+              4.919622500156251e-11,
+              1.9172915081967088e-10,
+              5.076247164853002e-09
+            ],
+            "opposed_aspect_quantiles": [
+              121.27675749341634,
+              497.6784213275281,
+              5353.796498146077,
+              50490.05813078222
+            ],
+            "opposed_altitude_to_position_ulp_quantiles": [
+              3.7156823272100254,
+              71.36998066559447,
+              219.6781404828522,
+              1795.064504326129
+            ],
+            "opposed_faces_with_altitude_under_4ulp": 1,
+            "opposed_faces_with_aspect_above_100": 55
+          },
+          {
+            "mesh": 7,
+            "primitive": 0,
+            "material": "_07_WRIST_URDF_color_64_64_64.021",
+            "triangles": 25308,
+            "opposed_corners": 211,
+            "opposed_faces": 73,
+            "all_3_corners_opposed_faces": 68,
+            "min_dot": -0.9261709313130536,
+            "opposed_below_minus_0_5": 68,
+            "opposed_face_area_fraction": 0.00011595782797403993,
+            "opposed_face_area_m2_quantiles": [
+              4.066891950425023e-10,
+              1.2702501764950501e-08,
+              5.1577385432165116e-08,
+              1.23283230656388e-07
+            ],
+            "opposed_aspect_quantiles": [
+              39.40845377415228,
+              48.37022572976557,
+              227.9553532687634,
+              5392.58924984417
+            ],
+            "opposed_altitude_to_position_ulp_quantiles": [
+              106.79935063851124,
+              3010.2515482309386,
+              4046.1875168126135,
+              9359.05120295637
+            ],
+            "opposed_faces_with_altitude_under_4ulp": 0,
+            "opposed_faces_with_aspect_above_100": 12
+          }
+        ]
+      },
+      {
+        "path": "RobotModel/Franka/FR3/Visual/glb/link7.glb",
+        "primitives_with_opposed": [
+          {
+            "mesh": 0,
+            "primitive": 0,
+            "material": "_08_FLANGE_URDF_color_0_0_0.014",
+            "triangles": 6090,
+            "opposed_corners": 94,
+            "opposed_faces": 32,
+            "all_3_corners_opposed_faces": 31,
+            "min_dot": -0.9998052801207487,
+            "opposed_below_minus_0_5": 87,
+            "opposed_face_area_fraction": 0.00034902438072806786,
+            "opposed_face_area_m2_quantiles": [
+              2.0809846857421578e-10,
+              6.7036558244407505e-09,
+              7.123926725381445e-09,
+              8.030969763966555e-09
+            ],
+            "opposed_aspect_quantiles": [
+              67.82690274513409,
+              72.69475570639739,
+              230.5010570915986,
+              5208.120388107187
+            ],
+            "opposed_altitude_to_position_ulp_quantiles": [
+              94.53062228528574,
+              1718.6019389065784,
+              1773.214650590279,
+              1842.0839349030744
+            ],
+            "opposed_faces_with_altitude_under_4ulp": 0,
+            "opposed_faces_with_aspect_above_100": 5
+          },
+          {
+            "mesh": 2,
+            "primitive": 0,
+            "material": "_08_FLANGE_URDF_color_202_209_238.014",
+            "triangles": 16381,
+            "opposed_corners": 131,
+            "opposed_faces": 47,
+            "all_3_corners_opposed_faces": 39,
+            "min_dot": -0.8742658475978424,
+            "opposed_below_minus_0_5": 18,
+            "opposed_face_area_fraction": 4.9106036531558886e-05,
+            "opposed_face_area_m2_quantiles": [
+              3.1693957128479637e-12,
+              1.5733859424455997e-08,
+              1.7050380203570505e-08,
+              4.066269399584355e-08
+            ],
+            "opposed_aspect_quantiles": [
+              2.0012941439317466,
+              31.542611208685667,
+              564.6242334773502,
+              6392.029948534171
+            ],
+            "opposed_altitude_to_position_ulp_quantiles": [
+              14.528229523612707,
+              3967.1177350449366,
+              5114.399119876947,
+              7492.492062836078
+            ],
+            "opposed_faces_with_altitude_under_4ulp": 0,
+            "opposed_faces_with_aspect_above_100": 15
+          },
+          {
+            "mesh": 3,
+            "primitive": 0,
+            "material": "_08_FLANGE_URDF_color_64_64_64.021",
+            "triangles": 8382,
+            "opposed_corners": 51,
+            "opposed_faces": 17,
+            "all_3_corners_opposed_faces": 17,
+            "min_dot": -0.9999631970333267,
+            "opposed_below_minus_0_5": 18,
+            "opposed_face_area_fraction": 7.073598479934314e-05,
+            "opposed_face_area_m2_quantiles": [
+              2.0370253951566603e-10,
+              2.2469621058550777e-09,
+              2.6256055068448383e-08,
+              3.401326975627228e-08
+            ],
+            "opposed_aspect_quantiles": [
+              1.4542103658071686,
+              20.636487342170895,
+              1159.3999070946968,
+              11015.112628863153
+            ],
+            "opposed_altitude_to_position_ulp_quantiles": [
+              63.66228300555105,
+              2151.9425783086135,
+              2853.677127139236,
+              3339.9276619597117
+            ],
+            "opposed_faces_with_altitude_under_4ulp": 0,
+            "opposed_faces_with_aspect_above_100": 6
+          }
+        ]
+      }
+    ],
+    "interpretation": "High counts are mostly tiny/skinny detail/casing triangles, often all three corners opposed. Many heights exceed4float32ULP, so they are not all simple quantization noise; internal/cavity/winding details remain plausible. No automatic normal reversal is justified."
+  },
+  "m20_numeric_evidence": [
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Visual/glb/BaseLink.glb",
+      "source_sha256": "0581fb45a8ec80bfea9a804b16e429d61c0f3c7f4b0ed5de8d0863f52f7e155b",
+      "primitives": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "material": {
+            "name": "RAL9005_008-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.05448028,
+                0.05780543,
+                0.05780543,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.46
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint_dark",
+                "palette": "fanuc_m20_casting"
+              }
+            }
+          },
+          "triangles": 18742,
+          "opposed_corners": 27,
+          "opposed_faces": 27,
+          "all_three_corners_opposed_faces": 0,
+          "dot_opposed_quantiles": [
+            -0.32336512524479843,
+            -0.3022281482564427,
+            -0.041384097188711166,
+            -0.028785904124379157,
+            -0.016153336141017216,
+            -0.01615266216549832
+          ],
+          "area_fraction_of_primitive": 0.00022223574328966893,
+          "bad_area_m2_quantiles": [
+            1.6583516134694462e-07,
+            1.6589051800613724e-07,
+            6.906256722061244e-07,
+            2.2874068750311266e-05,
+            2.7533183182802232e-05,
+            2.75332462718563e-05
+          ],
+          "all_area_m2_quantiles": [
+            5.02241031133884e-11,
+            1.321530253589609e-07,
+            1.3904376254017505e-06,
+            2.87901510360342e-05,
+            0.0004996461506777017,
+            0.01986271060598943
+          ],
+          "bad_aspect_quantiles": [
+            2.201506837637927,
+            2.3763933504518286,
+            3.175205919307553,
+            17.419814608395004,
+            1169.2203057271222,
+            1573.9057381208756
+          ],
+          "bad_quality_quantiles": [
+            0.0011074130732589217,
+            0.09942992375840298,
+            0.5516285165407611,
+            0.7288569492307126,
+            0.738151919774963,
+            0.7381531370420649
+          ],
+          "bad_altitude_to_float32_ulp_quantiles": [
+            596.6787209078132,
+            4630.488983611466,
+            25409.649126398726,
+            73611.84261803214,
+            83907.67109119245,
+            83907.6717153629
+          ],
+          "bad_faces_altitude_under4ulp": 0,
+          "bad_faces_aspect_over1000": 1,
+          "bad_source_corner_normal_max_spread_degrees_quantiles": [
+            54.19392372246554,
+            68.8706389108517,
+            78.99548144793594,
+            108.1697277823317,
+            108.18615684352254,
+            108.18648488727375
+          ],
+          "edges_by_incidence": {
+            "2": 28103,
+            "1": 8,
+            "3": 4
+          },
+          "components": [
+            {
+              "faces": 2,
+              "area_m2": 5.0407460342570955e-05,
+              "area_fraction_of_primitive": 8.057964780181537e-05,
+              "face_indices": [
+                3121,
+                3122
+              ],
+              "bounds": [
+                [
+                  -0.15000000596046448,
+                  -0.12200000137090683,
+                  -0.5047850012779236
+                ],
+                [
+                  -0.14499999582767487,
+                  -0.11172399669885635,
+                  -0.5008310079574585
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 2,
+              "area_m2": 5.0406975491690685e-05,
+              "area_fraction_of_primitive": 8.057887273572588e-05,
+              "face_indices": [
+                3150,
+                3157
+              ],
+              "bounds": [
+                [
+                  -0.15000000596046448,
+                  0.11172410100698471,
+                  -0.5047850012779236
+                ],
+                [
+                  -0.14499999582767487,
+                  0.12200000137090683,
+                  -0.5008310079574585
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.32352234909483e-05,
+              "area_fraction_of_primitive": 2.1157377107099316e-05,
+              "face_indices": [
+                3138
+              ],
+              "bounds": [
+                [
+                  -0.15270790457725525,
+                  -0.12200000137090683,
+                  -0.505000114440918
+                ],
+                [
+                  -0.14000000059604645,
+                  -0.12200000137090683,
+                  -0.5029171109199524
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.32352234909483e-05,
+              "area_fraction_of_primitive": 2.1157377107099316e-05,
+              "face_indices": [
+                3162
+              ],
+              "bounds": [
+                [
+                  -0.15270790457725525,
+                  0.12200000137090683,
+                  -0.505000114440918
+                ],
+                [
+                  -0.14000000059604645,
+                  0.12200000137090683,
+                  -0.5029171109199524
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 2,
+              "area_m2": 1.2378221989628457e-06,
+              "area_fraction_of_primitive": 1.978740372076589e-06,
+              "face_indices": [
+                7051,
+                7054
+              ],
+              "bounds": [
+                [
+                  -0.15199999511241913,
+                  0.07959996908903122,
+                  -0.4628250002861023
+                ],
+                [
+                  -0.15199999511241913,
+                  0.08038704842329025,
+                  -0.46073299646377563
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 2,
+              "area_m2": 1.2378104705668136e-06,
+              "area_fraction_of_primitive": 1.9787216234624923e-06,
+              "face_indices": [
+                6495,
+                6496
+              ],
+              "bounds": [
+                [
+                  -0.15199999511241913,
+                  0.07959996908903122,
+                  -0.4542669951915741
+                ],
+                [
+                  -0.15199999511241913,
+                  0.08038704842329025,
+                  -0.45217499136924744
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 2,
+              "area_m2": 1.2377048221878795e-06,
+              "area_fraction_of_primitive": 1.9785527375652958e-06,
+              "face_indices": [
+                6357,
+                6358
+              ],
+              "bounds": [
+                [
+                  -0.15199999511241913,
+                  0.008612929843366146,
+                  -0.4628250002861023
+                ],
+                [
+                  -0.15199999511241913,
+                  0.009399949572980404,
+                  -0.46073299646377563
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 2,
+              "area_m2": 1.2376930946800258e-06,
+              "area_fraction_of_primitive": 1.978533990371011e-06,
+              "face_indices": [
+                6488,
+                6489
+              ],
+              "bounds": [
+                [
+                  -0.15199999511241913,
+                  0.008612929843366146,
+                  -0.4542669951915741
+                ],
+                [
+                  -0.15199999511241913,
+                  0.009399949572980404,
+                  -0.45217499136924744
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.2283866763863035e-06,
+              "area_fraction_of_primitive": 1.963657067326126e-06,
+              "face_indices": [
+                6639
+              ],
+              "bounds": [
+                [
+                  -0.15199999511241913,
+                  0.08433502167463303,
+                  -0.4533349871635437
+                ],
+                [
+                  -0.14900000393390656,
+                  0.08499997109174728,
+                  -0.45285698771476746
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.2283866763863035e-06,
+              "area_fraction_of_primitive": 1.963657067326126e-06,
+              "face_indices": [
+                7066
+              ],
+              "bounds": [
+                [
+                  -0.15199999511241913,
+                  0.08433502167463303,
+                  -0.4621430039405823
+                ],
+                [
+                  -0.14900000393390656,
+                  0.08499997109174728,
+                  -0.46166500449180603
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.2283861092289607e-06,
+              "area_fraction_of_primitive": 1.963656160687731e-06,
+              "face_indices": [
+                6697
+              ],
+              "bounds": [
+                [
+                  -0.15199999511241913,
+                  0.0040000081062316895,
+                  -0.4533349871635437
+                ],
+                [
+                  -0.14900000393390656,
+                  0.00466495705768466,
+                  -0.45285698771476746
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.2283861092289607e-06,
+              "area_fraction_of_primitive": 1.963656160687731e-06,
+              "face_indices": [
+                6949
+              ],
+              "bounds": [
+                [
+                  -0.15199999511241913,
+                  0.0040000081062316895,
+                  -0.4621430039405823
+                ],
+                [
+                  -0.14900000393390656,
+                  0.00466495705768466,
+                  -0.46166500449180603
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 2.4884564233522163e-07,
+              "area_fraction_of_primitive": 3.9779616112605685e-07,
+              "face_indices": [
+                4977
+              ],
+              "bounds": [
+                [
+                  0.15486210584640503,
+                  -0.02788298949599266,
+                  -0.29312899708747864
+                ],
+                [
+                  0.1579979956150055,
+                  -0.0002479630056768656,
+                  -0.28999999165534973
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 2.400516997541624e-07,
+              "area_fraction_of_primitive": 3.837384642860379e-07,
+              "face_indices": [
+                12770
+              ],
+              "bounds": [
+                [
+                  -0.17747999727725983,
+                  -0.021737929433584213,
+                  -0.40709999203681946
+                ],
+                [
+                  -0.1767171025276184,
+                  -0.020617960020899773,
+                  -0.40709999203681946
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 2.400516997541624e-07,
+              "area_fraction_of_primitive": 3.837384642860379e-07,
+              "face_indices": [
+                13040
+              ],
+              "bounds": [
+                [
+                  -0.17747999727725983,
+                  -0.021737929433584213,
+                  -0.3731001019477844
+                ],
+                [
+                  -0.1767171025276184,
+                  -0.020617960020899773,
+                  -0.3731001019477844
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 2.400406629021745e-07,
+              "area_fraction_of_primitive": 3.8372082115067696e-07,
+              "face_indices": [
+                11578
+              ],
+              "bounds": [
+                [
+                  -0.17747999727725983,
+                  0.08861804008483887,
+                  -0.3731001019477844
+                ],
+                [
+                  -0.1767171025276184,
+                  0.08973801136016846,
+                  -0.3731001019477844
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 2.400406629021745e-07,
+              "area_fraction_of_primitive": 3.8372082115067696e-07,
+              "face_indices": [
+                11846
+              ],
+              "bounds": [
+                [
+                  -0.17747999727725983,
+                  0.08861804008483887,
+                  -0.40709999203681946
+                ],
+                [
+                  -0.1767171025276184,
+                  0.08973801136016846,
+                  -0.40709999203681946
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.658929900238701e-07,
+              "area_fraction_of_primitive": 2.651908788514008e-07,
+              "face_indices": [
+                11810
+              ],
+              "bounds": [
+                [
+                  -0.17712700366973877,
+                  0.08856301754713058,
+                  -0.3682999908924103
+                ],
+                [
+                  -0.17699700593948364,
+                  0.08861005306243896,
+                  -0.3659000098705292
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.6588680997953794e-07,
+              "area_fraction_of_primitive": 2.6518099964319825e-07,
+              "face_indices": [
+                11808
+              ],
+              "bounds": [
+                [
+                  -0.17712700366973877,
+                  0.08856301754713058,
+                  -0.41429999470710754
+                ],
+                [
+                  -0.17699700593948364,
+                  0.08861005306243896,
+                  -0.4119001030921936
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.6584133946712845e-07,
+              "area_fraction_of_primitive": 2.6510831203207035e-07,
+              "face_indices": [
+                13002
+              ],
+              "bounds": [
+                [
+                  -0.17712700366973877,
+                  -0.020609909668564796,
+                  -0.3682999908924103
+                ],
+                [
+                  -0.17699700593948364,
+                  -0.020563000813126564,
+                  -0.3659000098705292
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.6583516134694462e-07,
+              "area_fraction_of_primitive": 2.6509843589974577e-07,
+              "face_indices": [
+                13004
+              ],
+              "bounds": [
+                [
+                  -0.17712700366973877,
+                  -0.020609909668564796,
+                  -0.41429999470710754
+                ],
+                [
+                  -0.17699700593948364,
+                  -0.020563000813126564,
+                  -0.4119001030921936
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            }
+          ],
+          "neighbor_comparisons": [
+            {
+              "face": 3121,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 45.418589040584216,
+              "bad_geo_to_good_geo_degrees": 79.11995846693212
+            },
+            {
+              "face": 3122,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 28.13264435043697,
+              "bad_geo_to_good_geo_degrees": 67.19212901869783
+            },
+            {
+              "face": 3138,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 8.249936594915638,
+              "bad_geo_to_good_geo_degrees": 67.803805074985
+            },
+            {
+              "face": 3150,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 41.52547400871195,
+              "bad_geo_to_good_geo_degrees": 79.11969184916904
+            },
+            {
+              "face": 3157,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 24.340949155905513,
+              "bad_geo_to_good_geo_degrees": 67.19234163898659
+            },
+            {
+              "face": 3162,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 18.560915272813226,
+              "bad_geo_to_good_geo_degrees": 58.48504971563445
+            },
+            {
+              "face": 4977,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 1.5453810346132233,
+              "bad_geo_to_good_geo_degrees": 69.50648291857118
+            },
+            {
+              "face": 6357,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 55.579293978314354,
+              "bad_geo_to_good_geo_degrees": 90.0
+            },
+            {
+              "face": 6358,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 20.07943238051351,
+              "bad_geo_to_good_geo_degrees": 65.74182497054976
+            },
+            {
+              "face": 6488,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 55.57815307084202,
+              "bad_geo_to_good_geo_degrees": 90.0
+            },
+            {
+              "face": 6489,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 20.08223150024957,
+              "bad_geo_to_good_geo_degrees": 65.74484324387876
+            },
+            {
+              "face": 6495,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 55.57639955002903,
+              "bad_geo_to_good_geo_degrees": 90.0
+            },
+            {
+              "face": 6496,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 20.08126755348743,
+              "bad_geo_to_good_geo_degrees": 65.74446998519277
+            },
+            {
+              "face": 6639,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 67.94422800477311,
+              "bad_geo_to_good_geo_degrees": 123.36039345079553
+            },
+            {
+              "face": 6697,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 67.9436004525553,
+              "bad_geo_to_good_geo_degrees": 123.36023091348702
+            },
+            {
+              "face": 6949,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 67.94414257110553,
+              "bad_geo_to_good_geo_degrees": 123.36029713577787
+            },
+            {
+              "face": 7051,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 55.57689384385604,
+              "bad_geo_to_good_geo_degrees": 90.0
+            },
+            {
+              "face": 7054,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 20.07841614222996,
+              "bad_geo_to_good_geo_degrees": 65.74145170611833
+            },
+            {
+              "face": 7066,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 67.9442899680754,
+              "bad_geo_to_good_geo_degrees": 123.36045967271822
+            },
+            {
+              "face": 11578,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 46.008041642753234,
+              "bad_geo_to_good_geo_degrees": 88.9720017990173
+            },
+            {
+              "face": 11808,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 56.8238710051536,
+              "bad_geo_to_good_geo_degrees": 4.333359008075639
+            },
+            {
+              "face": 11810,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 56.82477720058044,
+              "bad_geo_to_good_geo_degrees": 4.333467167596539
+            },
+            {
+              "face": 11846,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 46.013383112435946,
+              "bad_geo_to_good_geo_degrees": 88.972423917045
+            },
+            {
+              "face": 12770,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 46.00401673350323,
+              "bad_geo_to_good_geo_degrees": 88.97272153260509
+            },
+            {
+              "face": 13002,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 56.83194741643997,
+              "bad_geo_to_good_geo_degrees": 4.3405273200843455
+            },
+            {
+              "face": 13004,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 56.83015048967411,
+              "bad_geo_to_good_geo_degrees": 4.340418777836189
+            },
+            {
+              "face": 13040,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 46.00902420181246,
+              "bad_geo_to_good_geo_degrees": 88.97229945387402
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Visual/glb/Link1.glb",
+      "source_sha256": "a7236fbb75e9346df993dd3b7347732033925a8362ba8039f09a8247778a4307",
+      "primitives": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Visual/glb/Link2.glb",
+      "source_sha256": "da0f8fa3ffd61d620c80849d842858ded91219e50a468ff99cab6f44e4968958",
+      "primitives": [
+        {
+          "mesh": 1,
+          "primitive": 0,
+          "material": {
+            "name": "link_01_part_000_mtl_001_001-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.90466117,
+                0.59720179,
+                0.00802319,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": "fanuc_yellow"
+              }
+            }
+          },
+          "triangles": 12857,
+          "opposed_corners": 80,
+          "opposed_faces": 60,
+          "all_three_corners_opposed_faces": 1,
+          "dot_opposed_quantiles": [
+            -1.0,
+            -0.9740095321673505,
+            -0.7027964356497485,
+            -0.1720828373239154,
+            -0.009685059442921667,
+            -0.0004670290784305822
+          ],
+          "area_fraction_of_primitive": 0.0005549592899526759,
+          "bad_area_m2_quantiles": [
+            1.897634827052741e-12,
+            9.390688523403787e-10,
+            8.818420253536333e-07,
+            1.787029807965079e-05,
+            8.911210136361143e-05,
+            8.911240137483591e-05
+          ],
+          "all_area_m2_quantiles": [
+            1.4248879853795415e-12,
+            1.9547296896682554e-07,
+            2.0080026454087957e-06,
+            8.488639657431289e-05,
+            0.0008605293958127328,
+            0.03369371072301949
+          ],
+          "bad_aspect_quantiles": [
+            2.132562035819124,
+            3.7768086802475525,
+            39.666632910582095,
+            354785.03684162436,
+            12195484023.282207,
+            29733663734.119453
+          ],
+          "bad_quality_quantiles": [
+            5.825312567470913e-11,
+            4.935155717024913e-06,
+            0.05081174595655143,
+            0.45860145426177706,
+            0.8121862931977708,
+            0.8121892192402841
+          ],
+          "bad_altitude_to_float32_ulp_quantiles": [
+            0.0002752378692110751,
+            16.965562482406906,
+            6208.730865787387,
+            206442.11066553596,
+            613495.8929974014,
+            613497.9584369012
+          ],
+          "bad_faces_altitude_under4ulp": 4,
+          "bad_faces_aspect_over1000": 15,
+          "bad_source_corner_normal_max_spread_degrees_quantiles": [
+            0.0,
+            59.82122520813465,
+            132.5548359947154,
+            176.85698929892854,
+            179.66241098863418,
+            179.66241098863418
+          ],
+          "edges_by_incidence": {
+            "2": 19214,
+            "1": 119,
+            "4": 6
+          },
+          "components": [
+            {
+              "faces": 2,
+              "area_m2": 0.000178224294256071,
+              "area_fraction_of_primitive": 0.0002218941391636567,
+              "face_indices": [
+                8301,
+                8302
+              ],
+              "bounds": [
+                [
+                  0.08005499094724655,
+                  -0.16990000009536743,
+                  0.06695675104856491
+                ],
+                [
+                  0.08727400749921799,
+                  -0.1538998931646347,
+                  0.0754399225115776
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 8.911131194195478e-05,
+              "area_fraction_of_primitive": 0.00011094602975222938,
+              "face_indices": [
+                8228
+              ],
+              "bounds": [
+                [
+                  -0.08727400749921799,
+                  -0.16990000009536743,
+                  0.06695698946714401
+                ],
+                [
+                  -0.08005499094724655,
+                  -0.15389999747276306,
+                  0.07544004172086716
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 12,
+              "area_m2": 8.176005855199916e-05,
+              "area_fraction_of_primitive": 0.00010179351746681436,
+              "face_indices": [
+                1026,
+                1027,
+                1028,
+                1029,
+                1030,
+                1031,
+                1032,
+                1033,
+                1034,
+                1035,
+                1036,
+                1037
+              ],
+              "bounds": [
+                [
+                  -0.04500000923871994,
+                  -0.24551300704479218,
+                  0.1649997979402542
+                ],
+                [
+                  -0.025999000295996666,
+                  -0.2290000021457672,
+                  0.16500000655651093
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 11,
+              "area_m2": 6.38896246875159e-05,
+              "area_fraction_of_primitive": 7.954433670617573e-05,
+              "face_indices": [
+                1194,
+                1195,
+                1196,
+                1197,
+                1198,
+                1200,
+                1201,
+                1202,
+                1203,
+                1204,
+                1205
+              ],
+              "bounds": [
+                [
+                  0.025999000295996666,
+                  -0.24551300704479218,
+                  0.1649997979402542
+                ],
+                [
+                  0.044999949634075165,
+                  -0.2290000021457672,
+                  0.16500000655651093
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 2,
+              "area_m2": 6.966816649986668e-06,
+              "area_fraction_of_primitive": 8.67387799016162e-06,
+              "face_indices": [
+                10436,
+                10453
+              ],
+              "bounds": [
+                [
+                  -0.012749959714710712,
+                  -0.2545349895954132,
+                  0.09519898146390915
+                ],
+                [
+                  -0.01240294985473156,
+                  -0.24932900071144104,
+                  0.11452490091323853
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 2,
+              "area_m2": 6.621727001067563e-06,
+              "area_fraction_of_primitive": 8.244231903466092e-06,
+              "face_indices": [
+                10463,
+                10464
+              ],
+              "bounds": [
+                [
+                  0.01240301039069891,
+                  -0.2545349895954132,
+                  0.09519904106855392
+                ],
+                [
+                  0.012749959714710712,
+                  -0.24932900071144104,
+                  0.11452289670705795
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 6,
+              "area_m2": 5.668036557287124e-06,
+              "area_fraction_of_primitive": 7.056861119171023e-06,
+              "face_indices": [
+                1468,
+                1487,
+                1488,
+                1489,
+                1490,
+                1491
+              ],
+              "bounds": [
+                [
+                  0.022000009194016457,
+                  -0.2460000067949295,
+                  0.16109690070152283
+                ],
+                [
+                  0.022010980173945427,
+                  -0.24598200619220734,
+                  0.6488991975784302
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 2,
+              "area_m2": 5.145036326564719e-06,
+              "area_fraction_of_primitive": 6.405711473927926e-06,
+              "face_indices": [
+                2832,
+                2833
+              ],
+              "bounds": [
+                [
+                  -0.012749959714710712,
+                  -0.25296199321746826,
+                  0.6954749822616577
+                ],
+                [
+                  -0.01235997024923563,
+                  -0.24932900071144104,
+                  0.7089179754257202
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 2,
+              "area_m2": 5.144954329566263e-06,
+              "area_fraction_of_primitive": 6.4056093854137745e-06,
+              "face_indices": [
+                2878,
+                2879
+              ],
+              "bounds": [
+                [
+                  0.01235997024923563,
+                  -0.25296199321746826,
+                  0.6954752206802368
+                ],
+                [
+                  0.012749959714710712,
+                  -0.24932900071144104,
+                  0.7089179754257202
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.0472035457372127e-06,
+              "area_fraction_of_primitive": 1.3037971634586653e-06,
+              "face_indices": [
+                7656
+              ],
+              "bounds": [
+                [
+                  -0.1184609979391098,
+                  -0.13689999282360077,
+                  0.01915496028959751
+                ],
+                [
+                  -0.1133280023932457,
+                  -0.1368280053138733,
+                  0.039455048739910126
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 6.271522084317314e-07,
+              "area_fraction_of_primitive": 7.808217167890672e-07,
+              "face_indices": [
+                7600
+              ],
+              "bounds": [
+                [
+                  -0.11939799785614014,
+                  -0.10794290155172348,
+                  -0.032205041497945786
+                ],
+                [
+                  -0.11559800058603287,
+                  -0.10790000110864639,
+                  -0.012000019662082195
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 6.064893746104898e-07,
+              "area_fraction_of_primitive": 7.550959214221434e-07,
+              "face_indices": [
+                7601
+              ],
+              "bounds": [
+                [
+                  -0.11841800063848495,
+                  -0.13689999282360077,
+                  -0.03945498913526535
+                ],
+                [
+                  -0.1133280023932457,
+                  -0.13686689734458923,
+                  -0.01942306011915207
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 2,
+              "area_m2": 4.925121227516982e-07,
+              "area_fraction_of_primitive": 6.131911138255531e-07,
+              "face_indices": [
+                1486,
+                1492
+              ],
+              "bounds": [
+                [
+                  0.021998999640345573,
+                  -0.2460000067949295,
+                  0.16106489300727844
+                ],
+                [
+                  0.022000009194016457,
+                  -0.2460000067949295,
+                  0.6489481925964355
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 3.6197877329581277e-07,
+              "area_fraction_of_primitive": 4.5067351020386937e-07,
+              "face_indices": [
+                7653
+              ],
+              "bounds": [
+                [
+                  -0.11939790099859238,
+                  -0.10791890323162079,
+                  0.012000019662082195
+                ],
+                [
+                  -0.11559800058603287,
+                  -0.10790000110864639,
+                  0.03220497816801071
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 2.7371689912987504e-08,
+              "area_fraction_of_primitive": 3.4078505380250747e-08,
+              "face_indices": [
+                2508
+              ],
+              "bounds": [
+                [
+                  0.022000009194016457,
+                  -0.2492000013589859,
+                  0.6484941244125366
+                ],
+                [
+                  0.02203099988400936,
+                  -0.2460000067949295,
+                  0.6489163041114807
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.504718430715806e-08,
+              "area_fraction_of_primitive": 1.873415755472959e-08,
+              "face_indices": [
+                4119
+              ],
+              "bounds": [
+                [
+                  -0.1190589964389801,
+                  -0.13295400142669678,
+                  0.014999980106949806
+                ],
+                [
+                  -0.11904499679803848,
+                  -0.13189999759197235,
+                  0.015111920423805714
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.27851489154157e-08,
+              "area_fraction_of_primitive": 1.591786139205704e-08,
+              "face_indices": [
+                2585
+              ],
+              "bounds": [
+                [
+                  -0.022054970264434814,
+                  -0.2492000013589859,
+                  0.648331880569458
+                ],
+                [
+                  -0.02199994958937168,
+                  -0.24599899351596832,
+                  0.6488949060440063
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 5,
+              "area_m2": 7.271088891549088e-09,
+              "area_fraction_of_primitive": 9.052705284132458e-09,
+              "face_indices": [
+                704,
+                705,
+                707,
+                986,
+                988
+              ],
+              "bounds": [
+                [
+                  0.023430999368429184,
+                  -0.25790300965309143,
+                  0.0822368785738945
+                ],
+                [
+                  0.02387898974120617,
+                  -0.2577889859676361,
+                  0.0829470083117485
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 2,
+              "area_m2": 3.810474121410234e-09,
+              "area_fraction_of_primitive": 4.744144890599915e-09,
+              "face_indices": [
+                875,
+                987
+              ],
+              "bounds": [
+                [
+                  -0.02387898974120617,
+                  -0.25790300965309143,
+                  0.08242999762296677
+                ],
+                [
+                  -0.023589959368109703,
+                  -0.2577889859676361,
+                  0.08294694870710373
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 2,
+              "area_m2": 3.781604012570439e-09,
+              "area_fraction_of_primitive": 4.708200812519498e-09,
+              "face_indices": [
+                7789,
+                7791
+              ],
+              "bounds": [
+                [
+                  -0.11257199943065643,
+                  -0.10790000110864639,
+                  0.00982594396919012
+                ],
+                [
+                  -0.11254800111055374,
+                  -0.10790000110864639,
+                  0.010156920179724693
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 3.3393866357777135e-09,
+              "area_fraction_of_primitive": 4.157628038161102e-09,
+              "face_indices": [
+                2587
+              ],
+              "bounds": [
+                [
+                  -0.022054970264434814,
+                  -0.2492000013589859,
+                  0.648331880569458
+                ],
+                [
+                  -0.022000959143042564,
+                  -0.24599899351596832,
+                  0.6488850116729736
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.897634827052741e-12,
+              "area_fraction_of_primitive": 2.3626074556976353e-12,
+              "face_indices": [
+                3392
+              ],
+              "bounds": [
+                [
+                  0.030010990798473358,
+                  -0.21140000224113464,
+                  0.7239090204238892
+                ],
+                [
+                  0.030104929581284523,
+                  -0.21139000356197357,
+                  0.7239090204238892
+                ]
+              ],
+              "all_corners_opposed_faces": 1
+            }
+          ],
+          "neighbor_comparisons": [
+            {
+              "face": 704,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 55.29446307225388,
+              "bad_geo_to_good_geo_degrees": 40.71745590164775
+            },
+            {
+              "face": 707,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 40.45729836545053,
+              "bad_geo_to_good_geo_degrees": 72.82051156128708
+            },
+            {
+              "face": 875,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 38.83193687758915,
+              "bad_geo_to_good_geo_degrees": 74.42780843139788
+            },
+            {
+              "face": 986,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 52.74943119617536,
+              "bad_geo_to_good_geo_degrees": 57.41287195331345
+            },
+            {
+              "face": 987,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 52.688327259391144,
+              "bad_geo_to_good_geo_degrees": 57.415787020267636
+            },
+            {
+              "face": 988,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 39.6269361999353,
+              "bad_geo_to_good_geo_degrees": 59.54149015542606
+            },
+            {
+              "face": 1026,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 44.24670644070506,
+              "bad_geo_to_good_geo_degrees": 90.00000013303772
+            },
+            {
+              "face": 1027,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 41.41170907595447,
+              "bad_geo_to_good_geo_degrees": 89.96450590597402
+            },
+            {
+              "face": 1028,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 36.12818846178674,
+              "bad_geo_to_good_geo_degrees": 90.0
+            },
+            {
+              "face": 1029,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 33.42995711113512,
+              "bad_geo_to_good_geo_degrees": 89.99707605864904
+            },
+            {
+              "face": 1030,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 38.144024015417465,
+              "bad_geo_to_good_geo_degrees": 90.00198552679709
+            },
+            {
+              "face": 1031,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 31.13936515013163,
+              "bad_geo_to_good_geo_degrees": 74.60296899963213
+            },
+            {
+              "face": 1032,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 49.78933326215638,
+              "bad_geo_to_good_geo_degrees": 90.0
+            },
+            {
+              "face": 1033,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 15.05569454041925,
+              "bad_geo_to_good_geo_degrees": 90.0
+            },
+            {
+              "face": 1034,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 39.83272828118478,
+              "bad_geo_to_good_geo_degrees": 89.99907146242118
+            },
+            {
+              "face": 1035,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 51.7826554125879,
+              "bad_geo_to_good_geo_degrees": 89.99908096263286
+            },
+            {
+              "face": 1036,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 55.50077669031993,
+              "bad_geo_to_good_geo_degrees": 90.00091813492566
+            },
+            {
+              "face": 1037,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 34.784885922831776,
+              "bad_geo_to_good_geo_degrees": 90.00093416109694
+            },
+            {
+              "face": 1194,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 41.695038050146024,
+              "bad_geo_to_good_geo_degrees": 89.96198042375119
+            },
+            {
+              "face": 1195,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 47.583695678234456,
+              "bad_geo_to_good_geo_degrees": 90.00186219791193
+            },
+            {
+              "face": 1196,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 46.32035098678681,
+              "bad_geo_to_good_geo_degrees": 90.0018743011615
+            },
+            {
+              "face": 1197,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 37.089557352184386,
+              "bad_geo_to_good_geo_degrees": 90.00092204984036
+            },
+            {
+              "face": 1198,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 14.581986425574643,
+              "bad_geo_to_good_geo_degrees": 90.00187466605605
+            },
+            {
+              "face": 1200,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 46.31911378541855,
+              "bad_geo_to_good_geo_degrees": 90.00187470556831
+            },
+            {
+              "face": 1201,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 21.70830389073546,
+              "bad_geo_to_good_geo_degrees": 57.37969430721323
+            },
+            {
+              "face": 1202,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 54.46410620371878,
+              "bad_geo_to_good_geo_degrees": 90.00183943782702
+            },
+            {
+              "face": 1203,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 37.65501257711828,
+              "bad_geo_to_good_geo_degrees": 90.0
+            },
+            {
+              "face": 1204,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 55.400719029756914,
+              "bad_geo_to_good_geo_degrees": 90.00281796839963
+            },
+            {
+              "face": 1205,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 37.439084805102254,
+              "bad_geo_to_good_geo_degrees": 89.99754864889894
+            },
+            {
+              "face": 1468,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 105.88011161822409,
+              "bad_geo_to_good_geo_degrees": 2.044758104497373
+            },
+            {
+              "face": 1486,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 17.581835003554627,
+              "bad_geo_to_good_geo_degrees": 89.33874744216635
+            },
+            {
+              "face": 1487,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 73.57142170813626,
+              "bad_geo_to_good_geo_degrees": 179.03007624451124
+            },
+            {
+              "face": 1488,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 57.62523431879166,
+              "bad_geo_to_good_geo_degrees": 179.01633231484374
+            },
+            {
+              "face": 1489,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 34.832106820860744,
+              "bad_geo_to_good_geo_degrees": 93.60732001128348
+            },
+            {
+              "face": 1490,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 25.229259930544824,
+              "bad_geo_to_good_geo_degrees": 91.26961258314118
+            },
+            {
+              "face": 1491,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 44.38154888403382,
+              "bad_geo_to_good_geo_degrees": 134.83887277315145
+            },
+            {
+              "face": 1492,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 18.61342754549921,
+              "bad_geo_to_good_geo_degrees": 89.9711714845964
+            },
+            {
+              "face": 2508,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 34.221821546701754,
+              "bad_geo_to_good_geo_degrees": 5.35971162976378
+            },
+            {
+              "face": 2585,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 65.6852197413957,
+              "bad_geo_to_good_geo_degrees": 5.841517254048671
+            },
+            {
+              "face": 2587,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 37.85950315978634,
+              "bad_geo_to_good_geo_degrees": 3.322477482626831
+            },
+            {
+              "face": 2832,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 92.97843276110706,
+              "bad_geo_to_good_geo_degrees": 174.28558254962988
+            },
+            {
+              "face": 2833,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 50.476424455353865,
+              "bad_geo_to_good_geo_degrees": 12.124041925376932
+            },
+            {
+              "face": 2878,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 92.98065063381055,
+              "bad_geo_to_good_geo_degrees": 174.2810943154496
+            },
+            {
+              "face": 2879,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 50.463837059345614,
+              "bad_geo_to_good_geo_degrees": 12.131414902984154
+            },
+            {
+              "face": 3392,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 180.0,
+              "bad_geo_to_good_geo_degrees": 0.0
+            },
+            {
+              "face": 4119,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 14.860549126883964,
+              "bad_geo_to_good_geo_degrees": 176.6594824966034
+            },
+            {
+              "face": 7600,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 37.17086621312284,
+              "bad_geo_to_good_geo_degrees": 134.4478322312185
+            },
+            {
+              "face": 7601,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 57.17685033965409,
+              "bad_geo_to_good_geo_degrees": 145.22783394378496
+            },
+            {
+              "face": 7653,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 39.34403284598027,
+              "bad_geo_to_good_geo_degrees": 147.13737164930205
+            },
+            {
+              "face": 7656,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 52.12720820774413,
+              "bad_geo_to_good_geo_degrees": 133.01248731080423
+            },
+            {
+              "face": 7789,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 38.9341753724681,
+              "bad_geo_to_good_geo_degrees": 5.03335649048893
+            },
+            {
+              "face": 7791,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 29.42850852240324,
+              "bad_geo_to_good_geo_degrees": 179.93701408221142
+            },
+            {
+              "face": 8228,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 30.4460335175755,
+              "bad_geo_to_good_geo_degrees": 42.09409389743575
+            },
+            {
+              "face": 8301,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 73.30110098749445,
+              "bad_geo_to_good_geo_degrees": 129.86099537190222
+            },
+            {
+              "face": 8302,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 44.77201512491743,
+              "bad_geo_to_good_geo_degrees": 82.12992662534214
+            },
+            {
+              "face": 10436,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 40.107899765861724,
+              "bad_geo_to_good_geo_degrees": 10.224156673925783
+            },
+            {
+              "face": 10453,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 44.7440299447762,
+              "bad_geo_to_good_geo_degrees": 175.09404671571
+            },
+            {
+              "face": 10463,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 44.686559543155425,
+              "bad_geo_to_good_geo_degrees": 175.47567589667423
+            },
+            {
+              "face": 10464,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 40.03779866439085,
+              "bad_geo_to_good_geo_degrees": 9.095677006798564
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Visual/glb/Link3.glb",
+      "source_sha256": "3f74ceaa012830a4bd2886e1f07cf7da992f9d965a30e1766233a5d9a432003e",
+      "primitives": []
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Visual/glb/Link4.glb",
+      "source_sha256": "a1630d45c3ac61dee5d4e7524190756c83b72a4e82ed79933fee386634a6b47f",
+      "primitives": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "material": {
+            "name": "link_01_part_000_mtl_001_001-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.90466117,
+                0.59720179,
+                0.00802319,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": "fanuc_yellow"
+              }
+            }
+          },
+          "triangles": 6540,
+          "opposed_corners": 26,
+          "opposed_faces": 13,
+          "all_three_corners_opposed_faces": 2,
+          "dot_opposed_quantiles": [
+            -0.9988933590909153,
+            -0.6266663393157517,
+            -0.47359470604708365,
+            -0.2380390839753816,
+            -0.00016818108348763168,
+            -0.00015777328881408042
+          ],
+          "area_fraction_of_primitive": 7.054318019544744e-05,
+          "bad_area_m2_quantiles": [
+            3.1351772360659406e-12,
+            1.7129684411642373e-09,
+            1.0504213270428959e-07,
+            1.053739919925693e-05,
+            1.481209589937413e-05,
+            1.5039379480100112e-05
+          ],
+          "all_area_m2_quantiles": [
+            1.3651302310790925e-12,
+            4.381117658618381e-07,
+            2.211881601514391e-06,
+            6.915174083449168e-05,
+            0.0010126794693950903,
+            0.015061988449494886
+          ],
+          "bad_aspect_quantiles": [
+            44.56654200647221,
+            115.16051576888583,
+            357.32444728146305,
+            733174.499808024,
+            2194578947.3198223,
+            2493714840.2115083
+          ],
+          "bad_quality_quantiles": [
+            6.948214342289601e-10,
+            0.00015854230894792731,
+            0.006436580630717979,
+            0.02744593606412244,
+            0.03946932599111146,
+            0.040393801971013416
+          ],
+          "bad_altitude_to_float32_ulp_quantiles": [
+            0.0016825676826972837,
+            2.5156899368284775,
+            1627.216297054437,
+            18871.960632698927,
+            27039.89149717855,
+            27566.103310793656
+          ],
+          "bad_faces_altitude_under4ulp": 2,
+          "bad_faces_aspect_over1000": 3,
+          "bad_source_corner_normal_max_spread_degrees_quantiles": [
+            53.65191841627374,
+            53.71652370256912,
+            53.91849568389786,
+            89.73381584883163,
+            89.9932240920657,
+            89.9938176456563
+          ],
+          "edges_by_incidence": {
+            "2": 9810
+          },
+          "components": [
+            {
+              "faces": 1,
+              "area_m2": 1.5039379480100112e-05,
+              "area_fraction_of_primitive": 3.6540880400576646e-05,
+              "face_indices": [
+                2298
+              ],
+              "bounds": [
+                [
+                  0.4402560889720917,
+                  0.03599977120757103,
+                  0.0005581679870374501
+                ],
+                [
+                  0.4555000066757202,
+                  0.035999950021505356,
+                  0.033912770450115204
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.3145349640716938e-05,
+              "area_fraction_of_primitive": 3.193899387144152e-05,
+              "face_indices": [
+                2299
+              ],
+              "bounds": [
+                [
+                  0.440372109413147,
+                  0.03599977120757103,
+                  -0.03437405079603195
+                ],
+                [
+                  0.4555000066757202,
+                  0.03599989041686058,
+                  0.0005581679870374501
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.0559743341685263e-07,
+              "area_fraction_of_primitive": 2.565679781003426e-07,
+              "face_indices": [
+                5026
+              ],
+              "bounds": [
+                [
+                  0.21398089826107025,
+                  0.03125094994902611,
+                  -0.031251128762960434
+                ],
+                [
+                  0.21400010585784912,
+                  0.03674684837460518,
+                  -0.024552879855036736
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.0556751359108692e-07,
+              "area_fraction_of_primitive": 2.5649528249635457e-07,
+              "face_indices": [
+                5041
+              ],
+              "bounds": [
+                [
+                  0.2139810025691986,
+                  -0.03125106915831566,
+                  0.03125083073973656
+                ],
+                [
+                  0.21400000154972076,
+                  -0.02455306053161621,
+                  0.03674697130918503
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.0535854448610723e-07,
+              "area_fraction_of_primitive": 2.5598755442934345e-07,
+              "face_indices": [
+                5034
+              ],
+              "bounds": [
+                [
+                  0.2139810025691986,
+                  0.024552879855036736,
+                  0.03125083073973656
+                ],
+                [
+                  0.21400000154972076,
+                  0.03125094994902611,
+                  0.03674697130918503
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.052331029746415e-07,
+              "area_fraction_of_primitive": 2.556827716905475e-07,
+              "face_indices": [
+                4942
+              ],
+              "bounds": [
+                [
+                  0.21398089826107025,
+                  0.02455282025039196,
+                  -0.0367470309138298
+                ],
+                [
+                  0.2139998972415924,
+                  0.03125094994902611,
+                  -0.031251128762960434
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.0504213270428959e-07,
+              "area_fraction_of_primitive": 2.552187750330904e-07,
+              "face_indices": [
+                5033
+              ],
+              "bounds": [
+                [
+                  0.2139810025691986,
+                  0.03125094994902611,
+                  0.02455282025039196
+                ],
+                [
+                  0.2139998972415924,
+                  0.03674684837460518,
+                  0.03125083073973656
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.0492731360892716e-07,
+              "area_fraction_of_primitive": 2.549398013668635e-07,
+              "face_indices": [
+                5051
+              ],
+              "bounds": [
+                [
+                  0.21398089826107025,
+                  -0.03125106915831566,
+                  -0.0367470309138298
+                ],
+                [
+                  0.2139998972415924,
+                  -0.024553120136260986,
+                  -0.03125100955367088
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.0463942873855757e-07,
+              "area_fraction_of_primitive": 2.54240333238459e-07,
+              "face_indices": [
+                5042
+              ],
+              "bounds": [
+                [
+                  0.2139810025691986,
+                  -0.0367470309138298,
+                  0.02455282025039196
+                ],
+                [
+                  0.2139998972415924,
+                  -0.03125106915831566,
+                  0.03125083073973656
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.0429110526963002e-07,
+              "area_fraction_of_primitive": 2.5339401865243257e-07,
+              "face_indices": [
+                5050
+              ],
+              "bounds": [
+                [
+                  0.21398110687732697,
+                  -0.036747150123119354,
+                  -0.03125100955367088
+                ],
+                [
+                  0.2139998972415924,
+                  -0.03125106915831566,
+                  -0.024553000926971436
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 2,
+              "area_m2": 8.547104753282818e-09,
+              "area_fraction_of_primitive": 2.0766729968757236e-08,
+              "face_indices": [
+                3380,
+                3381
+              ],
+              "bounds": [
+                [
+                  0.32545408606529236,
+                  0.036249808967113495,
+                  0.048799868673086166
+                ],
+                [
+                  0.450545996427536,
+                  0.036249928176403046,
+                  0.048799991607666016
+                ]
+              ],
+              "all_corners_opposed_faces": 1
+            },
+            {
+              "faces": 1,
+              "area_m2": 5.218157443606615e-12,
+              "area_fraction_of_primitive": 1.2678453077835284e-11,
+              "face_indices": [
+                4127
+              ],
+              "bounds": [
+                [
+                  0.42184001207351685,
+                  0.011493859812617302,
+                  0.057855959981679916
+                ],
+                [
+                  0.421999990940094,
+                  0.011563950218260288,
+                  0.05786978825926781
+                ]
+              ],
+              "all_corners_opposed_faces": 1
+            }
+          ],
+          "neighbor_comparisons": [
+            {
+              "face": 2298,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 33.373955689720354,
+              "bad_geo_to_good_geo_degrees": 0.012545817882292207
+            },
+            {
+              "face": 2299,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 33.44283403599545,
+              "bad_geo_to_good_geo_degrees": 0.01001673743020546
+            },
+            {
+              "face": 3380,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 17.272800582673785,
+              "bad_geo_to_good_geo_degrees": 115.85919797978855
+            },
+            {
+              "face": 3381,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 17.228938650486565,
+              "bad_geo_to_good_geo_degrees": 115.86635679408111
+            },
+            {
+              "face": 4127,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 42.32020741851305,
+              "bad_geo_to_good_geo_degrees": 177.66784118660615
+            },
+            {
+              "face": 4942,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 21.440469351451924,
+              "bad_geo_to_good_geo_degrees": 122.22501662866344
+            },
+            {
+              "face": 5026,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 21.425086298391676,
+              "bad_geo_to_good_geo_degrees": 121.88053207559554
+            },
+            {
+              "face": 5033,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 21.503421512083968,
+              "bad_geo_to_good_geo_degrees": 122.5114329644952
+            },
+            {
+              "face": 5034,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 21.51053136631292,
+              "bad_geo_to_good_geo_degrees": 122.50936535854893
+            },
+            {
+              "face": 5041,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 21.51826409200648,
+              "bad_geo_to_good_geo_degrees": 122.68991848281348
+            },
+            {
+              "face": 5042,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 21.4858182030065,
+              "bad_geo_to_good_geo_degrees": 122.46682034303153
+            },
+            {
+              "face": 5050,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 21.4792322324809,
+              "bad_geo_to_good_geo_degrees": 122.38897945405864
+            },
+            {
+              "face": 5051,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 21.50563452850132,
+              "bad_geo_to_good_geo_degrees": 122.48638411901291
+            }
+          ]
+        },
+        {
+          "mesh": 1,
+          "primitive": 0,
+          "material": {
+            "name": "link_01_part_000_mtl_001_001-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.90466117,
+                0.59720179,
+                0.00802319,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": "fanuc_yellow"
+              }
+            }
+          },
+          "triangles": 1591,
+          "opposed_corners": 14,
+          "opposed_faces": 8,
+          "all_three_corners_opposed_faces": 0,
+          "dot_opposed_quantiles": [
+            -0.909366362552833,
+            -0.9050040880584829,
+            -0.8811093278975286,
+            -0.10250988590587715,
+            -0.08511438176767389,
+            -0.08483604267264716
+          ],
+          "area_fraction_of_primitive": 5.1021940805828145e-05,
+          "bad_area_m2_quantiles": [
+            2.1942118254475022e-07,
+            2.197842666552143e-07,
+            8.662132257545257e-07,
+            1.3887379522774672e-06,
+            1.3889881412367584e-06,
+            1.389015940010013e-06
+          ],
+          "all_area_m2_quantiles": [
+            1.9027618072366255e-09,
+            4.337195186861376e-07,
+            9.902733337079399e-06,
+            9.587853348068918e-05,
+            0.0013749955892731727,
+            0.013577304141271541
+          ],
+          "bad_aspect_quantiles": [
+            21.170012934372274,
+            21.186828282468298,
+            23.838806242449635,
+            33.26591005495725,
+            33.319220991349795,
+            33.325144428726745
+          ],
+          "bad_quality_quantiles": [
+            0.0638169319653248,
+            0.06393197159794117,
+            0.0966490113551584,
+            0.10867854755376279,
+            0.10875574200007293,
+            0.10876431916077406
+          ],
+          "bad_altitude_to_float32_ulp_quantiles": [
+            1925.2545093626052,
+            1928.562792519306,
+            4375.078587197184,
+            5729.322295907002,
+            5730.224039125824,
+            5730.324232816804
+          ],
+          "bad_faces_altitude_under4ulp": 0,
+          "bad_faces_aspect_over1000": 0,
+          "bad_source_corner_normal_max_spread_degrees_quantiles": [
+            18.16341358980236,
+            18.2182236573627,
+            77.15762474376504,
+            128.52583474240996,
+            150.8121969487894,
+            153.2884594161649
+          ],
+          "edges_by_incidence": {
+            "2": 2384,
+            "3": 1,
+            "1": 2
+          },
+          "components": [
+            {
+              "faces": 1,
+              "area_m2": 1.389015940010013e-06,
+              "area_fraction_of_primitive": 1.0606396794556008e-05,
+              "face_indices": [
+                1239
+              ],
+              "bounds": [
+                [
+                  0.8365730047225952,
+                  0.05797696113586426,
+                  -0.00801998283714056
+                ],
+                [
+                  0.837925910949707,
+                  0.058035958558321,
+                  0.0
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.3886188146778046e-06,
+              "area_fraction_of_primitive": 1.0603364382378981e-05,
+              "face_indices": [
+                1242
+              ],
+              "bounds": [
+                [
+                  0.8365730047225952,
+                  0.05797696113586426,
+                  0.0
+                ],
+                [
+                  0.837925910949707,
+                  0.058035958558321,
+                  0.008019684813916683
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.3876246625858134e-06,
+              "area_fraction_of_primitive": 1.0595773129278084e-05,
+              "face_indices": [
+                1245
+              ],
+              "bounds": [
+                [
+                  0.837925910949707,
+                  0.058035958558321,
+                  0.008019684813916683
+                ],
+                [
+                  0.8418341279029846,
+                  0.05820703133940697,
+                  0.015154950320720673
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.3872639412013855e-06,
+              "area_fraction_of_primitive": 1.0593018694267427e-05,
+              "face_indices": [
+                1236
+              ],
+              "bounds": [
+                [
+                  0.837925910949707,
+                  0.058035958558321,
+                  -0.015155130065977573
+                ],
+                [
+                  0.8418340086936951,
+                  0.05820709094405174,
+                  -0.00801998283714056
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 3.451625103076659e-07,
+              "area_fraction_of_primitive": 2.6356288919922276e-06,
+              "face_indices": [
+                0
+              ],
+              "bounds": [
+                [
+                  0.8843079805374146,
+                  0.05999993905425072,
+                  0.0038129088934510946
+                ],
+                [
+                  0.8851630091667175,
+                  0.060086898505687714,
+                  0.00753891421481967
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 3.447971015269772e-07,
+              "area_fraction_of_primitive": 2.63283866445879e-06,
+              "face_indices": [
+                3
+              ],
+              "bounds": [
+                [
+                  0.8843079805374146,
+                  0.05999999865889549,
+                  -0.007538973819464445
+                ],
+                [
+                  0.8851631283760071,
+                  0.06008702144026756,
+                  -0.0038128490559756756
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 2.199398741311275e-07,
+              "area_fraction_of_primitive": 1.6794404648535756e-06,
+              "face_indices": [
+                4
+              ],
+              "bounds": [
+                [
+                  0.8829041719436646,
+                  0.05999999865889549,
+                  -0.011095819994807243
+                ],
+                [
+                  0.8843079805374146,
+                  0.06004995107650757,
+                  -0.007538973819464445
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 2.1942118254475022e-07,
+              "area_fraction_of_primitive": 1.6754797840430477e-06,
+              "face_indices": [
+                5
+              ],
+              "bounds": [
+                [
+                  0.8829041123390198,
+                  0.05999993905425072,
+                  0.00753891421481967
+                ],
+                [
+                  0.8843079805374146,
+                  0.06004995107650757,
+                  0.011096109636127949
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            }
+          ],
+          "neighbor_comparisons": [
+            {
+              "face": 0,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 57.06091691682494,
+              "bad_geo_to_good_geo_degrees": 144.32725501619495
+            },
+            {
+              "face": 3,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 57.067495707402,
+              "bad_geo_to_good_geo_degrees": 144.26167987347523
+            },
+            {
+              "face": 4,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 43.16791846546061,
+              "bad_geo_to_good_geo_degrees": 152.68212609311882
+            },
+            {
+              "face": 5,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 46.35221277062696,
+              "bad_geo_to_good_geo_degrees": 155.80775338754228
+            },
+            {
+              "face": 1236,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 41.1351374698819,
+              "bad_geo_to_good_geo_degrees": 174.08043911066736
+            },
+            {
+              "face": 1239,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 11.62185603954588,
+              "bad_geo_to_good_geo_degrees": 170.64981526161054
+            },
+            {
+              "face": 1242,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 18.35692331320786,
+              "bad_geo_to_good_geo_degrees": 164.24745470396815
+            },
+            {
+              "face": 1245,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 9.766492674934621,
+              "bad_geo_to_good_geo_degrees": 139.56079486004057
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Visual/glb/Link5.glb",
+      "source_sha256": "2c6bdb161588c77f2eeff03faa07c54a41a3992629049efe37e6cb506cb15f4c",
+      "primitives": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "material": {
+            "name": "RAL9005_003-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.00200704,
+                0.00200704,
+                0.00200704,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.46
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint_dark",
+                "palette": null
+              }
+            }
+          },
+          "triangles": 4866,
+          "opposed_corners": 123,
+          "opposed_faces": 85,
+          "all_three_corners_opposed_faces": 0,
+          "dot_opposed_quantiles": [
+            -0.9717808153828328,
+            -0.8162621081328407,
+            -0.02590028137906969,
+            -0.007710518572733961,
+            -0.0018916905042247537,
+            -0.00020461510177361905
+          ],
+          "area_fraction_of_primitive": 0.047714437959979025,
+          "bad_area_m2_quantiles": [
+            3.161662368176035e-08,
+            4.2740101382153975e-08,
+            1.905463201209016e-05,
+            1.9245950533081996e-05,
+            0.0010035613892339895,
+            0.0010035634937891995
+          ],
+          "all_area_m2_quantiles": [
+            1.1599884973719292e-08,
+            1.931429353136727e-07,
+            1.3376271276621739e-06,
+            3.951566865591291e-05,
+            0.0004439026920670405,
+            0.0021039380744058635
+          ],
+          "bad_aspect_quantiles": [
+            2.01627854168708,
+            6.665271753591337,
+            6.852294553091151,
+            229.36953839320412,
+            309.8848118457128,
+            309.9997499879461
+          ],
+          "bad_quality_quantiles": [
+            0.007298172395667691,
+            0.01006822057289005,
+            0.2521570735432802,
+            0.25986161358534055,
+            0.8590327109750688,
+            0.8590334974847371
+          ],
+          "bad_altitude_to_float32_ulp_quantiles": [
+            1916.9110196391737,
+            2591.044290281849,
+            632718.8532823795,
+            641232.3739701273,
+            4234685.221848236,
+            4234694.102350159
+          ],
+          "bad_faces_altitude_under4ulp": 0,
+          "bad_faces_aspect_over1000": 0,
+          "bad_source_corner_normal_max_spread_degrees_quantiles": [
+            46.57878427845584,
+            46.64103431618672,
+            64.2697480814464,
+            124.43515993898373,
+            144.3414231465121,
+            144.3414231465121
+          ],
+          "edges_by_incidence": {
+            "2": 7299
+          },
+          "components": [
+            {
+              "faces": 4,
+              "area_m2": 0.0020760615011577383,
+              "area_fraction_of_primitive": 0.019108774572804306,
+              "face_indices": [
+                4818,
+                4819,
+                4820,
+                4821
+              ],
+              "bounds": [
+                [
+                  -0.09250003099441528,
+                  -0.022983960807323456,
+                  0.03025680035352707
+                ],
+                [
+                  -0.044749971479177475,
+                  0.020243940874934196,
+                  0.03215473145246506
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 2,
+              "area_m2": 0.00200712448215553,
+              "area_fraction_of_primitive": 0.01847425485597524,
+              "face_indices": [
+                4826,
+                4827
+              ],
+              "bounds": [
+                [
+                  -0.09250003099441528,
+                  -0.031654950231313705,
+                  -0.02101707085967064
+                ],
+                [
+                  -0.044749971479177475,
+                  -0.031654950231313705,
+                  0.02101694978773594
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 32,
+              "area_m2": 0.0006124725105609895,
+              "area_fraction_of_primitive": 0.005637404831129913,
+              "face_indices": [
+                4410,
+                4411,
+                4412,
+                4413,
+                4414,
+                4415,
+                4416,
+                4417,
+                4418,
+                4419,
+                4420,
+                4421,
+                4422,
+                4423,
+                4424,
+                4425,
+                4426,
+                4427,
+                4428,
+                4429,
+                4430,
+                4431,
+                4432,
+                4433,
+                4434,
+                4435,
+                4436,
+                4437,
+                4438,
+                4439,
+                4440,
+                4441
+              ],
+              "bounds": [
+                [
+                  0.014962970279157162,
+                  0.04363793134689331,
+                  -0.01551108993589878
+                ],
+                [
+                  0.024450119584798813,
+                  0.060036949813365936,
+                  0.01889972947537899
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 3,
+              "area_m2": 7.199043128100439e-05,
+              "area_fraction_of_primitive": 0.0006626243596254383,
+              "face_indices": [
+                3895,
+                3896,
+                4451
+              ],
+              "bounds": [
+                [
+                  0.0,
+                  0.04316895827651024,
+                  0.023396790027618408
+                ],
+                [
+                  0.007097064983099699,
+                  0.05919098109006882,
+                  0.024449819698929787
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 3,
+              "area_m2": 7.198723463951466e-05,
+              "area_fraction_of_primitive": 0.0006625949366523793,
+              "face_indices": [
+                3932,
+                3934,
+                4396
+              ],
+              "bounds": [
+                [
+                  0.0,
+                  0.04316895827651024,
+                  -0.024449819698929787
+                ],
+                [
+                  0.007096945773810148,
+                  0.05919098109006882,
+                  -0.023397140204906464
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 2,
+              "area_m2": 3.830803811833256e-05,
+              "area_fraction_of_primitive": 0.0003526001827601892,
+              "face_indices": [
+                4448,
+                4449
+              ],
+              "bounds": [
+                [
+                  0.006669818889349699,
+                  0.04327100142836571,
+                  0.022486919537186623
+                ],
+                [
+                  0.009357035160064697,
+                  0.05938905104994774,
+                  0.023396790027618408
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 2,
+              "area_m2": 3.830782224698713e-05,
+              "area_fraction_of_primitive": 0.0003525981958070694,
+              "face_indices": [
+                4398,
+                4399
+              ],
+              "bounds": [
+                [
+                  0.00666993809863925,
+                  0.04327100142836571,
+                  -0.023397140204906464
+                ],
+                [
+                  0.009356915019452572,
+                  0.05938905104994774,
+                  -0.022487040609121323
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 2,
+              "area_m2": 3.830549751842702e-05,
+              "area_fraction_of_primitive": 0.00035257679821650034,
+              "face_indices": [
+                4444,
+                4445
+              ],
+              "bounds": [
+                [
+                  0.011037999764084816,
+                  0.04346400126814842,
+                  0.020206859335303307
+                ],
+                [
+                  0.013583949767053127,
+                  0.059570010751485825,
+                  0.021562930196523666
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 2,
+              "area_m2": 3.830471863656489e-05,
+              "area_fraction_of_primitive": 0.000352569629123526,
+              "face_indices": [
+                4402,
+                4403
+              ],
+              "bounds": [
+                [
+                  0.01103787962347269,
+                  0.04346400126814842,
+                  -0.021562930196523666
+                ],
+                [
+                  0.013583949767053127,
+                  0.059570010751485825,
+                  -0.020207099616527557
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 2,
+              "area_m2": 3.829396191569299e-05,
+              "area_fraction_of_primitive": 0.0003524706206143035,
+              "face_indices": [
+                4406,
+                4407
+              ],
+              "bounds": [
+                [
+                  0.014962970279157162,
+                  0.04363793134689331,
+                  -0.01889985054731369
+                ],
+                [
+                  0.01728910021483898,
+                  0.05972998961806297,
+                  -0.017165059223771095
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 2,
+              "area_m2": 1.9427319967016826e-05,
+              "area_fraction_of_primitive": 0.00017881564568122995,
+              "face_indices": [
+                3898,
+                4390
+              ],
+              "bounds": [
+                [
+                  -3.1311099064623704e-06,
+                  0.042960941791534424,
+                  0.02433173917233944
+                ],
+                [
+                  0.002397000091150403,
+                  0.058999888598918915,
+                  0.024449819698929787
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 2,
+              "area_m2": 1.942721800576565e-05,
+              "area_fraction_of_primitive": 0.00017881470719527336,
+              "face_indices": [
+                3931,
+                4393
+              ],
+              "bounds": [
+                [
+                  -3.0100300136837177e-06,
+                  0.042960941791534424,
+                  -0.024449819698929787
+                ],
+                [
+                  0.002397000091150403,
+                  0.058999888598918915,
+                  -0.02433197945356369
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.8805140070637967e-05,
+              "area_fraction_of_primitive": 0.00017308889077680912,
+              "face_indices": [
+                3937
+              ],
+              "bounds": [
+                [
+                  0.008362114429473877,
+                  0.04336899146437645,
+                  -0.022975020110607147
+                ],
+                [
+                  0.01152603980153799,
+                  0.058999888598918915,
+                  -0.021562930196523666
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.880205692543414e-05,
+              "area_fraction_of_primitive": 0.00017306051246208083,
+              "face_indices": [
+                3892
+              ],
+              "bounds": [
+                [
+                  0.008361995220184326,
+                  0.04336899146437645,
+                  0.021562930196523666
+                ],
+                [
+                  0.011525919660925865,
+                  0.058999888598918915,
+                  0.022974900901317596
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.8597356368570306e-05,
+              "area_fraction_of_primitive": 0.00017117637907111086,
+              "face_indices": [
+                3940
+              ],
+              "bounds": [
+                [
+                  0.012224970385432243,
+                  0.04355382174253464,
+                  -0.021174069494009018
+                ],
+                [
+                  0.01551108993589878,
+                  0.058999888598918915,
+                  -0.01889985054731369
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.8596807519336958e-05,
+              "area_fraction_of_primitive": 0.0001711713272765139,
+              "face_indices": [
+                3889
+              ],
+              "bounds": [
+                [
+                  0.012224970385432243,
+                  0.04355382174253464,
+                  0.01889972947537899
+                ],
+                [
+                  0.01551108993589878,
+                  0.058999888598918915,
+                  0.021173829212784767
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.8410357720411572e-05,
+              "area_fraction_of_primitive": 0.00016945518005504525,
+              "face_indices": [
+                3943
+              ],
+              "bounds": [
+                [
+                  0.015715889632701874,
+                  0.04371589049696922,
+                  -0.0187300406396389
+                ],
+                [
+                  0.01889996975660324,
+                  0.058999888598918915,
+                  -0.01551108993589878
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 9.440180472407592e-06,
+              "area_fraction_of_primitive": 8.689062461455469e-05,
+              "face_indices": [
+                4389
+              ],
+              "bounds": [
+                [
+                  -0.00034907099325209856,
+                  0.05104893073439598,
+                  0.02429782971739769
+                ],
+                [
+                  0.0020230410154908895,
+                  0.059087928384542465,
+                  0.024448750540614128
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 9.439169926849253e-06,
+              "area_fraction_of_primitive": 8.688132321030482e-05,
+              "face_indices": [
+                4386
+              ],
+              "bounds": [
+                [
+                  -0.0003489500086288899,
+                  0.05104893073439598,
+                  -0.02444899082183838
+                ],
+                [
+                  0.0020229220390319824,
+                  0.059087928384542465,
+                  -0.02429818920791149
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.903016390095158e-07,
+              "area_fraction_of_primitive": 1.7516008647335947e-06,
+              "face_indices": [
+                2784
+              ],
+              "bounds": [
+                [
+                  0.03525000065565109,
+                  0.03949987143278122,
+                  0.044423870742321014
+                ],
+                [
+                  0.03525000065565109,
+                  0.04449998959898949,
+                  0.04449998959898949
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.9000117919846262e-07,
+              "area_fraction_of_primitive": 1.7488353306709474e-06,
+              "face_indices": [
+                2756
+              ],
+              "bounds": [
+                [
+                  0.03524988144636154,
+                  -0.039999961853027344,
+                  -0.05650001019239426
+                ],
+                [
+                  0.03525000065565109,
+                  -0.039923958480358124,
+                  -0.05150020122528076
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.8999681384440636e-07,
+              "area_fraction_of_primitive": 1.748795150470821e-06,
+              "face_indices": [
+                2777
+              ],
+              "bounds": [
+                [
+                  0.03525000065565109,
+                  0.044423989951610565,
+                  0.039500050246715546
+                ],
+                [
+                  0.03525000065565109,
+                  0.04449998959898949,
+                  0.04449998959898949
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.899737790808642e-07,
+              "area_fraction_of_primitive": 1.7485831306902798e-06,
+              "face_indices": [
+                2763
+              ],
+              "bounds": [
+                [
+                  0.03524988144636154,
+                  -0.039999961853027344,
+                  -0.05650001019239426
+                ],
+                [
+                  0.03525000065565109,
+                  -0.03499989956617355,
+                  -0.05642402172088623
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.5511516842405058e-07,
+              "area_fraction_of_primitive": 1.4277326488568928e-06,
+              "face_indices": [
+                2940
+              ],
+              "bounds": [
+                [
+                  0.03524988144636154,
+                  0.044437941163778305,
+                  -0.05650001019239426
+                ],
+                [
+                  0.03525000065565109,
+                  0.04449998959898949,
+                  -0.05150020122528076
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.549760254758467e-07,
+              "area_fraction_of_primitive": 1.4264519299431513e-06,
+              "face_indices": [
+                2932
+              ],
+              "bounds": [
+                [
+                  0.03524988144636154,
+                  0.03949987143278122,
+                  -0.05650001019239426
+                ],
+                [
+                  0.03525000065565109,
+                  0.04449998959898949,
+                  -0.05643802136182785
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.5497400696062869e-07,
+              "area_fraction_of_primitive": 1.426433350844097e-06,
+              "face_indices": [
+                2767
+              ],
+              "bounds": [
+                [
+                  0.03525000065565109,
+                  -0.039999961853027344,
+                  0.04443800076842308
+                ],
+                [
+                  0.03525000065565109,
+                  -0.03499989956617355,
+                  0.04449998959898949
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 1.5468149017899835e-07,
+              "area_fraction_of_primitive": 1.4237409271197424e-06,
+              "face_indices": [
+                2775
+              ],
+              "bounds": [
+                [
+                  0.03525000065565109,
+                  -0.039999961853027344,
+                  0.039500050246715546
+                ],
+                [
+                  0.03525000065565109,
+                  -0.03993808850646019,
+                  0.04449998959898949
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 4.282180565734103e-08,
+              "area_fraction_of_primitive": 3.941464309464086e-07,
+              "face_indices": [
+                1942
+              ],
+              "bounds": [
+                [
+                  0.09399986267089844,
+                  0.016327019780874252,
+                  0.016327019780874252
+                ],
+                [
+                  0.09400790184736252,
+                  0.019457990303635597,
+                  0.019457930698990822
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 4.277978447469858e-08,
+              "area_fraction_of_primitive": 3.9375965372138446e-07,
+              "face_indices": [
+                1897
+              ],
+              "bounds": [
+                [
+                  0.09399986267089844,
+                  -0.019458049908280373,
+                  0.016327019780874252
+                ],
+                [
+                  0.09400790184736252,
+                  -0.016327019780874252,
+                  0.019457930698990822
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 4.2765288740526494e-08,
+              "area_fraction_of_primitive": 3.9362623006490453e-07,
+              "face_indices": [
+                1926
+              ],
+              "bounds": [
+                [
+                  0.09399980306625366,
+                  0.016327019780874252,
+                  -0.019458049908280373
+                ],
+                [
+                  0.09400790184736252,
+                  0.019457990303635597,
+                  -0.016327019780874252
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 4.2723309809905634e-08,
+              "area_fraction_of_primitive": 3.932398417418254e-07,
+              "face_indices": [
+                1910
+              ],
+              "bounds": [
+                [
+                  0.09399980306625366,
+                  -0.019458049908280373,
+                  -0.019458049908280373
+                ],
+                [
+                  0.09400790184736252,
+                  -0.016327019780874252,
+                  -0.016327019780874252
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 3.196160245345862e-08,
+              "area_fraction_of_primitive": 2.94185435223446e-07,
+              "face_indices": [
+                1912
+              ],
+              "bounds": [
+                [
+                  0.09399980306625366,
+                  -0.016327019780874252,
+                  -0.02199685014784336
+                ],
+                [
+                  0.09400790184736252,
+                  -0.012700079940259457,
+                  -0.019458049908280373
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 3.193747530611844e-08,
+              "area_fraction_of_primitive": 2.9396336077172513e-07,
+              "face_indices": [
+                1924
+              ],
+              "bounds": [
+                [
+                  0.09399980306625366,
+                  0.012700020335614681,
+                  -0.02199685014784336
+                ],
+                [
+                  0.09400790184736252,
+                  0.016327019780874252,
+                  -0.019458049908280373
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 3.172289804325484e-08,
+              "area_fraction_of_primitive": 2.919883188270509e-07,
+              "face_indices": [
+                1928
+              ],
+              "bounds": [
+                [
+                  0.09399986267089844,
+                  0.019457990303635597,
+                  -0.016327019780874252
+                ],
+                [
+                  0.09400790184736252,
+                  0.021997030824422836,
+                  -0.012700200080871582
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 3.170891843345326e-08,
+              "area_fraction_of_primitive": 2.9185964575442504e-07,
+              "face_indices": [
+                1908
+              ],
+              "bounds": [
+                [
+                  0.09399986267089844,
+                  -0.02199709042906761,
+                  -0.016327019780874252
+                ],
+                [
+                  0.09400790184736252,
+                  -0.019458049908280373,
+                  -0.012700200080871582
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 3.1697980051482475e-08,
+              "area_fraction_of_primitive": 2.9175896517480136e-07,
+              "face_indices": [
+                1872
+              ],
+              "bounds": [
+                [
+                  0.09399986267089844,
+                  -0.016327019780874252,
+                  0.019457930698990822
+                ],
+                [
+                  0.09400790184736252,
+                  -0.012700079940259457,
+                  0.02199685014784336
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 3.16738581060237e-08,
+              "area_fraction_of_primitive": 2.9153693860296224e-07,
+              "face_indices": [
+                1944
+              ],
+              "bounds": [
+                [
+                  0.09399986267089844,
+                  0.012700020335614681,
+                  0.019457930698990822
+                ],
+                [
+                  0.09400790184736252,
+                  0.016327019780874252,
+                  0.02199685014784336
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 3.163058513961652e-08,
+              "area_fraction_of_primitive": 2.9113863953537187e-07,
+              "face_indices": [
+                1940
+              ],
+              "bounds": [
+                [
+                  0.09399986267089844,
+                  0.019457990303635597,
+                  0.012699959799647331
+                ],
+                [
+                  0.09400790184736252,
+                  0.021997030824422836,
+                  0.016327019780874252
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            },
+            {
+              "faces": 1,
+              "area_m2": 3.161662368176035e-08,
+              "area_fraction_of_primitive": 2.910101335394115e-07,
+              "face_indices": [
+                1898
+              ],
+              "bounds": [
+                [
+                  0.09399986267089844,
+                  -0.02199709042906761,
+                  0.012699959799647331
+                ],
+                [
+                  0.09400790184736252,
+                  -0.019458049908280373,
+                  0.016327019780874252
+                ]
+              ],
+              "all_corners_opposed_faces": 0
+            }
+          ],
+          "neighbor_comparisons": [
+            {
+              "face": 1872,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 25.369066822948824,
+              "bad_geo_to_good_geo_degrees": 145.7534945201834
+            },
+            {
+              "face": 1897,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 26.42329363022804,
+              "bad_geo_to_good_geo_degrees": 155.3226325807533
+            },
+            {
+              "face": 1898,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 25.37564202589323,
+              "bad_geo_to_good_geo_degrees": 145.65273567999776
+            },
+            {
+              "face": 1908,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 25.386224662599442,
+              "bad_geo_to_good_geo_degrees": 145.76746117147084
+            },
+            {
+              "face": 1910,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 26.421407468411573,
+              "bad_geo_to_good_geo_degrees": 155.19000490366767
+            },
+            {
+              "face": 1912,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 25.36690617745465,
+              "bad_geo_to_good_geo_degrees": 145.7887949296831
+            },
+            {
+              "face": 1924,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 25.364375291159202,
+              "bad_geo_to_good_geo_degrees": 145.759042714275
+            },
+            {
+              "face": 1926,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 26.42338835572893,
+              "bad_geo_to_good_geo_degrees": 155.21657639401812
+            },
+            {
+              "face": 1928,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 25.38704418695565,
+              "bad_geo_to_good_geo_degrees": 145.78457908324185
+            },
+            {
+              "face": 1940,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 25.37519227196963,
+              "bad_geo_to_good_geo_degrees": 145.6693470219536
+            },
+            {
+              "face": 1942,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 26.42616646931793,
+              "bad_geo_to_good_geo_degrees": 155.3495207017378
+            },
+            {
+              "face": 1944,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 25.364863743419487,
+              "bad_geo_to_good_geo_degrees": 145.72345299332935
+            },
+            {
+              "face": 2756,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 34.19205065753906,
+              "bad_geo_to_good_geo_degrees": 91.68424042814218
+            },
+            {
+              "face": 2763,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 34.17858225174756,
+              "bad_geo_to_good_geo_degrees": 91.60947427734126
+            },
+            {
+              "face": 2767,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 34.19953992084172,
+              "bad_geo_to_good_geo_degrees": 91.88197050345276
+            },
+            {
+              "face": 2775,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 33.76803997840591,
+              "bad_geo_to_good_geo_degrees": 91.51386693394029
+            },
+            {
+              "face": 2777,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 34.28842466842116,
+              "bad_geo_to_good_geo_degrees": 91.77642475422111
+            },
+            {
+              "face": 2784,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 34.286551562557996,
+              "bad_geo_to_good_geo_degrees": 91.7767867706407
+            },
+            {
+              "face": 2932,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 34.10318556154543,
+              "bad_geo_to_good_geo_degrees": 91.70439694380966
+            },
+            {
+              "face": 2940,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 34.11730063735904,
+              "bad_geo_to_good_geo_degrees": 91.79813242230507
+            },
+            {
+              "face": 3889,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 63.895253510350926,
+              "bad_geo_to_good_geo_degrees": 8.662927140635972
+            },
+            {
+              "face": 3892,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 61.50019403860582,
+              "bad_geo_to_good_geo_degrees": 7.271454031827848
+            },
+            {
+              "face": 3895,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 59.71812692647397,
+              "bad_geo_to_good_geo_degrees": 5.655719166619363
+            },
+            {
+              "face": 3896,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 35.57152080500923,
+              "bad_geo_to_good_geo_degrees": 5.632479816291561
+            },
+            {
+              "face": 3898,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 58.88268546872606,
+              "bad_geo_to_good_geo_degrees": 5.625818362759071
+            },
+            {
+              "face": 3931,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 58.89812625492811,
+              "bad_geo_to_good_geo_degrees": 5.63769264470303
+            },
+            {
+              "face": 3932,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 35.56133575966988,
+              "bad_geo_to_good_geo_degrees": 5.640612260974366
+            },
+            {
+              "face": 3934,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 59.70691206783017,
+              "bad_geo_to_good_geo_degrees": 5.661642584027183
+            },
+            {
+              "face": 3937,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 61.49757315165512,
+              "bad_geo_to_good_geo_degrees": 7.287317166904328
+            },
+            {
+              "face": 3940,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 63.90286838148275,
+              "bad_geo_to_good_geo_degrees": 8.669748435927664
+            },
+            {
+              "face": 3943,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 63.601341689033966,
+              "bad_geo_to_good_geo_degrees": 10.08485390387903
+            },
+            {
+              "face": 4386,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 93.08974839033058,
+              "bad_geo_to_good_geo_degrees": 7.1830221703629205
+            },
+            {
+              "face": 4389,
+              "good_neighbors": 3,
+              "source_meanN_to_good_geo_degrees": 93.0475626274356,
+              "bad_geo_to_good_geo_degrees": 7.176112386663032
+            },
+            {
+              "face": 4390,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 52.7297127795067,
+              "bad_geo_to_good_geo_degrees": 61.37998175371627
+            },
+            {
+              "face": 4393,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 52.75689383315195,
+              "bad_geo_to_good_geo_degrees": 61.278820294146676
+            },
+            {
+              "face": 4396,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 69.62582883073311,
+              "bad_geo_to_good_geo_degrees": 5.13824136502407
+            },
+            {
+              "face": 4398,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 82.22725926658764,
+              "bad_geo_to_good_geo_degrees": 90.92458880455946
+            },
+            {
+              "face": 4399,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 35.681642622882094,
+              "bad_geo_to_good_geo_degrees": 22.129492390814907
+            },
+            {
+              "face": 4402,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 81.35844939454469,
+              "bad_geo_to_good_geo_degrees": 83.62443455123795
+            },
+            {
+              "face": 4403,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 18.478761137448792,
+              "bad_geo_to_good_geo_degrees": 41.14067778741356
+            },
+            {
+              "face": 4406,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 79.70304324286556,
+              "bad_geo_to_good_geo_degrees": 77.26541810697603
+            },
+            {
+              "face": 4407,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 8.36071062199856,
+              "bad_geo_to_good_geo_degrees": 55.14743723628022
+            },
+            {
+              "face": 4410,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 77.1577808870125,
+              "bad_geo_to_good_geo_degrees": 71.67359590333075
+            },
+            {
+              "face": 4411,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 33.7324465357387,
+              "bad_geo_to_good_geo_degrees": 89.984097195632
+            },
+            {
+              "face": 4412,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 103.48339673469862,
+              "bad_geo_to_good_geo_degrees": 177.78084757286086
+            },
+            {
+              "face": 4413,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 30.739571153926054,
+              "bad_geo_to_good_geo_degrees": 89.98106583487795
+            },
+            {
+              "face": 4414,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 102.28105395924142,
+              "bad_geo_to_good_geo_degrees": 177.95648041843648
+            },
+            {
+              "face": 4415,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 30.712199960410487,
+              "bad_geo_to_good_geo_degrees": 89.9832845441624
+            },
+            {
+              "face": 4416,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 102.10243018108707,
+              "bad_geo_to_good_geo_degrees": 177.55100989037814
+            },
+            {
+              "face": 4417,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 30.817998006686324,
+              "bad_geo_to_good_geo_degrees": 89.98786838874021
+            },
+            {
+              "face": 4418,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 102.30830424153879,
+              "bad_geo_to_good_geo_degrees": 177.9754258063502
+            },
+            {
+              "face": 4419,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 30.74105409711074,
+              "bad_geo_to_good_geo_degrees": 89.99275522627993
+            },
+            {
+              "face": 4420,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 102.0881110532668,
+              "bad_geo_to_good_geo_degrees": 177.45579168342712
+            },
+            {
+              "face": 4421,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 30.908865325226426,
+              "bad_geo_to_good_geo_degrees": 89.99557782413504
+            },
+            {
+              "face": 4422,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 30.744370243441097,
+              "bad_geo_to_good_geo_degrees": 90.00422519593027
+            },
+            {
+              "face": 4423,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 102.45721597624832,
+              "bad_geo_to_good_geo_degrees": 178.1201757306653
+            },
+            {
+              "face": 4424,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 30.71306177339405,
+              "bad_geo_to_good_geo_degrees": 89.99896088566294
+            },
+            {
+              "face": 4425,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 102.44392475534877,
+              "bad_geo_to_good_geo_degrees": 178.1255346987183
+            },
+            {
+              "face": 4426,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 30.91029274142726,
+              "bad_geo_to_good_geo_degrees": 89.99529632842915
+            },
+            {
+              "face": 4427,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 102.08897387284242,
+              "bad_geo_to_good_geo_degrees": 177.45617131567323
+            },
+            {
+              "face": 4428,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 30.741369468828598,
+              "bad_geo_to_good_geo_degrees": 89.99303618128899
+            },
+            {
+              "face": 4429,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 102.30813088863067,
+              "bad_geo_to_good_geo_degrees": 177.97498541432603
+            },
+            {
+              "face": 4430,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 30.818320624751085,
+              "bad_geo_to_good_geo_degrees": 89.98852422126362
+            },
+            {
+              "face": 4431,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 102.10231943722313,
+              "bad_geo_to_good_geo_degrees": 177.55071323202137
+            },
+            {
+              "face": 4432,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 30.713857846335998,
+              "bad_geo_to_good_geo_degrees": 89.98391692038808
+            },
+            {
+              "face": 4433,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 102.28109785305136,
+              "bad_geo_to_good_geo_degrees": 177.95652685764716
+            },
+            {
+              "face": 4434,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 30.73767644667559,
+              "bad_geo_to_good_geo_degrees": 89.97999906296417
+            },
+            {
+              "face": 4435,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 102.21763150864058,
+              "bad_geo_to_good_geo_degrees": 177.78114357058462
+            },
+            {
+              "face": 4436,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 30.683228336464616,
+              "bad_geo_to_good_geo_degrees": 89.98353136859288
+            },
+            {
+              "face": 4437,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 102.36182864594562,
+              "bad_geo_to_good_geo_degrees": 178.07087783110035
+            },
+            {
+              "face": 4438,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 30.672909465308326,
+              "bad_geo_to_good_geo_degrees": 89.98120821185621
+            },
+            {
+              "face": 4439,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 103.6496783427049,
+              "bad_geo_to_good_geo_degrees": 178.13168153630585
+            },
+            {
+              "face": 4440,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 33.709380731114116,
+              "bad_geo_to_good_geo_degrees": 89.95179499573827
+            },
+            {
+              "face": 4441,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 80.02642790016361,
+              "bad_geo_to_good_geo_degrees": 77.26411571589533
+            },
+            {
+              "face": 4444,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 22.519126328300096,
+              "bad_geo_to_good_geo_degrees": 36.606815777586625
+            },
+            {
+              "face": 4445,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 81.35096514214571,
+              "bad_geo_to_good_geo_degrees": 83.61258520157585
+            },
+            {
+              "face": 4448,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 40.22535735268878,
+              "bad_geo_to_good_geo_degrees": 17.4082288855599
+            },
+            {
+              "face": 4449,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 82.23918911418158,
+              "bad_geo_to_good_geo_degrees": 90.96405421705242
+            },
+            {
+              "face": 4451,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 69.63263602706466,
+              "bad_geo_to_good_geo_degrees": 5.147079950911192
+            },
+            {
+              "face": 4818,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 25.809173530316652,
+              "bad_geo_to_good_geo_degrees": 37.84545644321821
+            },
+            {
+              "face": 4819,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 106.11400811824599,
+              "bad_geo_to_good_geo_degrees": 178.50027769848433
+            },
+            {
+              "face": 4820,
+              "good_neighbors": 1,
+              "source_meanN_to_good_geo_degrees": 67.72314813109296,
+              "bad_geo_to_good_geo_degrees": 89.99436643950055
+            },
+            {
+              "face": 4821,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 60.94711845716646,
+              "bad_geo_to_good_geo_degrees": 119.97031792577893
+            },
+            {
+              "face": 4826,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 29.190945414098874,
+              "bad_geo_to_good_geo_degrees": 39.43144650348731
+            },
+            {
+              "face": 4827,
+              "good_neighbors": 2,
+              "source_meanN_to_good_geo_degrees": 91.26560000433162,
+              "bad_geo_to_good_geo_degrees": 173.53693260633855
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Visual/glb/Link6.glb",
+      "source_sha256": "5a095e6f609aa950f2acbe20d69b84b43783818ef7c8d18054c51261034f4547",
+      "primitives": []
+    }
+  ],
+  "visual_validation": {
+    "render_settings": {
+      "engine": "EEVEE native single-sided",
+      "width": 760,
+      "height": 680,
+      "samples": 64
+    },
+    "images": 56,
+    "whole_views": [
+      "hero",
+      "front",
+      "rear",
+      "top"
+    ],
+    "isolated_link_views": [
+      "hero",
+      "rear"
+    ],
+    "heatmap_policy": "Original actual-material preview compared with the same geometric triangles and original normals, split only into temporary preview parts; existing opposed-normal faces emit red. No geometric bias/offset or source normal replacement is used. Culling remains original.",
+    "manifest": "/tmp/assetsmodel-session-source-normal-outliers/preview-manifest.json",
+    "status": "/tmp/assetsmodel-session-source-normal-outliers/render-status.json",
+    "contacts": [
+      "/tmp/assetsmodel-session-source-normal-outliers/fr3-whole-contact.jpg",
+      "/tmp/assetsmodel-session-source-normal-outliers/fr3-isolated-contact.jpg",
+      "/tmp/assetsmodel-session-source-normal-outliers/m20-whole-contact.jpg",
+      "/tmp/assetsmodel-session-source-normal-outliers/m20-isolated-contact.jpg"
+    ],
+    "visibility_metrics": {
+      "note": "Red-emission face masks diagnose visibility in the sampled views, not aesthetic quality or guaranteed visibility over the full workspace. Tiny/subpixel faces may remain below the chosen pixel thresholds.",
+      "views": [
+        {
+          "model": "m20",
+          "scope": "whole",
+          "view": "hero",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-whole-original-hero.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-whole-heat-hero.png",
+          "visible_red_pixels_thresholded": 6,
+          "strong_visible_red_pixels_thresholded": 3,
+          "red_pixel_bounds": [
+            224,
+            509,
+            226,
+            511
+          ]
+        },
+        {
+          "model": "m20",
+          "scope": "whole",
+          "view": "front",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-whole-original-front.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-whole-heat-front.png",
+          "visible_red_pixels_thresholded": 11,
+          "strong_visible_red_pixels_thresholded": 8,
+          "red_pixel_bounds": [
+            166,
+            600,
+            169,
+            608
+          ]
+        },
+        {
+          "model": "m20",
+          "scope": "whole",
+          "view": "rear",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-whole-original-rear.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-whole-heat-rear.png",
+          "visible_red_pixels_thresholded": 16,
+          "strong_visible_red_pixels_thresholded": 13,
+          "red_pixel_bounds": [
+            492,
+            580,
+            535,
+            603
+          ]
+        },
+        {
+          "model": "m20",
+          "scope": "whole",
+          "view": "top",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-whole-original-top.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-whole-heat-top.png",
+          "visible_red_pixels_thresholded": 44,
+          "strong_visible_red_pixels_thresholded": 44,
+          "red_pixel_bounds": [
+            82,
+            247,
+            85,
+            366
+          ]
+        },
+        {
+          "model": "m20",
+          "scope": "base_link",
+          "view": "hero",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-base_link-original-hero.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-base_link-heat-hero.png",
+          "visible_red_pixels_thresholded": 40,
+          "strong_visible_red_pixels_thresholded": 36,
+          "red_pixel_bounds": [
+            161,
+            495,
+            171,
+            501
+          ]
+        },
+        {
+          "model": "m20",
+          "scope": "base_link",
+          "view": "rear",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-base_link-original-rear.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-base_link-heat-rear.png",
+          "visible_red_pixels_thresholded": 119,
+          "strong_visible_red_pixels_thresholded": 110,
+          "red_pixel_bounds": [
+            425,
+            377,
+            598,
+            573
+          ]
+        },
+        {
+          "model": "m20",
+          "scope": "Link2",
+          "view": "hero",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-Link2-original-hero.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-Link2-heat-hero.png",
+          "visible_red_pixels_thresholded": 0,
+          "strong_visible_red_pixels_thresholded": 0,
+          "red_pixel_bounds": null
+        },
+        {
+          "model": "m20",
+          "scope": "Link2",
+          "view": "rear",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-Link2-original-rear.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-Link2-heat-rear.png",
+          "visible_red_pixels_thresholded": 0,
+          "strong_visible_red_pixels_thresholded": 0,
+          "red_pixel_bounds": null
+        },
+        {
+          "model": "m20",
+          "scope": "Link4",
+          "view": "hero",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-Link4-original-hero.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-Link4-heat-hero.png",
+          "visible_red_pixels_thresholded": 0,
+          "strong_visible_red_pixels_thresholded": 0,
+          "red_pixel_bounds": null
+        },
+        {
+          "model": "m20",
+          "scope": "Link4",
+          "view": "rear",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-Link4-original-rear.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-Link4-heat-rear.png",
+          "visible_red_pixels_thresholded": 0,
+          "strong_visible_red_pixels_thresholded": 0,
+          "red_pixel_bounds": null
+        },
+        {
+          "model": "m20",
+          "scope": "Link5",
+          "view": "hero",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-Link5-original-hero.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-Link5-heat-hero.png",
+          "visible_red_pixels_thresholded": 37,
+          "strong_visible_red_pixels_thresholded": 8,
+          "red_pixel_bounds": [
+            382,
+            194,
+            518,
+            533
+          ]
+        },
+        {
+          "model": "m20",
+          "scope": "Link5",
+          "view": "rear",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-Link5-original-rear.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-Link5-heat-rear.png",
+          "visible_red_pixels_thresholded": 39,
+          "strong_visible_red_pixels_thresholded": 22,
+          "red_pixel_bounds": [
+            267,
+            305,
+            298,
+            436
+          ]
+        },
+        {
+          "model": "fr3",
+          "scope": "whole",
+          "view": "hero",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-whole-original-hero.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-whole-heat-hero.png",
+          "visible_red_pixels_thresholded": 0,
+          "strong_visible_red_pixels_thresholded": 0,
+          "red_pixel_bounds": null
+        },
+        {
+          "model": "fr3",
+          "scope": "whole",
+          "view": "front",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-whole-original-front.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-whole-heat-front.png",
+          "visible_red_pixels_thresholded": 0,
+          "strong_visible_red_pixels_thresholded": 0,
+          "red_pixel_bounds": null
+        },
+        {
+          "model": "fr3",
+          "scope": "whole",
+          "view": "rear",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-whole-original-rear.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-whole-heat-rear.png",
+          "visible_red_pixels_thresholded": 0,
+          "strong_visible_red_pixels_thresholded": 0,
+          "red_pixel_bounds": null
+        },
+        {
+          "model": "fr3",
+          "scope": "whole",
+          "view": "top",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-whole-original-top.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-whole-heat-top.png",
+          "visible_red_pixels_thresholded": 0,
+          "strong_visible_red_pixels_thresholded": 0,
+          "red_pixel_bounds": null
+        },
+        {
+          "model": "fr3",
+          "scope": "fr3_link0",
+          "view": "hero",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link0-original-hero.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link0-heat-hero.png",
+          "visible_red_pixels_thresholded": 0,
+          "strong_visible_red_pixels_thresholded": 0,
+          "red_pixel_bounds": null
+        },
+        {
+          "model": "fr3",
+          "scope": "fr3_link0",
+          "view": "rear",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link0-original-rear.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link0-heat-rear.png",
+          "visible_red_pixels_thresholded": 0,
+          "strong_visible_red_pixels_thresholded": 0,
+          "red_pixel_bounds": null
+        },
+        {
+          "model": "fr3",
+          "scope": "fr3_link3",
+          "view": "hero",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link3-original-hero.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link3-heat-hero.png",
+          "visible_red_pixels_thresholded": 8,
+          "strong_visible_red_pixels_thresholded": 1,
+          "red_pixel_bounds": [
+            468,
+            135,
+            530,
+            219
+          ]
+        },
+        {
+          "model": "fr3",
+          "scope": "fr3_link3",
+          "view": "rear",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link3-original-rear.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link3-heat-rear.png",
+          "visible_red_pixels_thresholded": 0,
+          "strong_visible_red_pixels_thresholded": 0,
+          "red_pixel_bounds": null
+        },
+        {
+          "model": "fr3",
+          "scope": "fr3_link4",
+          "view": "hero",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link4-original-hero.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link4-heat-hero.png",
+          "visible_red_pixels_thresholded": 6,
+          "strong_visible_red_pixels_thresholded": 2,
+          "red_pixel_bounds": [
+            320,
+            355,
+            324,
+            358
+          ]
+        },
+        {
+          "model": "fr3",
+          "scope": "fr3_link4",
+          "view": "rear",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link4-original-rear.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link4-heat-rear.png",
+          "visible_red_pixels_thresholded": 5,
+          "strong_visible_red_pixels_thresholded": 2,
+          "red_pixel_bounds": [
+            508,
+            521,
+            511,
+            523
+          ]
+        },
+        {
+          "model": "fr3",
+          "scope": "fr3_link5",
+          "view": "hero",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link5-original-hero.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link5-heat-hero.png",
+          "visible_red_pixels_thresholded": 0,
+          "strong_visible_red_pixels_thresholded": 0,
+          "red_pixel_bounds": null
+        },
+        {
+          "model": "fr3",
+          "scope": "fr3_link5",
+          "view": "rear",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link5-original-rear.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link5-heat-rear.png",
+          "visible_red_pixels_thresholded": 0,
+          "strong_visible_red_pixels_thresholded": 0,
+          "red_pixel_bounds": null
+        },
+        {
+          "model": "fr3",
+          "scope": "fr3_link6",
+          "view": "hero",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link6-original-hero.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link6-heat-hero.png",
+          "visible_red_pixels_thresholded": 0,
+          "strong_visible_red_pixels_thresholded": 0,
+          "red_pixel_bounds": null
+        },
+        {
+          "model": "fr3",
+          "scope": "fr3_link6",
+          "view": "rear",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link6-original-rear.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link6-heat-rear.png",
+          "visible_red_pixels_thresholded": 0,
+          "strong_visible_red_pixels_thresholded": 0,
+          "red_pixel_bounds": null
+        },
+        {
+          "model": "fr3",
+          "scope": "fr3_link7",
+          "view": "hero",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link7-original-hero.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link7-heat-hero.png",
+          "visible_red_pixels_thresholded": 0,
+          "strong_visible_red_pixels_thresholded": 0,
+          "red_pixel_bounds": null
+        },
+        {
+          "model": "fr3",
+          "scope": "fr3_link7",
+          "view": "rear",
+          "original": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link7-original-rear.png",
+          "heatmap": "/tmp/assetsmodel-session-source-normal-outliers/renders/fr3-fr3_link7-heat-rear.png",
+          "visible_red_pixels_thresholded": 0,
+          "strong_visible_red_pixels_thresholded": 0,
+          "red_pixel_bounds": null
+        }
+      ]
+    }
+  },
+  "initial_dispositions": [
+    {
+      "model": "FR3",
+      "recommendation": "Keep source P/N unchanged.",
+      "basis": "Whole model four views show no detected red-mask pixels. Isolated links0/5/6/7 also show none in sampled views; links3/4 expose only1–2strong marker pixels per selected view. Actual materials look smooth without a demonstrated outlier-caused visible patch. This does not prove invisible for every pose/view."
+    },
+    {
+      "model": "M20 Link2/Link4",
+      "recommendation": "Keep source P/N unchanged pending any specific visible defect.",
+      "basis": "Opposed face area is small and no red pixels were detected in the two isolated views. Deep-dot skinny triangles alone do not determine a repair."
+    },
+    {
+      "model": "M20 BaseLink",
+      "recommendation": "Keep source P/N unchanged; do not confuse cast ribs/gussets with numerical outliers.",
+      "basis": "Some selected edge/foot points are visible, but the red mask does not justify flattening the physical casting."
+    },
+    {
+      "model": "M20 Link5",
+      "recommendation": "Diagnose the actual large planar shading patterns before proposing a local /tmp candidate.",
+      "basis": "Visible fan/triangle highlight bands in the isolated black wrist housing. The red opposed mask covers only a few edge pixels, so the raw123corner count is not an adequate description of the visible source-normal field. The85flagged faces span4.77percent of that primitive; not all are tiny. Planar patch sourceN/GN comparison remains in progress.",
+      "actual_images": [
+        "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-Link5-original-hero.png",
+        "/tmp/assetsmodel-session-source-normal-outliers/renders/m20-Link5-original-rear.png"
+      ]
+    }
+  ],
+  "asset_changes_or_candidates": "No source mutation. One isolated temporary Link5 candidate changes244of14598ordered normal corners; geometry/materials and all other source normal bytes are retained. Parent and independent peer review required before any adoption.",
+  "updated_at": "2026-11-03T16:21:04.080044+00:00",
+  "planar_followup": {
+    "verified_patches": "/tmp/assetsmodel-session-source-normal-outliers/m20-link5-planar-patches.json",
+    "comparison_renders": "/tmp/assetsmodel-session-source-normal-outliers/link5-followup-render-status.json",
+    "findings": [
+      "The same large triangle/fan bands remain with roughness1, so gloss is not the sole cause.",
+      "A geometric-face-normal display removes the planar bands while revealing expected polygon facets on curved components; that full flat display is diagnostic only and is not a repair candidate.",
+      "Cycles original-material views reproduce the bands, so the visible planar issue is not confined to native face culling."
+    ],
+    "candidate": {
+      "schema": 1,
+      "trial_only": true,
+      "source_model": "/tmp/assetsmodel-session-source-normal-outliers/snapshot/RobotModel/Fanuc/M_20iA",
+      "output_model": "/tmp/assetsmodel-session-source-normal-outliers/link5-planar-trial/RobotModel/Fanuc/M_20iA",
+      "policy": "Only8 verified external planar housing patches; circular flange/end caps and internal motor faces excluded. Seed sourceN-to-plane/fan>5deg with fan-to-plane<2deg; replace complete unique oriented30deg local cornerfans, keeping every other source N byte. No P or material changes.",
+      "files": [
+        {
+          "path": "Visual/glb/Link5.glb",
+          "source_sha256": "2c6bdb161588c77f2eeff03faa07c54a41a3992629049efe37e6cb506cb15f4c",
+          "output_sha256": "235663deae306b8cedbf458024b3c2fba0cc83ce9ef6d229de30f060665a4007",
+          "source_bytes": 109772,
+          "output_bytes": 110720,
+          "primitives": [
+            {
+              "mesh": 0,
+              "primitive": 0,
+              "material_name": "RAL9005_003-material",
+              "corner_count": 14598,
+              "selected_corner_count": 244,
+              "selected_corner_indices": [
+                8592,
+                8595,
+                8597,
+                8598,
+                8599,
+                8600,
+                8601,
+                8602,
+                8604,
+                8606,
+                8607,
+                8608,
+                8610,
+                8612,
+                8613,
+                8614,
+                8615,
+                8616,
+                8618,
+                8619,
+                8620,
+                8622,
+                8623,
+                8625,
+                8626,
+                8627,
+                8628,
+                8629,
+                8630,
+                8631,
+                8632,
+                8633,
+                8635,
+                8637,
+                8638,
+                8640,
+                8641,
+                8642,
+                8643,
+                8644,
+                8645,
+                8646,
+                8648,
+                8649,
+                8650,
+                8652,
+                8653,
+                8655,
+                8656,
+                8658,
+                8660,
+                8661,
+                8663,
+                8664,
+                8666,
+                8667,
+                8668,
+                8669,
+                8670,
+                8671,
+                8672,
+                8673,
+                8675,
+                8676,
+                8678,
+                8679,
+                8680,
+                8682,
+                8683,
+                8684,
+                8685,
+                8687,
+                8700,
+                8701,
+                8715,
+                8716,
+                8721,
+                8722,
+                8733,
+                8734,
+                8751,
+                8753,
+                8763,
+                8765,
+                8826,
+                8827,
+                8828,
+                8829,
+                8830,
+                8831,
+                8832,
+                8833,
+                8834,
+                8835,
+                8836,
+                8837,
+                8839,
+                8840,
+                8842,
+                8843,
+                8845,
+                8846,
+                8848,
+                8850,
+                8851,
+                8853,
+                8855,
+                8857,
+                8860,
+                8863,
+                8886,
+                8887,
+                8889,
+                8890,
+                8891,
+                8892,
+                8893,
+                8894,
+                8895,
+                8896,
+                8897,
+                8898,
+                8899,
+                8900,
+                8901,
+                8902,
+                8903,
+                8945,
+                8988,
+                8991,
+                8994,
+                8996,
+                9000,
+                9002,
+                9005,
+                9045,
+                9048,
+                9051,
+                9054,
+                9057,
+                9060,
+                9062,
+                9063,
+                9064,
+                9065,
+                9066,
+                9067,
+                9068,
+                9069,
+                9070,
+                9072,
+                9075,
+                9078,
+                9081,
+                9084,
+                9087,
+                9090,
+                9093,
+                9096,
+                9099,
+                9102,
+                9105,
+                9106,
+                9108,
+                9111,
+                9112,
+                9114,
+                9117,
+                9120,
+                9123,
+                9126,
+                9129,
+                9132,
+                9135,
+                9138,
+                9141,
+                9144,
+                9147,
+                9150,
+                9153,
+                9154,
+                9156,
+                9159,
+                9162,
+                9163,
+                9165,
+                9168,
+                9171,
+                9174,
+                9177,
+                9180,
+                9183,
+                9186,
+                9189,
+                9192,
+                9197,
+                9200,
+                9203,
+                9206,
+                9208,
+                9209,
+                9212,
+                9214,
+                9216,
+                9222,
+                9223,
+                9225,
+                9228,
+                9231,
+                9234,
+                9235,
+                9237,
+                9240,
+                9241,
+                9243,
+                9246,
+                9247,
+                9249,
+                9252,
+                9253,
+                9255,
+                9258,
+                9259,
+                9261,
+                9264,
+                9265,
+                9267,
+                9268,
+                9270,
+                9271,
+                9273,
+                9274,
+                9276,
+                9277,
+                9279,
+                9280,
+                9282,
+                9283,
+                9285,
+                9286,
+                9288,
+                9289,
+                9291,
+                9292
+              ],
+              "source_corner_normals_sha256": "fd7e14454daecbb1012047a7570c89f1f652b0fe792d4ba3e3e2aa23e4f2fc50",
+              "expected_output_corner_normals_sha256": "4ed3552acd55250c25195455b22aacea8559e9251676e313e7306b9a32491626"
+            }
+          ]
+        }
+      ]
+    },
+    "selection_evidence": "/tmp/assetsmodel-session-source-normal-outliers/link5-planar-selection-evidence.json",
+    "verification": {
+      "files": 1,
+      "selected_corners": 244,
+      "changed_normal_corners": 244,
+      "newly_opposed_normal_corners": 0,
+      "hard_endpoint_pairs_merged_below_30deg": 0,
+      "near_coplanar_gap_growth_gt_1deg": 0,
+      "near_coplanar_new_gap_above_1deg": 0,
+      "near_coplanar_max_gap_growth_deg": 1.2074182697257333e-06,
+      "near_coplanar_gap_growth_gt_0_001deg": 0,
+      "whole_file_contact_edges": {
+        "files_supported": 1,
+        "cross_primitive_shared_edges": 0,
+        "geometric_and_authored_30deg_hard_endpoint_pairs": 273,
+        "hard_endpoint_pairs_merged_below_30deg": 0,
+        "near_coplanar_max_gap_growth_deg": 1.2074182697257333e-06,
+        "near_coplanar_gap_growth_gt_0_001deg": 0,
+        "near_coplanar_gap_growth_gt_1deg": 0,
+        "near_coplanar_new_gap_above_1deg": 0,
+        "selected_boundary_near_coplanar_max_output_gap_deg": 0.0,
+        "selected_boundary_smooth_geometry_max_output_gap_deg": 0.0
+      }
+    },
+    "khronos": {
+      "meshes": 14,
+      "validator": "Khronos glTF-Validator",
+      "version": "2.0.0-dev.3.10",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "hints": 0
+    },
+    "render_status": "/tmp/assetsmodel-session-source-normal-outliers/link5-trial-render-status.json",
+    "source_unchanged": true
+  },
+  "status_before_early_close": "link5_local_planar_trial_awaiting_visual_review",
+  "closed_at": "2026-11-03T16:37:17.226443+00:00",
+  "final_disposition": "All subsequent diagnostic candidates remain trial-only and were not adopted; source assets match the independently validated checkpoint."
+}

@@ -1,0 +1,1123 @@
+{
+  "status": "applied_after_independent_review",
+  "generated_at": "2026-11-03T15:42:11.119173+00:00",
+  "scope": "Legacy Universal Robots UR5 / CB3; wrist_1_link gray body and blue cap, shoulder_link gray body and blue cap. No UR5e substitution.",
+  "source_files": [
+    {
+      "path": "RobotModel/UniversalRobots/UR5/Collision/glb/base.glb",
+      "snapshot_sha256": "5e88d7905feb7e1d5395cb9d6e2633154f0aa8c26755b32a6e607edb267d29fe",
+      "observed_sha256_before_adoption": "5e88d7905feb7e1d5395cb9d6e2633154f0aa8c26755b32a6e607edb267d29fe",
+      "unchanged_before_adoption": true,
+      "post_adoption_sha256": "5e88d7905feb7e1d5395cb9d6e2633154f0aa8c26755b32a6e607edb267d29fe"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5/Collision/glb/forearm.glb",
+      "snapshot_sha256": "2ec7344f8f41282cb38e1e0e503b6eac564c0ab75c6ef023c0bde0d9cf00dae5",
+      "observed_sha256_before_adoption": "2ec7344f8f41282cb38e1e0e503b6eac564c0ab75c6ef023c0bde0d9cf00dae5",
+      "unchanged_before_adoption": true,
+      "post_adoption_sha256": "2ec7344f8f41282cb38e1e0e503b6eac564c0ab75c6ef023c0bde0d9cf00dae5"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5/Collision/glb/shoulder.glb",
+      "snapshot_sha256": "59328502cf5cadcd78382ee54fbaf27989a68aee58b09c3de640d8d1aa8dd7e9",
+      "observed_sha256_before_adoption": "59328502cf5cadcd78382ee54fbaf27989a68aee58b09c3de640d8d1aa8dd7e9",
+      "unchanged_before_adoption": true,
+      "post_adoption_sha256": "59328502cf5cadcd78382ee54fbaf27989a68aee58b09c3de640d8d1aa8dd7e9"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5/Collision/glb/upperarm.glb",
+      "snapshot_sha256": "e7c7999b0254a8cdfda3ca9a6deb8e069835217aab7e8e24690b669a3703c3f9",
+      "observed_sha256_before_adoption": "e7c7999b0254a8cdfda3ca9a6deb8e069835217aab7e8e24690b669a3703c3f9",
+      "unchanged_before_adoption": true,
+      "post_adoption_sha256": "e7c7999b0254a8cdfda3ca9a6deb8e069835217aab7e8e24690b669a3703c3f9"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5/Collision/glb/wrist1.glb",
+      "snapshot_sha256": "7e6b8a8704cce7c43bc493c4299abaea41d7afcf94ae97fbdd504f88ce16acf4",
+      "observed_sha256_before_adoption": "7e6b8a8704cce7c43bc493c4299abaea41d7afcf94ae97fbdd504f88ce16acf4",
+      "unchanged_before_adoption": true,
+      "post_adoption_sha256": "7e6b8a8704cce7c43bc493c4299abaea41d7afcf94ae97fbdd504f88ce16acf4"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5/Collision/glb/wrist2.glb",
+      "snapshot_sha256": "7c13ed0b513edf8ed24d9a6d39293c03c320e745ef7c31de820a3a92a54a7b90",
+      "observed_sha256_before_adoption": "7c13ed0b513edf8ed24d9a6d39293c03c320e745ef7c31de820a3a92a54a7b90",
+      "unchanged_before_adoption": true,
+      "post_adoption_sha256": "7c13ed0b513edf8ed24d9a6d39293c03c320e745ef7c31de820a3a92a54a7b90"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5/Collision/glb/wrist3.glb",
+      "snapshot_sha256": "f76a8424f1be2412bf43c88cba34236d3a044bd5fb2761b7be55e96b8fdfa3b2",
+      "observed_sha256_before_adoption": "f76a8424f1be2412bf43c88cba34236d3a044bd5fb2761b7be55e96b8fdfa3b2",
+      "unchanged_before_adoption": true,
+      "post_adoption_sha256": "f76a8424f1be2412bf43c88cba34236d3a044bd5fb2761b7be55e96b8fdfa3b2"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5/UR5.urdf",
+      "snapshot_sha256": "76956e22b2b9bcb6668329b0209087d5061376104a2948bf660e81271f19c36a",
+      "observed_sha256_before_adoption": "76956e22b2b9bcb6668329b0209087d5061376104a2948bf660e81271f19c36a",
+      "unchanged_before_adoption": true,
+      "post_adoption_sha256": "76956e22b2b9bcb6668329b0209087d5061376104a2948bf660e81271f19c36a"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5/Visual/glb/base.glb",
+      "snapshot_sha256": "212b75070b0096993fdb8dada0a0f1ed95c109c814931aec53bfe03e30c42880",
+      "observed_sha256_before_adoption": "212b75070b0096993fdb8dada0a0f1ed95c109c814931aec53bfe03e30c42880",
+      "unchanged_before_adoption": true,
+      "post_adoption_sha256": "212b75070b0096993fdb8dada0a0f1ed95c109c814931aec53bfe03e30c42880"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5/Visual/glb/forearm.glb",
+      "snapshot_sha256": "149a8efa590058ce4f97e85443f71958da3a88b20ccb246d1542615bf1b20964",
+      "observed_sha256_before_adoption": "149a8efa590058ce4f97e85443f71958da3a88b20ccb246d1542615bf1b20964",
+      "unchanged_before_adoption": true,
+      "post_adoption_sha256": "149a8efa590058ce4f97e85443f71958da3a88b20ccb246d1542615bf1b20964"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5/Visual/glb/shoulder.glb",
+      "snapshot_sha256": "a061185c1ca792cd98637aabda48090c512b29fc824ea177b93e2f6531d618d6",
+      "observed_sha256_before_adoption": "a061185c1ca792cd98637aabda48090c512b29fc824ea177b93e2f6531d618d6",
+      "unchanged_before_adoption": true,
+      "post_adoption_sha256": "64c075905411bae9d62914b6172c4d6ac82c93858da2e605564fd47bd27820b8"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5/Visual/glb/upperarm.glb",
+      "snapshot_sha256": "ecf8c24aeb34847623ce95a573a146115145fc7b9b04fc2434b358e983c6c65a",
+      "observed_sha256_before_adoption": "ecf8c24aeb34847623ce95a573a146115145fc7b9b04fc2434b358e983c6c65a",
+      "unchanged_before_adoption": true,
+      "post_adoption_sha256": "ecf8c24aeb34847623ce95a573a146115145fc7b9b04fc2434b358e983c6c65a"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5/Visual/glb/wrist1.glb",
+      "snapshot_sha256": "39e646c1b18015cbcb775366b5e8aafcd213eccbc144b99a147c1fb70a9f4759",
+      "observed_sha256_before_adoption": "39e646c1b18015cbcb775366b5e8aafcd213eccbc144b99a147c1fb70a9f4759",
+      "unchanged_before_adoption": true,
+      "post_adoption_sha256": "55964bc1d578221d451d4583560e89af612a76137807e635ba3b79f4a7207566"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5/Visual/glb/wrist2.glb",
+      "snapshot_sha256": "a0c14d816f801115683c332e7abfcac955960d5274dbdc99f09eb4ba7453ca9b",
+      "observed_sha256_before_adoption": "a0c14d816f801115683c332e7abfcac955960d5274dbdc99f09eb4ba7453ca9b",
+      "unchanged_before_adoption": true,
+      "post_adoption_sha256": "a0c14d816f801115683c332e7abfcac955960d5274dbdc99f09eb4ba7453ca9b"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5/Visual/glb/wrist3.glb",
+      "snapshot_sha256": "41323d4c43dd4257a1fb13b06f087878f3c4e5747122e6b025972387ceb0c19d",
+      "observed_sha256_before_adoption": "41323d4c43dd4257a1fb13b06f087878f3c4e5747122e6b025972387ceb0c19d",
+      "unchanged_before_adoption": true,
+      "post_adoption_sha256": "41323d4c43dd4257a1fb13b06f087878f3c4e5747122e6b025972387ceb0c19d"
+    }
+  ],
+  "initial_baseline_corner_comparison": [
+    {
+      "path": "RobotModel/UniversalRobots/UR5/Visual/glb/wrist1.glb",
+      "baseline_exists": true,
+      "current_sha256": "39e646c1b18015cbcb775366b5e8aafcd213eccbc144b99a147c1fb70a9f4759",
+      "snapshot_sha256": "39e646c1b18015cbcb775366b5e8aafcd213eccbc144b99a147c1fb70a9f4759",
+      "initial_baseline_comparison": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "corner_attributes_exact": {
+            "POSITION": true,
+            "NORMAL": true
+          }
+        },
+        {
+          "mesh": 1,
+          "primitive": 0,
+          "corner_attributes_exact": {
+            "POSITION": true,
+            "NORMAL": true
+          }
+        },
+        {
+          "mesh": 2,
+          "primitive": 0,
+          "corner_attributes_exact": {
+            "POSITION": true,
+            "NORMAL": true
+          }
+        }
+      ]
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5/Visual/glb/shoulder.glb",
+      "baseline_exists": true,
+      "current_sha256": "a061185c1ca792cd98637aabda48090c512b29fc824ea177b93e2f6531d618d6",
+      "snapshot_sha256": "a061185c1ca792cd98637aabda48090c512b29fc824ea177b93e2f6531d618d6",
+      "initial_baseline_comparison": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "corner_attributes_exact": {
+            "POSITION": true,
+            "NORMAL": true
+          }
+        },
+        {
+          "mesh": 1,
+          "primitive": 0,
+          "corner_attributes_exact": {
+            "POSITION": true,
+            "NORMAL": true
+          }
+        },
+        {
+          "mesh": 2,
+          "primitive": 0,
+          "corner_attributes_exact": {
+            "POSITION": true,
+            "NORMAL": true
+          }
+        }
+      ]
+    }
+  ],
+  "diagnosis": {
+    "primary_cause_supported": "Existing authored normal discontinuities and off-surface normal directions on locally smooth cylindrical side faces.",
+    "initial_optimization_regression": false,
+    "evidence": [
+      "All POSITION/NORMAL ordered corner tuples of wrist1.glb and shoulder.glb match the initial pre-session baseline exactly.",
+      "Striping remains when the gray body or blue cap is rendered in isolation.",
+      "Striping remains with roughness=1, metallic=0. Original affected materials already metallic=0, roughness=.46.",
+      "Striping occurs in both EEVEE native single-sided rendering and Cycles double-sided studio rendering.",
+      "Wrist gray exact shared edge: geometric face dihedral .005416deg, source corner normal jump59.614403deg. Shoulder gray low-dihedral3.538574deg edge source corner jump92.608971deg.",
+      "No exactly repeated triangles or same-direction paired edges found within any of the six affected/adjacent material primitives. This is not a general proof that all geometric self-intersections are absent.",
+      "Official CB3 service photographs and assembly diagrams show smooth casing; rings, seam, alignment screws and flange details remain physical and must be retained."
+    ],
+    "confidence": "High that dense rendered longitudinal strips are source normal shading defects; no blanket claim about every small machining mark or all other geometry."
+  },
+  "regional_metrics": [
+    {
+      "file": "wrist1.glb",
+      "primitives": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "material": {
+            "name": "Scheibe_001-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.0512,
+                0.0512,
+                0.0512,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.68
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "rubber",
+                "palette": null
+              }
+            }
+          },
+          "vertices": 400,
+          "faces": 282,
+          "exact_duplicate_triangles_ignoring_winding": 0,
+          "edges_by_incidence": {
+            "2": 372,
+            "1": 102
+          },
+          "two_face_same_direction_edges": 0,
+          "low_dihedral_high_normal_jump_edges": 0,
+          "barrel_bad_edges": 0,
+          "largest_examples": []
+        },
+        {
+          "mesh": 1,
+          "primitive": 0,
+          "material": {
+            "name": "verbindung_001-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.14272,
+                0.14272,
+                0.14272,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.46
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint_dark",
+                "palette": null
+              }
+            }
+          },
+          "vertices": 2263,
+          "faces": 3098,
+          "exact_duplicate_triangles_ignoring_winding": 0,
+          "edges_by_incidence": {
+            "2": 4596,
+            "1": 102
+          },
+          "two_face_same_direction_edges": 0,
+          "low_dihedral_high_normal_jump_edges": 51,
+          "barrel_bad_edges": 19,
+          "largest_examples": [
+            {
+              "faces": [
+                1383,
+                1384
+              ],
+              "geo_degrees": 0.00541644908958934,
+              "normal_jump_degrees": [
+                59.61440288224386,
+                55.81476090746156
+              ],
+              "midpoint": [
+                -0.03749882988631725,
+                0.09325975179672241,
+                -0.016611898317933083
+              ],
+              "barrel": true
+            },
+            {
+              "faces": [
+                519,
+                520
+              ],
+              "geo_degrees": 2.812432350449974,
+              "normal_jump_degrees": [
+                46.26686816836115,
+                0.8966433275312603
+              ],
+              "midpoint": [
+                -0.037359800189733505,
+                0.08979964256286621,
+                -0.020597897469997406
+              ],
+              "barrel": true
+            },
+            {
+              "faces": [
+                520,
+                795
+              ],
+              "geo_degrees": 0.7801611550490698,
+              "normal_jump_degrees": [
+                46.06879020503528,
+                0.8966433275312603
+              ],
+              "midpoint": [
+                -0.03735869936645031,
+                0.08978918194770813,
+                -0.02060248702764511
+              ],
+              "barrel": true
+            }
+          ]
+        },
+        {
+          "mesh": 2,
+          "primitive": 0,
+          "material": {
+            "name": "blau_001-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.19120168,
+                0.40197778,
+                0.57112483,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.46
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "plastic",
+                "palette": "ur_blue"
+              }
+            }
+          },
+          "vertices": 7447,
+          "faces": 10692,
+          "exact_duplicate_triangles_ignoring_winding": 0,
+          "edges_by_incidence": {
+            "2": 16038
+          },
+          "two_face_same_direction_edges": 0,
+          "low_dihedral_high_normal_jump_edges": 35,
+          "barrel_bad_edges": 35,
+          "largest_examples": [
+            {
+              "faces": [
+                10383,
+                10392
+              ],
+              "geo_degrees": 0.06612837128760946,
+              "normal_jump_degrees": [
+                1.1784619967360206,
+                56.3010293645325
+              ],
+              "midpoint": [
+                0.0035718674771487713,
+                0.13215189427137375,
+                -0.008585152914747596
+              ],
+              "barrel": true
+            },
+            {
+              "faces": [
+                10391,
+                10392
+              ],
+              "geo_degrees": 3.2529493668061926,
+              "normal_jump_degrees": [
+                56.3010293645325,
+                5.057168019133571
+              ],
+              "midpoint": [
+                0.0034993585431948304,
+                0.13216039538383484,
+                -0.008581488160416484
+              ],
+              "barrel": true
+            },
+            {
+              "faces": [
+                10354,
+                10358
+              ],
+              "geo_degrees": 0.007818297718007607,
+              "normal_jump_degrees": [
+                1.2452857182808565,
+                54.403319146195074
+              ],
+              "midpoint": [
+                0.021383310668170452,
+                0.125873401761055,
+                -0.011329735163599253
+              ],
+              "barrel": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "shoulder.glb",
+      "primitives": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "material": {
+            "name": "verbindung-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.1784,
+                0.1784,
+                0.1784,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.46
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint_dark",
+                "palette": null
+              }
+            }
+          },
+          "vertices": 3162,
+          "faces": 4052,
+          "exact_duplicate_triangles_ignoring_winding": 0,
+          "edges_by_incidence": {
+            "2": 6055,
+            "1": 46
+          },
+          "two_face_same_direction_edges": 0,
+          "low_dihedral_high_normal_jump_edges": 40,
+          "barrel_bad_edges": 22,
+          "largest_examples": [
+            {
+              "faces": [
+                3683,
+                3684
+              ],
+              "geo_degrees": 3.5385741022425945,
+              "normal_jump_degrees": [
+                92.60897100640707,
+                0.9272308361020041
+              ],
+              "midpoint": [
+                0.057998744770884514,
+                -0.00035459249920677394,
+                0.02740634884685278
+              ],
+              "barrel": true
+            },
+            {
+              "faces": [
+                2130,
+                3353
+              ],
+              "geo_degrees": 2.1335355622008247,
+              "normal_jump_degrees": [
+                92.359435234865,
+                1.0213090122054642
+              ],
+              "midpoint": [
+                0.05797388590872288,
+                -0.0017372145084664226,
+                -0.05681351199746132
+              ],
+              "barrel": true
+            },
+            {
+              "faces": [
+                3357,
+                3647
+              ],
+              "geo_degrees": 3.561418168664389,
+              "normal_jump_degrees": [
+                1.467449973911721,
+                92.15013111007706
+              ],
+              "midpoint": [
+                0.05797702074050903,
+                -0.0016308794729411602,
+                -0.05436355248093605
+              ],
+              "barrel": true
+            }
+          ]
+        },
+        {
+          "mesh": 1,
+          "primitive": 0,
+          "material": {
+            "name": "Scheibe-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.064,
+                0.064,
+                0.064,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.68
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "rubber",
+                "palette": null
+              }
+            }
+          },
+          "vertices": 194,
+          "faces": 136,
+          "exact_duplicate_triangles_ignoring_winding": 0,
+          "edges_by_incidence": {
+            "2": 181,
+            "1": 46
+          },
+          "two_face_same_direction_edges": 0,
+          "low_dihedral_high_normal_jump_edges": 0,
+          "barrel_bad_edges": 0,
+          "largest_examples": []
+        },
+        {
+          "mesh": 2,
+          "primitive": 0,
+          "material": {
+            "name": "blau-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.19120168,
+                0.40197778,
+                0.57112483,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.46
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "plastic",
+                "palette": "ur_blue"
+              }
+            }
+          },
+          "vertices": 6840,
+          "faces": 9300,
+          "exact_duplicate_triangles_ignoring_winding": 0,
+          "edges_by_incidence": {
+            "2": 13950
+          },
+          "two_face_same_direction_edges": 0,
+          "low_dihedral_high_normal_jump_edges": 36,
+          "barrel_bad_edges": 34,
+          "largest_examples": [
+            {
+              "faces": [
+                9016,
+                9017
+              ],
+              "geo_degrees": 0.021440905875180355,
+              "normal_jump_degrees": [
+                7.572311949981066,
+                56.87904812006652
+              ],
+              "midpoint": [
+                -0.014233135152608156,
+                -0.05774393677711487,
+                0.008834577398374677
+              ],
+              "barrel": true
+            },
+            {
+              "faces": [
+                9017,
+                9018
+              ],
+              "geo_degrees": 3.3886275788970837,
+              "normal_jump_degrees": [
+                12.580257792953388,
+                56.87904812006652
+              ],
+              "midpoint": [
+                -0.01434137998148799,
+                -0.05771595239639282,
+                0.008847452467307448
+              ],
+              "barrel": true
+            },
+            {
+              "faces": [
+                8987,
+                8988
+              ],
+              "geo_degrees": 0.026339065653211285,
+              "normal_jump_degrees": [
+                13.015755312902067,
+                56.83639902996651
+              ],
+              "midpoint": [
+                0.014335215091705322,
+                -0.05769878998398781,
+                0.008855345891788602
+              ],
+              "barrel": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "official_cb3_evidence": {
+    "task": "Official legacy UR5 / CB3 reference inspection for wrist1 and shoulder stripe diagnosis",
+    "inspected_local_render": "/tmp/assetsmodel-session-batching-round2-rebased-renders-before/universalrobots-ur5-hero.png",
+    "refs": [
+      {
+        "id": "cb3_datasheet_cn",
+        "url": "https://www.universal-robots.com/media/1824876/05_2022_ur5_data_sheet_cn.pdf",
+        "file": "ur5_cb3_datasheet_cn.pdf",
+        "generation_evidence": "Visible page heading CB3产品手册 and model UR5; UR5e is not named.",
+        "pages": [
+          {
+            "pdf_page_1based": 1,
+            "render": "ur5_cb3_datasheet_cn.png",
+            "observation": "Official product depiction has smooth grey joint housings below blue circular lids, without a repeated set of deep axial flutes. Small scale limits inspection of narrow machining marks."
+          }
+        ],
+        "bytes": 212627,
+        "sha256": "39039db2b5fcbcb825fa79c86693ce196f4402257e66e55920a46d809ba3966b"
+      },
+      {
+        "id": "ur5_cb3_service",
+        "landing_url": "https://www.universal-robots.com/download/manuals-cb-series/service/service-manual-ur5-cb3-english/",
+        "url": "https://s3-eu-west-1.amazonaws.com/ur-support-site/15737/UR5_Service_Manual_en.pdf",
+        "file": "ur5_cb3_service.pdf",
+        "generation_evidence": "Official download page is explicitly titled Service manual UR5 - CB3 - English. PDF cover itself says revision UR5_en_3.2.7 and UR5 with CB3.0/3.1/3.2-controller, valid from robot s/n 2014350001. Official page links this PDF as UR5_Service_Manual_en.pdf.",
+        "landing_page_last_modified_display": "Apr 07, 2021",
+        "pages": [
+          {
+            "pdf_page_1based": 25,
+            "printed_page": "19",
+            "render": "service-page-025.png",
+            "embedded_images": [
+              "service-page025-photo-001.png",
+              "service-page025-photo-003.png"
+            ],
+            "observation": "Photographs explicitly captioned Brake on Wrist joints and disassembly of joint. External grey wrist housing, seen in top/right background and lower outer edge, looks continuous and lightly textured; no dense axial rib set like rendered wrist1. Blue lid is removed in these photographs; view is oblique and portions hidden by hand."
+          },
+          {
+            "pdf_page_1based": 26,
+            "printed_page": "20",
+            "render": "service-page-026.png",
+            "observation": "CAD assembly diagrams show continuous cylinder surfaces with circumferential seam/black flat ring, and an isolated alignment screw. Does not show a repeated set of longitudinal flutes."
+          },
+          {
+            "pdf_page_1based": 36,
+            "printed_page": "30",
+            "render": "service-page-036.png",
+            "observation": "Disassembled joint photograph shows smooth grey outer housing; page starts Wrist 1 joint – Lower arm section below photo (photo above is elbow section; do not mislabel as wrist1 photo)."
+          },
+          {
+            "pdf_page_1based": 34,
+            "printed_page": "28",
+            "render": "service-page-034.png",
+            "observation": "Upper arm–Shoulder joint service CAD illustration clearly exposes base-side grey cylinder directly below a blue lid. This surface has a broad continuous lighting gradient with no dense axial flute pattern. It retains circumferential seam bands, lid fasteners, mounting flange holes, and other CAD surface boundary lines elsewhere; retain genuine mechanical details."
+          }
+        ],
+        "bytes": 30305707,
+        "sha256": "c77e1fbd8ec4d4f938576bfe78d59f24f41ab946aebdd884513f716ebd545f85"
+      },
+      {
+        "id": "legacy_ur5_technical_details",
+        "url": "https://www.universal-robots.com/media/1801303/eng_199901_ur5_tech_spec_web_a4.pdf",
+        "file": "ur5_legacy_tech_spec.pdf",
+        "generation_evidence": "Official legacy UR5 technical-details sheet, old model name UR5 rather than UR5e. Consistent legacy design; sheet does not itself explicitly say CB3, so use as secondary corroboration rather than unique generation proof.",
+        "pages": [
+          {
+            "pdf_page_1based": 1,
+            "render": "ur5_legacy_tech_spec.png",
+            "embedded_images": [
+              "ur5-tech-spec-embedded-000.png"
+            ],
+            "observation": "Larger official product depiction shows wrist and shoulder housings with smooth broad lighting gradients and isolated seams; no repeated dense longitudinal black rib set. Product depiction may be CGI and cannot alone establish actual microgeometry."
+          }
+        ],
+        "bytes": 141675,
+        "sha256": "cfc1a2bec93b28cc82b0c0ac97375d46bc7489e73e8ed699203d60720575089e"
+      }
+    ],
+    "conclusion": "The inspected official legacy UR5/CB3 product depictions and service photographs do not support dense axial flutes as a normal intended exterior feature. Circumferential rings/seams and a few fasteners are real and should remain. This is visual evidence only; establish geometry, normal, overlap or shading cause quantitatively before changing normals.",
+    "limitations": [
+      "Photographs are oblique, portions are covered or disassembled; no reference is an exact match for the current all-zero hero pose.",
+      "A smooth appearance in product graphics cannot rule out fine machining texture, finish variation, or a revision of a specific serial-number housing.",
+      "No UR5e material was used as shape evidence; current website footer UR5e navigation is irrelevant to the CB3 document identity."
+    ]
+  },
+  "diagnostic_artifacts": {
+    "root": "/tmp/assetsmodel-session-ur5-stripe-diagnosis",
+    "full_geometry_normal_audit": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/geometry-normal-audit.json",
+    "source_baseline_check": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/source-stage-comparison.json",
+    "original_isolation_renders_status": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/render-status.json",
+    "cylinder_fit_exploration": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/cylinder-fit.json",
+    "gray_ray_check": "/tmp/assetsmodel-ur5-gray-ray-check.json",
+    "trial3_independent_check": "/tmp/assetsmodel-ur5-local-fan-independent-check.json",
+    "latest_structural_check": "/tmp/assetsmodel-ur5-local-cylinder-localized-check.json",
+    "latest_hardedge_check": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/cylinder-localized-hardedge-check.json"
+  },
+  "temporary_trials": [
+    {
+      "name": "local-seam-trial",
+      "status": "no_go",
+      "reason": "Source-discontinuity-seeded corner-only correction was incomplete and introduces discontinuities where a fan is only partly selected. Diagnostic only; never applied."
+    },
+    {
+      "name": "local-cylinder-trial",
+      "status": "no_go",
+      "reason": "Independent audit found24 new low-geometric-dihedral normal discontinuities due partialfan geometry mask boundary. Diagnostic only; never applied.",
+      "independent_evidence": "/tmp/assetsmodel-ur5-local-independent-check.json"
+    },
+    {
+      "name": "local-fan-trial",
+      "status": "passed_math_and_visual_partial_correction",
+      "reason": "Independent strict geometry/retained-normal audit passed; no newly introduced low-dihedral normal seam or previously authored >=30deg hard N gap collapsed. Both EEVEE and Cycles hero/rear improve gray shell without new visible holes/flips. Blue low-amplitude residual remained.",
+      "contact_sheets": [
+        "/tmp/assetsmodel-session-ur5-stripe-diagnosis/wrist_1_link-local-fan-before-after.jpg",
+        "/tmp/assetsmodel-session-ur5-stripe-diagnosis/shoulder_link-local-fan-before-after.jpg",
+        "/tmp/assetsmodel-session-ur5-stripe-diagnosis/whole-local-fan-before-after.jpg"
+      ]
+    },
+    {
+      "name": "local-low-amplitude-trial",
+      "status": "diagnostic_intermediate",
+      "reason": "Blue-only low-amplitude follow-up; target output identical blue corners to next candidate. Geometry and retained-N check0 errors, Khronos14 meshes0/0."
+    },
+    {
+      "name": "local-cylinder-localized-trial",
+      "status": "passed_targeted_math_and_visual_review",
+      "reason": "Dense gray body and blue cap longitudinal shading bands visibly improve in EEVEE and Cycles hero/rear; rings, seams, silhouettes and mechanical form remain. Target output is a local reviewed mask, not a whole-primitive recomputation.",
+      "changed_normal_corners": {
+        "wrist1": 2725,
+        "shoulder": 3080
+      },
+      "new_low_dihedral_normal_seams": 0,
+      "authored_geometric_hard_edges_lost": 0,
+      "khronos": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/local-cylinder-localized-khronos.json",
+      "contact_sheets": [
+        "/tmp/assetsmodel-session-ur5-stripe-diagnosis/wrist_1_link-local-cylinder-localized-before-after.jpg",
+        "/tmp/assetsmodel-session-ur5-stripe-diagnosis/shoulder_link-local-cylinder-localized-before-after.jpg",
+        "/tmp/assetsmodel-session-ur5-stripe-diagnosis/whole-local-cylinder-localized-before-after.jpg"
+      ]
+    }
+  ],
+  "adoption": {
+    "status": "applied",
+    "record": "docs/quality/ur5-local-normal-applied.json",
+    "applied_at": "2026-11-03T15:43:59.421381+00:00",
+    "owner": "parent",
+    "current_source_matches_both_output_sha256": true,
+    "historical_script_sha256": "afd05e595aefa787eb73f914918fdd4239b0c8dee41096b7b789476dd369f0de",
+    "current_script_sha256": "bbb47417c2bf7cbbe6df09ebce7188c9b7979c1c8405d9f9298ffd6fa14820bc",
+    "guard_only_revision_output_sha256_unchanged": true
+  },
+  "residual_blue_cap_diagnosis": {
+    "ray_hit_count": 1142,
+    "row450_side_samples": 186,
+    "radial_errors_degrees_median_p90": {
+      "source": [
+        3.5,
+        8.57
+      ],
+      "trial3": [
+        3.15,
+        6.48
+      ],
+      "geometric_face_normal": [
+        1.02,
+        2.25
+      ],
+      "complete_local_oriented_fan": [
+        0.47,
+        1.13
+      ]
+    },
+    "conclusion": "Low-amplitude source normal variations are visible even below the first conservative20/10deg selection thresholds. Not evidence for physical longitudinal grooves.",
+    "example": {
+      "pixel": [
+        270,
+        450
+      ],
+      "source_N_radial_error_degrees": 6.07,
+      "geometric_N_radial_error_degrees": 0.055,
+      "localfan_N_radial_error_degrees": 0.091
+    },
+    "evidence": "/tmp/assetsmodel-ur5-blue-ray-check.json"
+  },
+  "source_untouched_during_diagnosis": true,
+  "final_candidate": {
+    "verdict": "Adopted by parent after independent structural audit and actual visual review.",
+    "trial_only": true,
+    "source_model": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/snapshot/RobotModel/UniversalRobots/UR5",
+    "output_model": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/final-trial-guarded/RobotModel/UniversalRobots/UR5",
+    "script": "scripts/repair_ur5_local_normals.py",
+    "script_sha256": "bbb47417c2bf7cbbe6df09ebce7188c9b7979c1c8405d9f9298ffd6fa14820bc",
+    "mask": "docs/quality/ur5-local-normal-mask.json",
+    "mask_sha256": "c2f7152531fc0ef1f45cb6753a086860668c72e8a2fefa0f7340834a95e0060d",
+    "source_output_sha_report": "docs/quality/ur5-local-normal-trial.json",
+    "changed_normal_corners": 5805,
+    "total_normal_corners": 82680,
+    "unselected_normal_corners_byte_exact": 76875,
+    "net_bytes_delta": 920,
+    "files": [
+      {
+        "path": "Visual/glb/wrist1.glb",
+        "source_sha256": "39e646c1b18015cbcb775366b5e8aafcd213eccbc144b99a147c1fb70a9f4759",
+        "output_sha256": "55964bc1d578221d451d4583560e89af612a76137807e635ba3b79f4a7207566",
+        "source_bytes": 330860,
+        "output_bytes": 330328,
+        "primitives": [
+          {
+            "mesh": 1,
+            "primitive": 0,
+            "material_name": "verbindung_001-material",
+            "changed_normal_corners": 722,
+            "total_corners": 9294,
+            "unselected_corner_normals_byte_exact": true
+          },
+          {
+            "mesh": 2,
+            "primitive": 0,
+            "material_name": "blau_001-material",
+            "changed_normal_corners": 2003,
+            "total_corners": 32076,
+            "unselected_corner_normals_byte_exact": true
+          }
+        ],
+        "ordered_geometry_and_winding_byte_exact": true,
+        "material_node_scene_exact": true
+      },
+      {
+        "path": "Visual/glb/shoulder.glb",
+        "source_sha256": "a061185c1ca792cd98637aabda48090c512b29fc824ea177b93e2f6531d618d6",
+        "output_sha256": "64c075905411bae9d62914b6172c4d6ac82c93858da2e605564fd47bd27820b8",
+        "source_bytes": 329408,
+        "output_bytes": 330860,
+        "primitives": [
+          {
+            "mesh": 0,
+            "primitive": 0,
+            "material_name": "verbindung-material",
+            "changed_normal_corners": 883,
+            "total_corners": 12156,
+            "unselected_corner_normals_byte_exact": true
+          },
+          {
+            "mesh": 2,
+            "primitive": 0,
+            "material_name": "blau-material",
+            "changed_normal_corners": 2197,
+            "total_corners": 27900,
+            "unselected_corner_normals_byte_exact": true
+          }
+        ],
+        "ordered_geometry_and_winding_byte_exact": true,
+        "material_node_scene_exact": true
+      }
+    ],
+    "storage": "Exact float32 P+N tuple deduplication. Ordered triangle corners and winding unchanged; no tolerance weld or quantization.",
+    "reproduction_command": "python3 scripts/repair_ur5_local_normals.py --source-model /tmp/assetsmodel-session-ur5-stripe-diagnosis/snapshot/RobotModel/UniversalRobots/UR5 --output-model /tmp/ur5-local-normal-reproduce/RobotModel/UniversalRobots/UR5 --report /tmp/ur5-local-normal-reproduce.json",
+    "reproduction_requirement": "The two source GLB hashes must match the explicit whitelist. After adoption use the before-apply backup; the final source is intentionally rejected as an unreviewed input.",
+    "independent_final_audit_status": "passed",
+    "script_guard_evidence": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/script-guard-checks.json",
+    "repeated_generation": "Four actual generation runs, including the final CameraModel guard revision, produced byte-identical GLBs.",
+    "khronos": {
+      "meshes": 14,
+      "validator": "Khronos glTF-Validator",
+      "version": "2.0.0-dev.3.10",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "hints": 0
+    },
+    "source_untouched_before_parent_adoption": true,
+    "independent_final_audit": "docs/quality/ur5-local-normal-independent-validation.json"
+  },
+  "visual_validation": {
+    "render_settings": {
+      "width": 760,
+      "height": 680,
+      "samples": 64,
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "engines": [
+        "EEVEE native single-sided",
+        "Cycles double-sided studio approximation"
+      ]
+    },
+    "coverage": "Both affected isolated links, both views, both renderers; complete UR5 before/after hero/rear. Packed representative repeat: EEVEE four link views + two whole model views, Cycles wrist hero + shoulder rear.",
+    "full_candidate_contact_sheets": [
+      "/tmp/assetsmodel-session-ur5-stripe-diagnosis/wrist_1_link-local-cylinder-localized-before-after.jpg",
+      "/tmp/assetsmodel-session-ur5-stripe-diagnosis/shoulder_link-local-cylinder-localized-before-after.jpg",
+      "/tmp/assetsmodel-session-ur5-stripe-diagnosis/whole-local-cylinder-localized-before-after.jpg"
+    ],
+    "packed_contact_sheets": [
+      "/tmp/assetsmodel-session-ur5-stripe-diagnosis/wrist_1_link-packed-final-before-after.jpg",
+      "/tmp/assetsmodel-session-ur5-stripe-diagnosis/shoulder_link-packed-final-before-after.jpg",
+      "/tmp/assetsmodel-session-ur5-stripe-diagnosis/whole-packed-final-before-after.jpg"
+    ],
+    "deindexed_and_packed_target_ordered_PN_material_nodes_scenes": "strictly byte equal at ordered corners; identical material/node/scene definitions",
+    "packed_vs_deindexed_render_comparison": {
+      "pairs": [
+        {
+          "deindexed": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/wrist_1_link-local-cylinder-localized-trial-hero-eevee.png",
+          "packed": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/wrist_1_link-reproducible-packed-trial-hero-eevee.png",
+          "camera_bounds_settings_exact": true,
+          "pixels_equal_fraction": 0.9983146284829721,
+          "maximum_channel_error_255": 1,
+          "mean_absolute_channel_error_255": 0.000604360165118679,
+          "pixels_with_channel_error_above2": 0
+        },
+        {
+          "deindexed": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/wrist_1_link-local-cylinder-localized-trial-rear-eevee.png",
+          "packed": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/wrist_1_link-reproducible-packed-trial-rear-eevee.png",
+          "camera_bounds_settings_exact": true,
+          "pixels_equal_fraction": 0.9994582043343653,
+          "maximum_channel_error_255": 1,
+          "mean_absolute_channel_error_255": 0.0001876934984520124,
+          "pixels_with_channel_error_above2": 0
+        },
+        {
+          "deindexed": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/shoulder_link-local-cylinder-localized-trial-hero-eevee.png",
+          "packed": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/shoulder_link-reproducible-packed-trial-hero-eevee.png",
+          "camera_bounds_settings_exact": true,
+          "pixels_equal_fraction": 0.9992047213622292,
+          "maximum_channel_error_255": 1,
+          "mean_absolute_channel_error_255": 0.00027670278637770897,
+          "pixels_with_channel_error_above2": 0
+        },
+        {
+          "deindexed": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/shoulder_link-local-cylinder-localized-trial-rear-eevee.png",
+          "packed": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/shoulder_link-reproducible-packed-trial-rear-eevee.png",
+          "camera_bounds_settings_exact": true,
+          "pixels_equal_fraction": 0.9989821981424148,
+          "maximum_channel_error_255": 1,
+          "mean_absolute_channel_error_255": 0.00035345717234262124,
+          "pixels_with_channel_error_above2": 0
+        },
+        {
+          "deindexed": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/whole-local-cylinder-localized-trial-pack-hero-eevee.png",
+          "packed": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/whole-reproducible-packed-trial-pack-hero-eevee.png",
+          "camera_bounds_settings_exact": true,
+          "pixels_equal_fraction": 0.9999013157894737,
+          "maximum_channel_error_255": 1,
+          "mean_absolute_channel_error_255": 3.547471620227038e-05,
+          "pixels_with_channel_error_above2": 0
+        },
+        {
+          "deindexed": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/whole-local-cylinder-localized-trial-pack-rear-eevee.png",
+          "packed": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/whole-reproducible-packed-trial-pack-rear-eevee.png",
+          "camera_bounds_settings_exact": true,
+          "pixels_equal_fraction": 0.999920665634675,
+          "maximum_channel_error_255": 1,
+          "mean_absolute_channel_error_255": 2.7089783281733746e-05,
+          "pixels_with_channel_error_above2": 0
+        },
+        {
+          "deindexed": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/wrist_1_link-local-cylinder-localized-trial-hero-cycles.png",
+          "packed": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/wrist_1_link-reproducible-packed-trial-hero-cycles.png",
+          "camera_bounds_settings_exact": true,
+          "pixels_equal_fraction": 0.9976915634674922,
+          "maximum_channel_error_255": 1,
+          "mean_absolute_channel_error_255": 0.0007823787409700722,
+          "pixels_with_channel_error_above2": 0
+        },
+        {
+          "deindexed": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/shoulder_link-local-cylinder-localized-trial-rear-cycles.png",
+          "packed": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/shoulder_link-reproducible-packed-trial-rear-cycles.png",
+          "camera_bounds_settings_exact": true,
+          "pixels_equal_fraction": 0.9975445046439628,
+          "maximum_channel_error_255": 1,
+          "mean_absolute_channel_error_255": 0.0008307533539731682,
+          "pixels_with_channel_error_above2": 0
+        }
+      ],
+      "all_pixel_identical": false,
+      "max_error": 1
+    },
+    "observations": [
+      "The strong gray-shell longitudinal black bands are substantially removed.",
+      "Blue-cap fine vertical striping is substantially reduced after the quantitatively justified low-amplitude local correction.",
+      "No new visible hole, flipped patch, waviness or selected-region boundary seam found in these target views.",
+      "All actual geometry is retained, including circumferential rings, silhouette, junctions and mechanical shape.",
+      "Small remaining shading variation is retained where the diagnosis did not authorize changing the original normal field. This is not a claim that every surface is perfectly smooth."
+    ],
+    "public_contact_sheets": [
+      "docs/previews/ur5-wrist-local-normals.jpg",
+      "docs/previews/ur5-shoulder-local-normals.jpg",
+      "docs/previews/ur5-whole-local-normals.jpg"
+    ],
+    "renderer_default_change_note": "After these renders, render_preview.py and render_catalog.py default engine changed to EEVEE. All diagnostic render commands explicitly selected eevee or cycles, so this default-only change does not change their visual result. Recorded renderer SHA values are historical render provenance."
+  },
+  "final_visible_blue_quantification": {
+    "sample": "186 front-visible samples at row450 of the wrist blue-only hero view, native culling and barycentric interpolation.",
+    "source_radial_normal_error_median_p90_degrees": [
+      3.497,
+      8.574
+    ],
+    "final_radial_normal_error_median_p90_degrees": [
+      0.735,
+      1.938
+    ],
+    "geometry_radial_normal_error_median_p90_degrees": [
+      1.02,
+      2.25
+    ],
+    "source_ray_evidence": "/tmp/assetsmodel-ur5-blue-ray-check.json",
+    "final_ray_evidence": "/tmp/assetsmodel-ur5-blue-final-ray-check.json",
+    "interpretation": "The selected local correction reduces erroneous authored normal variation while preserving the original mesh geometry."
+  },
+  "final_visible_gray_quantification": {
+    "sample": "179 front-visible samples at row450 of the wrist gray-only hero view.",
+    "source_radial_normal_error_median_p90_degrees": [
+      11.136,
+      20.638
+    ],
+    "final_radial_normal_error_median_p90_degrees": [
+      1.173,
+      2.104
+    ],
+    "final_ray_evidence": "/tmp/assetsmodel-ur5-gray-final-ray-check.json"
+  },
+  "local_structure_validation": {
+    "latest_helper_authored_checker": "/tmp/assetsmodel-ur5-local-cylinder-localized-check.json",
+    "hardedge_source_gap_check": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/cylinder-localized-hardedge-check.json",
+    "reviewed_vs_packed_corner_check": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/packed-vs-reviewed-corner-equivalence.json",
+    "near_coplanar_definition": "Same-primitive exact-position opposite-directed shared edge; geometric face dihedral<10deg. At each endpoint source normal gap<10deg -> output gap>15deg is a new unacceptable seam.",
+    "new_unacceptable_seams": 0,
+    "hardedge_definition": "Same geometric edge with face dihedral>=30deg and source endpoint normal gap>=30deg; an output normal gap<30deg would lose a previously authored hard normal edge.",
+    "previously_authored_hard_normal_edges_lost": 0,
+    "note": "Some geometric hard-edge endpoints already have equal source normals. Keeping such an endpoint smooth does not constitute newly losing an authored normal split. The local repair does not claim to restore every preexisting crease.",
+    "final_independent_audit": "docs/quality/ur5-local-normal-independent-validation.json",
+    "independent_summary": {
+      "files": 2,
+      "selected_corners": 5805,
+      "changed_normal_corners": 5805,
+      "newly_opposed_normal_corners": 0,
+      "hard_endpoint_pairs_merged_below_30deg": 0,
+      "near_coplanar_gap_growth_gt_1deg": 0,
+      "near_coplanar_new_gap_above_1deg": 0,
+      "near_coplanar_max_gap_growth_deg": 1.7075472925031877e-06,
+      "near_coplanar_gap_growth_gt_0_001deg": 0,
+      "whole_file_contact_edges": {
+        "files_supported": 2,
+        "cross_primitive_shared_edges": 148,
+        "geometric_and_authored_30deg_hard_endpoint_pairs": 2039,
+        "hard_endpoint_pairs_merged_below_30deg": 0,
+        "near_coplanar_max_gap_growth_deg": 1.7075472925031877e-06,
+        "near_coplanar_gap_growth_gt_0_001deg": 0,
+        "near_coplanar_gap_growth_gt_1deg": 0,
+        "near_coplanar_new_gap_above_1deg": 0,
+        "selected_boundary_near_coplanar_max_output_gap_deg": 8.86398695661276,
+        "selected_boundary_smooth_geometry_max_output_gap_deg": 8.86398695661276
+      }
+    }
+  },
+  "dependency_sha256": {
+    "scripts/smooth_oriented_sheets.py": "a1181ba9ffc8880b0f052dc0ff12aaca41f70c300c91061277c1efbf00c1f609",
+    "scripts/refine_visual_normals.py": "afd7ed8d75da0b22ef5dfc357de2c97751f1e0abb18e7bf00c35f50c23296360",
+    "scripts/refine_materials.py": "60b6c5df6d57b4e1cc66c00e3008eb14181afd96423441470189c7ce8f8de951",
+    "scripts/glb_format.py": "f528b466d2c78058866e45c0845af4006c148be9f19956027e3cafc4da6f22e5",
+    "scripts/prepare_preview.py": "758a7dc544f8311847b16f281a7b4b4baaf1b8ae673762a5eb9b9382f933a78c",
+    "scripts/render_preview.py": "a9579547524b30bd05c3a6da21cbefc0b2d86a187304207089d7ae52ca58860a"
+  },
+  "diagnosis_completed_at": "2026-11-03T15:42:11.119173+00:00",
+  "updated_at": "2026-11-03T15:48:19.980220+00:00",
+  "source_untouched_at_diagnosis_completion": true,
+  "source_files_scope": "The following source observations were made before the parent adoption. Post-adoption SHA values are listed separately; only the two authorized files changed."
+}
