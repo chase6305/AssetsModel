@@ -2,11 +2,11 @@
 
 Portable URDF assets for robot planning, simulation, and visualization.
 
-**71 URDF variants · 12 robot vendors · 841 GLB meshes · 404 optional STL meshes**
+**75 URDF variants · 12 robot vendors · 874 GLB meshes · 420 optional STL meshes**
 
 [Model catalog](docs/CATALOG.md) · [New robots](docs/NEW_ROBOTS.md) · [Brand materials](docs/BRAND_MATERIALS.md) · [Surface normals](docs/NORMAL_REFINEMENT.md) · [Asset layout](docs/ASSET_LAYOUT.md) · [Before / after viewer](docs/preview.html) · [GLB conversion report](docs/GLB_REPORT.md) · [工具使用说明](docs/MESH_WORKFLOW.md)
 
-All URDFs now reference **GLB meshes in their model directories**. Visual and collision resources use format subdirectories such as `Visual/glb/`, `Visual/stl/`, `Collision/glb/` and `Collision/stl/`; cameras and tools use `meshes/glb/` and `meshes/stl/`. **DAE files and the duplicate top-level GLB tree have been removed.** GLBs occupy **214.7 MiB**; retained STL alternatives occupy **244.5 MiB**. Copy a model directory, or export only its GLB runtime resources using the [workflow](docs/MESH_WORKFLOW.md).
+All URDFs now reference **GLB meshes in their model directories**. Visual and collision resources use format subdirectories such as `Visual/glb/`, `Visual/stl/`, `Collision/glb/` and `Collision/stl/`; cameras and tools use `meshes/glb/` and `meshes/stl/`. **The runtime tree contains no DAE files or duplicate top-level GLB tree.** Imported source archives retain original DAE inputs for traceability. GLBs occupy **227.7 MiB**; retained STL alternatives occupy **245.0 MiB**. Copy a model directory, or export only its GLB runtime resources using the [workflow](docs/MESH_WORKFLOW.md).
 
 | Peitian AIR10-1210 | Franka FR3 | Universal Robots UR5e |
 | :---: | :---: | :---: |
@@ -18,11 +18,33 @@ Previews use the embedded PBR materials and the joint poses recorded in the [pre
 
 | Category | URDF variants | Directory convention |
 | --- | ---: | --- |
-| Industrial robots and arm/hand variants | 60 | `RobotModel/<Vendor>/<Model>/` |
+| Industrial robots and arm/hand variants | 64 | `RobotModel/<Vendor>/<Model>/` |
 | RealSense cameras and plug variants | 10 | `CameraModel/RealSense/<Model>/` |
 | Robotiq 2F85 gripper | 1 | `ToolModel/Robotiq2F85/` |
 
 The [complete catalog](docs/CATALOG.md) links every URDF and lists its link and actuated-joint counts. Mimic joints are excluded from the actuated-joint count.
+
+## Models moved from HumanoidAssets
+
+The original Panda and official-description UR5e now live here alongside the
+existing FR3 and UR5e models. Existing model files remain unchanged.
+
+| Model | Entry points | Notes |
+| --- | --- | --- |
+| Franka Panda | [robot](RobotModel/Franka/Panda/robot.urdf), [arm](RobotModel/Franka/Panda/arm.urdf), [hand](RobotModel/Franka/Panda/hand.urdf) | Original Panda, distinct from FR3; [source and limits](RobotModel/Franka/Panda/SOURCE.md) |
+| UR5e official variant | [robot](RobotModel/UniversalRobots/UR5e_Official/robot.urdf) | Official ROS2 frame tree and physical values; distinct from `UR5e/UR5e.urdf`; [source](RobotModel/UniversalRobots/UR5e_Official/SOURCE.md) |
+
+| Franka Panda | UR5e official variant |
+| :---: | :---: |
+| ![Panda](RobotModel/Franka/Panda/preview.png) | ![UR5e official](RobotModel/UniversalRobots/UR5e_Official/preview.png) |
+
+Their visual GLBs and previews retain the HumanoidAssets source bytes. Collision
+GLBs preserve all original STL triangles, with optional STL copies retained.
+Source DAE/Xacro/configuration and original import records are archived in each
+model's `source.tar.gz`; the active tree follows the GLB layout. Licenses,
+provenance hashes and migration validation accompany both models. Joint names,
+frames, limits, dynamics and mimic relations are preserved. Use each `home.json`
+for the legal display pose; Panda's coordinate-zero pose is outside its J4 limit.
 
 ## Use an asset
 

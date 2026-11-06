@@ -1,10 +1,10 @@
 {
   "RobotModel": {
-    "urdfs": 60,
-    "glbs": 817,
-    "stls": 382,
-    "glb_bytes": 214360600,
-    "stl_bytes": 249100688
+    "urdfs": 64,
+    "glbs": 850,
+    "stls": 398,
+    "glb_bytes": 227983688,
+    "stl_bytes": 249594932
   },
   "CameraModel": {
     "urdfs": 10,
@@ -17,27 +17,34 @@
     "urdfs": 1,
     "glbs": 10,
     "stls": 10,
-    "glb_bytes": 727804,
+    "glb_bytes": 809408,
     "stl_bytes": 1459840
   },
   "summary": {
-    "urdfs": 71,
-    "glbs": 841,
-    "stls": 404,
-    "glb_bytes": 225087844,
-    "stl_bytes": 256415586,
+    "urdfs": 75,
+    "glbs": 874,
+    "stls": 420,
+    "glb_bytes": 238792536,
+    "stl_bytes": 256909830,
     "robot_vendors": 12
   },
-  "generated_at": "2026-11-03T15:48:21.184681+00:00",
+  "generated_at": "2026-11-06T13:25:03.063323+00:00",
   "baseline_comparison": {
     "baseline_glbs": 781,
     "baseline_glb_bytes": 323430588,
-    "same_existing_glbs_current_bytes": 216673268,
-    "existing_glb_bytes_saved": 106757320,
-    "existing_glb_reduction_percent": 33.007799497306664,
-    "new_glbs": 60,
-    "new_glb_bytes": 8414576,
-    "current_total_glb_mib": 214.66049575805664,
+    "same_existing_glbs_current_bytes": 216754872,
+    "existing_glb_bytes_saved": 106675716,
+    "existing_glb_reduction_percent": 32.9825687358921,
+    "new_glbs": 93,
+    "new_glb_bytes": 22037664,
+    "current_total_glb_mib": 227.73030853271484,
     "includes_docs_or_git_history": false
+  },
+  "humanoidassets_migration": {
+    "urdfs_added": 4,
+    "glbs_added": 33,
+    "stls_added": 16,
+    "source_archives_excluded_from_mesh_statistics": true,
+    "glb_bytes_added": 13623088
   }
 }
