@@ -1,0 +1,393 @@
+{
+  "migration_source": {
+    "repository": "https://github.com/chase6305/HumanoidAssets",
+    "commit": "acdeaeb086b1eafc16dac838b5ba88f2212b7d2a",
+    "directory": "FrankaPanda"
+  },
+  "status": "passed",
+  "all_source_files_match_fixed_git_revision": true,
+  "archive_members_verified": true,
+  "visual_glbs_and_previews_byte_identical": true,
+  "collision_conversion_max_corner_error_m": 0.0,
+  "models": [
+    {
+      "urdf": "arm.urdf",
+      "description": {
+        "name": "panda",
+        "links": 17,
+        "joints": 16,
+        "actuated_joints": 7,
+        "root_links": [
+          "panda_link0"
+        ],
+        "resources": [
+          "Collision/glb/link0.glb",
+          "Collision/glb/link1.glb",
+          "Collision/glb/link2.glb",
+          "Collision/glb/link3.glb",
+          "Collision/glb/link4.glb",
+          "Collision/glb/link5.glb",
+          "Collision/glb/link6.glb",
+          "Collision/glb/link7.glb",
+          "Visual/glb/link0.glb",
+          "Visual/glb/link1.glb",
+          "Visual/glb/link2.glb",
+          "Visual/glb/link3.glb",
+          "Visual/glb/link4.glb",
+          "Visual/glb/link5.glb",
+          "Visual/glb/link6.glb",
+          "Visual/glb/link7.glb"
+        ],
+        "errors": [],
+        "warnings": []
+      },
+      "poses": 4,
+      "max_link_transform_error": 0.0,
+      "max_visual_collision_bounds_error_m": 0.0,
+      "all_non_resource_elements_unchanged": true
+    },
+    {
+      "urdf": "hand.urdf",
+      "description": {
+        "name": "panda_hand",
+        "links": 5,
+        "joints": 4,
+        "actuated_joints": 1,
+        "root_links": [
+          "panda_hand"
+        ],
+        "resources": [
+          "Collision/glb/hand.glb",
+          "Visual/glb/finger.glb",
+          "Visual/glb/hand.glb"
+        ],
+        "errors": [],
+        "warnings": []
+      },
+      "poses": 4,
+      "max_link_transform_error": 0.0,
+      "max_visual_collision_bounds_error_m": 0.0,
+      "all_non_resource_elements_unchanged": true
+    },
+    {
+      "urdf": "robot.urdf",
+      "description": {
+        "name": "panda",
+        "links": 22,
+        "joints": 21,
+        "actuated_joints": 8,
+        "root_links": [
+          "panda_link0"
+        ],
+        "resources": [
+          "Collision/glb/hand.glb",
+          "Collision/glb/link0.glb",
+          "Collision/glb/link1.glb",
+          "Collision/glb/link2.glb",
+          "Collision/glb/link3.glb",
+          "Collision/glb/link4.glb",
+          "Collision/glb/link5.glb",
+          "Collision/glb/link6.glb",
+          "Collision/glb/link7.glb",
+          "Visual/glb/finger.glb",
+          "Visual/glb/hand.glb",
+          "Visual/glb/link0.glb",
+          "Visual/glb/link1.glb",
+          "Visual/glb/link2.glb",
+          "Visual/glb/link3.glb",
+          "Visual/glb/link4.glb",
+          "Visual/glb/link5.glb",
+          "Visual/glb/link6.glb",
+          "Visual/glb/link7.glb"
+        ],
+        "errors": [],
+        "warnings": []
+      },
+      "poses": 4,
+      "max_link_transform_error": 0.0,
+      "max_visual_collision_bounds_error_m": 0.0,
+      "all_non_resource_elements_unchanged": true
+    }
+  ],
+  "gltf_format_validation": {
+    "summary": {
+      "meshes": 19,
+      "validator": "Khronos glTF-Validator",
+      "version": "2.0.0-dev.3.10",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 3,
+      "hints": 0
+    },
+    "meshes": [
+      {
+        "path": "Collision/glb/hand.glb",
+        "sha256": "9879ce3c88acae24cfeb352589a9c4e9083e1b1a13165fe02ec51d379c71831b",
+        "bytes": 3232,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Collision/glb/link0.glb",
+        "sha256": "6e12b460c419bf5a44f0cb24ad611794f8464042690f2e5726770e46807e0274",
+        "bytes": 3236,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Collision/glb/link1.glb",
+        "sha256": "892ce8cf979e6f7cabee0902a1cea8cb1b17c4ed3d160c7da80cf691b954e283",
+        "bytes": 4436,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Collision/glb/link2.glb",
+        "sha256": "49998aadf09c6b0faf51b08924de98a3c4f56a97aba0d52bd2c843060285238f",
+        "bytes": 4440,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Collision/glb/link3.glb",
+        "sha256": "abd4a8c39897a016e578edef1aaf04beb6e725dbd9f73cb3d26c94a9905a2c57",
+        "bytes": 4436,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Collision/glb/link4.glb",
+        "sha256": "52ca2a318a09a937df953e1f021a22425783a422401d3d714c336373871f9bd7",
+        "bytes": 4436,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Collision/glb/link5.glb",
+        "sha256": "90103e93a2f142bfedc003868378e92aa42bbaec1da56718d1f8095637df78a7",
+        "bytes": 4436,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Collision/glb/link6.glb",
+        "sha256": "5c8038a413a692f3b56b90425eaa039ea16151a5986188c18a746e7859ff53d6",
+        "bytes": 3236,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Collision/glb/link7.glb",
+        "sha256": "37db4ee204edf82975c8f4b57ab0a982b91eea8cc7f6e6737f863cec21d0c7be",
+        "bytes": 3236,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Visual/glb/finger.glb",
+        "sha256": "ad34bfc529af8cc10c59174c1a7409892d0de93f839ba71ff53993371d9df2b6",
+        "bytes": 50936,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Visual/glb/hand.glb",
+        "sha256": "f041614def5f8b31107a4e942753c8b8a53539a0d8691a140d2de6aa877efc0c",
+        "bytes": 554668,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Visual/glb/link0.glb",
+        "sha256": "a40811836d21d6b5e0368500d226c68e3c185951e3ea9ba24329a42c41bbb9e5",
+        "bytes": 1595360,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 1,
+          "numHints": 0,
+          "messages": [
+            {
+              "code": "ACCESSOR_INDEX_TRIANGLE_DEGENERATE",
+              "message": "Indices accessor contains 5 degenerate triangles (out of 13185).",
+              "severity": 2,
+              "pointer": "/meshes/3/primitives/0/indices"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Visual/glb/link1.glb",
+        "sha256": "a4d21fe9513d74c38866e67ac999b3185b380e9abd09371a2d504e52d53af2b7",
+        "bytes": 972948,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Visual/glb/link2.glb",
+        "sha256": "080ec8cad65e527a8871ce44d7af0fcf5601cab38aa87e03352ad81021358d36",
+        "bytes": 990300,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Visual/glb/link3.glb",
+        "sha256": "8e0ad586fab447717284cb6e417ebfd339d092b59c425d0cac1b50e6671df700",
+        "bytes": 1112004,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Visual/glb/link4.glb",
+        "sha256": "584536ef7235bd8c498532883948980d822f59e2028627a765368e73208ee6f4",
+        "bytes": 1144260,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 1,
+          "numHints": 0,
+          "messages": [
+            {
+              "code": "ACCESSOR_INDEX_TRIANGLE_DEGENERATE",
+              "message": "Indices accessor contains 1 degenerate triangles (out of 1794).",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/indices"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Visual/glb/link5.glb",
+        "sha256": "9d79c1ce54779cc333df9859ef690f9f34bab6a8d10fbb9a8c254d579253a33d",
+        "bytes": 1429880,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Visual/glb/link6.glb",
+        "sha256": "0d88ce2127468113d8da6e9f61d9f05511d3660f4f8e4a4e3fb25363c0cf14c2",
+        "bytes": 1696032,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Visual/glb/link7.glb",
+        "sha256": "b4953821bac203d04122f0e6c3c8a0a6d09b873f4b1f881568a501c47829f56b",
+        "bytes": 946264,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 1,
+          "numHints": 0,
+          "messages": [
+            {
+              "code": "ACCESSOR_INDEX_TRIANGLE_DEGENERATE",
+              "message": "Indices accessor contains 4 degenerate triangles (out of 491).",
+              "severity": 2,
+              "pointer": "/meshes/6/primitives/0/indices"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    ]
+  }
+}

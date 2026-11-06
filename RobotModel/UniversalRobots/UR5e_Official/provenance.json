@@ -1,0 +1,292 @@
+{
+  "migration_source": {
+    "repository": "https://github.com/chase6305/HumanoidAssets",
+    "commit": "acdeaeb086b1eafc16dac838b5ba88f2212b7d2a",
+    "directory": "UniversalRobotsUR5e"
+  },
+  "source_archive": {
+    "path": "source.tar.gz",
+    "sha256": "96459887032ba7ac743ae97fc8c6c7779964256072f6a0b7d54712a4282192d1",
+    "files": [
+      {
+        "path": "LICENSE",
+        "sha256": "143077f9f6a8de5a99f78c2c2472801fb53cf240277ef661642f079b9acdfff8"
+      },
+      {
+        "path": "SOURCE.md",
+        "sha256": "9256b6a377ff62a9fe527a95bfaf1bd60e16a96006207e1695967a505f150507"
+      },
+      {
+        "path": "home.json",
+        "sha256": "427f274b9bda82440f832b63b1879d91c91645e00513d50e77a8ac62d9a43877"
+      },
+      {
+        "path": "meshes/base.dae",
+        "sha256": "c30e4d7228ef633dca2a02c26df2316741f6642cb6333e8289dba6e6d0b22819"
+      },
+      {
+        "path": "meshes/forearm.dae",
+        "sha256": "04694bf57dac46e9b8bc7c30f2eec75a1bc762e1f1a879ea30c944f24cacbad8"
+      },
+      {
+        "path": "meshes/shoulder.dae",
+        "sha256": "c581bfa55b86061d9b99d315ed53817b6b693e6a500643bbf9bbb783322d585d"
+      },
+      {
+        "path": "meshes/upperarm.dae",
+        "sha256": "c040a05bb224f14cfab6aa6704d70cbb773ada940eca9a3e34e6ce486c4c4c29"
+      },
+      {
+        "path": "meshes/wrist1.dae",
+        "sha256": "a07a3d96d2540f9be12e4a07bcb8577d9f1e36005920c396a407804343a3b588"
+      },
+      {
+        "path": "meshes/wrist2.dae",
+        "sha256": "982fa42933c6f81629882ad7975e9ba5dac5d474a6b56694e233708376cf840e"
+      },
+      {
+        "path": "meshes/wrist3.dae",
+        "sha256": "7a7664ac4adcd53b0870fe6a2b8b975693d846dd4d07a5f44194c7d16f4890ba"
+      },
+      {
+        "path": "robot.urdf",
+        "sha256": "e9b3bf00c62e9f081eecbfe69f8719e612233798772461bf293118e5d2632e45"
+      },
+      {
+        "path": "source/config/initial_positions.yaml",
+        "sha256": "19456f7115a4f319ed415c327f19d2834745a6167deaa45efc357c6945d6b5d9"
+      },
+      {
+        "path": "source/config/ur5e/default_kinematics.yaml",
+        "sha256": "4ffc6086bb0118a5a8e4a3576ef41de878de946710799ea4835789063fa9c0bc"
+      },
+      {
+        "path": "source/config/ur5e/joint_limits.yaml",
+        "sha256": "1e908454a0fb073761a0c675f708eb003ca7d5333a9e0863ef87fe40d9abb3c7"
+      },
+      {
+        "path": "source/config/ur5e/physical_parameters.yaml",
+        "sha256": "79ea65367aa306015bf2e91b60b1edf7d1a7a6309671b8051a8d419675ca93ae"
+      },
+      {
+        "path": "source/config/ur5e/visual_parameters.yaml",
+        "sha256": "ef59d6cd6744014c54301e051208c3bf4f667291940598b22eb4a8ba3436f699"
+      },
+      {
+        "path": "source/conversion.json",
+        "sha256": "838263b3cd278ddfa20b54690498624265f2d3da06d89cb43bf112e80ac99736"
+      },
+      {
+        "path": "source/manifest.json",
+        "sha256": "aa7c0d75ce2e55549cb34446d307767441d61c9879b5ed933d7117e10557a166"
+      },
+      {
+        "path": "source/robot.urdf.orig",
+        "sha256": "c78a9976dac5b87aa5d1d4fc038408674e73f8b62ee4370cab80ff144c9675cc"
+      },
+      {
+        "path": "source/urdf/inc/ur_common.xacro",
+        "sha256": "75e937278fb37995f7f7e745f2b16ce1d66563d4ddcf5acc91ff1f42f3e86f13"
+      },
+      {
+        "path": "source/urdf/inc/ur_transmissions.xacro",
+        "sha256": "85096b2102ef26cb11313956e9ba737f3fae63a0b702108f8cf3253de1cdadf3"
+      },
+      {
+        "path": "source/urdf/ur.ros2_control.xacro",
+        "sha256": "1827dbf32ee48c312f7a47667fc1b4470a4b0b7fd778119068339d18813ed294"
+      },
+      {
+        "path": "source/urdf/ur.urdf.xacro",
+        "sha256": "f224af4bca984dbdec901b8412156c24acdb65c7e98a9bf10fa8678730203d82"
+      },
+      {
+        "path": "source/urdf/ur_macro.xacro",
+        "sha256": "da365da3f6aed4721a253f5224865e0764d9caae2096ad94f06523f83456a9a8"
+      },
+      {
+        "path": "source/urdf/ur_mocked.urdf.xacro",
+        "sha256": "b8933cc78a201eeb8742de12697bf1e6e30c7c2cfbc956a961b20a0c994e2fe4"
+      },
+      {
+        "path": "validation.json",
+        "sha256": "5fb3df292ca690e64fb5a847f4c784bcb9b5ae532b2cf2fb612b423203f7c0ab"
+      }
+    ]
+  },
+  "policy": {
+    "visuals": "byte-identical GLB copies",
+    "collision": "STL to GLB; original STL retained; no simplification",
+    "urdf": "mesh filenames only; all other model elements unchanged"
+  },
+  "resources": [
+    {
+      "input": "visual/glb/base.glb",
+      "output": "Visual/glb/base.glb",
+      "input_sha256": "16e3ee66114626248832b90a871e8ca9714b84733f53ee70b41475b1ea0bebe1",
+      "output_sha256": "16e3ee66114626248832b90a871e8ca9714b84733f53ee70b41475b1ea0bebe1",
+      "operation": "byte-identical copy"
+    },
+    {
+      "input": "visual/glb/forearm.glb",
+      "output": "Visual/glb/forearm.glb",
+      "input_sha256": "4f58b655cbb09a0ece0b81230aa8163eed3d5220aa9df55ae32a0e2a755f2dcf",
+      "output_sha256": "4f58b655cbb09a0ece0b81230aa8163eed3d5220aa9df55ae32a0e2a755f2dcf",
+      "operation": "byte-identical copy"
+    },
+    {
+      "input": "visual/glb/shoulder.glb",
+      "output": "Visual/glb/shoulder.glb",
+      "input_sha256": "90d3527307749f56a938e74f66454955357221a4a7fdfbca630e52d8a47333de",
+      "output_sha256": "90d3527307749f56a938e74f66454955357221a4a7fdfbca630e52d8a47333de",
+      "operation": "byte-identical copy"
+    },
+    {
+      "input": "visual/glb/upperarm.glb",
+      "output": "Visual/glb/upperarm.glb",
+      "input_sha256": "198bb6b29a367442935ba4e0611e1bd65813a03b66830bdbbb17b7ab96b97b73",
+      "output_sha256": "198bb6b29a367442935ba4e0611e1bd65813a03b66830bdbbb17b7ab96b97b73",
+      "operation": "byte-identical copy"
+    },
+    {
+      "input": "visual/glb/wrist1.glb",
+      "output": "Visual/glb/wrist1.glb",
+      "input_sha256": "43b7884fb390d9e3b9a0368aa9a006cff75317b2834032296ccec0d2f67ff1b7",
+      "output_sha256": "43b7884fb390d9e3b9a0368aa9a006cff75317b2834032296ccec0d2f67ff1b7",
+      "operation": "byte-identical copy"
+    },
+    {
+      "input": "visual/glb/wrist2.glb",
+      "output": "Visual/glb/wrist2.glb",
+      "input_sha256": "ca4c03ec1e083a6822c1811d1888067bdd6209254ee4a2c3eb641c038364c64d",
+      "output_sha256": "ca4c03ec1e083a6822c1811d1888067bdd6209254ee4a2c3eb641c038364c64d",
+      "operation": "byte-identical copy"
+    },
+    {
+      "input": "visual/glb/wrist3.glb",
+      "output": "Visual/glb/wrist3.glb",
+      "input_sha256": "d6f8d7e9b011084c15ac69bd1fc72db4fcd2f178daad3d1d40e673953eabdb0b",
+      "output_sha256": "d6f8d7e9b011084c15ac69bd1fc72db4fcd2f178daad3d1d40e673953eabdb0b",
+      "operation": "byte-identical copy"
+    },
+    {
+      "input": "collision/base.stl",
+      "output": "Collision/glb/base.glb",
+      "input_sha256": "9a145e0d46f2130afdf2a2e8825a00a929870c4c3d6d8e4d1adc5f04db3aac1b",
+      "output_sha256": "b22b4323f14d8d7977c87dbfc8597c05e5701c9fa136daa9b95de73c8d9eef82",
+      "retained_stl": "Collision/stl/base.stl",
+      "conversion": {
+        "faces": 420,
+        "lines": 0,
+        "materials": 0,
+        "vertex_corners_before": 1260,
+        "vertices_after": 212,
+        "max_corner_error_m": 0.0,
+        "collision": true,
+        "normal_policy": "omitted"
+      }
+    },
+    {
+      "input": "collision/forearm.stl",
+      "output": "Collision/glb/forearm.glb",
+      "input_sha256": "2e7423cab807c34160ec4f770daee5e747d70e777eb01b7beeace2b8c5751816",
+      "output_sha256": "39f768ac7f377fd51cf59c098855de87c9a09a97504ac23365150a6d40c13c39",
+      "retained_stl": "Collision/stl/forearm.stl",
+      "conversion": {
+        "faces": 1064,
+        "lines": 0,
+        "materials": 0,
+        "vertex_corners_before": 3192,
+        "vertices_after": 534,
+        "max_corner_error_m": 0.0,
+        "collision": true,
+        "normal_policy": "omitted"
+      }
+    },
+    {
+      "input": "collision/shoulder.stl",
+      "output": "Collision/glb/shoulder.glb",
+      "input_sha256": "ceb92532177daa77682f5fbd628e01c2137d168f949a7a706ce1dabe9f002387",
+      "output_sha256": "52a84322d1d5911439063e0c331dac3e8d9e9f68af879c726bbd408b5983d15c",
+      "retained_stl": "Collision/stl/shoulder.stl",
+      "conversion": {
+        "faces": 1400,
+        "lines": 0,
+        "materials": 0,
+        "vertex_corners_before": 4200,
+        "vertices_after": 702,
+        "max_corner_error_m": 0.0,
+        "collision": true,
+        "normal_policy": "omitted"
+      }
+    },
+    {
+      "input": "collision/upperarm.stl",
+      "output": "Collision/glb/upperarm.glb",
+      "input_sha256": "ee893044caf00075cb55b4cf666d1f1311c7979786212a501009f33bee945209",
+      "output_sha256": "be71ed8c205dcaf7e3da742222e2f26f60ff4c66537d24af71f6880fd4cf0e47",
+      "retained_stl": "Collision/stl/upperarm.stl",
+      "conversion": {
+        "faces": 1992,
+        "lines": 0,
+        "materials": 0,
+        "vertex_corners_before": 5976,
+        "vertices_after": 998,
+        "max_corner_error_m": 0.0,
+        "collision": true,
+        "normal_policy": "omitted"
+      }
+    },
+    {
+      "input": "collision/wrist1.stl",
+      "output": "Collision/glb/wrist1.glb",
+      "input_sha256": "f8c9f9337b6fd98c75f052e96de10e14a107ddb6874ba6b904e546f8a4e4f43a",
+      "output_sha256": "cacc9e54cac663af9b0b9b1e857a2d363968ca6e7792cb638a2a8c68421a18e5",
+      "retained_stl": "Collision/stl/wrist1.stl",
+      "conversion": {
+        "faces": 1190,
+        "lines": 0,
+        "materials": 0,
+        "vertex_corners_before": 3570,
+        "vertices_after": 597,
+        "max_corner_error_m": 0.0,
+        "collision": true,
+        "normal_policy": "omitted"
+      }
+    },
+    {
+      "input": "collision/wrist2.stl",
+      "output": "Collision/glb/wrist2.glb",
+      "input_sha256": "2964a63f60ce3e3cf3ad55bcf190d7876d50e373cb64b70a57cea5885eaf3c86",
+      "output_sha256": "2647a6b2f04dae54e032b1b143e8565651c2e85ff49097dfa82e9830ffef25a5",
+      "retained_stl": "Collision/stl/wrist2.stl",
+      "conversion": {
+        "faces": 1350,
+        "lines": 0,
+        "materials": 0,
+        "vertex_corners_before": 4050,
+        "vertices_after": 677,
+        "max_corner_error_m": 0.0,
+        "collision": true,
+        "normal_policy": "omitted"
+      }
+    },
+    {
+      "input": "collision/wrist3.stl",
+      "output": "Collision/glb/wrist3.glb",
+      "input_sha256": "83b3666b4ae2badd54af0d2c25a921682ecbc29e849eec646c3ed55fb74c78a3",
+      "output_sha256": "5b1cb95e7ff50a00ddcc287f8e4f67523ffc3fd6f3a986430c214b51bbf63849",
+      "retained_stl": "Collision/stl/wrist3.stl",
+      "conversion": {
+        "faces": 142,
+        "lines": 0,
+        "materials": 0,
+        "vertex_corners_before": 426,
+        "vertices_after": 73,
+        "max_corner_error_m": 0.0,
+        "collision": true,
+        "normal_policy": "omitted"
+      }
+    }
+  ]
+}
