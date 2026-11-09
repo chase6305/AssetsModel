@@ -1,0 +1,88 @@
+{
+  "trial_only": false,
+  "source_model": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/snapshot/RobotModel/UniversalRobots/UR5",
+  "output_model": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/final-trial/RobotModel/UniversalRobots/UR5",
+  "mask_path": "/home/ubuntu/workspace/chase/AssetsModel/docs/quality/ur5-local-normal-mask.json",
+  "mask_sha256": "c2f7152531fc0ef1f45cb6753a086860668c72e8a2fefa0f7340834a95e0060d",
+  "script_sha256": "afd05e595aefa787eb73f914918fdd4239b0c8dee41096b7b789476dd369f0de",
+  "files": [
+    {
+      "path": "Visual/glb/wrist1.glb",
+      "source_sha256": "39e646c1b18015cbcb775366b5e8aafcd213eccbc144b99a147c1fb70a9f4759",
+      "output_sha256": "55964bc1d578221d451d4583560e89af612a76137807e635ba3b79f4a7207566",
+      "source_bytes": 330860,
+      "output_bytes": 330328,
+      "primitives": [
+        {
+          "mesh": 1,
+          "primitive": 0,
+          "material_name": "verbindung_001-material",
+          "changed_normal_corners": 722,
+          "total_corners": 9294,
+          "unselected_corner_normals_byte_exact": true
+        },
+        {
+          "mesh": 2,
+          "primitive": 0,
+          "material_name": "blau_001-material",
+          "changed_normal_corners": 2003,
+          "total_corners": 32076,
+          "unselected_corner_normals_byte_exact": true
+        }
+      ],
+      "ordered_geometry_and_winding_byte_exact": true,
+      "material_node_scene_exact": true
+    },
+    {
+      "path": "Visual/glb/shoulder.glb",
+      "source_sha256": "a061185c1ca792cd98637aabda48090c512b29fc824ea177b93e2f6531d618d6",
+      "output_sha256": "64c075905411bae9d62914b6172c4d6ac82c93858da2e605564fd47bd27820b8",
+      "source_bytes": 329408,
+      "output_bytes": 330860,
+      "primitives": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "material_name": "verbindung-material",
+          "changed_normal_corners": 883,
+          "total_corners": 12156,
+          "unselected_corner_normals_byte_exact": true
+        },
+        {
+          "mesh": 2,
+          "primitive": 0,
+          "material_name": "blau-material",
+          "changed_normal_corners": 2197,
+          "total_corners": 27900,
+          "unselected_corner_normals_byte_exact": true
+        }
+      ],
+      "ordered_geometry_and_winding_byte_exact": true,
+      "material_node_scene_exact": true
+    }
+  ],
+  "status": "applied",
+  "applied_at": "2026-11-03T15:43:59.421381+00:00",
+  "destination_model": "/home/ubuntu/workspace/chase/AssetsModel/RobotModel/UniversalRobots/UR5",
+  "backup_root": "/tmp/assetsmodel-session-before-ur5-local-normal-repair",
+  "independent_report": "ur5-local-normal-independent-validation.json",
+  "visual_review": "Root viewed wrist, shoulder and whole final packed before/after contacts; gray/blue cylindrical regions visibly improved without obvious new holes, inversion or seams.",
+  "summary": {
+    "files": 2,
+    "changed_normal_corners": 5805,
+    "preserved_normal_corners": 76875,
+    "source_bytes": 660268,
+    "output_bytes": 661188,
+    "geometry_positions_and_winding_exact": true,
+    "materials_nodes_scenes_exact": true,
+    "new_opposed_normals": 0,
+    "new_near_coplanar_normal_seams": 0
+  },
+  "script_history_note": "script_sha256 is the historical generator at adoption. A later CameraModel --report path guard does not change the generated mesh bytes.",
+  "post_adoption_guard_reproduction": {
+    "current_script_sha256": "bbb47417c2bf7cbbe6df09ebce7188c9b7979c1c8405d9f9298ffd6fa14820bc",
+    "report": "ur5-local-normal-trial.json",
+    "output_sha256_unchanged": true,
+    "guard_evidence": "/tmp/assetsmodel-session-ur5-stripe-diagnosis/script-guard-checks.json"
+  }
+}

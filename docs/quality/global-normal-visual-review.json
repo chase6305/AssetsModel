@@ -1,0 +1,1305 @@
+{
+  "status": "complete",
+  "observed_at": "2026-11-03T14:41:29.417533+00:00",
+  "scope_models": 45,
+  "reviewed_models": 45,
+  "method": "Paired native-culling EEVEE images under identical camera, light and display settings; contact-sheet overview for each model and full-resolution probes of complex details. This is a visual review of the recorded views, not a bound on every possible pose/view.",
+  "contacts_viewed": [
+    "/tmp/assetsmodel-session-global-normal-contact-sheets/models-01-08.jpg",
+    "/tmp/assetsmodel-session-global-normal-contact-sheets/models-09-16.jpg",
+    "/tmp/assetsmodel-session-global-normal-contact-sheets/models-17-24.jpg",
+    "/tmp/assetsmodel-session-global-normal-contact-sheets/models-25-32.jpg",
+    "/tmp/assetsmodel-session-global-normal-contact-sheets/models-33-40.jpg",
+    "/tmp/assetsmodel-session-global-normal-contact-sheets/models-41-45.jpg"
+  ],
+  "full_resolution_probes": [
+    "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb2600-12-185-hero.png",
+    "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb2600-12-185-hero.png",
+    "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb4400l-30-243-rear.png",
+    "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr10-r900-2-hero.png",
+    "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr10-r900-2-rear.png",
+    "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr10-r900-2-hero.png",
+    "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr10-r900-2-rear.png",
+    "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp25-rear.png",
+    "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp25-rear.png",
+    "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr150-r3100-2-rear.png",
+    "/tmp/assetsmodel-session-global-normal-renders-before/universalrobots-ur3-rear.png",
+    "/tmp/assetsmodel-session-global-normal-renders-after/universalrobots-ur3-rear.png"
+  ],
+  "models": [
+    {
+      "id": "abb-irb1200-5-90",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb1200-5-90-hero.png",
+          "sha256": "c56b53d93167f1408a0b119c319ea6ff582fae379cf87c2b190a4e24ec9f14b9"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb1200-5-90-rear.png",
+          "sha256": "fabf73ea8bfdb7c78389370b9fd4fc158044e9931f5ffb28b8d3a9bef40a5b33"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb1200-5-90-hero.png",
+          "sha256": "cf8d77310481dc15452d0e4c91ca6cead419517048c82a87c1c082e1b2ac64b8"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb1200-5-90-rear.png",
+          "sha256": "ed56c29f0159a48ea5b13a31048413d6934118fc72873745f772de7a56dab47b"
+        }
+      ],
+      "notes": "Wrist-area smoothing is modest; silhouette, red markings and shell boundaries remain coherent in hero/rear views."
+    },
+    {
+      "id": "abb-irb1200-7-70",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb1200-7-70-hero.png",
+          "sha256": "6f26bcc6794d6555e0b68c98b48700f388a7e43ffef2e5ef8bc43b74c311516b"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb1200-7-70-rear.png",
+          "sha256": "8c74fff685c1617176785e0b3ff3a8ae7511962fa52bb832ab78a2cf272bc403"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb1200-7-70-hero.png",
+          "sha256": "72bab4ed90fa59dd0048f1730f384241dd0f2b9e5e505675065e002713790279"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb1200-7-70-rear.png",
+          "sha256": "6b25b126c76358ce86256b44fe877650df075621d14717de1cedbb1f57940a61"
+        }
+      ],
+      "notes": "Small curved wrist/cap regions smooth while the original larger authored surfaces retain their shape; no new dark holes or wavy highlights seen."
+    },
+    {
+      "id": "abb-irb1600-10-145",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb1600-10-145-hero.png",
+          "sha256": "444ed50193d6e96f9178a152350b42c9e3b953302208f1b76f344b2f8f2f4b24"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb1600-10-145-rear.png",
+          "sha256": "21d74f118d97a0062a35b7a7c5ad4d2c058fa51cb84f75d4d9a11a8f9e43e3dc"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb1600-10-145-hero.png",
+          "sha256": "1f9508e60ce1cf080664ee26941482998a0052b8ed36dc464507f11a3f6cecc5"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb1600-10-145-rear.png",
+          "sha256": "64b9105c42e48020103a6937cbe897549fa5bb96e32ebc69b9ac431652911b39"
+        }
+      ],
+      "notes": "Round motor and cylinder surfaces improve gently; flat base structures remain planar; no introduced facing issue seen."
+    },
+    {
+      "id": "abb-irb1600-6-120",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb1600-6-120-hero.png",
+          "sha256": "ff82a64fb50f7cd8ef4d7df08b525a655886db99cb4cbae71cdb03ec6bf6ff25"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb1600-6-120-rear.png",
+          "sha256": "5ce3318402aba1d44141900ea1b276b1d75450888fdb60e5853fcc2f5fd39ebe"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb1600-6-120-hero.png",
+          "sha256": "c00688b23cd62a46f3af2c073cb56ec7b5974c3de40f78a5e8df345d78f89b01"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb1600-6-120-rear.png",
+          "sha256": "378328a25711f71f96a6c81bf4f33a62ae4a5ee9312558b697407bd6632d8ebf"
+        }
+      ],
+      "notes": "Cylinder/cover highlights become smoother; mechanical corners and plate edges remain distinct in both views."
+    },
+    {
+      "id": "abb-irb2600-12-185",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb2600-12-185-hero.png",
+          "sha256": "48cb88ee68c8f43f51b16474b25cd5ae45f4d40ea74e2b4fba4c0da1e4788912"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb2600-12-185-rear.png",
+          "sha256": "294af774dc49c284577155dfb6242748f6ab92742e8f5c1bfdff889f070b02ca"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb2600-12-185-hero.png",
+          "sha256": "f1113494cf84a878adeadd57ca09b4a11703c40382f542bff46016c42473b523"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb2600-12-185-rear.png",
+          "sha256": "4084f9c18eef13c61343b8367233cebd589d38e58f43d08f23359b006f583c00"
+        }
+      ],
+      "notes": "Full-resolution hero comparison confirms lower drive cover loses facet bands while bolts, openings and flat panels remain visible."
+    },
+    {
+      "id": "abb-irb4400l-30-243",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb4400l-30-243-hero.png",
+          "sha256": "5be47e9b396c15760a5c08ef9c26fe6183f79081367f39241189db15f0b4009c"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb4400l-30-243-rear.png",
+          "sha256": "cef5e6b8733306ddf3d79782dc41d440234653ea1b3e7b976dfa3e3821b0f08e"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb4400l-30-243-hero.png",
+          "sha256": "a63d11cfca87229769ec9d3a5a1180581fbd99fcb068966ec08f29bb9a4616f2"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb4400l-30-243-rear.png",
+          "sha256": "59062b265bcfa156139dc445abffbe226d84aa76b00b9c04b0a8b85173c9b5dc"
+        }
+      ],
+      "notes": "Arm tube and round drive covers smoother; rear cavity shadow/grain is already present in the source comparison and no new open hole is visible."
+    },
+    {
+      "id": "abb-irb4600-20-250",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb4600-20-250-hero.png",
+          "sha256": "bcfb4a3555f5c773c2a068742b29775ea5b8d1f93a2661147a98fbfbccac9c33"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb4600-20-250-rear.png",
+          "sha256": "a0ac41ba8258060d52268d6a977be78db05acddff03eea283832e6b32952e2a8"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb4600-20-250-hero.png",
+          "sha256": "984555c39acc8a6ab0dfaf796ecedc27015b655c1b1e04165abacaf9b3babf41"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb4600-20-250-rear.png",
+          "sha256": "12c18e33581ff9619944eb0ee6282c28263ae38f6354facb95e98f54bd2f1734"
+        }
+      ],
+      "notes": "Round drive areas soften facet bands while mounting base, cast details and markings retain their silhouette."
+    },
+    {
+      "id": "abb-irb4600-40-255",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb4600-40-255-hero.png",
+          "sha256": "9b7c80e920372372bbdd9904388d340e036360678cc2b55918716bd3975292bb"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb4600-40-255-rear.png",
+          "sha256": "4bcd6d570a3c97e27312e719884ae57bf7659276d30df40e17965f6f36e2e415"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb4600-40-255-hero.png",
+          "sha256": "15e69d64051c770cce698d551ac96a1fd430bd3adc7f625c935827a7c60d2965"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb4600-40-255-rear.png",
+          "sha256": "5392b712e90ee72657e06a9eabce1913c5bebf03119e98a5f7a7ffb445786ed4"
+        }
+      ],
+      "notes": "Curved covers improve without visible new ripple or inverted region in the two inspected views."
+    },
+    {
+      "id": "ae-air10-1210",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/ae-air10-1210-hero.png",
+          "sha256": "7ef0698b8bdffc0a5e151b7933404ca2cbdbe6b7dd5a51ab52138e03be978305"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/ae-air10-1210-rear.png",
+          "sha256": "2e6b712c46115e076485cb4cfadaf7ceb7ecc157ec6726cfc00ef764ca240e25"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/ae-air10-1210-hero.png",
+          "sha256": "1715a20ba2b8e2fb75c4ce13893d13739e2e2d70d82fc133efddf74e9c711971"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/ae-air10-1210-rear.png",
+          "sha256": "f854e650af2c3e14bd4e513d417c1178fb647f26b30fa10e54739465ce915813"
+        }
+      ],
+      "notes": "Warm source/after brand color and black base remain consistent; curved shells and tube caps retain their contour with smoother highlights in hero/rear views."
+    },
+    {
+      "id": "ae-air10-1720",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/ae-air10-1720-hero.png",
+          "sha256": "3968a4398f3f2333333e4dd3a21a289f52deae28bc15369f07837e65c7749c7b"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/ae-air10-1720-rear.png",
+          "sha256": "4ebeca3023ae03a5a8285968677344f01cba01f47c29313aaffdf7a74f42da7a"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/ae-air10-1720-hero.png",
+          "sha256": "30d5bb7a79f121d222a5d22c409bba4b08c55cde895956f91ffcc3218bd4a59a"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/ae-air10-1720-rear.png",
+          "sha256": "4d97508c7225b5d9d5d1f3ab9cb4f1c40c79d8a7d591f881c66464568c30dff1"
+        }
+      ],
+      "notes": "Warm source/after brand color and black base remain consistent; curved shells and tube caps retain their contour with smoother highlights in hero/rear views."
+    },
+    {
+      "id": "ae-air12-940",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/ae-air12-940-hero.png",
+          "sha256": "897709dcb1ee7cc0653a732c1c91cb81210c2d04c6dff0991c6a80541f2688b3"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/ae-air12-940-rear.png",
+          "sha256": "0b37c977f2a5e6958f85345b6af705983c3804a2254ece2d234ccba897920723"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/ae-air12-940-hero.png",
+          "sha256": "be9a6bac79e91a08f9610e91e7dfba0e65a772279fb6d4381f22308e48ad8a79"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/ae-air12-940-rear.png",
+          "sha256": "2b4fc646256985d75c4ec2b66aeab46ac312d3e3a80f0d5c47ae62cec3ee32e6"
+        }
+      ],
+      "notes": "Warm source/after brand color and black base remain consistent; curved shells and tube caps retain their contour with smoother highlights in hero/rear views."
+    },
+    {
+      "id": "ae-air35-1700",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/ae-air35-1700-hero.png",
+          "sha256": "bca3177542901c8f177636772c03a723ff826dfaaa73faf834c227c6341e7232"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/ae-air35-1700-rear.png",
+          "sha256": "a77328dcb1818744feefe25a0dee50bcdc1810ceb6708b9d197c1bb50c9084f5"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/ae-air35-1700-hero.png",
+          "sha256": "b639690f67a962c5b0a775497df137a0b942b7d9efc787e5b172f62f1719256b"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/ae-air35-1700-rear.png",
+          "sha256": "fa8b6b261e1fb3f237e6428879145bf93f8f44eb316714c7c97ce7e3fe88e11d"
+        }
+      ],
+      "notes": "Warm source/after brand color and black base remain consistent; curved shells and tube caps retain their contour with smoother highlights in hero/rear views."
+    },
+    {
+      "id": "agile-diana-7",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/agile-diana-7-hero.png",
+          "sha256": "7640d99f0d5e5be821b4dac52c9fc36f32bdc58deb9984f2cf589a22db341b07"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/agile-diana-7-rear.png",
+          "sha256": "eb158122a56260e1504390eae46d01ae1b6860e71908b9af9ba09956f90897c7"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/agile-diana-7-hero.png",
+          "sha256": "ef7ddac47ad4e415326ca412fbb23cc2ab5a07cbeaea356d6909633c5efd293a"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/agile-diana-7-rear.png",
+          "sha256": "1befd9d7c0600ab1bbad06728d058feb80b1f16f1192741c75aaf89e60cf0d06"
+        }
+      ],
+      "notes": "Light outer shell, dark inset surfaces and end flange remain coherent; existing smooth body groups show no new waviness."
+    },
+    {
+      "id": "fanuc-m-710ic-70",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/fanuc-m-710ic-70-hero.png",
+          "sha256": "388f7eb0cb06aa08398dd723ea9c60d1bb8e9591e6c14504ceae9b01fcc64b4c"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/fanuc-m-710ic-70-rear.png",
+          "sha256": "9745e7040df8b9444854c3dbbf0cd58ba76b33cf891cc24ea560e800ffe4786b"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/fanuc-m-710ic-70-hero.png",
+          "sha256": "5279f054353faec72ad4c3dada03c235c71fd989998468744028cd76cd794ec2"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/fanuc-m-710ic-70-rear.png",
+          "sha256": "c9fd26f7f2509a03056be172fc09e6b91b9c2cb8f22519e297dc67c3202d83cc"
+        }
+      ],
+      "notes": "Yellow body, dark motors and metal base/flange remain separated; curved covers improve while linkage openings and planar panels retain their shape."
+    },
+    {
+      "id": "fanuc-r-2000ic-165f",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/fanuc-r-2000ic-165f-hero.png",
+          "sha256": "3126b7cb0a033349e40793dea04f6cad4e7334ac9c24837d95cf1a236c4cb1de"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/fanuc-r-2000ic-165f-rear.png",
+          "sha256": "c853b773ebe907bda8dae7cf412bfadb6f59b8418f4fec9be8a50c2a3a825111"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/fanuc-r-2000ic-165f-hero.png",
+          "sha256": "5b3ce7560a53a5e73d642330955370d20408350aae0b5127a90adc46fce771f6"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/fanuc-r-2000ic-165f-rear.png",
+          "sha256": "406cd6331305592550f7e1b6d364311dc6237715513446ca84e09ccfcf61aca8"
+        }
+      ],
+      "notes": "Yellow body, dark motors and metal base/flange remain separated; curved covers improve while linkage openings and planar panels retain their shape."
+    },
+    {
+      "id": "franka-fr3",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/franka-fr3-hero.png",
+          "sha256": "7a534376a868c55a707edb524d15f47e2194bbaf05e01102c890bdeb3ecb4050"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/franka-fr3-rear.png",
+          "sha256": "f6e581c16e6226ac4c34a521e50b150cd86eab824d5921f6f3d3cc482da39d2c"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/franka-fr3-hero.png",
+          "sha256": "89d768cbde7240ebc953f8ad2a200c06535f0092b12893d1102af0e03752e0a8"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/franka-fr3-rear.png",
+          "sha256": "fa63f810f26fcb775f1080a3129ffcca9fcf87d78f6421b495460e696780cfee"
+        }
+      ],
+      "notes": "White smooth shells, dark joints and hand silhouette remain clean at the recorded legal pose; local refinement causes no visible new hole or ripple."
+    },
+    {
+      "id": "hans-e05",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/hans-e05-hero.png",
+          "sha256": "dff020b7bc2bfef5bd0bb7e7060357846373a540f90523175d8247163bbdc793"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/hans-e05-rear.png",
+          "sha256": "fb7e549c258e9a9d7055699389757ccc9e1e8102dd6b82d8001d1d81c26ce86d"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/hans-e05-hero.png",
+          "sha256": "8912eb9bcde9c316328758869205bd793b3c2db01a42275cc6a48039a0e1aaa5"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/hans-e05-rear.png",
+          "sha256": "98dd889ecade74a447854d0dc3de8443a9d227008873e600a1c66b8a119b2bc9"
+        }
+      ],
+      "notes": "White shell and black circular joint regions retain silhouette; caps smooth without erasing hard panel boundaries."
+    },
+    {
+      "id": "hans-e10",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/hans-e10-hero.png",
+          "sha256": "7147ad34893321b16546ee8362fee92cd08d4095fdf94ca0748809f3f4f586f5"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/hans-e10-rear.png",
+          "sha256": "1b435de77f2247f917122d4d36e9adb56981c80b12c4da2697dd54ecacb996c6"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/hans-e10-hero.png",
+          "sha256": "5899df33a78fd8763b1d5be2c084187b29b6e6b2aeadbed96e6bb0b1f3a0d6e8"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/hans-e10-rear.png",
+          "sha256": "489dc7fb447c5c185961a6b9cdafb63d61cea3ac51497c2fa9d80418af970eb0"
+        }
+      ],
+      "notes": "White shell and black circular joint regions retain silhouette; caps smooth without erasing hard panel boundaries."
+    },
+    {
+      "id": "kuka-kr10-r1100-2",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr10-r1100-2-hero.png",
+          "sha256": "04c706cb8ed1914e795810c53e48a745e8aba87a45db2b4a2e1614fa70fb68f9"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr10-r1100-2-rear.png",
+          "sha256": "a445d14ea429dd9d85757c6c10bd6e5f4b0f349d8e06eb6e904fb5bf0f54adea"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr10-r1100-2-hero.png",
+          "sha256": "fe8964e58fa25d42491f47706e6307ab66f28b76c999bd0063203d1a05b1e0f1"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr10-r1100-2-rear.png",
+          "sha256": "2acc8871027d265bb5e82a412dc2724a2677e20ad57f17be5b61a3f92081dcac"
+        }
+      ],
+      "notes": "Rounded cast/motor surfaces soften facet bands while cutouts, cover edges, bolts and planar structural portions stay visible; no new inverted patch seen."
+    },
+    {
+      "id": "kuka-kr10-r1100-sixx",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr10-r1100-sixx-hero.png",
+          "sha256": "a0846c887ccd631fc7a62a4aca1e8eaaea41e4b368be87f28d7b63cdfa7ce999"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr10-r1100-sixx-rear.png",
+          "sha256": "b876d9401ab7321bc72cbfcc9268e4c4e231b2f22c54322f81eb62da7c220697"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr10-r1100-sixx-hero.png",
+          "sha256": "fdc7c5bbbd7f60580b809c21e5357b50304e06a29b9bab09d295ebd12b751016"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr10-r1100-sixx-rear.png",
+          "sha256": "b9e982cb36eb19f857838198cbe3217cc384a18d3240a1fd4541cb7d71176d92"
+        }
+      ],
+      "notes": "Rounded cast/motor surfaces soften facet bands while cutouts, cover edges, bolts and planar structural portions stay visible; no new inverted patch seen."
+    },
+    {
+      "id": "kuka-kr10-r1420",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr10-r1420-hero.png",
+          "sha256": "4190b724c516eda193b9a7e667c23eb23450fc6558eb880c587fd8cea7194297"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr10-r1420-rear.png",
+          "sha256": "bb150aecf42d50d6dee45e2451428fe15eba7d9cc9c9f03afa2b330235104532"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr10-r1420-hero.png",
+          "sha256": "f12568da1fa3273196e247e8242eb249c9efcd34ba23359f9d607a16f4408f32"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr10-r1420-rear.png",
+          "sha256": "70caebecf9cfd4b34733f22513b773c9e1f4533c7e39da2a9ff549176fe7c6a2"
+        }
+      ],
+      "notes": "Rounded cast/motor surfaces soften facet bands while cutouts, cover edges, bolts and planar structural portions stay visible; no new inverted patch seen."
+    },
+    {
+      "id": "kuka-kr10-r900-2",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr10-r900-2-hero.png",
+          "sha256": "ba9d9a2fdc62024452b97453edb600959aa4e2c98752fb4638eb2cb9d2d2f320"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr10-r900-2-rear.png",
+          "sha256": "ba3f816680b8005bc51e162462d2c2fb75961484e95341292ac883b2604c556c"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr10-r900-2-hero.png",
+          "sha256": "da79d975c5e5f4233a984283f1bd0a0266e2b2295f1a4e7831e5e7c01611b7ad"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr10-r900-2-rear.png",
+          "sha256": "dd56aa39d11a3c6a6afdd068052902ae558d30efc0fbe73cbc278440813b3074"
+        }
+      ],
+      "notes": "Rounded cast/motor surfaces soften facet bands while cutouts, cover edges, bolts and planar structural portions stay visible; no new inverted patch seen. Full-resolution hero/rear source/after probes confirm clear improvement in shoulder, motor cover and arm cover reflections without a new wavy plane."
+    },
+    {
+      "id": "kuka-kr120-r2500-pro",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr120-r2500-pro-hero.png",
+          "sha256": "9467769d2dbea16d09cc14f8c45b71ac150cef8c0ef271801b3db725b3c35d54"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr120-r2500-pro-rear.png",
+          "sha256": "b083bf061a46a6d318eb1ae75dfa02e0c2386f1bd7ad2dccfa15d7b35287f88d"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr120-r2500-pro-hero.png",
+          "sha256": "3eb6476bf67d6a8bb90042b8684003cb9dd044a0ee8635b033ad742acb980c4c"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr120-r2500-pro-rear.png",
+          "sha256": "fa4383c58beac29d8dc1d279c4d1089c4068916dcdb394e813aef5b81adad852"
+        }
+      ],
+      "notes": "Rounded cast/motor surfaces soften facet bands while cutouts, cover edges, bolts and planar structural portions stay visible; no new inverted patch seen."
+    },
+    {
+      "id": "kuka-kr150-2",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr150-2-hero.png",
+          "sha256": "4937193db365688f17833b4a8a01c64c80688aadbac589653d5dbb28e9f35434"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr150-2-rear.png",
+          "sha256": "0638e14f41cc6c0bfb1a39fd3a3422082e762d2caf0f7bd08108762c7669bf0f"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr150-2-hero.png",
+          "sha256": "681baf45c10f18b0330327beb1634396e4c820aa789d10ba52b28c3d18d52481"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr150-2-rear.png",
+          "sha256": "a40509e616f5fd0a46895a88c1ec2e7e44f9f1de5603ab344d8b99de1f3e22a0"
+        }
+      ],
+      "notes": "Rounded cast/motor surfaces soften facet bands while cutouts, cover edges, bolts and planar structural portions stay visible; no new inverted patch seen."
+    },
+    {
+      "id": "kuka-kr150-r3100-2",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr150-r3100-2-hero.png",
+          "sha256": "c5cf189de3051445e639f3245d031082cec0f13ce09be898b8cc415d922e489d"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr150-r3100-2-rear.png",
+          "sha256": "9e3352a8f80315bdd98f85837941803383d30be8e98c9007a454e023147af7c7"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr150-r3100-2-hero.png",
+          "sha256": "2a2fd2a39ffb9fa37324c66a288defb750531c3063b7eeec4e350134a3bb0811"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr150-r3100-2-rear.png",
+          "sha256": "3ae9b8fcc398e34b813ceeed415ea3a5bea4e4436e5303445639f0eee829e3c6"
+        }
+      ],
+      "notes": "Both views retain open cast cutouts, bolted cover edges and the dark base. Curved orange shells/round motor covers soften facet bands without a visible new wave, hole or facing reversal. Full-resolution rear probe confirms the recorded nonzero shoulder pose fits the frame and preserves narrow mechanical/line details."
+    },
+    {
+      "id": "kuka-kr16-2",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr16-2-hero.png",
+          "sha256": "577349b299ae2d06e6fe075f91f90d323f5b9705c9af0592d421693d5b0ec1d8"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr16-2-rear.png",
+          "sha256": "62d46111a65f09cb2a7a1efbe7e3e1544d7890ee2e1b0f58486075e9a7a37638"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr16-2-hero.png",
+          "sha256": "48de3212d2830ec03dc95e9fc42672935f9ef0abb24569b051ad49a9acc4eb4a"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr16-2-rear.png",
+          "sha256": "7d2b01009492a9a6a12ad410b824219c9556da799800b638c5021dde14ea6b5f"
+        }
+      ],
+      "notes": "Both views retain open cast cutouts, bolted cover edges and the dark base. Curved orange shells/round motor covers soften facet bands without a visible new wave, hole or facing reversal."
+    },
+    {
+      "id": "kuka-kr3-r540",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr3-r540-hero.png",
+          "sha256": "12de8512d0e72001b068fdcb59104ac4aad2af22fbb81cadbc31ca4484fb1502"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr3-r540-rear.png",
+          "sha256": "ee44747aa38c6afeebde3495f23ce3787c998cedb22ff89338ca1e86bafdce8b"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr3-r540-hero.png",
+          "sha256": "ff65fa834e5afc759e35b594ed34ce95d8a727ed8c6f53108a407d90c2275268"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr3-r540-rear.png",
+          "sha256": "7c61e873e6520d0524d28bbe91f8d0c5258cbb6dfd6064af5d672f14dfc6a364"
+        }
+      ],
+      "notes": "Both views retain open cast cutouts, bolted cover edges and the dark base. Curved orange shells/round motor covers soften facet bands without a visible new wave, hole or facing reversal."
+    },
+    {
+      "id": "kuka-kr5-arc",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr5-arc-hero.png",
+          "sha256": "6dbf9b8ec7bbc7a40380783d124c47a328ff9d2e39982dcfbafee3df14a80c97"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr5-arc-rear.png",
+          "sha256": "d256857bdf183bfb03f630410f10da05d1c67502c9c72abb9af84ad8fe82f017"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr5-arc-hero.png",
+          "sha256": "290298a0ec8cd2b3dd648c8345aa16778a45c4f34ed5898bd3b9fcb7192925c4"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr5-arc-rear.png",
+          "sha256": "730a00e5e3352156bf99b3bd1f6a86d57ac775fef0bb509ffba4738edbadad34"
+        }
+      ],
+      "notes": "Both views retain open cast cutouts, bolted cover edges and the dark base. Curved orange shells/round motor covers soften facet bands without a visible new wave, hole or facing reversal."
+    },
+    {
+      "id": "kuka-kr6-r700-sixx",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr6-r700-sixx-hero.png",
+          "sha256": "90e72d9717efcb08d2071939da052e882e92ae5fb6be2c3494a2479edfb858f2"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr6-r700-sixx-rear.png",
+          "sha256": "06ecec5baa52c1ad1aa1fe595517c2b07170af070228056eb7c17d08ac7ae421"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr6-r700-sixx-hero.png",
+          "sha256": "b6946139ee5a48907e914b313aea42013b2bfb837ad7420d2ddeec7d744501db"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr6-r700-sixx-rear.png",
+          "sha256": "40bb2c8a255cd509ea6821a4afc093bd8e9d33bda561e2da1bdb1c647637d0aa"
+        }
+      ],
+      "notes": "Both views retain open cast cutouts, bolted cover edges and the dark base. Curved orange shells/round motor covers soften facet bands without a visible new wave, hole or facing reversal."
+    },
+    {
+      "id": "kuka-kr6-r900-sixx",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr6-r900-sixx-hero.png",
+          "sha256": "a29ab7247a75aecc72405cbcc66ef2903f60e5e047cc50f2144514a481e1005e"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr6-r900-sixx-rear.png",
+          "sha256": "7d05cc2a24c32676cd5df7b15b3c0e683c92d08196f7b02c8aed4950f0c84981"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr6-r900-sixx-hero.png",
+          "sha256": "5a2cd5e28e365005ddc06605a609dd262242cf89e96d48f10a4de6833cb279e9"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr6-r900-sixx-rear.png",
+          "sha256": "1546a8f8108de2eb4e2bae077f9965f9e3cd4404b44c6c0d92d63a464432224e"
+        }
+      ],
+      "notes": "Both views retain open cast cutouts, bolted cover edges and the dark base. Curved orange shells/round motor covers soften facet bands without a visible new wave, hole or facing reversal."
+    },
+    {
+      "id": "motoman-gp12",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp12-hero.png",
+          "sha256": "9a88bbd49dd9074c0611a019a82edfe9ccfbf092eb746aa3b3a44fa749bf1dbc"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp12-rear.png",
+          "sha256": "89e06e675d3e0a15a6af4a71f8c01b0bc687e77713c8e00222109b5f146d9910"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp12-hero.png",
+          "sha256": "360104b2d457b92e452c3df48f560d6a7e2a1e32e139de53e81608d5ef31332d"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp12-rear.png",
+          "sha256": "bda22da9e8dee6deba4e1b88785a2ea895e41dcfd966ae639e6041791237cb0d"
+        }
+      ],
+      "notes": "Blue cast housings, mechanical bosses, openings and base plates remain coherent in both views. Curved highlights are smoother; fine source mechanical detail remains dense rather than being removed."
+    },
+    {
+      "id": "motoman-gp180",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp180-hero.png",
+          "sha256": "5e37e36d8bf7e00651de4a01f15a1fa41a2a3aaa3013c7b9a4573f089c0376d1"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp180-rear.png",
+          "sha256": "afc09540df4b1330b6e545682d3f0bf34093c33061fb6cc6a668c478f466670e"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp180-hero.png",
+          "sha256": "629ea8bb83095ecaf0281698b47e6b52c7327338a4a49e781aefa1315076dc20"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp180-rear.png",
+          "sha256": "e53162f0b807a1e2a7fdaf16016f33559f15d69c650d370a326f14a778cd3e53"
+        }
+      ],
+      "notes": "Blue cast housings, mechanical bosses, openings and base plates remain coherent in both views. Curved highlights are smoother; fine source mechanical detail remains dense rather than being removed."
+    },
+    {
+      "id": "motoman-gp180-120",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp180-120-hero.png",
+          "sha256": "03454da766bdaf2cb6524b53f98c530ea67fb71b692d6bd0c3dd68621f62b0c1"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp180-120-rear.png",
+          "sha256": "e1ff44996acb2999a59798aabd4010714d1cc8559ec3e7b00fab3209b0858cb1"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp180-120-hero.png",
+          "sha256": "385d8677f20d39585a67c831cce9f07a8b9d9b4910ea2cf9c51107485f600b48"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp180-120-rear.png",
+          "sha256": "38a0693a691beaaf39b2b338c05aab7edef25ed1f0a25275e9c5b28c41557e70"
+        }
+      ],
+      "notes": "Blue cast housings, mechanical bosses, openings and base plates remain coherent in both views. Curved highlights are smoother; fine source mechanical detail remains dense rather than being removed."
+    },
+    {
+      "id": "motoman-gp20hl",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp20hl-hero.png",
+          "sha256": "d0f08154fa9ea36af951e9bd68364e5d971085781641c058fc6cde07c3d7210b"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp20hl-rear.png",
+          "sha256": "26a19902d6f235de2d62cbd8c950a5c20ce6281616c9eac7616d6d8bbd7278f0"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp20hl-hero.png",
+          "sha256": "cba2984835cb32c2e1a89e712436837d79b10d6c089e6b533bb45db5e467b777"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp20hl-rear.png",
+          "sha256": "fbdeaf0e96ab73779f7e9aa926efd64bfc876d883565a5d752e3645070e904d2"
+        }
+      ],
+      "notes": "Blue cast housings, mechanical bosses, openings and base plates remain coherent in both views. Curved highlights are smoother; fine source mechanical detail remains dense rather than being removed."
+    },
+    {
+      "id": "motoman-gp25",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp25-hero.png",
+          "sha256": "4707be0b195d7e3351999f23afcb9c9eb385c1f00debc3d984b7373b12cf0042"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp25-rear.png",
+          "sha256": "52b124f0cebf03ef3fdb5c9a00465ef07e1dc78bdc951757ea97d09fb090037d"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp25-hero.png",
+          "sha256": "1702ea04f5e3e47bbde8aca72d6f9a9a681d15287b7fc1be1cba181e9e8f4dac"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp25-rear.png",
+          "sha256": "960ba08f1ebe6f4a5158cd385f4f7c698db5f851d0144e2227eadfda31328322"
+        }
+      ],
+      "notes": "Blue cast housings, mechanical bosses, openings and base plates remain coherent in both views. Curved highlights are smoother; fine source mechanical detail remains dense rather than being removed. Full-resolution rear source/after pair shows the upper flange/cast areas and lower drive covers improve without introducing a new deep hole."
+    },
+    {
+      "id": "motoman-gp7",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp7-hero.png",
+          "sha256": "7a06d4e9f67d22a61029e606a544ed405513da61c97e684459f5846d6eff7574"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp7-rear.png",
+          "sha256": "5f7c9c199d5ac25f122b895bcfceb30160f5e64f6113cd018a3edd19321e1865"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp7-hero.png",
+          "sha256": "8a4258e9d7a6adad9d83b2e06c24d0be2a63aec9e7ce1414d8518dfda438d383"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp7-rear.png",
+          "sha256": "7cf887d95656c64ee30be8d870589f8ffd36193879850388ccd1ed86364acd15"
+        }
+      ],
+      "notes": "Blue cast housings, mechanical bosses, openings and base plates remain coherent in both views. Curved highlights are smoother; fine source mechanical detail remains dense rather than being removed."
+    },
+    {
+      "id": "motoman-gp8",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp8-hero.png",
+          "sha256": "876902d7a9bb4e6d2aa7420ac0b00a392f6ebf553e0bf40336f3bf3214678a5a"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp8-rear.png",
+          "sha256": "fdad66fc82738e54672c0cd26ae400590f03558ab0751f43a7f600cfa72bd84f"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp8-hero.png",
+          "sha256": "4c7d739b72a1ec3d7c5cfaf5564a2dc17190fb22be9cf4c486877376ddf61cf6"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp8-rear.png",
+          "sha256": "4a0bf29f39da9338d96fe3d61932ecbb0bc04e2ff0c289931a4b9d424b8642d1"
+        }
+      ],
+      "notes": "Blue cast housings, mechanical bosses, openings and base plates remain coherent in both views. Curved highlights are smoother; fine source mechanical detail remains dense rather than being removed."
+    },
+    {
+      "id": "motoman-gp88",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp88-hero.png",
+          "sha256": "0aede5fa5bed377fb17446e708583820fe708f2f00adeedec3f4c742c1f58c2d"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp88-rear.png",
+          "sha256": "a9cd23582efc2de45339f43bffc35500aaf013cd75132d3e305cda5f6565bd07"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp88-hero.png",
+          "sha256": "0b06959e11f3f029b9dc8bbae23bf2f46d2d7a4c3d90c1668c9141e36ce45157"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp88-rear.png",
+          "sha256": "c8fc4c35f2805eb557fb27bc42a33011426c596135e54e0866d37fea629fd459"
+        }
+      ],
+      "notes": "Blue cast housings, mechanical bosses, openings and base plates remain coherent in both views. Curved highlights are smoother; fine source mechanical detail remains dense rather than being removed."
+    },
+    {
+      "id": "motoman-mh50",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-mh50-hero.png",
+          "sha256": "656e8120726648cb18210ca0aacbea7ab0d0e3c949e98d49e303777ea617e238"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-mh50-rear.png",
+          "sha256": "25c85ee23252149725158a525b5823ff498f4cf7ba1b9c1c6f64ecc4ece07fe2"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-mh50-hero.png",
+          "sha256": "a6d5453384d67a3df695a651cbef42b7423e45a3f4635041df864deaeea3ae92"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-mh50-rear.png",
+          "sha256": "e0d7e0295fd90b1b1c3e63568e195e1c0baeb6c930a95f0824074bda0a338e31"
+        }
+      ],
+      "notes": "Blue cast housings, mechanical bosses, openings and base plates remain coherent in both views. Curved highlights are smoother; fine source mechanical detail remains dense rather than being removed."
+    },
+    {
+      "id": "rokae-sr3",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/rokae-sr3-hero.png",
+          "sha256": "39572d328b54d475129bec137a7319d116a42ea9194fe8dcf9a748aa63e5e582"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/rokae-sr3-rear.png",
+          "sha256": "a33528d3b03cc5f5558894c82f3fb69fa4163a23b63d56c18ad75e4a260526a8"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/rokae-sr3-hero.png",
+          "sha256": "b6d52e341500deb069283e14b22c0b0f01b1deadc3e9227954be3e65e8549aa6"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/rokae-sr3-rear.png",
+          "sha256": "cd28c1fcb491b0452d3e4340243174fcd07a780ded6213ab544c7e5f18e1410f"
+        }
+      ],
+      "notes": "White curved shells, light-blue accents and end/base details remain consistent. No new visible black patch, hole or wavy shell seen in hero/rear comparisons."
+    },
+    {
+      "id": "rokae-sr5",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/rokae-sr5-hero.png",
+          "sha256": "f988108dc95382b433a8029d6fb18f66048b45db2d93b0345aa97a13843fce28"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/rokae-sr5-rear.png",
+          "sha256": "f98d3cda4e5b510c7fdc294c07a51e106b442d67c1edecfaea4acc42b8985935"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/rokae-sr5-hero.png",
+          "sha256": "d00a1d4f1044e1504b90f20303615e260aad2c09221be0c5652c60443821e479"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/rokae-sr5-rear.png",
+          "sha256": "59a1c4a53c84c3cce72af2d0cc494afd65f71772476e03f934b7ffa41697372b"
+        }
+      ],
+      "notes": "White curved shells, light-blue accents and end/base details remain consistent. No new visible black patch, hole or wavy shell seen in hero/rear comparisons."
+    },
+    {
+      "id": "universalrobots-ur10",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/universalrobots-ur10-hero.png",
+          "sha256": "fe7dc7fdb7521026d2edb77b8b074171055f8b49d1df5b98f91788c9a97dfc6b"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/universalrobots-ur10-rear.png",
+          "sha256": "9c8565171c088f94b1621feb7f09c09397e705614c9cac2d56cae5e0586a8b72"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/universalrobots-ur10-hero.png",
+          "sha256": "548a851e6740ec571030e9c4fcc2b1827adda5cd7a3e21f6c15b02cf6969fb39"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/universalrobots-ur10-rear.png",
+          "sha256": "7ba93522a8b7e71a349b0dd3b90bcc2ae4ab2c89c84171f98c097ddf142d06e7"
+        }
+      ],
+      "notes": "Metal arm tubes, powder-blue covers and dark seals remain distinct. Round cover highlights improve while collar edges and the assembled geometry remain coherent; no new visible facing defect."
+    },
+    {
+      "id": "universalrobots-ur10e",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/universalrobots-ur10e-hero.png",
+          "sha256": "9ebbc0145f3762e1fac761a9dfd0ab9802fb7e31d773ec34597da91177c40ecf"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/universalrobots-ur10e-rear.png",
+          "sha256": "90a232e40262fb5c99ee29dde299d680fd79dad7550d9fb10fe8891ad0e619bc"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/universalrobots-ur10e-hero.png",
+          "sha256": "b1e6c5c3132175faba75d681b585162043b8dbdd8788ed2833ecc82cdaa11be9"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/universalrobots-ur10e-rear.png",
+          "sha256": "8e4e063435ecee26093bb4e79cc0df8cadc3d75287cd55fec00c6f26a41cd9cf"
+        }
+      ],
+      "notes": "Metal arm tubes, powder-blue covers and dark seals remain distinct. Round cover highlights improve while collar edges and the assembled geometry remain coherent; no new visible facing defect."
+    },
+    {
+      "id": "universalrobots-ur3",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/universalrobots-ur3-hero.png",
+          "sha256": "4806346f4e1ed02fd78ed825da93a84fe6763f7e5d4dff5923cfb4b26cbf28d7"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/universalrobots-ur3-rear.png",
+          "sha256": "d1aea5cd870e896ed0290d45deedc1f6be88dfb96314c7d8ac2a78dcde53e95d"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/universalrobots-ur3-hero.png",
+          "sha256": "f3c19a1d521609fd0fd3ea1c8af7f3966f3df8f0113508b66e8067d9b5229798"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/universalrobots-ur3-rear.png",
+          "sha256": "df59a13e7b401a14afb8c894af80d3e6422f6ad843fc8d7a1533e2b46923f930"
+        }
+      ],
+      "notes": "Metal arm tubes, powder-blue covers and dark seals remain distinct. Round cover highlights improve while collar edges and the assembled geometry remain coherent; no new visible facing defect. Full-resolution rear pair confirms the black oval base cable ports pre-exist in source, and the previously faceted rear wrist-end cylinder becomes smoother."
+    },
+    {
+      "id": "universalrobots-ur5e",
+      "status": "reviewed_no_visible_regression",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "comparison": "both before and after",
+      "images": [
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/universalrobots-ur5e-hero.png",
+          "sha256": "4114414d2602c777f8564de7082097d68f88bf6821c5d6885f932392232dea13"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-before/universalrobots-ur5e-rear.png",
+          "sha256": "80a4da2b159e8c0174cfbccb5df96e644dfec2655d50e797bbdb0b565a18692b"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/universalrobots-ur5e-hero.png",
+          "sha256": "e903012acbd71e2a1314b0104a5ebdf9d7f1fe29351c6c47bbe2bba70bae4dfa"
+        },
+        {
+          "path": "/tmp/assetsmodel-session-global-normal-renders-after/universalrobots-ur5e-rear.png",
+          "sha256": "f235c59e42ad9c1b37e5c79ef765b5d6efdfd1b627f67f87a780dd4b85db4f89"
+        }
+      ],
+      "notes": "Metal arm tubes, powder-blue covers and dark seals remain distinct. Round cover highlights improve while collar edges and the assembled geometry remain coherent; no new visible facing defect."
+    }
+  ],
+  "issues": [],
+  "images_reviewed": 180,
+  "new_visible_regression_models": 0,
+  "source_and_pipeline_check": "/tmp/assetsmodel-session-global-normal-contact-sheets/final-fingerprint-check.json",
+  "link_localization_map": "/tmp/assetsmodel-session-global-normal-contact-sheets/link-map.json",
+  "scope_conclusion": "All 45 changed model entries were reviewed in hero and rear before/after images. No newly introduced obvious inverted region, dark hole or wavy surface was observed in those recorded views. Curve/cover facet bands generally improve while original planar and mechanical detail remains.",
+  "contact_sheet_sha256": {
+    "/tmp/assetsmodel-session-global-normal-contact-sheets/models-01-08.jpg": "9c15c2f4096fc2fa92d28538d16df1791bce485ff84139a6d0f5580e5bb96cc5",
+    "/tmp/assetsmodel-session-global-normal-contact-sheets/models-09-16.jpg": "15ccd74a1ff7c39fcceb304a451e5bfc89c510622181a389a1da2f81e7e4bb89",
+    "/tmp/assetsmodel-session-global-normal-contact-sheets/models-17-24.jpg": "ba84c86c1ed18a504eb2c1b351d05c2b4532fdd7997b7e0165272f96dea59624",
+    "/tmp/assetsmodel-session-global-normal-contact-sheets/models-25-32.jpg": "5d7e9ab18d6aac868e3dd925c916067f5cc48925ad99c0a00679e57d8817c8c5",
+    "/tmp/assetsmodel-session-global-normal-contact-sheets/models-33-40.jpg": "ae9fdbb55ef113f305d60b9874196d066a214efb38c5666eae8ce952027f5020",
+    "/tmp/assetsmodel-session-global-normal-contact-sheets/models-41-45.jpg": "f9516b36e5c33f95b384cf74e774d709a924dcd9b120d8534e39ee208fc67566"
+  }
+}

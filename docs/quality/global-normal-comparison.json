@@ -1,0 +1,6211 @@
+{
+  "generated_at": "2026-11-03T14:36:34.572992+00:00",
+  "models": 45,
+  "renders": [
+    {
+      "id": "abb-irb1200-5-90",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb1200-5-90-hero.png",
+      "sha256": "c56b53d93167f1408a0b119c319ea6ff582fae379cf87c2b190a4e24ec9f14b9",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 10,
+        "bounds_m": [
+          [
+            -0.19265000522136688,
+            -0.13330790400505066,
+            0.0
+          ],
+          [
+            0.533,
+            0.1302632987499237,
+            0.9730999914169312
+          ]
+        ],
+        "ortho_scale": 3.1499452590942383
+      }
+    },
+    {
+      "id": "abb-irb1200-5-90",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb1200-5-90-hero.png",
+      "sha256": "cf8d77310481dc15452d0e4c91ca6cead419517048c82a87c1c082e1b2ac64b8",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 10,
+        "bounds_m": [
+          [
+            -0.19265000522136688,
+            -0.13330790400505066,
+            0.0
+          ],
+          [
+            0.533,
+            0.1302632987499237,
+            0.9730999914169312
+          ]
+        ],
+        "ortho_scale": 3.1499452590942383
+      }
+    },
+    {
+      "id": "abb-irb1200-5-90",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb1200-5-90-rear.png",
+      "sha256": "fabf73ea8bfdb7c78389370b9fd4fc158044e9931f5ffb28b8d3a9bef40a5b33",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 10,
+        "bounds_m": [
+          [
+            -0.19265000522136688,
+            -0.13330790400505066,
+            0.0
+          ],
+          [
+            0.533,
+            0.1302632987499237,
+            0.9730999914169312
+          ]
+        ],
+        "ortho_scale": 3.1397650241851807
+      }
+    },
+    {
+      "id": "abb-irb1200-5-90",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb1200-5-90-rear.png",
+      "sha256": "ed56c29f0159a48ea5b13a31048413d6934118fc72873745f772de7a56dab47b",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 10,
+        "bounds_m": [
+          [
+            -0.19265000522136688,
+            -0.13330790400505066,
+            0.0
+          ],
+          [
+            0.533,
+            0.1302632987499237,
+            0.9730999914169312
+          ]
+        ],
+        "ortho_scale": 3.1397650241851807
+      }
+    },
+    {
+      "id": "abb-irb1200-7-70",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb1200-7-70-hero.png",
+      "sha256": "6f26bcc6794d6555e0b68c98b48700f388a7e43ffef2e5ef8bc43b74c311516b",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 10,
+        "bounds_m": [
+          [
+            -0.19265000522136688,
+            -0.13330790400505066,
+            0.0
+          ],
+          [
+            0.433,
+            0.1302632987499237,
+            0.8849499990940094
+          ]
+        ],
+        "ortho_scale": 3.149831771850586
+      }
+    },
+    {
+      "id": "abb-irb1200-7-70",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb1200-7-70-hero.png",
+      "sha256": "72bab4ed90fa59dd0048f1730f384241dd0f2b9e5e505675065e002713790279",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 10,
+        "bounds_m": [
+          [
+            -0.19265000522136688,
+            -0.13330790400505066,
+            0.0
+          ],
+          [
+            0.433,
+            0.1302632987499237,
+            0.8849499990940094
+          ]
+        ],
+        "ortho_scale": 3.149831771850586
+      }
+    },
+    {
+      "id": "abb-irb1200-7-70",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb1200-7-70-rear.png",
+      "sha256": "8c74fff685c1617176785e0b3ff3a8ae7511962fa52bb832ab78a2cf272bc403",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 10,
+        "bounds_m": [
+          [
+            -0.19265000522136688,
+            -0.13330790400505066,
+            0.0
+          ],
+          [
+            0.433,
+            0.1302632987499237,
+            0.8849499990940094
+          ]
+        ],
+        "ortho_scale": 3.139655828475952
+      }
+    },
+    {
+      "id": "abb-irb1200-7-70",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb1200-7-70-rear.png",
+      "sha256": "6b25b126c76358ce86256b44fe877650df075621d14717de1cedbb1f57940a61",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 10,
+        "bounds_m": [
+          [
+            -0.19265000522136688,
+            -0.13330790400505066,
+            0.0
+          ],
+          [
+            0.433,
+            0.1302632987499237,
+            0.8849499990940094
+          ]
+        ],
+        "ortho_scale": 3.139655828475952
+      }
+    },
+    {
+      "id": "abb-irb1600-10-145",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb1600-10-145-hero.png",
+      "sha256": "444ed50193d6e96f9178a152350b42c9e3b953302208f1b76f344b2f8f2f4b24",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.39726218581199646,
+            -0.2524999976158142,
+            -0.004999995231628418
+          ],
+          [
+            0.8150791549973655,
+            0.24176520109176636,
+            1.2944702973365783
+          ]
+        ],
+        "ortho_scale": 3.3565168380737305
+      }
+    },
+    {
+      "id": "abb-irb1600-10-145",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb1600-10-145-hero.png",
+      "sha256": "1f9508e60ce1cf080664ee26941482998a0052b8ed36dc464507f11a3f6cecc5",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.39726218581199646,
+            -0.2524999976158142,
+            -0.004999995231628418
+          ],
+          [
+            0.8150791549973655,
+            0.24176520109176636,
+            1.2944702973365783
+          ]
+        ],
+        "ortho_scale": 3.3565168380737305
+      }
+    },
+    {
+      "id": "abb-irb1600-10-145",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb1600-10-145-rear.png",
+      "sha256": "21d74f118d97a0062a35b7a7c5ad4d2c058fa51cb84f75d4d9a11a8f9e43e3dc",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.39726218581199646,
+            -0.2524999976158142,
+            -0.004999995231628418
+          ],
+          [
+            0.8150791549973655,
+            0.24176520109176636,
+            1.2944702973365783
+          ]
+        ],
+        "ortho_scale": 3.3378117084503174
+      }
+    },
+    {
+      "id": "abb-irb1600-10-145",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb1600-10-145-rear.png",
+      "sha256": "64b9105c42e48020103a6937cbe897549fa5bb96e32ebc69b9ac431652911b39",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.39726218581199646,
+            -0.2524999976158142,
+            -0.004999995231628418
+          ],
+          [
+            0.8150791549973655,
+            0.24176520109176636,
+            1.2944702973365783
+          ]
+        ],
+        "ortho_scale": 3.3378117084503174
+      }
+    },
+    {
+      "id": "abb-irb1600-6-120",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb1600-6-120-hero.png",
+      "sha256": "ff82a64fb50f7cd8ef4d7df08b525a655886db99cb4cbae71cdb03ec6bf6ff25",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.3822622001171112,
+            -0.2524999976158142,
+            0.0
+          ],
+          [
+            0.815,
+            0.24176520109176636,
+            1.0689579964280127
+          ]
+        ],
+        "ortho_scale": 3.1600987911224365
+      }
+    },
+    {
+      "id": "abb-irb1600-6-120",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb1600-6-120-hero.png",
+      "sha256": "c00688b23cd62a46f3af2c073cb56ec7b5974c3de40f78a5e8df345d78f89b01",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.3822622001171112,
+            -0.2524999976158142,
+            0.0
+          ],
+          [
+            0.815,
+            0.24176520109176636,
+            1.0689579964280127
+          ]
+        ],
+        "ortho_scale": 3.1600987911224365
+      }
+    },
+    {
+      "id": "abb-irb1600-6-120",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb1600-6-120-rear.png",
+      "sha256": "5ce3318402aba1d44141900ea1b276b1d75450888fdb60e5853fcc2f5fd39ebe",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.3822622001171112,
+            -0.2524999976158142,
+            0.0
+          ],
+          [
+            0.815,
+            0.24176520109176636,
+            1.0689579964280127
+          ]
+        ],
+        "ortho_scale": 3.136659860610962
+      }
+    },
+    {
+      "id": "abb-irb1600-6-120",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb1600-6-120-rear.png",
+      "sha256": "378328a25711f71f96a6c81bf4f33a62ae4a5ee9312558b697407bd6632d8ebf",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.3822622001171112,
+            -0.2524999976158142,
+            0.0
+          ],
+          [
+            0.815,
+            0.24176520109176636,
+            1.0689579964280127
+          ]
+        ],
+        "ortho_scale": 3.136659860610962
+      }
+    },
+    {
+      "id": "abb-irb2600-12-185",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb2600-12-185-hero.png",
+      "sha256": "48cb88ee68c8f43f51b16474b25cd5ae45f4d40ea74e2b4fba4c0da1e4788912",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 8,
+        "bounds_m": [
+          [
+            -0.400983989238739,
+            -0.2572680115699768,
+            0.0
+          ],
+          [
+            1.03,
+            0.280784010887146,
+            1.5821100038290024
+          ]
+        ],
+        "ortho_scale": 3.304824113845825
+      }
+    },
+    {
+      "id": "abb-irb2600-12-185",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb2600-12-185-hero.png",
+      "sha256": "f1113494cf84a878adeadd57ca09b4a11703c40382f542bff46016c42473b523",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 8,
+        "bounds_m": [
+          [
+            -0.400983989238739,
+            -0.2572680115699768,
+            0.0
+          ],
+          [
+            1.03,
+            0.280784010887146,
+            1.5821100038290024
+          ]
+        ],
+        "ortho_scale": 3.304824113845825
+      }
+    },
+    {
+      "id": "abb-irb2600-12-185",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb2600-12-185-rear.png",
+      "sha256": "294af774dc49c284577155dfb6242748f6ab92742e8f5c1bfdff889f070b02ca",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 8,
+        "bounds_m": [
+          [
+            -0.400983989238739,
+            -0.2572680115699768,
+            0.0
+          ],
+          [
+            1.03,
+            0.280784010887146,
+            1.5821100038290024
+          ]
+        ],
+        "ortho_scale": 3.288252115249634
+      }
+    },
+    {
+      "id": "abb-irb2600-12-185",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb2600-12-185-rear.png",
+      "sha256": "4084f9c18eef13c61343b8367233cebd589d38e58f43d08f23359b006f583c00",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 8,
+        "bounds_m": [
+          [
+            -0.400983989238739,
+            -0.2572680115699768,
+            0.0
+          ],
+          [
+            1.03,
+            0.280784010887146,
+            1.5821100038290024
+          ]
+        ],
+        "ortho_scale": 3.288252115249634
+      }
+    },
+    {
+      "id": "abb-irb4400l-30-243",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb4400l-30-243-hero.png",
+      "sha256": "5be47e9b396c15760a5c08ef9c26fe6183f79081367f39241189db15f0b4009c",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 9,
+        "bounds_m": [
+          [
+            -0.5698003172874451,
+            -0.47929999232292175,
+            0.0
+          ],
+          [
+            1.719999896287918,
+            0.47929999232292175,
+            1.8549999964237214
+          ]
+        ],
+        "ortho_scale": 2.960838556289673
+      }
+    },
+    {
+      "id": "abb-irb4400l-30-243",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb4400l-30-243-hero.png",
+      "sha256": "a63d11cfca87229769ec9d3a5a1180581fbd99fcb068966ec08f29bb9a4616f2",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 9,
+        "bounds_m": [
+          [
+            -0.5698003172874451,
+            -0.47929999232292175,
+            0.0
+          ],
+          [
+            1.719999896287918,
+            0.47929999232292175,
+            1.8549999964237214
+          ]
+        ],
+        "ortho_scale": 2.960838556289673
+      }
+    },
+    {
+      "id": "abb-irb4400l-30-243",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb4400l-30-243-rear.png",
+      "sha256": "cef5e6b8733306ddf3d79782dc41d440234653ea1b3e7b976dfa3e3821b0f08e",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 9,
+        "bounds_m": [
+          [
+            -0.5698003172874451,
+            -0.47929999232292175,
+            0.0
+          ],
+          [
+            1.719999896287918,
+            0.47929999232292175,
+            1.8549999964237214
+          ]
+        ],
+        "ortho_scale": 2.9357118606567383
+      }
+    },
+    {
+      "id": "abb-irb4400l-30-243",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb4400l-30-243-rear.png",
+      "sha256": "59062b265bcfa156139dc445abffbe226d84aa76b00b9c04b0a8b85173c9b5dc",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 9,
+        "bounds_m": [
+          [
+            -0.5698003172874451,
+            -0.47929999232292175,
+            0.0
+          ],
+          [
+            1.719999896287918,
+            0.47929999232292175,
+            1.8549999964237214
+          ]
+        ],
+        "ortho_scale": 2.9357118606567383
+      }
+    },
+    {
+      "id": "abb-irb4600-20-250",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb4600-20-250-hero.png",
+      "sha256": "bcfb4a3555f5c773c2a068742b29775ea5b8d1f93a2661147a98fbfbccac9c33",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 8,
+        "bounds_m": [
+          [
+            -0.40097299218177795,
+            -0.3127009868621826,
+            0.0
+          ],
+          [
+            1.490035966400901,
+            0.31949999928474426,
+            1.9216949903964995
+          ]
+        ],
+        "ortho_scale": 3.3431146144866943
+      }
+    },
+    {
+      "id": "abb-irb4600-20-250",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb4600-20-250-hero.png",
+      "sha256": "984555c39acc8a6ab0dfaf796ecedc27015b655c1b1e04165abacaf9b3babf41",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 8,
+        "bounds_m": [
+          [
+            -0.40097299218177795,
+            -0.3127009868621826,
+            0.0
+          ],
+          [
+            1.490035966400901,
+            0.31949999928474426,
+            1.9216949903964995
+          ]
+        ],
+        "ortho_scale": 3.3431146144866943
+      }
+    },
+    {
+      "id": "abb-irb4600-20-250",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb4600-20-250-rear.png",
+      "sha256": "a0ac41ba8258060d52268d6a977be78db05acddff03eea283832e6b32952e2a8",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 8,
+        "bounds_m": [
+          [
+            -0.40097299218177795,
+            -0.3127009868621826,
+            0.0
+          ],
+          [
+            1.490035966400901,
+            0.31949999928474426,
+            1.9216949903964995
+          ]
+        ],
+        "ortho_scale": 3.324962854385376
+      }
+    },
+    {
+      "id": "abb-irb4600-20-250",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb4600-20-250-rear.png",
+      "sha256": "12c18e33581ff9619944eb0ee6282c28263ae38f6354facb95e98f54bd2f1734",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 8,
+        "bounds_m": [
+          [
+            -0.40097299218177795,
+            -0.3127009868621826,
+            0.0
+          ],
+          [
+            1.490035966400901,
+            0.31949999928474426,
+            1.9216949903964995
+          ]
+        ],
+        "ortho_scale": 3.324962854385376
+      }
+    },
+    {
+      "id": "abb-irb4600-40-255",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb4600-40-255-hero.png",
+      "sha256": "9b7c80e920372372bbdd9904388d340e036360678cc2b55918716bd3975292bb",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 8,
+        "bounds_m": [
+          [
+            -0.40097299218177795,
+            -0.3127009868621826,
+            0.0
+          ],
+          [
+            1.58,
+            0.31949999928474426,
+            1.9216949903964995
+          ]
+        ],
+        "ortho_scale": 3.2703771591186523
+      }
+    },
+    {
+      "id": "abb-irb4600-40-255",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb4600-40-255-hero.png",
+      "sha256": "15e69d64051c770cce698d551ac96a1fd430bd3adc7f625c935827a7c60d2965",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 8,
+        "bounds_m": [
+          [
+            -0.40097299218177795,
+            -0.3127009868621826,
+            0.0
+          ],
+          [
+            1.58,
+            0.31949999928474426,
+            1.9216949903964995
+          ]
+        ],
+        "ortho_scale": 3.2703771591186523
+      }
+    },
+    {
+      "id": "abb-irb4600-40-255",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/abb-irb4600-40-255-rear.png",
+      "sha256": "4bcd6d570a3c97e27312e719884ae57bf7659276d30df40e17965f6f36e2e415",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 8,
+        "bounds_m": [
+          [
+            -0.40097299218177795,
+            -0.3127009868621826,
+            0.0
+          ],
+          [
+            1.58,
+            0.31949999928474426,
+            1.9216949903964995
+          ]
+        ],
+        "ortho_scale": 3.2516415119171143
+      }
+    },
+    {
+      "id": "abb-irb4600-40-255",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/abb-irb4600-40-255-rear.png",
+      "sha256": "5392b712e90ee72657e06a9eabce1913c5bebf03119e98a5f7a7ffb445786ed4",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 8,
+        "bounds_m": [
+          [
+            -0.40097299218177795,
+            -0.3127009868621826,
+            0.0
+          ],
+          [
+            1.58,
+            0.31949999928474426,
+            1.9216949903964995
+          ]
+        ],
+        "ortho_scale": 3.2516415119171143
+      }
+    },
+    {
+      "id": "ae-air10-1210",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/ae-air10-1210-hero.png",
+      "sha256": "7ef0698b8bdffc0a5e151b7933404ca2cbdbe6b7dd5a51ab52138e03be978305",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.21885868906974792,
+            -0.16400092840194702,
+            -8.759968750382541e-07
+          ],
+          [
+            0.14496161043643951,
+            0.1640034317970276,
+            1.7820004134429606
+          ]
+        ],
+        "ortho_scale": 2.7498791217803955
+      }
+    },
+    {
+      "id": "ae-air10-1210",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/ae-air10-1210-hero.png",
+      "sha256": "1715a20ba2b8e2fb75c4ce13893d13739e2e2d70d82fc133efddf74e9c711971",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.21885868906974792,
+            -0.16400092840194702,
+            -8.759968750382541e-07
+          ],
+          [
+            0.14496161043643951,
+            0.1640034317970276,
+            1.7820004134429606
+          ]
+        ],
+        "ortho_scale": 2.7498791217803955
+      }
+    },
+    {
+      "id": "ae-air10-1210",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/ae-air10-1210-rear.png",
+      "sha256": "2e6b712c46115e076485cb4cfadaf7ceb7ecc157ec6726cfc00ef764ca240e25",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.21885868906974792,
+            -0.16400092840194702,
+            -8.759968750382541e-07
+          ],
+          [
+            0.14496161043643951,
+            0.1640034317970276,
+            1.7820004134429606
+          ]
+        ],
+        "ortho_scale": 2.7562081813812256
+      }
+    },
+    {
+      "id": "ae-air10-1210",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/ae-air10-1210-rear.png",
+      "sha256": "f854e650af2c3e14bd4e513d417c1178fb647f26b30fa10e54739465ce915813",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.21885868906974792,
+            -0.16400092840194702,
+            -8.759968750382541e-07
+          ],
+          [
+            0.14496161043643951,
+            0.1640034317970276,
+            1.7820004134429606
+          ]
+        ],
+        "ortho_scale": 2.7562081813812256
+      }
+    },
+    {
+      "id": "ae-air10-1720",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/ae-air10-1720-hero.png",
+      "sha256": "3968a4398f3f2333333e4dd3a21a289f52deae28bc15369f07837e65c7749c7b",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.2832011282444,
+            -0.20000001788139343,
+            -0.0019999740179628134
+          ],
+          [
+            0.2832481144683101,
+            0.22949692606925964,
+            2.064000939265079
+          ]
+        ],
+        "ortho_scale": 2.81242036819458
+      }
+    },
+    {
+      "id": "ae-air10-1720",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/ae-air10-1720-hero.png",
+      "sha256": "30d5bb7a79f121d222a5d22c409bba4b08c55cde895956f91ffcc3218bd4a59a",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.2832011282444,
+            -0.20000001788139343,
+            -0.0019999740179628134
+          ],
+          [
+            0.2832481144683101,
+            0.22949692606925964,
+            2.064000939265079
+          ]
+        ],
+        "ortho_scale": 2.81242036819458
+      }
+    },
+    {
+      "id": "ae-air10-1720",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/ae-air10-1720-rear.png",
+      "sha256": "4ebeca3023ae03a5a8285968677344f01cba01f47c29313aaffdf7a74f42da7a",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.2832011282444,
+            -0.20000001788139343,
+            -0.0019999740179628134
+          ],
+          [
+            0.2832481144683101,
+            0.22949692606925964,
+            2.064000939265079
+          ]
+        ],
+        "ortho_scale": 2.8161685466766357
+      }
+    },
+    {
+      "id": "ae-air10-1720",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/ae-air10-1720-rear.png",
+      "sha256": "4d97508c7225b5d9d5d1f3ab9cb4f1c40c79d8a7d591f881c66464568c30dff1",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.2832011282444,
+            -0.20000001788139343,
+            -0.0019999740179628134
+          ],
+          [
+            0.2832481144683101,
+            0.22949692606925964,
+            2.064000939265079
+          ]
+        ],
+        "ortho_scale": 2.8161685466766357
+      }
+    },
+    {
+      "id": "ae-air12-940",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/ae-air12-940-hero.png",
+      "sha256": "897709dcb1ee7cc0653a732c1c91cb81210c2d04c6dff0991c6a80541f2688b3",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.2188587486743927,
+            -0.16400212049484253,
+            -8.759942033975676e-07
+          ],
+          [
+            0.14499999582767487,
+            0.1639600396156311,
+            1.5175004141530546
+          ]
+        ],
+        "ortho_scale": 2.79880690574646
+      }
+    },
+    {
+      "id": "ae-air12-940",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/ae-air12-940-hero.png",
+      "sha256": "be9a6bac79e91a08f9610e91e7dfba0e65a772279fb6d4381f22308e48ad8a79",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.2188587486743927,
+            -0.16400212049484253,
+            -8.759942033975676e-07
+          ],
+          [
+            0.14499999582767487,
+            0.1639600396156311,
+            1.5175004141530546
+          ]
+        ],
+        "ortho_scale": 2.79880690574646
+      }
+    },
+    {
+      "id": "ae-air12-940",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/ae-air12-940-rear.png",
+      "sha256": "0b37c977f2a5e6958f85345b6af705983c3804a2254ece2d234ccba897920723",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.2188587486743927,
+            -0.16400212049484253,
+            -8.759942033975676e-07
+          ],
+          [
+            0.14499999582767487,
+            0.1639600396156311,
+            1.5175004141530546
+          ]
+        ],
+        "ortho_scale": 2.803117036819458
+      }
+    },
+    {
+      "id": "ae-air12-940",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/ae-air12-940-rear.png",
+      "sha256": "2b4fc646256985d75c4ec2b66aeab46ac312d3e3a80f0d5c47ae62cec3ee32e6",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.2188587486743927,
+            -0.16400212049484253,
+            -8.759942033975676e-07
+          ],
+          [
+            0.14499999582767487,
+            0.1639600396156311,
+            1.5175004141530546
+          ]
+        ],
+        "ortho_scale": 2.803117036819458
+      }
+    },
+    {
+      "id": "ae-air35-1700",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/ae-air35-1700-hero.png",
+      "sha256": "bca3177542901c8f177636772c03a723ff826dfaaa73faf834c227c6341e7232",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.34017980098724365,
+            -0.23999999463558197,
+            -3.0468955136697673e-10
+          ],
+          [
+            0.34496593475341797,
+            0.24790699779987335,
+            2.0325011829415858
+          ]
+        ],
+        "ortho_scale": 2.8778584003448486
+      }
+    },
+    {
+      "id": "ae-air35-1700",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/ae-air35-1700-hero.png",
+      "sha256": "b639690f67a962c5b0a775497df137a0b942b7d9efc787e5b172f62f1719256b",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.34017980098724365,
+            -0.23999999463558197,
+            -3.0468955136697673e-10
+          ],
+          [
+            0.34496593475341797,
+            0.24790699779987335,
+            2.0325011829415858
+          ]
+        ],
+        "ortho_scale": 2.8778584003448486
+      }
+    },
+    {
+      "id": "ae-air35-1700",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/ae-air35-1700-rear.png",
+      "sha256": "a77328dcb1818744feefe25a0dee50bcdc1810ceb6708b9d197c1bb50c9084f5",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.34017980098724365,
+            -0.23999999463558197,
+            -3.0468955136697673e-10
+          ],
+          [
+            0.34496593475341797,
+            0.24790699779987335,
+            2.0325011829415858
+          ]
+        ],
+        "ortho_scale": 2.87890625
+      }
+    },
+    {
+      "id": "ae-air35-1700",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/ae-air35-1700-rear.png",
+      "sha256": "fa8b6b261e1fb3f237e6428879145bf93f8f44eb316714c7c97ce7e3fe88e11d",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.34017980098724365,
+            -0.23999999463558197,
+            -3.0468955136697673e-10
+          ],
+          [
+            0.34496593475341797,
+            0.24790699779987335,
+            2.0325011829415858
+          ]
+        ],
+        "ortho_scale": 2.87890625
+      }
+    },
+    {
+      "id": "agile-diana-7",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/agile-diana-7-hero.png",
+      "sha256": "7640d99f0d5e5be821b4dac52c9fc36f32bdc58deb9984f2cf589a22db341b07",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 20,
+        "bounds_m": [
+          [
+            -0.1414213925600052,
+            -0.1414213925600052,
+            4.999899829272181e-05
+          ],
+          [
+            0.12679440021514893,
+            0.10400017304578343,
+            1.3165003453079833
+          ]
+        ],
+        "ortho_scale": 2.751652956008911
+      }
+    },
+    {
+      "id": "agile-diana-7",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/agile-diana-7-hero.png",
+      "sha256": "ef7ddac47ad4e415326ca412fbb23cc2ab5a07cbeaea356d6909633c5efd293a",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 20,
+        "bounds_m": [
+          [
+            -0.1414213925600052,
+            -0.1414213925600052,
+            4.999899829272181e-05
+          ],
+          [
+            0.12679440021514893,
+            0.10400017304578343,
+            1.3165003453079833
+          ]
+        ],
+        "ortho_scale": 2.751652956008911
+      }
+    },
+    {
+      "id": "agile-diana-7",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/agile-diana-7-rear.png",
+      "sha256": "eb158122a56260e1504390eae46d01ae1b6860e71908b9af9ba09956f90897c7",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 20,
+        "bounds_m": [
+          [
+            -0.1414213925600052,
+            -0.1414213925600052,
+            4.999899829272181e-05
+          ],
+          [
+            0.12679440021514893,
+            0.10400017304578343,
+            1.3165003453079833
+          ]
+        ],
+        "ortho_scale": 2.757908821105957
+      }
+    },
+    {
+      "id": "agile-diana-7",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/agile-diana-7-rear.png",
+      "sha256": "1befd9d7c0600ab1bbad06728d058feb80b1f16f1192741c75aaf89e60cf0d06",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 20,
+        "bounds_m": [
+          [
+            -0.1414213925600052,
+            -0.1414213925600052,
+            4.999899829272181e-05
+          ],
+          [
+            0.12679440021514893,
+            0.10400017304578343,
+            1.3165003453079833
+          ]
+        ],
+        "ortho_scale": 2.757908821105957
+      }
+    },
+    {
+      "id": "fanuc-m-710ic-70",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/fanuc-m-710ic-70-hero.png",
+      "sha256": "388f7eb0cb06aa08398dd723ea9c60d1bb8e9591e6c14504ceae9b01fcc64b4c",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 13,
+        "bounds_m": [
+          [
+            -0.3100000023841858,
+            -0.2919408977031708,
+            2.38418573772492e-09
+          ],
+          [
+            1.3410000000127165,
+            0.3400000035762787,
+            1.735491213798523
+          ]
+        ],
+        "ortho_scale": 3.3536224365234375
+      }
+    },
+    {
+      "id": "fanuc-m-710ic-70",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/fanuc-m-710ic-70-hero.png",
+      "sha256": "5279f054353faec72ad4c3dada03c235c71fd989998468744028cd76cd794ec2",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 13,
+        "bounds_m": [
+          [
+            -0.3100000023841858,
+            -0.2919408977031708,
+            2.38418573772492e-09
+          ],
+          [
+            1.3410000000127165,
+            0.3400000035762787,
+            1.735491213798523
+          ]
+        ],
+        "ortho_scale": 3.3536224365234375
+      }
+    },
+    {
+      "id": "fanuc-m-710ic-70",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/fanuc-m-710ic-70-rear.png",
+      "sha256": "9745e7040df8b9444854c3dbbf0cd58ba76b33cf891cc24ea560e800ffe4786b",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 13,
+        "bounds_m": [
+          [
+            -0.3100000023841858,
+            -0.2919408977031708,
+            2.38418573772492e-09
+          ],
+          [
+            1.3410000000127165,
+            0.3400000035762787,
+            1.735491213798523
+          ]
+        ],
+        "ortho_scale": 3.335036516189575
+      }
+    },
+    {
+      "id": "fanuc-m-710ic-70",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/fanuc-m-710ic-70-rear.png",
+      "sha256": "c9fd26f7f2509a03056be172fc09e6b91b9c2cb8f22519e297dc67c3202d83cc",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 13,
+        "bounds_m": [
+          [
+            -0.3100000023841858,
+            -0.2919408977031708,
+            2.38418573772492e-09
+          ],
+          [
+            1.3410000000127165,
+            0.3400000035762787,
+            1.735491213798523
+          ]
+        ],
+        "ortho_scale": 3.335036516189575
+      }
+    },
+    {
+      "id": "fanuc-r-2000ic-165f",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/fanuc-r-2000ic-165f-hero.png",
+      "sha256": "3126b7cb0a033349e40793dea04f6cad4e7334ac9c24837d95cf1a236c4cb1de",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 9,
+        "bounds_m": [
+          [
+            -0.6675999760627747,
+            -0.3278999924659729,
+            -1.6689300497141346e-08
+          ],
+          [
+            1.8070001262194137,
+            0.4092000126838684,
+            2.1129999113082887
+          ]
+        ],
+        "ortho_scale": 2.9652020931243896
+      }
+    },
+    {
+      "id": "fanuc-r-2000ic-165f",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/fanuc-r-2000ic-165f-hero.png",
+      "sha256": "5b3ce7560a53a5e73d642330955370d20408350aae0b5127a90adc46fce771f6",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 9,
+        "bounds_m": [
+          [
+            -0.6675999760627747,
+            -0.3278999924659729,
+            -1.6689300497141346e-08
+          ],
+          [
+            1.8070001262194137,
+            0.4092000126838684,
+            2.1129999113082887
+          ]
+        ],
+        "ortho_scale": 2.9652020931243896
+      }
+    },
+    {
+      "id": "fanuc-r-2000ic-165f",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/fanuc-r-2000ic-165f-rear.png",
+      "sha256": "c853b773ebe907bda8dae7cf412bfadb6f59b8418f4fec9be8a50c2a3a825111",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 9,
+        "bounds_m": [
+          [
+            -0.6675999760627747,
+            -0.3278999924659729,
+            -1.6689300497141346e-08
+          ],
+          [
+            1.8070001262194137,
+            0.4092000126838684,
+            2.1129999113082887
+          ]
+        ],
+        "ortho_scale": 2.9451379776000977
+      }
+    },
+    {
+      "id": "fanuc-r-2000ic-165f",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/fanuc-r-2000ic-165f-rear.png",
+      "sha256": "406cd6331305592550f7e1b6d364311dc6237715513446ca84e09ccfcf61aca8",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 9,
+        "bounds_m": [
+          [
+            -0.6675999760627747,
+            -0.3278999924659729,
+            -1.6689300497141346e-08
+          ],
+          [
+            1.8070001262194137,
+            0.4092000126838684,
+            2.1129999113082887
+          ]
+        ],
+        "ortho_scale": 2.9451379776000977
+      }
+    },
+    {
+      "id": "franka-fr3",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/franka-fr3-hero.png",
+      "sha256": "7a534376a868c55a707edb524d15f47e2194bbaf05e01102c890bdeb3ecb4050",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 37,
+        "bounds_m": [
+          [
+            -0.1739751598802401,
+            -0.12939999997615814,
+            -0.0
+          ],
+          [
+            0.4097071915296465,
+            0.12992100417614003,
+            0.9202832493304227
+          ]
+        ],
+        "ortho_scale": 3.0923171043395996
+      }
+    },
+    {
+      "id": "franka-fr3",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/franka-fr3-hero.png",
+      "sha256": "89d768cbde7240ebc953f8ad2a200c06535f0092b12893d1102af0e03752e0a8",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 37,
+        "bounds_m": [
+          [
+            -0.1739751598802401,
+            -0.12939999997615814,
+            -0.0
+          ],
+          [
+            0.4097071915296465,
+            0.12992100417614003,
+            0.9202832493304227
+          ]
+        ],
+        "ortho_scale": 3.0923171043395996
+      }
+    },
+    {
+      "id": "franka-fr3",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/franka-fr3-rear.png",
+      "sha256": "f6e581c16e6226ac4c34a521e50b150cd86eab824d5921f6f3d3cc482da39d2c",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 37,
+        "bounds_m": [
+          [
+            -0.1739751598802401,
+            -0.12939999997615814,
+            -0.0
+          ],
+          [
+            0.4097071915296465,
+            0.12992100417614003,
+            0.9202832493304227
+          ]
+        ],
+        "ortho_scale": 3.084514617919922
+      }
+    },
+    {
+      "id": "franka-fr3",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/franka-fr3-rear.png",
+      "sha256": "fa63f810f26fcb775f1080a3129ffcca9fcf87d78f6421b495460e696780cfee",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 37,
+        "bounds_m": [
+          [
+            -0.1739751598802401,
+            -0.12939999997615814,
+            -0.0
+          ],
+          [
+            0.4097071915296465,
+            0.12992100417614003,
+            0.9202832493304227
+          ]
+        ],
+        "ortho_scale": 3.084514617919922
+      }
+    },
+    {
+      "id": "hans-e05",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/hans-e05-hero.png",
+      "sha256": "dff020b7bc2bfef5bd0bb7e7060357846373a540f90523175d8247163bbdc793",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 12,
+        "bounds_m": [
+          [
+            -0.07800000160932541,
+            -0.1740615150622115,
+            0.0
+          ],
+          [
+            0.11544019728899002,
+            0.08298822736621961,
+            1.1765000000039152
+          ]
+        ],
+        "ortho_scale": 2.7555394172668457
+      }
+    },
+    {
+      "id": "hans-e05",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/hans-e05-hero.png",
+      "sha256": "8912eb9bcde9c316328758869205bd793b3c2db01a42275cc6a48039a0e1aaa5",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 12,
+        "bounds_m": [
+          [
+            -0.07800000160932541,
+            -0.1740615150622115,
+            0.0
+          ],
+          [
+            0.11544019728899002,
+            0.08298822736621961,
+            1.1765000000039152
+          ]
+        ],
+        "ortho_scale": 2.7555394172668457
+      }
+    },
+    {
+      "id": "hans-e05",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/hans-e05-rear.png",
+      "sha256": "fb7e549c258e9a9d7055699389757ccc9e1e8102dd6b82d8001d1d81c26ce86d",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 12,
+        "bounds_m": [
+          [
+            -0.07800000160932541,
+            -0.1740615150622115,
+            0.0
+          ],
+          [
+            0.11544019728899002,
+            0.08298822736621961,
+            1.1765000000039152
+          ]
+        ],
+        "ortho_scale": 2.7616350650787354
+      }
+    },
+    {
+      "id": "hans-e05",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/hans-e05-rear.png",
+      "sha256": "98dd889ecade74a447854d0dc3de8443a9d227008873e600a1c66b8a119b2bc9",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 12,
+        "bounds_m": [
+          [
+            -0.07800000160932541,
+            -0.1740615150622115,
+            0.0
+          ],
+          [
+            0.11544019728899002,
+            0.08298822736621961,
+            1.1765000000039152
+          ]
+        ],
+        "ortho_scale": 2.7616350650787354
+      }
+    },
+    {
+      "id": "hans-e10",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/hans-e10-hero.png",
+      "sha256": "7147ad34893321b16546ee8362fee92cd08d4095fdf94ca0748809f3f4f586f5",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 13,
+        "bounds_m": [
+          [
+            -0.099956214427948,
+            -0.20265143768130656,
+            -1.5010409981641715e-07
+          ],
+          [
+            0.1326039880514145,
+            0.10648489638686807,
+            1.4334998808485202
+          ]
+        ],
+        "ortho_scale": 2.7517898082733154
+      }
+    },
+    {
+      "id": "hans-e10",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/hans-e10-hero.png",
+      "sha256": "5899df33a78fd8763b1d5be2c084187b29b6e6b2aeadbed96e6bb0b1f3a0d6e8",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 13,
+        "bounds_m": [
+          [
+            -0.099956214427948,
+            -0.20265143768130656,
+            -1.5010409981641715e-07
+          ],
+          [
+            0.1326039880514145,
+            0.10648489638686807,
+            1.4334998808485202
+          ]
+        ],
+        "ortho_scale": 2.7517898082733154
+      }
+    },
+    {
+      "id": "hans-e10",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/hans-e10-rear.png",
+      "sha256": "1b435de77f2247f917122d4d36e9adb56981c80b12c4da2697dd54ecacb996c6",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 13,
+        "bounds_m": [
+          [
+            -0.099956214427948,
+            -0.20265143768130656,
+            -1.5010409981641715e-07
+          ],
+          [
+            0.1326039880514145,
+            0.10648489638686807,
+            1.4334998808485202
+          ]
+        ],
+        "ortho_scale": 2.758040189743042
+      }
+    },
+    {
+      "id": "hans-e10",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/hans-e10-rear.png",
+      "sha256": "489dc7fb447c5c185961a6b9cdafb63d61cea3ac51497c2fa9d80418af970eb0",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 13,
+        "bounds_m": [
+          [
+            -0.099956214427948,
+            -0.20265143768130656,
+            -1.5010409981641715e-07
+          ],
+          [
+            0.1326039880514145,
+            0.10648489638686807,
+            1.4334998808485202
+          ]
+        ],
+        "ortho_scale": 2.758040189743042
+      }
+    },
+    {
+      "id": "kuka-kr10-r1100-2",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr10-r1100-2-hero.png",
+      "sha256": "04c706cb8ed1914e795810c53e48a745e8aba87a45db2b4a2e1614fa70fb68f9",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.38291800022125244,
+            -0.13949190080165863,
+            -7.019968251142927e-08
+          ],
+          [
+            1.1900000000039883,
+            0.13421019911766052,
+            0.4904207825652949
+          ]
+        ],
+        "ortho_scale": 2.205502986907959
+      }
+    },
+    {
+      "id": "kuka-kr10-r1100-2",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr10-r1100-2-hero.png",
+      "sha256": "fe8964e58fa25d42491f47706e6307ab66f28b76c999bd0063203d1a05b1e0f1",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.38291800022125244,
+            -0.13949190080165863,
+            -7.019968251142927e-08
+          ],
+          [
+            1.1900000000039883,
+            0.13421019911766052,
+            0.4904207825652949
+          ]
+        ],
+        "ortho_scale": 2.205502986907959
+      }
+    },
+    {
+      "id": "kuka-kr10-r1100-2",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr10-r1100-2-rear.png",
+      "sha256": "a445d14ea429dd9d85757c6c10bd6e5f4b0f349d8e06eb6e904fb5bf0f54adea",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.38291800022125244,
+            -0.13949190080165863,
+            -7.019968251142927e-08
+          ],
+          [
+            1.1900000000039883,
+            0.13421019911766052,
+            0.4904207825652949
+          ]
+        ],
+        "ortho_scale": 2.205502986907959
+      }
+    },
+    {
+      "id": "kuka-kr10-r1100-2",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr10-r1100-2-rear.png",
+      "sha256": "2acc8871027d265bb5e82a412dc2724a2677e20ad57f17be5b61a3f92081dcac",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.38291800022125244,
+            -0.13949190080165863,
+            -7.019968251142927e-08
+          ],
+          [
+            1.1900000000039883,
+            0.13421019911766052,
+            0.4904207825652949
+          ]
+        ],
+        "ortho_scale": 2.205502986907959
+      }
+    },
+    {
+      "id": "kuka-kr10-r1100-sixx",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr10-r1100-sixx-hero.png",
+      "sha256": "a0846c887ccd631fc7a62a4aca1e8eaaea41e4b368be87f28d7b63cdfa7ce999",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.22100000083446503,
+            -0.13890719413757324,
+            0.0
+          ],
+          [
+            1.1802483649877833,
+            0.13698169589042664,
+            0.5222441530227662
+          ]
+        ],
+        "ortho_scale": 2.236997604370117
+      }
+    },
+    {
+      "id": "kuka-kr10-r1100-sixx",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr10-r1100-sixx-hero.png",
+      "sha256": "fdc7c5bbbd7f60580b809c21e5357b50304e06a29b9bab09d295ebd12b751016",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.22100000083446503,
+            -0.13890719413757324,
+            0.0
+          ],
+          [
+            1.1802483649877833,
+            0.13698169589042664,
+            0.5222441530227662
+          ]
+        ],
+        "ortho_scale": 2.236997604370117
+      }
+    },
+    {
+      "id": "kuka-kr10-r1100-sixx",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr10-r1100-sixx-rear.png",
+      "sha256": "b876d9401ab7321bc72cbfcc9268e4c4e231b2f22c54322f81eb62da7c220697",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.22100000083446503,
+            -0.13890719413757324,
+            0.0
+          ],
+          [
+            1.1802483649877833,
+            0.13698169589042664,
+            0.5222441530227662
+          ]
+        ],
+        "ortho_scale": 2.236997604370117
+      }
+    },
+    {
+      "id": "kuka-kr10-r1100-sixx",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr10-r1100-sixx-rear.png",
+      "sha256": "b9e982cb36eb19f857838198cbe3217cc384a18d3240a1fd4541cb7d71176d92",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.22100000083446503,
+            -0.13890719413757324,
+            0.0
+          ],
+          [
+            1.1802483649877833,
+            0.13698169589042664,
+            0.5222441530227662
+          ]
+        ],
+        "ortho_scale": 2.236997604370117
+      }
+    },
+    {
+      "id": "kuka-kr10-r1420",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr10-r1420-hero.png",
+      "sha256": "4190b724c516eda193b9a7e667c23eb23450fc6558eb880c587fd8cea7194297",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.24251188337802887,
+            -0.19539989531040192,
+            -2.517769871701603e-06
+          ],
+          [
+            1.5,
+            0.2748667895793915,
+            0.5922667056322097
+          ]
+        ],
+        "ortho_scale": 2.337475299835205
+      }
+    },
+    {
+      "id": "kuka-kr10-r1420",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr10-r1420-hero.png",
+      "sha256": "f12568da1fa3273196e247e8242eb249c9efcd34ba23359f9d607a16f4408f32",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.24251188337802887,
+            -0.19539989531040192,
+            -2.517769871701603e-06
+          ],
+          [
+            1.5,
+            0.2748667895793915,
+            0.5922667056322097
+          ]
+        ],
+        "ortho_scale": 2.337475299835205
+      }
+    },
+    {
+      "id": "kuka-kr10-r1420",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr10-r1420-rear.png",
+      "sha256": "bb150aecf42d50d6dee45e2451428fe15eba7d9cc9c9f03afa2b330235104532",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.24251188337802887,
+            -0.19539989531040192,
+            -2.517769871701603e-06
+          ],
+          [
+            1.5,
+            0.2748667895793915,
+            0.5922667056322097
+          ]
+        ],
+        "ortho_scale": 2.337475299835205
+      }
+    },
+    {
+      "id": "kuka-kr10-r1420",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr10-r1420-rear.png",
+      "sha256": "70caebecf9cfd4b34733f22513b773c9e1f4533c7e39da2a9ff549176fe7c6a2",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.24251188337802887,
+            -0.19539989531040192,
+            -2.517769871701603e-06
+          ],
+          [
+            1.5,
+            0.2748667895793915,
+            0.5922667056322097
+          ]
+        ],
+        "ortho_scale": 2.337475299835205
+      }
+    },
+    {
+      "id": "kuka-kr10-r900-2",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr10-r900-2-hero.png",
+      "sha256": "ba9d9a2fdc62024452b97453edb600959aa4e2c98752fb4638eb2cb9d2d2f320",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.24354270100593567,
+            -0.13958780467510223,
+            -4.240849875714048e-07
+          ],
+          [
+            0.9900001832950005,
+            0.13427360355854034,
+            0.49046720713377
+          ]
+        ],
+        "ortho_scale": 2.271583080291748
+      }
+    },
+    {
+      "id": "kuka-kr10-r900-2",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr10-r900-2-hero.png",
+      "sha256": "da79d975c5e5f4233a984283f1bd0a0266e2b2295f1a4e7831e5e7c01611b7ad",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.24354270100593567,
+            -0.13958780467510223,
+            -4.240849875714048e-07
+          ],
+          [
+            0.9900001832950005,
+            0.13427360355854034,
+            0.49046720713377
+          ]
+        ],
+        "ortho_scale": 2.271583080291748
+      }
+    },
+    {
+      "id": "kuka-kr10-r900-2",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr10-r900-2-rear.png",
+      "sha256": "ba3f816680b8005bc51e162462d2c2fb75961484e95341292ac883b2604c556c",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.24354270100593567,
+            -0.13958780467510223,
+            -4.240849875714048e-07
+          ],
+          [
+            0.9900001832950005,
+            0.13427360355854034,
+            0.49046720713377
+          ]
+        ],
+        "ortho_scale": 2.271583080291748
+      }
+    },
+    {
+      "id": "kuka-kr10-r900-2",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr10-r900-2-rear.png",
+      "sha256": "dd56aa39d11a3c6a6afdd068052902ae558d30efc0fbe73cbc278440813b3074",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.24354270100593567,
+            -0.13958780467510223,
+            -4.240849875714048e-07
+          ],
+          [
+            0.9900001832950005,
+            0.13427360355854034,
+            0.49046720713377
+          ]
+        ],
+        "ortho_scale": 2.271583080291748
+      }
+    },
+    {
+      "id": "kuka-kr120-r2500-pro",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr120-r2500-pro-hero.png",
+      "sha256": "9467769d2dbea16d09cc14f8c45b71ac150cef8c0ef271801b3db725b3c35d54",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 14,
+        "bounds_m": [
+          [
+            -0.629662275314331,
+            -0.42838171124458313,
+            -5.971360224066302e-07
+          ],
+          [
+            2.7149796038866043,
+            0.41492149233818054,
+            0.9389330923557282
+          ]
+        ],
+        "ortho_scale": 2.3130507469177246
+      }
+    },
+    {
+      "id": "kuka-kr120-r2500-pro",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr120-r2500-pro-hero.png",
+      "sha256": "3eb6476bf67d6a8bb90042b8684003cb9dd044a0ee8635b033ad742acb980c4c",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 14,
+        "bounds_m": [
+          [
+            -0.629662275314331,
+            -0.42838171124458313,
+            -5.971360224066302e-07
+          ],
+          [
+            2.7149796038866043,
+            0.41492149233818054,
+            0.9389330923557282
+          ]
+        ],
+        "ortho_scale": 2.3130507469177246
+      }
+    },
+    {
+      "id": "kuka-kr120-r2500-pro",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr120-r2500-pro-rear.png",
+      "sha256": "b083bf061a46a6d318eb1ae75dfa02e0c2386f1bd7ad2dccfa15d7b35287f88d",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 14,
+        "bounds_m": [
+          [
+            -0.629662275314331,
+            -0.42838171124458313,
+            -5.971360224066302e-07
+          ],
+          [
+            2.7149796038866043,
+            0.41492149233818054,
+            0.9389330923557282
+          ]
+        ],
+        "ortho_scale": 2.3130507469177246
+      }
+    },
+    {
+      "id": "kuka-kr120-r2500-pro",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr120-r2500-pro-rear.png",
+      "sha256": "fa4383c58beac29d8dc1d279c4d1089c4068916dcdb394e813aef5b81adad852",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 14,
+        "bounds_m": [
+          [
+            -0.629662275314331,
+            -0.42838171124458313,
+            -5.971360224066302e-07
+          ],
+          [
+            2.7149796038866043,
+            0.41492149233818054,
+            0.9389330923557282
+          ]
+        ],
+        "ortho_scale": 2.3130507469177246
+      }
+    },
+    {
+      "id": "kuka-kr150-2",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr150-2-hero.png",
+      "sha256": "4937193db365688f17833b4a8a01c64c80688aadbac589653d5dbb28e9f35434",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 22,
+        "bounds_m": [
+          [
+            -0.6893481016159058,
+            -0.49983730912208557,
+            0.0
+          ],
+          [
+            2.93,
+            0.49983730912208557,
+            0.9949914067983627
+          ]
+        ],
+        "ortho_scale": 2.3461813926696777
+      }
+    },
+    {
+      "id": "kuka-kr150-2",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr150-2-hero.png",
+      "sha256": "681baf45c10f18b0330327beb1634396e4c820aa789d10ba52b28c3d18d52481",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 22,
+        "bounds_m": [
+          [
+            -0.6893481016159058,
+            -0.49983730912208557,
+            0.0
+          ],
+          [
+            2.93,
+            0.49983730912208557,
+            0.9949914067983627
+          ]
+        ],
+        "ortho_scale": 2.3461813926696777
+      }
+    },
+    {
+      "id": "kuka-kr150-2",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr150-2-rear.png",
+      "sha256": "0638e14f41cc6c0bfb1a39fd3a3422082e762d2caf0f7bd08108762c7669bf0f",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 22,
+        "bounds_m": [
+          [
+            -0.6893481016159058,
+            -0.49983730912208557,
+            0.0
+          ],
+          [
+            2.93,
+            0.49983730912208557,
+            0.9949914067983627
+          ]
+        ],
+        "ortho_scale": 2.3461813926696777
+      }
+    },
+    {
+      "id": "kuka-kr150-2",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr150-2-rear.png",
+      "sha256": "a40509e616f5fd0a46895a88c1ec2e7e44f9f1de5603ab344d8b99de1f3e22a0",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 22,
+        "bounds_m": [
+          [
+            -0.6893481016159058,
+            -0.49983730912208557,
+            0.0
+          ],
+          [
+            2.93,
+            0.49983730912208557,
+            0.9949914067983627
+          ]
+        ],
+        "ortho_scale": 2.3461813926696777
+      }
+    },
+    {
+      "id": "kuka-kr150-r3100-2",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr150-r3100-2-hero.png",
+      "sha256": "c5cf189de3051445e639f3245d031082cec0f13ce09be898b8cc415d922e489d",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.7539528012275696,
+            -0.43092820048332214,
+            -2.3818600311642513e-05
+          ],
+          [
+            1.2223775667961918,
+            0.4308795928955078,
+            3.5473934727923346
+          ]
+        ],
+        "ortho_scale": 3.0126044750213623
+      }
+    },
+    {
+      "id": "kuka-kr150-r3100-2",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr150-r3100-2-hero.png",
+      "sha256": "2a2fd2a39ffb9fa37324c66a288defb750531c3063b7eeec4e350134a3bb0811",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.7539528012275696,
+            -0.43092820048332214,
+            -2.3818600311642513e-05
+          ],
+          [
+            1.2223775667961918,
+            0.4308795928955078,
+            3.5473934727923346
+          ]
+        ],
+        "ortho_scale": 3.0126044750213623
+      }
+    },
+    {
+      "id": "kuka-kr150-r3100-2",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr150-r3100-2-rear.png",
+      "sha256": "9e3352a8f80315bdd98f85837941803383d30be8e98c9007a454e023147af7c7",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.7539528012275696,
+            -0.43092820048332214,
+            -2.3818600311642513e-05
+          ],
+          [
+            1.2223775667961918,
+            0.4308795928955078,
+            3.5473934727923346
+          ]
+        ],
+        "ortho_scale": 3.008091688156128
+      }
+    },
+    {
+      "id": "kuka-kr150-r3100-2",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr150-r3100-2-rear.png",
+      "sha256": "3ae9b8fcc398e34b813ceeed415ea3a5bea4e4436e5303445639f0eee829e3c6",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.7539528012275696,
+            -0.43092820048332214,
+            -2.3818600311642513e-05
+          ],
+          [
+            1.2223775667961918,
+            0.4308795928955078,
+            3.5473934727923346
+          ]
+        ],
+        "ortho_scale": 3.008091688156128
+      }
+    },
+    {
+      "id": "kuka-kr16-2",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr16-2-hero.png",
+      "sha256": "577349b299ae2d06e6fe075f91f90d323f5b9705c9af0592d421693d5b0ec1d8",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 13,
+        "bounds_m": [
+          [
+            -0.4018752872943878,
+            -0.27649998664855957,
+            0.0
+          ],
+          [
+            1.7680000072717668,
+            0.269921213388443,
+            0.845895203948021
+          ]
+        ],
+        "ortho_scale": 2.3126182556152344
+      }
+    },
+    {
+      "id": "kuka-kr16-2",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr16-2-hero.png",
+      "sha256": "48de3212d2830ec03dc95e9fc42672935f9ef0abb24569b051ad49a9acc4eb4a",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 13,
+        "bounds_m": [
+          [
+            -0.4018752872943878,
+            -0.27649998664855957,
+            0.0
+          ],
+          [
+            1.7680000072717668,
+            0.269921213388443,
+            0.845895203948021
+          ]
+        ],
+        "ortho_scale": 2.3126182556152344
+      }
+    },
+    {
+      "id": "kuka-kr16-2",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr16-2-rear.png",
+      "sha256": "62d46111a65f09cb2a7a1efbe7e3e1544d7890ee2e1b0f58486075e9a7a37638",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 13,
+        "bounds_m": [
+          [
+            -0.4018752872943878,
+            -0.27649998664855957,
+            0.0
+          ],
+          [
+            1.7680000072717668,
+            0.269921213388443,
+            0.845895203948021
+          ]
+        ],
+        "ortho_scale": 2.3126182556152344
+      }
+    },
+    {
+      "id": "kuka-kr16-2",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr16-2-rear.png",
+      "sha256": "7d2b01009492a9a6a12ad410b824219c9556da799800b638c5021dde14ea6b5f",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 13,
+        "bounds_m": [
+          [
+            -0.4018752872943878,
+            -0.27649998664855957,
+            0.0
+          ],
+          [
+            1.7680000072717668,
+            0.269921213388443,
+            0.845895203948021
+          ]
+        ],
+        "ortho_scale": 2.3126182556152344
+      }
+    },
+    {
+      "id": "kuka-kr3-r540",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr3-r540-hero.png",
+      "sha256": "12de8512d0e72001b068fdcb59104ac4aad2af22fbb81cadbc31ca4484fb1502",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 8,
+        "bounds_m": [
+          [
+            -0.19211719930171967,
+            -0.10001149773597717,
+            -1.389300052778708e-07
+          ],
+          [
+            0.615,
+            0.10400000214576721,
+            0.4213053223490715
+          ]
+        ],
+        "ortho_scale": 2.313918113708496
+      }
+    },
+    {
+      "id": "kuka-kr3-r540",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr3-r540-hero.png",
+      "sha256": "ff65fa834e5afc759e35b594ed34ce95d8a727ed8c6f53108a407d90c2275268",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 8,
+        "bounds_m": [
+          [
+            -0.19211719930171967,
+            -0.10001149773597717,
+            -1.389300052778708e-07
+          ],
+          [
+            0.615,
+            0.10400000214576721,
+            0.4213053223490715
+          ]
+        ],
+        "ortho_scale": 2.313918113708496
+      }
+    },
+    {
+      "id": "kuka-kr3-r540",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr3-r540-rear.png",
+      "sha256": "ee44747aa38c6afeebde3495f23ce3787c998cedb22ff89338ca1e86bafdce8b",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 8,
+        "bounds_m": [
+          [
+            -0.19211719930171967,
+            -0.10001149773597717,
+            -1.389300052778708e-07
+          ],
+          [
+            0.615,
+            0.10400000214576721,
+            0.4213053223490715
+          ]
+        ],
+        "ortho_scale": 2.313918113708496
+      }
+    },
+    {
+      "id": "kuka-kr3-r540",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr3-r540-rear.png",
+      "sha256": "7c61e873e6520d0524d28bbe91f8d0c5258cbb6dfd6064af5d672f14dfc6a364",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 8,
+        "bounds_m": [
+          [
+            -0.19211719930171967,
+            -0.10001149773597717,
+            -1.389300052778708e-07
+          ],
+          [
+            0.615,
+            0.10400000214576721,
+            0.4213053223490715
+          ]
+        ],
+        "ortho_scale": 2.313918113708496
+      }
+    },
+    {
+      "id": "kuka-kr5-arc",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr5-arc-hero.png",
+      "sha256": "6dbf9b8ec7bbc7a40380783d124c47a328ff9d2e39982dcfbafee3df14a80c97",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 25,
+        "bounds_m": [
+          [
+            -0.3670521080493927,
+            -0.3102535009384155,
+            -1.5960699784045573e-06
+          ],
+          [
+            1.5150000020861625,
+            0.19850000739097595,
+            0.5989999887347222
+          ]
+        ],
+        "ortho_scale": 2.338081121444702
+      }
+    },
+    {
+      "id": "kuka-kr5-arc",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr5-arc-hero.png",
+      "sha256": "290298a0ec8cd2b3dd648c8345aa16778a45c4f34ed5898bd3b9fcb7192925c4",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 25,
+        "bounds_m": [
+          [
+            -0.3670521080493927,
+            -0.3102535009384155,
+            -1.5960699784045573e-06
+          ],
+          [
+            1.5150000020861625,
+            0.19850000739097595,
+            0.5989999887347222
+          ]
+        ],
+        "ortho_scale": 2.338081121444702
+      }
+    },
+    {
+      "id": "kuka-kr5-arc",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr5-arc-rear.png",
+      "sha256": "d256857bdf183bfb03f630410f10da05d1c67502c9c72abb9af84ad8fe82f017",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 25,
+        "bounds_m": [
+          [
+            -0.3670521080493927,
+            -0.3102535009384155,
+            -1.5960699784045573e-06
+          ],
+          [
+            1.5150000020861625,
+            0.19850000739097595,
+            0.5989999887347222
+          ]
+        ],
+        "ortho_scale": 2.338081121444702
+      }
+    },
+    {
+      "id": "kuka-kr5-arc",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr5-arc-rear.png",
+      "sha256": "730a00e5e3352156bf99b3bd1f6a86d57ac775fef0bb509ffba4738edbadad34",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 25,
+        "bounds_m": [
+          [
+            -0.3670521080493927,
+            -0.3102535009384155,
+            -1.5960699784045573e-06
+          ],
+          [
+            1.5150000020861625,
+            0.19850000739097595,
+            0.5989999887347222
+          ]
+        ],
+        "ortho_scale": 2.338081121444702
+      }
+    },
+    {
+      "id": "kuka-kr6-r700-sixx",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr6-r700-sixx-hero.png",
+      "sha256": "90e72d9717efcb08d2071939da052e882e92ae5fb6be2c3494a2479edfb858f2",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.22099709510803223,
+            -0.13897910714149475,
+            -6.256020128603268e-07
+          ],
+          [
+            0.7849937372999739,
+            0.1369938999414444,
+            0.508000006377697
+          ]
+        ],
+        "ortho_scale": 2.343602418899536
+      }
+    },
+    {
+      "id": "kuka-kr6-r700-sixx",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr6-r700-sixx-hero.png",
+      "sha256": "b6946139ee5a48907e914b313aea42013b2bfb837ad7420d2ddeec7d744501db",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.22099709510803223,
+            -0.13897910714149475,
+            -6.256020128603268e-07
+          ],
+          [
+            0.7849937372999739,
+            0.1369938999414444,
+            0.508000006377697
+          ]
+        ],
+        "ortho_scale": 2.343602418899536
+      }
+    },
+    {
+      "id": "kuka-kr6-r700-sixx",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr6-r700-sixx-rear.png",
+      "sha256": "06ecec5baa52c1ad1aa1fe595517c2b07170af070228056eb7c17d08ac7ae421",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.22099709510803223,
+            -0.13897910714149475,
+            -6.256020128603268e-07
+          ],
+          [
+            0.7849937372999739,
+            0.1369938999414444,
+            0.508000006377697
+          ]
+        ],
+        "ortho_scale": 2.343602418899536
+      }
+    },
+    {
+      "id": "kuka-kr6-r700-sixx",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr6-r700-sixx-rear.png",
+      "sha256": "40bb2c8a255cd509ea6821a4afc093bd8e9d33bda561e2da1bdb1c647637d0aa",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.22099709510803223,
+            -0.13897910714149475,
+            -6.256020128603268e-07
+          ],
+          [
+            0.7849937372999739,
+            0.1369938999414444,
+            0.508000006377697
+          ]
+        ],
+        "ortho_scale": 2.343602418899536
+      }
+    },
+    {
+      "id": "kuka-kr6-r900-sixx",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr6-r900-sixx-hero.png",
+      "sha256": "a29ab7247a75aecc72405cbcc66ef2903f60e5e047cc50f2144514a481e1005e",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 8,
+        "bounds_m": [
+          [
+            -0.22099709510803223,
+            -0.13897910714149475,
+            -6.256020128603268e-07
+          ],
+          [
+            0.9799937372999739,
+            0.1369938999414444,
+            0.5089879608154297
+          ]
+        ],
+        "ortho_scale": 2.282287120819092
+      }
+    },
+    {
+      "id": "kuka-kr6-r900-sixx",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr6-r900-sixx-hero.png",
+      "sha256": "5a2cd5e28e365005ddc06605a609dd262242cf89e96d48f10a4de6833cb279e9",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 8,
+        "bounds_m": [
+          [
+            -0.22099709510803223,
+            -0.13897910714149475,
+            -6.256020128603268e-07
+          ],
+          [
+            0.9799937372999739,
+            0.1369938999414444,
+            0.5089879608154297
+          ]
+        ],
+        "ortho_scale": 2.282287120819092
+      }
+    },
+    {
+      "id": "kuka-kr6-r900-sixx",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/kuka-kr6-r900-sixx-rear.png",
+      "sha256": "7d05cc2a24c32676cd5df7b15b3c0e683c92d08196f7b02c8aed4950f0c84981",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 8,
+        "bounds_m": [
+          [
+            -0.22099709510803223,
+            -0.13897910714149475,
+            -6.256020128603268e-07
+          ],
+          [
+            0.9799937372999739,
+            0.1369938999414444,
+            0.5089879608154297
+          ]
+        ],
+        "ortho_scale": 2.282287120819092
+      }
+    },
+    {
+      "id": "kuka-kr6-r900-sixx",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/kuka-kr6-r900-sixx-rear.png",
+      "sha256": "1546a8f8108de2eb4e2bae077f9965f9e3cd4404b44c6c0d92d63a464432224e",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 8,
+        "bounds_m": [
+          [
+            -0.22099709510803223,
+            -0.13897910714149475,
+            -6.256020128603268e-07
+          ],
+          [
+            0.9799937372999739,
+            0.1369938999414444,
+            0.5089879608154297
+          ]
+        ],
+        "ortho_scale": 2.282287120819092
+      }
+    },
+    {
+      "id": "motoman-gp12",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp12-hero.png",
+      "sha256": "9a88bbd49dd9074c0611a019a82edfe9ccfbf092eb746aa3b3a44fa749bf1dbc",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.28540000319480896,
+            -0.1970003992319107,
+            -1.253119989996776e-07
+          ],
+          [
+            0.8950000014901162,
+            0.18649999797344208,
+            1.3450001075267792
+          ]
+        ],
+        "ortho_scale": 3.2414979934692383
+      }
+    },
+    {
+      "id": "motoman-gp12",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp12-hero.png",
+      "sha256": "360104b2d457b92e452c3df48f560d6a7e2a1e32e139de53e81608d5ef31332d",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.28540000319480896,
+            -0.1970003992319107,
+            -1.253119989996776e-07
+          ],
+          [
+            0.8950000014901162,
+            0.18649999797344208,
+            1.3450001075267792
+          ]
+        ],
+        "ortho_scale": 3.2414979934692383
+      }
+    },
+    {
+      "id": "motoman-gp12",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp12-rear.png",
+      "sha256": "89e06e675d3e0a15a6af4a71f8c01b0bc687e77713c8e00222109b5f146d9910",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.28540000319480896,
+            -0.1970003992319107,
+            -1.253119989996776e-07
+          ],
+          [
+            0.8950000014901162,
+            0.18649999797344208,
+            1.3450001075267792
+          ]
+        ],
+        "ortho_scale": 3.227539539337158
+      }
+    },
+    {
+      "id": "motoman-gp12",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp12-rear.png",
+      "sha256": "bda22da9e8dee6deba4e1b88785a2ea895e41dcfd966ae639e6041791237cb0d",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.28540000319480896,
+            -0.1970003992319107,
+            -1.253119989996776e-07
+          ],
+          [
+            0.8950000014901162,
+            0.18649999797344208,
+            1.3450001075267792
+          ]
+        ],
+        "ortho_scale": 3.227539539337158
+      }
+    },
+    {
+      "id": "motoman-gp180",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp180-hero.png",
+      "sha256": "5e37e36d8bf7e00651de4a01f15a1fa41a2a3aaa3013c7b9a4573f089c0376d1",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.4814000129699707,
+            -0.28196001052856445,
+            -0.0003600000054575503
+          ],
+          [
+            1.775079989396909,
+            0.3487899899482727,
+            2.2531199932098387
+          ]
+        ],
+        "ortho_scale": 3.3069746494293213
+      }
+    },
+    {
+      "id": "motoman-gp180",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp180-hero.png",
+      "sha256": "629ea8bb83095ecaf0281698b47e6b52c7327338a4a49e781aefa1315076dc20",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.4814000129699707,
+            -0.28196001052856445,
+            -0.0003600000054575503
+          ],
+          [
+            1.775079989396909,
+            0.3487899899482727,
+            2.2531199932098387
+          ]
+        ],
+        "ortho_scale": 3.3069746494293213
+      }
+    },
+    {
+      "id": "motoman-gp180",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp180-rear.png",
+      "sha256": "afc09540df4b1330b6e545682d3f0bf34093c33061fb6cc6a668c478f466670e",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.4814000129699707,
+            -0.28196001052856445,
+            -0.0003600000054575503
+          ],
+          [
+            1.775079989396909,
+            0.3487899899482727,
+            2.2531199932098387
+          ]
+        ],
+        "ortho_scale": 3.290154457092285
+      }
+    },
+    {
+      "id": "motoman-gp180",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp180-rear.png",
+      "sha256": "e53162f0b807a1e2a7fdaf16016f33559f15d69c650d370a326f14a778cd3e53",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.4814000129699707,
+            -0.28196001052856445,
+            -0.0003600000054575503
+          ],
+          [
+            1.775079989396909,
+            0.3487899899482727,
+            2.2531199932098387
+          ]
+        ],
+        "ortho_scale": 3.290154457092285
+      }
+    },
+    {
+      "id": "motoman-gp180-120",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp180-120-hero.png",
+      "sha256": "03454da766bdaf2cb6524b53f98c530ea67fb71b692d6bd0c3dd68621f62b0c1",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.4848499894142151,
+            -0.28810811042785645,
+            0.0
+          ],
+          [
+            2.14,
+            0.34841659665107727,
+            2.253000098466873
+          ]
+        ],
+        "ortho_scale": 2.928678274154663
+      }
+    },
+    {
+      "id": "motoman-gp180-120",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp180-120-hero.png",
+      "sha256": "385d8677f20d39585a67c831cce9f07a8b9d9b4910ea2cf9c51107485f600b48",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.4848499894142151,
+            -0.28810811042785645,
+            0.0
+          ],
+          [
+            2.14,
+            0.34841659665107727,
+            2.253000098466873
+          ]
+        ],
+        "ortho_scale": 2.928678274154663
+      }
+    },
+    {
+      "id": "motoman-gp180-120",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp180-120-rear.png",
+      "sha256": "e1ff44996acb2999a59798aabd4010714d1cc8559ec3e7b00fab3209b0858cb1",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.4848499894142151,
+            -0.28810811042785645,
+            0.0
+          ],
+          [
+            2.14,
+            0.34841659665107727,
+            2.253000098466873
+          ]
+        ],
+        "ortho_scale": 2.910656213760376
+      }
+    },
+    {
+      "id": "motoman-gp180-120",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp180-120-rear.png",
+      "sha256": "38a0693a691beaaf39b2b338c05aab7edef25ed1f0a25275e9c5b28c41557e70",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.4848499894142151,
+            -0.28810811042785645,
+            0.0
+          ],
+          [
+            2.14,
+            0.34841659665107727,
+            2.253000098466873
+          ]
+        ],
+        "ortho_scale": 2.910656213760376
+      }
+    },
+    {
+      "id": "motoman-gp20hl",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp20hl-hero.png",
+      "sha256": "d0f08154fa9ea36af951e9bd68364e5d971085781641c058fc6cde07c3d7210b",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.41484999656677246,
+            -0.35248398780822754,
+            -6.87182047376389e-11
+          ],
+          [
+            2.0569998971819876,
+            0.2524999976158142,
+            2.0600000047683715
+          ]
+        ],
+        "ortho_scale": 2.8690035343170166
+      }
+    },
+    {
+      "id": "motoman-gp20hl",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp20hl-hero.png",
+      "sha256": "cba2984835cb32c2e1a89e712436837d79b10d6c089e6b533bb45db5e467b777",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.41484999656677246,
+            -0.35248398780822754,
+            -6.87182047376389e-11
+          ],
+          [
+            2.0569998971819876,
+            0.2524999976158142,
+            2.0600000047683715
+          ]
+        ],
+        "ortho_scale": 2.8690035343170166
+      }
+    },
+    {
+      "id": "motoman-gp20hl",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp20hl-rear.png",
+      "sha256": "26a19902d6f235de2d62cbd8c950a5c20ce6281616c9eac7616d6d8bbd7278f0",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.41484999656677246,
+            -0.35248398780822754,
+            -6.87182047376389e-11
+          ],
+          [
+            2.0569998971819876,
+            0.2524999976158142,
+            2.0600000047683715
+          ]
+        ],
+        "ortho_scale": 2.850454330444336
+      }
+    },
+    {
+      "id": "motoman-gp20hl",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp20hl-rear.png",
+      "sha256": "fbdeaf0e96ab73779f7e9aa926efd64bfc876d883565a5d752e3645070e904d2",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.41484999656677246,
+            -0.35248398780822754,
+            -6.87182047376389e-11
+          ],
+          [
+            2.0569998971819876,
+            0.2524999976158142,
+            2.0600000047683715
+          ]
+        ],
+        "ortho_scale": 2.850454330444336
+      }
+    },
+    {
+      "id": "motoman-gp25",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp25-hero.png",
+      "sha256": "4707be0b195d7e3351999f23afcb9c9eb385c1f00debc3d984b7373b12cf0042",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.3479211926460266,
+            -0.2549622058868408,
+            5.010409950045869e-05
+          ],
+          [
+            1.044931411445141,
+            0.22878620028495789,
+            1.5682480001449586
+          ]
+        ],
+        "ortho_scale": 3.2678914070129395
+      }
+    },
+    {
+      "id": "motoman-gp25",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp25-hero.png",
+      "sha256": "1702ea04f5e3e47bbde8aca72d6f9a9a681d15287b7fc1be1cba181e9e8f4dac",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.3479211926460266,
+            -0.2549622058868408,
+            5.010409950045869e-05
+          ],
+          [
+            1.044931411445141,
+            0.22878620028495789,
+            1.5682480001449586
+          ]
+        ],
+        "ortho_scale": 3.2678914070129395
+      }
+    },
+    {
+      "id": "motoman-gp25",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp25-rear.png",
+      "sha256": "52b124f0cebf03ef3fdb5c9a00465ef07e1dc78bdc951757ea97d09fb090037d",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.3479211926460266,
+            -0.2549622058868408,
+            5.010409950045869e-05
+          ],
+          [
+            1.044931411445141,
+            0.22878620028495789,
+            1.5682480001449586
+          ]
+        ],
+        "ortho_scale": 3.2528433799743652
+      }
+    },
+    {
+      "id": "motoman-gp25",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp25-rear.png",
+      "sha256": "960ba08f1ebe6f4a5158cd385f4f7c698db5f851d0144e2227eadfda31328322",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.3479211926460266,
+            -0.2549622058868408,
+            5.010409950045869e-05
+          ],
+          [
+            1.044931411445141,
+            0.22878620028495789,
+            1.5682480001449586
+          ]
+        ],
+        "ortho_scale": 3.2528433799743652
+      }
+    },
+    {
+      "id": "motoman-gp7",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp7-hero.png",
+      "sha256": "7a06d4e9f67d22a61029e606a544ed405513da61c97e684459f5846d6eff7574",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.13733290135860443,
+            -0.1150004118680954,
+            -5.957160101388581e-05
+          ],
+          [
+            0.5600168514251709,
+            0.1150009036064148,
+            0.8783029034733772
+          ]
+        ],
+        "ortho_scale": 3.171196222305298
+      }
+    },
+    {
+      "id": "motoman-gp7",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp7-hero.png",
+      "sha256": "8a4258e9d7a6adad9d83b2e06c24d0be2a63aec9e7ce1414d8518dfda438d383",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.13733290135860443,
+            -0.1150004118680954,
+            -5.957160101388581e-05
+          ],
+          [
+            0.5600168514251709,
+            0.1150009036064148,
+            0.8783029034733772
+          ]
+        ],
+        "ortho_scale": 3.171196222305298
+      }
+    },
+    {
+      "id": "motoman-gp7",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp7-rear.png",
+      "sha256": "5f7c9c199d5ac25f122b895bcfceb30160f5e64f6113cd018a3edd19321e1865",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.13733290135860443,
+            -0.1150004118680954,
+            -5.957160101388581e-05
+          ],
+          [
+            0.5600168514251709,
+            0.1150009036064148,
+            0.8783029034733772
+          ]
+        ],
+        "ortho_scale": 3.1601388454437256
+      }
+    },
+    {
+      "id": "motoman-gp7",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp7-rear.png",
+      "sha256": "7cf887d95656c64ee30be8d870589f8ffd36193879850388ccd1ed86364acd15",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.13733290135860443,
+            -0.1150004118680954,
+            -5.957160101388581e-05
+          ],
+          [
+            0.5600168514251709,
+            0.1150009036064148,
+            0.8783029034733772
+          ]
+        ],
+        "ortho_scale": 3.1601388454437256
+      }
+    },
+    {
+      "id": "motoman-gp8",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp8-hero.png",
+      "sha256": "876902d7a9bb4e6d2aa7420ac0b00a392f6ebf553e0bf40336f3bf3214678a5a",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.13733290135860443,
+            -0.1150003969669342,
+            -1.5348199667641893e-05
+          ],
+          [
+            0.45999998331069947,
+            0.11500020325183868,
+            0.7782776013016701
+          ]
+        ],
+        "ortho_scale": 3.1842126846313477
+      }
+    },
+    {
+      "id": "motoman-gp8",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp8-hero.png",
+      "sha256": "4c7d739b72a1ec3d7c5cfaf5564a2dc17190fb22be9cf4c486877376ddf61cf6",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.13733290135860443,
+            -0.1150003969669342,
+            -1.5348199667641893e-05
+          ],
+          [
+            0.45999998331069947,
+            0.11500020325183868,
+            0.7782776013016701
+          ]
+        ],
+        "ortho_scale": 3.1842126846313477
+      }
+    },
+    {
+      "id": "motoman-gp8",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp8-rear.png",
+      "sha256": "fdad66fc82738e54672c0cd26ae400590f03558ab0751f43a7f600cfa72bd84f",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.13733290135860443,
+            -0.1150003969669342,
+            -1.5348199667641893e-05
+          ],
+          [
+            0.45999998331069947,
+            0.11500020325183868,
+            0.7782776013016701
+          ]
+        ],
+        "ortho_scale": 3.1726179122924805
+      }
+    },
+    {
+      "id": "motoman-gp8",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp8-rear.png",
+      "sha256": "4a0bf29f39da9338d96fe3d61932ecbb0bc04e2ff0c289931a4b9d424b8642d1",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.13733290135860443,
+            -0.1150003969669342,
+            -1.5348199667641893e-05
+          ],
+          [
+            0.45999998331069947,
+            0.11500020325183868,
+            0.7782776013016701
+          ]
+        ],
+        "ortho_scale": 3.1726179122924805
+      }
+    },
+    {
+      "id": "motoman-gp88",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp88-hero.png",
+      "sha256": "0aede5fa5bed377fb17446e708583820fe708f2f00adeedec3f4c742c1f58c2d",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.43551960587501526,
+            -0.2985565960407257,
+            -3.0975098752605845e-07
+          ],
+          [
+            1.508511499762535,
+            0.2525466978549957,
+            1.811000201702118
+          ]
+        ],
+        "ortho_scale": 3.1446914672851562
+      }
+    },
+    {
+      "id": "motoman-gp88",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp88-hero.png",
+      "sha256": "0b06959e11f3f029b9dc8bbae23bf2f46d2d7a4c3d90c1668c9141e36ce45157",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.43551960587501526,
+            -0.2985565960407257,
+            -3.0975098752605845e-07
+          ],
+          [
+            1.508511499762535,
+            0.2525466978549957,
+            1.811000201702118
+          ]
+        ],
+        "ortho_scale": 3.1446914672851562
+      }
+    },
+    {
+      "id": "motoman-gp88",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-gp88-rear.png",
+      "sha256": "a9cd23582efc2de45339f43bffc35500aaf013cd75132d3e305cda5f6565bd07",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.43551960587501526,
+            -0.2985565960407257,
+            -3.0975098752605845e-07
+          ],
+          [
+            1.508511499762535,
+            0.2525466978549957,
+            1.811000201702118
+          ]
+        ],
+        "ortho_scale": 3.1265289783477783
+      }
+    },
+    {
+      "id": "motoman-gp88",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-gp88-rear.png",
+      "sha256": "c8fc4c35f2805eb557fb27bc42a33011426c596135e54e0866d37fea629fd459",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.43551960587501526,
+            -0.2985565960407257,
+            -3.0975098752605845e-07
+          ],
+          [
+            1.508511499762535,
+            0.2525466978549957,
+            1.811000201702118
+          ]
+        ],
+        "ortho_scale": 3.1265289783477783
+      }
+    },
+    {
+      "id": "motoman-mh50",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-mh50-hero.png",
+      "sha256": "656e8120726648cb18210ca0aacbea7ab0d0e3c949e98d49e303777ea617e238",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.4037717878818512,
+            -0.27800020575523376,
+            -6.226679829524073e-07
+          ],
+          [
+            1.3334548008441924,
+            0.2525199055671692,
+            1.8049103057384492
+          ]
+        ],
+        "ortho_scale": 3.300079584121704
+      }
+    },
+    {
+      "id": "motoman-mh50",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-mh50-hero.png",
+      "sha256": "a6d5453384d67a3df695a651cbef42b7423e45a3f4635041df864deaeea3ae92",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.4037717878818512,
+            -0.27800020575523376,
+            -6.226679829524073e-07
+          ],
+          [
+            1.3334548008441924,
+            0.2525199055671692,
+            1.8049103057384492
+          ]
+        ],
+        "ortho_scale": 3.300079584121704
+      }
+    },
+    {
+      "id": "motoman-mh50",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/motoman-mh50-rear.png",
+      "sha256": "25c85ee23252149725158a525b5823ff498f4cf7ba1b9c1c6f64ecc4ece07fe2",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.4037717878818512,
+            -0.27800020575523376,
+            -6.226679829524073e-07
+          ],
+          [
+            1.3334548008441924,
+            0.2525199055671692,
+            1.8049103057384492
+          ]
+        ],
+        "ortho_scale": 3.283703327178955
+      }
+    },
+    {
+      "id": "motoman-mh50",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/motoman-mh50-rear.png",
+      "sha256": "e0d7e0295fd90b1b1c3e63568e195e1c0baeb6c930a95f0824074bda0a338e31",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 7,
+        "bounds_m": [
+          [
+            -0.4037717878818512,
+            -0.27800020575523376,
+            -6.226679829524073e-07
+          ],
+          [
+            1.3334548008441924,
+            0.2525199055671692,
+            1.8049103057384492
+          ]
+        ],
+        "ortho_scale": 3.283703327178955
+      }
+    },
+    {
+      "id": "rokae-sr3",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/rokae-sr3-hero.png",
+      "sha256": "39572d328b54d475129bec137a7319d116a42ea9194fe8dcf9a748aa63e5e582",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 10,
+        "bounds_m": [
+          [
+            -0.17379993200302124,
+            -0.15160499513149261,
+            -8.82912991073681e-06
+          ],
+          [
+            0.12540000677108765,
+            0.18068290880322457,
+            1.0275000000047263
+          ]
+        ],
+        "ortho_scale": 2.921812057495117
+      }
+    },
+    {
+      "id": "rokae-sr3",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/rokae-sr3-hero.png",
+      "sha256": "b6d52e341500deb069283e14b22c0b0f01b1deadc3e9227954be3e65e8549aa6",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 10,
+        "bounds_m": [
+          [
+            -0.17379993200302124,
+            -0.15160499513149261,
+            -8.82912991073681e-06
+          ],
+          [
+            0.12540000677108765,
+            0.18068290880322457,
+            1.0275000000047263
+          ]
+        ],
+        "ortho_scale": 2.921812057495117
+      }
+    },
+    {
+      "id": "rokae-sr3",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/rokae-sr3-rear.png",
+      "sha256": "a33528d3b03cc5f5558894c82f3fb69fa4163a23b63d56c18ad75e4a260526a8",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 10,
+        "bounds_m": [
+          [
+            -0.17379993200302124,
+            -0.15160499513149261,
+            -8.82912991073681e-06
+          ],
+          [
+            0.12540000677108765,
+            0.18068290880322457,
+            1.0275000000047263
+          ]
+        ],
+        "ortho_scale": 2.921046018600464
+      }
+    },
+    {
+      "id": "rokae-sr3",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/rokae-sr3-rear.png",
+      "sha256": "cd28c1fcb491b0452d3e4340243174fcd07a780ded6213ab544c7e5f18e1410f",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 10,
+        "bounds_m": [
+          [
+            -0.17379993200302124,
+            -0.15160499513149261,
+            -8.82912991073681e-06
+          ],
+          [
+            0.12540000677108765,
+            0.18068290880322457,
+            1.0275000000047263
+          ]
+        ],
+        "ortho_scale": 2.921046018600464
+      }
+    },
+    {
+      "id": "rokae-sr5",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/rokae-sr5-hero.png",
+      "sha256": "f988108dc95382b433a8029d6fb18f66048b45db2d93b0345aa97a13843fce28",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 9,
+        "bounds_m": [
+          [
+            -0.07499998062849045,
+            -0.15298840403556824,
+            -1.2697970452890672e-10
+          ],
+          [
+            0.1063091978430748,
+            0.18065376958251,
+            1.2315
+          ]
+        ],
+        "ortho_scale": 2.790221929550171
+      }
+    },
+    {
+      "id": "rokae-sr5",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/rokae-sr5-hero.png",
+      "sha256": "d00a1d4f1044e1504b90f20303615e260aad2c09221be0c5652c60443821e479",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 9,
+        "bounds_m": [
+          [
+            -0.07499998062849045,
+            -0.15298840403556824,
+            -1.2697970452890672e-10
+          ],
+          [
+            0.1063091978430748,
+            0.18065376958251,
+            1.2315
+          ]
+        ],
+        "ortho_scale": 2.790221929550171
+      }
+    },
+    {
+      "id": "rokae-sr5",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/rokae-sr5-rear.png",
+      "sha256": "f98d3cda4e5b510c7fdc294c07a51e106b442d67c1edecfaea4acc42b8985935",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 9,
+        "bounds_m": [
+          [
+            -0.07499998062849045,
+            -0.15298840403556824,
+            -1.2697970452890672e-10
+          ],
+          [
+            0.1063091978430748,
+            0.18065376958251,
+            1.2315
+          ]
+        ],
+        "ortho_scale": 2.794886350631714
+      }
+    },
+    {
+      "id": "rokae-sr5",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/rokae-sr5-rear.png",
+      "sha256": "59a1c4a53c84c3cce72af2d0cc494afd65f71772476e03f934b7ffa41697372b",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 9,
+        "bounds_m": [
+          [
+            -0.07499998062849045,
+            -0.15298840403556824,
+            -1.2697970452890672e-10
+          ],
+          [
+            0.1063091978430748,
+            0.18065376958251,
+            1.2315
+          ]
+        ],
+        "ortho_scale": 2.794886350631714
+      }
+    },
+    {
+      "id": "universalrobots-ur10",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/universalrobots-ur10-hero.png",
+      "sha256": "fe7dc7fdb7521026d2edb77b8b074171055f8b49d1df5b98f91788c9a97dfc6b",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 20,
+        "bounds_m": [
+          [
+            -1.2312001104354864,
+            -0.2631487104449272,
+            -0.03459293562786145
+          ],
+          [
+            0.07515078037977219,
+            0.09200149029493332,
+            0.22888409923640246
+          ]
+        ],
+        "ortho_scale": 2.3402090072631836
+      }
+    },
+    {
+      "id": "universalrobots-ur10",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/universalrobots-ur10-hero.png",
+      "sha256": "548a851e6740ec571030e9c4fcc2b1827adda5cd7a3e21f6c15b02cf6969fb39",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 20,
+        "bounds_m": [
+          [
+            -1.2312001104354864,
+            -0.2631487104449272,
+            -0.03459293562786145
+          ],
+          [
+            0.07515078037977219,
+            0.09200149029493332,
+            0.22888409923640246
+          ]
+        ],
+        "ortho_scale": 2.3402090072631836
+      }
+    },
+    {
+      "id": "universalrobots-ur10",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/universalrobots-ur10-rear.png",
+      "sha256": "9c8565171c088f94b1621feb7f09c09397e705614c9cac2d56cae5e0586a8b72",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 20,
+        "bounds_m": [
+          [
+            -1.2312001104354864,
+            -0.2631487104449272,
+            -0.03459293562786145
+          ],
+          [
+            0.07515078037977219,
+            0.09200149029493332,
+            0.22888409923640246
+          ]
+        ],
+        "ortho_scale": 2.3402090072631836
+      }
+    },
+    {
+      "id": "universalrobots-ur10",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/universalrobots-ur10-rear.png",
+      "sha256": "7ba93522a8b7e71a349b0dd3b90bcc2ae4ab2c89c84171f98c097ddf142d06e7",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 20,
+        "bounds_m": [
+          [
+            -1.2312001104354864,
+            -0.2631487104449272,
+            -0.03459293562786145
+          ],
+          [
+            0.07515078037977219,
+            0.09200149029493332,
+            0.22888409923640246
+          ]
+        ],
+        "ortho_scale": 2.3402090072631836
+      }
+    },
+    {
+      "id": "universalrobots-ur10e",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/universalrobots-ur10e-hero.png",
+      "sha256": "9ebbc0145f3762e1fac761a9dfd0ab9802fb7e31d773ec34597da91177c40ecf",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 27,
+        "bounds_m": [
+          [
+            -1.2309842515897529,
+            -0.2907842969298361,
+            0.0
+          ],
+          [
+            0.09498249739408493,
+            0.09493386000394821,
+            0.2749111039042473
+          ]
+        ],
+        "ortho_scale": 2.3664073944091797
+      }
+    },
+    {
+      "id": "universalrobots-ur10e",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/universalrobots-ur10e-hero.png",
+      "sha256": "b1e6c5c3132175faba75d681b585162043b8dbdd8788ed2833ecc82cdaa11be9",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 27,
+        "bounds_m": [
+          [
+            -1.2309842515897529,
+            -0.2907842969298361,
+            0.0
+          ],
+          [
+            0.09498249739408493,
+            0.09493386000394821,
+            0.2749111039042473
+          ]
+        ],
+        "ortho_scale": 2.3664073944091797
+      }
+    },
+    {
+      "id": "universalrobots-ur10e",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/universalrobots-ur10e-rear.png",
+      "sha256": "90a232e40262fb5c99ee29dde299d680fd79dad7550d9fb10fe8891ad0e619bc",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 27,
+        "bounds_m": [
+          [
+            -1.2309842515897529,
+            -0.2907842969298361,
+            0.0
+          ],
+          [
+            0.09498249739408493,
+            0.09493386000394821,
+            0.2749111039042473
+          ]
+        ],
+        "ortho_scale": 2.3664073944091797
+      }
+    },
+    {
+      "id": "universalrobots-ur10e",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/universalrobots-ur10e-rear.png",
+      "sha256": "8e4e063435ecee26093bb4e79cc0df8cadc3d75287cd55fec00c6f26a41cd9cf",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 27,
+        "bounds_m": [
+          [
+            -1.2309842515897529,
+            -0.2907842969298361,
+            0.0
+          ],
+          [
+            0.09498249739408493,
+            0.09493386000394821,
+            0.2749111039042473
+          ]
+        ],
+        "ortho_scale": 2.3664073944091797
+      }
+    },
+    {
+      "id": "universalrobots-ur3",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/universalrobots-ur3-hero.png",
+      "sha256": "4806346f4e1ed02fd78ed825da93a84fe6763f7e5d4dff5923cfb4b26cbf28d7",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 33,
+        "bounds_m": [
+          [
+            -0.489107839190692,
+            -0.19283254251480098,
+            -0.0007128349971026182
+          ],
+          [
+            0.06401193141937256,
+            0.09949176758527756,
+            0.2089824109017849
+          ]
+        ],
+        "ortho_scale": 2.693490505218506
+      }
+    },
+    {
+      "id": "universalrobots-ur3",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/universalrobots-ur3-hero.png",
+      "sha256": "f3c19a1d521609fd0fd3ea1c8af7f3966f3df8f0113508b66e8067d9b5229798",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 33,
+        "bounds_m": [
+          [
+            -0.489107839190692,
+            -0.19283254251480098,
+            -0.0007128349971026182
+          ],
+          [
+            0.06401193141937256,
+            0.09949176758527756,
+            0.2089824109017849
+          ]
+        ],
+        "ortho_scale": 2.693490505218506
+      }
+    },
+    {
+      "id": "universalrobots-ur3",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/universalrobots-ur3-rear.png",
+      "sha256": "d1aea5cd870e896ed0290d45deedc1f6be88dfb96314c7d8ac2a78dcde53e95d",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 33,
+        "bounds_m": [
+          [
+            -0.489107839190692,
+            -0.19283254251480098,
+            -0.0007128349971026182
+          ],
+          [
+            0.06401193141937256,
+            0.09949176758527756,
+            0.2089824109017849
+          ]
+        ],
+        "ortho_scale": 2.693490505218506
+      }
+    },
+    {
+      "id": "universalrobots-ur3",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/universalrobots-ur3-rear.png",
+      "sha256": "df59a13e7b401a14afb8c894af80d3e6422f6ad843fc8d7a1533e2b46923f930",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 33,
+        "bounds_m": [
+          [
+            -0.489107839190692,
+            -0.19283254251480098,
+            -0.0007128349971026182
+          ],
+          [
+            0.06401193141937256,
+            0.09949176758527756,
+            0.2089824109017849
+          ]
+        ],
+        "ortho_scale": 2.693490505218506
+      }
+    },
+    {
+      "id": "universalrobots-ur5e",
+      "view": "hero",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/universalrobots-ur5e-hero.png",
+      "sha256": "4114414d2602c777f8564de7082097d68f88bf6821c5d6885f932392232dea13",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 27,
+        "bounds_m": [
+          [
+            -0.8563469296405517,
+            -0.23293517941236486,
+            0.0
+          ],
+          [
+            0.07549899071455002,
+            0.07552540302276611,
+            0.2345237781405449
+          ]
+        ],
+        "ortho_scale": 2.421643018722534
+      }
+    },
+    {
+      "id": "universalrobots-ur5e",
+      "view": "hero",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/universalrobots-ur5e-hero.png",
+      "sha256": "e903012acbd71e2a1314b0104a5ebdf9d7f1fe29351c6c47bbe2bba70bae4dfa",
+      "metadata": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 27,
+        "bounds_m": [
+          [
+            -0.8563469296405517,
+            -0.23293517941236486,
+            0.0
+          ],
+          [
+            0.07549899071455002,
+            0.07552540302276611,
+            0.2345237781405449
+          ]
+        ],
+        "ortho_scale": 2.421643018722534
+      }
+    },
+    {
+      "id": "universalrobots-ur5e",
+      "view": "rear",
+      "version": "before",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-before/universalrobots-ur5e-rear.png",
+      "sha256": "80a4da2b159e8c0174cfbccb5df96e644dfec2655d50e797bbdb0b565a18692b",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 27,
+        "bounds_m": [
+          [
+            -0.8563469296405517,
+            -0.23293517941236486,
+            0.0
+          ],
+          [
+            0.07549899071455002,
+            0.07552540302276611,
+            0.2345237781405449
+          ]
+        ],
+        "ortho_scale": 2.421643018722534
+      }
+    },
+    {
+      "id": "universalrobots-ur5e",
+      "view": "rear",
+      "version": "after",
+      "png": "/tmp/assetsmodel-session-global-normal-renders-after/universalrobots-ur5e-rear.png",
+      "sha256": "f235c59e42ad9c1b37e5c79ef765b5d6efdfd1b627f67f87a780dd4b85db4f89",
+      "metadata": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 760,
+        "height": 680,
+        "samples": 64,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.2.2 LTS",
+        "parts": 27,
+        "bounds_m": [
+          [
+            -0.8563469296405517,
+            -0.23293517941236486,
+            0.0
+          ],
+          [
+            0.07549899071455002,
+            0.07552540302276611,
+            0.2345237781405449
+          ]
+        ],
+        "ortho_scale": 2.421643018722534
+      }
+    }
+  ],
+  "sheets": [
+    {
+      "path": "/tmp/assetsmodel-session-global-normal-contact-sheets/models-01-08.jpg",
+      "models": [
+        "abb-irb1200-5-90",
+        "abb-irb1200-7-70",
+        "abb-irb1600-10-145",
+        "abb-irb1600-6-120",
+        "abb-irb2600-12-185",
+        "abb-irb4400l-30-243",
+        "abb-irb4600-20-250",
+        "abb-irb4600-40-255"
+      ],
+      "sha256": "9c15c2f4096fc2fa92d28538d16df1791bce485ff84139a6d0f5580e5bb96cc5"
+    },
+    {
+      "path": "/tmp/assetsmodel-session-global-normal-contact-sheets/models-09-16.jpg",
+      "models": [
+        "ae-air10-1210",
+        "ae-air10-1720",
+        "ae-air12-940",
+        "ae-air35-1700",
+        "agile-diana-7",
+        "fanuc-m-710ic-70",
+        "fanuc-r-2000ic-165f",
+        "franka-fr3"
+      ],
+      "sha256": "15ccd74a1ff7c39fcceb304a451e5bfc89c510622181a389a1da2f81e7e4bb89"
+    },
+    {
+      "path": "/tmp/assetsmodel-session-global-normal-contact-sheets/models-17-24.jpg",
+      "models": [
+        "hans-e05",
+        "hans-e10",
+        "kuka-kr10-r1100-2",
+        "kuka-kr10-r1100-sixx",
+        "kuka-kr10-r1420",
+        "kuka-kr10-r900-2",
+        "kuka-kr120-r2500-pro",
+        "kuka-kr150-2"
+      ],
+      "sha256": "ba84c86c1ed18a504eb2c1b351d05c2b4532fdd7997b7e0165272f96dea59624"
+    },
+    {
+      "path": "/tmp/assetsmodel-session-global-normal-contact-sheets/models-25-32.jpg",
+      "models": [
+        "kuka-kr150-r3100-2",
+        "kuka-kr16-2",
+        "kuka-kr3-r540",
+        "kuka-kr5-arc",
+        "kuka-kr6-r700-sixx",
+        "kuka-kr6-r900-sixx",
+        "motoman-gp12",
+        "motoman-gp180"
+      ],
+      "sha256": "5d7e9ab18d6aac868e3dd925c916067f5cc48925ad99c0a00679e57d8817c8c5"
+    },
+    {
+      "path": "/tmp/assetsmodel-session-global-normal-contact-sheets/models-33-40.jpg",
+      "models": [
+        "motoman-gp180-120",
+        "motoman-gp20hl",
+        "motoman-gp25",
+        "motoman-gp7",
+        "motoman-gp8",
+        "motoman-gp88",
+        "motoman-mh50",
+        "rokae-sr3"
+      ],
+      "sha256": "ae9fdbb55ef113f305d60b9874196d066a214efb38c5666eae8ce952027f5020"
+    },
+    {
+      "path": "/tmp/assetsmodel-session-global-normal-contact-sheets/models-41-45.jpg",
+      "models": [
+        "rokae-sr5",
+        "universalrobots-ur10",
+        "universalrobots-ur10e",
+        "universalrobots-ur3",
+        "universalrobots-ur5e"
+      ],
+      "sha256": "f9516b36e5c33f95b384cf74e774d709a924dcd9b120d8534e39ee208fc67566"
+    }
+  ],
+  "paired_settings_bounds_equal": true,
+  "visual_review": "pending human/agent image inspection"
+}

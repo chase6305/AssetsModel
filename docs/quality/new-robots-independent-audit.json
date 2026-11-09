@@ -1,0 +1,2417 @@
+{
+  "generated_at": "2026-11-03T13:24:27.735725+00:00",
+  "method": "Read-only independent expansion/metadata/triangle/FK/standalone-copy audit; all limits and valid source inertias must match, invalid omissions must be documented. Source corner comparison preserves triangle winding and permits only float32 rounding.",
+  "upstream_source_root": "/tmp/assetsmodel-newrobots-20261103",
+  "source_script": "scripts/verify_common_robot_sources.py",
+  "models": [
+    {
+      "model": "xArm6",
+      "urdf": "RobotModel/UFACTORY/xArm6/xArm6.urdf",
+      "upstream": {
+        "url": "https://github.com/xArm-Developer/xarm_ros",
+        "commit": "cf51617d98bc55a88d9aa735acfa43a0bbb8e425",
+        "license": "BSD-3-Clause",
+        "package": "xarm_description"
+      },
+      "issues": [],
+      "asset_validation": {
+        "name": "UFACTORY_xArm6",
+        "links": 9,
+        "joints": 8,
+        "actuated_joints": 6,
+        "root_links": [
+          "world"
+        ],
+        "resources": [
+          "Collision/glb/link1.glb",
+          "Collision/glb/link2.glb",
+          "Collision/glb/link3.glb",
+          "Collision/glb/link4.glb",
+          "Collision/glb/link5.glb",
+          "Collision/glb/link6.glb",
+          "Collision/glb/link_base.glb",
+          "Visual/glb/link1.glb",
+          "Visual/glb/link2.glb",
+          "Visual/glb/link3.glb",
+          "Visual/glb/link4.glb",
+          "Visual/glb/link5.glb",
+          "Visual/glb/link6.glb",
+          "Visual/glb/link_base.glb"
+        ],
+        "errors": [],
+        "warnings": []
+      },
+      "source_git_blob_verified_files": 140,
+      "source_tree_manifest_sha256": "188d856cb683f53b5f43d53b5b540a03b992e0e5fdc8eb7b97db3d922ff72c1c",
+      "license_sha256": "685e81e0cd30124e24e834ea2bf39bfead4efc9907d021bc9d1ae0f2dcea1431",
+      "license_matches_upstream": true,
+      "omitted_unused_fixed_axes": [],
+      "joint_subtrees_exact": 8,
+      "link_geometry_metadata_exact": 9,
+      "inertias": [
+        {
+          "link": "link_base",
+          "status": "exact",
+          "mass_kg": 2.7
+        },
+        {
+          "link": "link1",
+          "status": "exact",
+          "mass_kg": 2.3814
+        },
+        {
+          "link": "link2",
+          "status": "exact",
+          "mass_kg": 2.2675
+        },
+        {
+          "link": "link3",
+          "status": "exact",
+          "mass_kg": 1.875
+        },
+        {
+          "link": "link4",
+          "status": "exact",
+          "mass_kg": 1.3192
+        },
+        {
+          "link": "link5",
+          "status": "exact",
+          "mass_kg": 1.33854
+        },
+        {
+          "link": "link6",
+          "status": "exact",
+          "mass_kg": 0.17
+        }
+      ],
+      "global_urdf_materials_exact": true,
+      "meshes": [
+        {
+          "source": "meshes/xarm6_1305/visual/link_base.dae",
+          "output": "Visual/glb/link_base.glb",
+          "source_sha256": "904a7994007d05880b3ad64152b3ce3ecff7692a5bb5be32237d7a25a5d1f9de",
+          "output_sha256": "bb13c180b5ae09e76f0b0c5104383f905d961d36ed9679bdb6cdbd802e8bc28c",
+          "provenance_output_sha_matches": true,
+          "triangles": 2880,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 2880,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 2.4176895681940105e-09,
+            "materials": [
+              {
+                "name": "\u673a\u68b0\u722a\u91d1\u5c5e-material",
+                "color_linear": [
+                  0.24,
+                  0.24,
+                  0.24,
+                  1.0
+                ],
+                "metallic": 0.25,
+                "roughness": 0.4,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "meshes/xarm6_1305/visual/link1.dae",
+          "output": "Visual/glb/link1.glb",
+          "source_sha256": "82709bfa8073dda4a3a225d813dee4ff2d51b17cbda3eaf8a34dea05e88da0be",
+          "output_sha256": "6d553f9d93703d8b76e6e217ca13ce4ade00be7cfd300c6e81dc6edd0e011c7c",
+          "provenance_output_sha_matches": true,
+          "triangles": 5818,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 5818,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 9.74518086041554e-09,
+            "materials": [
+              {
+                "name": "\u6750\u8d28_002-material",
+                "color_linear": [
+                  0.24,
+                  0.24,
+                  0.24,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.4,
+                "textured": false,
+                "double_sided": false
+              },
+              {
+                "name": "\u6750\u8d28_011-material",
+                "color_linear": [
+                  0.72,
+                  0.72,
+                  0.72,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.3,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "meshes/xarm6_1305/visual/link2.dae",
+          "output": "Visual/glb/link2.glb",
+          "source_sha256": "f5959873a89c3116c390009e69eefb3994834c5d113d7c39e0a4ce5925449562",
+          "output_sha256": "dca807fc365949fc33a08dcdbe26ace9e8b03b97a75d1ca981a074e0986bbe87",
+          "provenance_output_sha_matches": true,
+          "triangles": 5830,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 5830,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 1.4376389091027948e-08,
+            "materials": [
+              {
+                "name": "\u6750\u8d28-material",
+                "color_linear": [
+                  0.24,
+                  0.24,
+                  0.24,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.4,
+                "textured": false,
+                "double_sided": false
+              },
+              {
+                "name": "\u6750\u8d28_010-material",
+                "color_linear": [
+                  0.72,
+                  0.72,
+                  0.72,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.3,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "meshes/xarm6_1305/visual/link3.dae",
+          "output": "Visual/glb/link3.glb",
+          "source_sha256": "8d54b4157ad284318cb0e975753048e7a86159c7d4eaabe4e14cea4eb4d08084",
+          "output_sha256": "a9944fc1c29e6988fe8a41cb30a3b8a60812d5cb30c08b1247b4e4e5e5390cee",
+          "provenance_output_sha_matches": true,
+          "triangles": 6724,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 6724,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 1.9706297380336216e-09,
+            "materials": [
+              {
+                "name": "\u6750\u8d28_003-material",
+                "color_linear": [
+                  0.24,
+                  0.24,
+                  0.24,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.4,
+                "textured": false,
+                "double_sided": false
+              },
+              {
+                "name": "\u6750\u8d28_009-material",
+                "color_linear": [
+                  0.72,
+                  0.72,
+                  0.72,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.3,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "meshes/xarm6_1305/visual/link4.dae",
+          "output": "Visual/glb/link4.glb",
+          "source_sha256": "c9564533f0903591c3667e6bd7fd406094cf5fef83bfeb49eac9f1d76a174fe6",
+          "output_sha256": "685f4e1400b9ebc20717b33eaac231ec0190d0ec0925f3506910740dbcce8c8b",
+          "provenance_output_sha_matches": true,
+          "triangles": 4302,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 4302,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 6.551277392277941e-09,
+            "materials": [
+              {
+                "name": "\u6750\u8d28_004-material",
+                "color_linear": [
+                  0.24,
+                  0.24,
+                  0.24,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.4,
+                "textured": false,
+                "double_sided": false
+              },
+              {
+                "name": "\u6750\u8d28_008-material",
+                "color_linear": [
+                  0.72,
+                  0.72,
+                  0.72,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.3,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "meshes/xarm6_1305/visual/link5.dae",
+          "output": "Visual/glb/link5.glb",
+          "source_sha256": "25e1f63c7deaaef7310f7ba025fac191745c252428c76d61f7f0ab73c8851776",
+          "output_sha256": "aca5bff518904a67ae92f5055f7823b12e01dbc80b4466efa1ec31c91e2d978e",
+          "provenance_output_sha_matches": true,
+          "triangles": 11272,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 11272,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 6.930077876732044e-11,
+            "materials": [
+              {
+                "name": "\u6750\u8d28_005-material",
+                "color_linear": [
+                  0.24,
+                  0.24,
+                  0.24,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.4,
+                "textured": false,
+                "double_sided": false
+              },
+              {
+                "name": "\u6750\u8d28_007-material",
+                "color_linear": [
+                  0.72,
+                  0.72,
+                  0.72,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.3,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "meshes/xarm6_1305/visual/link6.dae",
+          "output": "Visual/glb/link6.glb",
+          "source_sha256": "86346a59a1887a01c643c90074e13994b45dbee474d26fbf3b978a84eb9db69a",
+          "output_sha256": "cfeb3d5c317ba2d88dee4f13553e44090c229fd5c5a5cbaf848989ebd4f09337",
+          "provenance_output_sha_matches": true,
+          "triangles": 16056,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 16056,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 4.9476867915176914e-12,
+            "materials": [
+              {
+                "name": "\u6750\u8d28_006-material",
+                "color_linear": [
+                  0.24,
+                  0.24,
+                  0.24,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.4,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "meshes/xarm6_1305/collision/link_base.obj",
+          "output": "Collision/glb/link_base.glb",
+          "source_sha256": "1013423c625ff4a5c1cc61204e86811c1cab0663ad232eebf1418eaa805dcacb",
+          "output_sha256": "1686e818a31855af20c2535342b01cd50bb20164f4f0c51f35fc1a5e70ee1ed6",
+          "provenance_output_sha_matches": true,
+          "triangles": 900,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "meshes/xarm6_1305/collision/link1.obj",
+          "output": "Collision/glb/link1.glb",
+          "source_sha256": "bdd6abd74d96b5ca182cef4f20be980ffefe51f70e770b191957b29ea6841cb3",
+          "output_sha256": "370bbc8ac3059fe3e52fa8be80fc2007547257d7c4be8018d2ce35155f5b2b6a",
+          "provenance_output_sha_matches": true,
+          "triangles": 1746,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "meshes/xarm6_1305/collision/link2.obj",
+          "output": "Collision/glb/link2.glb",
+          "source_sha256": "6a9764923949f78d82a9fb33f4145b79b213c48005014e1c6d6b099cabc9054d",
+          "output_sha256": "2456d505116097c62a0d6dfd651b1ae338581bd277a406b89ee5d45268861856",
+          "provenance_output_sha_matches": true,
+          "triangles": 2110,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "meshes/xarm6_1305/collision/link3.obj",
+          "output": "Collision/glb/link3.glb",
+          "source_sha256": "c6d01e8c13442be6d4fae5d5ddb27bf1061c2647b4d91e4b724849bc5c13e2de",
+          "output_sha256": "dacc3ade5327be2e1e09e800dfe3c28ff7f908a947f12e4d577c4d8adcb9b170",
+          "provenance_output_sha_matches": true,
+          "triangles": 1702,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "meshes/xarm6_1305/collision/link4.obj",
+          "output": "Collision/glb/link4.glb",
+          "source_sha256": "2fc5584f1cc02bc07d901ef613313530db511d27d139ce5f6eb5d69afbc2aef4",
+          "output_sha256": "4f5704f14dc32e9946b27498660bb0dfc6dc81d7b545ab18035ed3eb5967e6ff",
+          "provenance_output_sha_matches": true,
+          "triangles": 1300,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "meshes/xarm6_1305/collision/link5.obj",
+          "output": "Collision/glb/link5.glb",
+          "source_sha256": "0b2d36bdcc477efd0dc50796f7ec40ccec10de17b7c08b059c6d99b134922977",
+          "output_sha256": "ea4063511b1d3910138ffe408d034614af6efdb408223239fc4cda6e1dc63307",
+          "provenance_output_sha_matches": true,
+          "triangles": 1842,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "meshes/xarm6_1305/collision/link6.obj",
+          "output": "Collision/glb/link6.glb",
+          "source_sha256": "6af85f65f81897ac003c2dda095d2242f8d84d61f5b37cff2e725996b9a56615",
+          "output_sha256": "650a82defc2caff911ea41dc59085df6b54c8656e07ca0c24a2333ff096a2808",
+          "provenance_output_sha_matches": true,
+          "triangles": 890,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        }
+      ],
+      "poses": [
+        {
+          "fraction_of_joint_range": 0.25,
+          "joints": {
+            "joint1": -3.141592653589793,
+            "joint2": -1.0206500000000003,
+            "joint3": -2.8972550000000004,
+            "joint4": -3.141592653589793,
+            "joint5": -0.48432933660255184,
+            "joint6": -3.141592653589793
+          },
+          "max_preview_fk_matrix_error": 1.1102230246251565e-16,
+          "max_source_fk_matrix_error": 0.0,
+          "visual_bounds_m": [
+            [
+              -0.06299995630979538,
+              -0.12332602602461469,
+              0.0
+            ],
+            [
+              0.548859758071259,
+              0.08038585357326036,
+              0.7748706768358111
+            ]
+          ],
+          "collision_bounds_m": [
+            [
+              -0.06299056112766266,
+              -0.12365443001009645,
+              -3.746778691056412e-18
+            ],
+            [
+              0.5484179005759955,
+              0.07991440354963325,
+              0.7752458591427991
+            ]
+          ],
+          "leaf_positions_m": {
+            "link_eef": [
+              0.46495944233777403,
+              -1.4629530110272058e-06,
+              0.766191062436764
+            ]
+          }
+        },
+        {
+          "fraction_of_joint_range": 0.5,
+          "joints": {
+            "joint1": 0.0,
+            "joint2": 0.017699999999999827,
+            "joint3": -1.86751,
+            "joint4": 0.0,
+            "joint5": 0.7243113267948965,
+            "joint6": 0.0
+          },
+          "max_preview_fk_matrix_error": 1.1102230246251565e-16,
+          "max_source_fk_matrix_error": 0.0,
+          "visual_bounds_m": [
+            [
+              -0.06299995630979538,
+              -0.08621653737232222,
+              0.0
+            ],
+            [
+              0.4997013418266921,
+              0.12332604911274764,
+              0.8333013326516983
+            ]
+          ],
+          "collision_bounds_m": [
+            [
+              -0.06299056112766266,
+              -0.0860864720287606,
+              -3.746778691056412e-18
+            ],
+            [
+              0.5002627321784643,
+              0.12365444671457959,
+              0.8334048057413983
+            ]
+          ],
+          "leaf_positions_m": {
+            "link_eef": [
+              0.48671362125463236,
+              1.7600041760098963e-06,
+              0.7461467196848124
+            ]
+          }
+        },
+        {
+          "fraction_of_joint_range": 0.75,
+          "joints": {
+            "joint1": 3.141592653589793,
+            "joint2": 1.0560499999999997,
+            "joint3": -0.837765,
+            "joint4": 3.141592653589793,
+            "joint5": 1.9329519901923449,
+            "joint6": 3.141592653589793
+          },
+          "max_preview_fk_matrix_error": 2.220446049250313e-16,
+          "max_source_fk_matrix_error": 0.0,
+          "visual_bounds_m": [
+            [
+              -0.3866807602397449,
+              -0.12332602733520388,
+              -0.10676610010826595
+            ],
+            [
+              0.06299995630979538,
+              0.08038613198573816,
+              0.425578871937475
+            ]
+          ],
+          "collision_bounds_m": [
+            [
+              -0.3868676611108572,
+              -0.12365444217756205,
+              -0.10686623181751767
+            ],
+            [
+              0.062326110899448395,
+              0.0799146428206992,
+              0.4261905180717313
+            ]
+          ],
+          "leaf_positions_m": {
+            "link_eef": [
+              -0.3823575893588844,
+              1.4412745648868074e-06,
+              -0.0519670666560712
+            ]
+          }
+        }
+      ],
+      "standalone_copy_load": "passed",
+      "status": "passed"
+    },
+    {
+      "model": "Lite6",
+      "urdf": "RobotModel/UFACTORY/Lite6/Lite6.urdf",
+      "upstream": {
+        "url": "https://github.com/xArm-Developer/xarm_ros",
+        "commit": "cf51617d98bc55a88d9aa735acfa43a0bbb8e425",
+        "license": "BSD-3-Clause",
+        "package": "xarm_description"
+      },
+      "issues": [],
+      "asset_validation": {
+        "name": "UFACTORY_Lite6",
+        "links": 9,
+        "joints": 8,
+        "actuated_joints": 6,
+        "root_links": [
+          "world"
+        ],
+        "resources": [
+          "Collision/glb/link1.glb",
+          "Collision/glb/link2.glb",
+          "Collision/glb/link3.glb",
+          "Collision/glb/link4.glb",
+          "Collision/glb/link5.glb",
+          "Collision/glb/link6.glb",
+          "Collision/glb/link_base.glb",
+          "Visual/glb/link1.glb",
+          "Visual/glb/link2.glb",
+          "Visual/glb/link3.glb",
+          "Visual/glb/link4.glb",
+          "Visual/glb/link5.glb",
+          "Visual/glb/link6.glb",
+          "Visual/glb/link_base.glb"
+        ],
+        "errors": [],
+        "warnings": [
+          "Geometry links without inertia: link_base"
+        ]
+      },
+      "source_git_blob_verified_files": 140,
+      "source_tree_manifest_sha256": "188d856cb683f53b5f43d53b5b540a03b992e0e5fdc8eb7b97db3d922ff72c1c",
+      "license_sha256": "685e81e0cd30124e24e834ea2bf39bfead4efc9907d021bc9d1ae0f2dcea1431",
+      "license_matches_upstream": true,
+      "omitted_unused_fixed_axes": [],
+      "joint_subtrees_exact": 8,
+      "link_geometry_metadata_exact": 9,
+      "inertias": [
+        {
+          "link": "link_base",
+          "status": "source_invalid_omitted",
+          "source_xml": "<inertial><origin rpy=\"0 0 0\" xyz=\"-0.00829544579053192 3.26357432323433E-05 0.0631194584987089\" /><mass value=\"1.65393501783165\" /><inertia ixx=\"0\" ixy=\"0\" ixz=\"0\" iyy=\"0\" iyz=\"0\" izz=\"0\" /></inertial>"
+        },
+        {
+          "link": "link1",
+          "status": "exact",
+          "mass_kg": 1.411
+        },
+        {
+          "link": "link2",
+          "status": "exact",
+          "mass_kg": 1.34
+        },
+        {
+          "link": "link3",
+          "status": "exact",
+          "mass_kg": 0.953
+        },
+        {
+          "link": "link4",
+          "status": "exact",
+          "mass_kg": 1.284
+        },
+        {
+          "link": "link5",
+          "status": "exact",
+          "mass_kg": 0.804
+        },
+        {
+          "link": "link6",
+          "status": "exact",
+          "mass_kg": 0.13
+        }
+      ],
+      "global_urdf_materials_exact": true,
+      "meshes": [
+        {
+          "source": "meshes/lite6/visual/link_base.dae",
+          "output": "Visual/glb/link_base.glb",
+          "source_sha256": "ace50f88eaff39c7781375c863e1e75b883abdb6214ad7bcccab391bc4cf0167",
+          "output_sha256": "2e2bed48c1bdb70b123d5e67841ed350eace7e3e2d2221cf632a3a0179c291d2",
+          "provenance_output_sha_matches": true,
+          "triangles": 4644,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 4644,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 2.263567111526754e-11,
+            "materials": [
+              {
+                "name": "\u673a\u68b0\u81c2\u767d-material",
+                "color_linear": [
+                  0.72,
+                  0.72,
+                  0.72,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.3,
+                "textured": false,
+                "double_sided": false
+              },
+              {
+                "name": "\u673a\u68b0\u722a\u91d1\u5c5e-material",
+                "color_linear": [
+                  0.24,
+                  0.24,
+                  0.24,
+                  1.0
+                ],
+                "metallic": 0.25,
+                "roughness": 0.4,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "meshes/lite6/visual/link1.dae",
+          "output": "Visual/glb/link1.glb",
+          "source_sha256": "48d1456a3dbda47f0020354df033bb699a40e1dce35bb94f06ea15004846f6ce",
+          "output_sha256": "bb5528a1100b5a448bb470617618e76072029a71e05c7315e8ad203491078b3e",
+          "provenance_output_sha_matches": true,
+          "triangles": 3368,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 3368,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 3.4797106170253865e-08,
+            "materials": [
+              {
+                "name": "\u673a\u68b0\u81c2\u767d-material",
+                "color_linear": [
+                  0.72,
+                  0.72,
+                  0.72,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.3,
+                "textured": false,
+                "double_sided": false
+              },
+              {
+                "name": "\u673a\u68b0\u722a\u91d1\u5c5e-material",
+                "color_linear": [
+                  0.24,
+                  0.24,
+                  0.24,
+                  1.0
+                ],
+                "metallic": 0.25,
+                "roughness": 0.4,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "meshes/lite6/visual/link2.dae",
+          "output": "Visual/glb/link2.glb",
+          "source_sha256": "fd5ed1fef010c3116e1de4d7d9f138e83f3e00a764140ac18555bbfcae977dd1",
+          "output_sha256": "1252a9859a4cf726808c257e126cb5c98f9ea011cd16120627dfe2924cdd5840",
+          "provenance_output_sha_matches": true,
+          "triangles": 2202,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 2202,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 9.083726274012937e-08,
+            "materials": [
+              {
+                "name": "\u673a\u68b0\u81c2\u767d-material",
+                "color_linear": [
+                  0.72,
+                  0.72,
+                  0.72,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.3,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "meshes/lite6/visual/link3.dae",
+          "output": "Visual/glb/link3.glb",
+          "source_sha256": "8f3c0213501d6122af156268f784dbc2f7156ab980779a98dc87608ad723398a",
+          "output_sha256": "f4ad4674133f32b6ea4806f63b16bcafffc85820de079a319c768560198843fe",
+          "provenance_output_sha_matches": true,
+          "triangles": 13573,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 13573,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 6.530405611103749e-12,
+            "materials": [
+              {
+                "name": "\u673a\u68b0\u81c2\u767d-material",
+                "color_linear": [
+                  0.72,
+                  0.72,
+                  0.72,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.3,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "meshes/lite6/visual/link4.dae",
+          "output": "Visual/glb/link4.glb",
+          "source_sha256": "ef883204181ee25d768a8c49b29487acaa8668b1e0a9273fd901f5d3b31683d5",
+          "output_sha256": "a18966be29a88b1dc0c737c9b64da61431a43fb470369c670c75879f6764ebfc",
+          "provenance_output_sha_matches": true,
+          "triangles": 4264,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 4264,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 9.062072204965076e-10,
+            "materials": [
+              {
+                "name": "\u673a\u68b0\u722a\u91d1\u5c5e-material",
+                "color_linear": [
+                  0.24,
+                  0.24,
+                  0.24,
+                  1.0
+                ],
+                "metallic": 0.25,
+                "roughness": 0.4,
+                "textured": false,
+                "double_sided": false
+              },
+              {
+                "name": "\u673a\u68b0\u81c2\u767d-material",
+                "color_linear": [
+                  0.72,
+                  0.72,
+                  0.72,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.3,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "meshes/lite6/visual/link5.dae",
+          "output": "Visual/glb/link5.glb",
+          "source_sha256": "24307ee0f1590c6fde99c1107701660e404432ea0289a1e6511b158aa2e82c08",
+          "output_sha256": "a2e336cc67b3f10403c0a655c58bc3408c63eb1adaddea992996cbadc7370d1f",
+          "provenance_output_sha_matches": true,
+          "triangles": 3362,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 3362,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 1.9752457391565775e-09,
+            "materials": [
+              {
+                "name": "\u673a\u68b0\u81c2\u767d-material",
+                "color_linear": [
+                  0.72,
+                  0.72,
+                  0.72,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.3,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "meshes/lite6/visual/link6.dae",
+          "output": "Visual/glb/link6.glb",
+          "source_sha256": "6b80859615fc80ed06e72c064f3171e47474da8852b311e34cf712e7028abcde",
+          "output_sha256": "5e5b82923f7b57de1d8333948c09049f0fc07164997173ccc5a9f6a4d7759526",
+          "provenance_output_sha_matches": true,
+          "triangles": 4938,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 4938,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 1.727989210054126e-10,
+            "materials": [
+              {
+                "name": "\u673a\u68b0\u722a\u91d1\u5c5e-material",
+                "color_linear": [
+                  0.24,
+                  0.24,
+                  0.24,
+                  1.0
+                ],
+                "metallic": 0.25,
+                "roughness": 0.4,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "meshes/lite6/collision/link_base.stl",
+          "output": "Collision/glb/link_base.glb",
+          "source_sha256": "728a2e960227fe8b781e7220e0c9a171e2f746524c5db7875bb15b3a2ce2ff92",
+          "output_sha256": "e72462667105ce253de4a4847c780075aecc649a797aae12f327edeeb30800de",
+          "provenance_output_sha_matches": true,
+          "triangles": 1396,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "meshes/lite6/collision/link1.stl",
+          "output": "Collision/glb/link1.glb",
+          "source_sha256": "ac91231b9338ecc99dc4f318854f3288d427dbf7d36d5f1a916b7cdb00e0ee8b",
+          "output_sha256": "d34f7461a1b62ead1d4340a49e95ea6c8dc8803c20d321e8178fcce181f58f78",
+          "provenance_output_sha_matches": true,
+          "triangles": 846,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "meshes/lite6/collision/link2.stl",
+          "output": "Collision/glb/link2.glb",
+          "source_sha256": "2945b39ecc4154da30d1ebe5a9b380e742a379fb0902148f2e286672f46ee1db",
+          "output_sha256": "57a36ba4b19c7bfd10263f888f6c5be5cf367e86780a4d0130ad891362e56358",
+          "provenance_output_sha_matches": true,
+          "triangles": 1228,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "meshes/lite6/collision/link3.stl",
+          "output": "Collision/glb/link3.glb",
+          "source_sha256": "9af8b412d1f9bc5714be78f4473f28f4ffa91caa0455f215e24e132c8ef433cd",
+          "output_sha256": "353adebcf031a2293a257430705f2ef3a7fd3ad048e74c6c978280097a37e4e5",
+          "provenance_output_sha_matches": true,
+          "triangles": 722,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "meshes/lite6/collision/link4.stl",
+          "output": "Collision/glb/link4.glb",
+          "source_sha256": "17ff580ba7a4477c120374b2e6396940bab2cdc8fad07a34af9ae44b08ee1515",
+          "output_sha256": "0e1069b6d22b36b7ff940e389c8d84bfe70fc6e47cc7cc8b1a88d788be454f9b",
+          "provenance_output_sha_matches": true,
+          "triangles": 7582,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "meshes/lite6/collision/link5.stl",
+          "output": "Collision/glb/link5.glb",
+          "source_sha256": "f69ec2478819438078db12412597d51bb815acb66d0e1aaa57d4d0f93630fc9c",
+          "output_sha256": "512683f0e9cc58d07d254a85d010a387a7a2840d8a2ac34d2d619f8a5eae4cae",
+          "provenance_output_sha_matches": true,
+          "triangles": 7056,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "meshes/lite6/collision/link6.stl",
+          "output": "Collision/glb/link6.glb",
+          "source_sha256": "6c2492bd20f3b7216626f00f7e8b63cda12e3faec9b64c6216d1d53022f2ee18",
+          "output_sha256": "ec4132f915b9480be0f9150a895017d87fc63f3cdbea6b49bcfe4f2890ccdd79",
+          "provenance_output_sha_matches": true,
+          "triangles": 358,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        }
+      ],
+      "poses": [
+        {
+          "fraction_of_joint_range": 0.25,
+          "joints": {
+            "joint1": -3.141592653589793,
+            "joint2": -1.308995,
+            "joint3": 1.26318175,
+            "joint4": -3.141592653589793,
+            "joint5": -1.0821,
+            "joint6": -3.141592653589793
+          },
+          "max_preview_fk_matrix_error": 3.3306690738754696e-16,
+          "max_source_fk_matrix_error": 0.0,
+          "visual_bounds_m": [
+            [
+              -0.08157502859830856,
+              -0.1421924846581686,
+              0.0
+            ],
+            [
+              0.304828535189034,
+              0.08532765044310012,
+              0.572511410123183
+            ]
+          ],
+          "collision_bounds_m": [
+            [
+              -0.08157499879598618,
+              -0.1375732409162511,
+              5.155802007550392e-09
+            ],
+            [
+              0.304284832173774,
+              0.08576876525370103,
+              0.5725107653928108
+            ]
+          ],
+          "leaf_positions_m": {
+            "link_eef": [
+              0.08163893965241063,
+              1.248434724240189e-06,
+              0.5288783285982327
+            ]
+          }
+        },
+        {
+          "fraction_of_joint_range": 0.5,
+          "joints": {
+            "joint1": 0.0,
+            "joint2": 0.0,
+            "joint3": 2.5874505,
+            "joint4": 0.0,
+            "joint5": 0.0,
+            "joint6": 0.0
+          },
+          "max_preview_fk_matrix_error": 1.1102230246251565e-16,
+          "max_source_fk_matrix_error": 0.0,
+          "visual_bounds_m": [
+            [
+              -0.11222760440397142,
+              -0.06500004976987839,
+              0.0
+            ],
+            [
+              0.11099444350340576,
+              0.14219370483418844,
+              0.7559726847706182
+            ]
+          ],
+          "collision_bounds_m": [
+            [
+              -0.11174887810850359,
+              -0.06446410715579987,
+              5.155802007550392e-09
+            ],
+            [
+              0.11088230931633526,
+              0.1375739574367372,
+              0.7559050909916923
+            ]
+          ],
+          "leaf_positions_m": {
+            "link_eef": [
+              0.07868219575705485,
+              3.474842293955198e-06,
+              0.7361757081855157
+            ]
+          }
+        },
+        {
+          "fraction_of_joint_range": 0.75,
+          "joints": {
+            "joint1": 3.141592653589793,
+            "joint2": 1.308995,
+            "joint3": 3.91171925,
+            "joint4": 3.141592653589793,
+            "joint5": 1.0821,
+            "joint6": 3.141592653589793
+          },
+          "max_preview_fk_matrix_error": 1.1102230246251565e-16,
+          "max_source_fk_matrix_error": 0.0,
+          "visual_bounds_m": [
+            [
+              -0.279238637034362,
+              -0.14219492501124475,
+              0.0
+            ],
+            [
+              0.062000028789043427,
+              0.08532285514891903,
+              0.6082648437983477
+            ]
+          ],
+          "collision_bounds_m": [
+            [
+              -0.2792413640981609,
+              -0.13757467395447673,
+              5.155802007550392e-09
+            ],
+            [
+              0.061464108526706696,
+              0.085763951838986,
+              0.6078557752098218
+            ]
+          ],
+          "leaf_positions_m": {
+            "link_eef": [
+              -0.2032043103959918,
+              -2.8670072968054767e-06,
+              0.5888185680095134
+            ]
+          }
+        }
+      ],
+      "standalone_copy_load": "passed",
+      "status": "passed"
+    },
+    {
+      "model": "iiwa14",
+      "urdf": "RobotModel/KUKA/iiwa14/iiwa14.urdf",
+      "upstream": {
+        "url": "https://github.com/IFL-CAMP/iiwa_stack",
+        "commit": "44f9d13c1b444d5dc9fd3e43ba60b7d3b2ea2bbb",
+        "license": "BSD-2-Clause",
+        "package": "iiwa_description"
+      },
+      "issues": [],
+      "asset_validation": {
+        "name": "KUKA_LBR_iiwa14_R820",
+        "links": 10,
+        "joints": 9,
+        "actuated_joints": 7,
+        "root_links": [
+          "world"
+        ],
+        "resources": [
+          "Collision/glb/link_0.glb",
+          "Collision/glb/link_1.glb",
+          "Collision/glb/link_2.glb",
+          "Collision/glb/link_3.glb",
+          "Collision/glb/link_4.glb",
+          "Collision/glb/link_5.glb",
+          "Collision/glb/link_6.glb",
+          "Collision/glb/link_7.glb",
+          "Visual/glb/link_0.glb",
+          "Visual/glb/link_1.glb",
+          "Visual/glb/link_2.glb",
+          "Visual/glb/link_3.glb",
+          "Visual/glb/link_4.glb",
+          "Visual/glb/link_5.glb",
+          "Visual/glb/link_6.glb",
+          "Visual/glb/link_7.glb"
+        ],
+        "errors": [],
+        "warnings": []
+      },
+      "source_git_blob_verified_files": 45,
+      "source_tree_manifest_sha256": "54c4f414842b99703f8ff08080b4b9c135c896ceeff497485c4b5c1ef8ae2eac",
+      "license_sha256": "4ceec29940f830f15aaf9ba4c55aeac185ce6ec164e59547b41d7d6d28b2d5ee",
+      "license_matches_upstream": true,
+      "source_archive_commit": "44f9d13c1b444d5dc9fd3e43ba60b7d3b2ea2bbb",
+      "omitted_unused_fixed_axes": [],
+      "joint_subtrees_exact": 9,
+      "link_geometry_metadata_exact": 10,
+      "inertias": [
+        {
+          "link": "iiwa_link_0",
+          "status": "exact",
+          "mass_kg": 5.0
+        },
+        {
+          "link": "iiwa_link_1",
+          "status": "exact",
+          "mass_kg": 4.0
+        },
+        {
+          "link": "iiwa_link_2",
+          "status": "exact",
+          "mass_kg": 4.0
+        },
+        {
+          "link": "iiwa_link_3",
+          "status": "exact",
+          "mass_kg": 3.0
+        },
+        {
+          "link": "iiwa_link_4",
+          "status": "exact",
+          "mass_kg": 2.7
+        },
+        {
+          "link": "iiwa_link_5",
+          "status": "exact",
+          "mass_kg": 1.7
+        },
+        {
+          "link": "iiwa_link_6",
+          "status": "exact",
+          "mass_kg": 1.8
+        },
+        {
+          "link": "iiwa_link_7",
+          "status": "exact",
+          "mass_kg": 0.3
+        }
+      ],
+      "global_urdf_materials_exact": true,
+      "meshes": [
+        {
+          "source": "meshes/iiwa14/visual/link_0.stl",
+          "output": "Visual/glb/link_0.glb",
+          "source_sha256": "c632ecaa1ac46e1e25049c8481294e12f9add608f5057a6d8cc1081500c60cfe",
+          "output_sha256": "36c27359e414ec4fea326441f440f6a89df62efcb60d6716b078ce8c1c59eff8",
+          "provenance_output_sha_matches": true,
+          "triangles": 9494,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 9494,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 2.1245251515683018e-12,
+            "materials": [
+              {
+                "name": "Source URDF surface",
+                "color_linear": [
+                  0.13286832155381798,
+                  0.13286832155381798,
+                  0.13286832155381798,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.42,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "meshes/iiwa14/visual/link_1.stl",
+          "output": "Visual/glb/link_1.glb",
+          "source_sha256": "805123013961f6826d7758135761987a1d256208e71434faaad2e948ca0f9b72",
+          "output_sha256": "b5fe1e89de6a706b8f9a0664c833ceaa755f30cfa5189e9a6d4a5a44356151b2",
+          "provenance_output_sha_matches": true,
+          "triangles": 10006,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 10006,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 1.6542348141081522e-08,
+            "materials": [
+              {
+                "name": "Source URDF surface",
+                "color_linear": [
+                  1.0,
+                  0.14995978981060856,
+                  0.003035269835488375,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.32,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "meshes/iiwa14/visual/link_2.stl",
+          "output": "Visual/glb/link_2.glb",
+          "source_sha256": "fdb369057e77e22e4227b45f31d1e886a3f334b7ba21408bb50b65afae06c6f4",
+          "output_sha256": "bbe2f38e85d8b83c680f03093bc6f997b90087c133055858f93e2e4c762e9d2a",
+          "provenance_output_sha_matches": true,
+          "triangles": 10596,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 10596,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 1.470316829076231e-10,
+            "materials": [
+              {
+                "name": "Source URDF surface",
+                "color_linear": [
+                  1.0,
+                  0.14995978981060856,
+                  0.003035269835488375,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.32,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "meshes/iiwa14/visual/link_3.stl",
+          "output": "Visual/glb/link_3.glb",
+          "source_sha256": "0e717bada1d1678c5569723b968873abc94457c029d7a8f390b79d9df5054141",
+          "output_sha256": "df43617e1bfc7a3d3a6ff4f319f03eef62a7049a09032403a724326d08b78566",
+          "provenance_output_sha_matches": true,
+          "triangles": 10470,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 10470,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 1.5539402411233539e-12,
+            "materials": [
+              {
+                "name": "Source URDF surface",
+                "color_linear": [
+                  1.0,
+                  0.14995978981060856,
+                  0.003035269835488375,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.32,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "meshes/iiwa14/visual/link_4.stl",
+          "output": "Visual/glb/link_4.glb",
+          "source_sha256": "9b85dc3d45e5d598cde06db94fa5ce54f65a336dafd57ee035e3d7cae1fbbcab",
+          "output_sha256": "ff153eafcaf71f49c6bc24ef38bc704d0343073ead43459ee11cb734e3dde10e",
+          "provenance_output_sha_matches": true,
+          "triangles": 10500,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 10500,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 4.446660176941698e-12,
+            "materials": [
+              {
+                "name": "Source URDF surface",
+                "color_linear": [
+                  1.0,
+                  0.14995978981060856,
+                  0.003035269835488375,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.32,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "meshes/iiwa14/visual/link_5.stl",
+          "output": "Visual/glb/link_5.glb",
+          "source_sha256": "886aa0aa139066872e3dbb4039eed84e7a644a1fecf178a3232a82a5fa3c7e11",
+          "output_sha256": "4c7add01ab285fcfbe7118fe7911361d4ca4dee4e494278357e1ca159a8d0f98",
+          "provenance_output_sha_matches": true,
+          "triangles": 12902,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 12902,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 5.587473321009565e-12,
+            "materials": [
+              {
+                "name": "Source URDF surface",
+                "color_linear": [
+                  1.0,
+                  0.14995978981060856,
+                  0.003035269835488375,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.32,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "meshes/iiwa14/visual/link_6.stl",
+          "output": "Visual/glb/link_6.glb",
+          "source_sha256": "a6f66246346dab8d5142e74b37d75cbe34a89101f2e4c2646c006b43f6bea90a",
+          "output_sha256": "8906cf9172ac2a08e6fbda8ee9619b791e5947642cfcd272b98232acdd200489",
+          "provenance_output_sha_matches": true,
+          "triangles": 7856,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 7856,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 1.6902442940262235e-12,
+            "materials": [
+              {
+                "name": "Source URDF surface",
+                "color_linear": [
+                  1.0,
+                  0.14995978981060856,
+                  0.003035269835488375,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.32,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "meshes/iiwa14/visual/link_7.stl",
+          "output": "Visual/glb/link_7.glb",
+          "source_sha256": "e6575d6389547cdb1d6bd56562a18f08b69e1d522d115a7e1bc70fd3f53532d0",
+          "output_sha256": "a0cef126cebd9c15530b67c9c8aa861faf99aebb9b4146abf9ef0bf92bf40956",
+          "provenance_output_sha_matches": true,
+          "triangles": 38138,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 38138,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 7.938518799587124e-13,
+            "materials": [
+              {
+                "name": "Source URDF surface",
+                "color_linear": [
+                  0.13286832155381798,
+                  0.13286832155381798,
+                  0.13286832155381798,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.42,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "meshes/iiwa14/collision/link_0.stl",
+          "output": "Collision/glb/link_0.glb",
+          "source_sha256": "c632ecaa1ac46e1e25049c8481294e12f9add608f5057a6d8cc1081500c60cfe",
+          "output_sha256": "c863fb717372b75381e88ad0efb2a52d91768330c5ecec863fb3e045ca3af026",
+          "provenance_output_sha_matches": true,
+          "triangles": 9494,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "meshes/iiwa14/collision/link_1.stl",
+          "output": "Collision/glb/link_1.glb",
+          "source_sha256": "9cf1187e91773ed84537e77b9a6e09236b9c43917daf8eb179d86c156d518edf",
+          "output_sha256": "a1a3b4ea202711714fff11d994fc56f3845940f79a8ce5817d8247b17573ccc6",
+          "provenance_output_sha_matches": true,
+          "triangles": 3616,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "meshes/iiwa14/collision/link_2.stl",
+          "output": "Collision/glb/link_2.glb",
+          "source_sha256": "dc88e298c0cffb84fe7453a4da92f5eb90e56fe81cfc696125daf86e0bea80e3",
+          "output_sha256": "d111aeafecb2393647b180216f236b8af2ed99f94d2add6f07f94a90154957d8",
+          "provenance_output_sha_matches": true,
+          "triangles": 4396,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "meshes/iiwa14/collision/link_3.stl",
+          "output": "Collision/glb/link_3.glb",
+          "source_sha256": "90a96fac0454352bb2c963b4fa3bfa5a8a501b8a83a90de2b73febf664eb943f",
+          "output_sha256": "14bfa853ded574f8a88a67b02740bf2dbded4b78f1d9f977548ad2f7baf13574",
+          "provenance_output_sha_matches": true,
+          "triangles": 4616,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "meshes/iiwa14/collision/link_4.stl",
+          "output": "Collision/glb/link_4.glb",
+          "source_sha256": "1cb4ae0a86ac257c6c091d8a96635650d7e8510b07a22ce6e51038dde8b52493",
+          "output_sha256": "b0227aa0ba7d00a09cbc427cd8516f4e5135724ececdd02b2bb1884eb315d585",
+          "provenance_output_sha_matches": true,
+          "triangles": 4218,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "meshes/iiwa14/collision/link_5.stl",
+          "output": "Collision/glb/link_5.glb",
+          "source_sha256": "3058aff537c66e231ecd10b049305e57f9dc0e9a81d8a2ee6d5c2594e4ad2daa",
+          "output_sha256": "578094b78ea68dcf3c9def6295592e4b70f1283d039f56afd61da5b1c22bb85b",
+          "provenance_output_sha_matches": true,
+          "triangles": 5064,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "meshes/iiwa14/collision/link_6.stl",
+          "output": "Collision/glb/link_6.glb",
+          "source_sha256": "396c7c48e56722aa2a91570cd80973ac86136903271d127296cca9a979461f4a",
+          "output_sha256": "6757cbcbe316efa1bdb7f7b5c7f332802b813d2da53a587bac7b928c7a86af4d",
+          "provenance_output_sha_matches": true,
+          "triangles": 3284,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "meshes/iiwa14/collision/link_7.stl",
+          "output": "Collision/glb/link_7.glb",
+          "source_sha256": "ad18fb8192b1ea3cdf7a11403fd1b3c3844afa9fa4a6e98d67535d1093cf6512",
+          "output_sha256": "857219daad203281c195c81482dad522c6de2cbf73538861104efa63159cf09b",
+          "provenance_output_sha_matches": true,
+          "triangles": 11382,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        }
+      ],
+      "poses": [
+        {
+          "fraction_of_joint_range": 0.25,
+          "joints": {
+            "iiwa_joint_1": -1.4835298641951802,
+            "iiwa_joint_2": -1.0471975511965979,
+            "iiwa_joint_3": -1.4835298641951802,
+            "iiwa_joint_4": -1.0471975511965979,
+            "iiwa_joint_5": -1.4835298641951802,
+            "iiwa_joint_6": -1.0471975511965979,
+            "iiwa_joint_7": -1.527163095495038
+          },
+          "max_preview_fk_matrix_error": 1.1102230246251565e-16,
+          "max_source_fk_matrix_error": 0.0,
+          "visual_bounds_m": [
+            [
+              -0.46732481028321937,
+              -0.12138441205024719,
+              -4.32100193847873e-07
+            ],
+            [
+              0.13208870330024158,
+              0.5837188323805202,
+              0.8246230715917422
+            ]
+          ],
+          "collision_bounds_m": [
+            [
+              -0.4673148343971456,
+              -0.12138441205024719,
+              -4.32100193847873e-07
+            ],
+            [
+              0.1319897112264847,
+              0.583678974893911,
+              0.8245850477765437
+            ]
+          ],
+          "leaf_positions_m": {
+            "iiwa_link_ee": [
+              -0.4273391400717979,
+              0.4644593251586249,
+              0.8135561900086912
+            ]
+          }
+        },
+        {
+          "fraction_of_joint_range": 0.5,
+          "joints": {
+            "iiwa_joint_1": 0.0,
+            "iiwa_joint_2": 0.0,
+            "iiwa_joint_3": 0.0,
+            "iiwa_joint_4": 0.0,
+            "iiwa_joint_5": 0.0,
+            "iiwa_joint_6": 0.0,
+            "iiwa_joint_7": 0.0
+          },
+          "max_preview_fk_matrix_error": 2.220446049250313e-16,
+          "max_source_fk_matrix_error": 0.0,
+          "visual_bounds_m": [
+            [
+              -0.13600000739097595,
+              -0.12138441205024719,
+              -4.32100193847873e-07
+            ],
+            [
+              0.12124257534742355,
+              0.1321071982383728,
+              1.3060000017881392
+            ]
+          ],
+          "collision_bounds_m": [
+            [
+              -0.13600000739097595,
+              -0.12138441205024719,
+              -4.32100193847873e-07
+            ],
+            [
+              0.12124257534742355,
+              0.1321071982383728,
+              1.3060000017881392
+            ]
+          ],
+          "leaf_positions_m": {
+            "iiwa_link_ee": [
+              -9.080756015677624e-17,
+              3.01263112590249e-17,
+              1.3059999999999998
+            ]
+          }
+        },
+        {
+          "fraction_of_joint_range": 0.75,
+          "joints": {
+            "iiwa_joint_1": 1.4835298641951802,
+            "iiwa_joint_2": 1.0471975511965979,
+            "iiwa_joint_3": 1.4835298641951802,
+            "iiwa_joint_4": 1.0471975511965979,
+            "iiwa_joint_5": 1.4835298641951802,
+            "iiwa_joint_6": 1.0471975511965979,
+            "iiwa_joint_7": 1.527163095495038
+          },
+          "max_preview_fk_matrix_error": 2.220446049250313e-16,
+          "max_source_fk_matrix_error": 0.0,
+          "visual_bounds_m": [
+            [
+              -0.13600000739097595,
+              -0.12138441205024719,
+              -4.32100193847873e-07
+            ],
+            [
+              0.4673245916176787,
+              0.5837367436961892,
+              0.8246230715917423
+            ]
+          ],
+          "collision_bounds_m": [
+            [
+              -0.13600000739097595,
+              -0.12138441205024719,
+              -4.32100193847873e-07
+            ],
+            [
+              0.4673269150943313,
+              0.5837147090513373,
+              0.8245850477765438
+            ]
+          ],
+          "leaf_positions_m": {
+            "iiwa_link_ee": [
+              0.427339140071798,
+              0.46445932515862465,
+              0.8135561900086914
+            ]
+          }
+        }
+      ],
+      "standalone_copy_load": "passed",
+      "status": "passed",
+      "source_parameter_note": "Upstream URDF uses generic max_effort=300/max_velocity=10 and source inertias; fidelity checked, manufacturer calibration/accuracy not asserted."
+    },
+    {
+      "model": "Gen3",
+      "urdf": "RobotModel/Kinova/Gen3/Gen3.urdf",
+      "upstream": {
+        "url": "https://github.com/Kinovarobotics/ros_kortex",
+        "commit": "c3280d8a6a6b5d96590d51538e3f265710a6c77d",
+        "license": "BSD-3-Clause",
+        "package": "kortex_description"
+      },
+      "issues": [],
+      "asset_validation": {
+        "name": "Kinova_Gen3_7DOF",
+        "links": 9,
+        "joints": 8,
+        "actuated_joints": 7,
+        "root_links": [
+          "base_link"
+        ],
+        "resources": [
+          "Collision/glb/base_link.glb",
+          "Collision/glb/bracelet_no_vision_link.glb",
+          "Collision/glb/forearm_link.glb",
+          "Collision/glb/half_arm_1_link.glb",
+          "Collision/glb/half_arm_2_link.glb",
+          "Collision/glb/shoulder_link.glb",
+          "Collision/glb/spherical_wrist_1_link.glb",
+          "Collision/glb/spherical_wrist_2_link.glb",
+          "Visual/glb/base_link.glb",
+          "Visual/glb/bracelet_no_vision_link.glb",
+          "Visual/glb/forearm_link.glb",
+          "Visual/glb/half_arm_1_link.glb",
+          "Visual/glb/half_arm_2_link.glb",
+          "Visual/glb/shoulder_link.glb",
+          "Visual/glb/spherical_wrist_1_link.glb",
+          "Visual/glb/spherical_wrist_2_link.glb"
+        ],
+        "errors": [],
+        "warnings": []
+      },
+      "source_git_blob_verified_files": 11,
+      "source_tree_manifest_sha256": "7ed560abfc4471e489033f031453ffb22958fccd2fdc7eec0f30092af58e9e5b",
+      "license_sha256": "f14cf305d8319266b17dac9319f536842faaf32f1e4391255478d511222cf017",
+      "license_matches_upstream": true,
+      "omitted_unused_fixed_axes": [
+        {
+          "joint": "end_effector",
+          "source_xml": "<axis xyz=\"0 0 0\" />\n  ",
+          "reason": "zero axis is unused for a fixed joint"
+        }
+      ],
+      "joint_subtrees_exact": 8,
+      "link_geometry_metadata_exact": 9,
+      "inertias": [
+        {
+          "link": "base_link",
+          "status": "exact",
+          "mass_kg": 1.697
+        },
+        {
+          "link": "shoulder_link",
+          "status": "exact",
+          "mass_kg": 1.377
+        },
+        {
+          "link": "half_arm_1_link",
+          "status": "exact",
+          "mass_kg": 1.163
+        },
+        {
+          "link": "half_arm_2_link",
+          "status": "exact",
+          "mass_kg": 1.163
+        },
+        {
+          "link": "forearm_link",
+          "status": "exact",
+          "mass_kg": 0.93
+        },
+        {
+          "link": "spherical_wrist_1_link",
+          "status": "exact",
+          "mass_kg": 0.678
+        },
+        {
+          "link": "spherical_wrist_2_link",
+          "status": "exact",
+          "mass_kg": 0.678
+        },
+        {
+          "link": "bracelet_link",
+          "status": "exact",
+          "mass_kg": 0.364
+        },
+        {
+          "link": "end_effector_link",
+          "status": "source_invalid_omitted",
+          "source_xml": "<inertial>\n      <origin xyz=\"0 0 0\" rpy=\"0 0 0\" />\n      <mass value=\"0\" />\n      <inertia ixx=\"0\" ixy=\"0\" ixz=\"0\" iyy=\"0\" iyz=\"0\" izz=\"0\" />\n    </inertial>\n  "
+        }
+      ],
+      "global_urdf_materials_exact": true,
+      "meshes": [
+        {
+          "source": "arms/gen3/7dof/meshes/base_link.STL",
+          "output": "Visual/glb/base_link.glb",
+          "source_sha256": "3e38517e653d58f4160cfdcee34c9dea983d8b3ecb8f2c147444f58235335260",
+          "output_sha256": "3a689bd85ab42ea5e8a19244fe378bb5a32cacd69a900ad644202795eb1033f2",
+          "provenance_output_sha_matches": true,
+          "triangles": 3676,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 3676,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 5.045394664693779e-13,
+            "materials": [
+              {
+                "name": "Source URDF surface",
+                "color_linear": [
+                  0.5271132835871205,
+                  0.5271132835871205,
+                  0.5271132835871205,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.38,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "arms/gen3/7dof/meshes/shoulder_link.STL",
+          "output": "Visual/glb/shoulder_link.glb",
+          "source_sha256": "a98e232e5197f09e9cd520e7a450c21bcec74bc49e2a19ce7cf86c5dc25f2e18",
+          "output_sha256": "05e0bbe72843b626de2f876315c9c6d3f51e0b4e327cabb32bb595ea1001cd27",
+          "provenance_output_sha_matches": true,
+          "triangles": 9538,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 9538,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 2.1505261387666618e-11,
+            "materials": [
+              {
+                "name": "Source URDF surface",
+                "color_linear": [
+                  0.5271132835871205,
+                  0.5271132835871205,
+                  0.5271132835871205,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.38,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "arms/gen3/7dof/meshes/half_arm_1_link.STL",
+          "output": "Visual/glb/half_arm_1_link.glb",
+          "source_sha256": "8df461a71780d8e2d09104a507584424279d85173adf14867e359f7e58b3bba7",
+          "output_sha256": "88b3cc8c85c1f1d02cd9de281d900dc5a763fbec7b0f85a831a64f3f851ab31a",
+          "provenance_output_sha_matches": true,
+          "triangles": 10282,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 10282,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 2.744140183710633e-09,
+            "materials": [
+              {
+                "name": "Source URDF surface",
+                "color_linear": [
+                  0.5271132835871205,
+                  0.5271132835871205,
+                  0.5271132835871205,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.38,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "arms/gen3/7dof/meshes/half_arm_2_link.STL",
+          "output": "Visual/glb/half_arm_2_link.glb",
+          "source_sha256": "8a9f38de21648804b3ab7076ec73726031f2ade7c95eb2541d070553e025407b",
+          "output_sha256": "995e664bb7d720eb3e89dd8a7cc09f56c293763a03b5731132d94cade30c7681",
+          "provenance_output_sha_matches": true,
+          "triangles": 9782,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 9782,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 1.263520538197227e-12,
+            "materials": [
+              {
+                "name": "Source URDF surface",
+                "color_linear": [
+                  0.5271132835871205,
+                  0.5271132835871205,
+                  0.5271132835871205,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.38,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "arms/gen3/7dof/meshes/forearm_link.STL",
+          "output": "Visual/glb/forearm_link.glb",
+          "source_sha256": "a00d96d2c7ec37e9fe4c5fb6d3fa2b4386dfd48fea5ac25632f4cb83b3505105",
+          "output_sha256": "10e1f8e6ff41aa6f8f72263e12e9ede61c2479c37672d5beab971365254f56ab",
+          "provenance_output_sha_matches": true,
+          "triangles": 9124,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 9124,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 1.9469117719609024e-09,
+            "materials": [
+              {
+                "name": "Source URDF surface",
+                "color_linear": [
+                  0.5271132835871205,
+                  0.5271132835871205,
+                  0.5271132835871205,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.38,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "arms/gen3/7dof/meshes/spherical_wrist_1_link.STL",
+          "output": "Visual/glb/spherical_wrist_1_link.glb",
+          "source_sha256": "0b97a5e3b2de535344f8e8d4176d77f0cdb3455b235f35430fa0413208856e66",
+          "output_sha256": "32775da57aaee9d40d69a37259ca3b5a7fcc13bc3a915783cae4b5d33406ae1f",
+          "provenance_output_sha_matches": true,
+          "triangles": 10928,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 10928,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 6.158991927573965e-10,
+            "materials": [
+              {
+                "name": "Source URDF surface",
+                "color_linear": [
+                  0.5271132835871205,
+                  0.5271132835871205,
+                  0.5271132835871205,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.38,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "arms/gen3/7dof/meshes/spherical_wrist_2_link.STL",
+          "output": "Visual/glb/spherical_wrist_2_link.glb",
+          "source_sha256": "12271fb7d0ee78fb5642424cf5078be20f0476061e74203db964b674031ce879",
+          "output_sha256": "7bdcc3b266f950a8d4500310b0fb81ff511645a74db8c7c199e171fd7777f5d3",
+          "provenance_output_sha_matches": true,
+          "triangles": 10338,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 10338,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 4.178168228063939e-14,
+            "materials": [
+              {
+                "name": "Source URDF surface",
+                "color_linear": [
+                  0.5271132835871205,
+                  0.5271132835871205,
+                  0.5271132835871205,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.38,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "arms/gen3/7dof/meshes/bracelet_no_vision_link.STL",
+          "output": "Visual/glb/bracelet_no_vision_link.glb",
+          "source_sha256": "5b2ec7dafbf6a3c9a2cac717d18132a8a1efd9fcb8f2c40d9c12c8ece7323ec8",
+          "output_sha256": "3b97755cd56f35dab9f41c9bced1c7913a137d799a320135e24a222e22bb1407",
+          "provenance_output_sha_matches": true,
+          "triangles": 26686,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0,
+          "visual_quality": {
+            "triangles": 26686,
+            "degenerate_triangles": 0,
+            "triangles_without_authored_normals": 0,
+            "zero_normal_vertices": 0,
+            "off_unit_normal_vertices": 0,
+            "max_normal_length_error": 5.960464477539063e-08,
+            "opposed_normal_corners": 0,
+            "minimum_valid_triangle_area_local": 2.3597626240198788e-11,
+            "materials": [
+              {
+                "name": "Source URDF surface",
+                "color_linear": [
+                  0.5271132835871205,
+                  0.5271132835871205,
+                  0.5271132835871205,
+                  1.0
+                ],
+                "metallic": 0.0,
+                "roughness": 0.38,
+                "textured": false,
+                "double_sided": false
+              }
+            ],
+            "embedded_images": 0
+          }
+        },
+        {
+          "source": "arms/gen3/7dof/meshes/base_link.STL",
+          "output": "Collision/glb/base_link.glb",
+          "source_sha256": "3e38517e653d58f4160cfdcee34c9dea983d8b3ecb8f2c147444f58235335260",
+          "output_sha256": "a2067304b68a42d9729323034e0c9da3187d9a7dd64843822c36998c81a3ca33",
+          "provenance_output_sha_matches": true,
+          "triangles": 3676,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "arms/gen3/7dof/meshes/shoulder_link.STL",
+          "output": "Collision/glb/shoulder_link.glb",
+          "source_sha256": "a98e232e5197f09e9cd520e7a450c21bcec74bc49e2a19ce7cf86c5dc25f2e18",
+          "output_sha256": "f9a5dc8428a04752879457c5cbc7e6f2b033e41619794d86d21fe0e03029e77b",
+          "provenance_output_sha_matches": true,
+          "triangles": 9538,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "arms/gen3/7dof/meshes/half_arm_1_link.STL",
+          "output": "Collision/glb/half_arm_1_link.glb",
+          "source_sha256": "8df461a71780d8e2d09104a507584424279d85173adf14867e359f7e58b3bba7",
+          "output_sha256": "f79a67e16a34c7ec01795513360188748c883c23c1385d107c277d8e20116ca6",
+          "provenance_output_sha_matches": true,
+          "triangles": 10282,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "arms/gen3/7dof/meshes/half_arm_2_link.STL",
+          "output": "Collision/glb/half_arm_2_link.glb",
+          "source_sha256": "8a9f38de21648804b3ab7076ec73726031f2ade7c95eb2541d070553e025407b",
+          "output_sha256": "bdd501daa848bdd19a6ccc2f2ea868d6055f5ada3920180fc9ac5ff3b646a924",
+          "provenance_output_sha_matches": true,
+          "triangles": 9782,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "arms/gen3/7dof/meshes/forearm_link.STL",
+          "output": "Collision/glb/forearm_link.glb",
+          "source_sha256": "a00d96d2c7ec37e9fe4c5fb6d3fa2b4386dfd48fea5ac25632f4cb83b3505105",
+          "output_sha256": "b5a660f9a7c4dab0c29ed23f2e6264faa966645fd4fb66821c2f099fc475e31d",
+          "provenance_output_sha_matches": true,
+          "triangles": 9124,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "arms/gen3/7dof/meshes/spherical_wrist_1_link.STL",
+          "output": "Collision/glb/spherical_wrist_1_link.glb",
+          "source_sha256": "0b97a5e3b2de535344f8e8d4176d77f0cdb3455b235f35430fa0413208856e66",
+          "output_sha256": "1e251280d107497952dc9857b7d5e60c5266c68f635ca3e5441455564bd0664c",
+          "provenance_output_sha_matches": true,
+          "triangles": 10928,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "arms/gen3/7dof/meshes/spherical_wrist_2_link.STL",
+          "output": "Collision/glb/spherical_wrist_2_link.glb",
+          "source_sha256": "12271fb7d0ee78fb5642424cf5078be20f0476061e74203db964b674031ce879",
+          "output_sha256": "2953e55e7675ba032612178311295815d4e0057a0a1288ffadeb9e40db0d47e1",
+          "provenance_output_sha_matches": true,
+          "triangles": 10338,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        },
+        {
+          "source": "arms/gen3/7dof/meshes/bracelet_no_vision_link.STL",
+          "output": "Collision/glb/bracelet_no_vision_link.glb",
+          "source_sha256": "5b2ec7dafbf6a3c9a2cac717d18132a8a1efd9fcb8f2c40d9c12c8ece7323ec8",
+          "output_sha256": "5519a04a43984829fa04e4c2b21170308714c4fe184945ffcee10b9ff337c88e",
+          "provenance_output_sha_matches": true,
+          "triangles": 26686,
+          "source_corners_exact_float32": true,
+          "max_corner_difference_m": 0.0
+        }
+      ],
+      "poses": [
+        {
+          "fraction_of_joint_range": 0.25,
+          "joints": {
+            "joint_1": -0.5,
+            "joint_2": -1.12,
+            "joint_3": -0.5,
+            "joint_4": -1.2849999999999997,
+            "joint_5": -0.5,
+            "joint_6": -1.045,
+            "joint_7": -0.5
+          },
+          "max_preview_fk_matrix_error": 2.220446049250313e-16,
+          "max_source_fk_matrix_error": 0.0,
+          "visual_bounds_m": [
+            [
+              -0.46010712824250233,
+              -0.5304524770142326,
+              3.091991940262773e-11
+            ],
+            [
+              0.06150781429095086,
+              0.053975266275826904,
+              0.5284558996872618
+            ]
+          ],
+          "collision_bounds_m": [
+            [
+              -0.46010712824250233,
+              -0.5304524770142326,
+              3.091991940262773e-11
+            ],
+            [
+              0.06150781429095086,
+              0.053975266275826904,
+              0.5284558996872618
+            ]
+          ],
+          "leaf_positions_m": {
+            "end_effector_link": [
+              -0.3136040675320866,
+              -0.49557723483315363,
+              0.16938781668150535
+            ]
+          }
+        },
+        {
+          "fraction_of_joint_range": 0.5,
+          "joints": {
+            "joint_1": 0.0,
+            "joint_2": 0.0,
+            "joint_3": 0.0,
+            "joint_4": 0.0,
+            "joint_5": 0.0,
+            "joint_6": 0.0,
+            "joint_7": 0.0
+          },
+          "max_preview_fk_matrix_error": 1.1102230246251565e-16,
+          "max_source_fk_matrix_error": 0.0,
+          "visual_bounds_m": [
+            [
+              -0.04635825753211975,
+              -0.07800997298230186,
+              3.091991940262773e-11
+            ],
+            [
+              0.04643970727920532,
+              0.04865037743582724,
+              1.1902850444676538
+            ]
+          ],
+          "collision_bounds_m": [
+            [
+              -0.04635825753211975,
+              -0.07800997298230186,
+              3.091991940262773e-11
+            ],
+            [
+              0.04643970727920532,
+              0.04865037743582724,
+              1.1902850444676538
+            ]
+          ],
+          "leaf_positions_m": {
+            "end_effector_link": [
+              -1.925826838264291e-16,
+              -0.024859601294873888,
+              1.1873847699190918
+            ]
+          }
+        },
+        {
+          "fraction_of_joint_range": 0.75,
+          "joints": {
+            "joint_1": 0.5,
+            "joint_2": 1.12,
+            "joint_3": 0.5,
+            "joint_4": 1.2849999999999997,
+            "joint_5": 0.5,
+            "joint_6": 1.045,
+            "joint_7": 0.5
+          },
+          "max_preview_fk_matrix_error": 2.220446049250313e-16,
+          "max_source_fk_matrix_error": 0.0,
+          "visual_bounds_m": [
+            [
+              -0.06150633471535588,
+              -0.530452477014231,
+              3.091991940262773e-11
+            ],
+            [
+              0.46010712824250244,
+              0.053975266275826904,
+              0.5284559095043454
+            ]
+          ],
+          "collision_bounds_m": [
+            [
+              -0.06150633471535588,
+              -0.530452477014231,
+              3.091991940262773e-11
+            ],
+            [
+              0.46010712824250244,
+              0.053975266275826904,
+              0.5284559095043454
+            ]
+          ],
+          "leaf_positions_m": {
+            "end_effector_link": [
+              0.31360406753208725,
+              -0.4955772348331519,
+              0.16938781668150388
+            ]
+          }
+        }
+      ],
+      "standalone_copy_load": "passed",
+      "status": "passed"
+    }
+  ],
+  "summary": {
+    "models": 4,
+    "errors": 0,
+    "legal_poses": 12,
+    "glbs": 60
+  }
+}

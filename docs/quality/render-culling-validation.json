@@ -1,0 +1,405 @@
+{
+  "settings.json": {
+    "blender": "5.2.2 LTS",
+    "plane_normal": [
+      0,
+      0,
+      1
+    ],
+    "variants": [
+      {
+        "name": "back-property-false",
+        "engine": "CYCLES",
+        "use_backface_culling": false,
+        "backface_shader_gate": false
+      },
+      {
+        "name": "back-property-true",
+        "engine": "CYCLES",
+        "use_backface_culling": true,
+        "backface_shader_gate": false
+      },
+      {
+        "name": "back-shader-gate",
+        "engine": "CYCLES",
+        "use_backface_culling": true,
+        "backface_shader_gate": true
+      },
+      {
+        "name": "front-shader-gate",
+        "engine": "CYCLES",
+        "use_backface_culling": true,
+        "backface_shader_gate": true
+      },
+      {
+        "name": "front-opaque-control",
+        "engine": "CYCLES",
+        "use_backface_culling": true,
+        "backface_shader_gate": false
+      }
+    ]
+  },
+  "results.json": {
+    "blender": "5.2.2 LTS",
+    "plane_normal": [
+      0,
+      0,
+      1
+    ],
+    "variants": [
+      {
+        "name": "back-property-false",
+        "engine": "CYCLES",
+        "use_backface_culling": false,
+        "backface_shader_gate": false,
+        "center_pixel_rgb": [
+          255,
+          90,
+          1
+        ],
+        "sha256": "482b954ae2ab9f9260148cf3b41e115a1d44ecab2ed2bcf723341c0bc8b32ec5"
+      },
+      {
+        "name": "back-property-true",
+        "engine": "CYCLES",
+        "use_backface_culling": true,
+        "backface_shader_gate": false,
+        "center_pixel_rgb": [
+          255,
+          90,
+          1
+        ],
+        "sha256": "482b954ae2ab9f9260148cf3b41e115a1d44ecab2ed2bcf723341c0bc8b32ec5"
+      },
+      {
+        "name": "back-shader-gate",
+        "engine": "CYCLES",
+        "use_backface_culling": true,
+        "backface_shader_gate": true,
+        "center_pixel_rgb": [
+          1,
+          39,
+          188
+        ],
+        "sha256": "d95705c6d008e3962b9d3c2a2a61c1438cbe8e3084977ee4b26d277c393658da"
+      },
+      {
+        "name": "front-shader-gate",
+        "engine": "CYCLES",
+        "use_backface_culling": true,
+        "backface_shader_gate": true,
+        "center_pixel_rgb": [
+          255,
+          90,
+          1
+        ],
+        "sha256": "482b954ae2ab9f9260148cf3b41e115a1d44ecab2ed2bcf723341c0bc8b32ec5"
+      },
+      {
+        "name": "front-opaque-control",
+        "engine": "CYCLES",
+        "use_backface_culling": true,
+        "backface_shader_gate": false,
+        "center_pixel_rgb": [
+          255,
+          90,
+          1
+        ],
+        "sha256": "519e6f28e31114adb711425070478f5f400eced699766ff8185bcd90788fd0ec"
+      }
+    ],
+    "property_true_vs_false": {
+      "mean_absolute_channel_error_255": 0.0,
+      "max_channel_error_255": 0.0,
+      "identical_pixels_percent": 100.0
+    },
+    "front_gate_vs_front_opaque": {
+      "mean_absolute_channel_error_255": 0.0,
+      "max_channel_error_255": 0.0,
+      "identical_pixels_percent": 100.0
+    },
+    "back_gate_vs_back_opaque": {
+      "mean_absolute_channel_error_255": 41.05078125,
+      "max_channel_error_255": 255.0,
+      "identical_pixels_percent": 75.0
+    },
+    "conclusion": "Cycles 5.2.2 renders both sides regardless of use_backface_culling. Explicit Geometry.Backfacing shader gate removes the back while preserving the front in this minimal test."
+  },
+  "paired-settings.json": {
+    "blender": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "variants": [
+      {
+        "name": "paired-front-back-front",
+        "expected_center": "orange"
+      },
+      {
+        "name": "paired-front-back-back",
+        "expected_center": "black"
+      },
+      {
+        "name": "paired-back-front-front",
+        "expected_center": "orange"
+      },
+      {
+        "name": "paired-back-front-back",
+        "expected_center": "black"
+      },
+      {
+        "name": "paired-combined-front-first-front",
+        "expected_center": "orange"
+      },
+      {
+        "name": "paired-combined-front-first-back",
+        "expected_center": "black"
+      },
+      {
+        "name": "paired-combined-back-first-front",
+        "expected_center": "orange"
+      },
+      {
+        "name": "paired-combined-back-first-back",
+        "expected_center": "black"
+      }
+    ]
+  },
+  "paired-results.json": {
+    "blender": "5.2.2 LTS",
+    "engine": "CYCLES",
+    "variants": [
+      {
+        "name": "paired-front-back-front",
+        "expected_center": "orange",
+        "center_pixel_rgb": [
+          1,
+          39,
+          188
+        ]
+      },
+      {
+        "name": "paired-front-back-back",
+        "expected_center": "black",
+        "center_pixel_rgb": [
+          26,
+          26,
+          26
+        ]
+      },
+      {
+        "name": "paired-back-front-front",
+        "expected_center": "orange",
+        "center_pixel_rgb": [
+          255,
+          90,
+          1
+        ]
+      },
+      {
+        "name": "paired-back-front-back",
+        "expected_center": "black",
+        "center_pixel_rgb": [
+          1,
+          39,
+          188
+        ]
+      },
+      {
+        "name": "paired-combined-front-first-front",
+        "expected_center": "orange",
+        "center_pixel_rgb": [
+          1,
+          39,
+          188
+        ]
+      },
+      {
+        "name": "paired-combined-front-first-back",
+        "expected_center": "black",
+        "center_pixel_rgb": [
+          26,
+          26,
+          26
+        ]
+      },
+      {
+        "name": "paired-combined-back-first-front",
+        "expected_center": "orange",
+        "center_pixel_rgb": [
+          255,
+          90,
+          1
+        ]
+      },
+      {
+        "name": "paired-combined-back-first-back",
+        "expected_center": "black",
+        "center_pixel_rgb": [
+          1,
+          39,
+          188
+        ]
+      }
+    ]
+  },
+  "eevee-paired-settings.json": {
+    "blender": "5.2.2 LTS",
+    "engine": "BLENDER_EEVEE",
+    "variants": [
+      {
+        "name": "eevee-paired-front-back-front",
+        "expected_center": "orange"
+      },
+      {
+        "name": "eevee-paired-front-back-back",
+        "expected_center": "black"
+      },
+      {
+        "name": "eevee-paired-back-front-front",
+        "expected_center": "orange"
+      },
+      {
+        "name": "eevee-paired-back-front-back",
+        "expected_center": "black"
+      },
+      {
+        "name": "eevee-paired-combined-front-first-front",
+        "expected_center": "orange"
+      },
+      {
+        "name": "eevee-paired-combined-front-first-back",
+        "expected_center": "black"
+      },
+      {
+        "name": "eevee-paired-combined-back-first-front",
+        "expected_center": "orange"
+      },
+      {
+        "name": "eevee-paired-combined-back-first-back",
+        "expected_center": "black"
+      }
+    ]
+  },
+  "eevee-paired-results.json": {
+    "blender": "5.2.2 LTS",
+    "engine": "BLENDER_EEVEE",
+    "variants": [
+      {
+        "name": "eevee-paired-front-back-front",
+        "expected_center": "orange",
+        "center_pixel_rgb": [
+          255,
+          90,
+          1
+        ]
+      },
+      {
+        "name": "eevee-paired-front-back-back",
+        "expected_center": "black",
+        "center_pixel_rgb": [
+          26,
+          26,
+          26
+        ]
+      },
+      {
+        "name": "eevee-paired-back-front-front",
+        "expected_center": "orange",
+        "center_pixel_rgb": [
+          255,
+          90,
+          1
+        ]
+      },
+      {
+        "name": "eevee-paired-back-front-back",
+        "expected_center": "black",
+        "center_pixel_rgb": [
+          26,
+          26,
+          26
+        ]
+      },
+      {
+        "name": "eevee-paired-combined-front-first-front",
+        "expected_center": "orange",
+        "center_pixel_rgb": [
+          255,
+          90,
+          1
+        ]
+      },
+      {
+        "name": "eevee-paired-combined-front-first-back",
+        "expected_center": "black",
+        "center_pixel_rgb": [
+          26,
+          26,
+          26
+        ]
+      },
+      {
+        "name": "eevee-paired-combined-back-first-front",
+        "expected_center": "orange",
+        "center_pixel_rgb": [
+          255,
+          90,
+          1
+        ]
+      },
+      {
+        "name": "eevee-paired-combined-back-first-back",
+        "expected_center": "black",
+        "center_pixel_rgb": [
+          26,
+          26,
+          26
+        ]
+      }
+    ],
+    "layout_comparisons": [
+      {
+        "side": "front",
+        "layout": "back-front",
+        "mean_absolute_channel_error_255": 0.0,
+        "max_channel_error_255": 0.0,
+        "identical_pixels_percent": 100.0
+      },
+      {
+        "side": "front",
+        "layout": "combined-front-first",
+        "mean_absolute_channel_error_255": 0.0,
+        "max_channel_error_255": 0.0,
+        "identical_pixels_percent": 100.0
+      },
+      {
+        "side": "front",
+        "layout": "combined-back-first",
+        "mean_absolute_channel_error_255": 0.0,
+        "max_channel_error_255": 0.0,
+        "identical_pixels_percent": 100.0
+      },
+      {
+        "side": "back",
+        "layout": "back-front",
+        "mean_absolute_channel_error_255": 0.0,
+        "max_channel_error_255": 0.0,
+        "identical_pixels_percent": 100.0
+      },
+      {
+        "side": "back",
+        "layout": "combined-front-first",
+        "mean_absolute_channel_error_255": 0.0,
+        "max_channel_error_255": 0.0,
+        "identical_pixels_percent": 100.0
+      },
+      {
+        "side": "back",
+        "layout": "combined-back-first",
+        "mean_absolute_channel_error_255": 0.0,
+        "max_channel_error_255": 0.0,
+        "identical_pixels_percent": 100.0
+      }
+    ],
+    "conclusion": "Headless EEVEE works. Native single-sided culling produces orange front and black back in all four exact coplanar layouts, with identical pixels across layouts per side."
+  }
+}

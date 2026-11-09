@@ -1,0 +1,9 @@
+{
+  "id": "ur5e",
+  "label": "Universal Robots UR5e",
+  "urdf": "RobotModel/UniversalRobots/UR5e/UR5e.urdf",
+  "view": "rear",
+  "joints": {},
+  "image": "ur5e-rear.png",
+  "source_sha256": "2af208c173dd9d96dbdeee025c5a6c02bd9c6b1e41eaa723dbeec2ee040dd348"
+}

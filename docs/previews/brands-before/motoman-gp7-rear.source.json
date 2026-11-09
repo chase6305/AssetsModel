@@ -1,0 +1,9 @@
+{
+  "id": "motoman-gp7",
+  "label": "Yaskawa Motoman GP7",
+  "urdf": "RobotModel/Motoman/GP7/GP7.urdf",
+  "view": "rear",
+  "joints": {},
+  "image": "motoman-gp7-rear.png",
+  "source_sha256": "18992511bab4968143a6822db07bf4648ff47ba24d884b32eff21173a0cbb4ed"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "kuka-kr10",
+  "label": "KUKA KR10 R1100-2",
+  "urdf": "RobotModel/KUKA/KR10_R1100_2/KR10_R1100_2.urdf",
+  "view": "hero",
+  "joints": {},
+  "image": "kuka-kr10-hero.png",
+  "source_sha256": "da433383ad81b79f7960cec7d6baa27ad9e046663839bf3e290c92c1460ad711"
+}

@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-11-03T15:51:48.755376+00:00",
+  "status": "passed",
+  "checked_markdown": [
+    "docs/NORMAL_REFINEMENT.md",
+    "docs/VISUAL_QUALITY.md"
+  ],
+  "local_links_checked": 26,
+  "missing_links": [],
+  "inventory_matches_actual_category_counts_and_bytes": {
+    "RobotModel": {
+      "urdfs": 60,
+      "glbs": 817,
+      "stls": 382,
+      "glb_bytes": 214360600,
+      "stl_bytes": 249100688
+    },
+    "CameraModel": {
+      "urdfs": 10,
+      "glbs": 14,
+      "stls": 12,
+      "glb_bytes": 9999440,
+      "stl_bytes": 5855058
+    },
+    "ToolModel": {
+      "urdfs": 1,
+      "glbs": 10,
+      "stls": 10,
+      "glb_bytes": 727804,
+      "stl_bytes": 1459840
+    }
+  },
+  "inventory_mib": {
+    "glb": 214.66049575805664,
+    "stl": 244.536958694458
+  },
+  "normal_stage_totals": {
+    "existing_models": 51,
+    "changed_glbs": 262,
+    "changed_normal_corners": 6135538,
+    "previous_flat_phase_models": 50,
+    "previous_flat_phase_glbs": 260
+  },
+  "renderer_default_engines": {
+    "render_preview.py": "eevee",
+    "render_catalog.py": "eevee"
+  },
+  "wording_updates": [
+    "NORMAL_REFINEMENT distinguishes general flat-only guard from the source-SHA-locked UR5 authored-smooth exception.",
+    "The260GLB/50model flat stage remains historical; UR5 adds2GLB/1model to262/51. New import conversion normals remain separate.",
+    "VISUAL_QUALITY now describes EEVEE as the default validation renderer, matching both CLI defaults.",
+    "Current inventory sizes round to214.7MiB README/HTML and about215MiB layout/GLB report.",
+    "GLB_REPORT and OPTIMIZATION_REPORT explicitly preserve September783/67/311.2MiB historical stages; glb-manifest is not treated as current inventory.",
+    "Brand material BIN preservation claims describe their own JSON-only material stages, not later normal/batching changes.",
+    "MESH_BATCHING separates its source stages and does not sum unrelated before/after byte baselines."
+  ],
+  "assets_changed_by_this_document_review": false
+}

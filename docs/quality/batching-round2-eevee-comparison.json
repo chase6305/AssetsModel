@@ -1,0 +1,62 @@
+{
+  "engine": "BLENDER_EEVEE",
+  "scope": "Round2 trial before any subsequent normal refinement; strict single-sided rendering",
+  "comparisons": [
+    {
+      "model": "kr210",
+      "view": "hero",
+      "mean_absolute_channel_error_255": 0.0,
+      "max_channel_error_255": 0.0,
+      "identical_pixels_percent": 100.0
+    },
+    {
+      "model": "kr210",
+      "view": "rear",
+      "mean_absolute_channel_error_255": 0.0,
+      "max_channel_error_255": 0.0,
+      "identical_pixels_percent": 100.0
+    },
+    {
+      "model": "ur3e",
+      "view": "hero",
+      "mean_absolute_channel_error_255": 0.0,
+      "max_channel_error_255": 0.0,
+      "identical_pixels_percent": 100.0
+    },
+    {
+      "model": "ur3e",
+      "view": "rear",
+      "mean_absolute_channel_error_255": 0.0,
+      "max_channel_error_255": 0.0,
+      "identical_pixels_percent": 100.0
+    },
+    {
+      "model": "ur5e",
+      "view": "hero",
+      "mean_absolute_channel_error_255": 2.4814814814814816e-05,
+      "max_channel_error_255": 2.0,
+      "identical_pixels_percent": 99.995
+    },
+    {
+      "model": "ur5e",
+      "view": "rear",
+      "mean_absolute_channel_error_255": 0.0,
+      "max_channel_error_255": 0.0,
+      "identical_pixels_percent": 100.0
+    },
+    {
+      "model": "kr16",
+      "view": "hero",
+      "mean_absolute_channel_error_255": 0.0,
+      "max_channel_error_255": 0.0,
+      "identical_pixels_percent": 100.0
+    },
+    {
+      "model": "kr16",
+      "view": "rear",
+      "mean_absolute_channel_error_255": 0.0,
+      "max_channel_error_255": 0.0,
+      "identical_pixels_percent": 100.0
+    }
+  ]
+}

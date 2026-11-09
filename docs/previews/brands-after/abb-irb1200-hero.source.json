@@ -1,0 +1,9 @@
+{
+  "id": "abb-irb1200",
+  "label": "ABB IRB1200-7/0.7",
+  "urdf": "RobotModel/ABB/IRB1200_7_70/IRB1200_7_70.urdf",
+  "view": "hero",
+  "joints": {},
+  "image": "abb-irb1200-hero.png",
+  "source_sha256": "244d727c37d0432ab22ac58592d41d367682b413bcbae15a79e911f90be72155"
+}

@@ -21,6 +21,8 @@ def description(path):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source", type=Path, help="Optional reference tree for geometry/kinematics comparison")
+    parser.add_argument("--allow-added-models", action="store_true",
+                        help="Compare every baseline model while allowing additional URDFs in the target")
     parser.add_argument("--assets", "--glb", dest="assets", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--allow-visual-reduction", action="store_true",
                         help="Allow fewer visual triangles; collision counts and bounds must still match")
@@ -29,12 +31,16 @@ def main():
     logging.basicConfig(level=logging.ERROR)
     results = []
     baseline = args.source or args.assets
+    added_paths = []
+    if args.allow_added_models and not args.source:
+        parser.error("--allow-added-models requires --source")
     if args.source:
         source_paths = {p.relative_to(args.source) for category in ("CameraModel", "RobotModel", "ToolModel")
                         for p in (args.source / category).rglob("*.urdf")}
         target_paths = {p.relative_to(args.assets) for category in ("CameraModel", "RobotModel", "ToolModel")
                         for p in (args.assets / category).rglob("*.urdf")}
-        if source_paths != target_paths:
+        added_paths = sorted(str(p) for p in target_paths - source_paths)
+        if source_paths - target_paths or (added_paths and not args.allow_added_models):
             parser.error("Reference and target URDF sets differ")
     for category in ("CameraModel", "RobotModel", "ToolModel"):
         for original_path in sorted((baseline / category).rglob("*.urdf")):
@@ -93,6 +99,8 @@ def main():
                "mode": "comparison" if args.source else "load",
                "visual_reduction_allowed": args.allow_visual_reduction,
                "yourdfpy": yourdfpy.__version__}
+    if args.source:
+        summary["added_models_not_compared"] = added_paths
     args.json.parent.mkdir(parents=True, exist_ok=True)
     args.json.write_text(json.dumps({"summary": summary, "models": results}, indent=2) + "\n")
     print(json.dumps(summary))

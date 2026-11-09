@@ -1,0 +1,9 @@
+{
+  "id": "agile-diana7",
+  "label": "Agile Diana 7",
+  "urdf": "RobotModel/Agile/Diana_7/Diana_7.urdf",
+  "view": "rear",
+  "joints": {},
+  "image": "agile-diana7-rear.png",
+  "source_sha256": "69f5b75a1deab2fa6b61edeed92c8d25b70dd2ad5bae6785bdee6206aee30fb4"
+}

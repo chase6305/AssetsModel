@@ -1,0 +1,652 @@
+{
+  "generated_at": "2026-11-03T14:07:05.816251+00:00",
+  "scope": "21 local-direction-outlier-protection pilot GLBs (MH12, UR3e, ABB IRB2600_12_165), pre-adoption current source SHA checked",
+  "independent_decoder": "tests/test_normal_pipeline_validation.py: Python -S stdlib struct/json/math; no production accessor reader or normal refiner called",
+  "summary": {
+    "files": 21,
+    "errors": 0,
+    "primitives": 55,
+    "triangles": 334120,
+    "line_segments": 2,
+    "position_corners_byte_exact": 1002364,
+    "normal_corners_changed_bytes": 671013,
+    "protected_faces": 76363,
+    "authored_smooth_primitives_retained": 16,
+    "protected_faces_in_flat_primitives": 2203,
+    "protected_faces_in_authored_smooth_primitives": 74160,
+    "newly_opposed_normal_corners": 0,
+    "max_normal_length_error": 5.0127872852634425e-08
+  },
+  "files": [
+    {
+      "path": "RobotModel/Motoman/MH12/Visual/glb/BaseLink.glb",
+      "status": "passed",
+      "source_sha256": "8b20ca9a7e7f21a3f476f4cf822ae185a3da50e9c6a62d65e80675dc3de47eb7",
+      "trial_sha256": "5dab9bcfd1708f1311256275cfdbbe212835a2dba18b1c07b621a29202078d8b",
+      "checks": {
+        "primitives": 1,
+        "triangles": 9936,
+        "line_segments": 0,
+        "position_corners_byte_exact": 29808,
+        "normal_corners_changed_bytes": 24318,
+        "protected_faces": 813,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 813,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.0538499557207786e-08
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/MH12/Visual/glb/Link1.glb",
+      "status": "passed",
+      "source_sha256": "0d60ebe960193919f431930b025f0f8d1dc3215b7700e2ab3ded2179bfd4de1c",
+      "trial_sha256": "65640e64f24d58d59d242597805623e8c20c6d4be9da6746024c20cf86fa8ae3",
+      "checks": {
+        "primitives": 1,
+        "triangles": 15221,
+        "line_segments": 0,
+        "position_corners_byte_exact": 45663,
+        "normal_corners_changed_bytes": 43017,
+        "protected_faces": 2,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 2,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.6372023332352796e-08
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/MH12/Visual/glb/Link2.glb",
+      "status": "passed",
+      "source_sha256": "657cb1dab9eb86405490cb0312b56d16cf6fefa2606192c17986ca89d5368adc",
+      "trial_sha256": "e841a03a9bad5b833939131765329964250e9ecc06a78ae865561ba671b703ab",
+      "checks": {
+        "primitives": 1,
+        "triangles": 19376,
+        "line_segments": 0,
+        "position_corners_byte_exact": 58128,
+        "normal_corners_changed_bytes": 55583,
+        "protected_faces": 370,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 370,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.651494767138331e-08
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/MH12/Visual/glb/Link3.glb",
+      "status": "passed",
+      "source_sha256": "ae55dbfaa7fd1fe693d8aa254e74970138d804aced8082ce70b7f22711f40538",
+      "trial_sha256": "d6e4f217124e42ce8e4c1442db23592c8cc6df6ad29cb0218606ec4154c16621",
+      "checks": {
+        "primitives": 1,
+        "triangles": 14249,
+        "line_segments": 0,
+        "position_corners_byte_exact": 42747,
+        "normal_corners_changed_bytes": 40082,
+        "protected_faces": 2,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 2,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.362847416672366e-08
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/MH12/Visual/glb/Link4.glb",
+      "status": "passed",
+      "source_sha256": "54fb9edaaaf883106e81024d97cb5dd8501624444fd60bf6993b69cfa9dc813b",
+      "trial_sha256": "8575a404955a4f1444bde14b9e27050064d542dbf2a96de6150f6553967ec6b6",
+      "checks": {
+        "primitives": 1,
+        "triangles": 12224,
+        "line_segments": 0,
+        "position_corners_byte_exact": 36672,
+        "normal_corners_changed_bytes": 34437,
+        "protected_faces": 26,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 26,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.165949452072937e-08
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/MH12/Visual/glb/Link5.glb",
+      "status": "passed",
+      "source_sha256": "da7ff4ec9221a9eab7e42fb3ca5c07791a77e18de6a624d3663a94720e3980fe",
+      "trial_sha256": "5768d36cc5a5b0b63533b1c7ef874996a91e99a0cac5a1f3fdd6b5f32674b5c2",
+      "checks": {
+        "primitives": 1,
+        "triangles": 11874,
+        "line_segments": 0,
+        "position_corners_byte_exact": 35622,
+        "normal_corners_changed_bytes": 33639,
+        "protected_faces": 62,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 62,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.3622463086201435e-08
+      }
+    },
+    {
+      "path": "RobotModel/Motoman/MH12/Visual/glb/Link6.glb",
+      "status": "passed",
+      "source_sha256": "032252069415a3efa19454e58e90dee5eb70c3f1680be5d08ae057b9557e1628",
+      "trial_sha256": "c0682508b6e4f6f02fecdeed515eaf60a53287bbe8d996bcd7cf58472d2cb5d6",
+      "checks": {
+        "primitives": 1,
+        "triangles": 1300,
+        "line_segments": 0,
+        "position_corners_byte_exact": 3900,
+        "normal_corners_changed_bytes": 2496,
+        "protected_faces": 0,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 0,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.073320314379458e-08
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/BaseLink.glb",
+      "status": "passed",
+      "source_sha256": "c487db4c96038079d81f77e96c1a938ea212a80a918c18a88ab6bb9ea69a2329",
+      "trial_sha256": "5c077ed589d53020221745c7cce64036759a55460ca1b55e181fd6bc295348e0",
+      "checks": {
+        "primitives": 2,
+        "triangles": 3306,
+        "line_segments": 0,
+        "position_corners_byte_exact": 9918,
+        "normal_corners_changed_bytes": 9483,
+        "protected_faces": 1,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 1,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.0026638337131715e-08
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link1.glb",
+      "status": "passed",
+      "source_sha256": "4daf6d99623074990d79ae0446ece5acdeda133c0b7f2c7d7215172662ddc874",
+      "trial_sha256": "cfa21e5bb6be74cb6ffa5b0fddf45764ba710fe7f0b97553375fb28727287580",
+      "checks": {
+        "primitives": 7,
+        "triangles": 15506,
+        "line_segments": 1,
+        "position_corners_byte_exact": 46520,
+        "normal_corners_changed_bytes": 1356,
+        "protected_faces": 13039,
+        "authored_smooth_primitives_retained": 2,
+        "protected_faces_in_flat_primitives": 0,
+        "protected_faces_in_authored_smooth_primitives": 13039,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.898008343356963e-08
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link2.glb",
+      "status": "passed",
+      "source_sha256": "1ab8526aa4628f825016046c9a372f329b286ba743b9bd61fdda29ced67031fa",
+      "trial_sha256": "cd502fc554d28378a20a80f98fd9558440fd53311b04b6248915357caa7721f6",
+      "checks": {
+        "primitives": 12,
+        "triangles": 19565,
+        "line_segments": 1,
+        "position_corners_byte_exact": 58697,
+        "normal_corners_changed_bytes": 970,
+        "protected_faces": 14679,
+        "authored_smooth_primitives_retained": 8,
+        "protected_faces_in_flat_primitives": 0,
+        "protected_faces_in_authored_smooth_primitives": 14679,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 5.0127872852634425e-08
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link3.glb",
+      "status": "passed",
+      "source_sha256": "830921d829c448699940a1ecafd3e58660bf5a9d10bbeefcb54499433a3602d6",
+      "trial_sha256": "0129693da926b64505002a2aa1651e347fb058aa369dca9cd8fd4b2be3ccee82",
+      "checks": {
+        "primitives": 7,
+        "triangles": 16871,
+        "line_segments": 0,
+        "position_corners_byte_exact": 50613,
+        "normal_corners_changed_bytes": 50167,
+        "protected_faces": 7,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 7,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.314969626051379e-08
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link4.glb",
+      "status": "passed",
+      "source_sha256": "002b7db7f78ed9d2378b86a7865e9ab6cf33a84ed141a36093416cf32614376f",
+      "trial_sha256": "90dda565d426d052d70851d1de6aaa44175aa91bf7e5513df0b24721c074c56d",
+      "checks": {
+        "primitives": 3,
+        "triangles": 18309,
+        "line_segments": 0,
+        "position_corners_byte_exact": 54927,
+        "normal_corners_changed_bytes": 54268,
+        "protected_faces": 17,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 17,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.516083396133297e-08
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link5.glb",
+      "status": "passed",
+      "source_sha256": "552cc5fc96dd0e5802a339dd573053871f1f9bdf3b502d1e8a6e90108462257f",
+      "trial_sha256": "2a6ba3c384fe0c4ac53cb235d82b7c4fb44fac0727633760301ebbcd88699152",
+      "checks": {
+        "primitives": 3,
+        "triangles": 19215,
+        "line_segments": 0,
+        "position_corners_byte_exact": 57645,
+        "normal_corners_changed_bytes": 57067,
+        "protected_faces": 14,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 14,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.3939700877793086e-08
+      }
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link6.glb",
+      "status": "passed",
+      "source_sha256": "c1e89521275198824f4554105ea84c50382efa5a995c7ea7b04e59572f93c6b2",
+      "trial_sha256": "4b167fc73271f405b7fa7c5b72073876c9f924afdb167f533dd0523b69f4a113",
+      "checks": {
+        "primitives": 1,
+        "triangles": 1127,
+        "line_segments": 0,
+        "position_corners_byte_exact": 3381,
+        "normal_corners_changed_bytes": 3230,
+        "protected_faces": 1,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 1,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 3.981413676523715e-08
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/BaseLink.glb",
+      "status": "passed",
+      "source_sha256": "e59bb9b51ffb1cc30071d441ab1f87d85b7d72e91d339db883b2388a19bfcfd3",
+      "trial_sha256": "d50a402dcbdc1c354c27f6aab79d01b9547be49f38e5ececed2c398adad11190",
+      "checks": {
+        "primitives": 2,
+        "triangles": 61484,
+        "line_segments": 0,
+        "position_corners_byte_exact": 184452,
+        "normal_corners_changed_bytes": 170858,
+        "protected_faces": 783,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 783,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.2701116420573726e-08
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link1.glb",
+      "status": "passed",
+      "source_sha256": "e7c20d363813427f195b9f999dc109afe7e026e8d9add78d852dc5448a5e14eb",
+      "trial_sha256": "e7c20d363813427f195b9f999dc109afe7e026e8d9add78d852dc5448a5e14eb",
+      "checks": {
+        "primitives": 1,
+        "triangles": 19999,
+        "line_segments": 0,
+        "position_corners_byte_exact": 59997,
+        "normal_corners_changed_bytes": 0,
+        "protected_faces": 12550,
+        "authored_smooth_primitives_retained": 1,
+        "protected_faces_in_flat_primitives": 0,
+        "protected_faces_in_authored_smooth_primitives": 12550,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.427362032544124e-08
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link2.glb",
+      "status": "passed",
+      "source_sha256": "85efe050337fb380b829d52f8a74fa1a2ce0e18b9492e98116e935b7a767a30f",
+      "trial_sha256": "aa71bd14f7f86c3123e7b08f747a52b1f41a953158d466ccfd0967fe38b6a352",
+      "checks": {
+        "primitives": 3,
+        "triangles": 13448,
+        "line_segments": 0,
+        "position_corners_byte_exact": 40344,
+        "normal_corners_changed_bytes": 35464,
+        "protected_faces": 40,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 40,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.685734356080218e-08
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link3.glb",
+      "status": "passed",
+      "source_sha256": "ddb80efd6210ebfed2ac62c9c36749cb430ab17f7108dcef5c43f3f557c1f440",
+      "trial_sha256": "ddb80efd6210ebfed2ac62c9c36749cb430ab17f7108dcef5c43f3f557c1f440",
+      "checks": {
+        "primitives": 2,
+        "triangles": 20026,
+        "line_segments": 0,
+        "position_corners_byte_exact": 60078,
+        "normal_corners_changed_bytes": 0,
+        "protected_faces": 14153,
+        "authored_smooth_primitives_retained": 2,
+        "protected_faces_in_flat_primitives": 0,
+        "protected_faces_in_authored_smooth_primitives": 14153,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.699456357393217e-08
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link4.glb",
+      "status": "passed",
+      "source_sha256": "a32fbce7432928f81ae177fda04d49ee95e9746ac9031b4b54afd31100530959",
+      "trial_sha256": "a32fbce7432928f81ae177fda04d49ee95e9746ac9031b4b54afd31100530959",
+      "checks": {
+        "primitives": 3,
+        "triangles": 21794,
+        "line_segments": 0,
+        "position_corners_byte_exact": 65382,
+        "normal_corners_changed_bytes": 0,
+        "protected_faces": 19739,
+        "authored_smooth_primitives_retained": 3,
+        "protected_faces_in_flat_primitives": 0,
+        "protected_faces_in_authored_smooth_primitives": 19739,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.938881426053143e-08
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link5.glb",
+      "status": "passed",
+      "source_sha256": "a6211a3712c708792bafc5ec34b2a52ff20a7ccaabd19d084acf9011f37afdb9",
+      "trial_sha256": "204c9cea76b09651e04602bf9f807a0b7443357bb33f719e0506a71206f8f61d",
+      "checks": {
+        "primitives": 1,
+        "triangles": 14880,
+        "line_segments": 0,
+        "position_corners_byte_exact": 44640,
+        "normal_corners_changed_bytes": 43177,
+        "protected_faces": 62,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 62,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.1078362933433255e-08
+      }
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link6.glb",
+      "status": "passed",
+      "source_sha256": "d359819115b67aee8258b3f2127b400f8b17f3c69601ae814463b956b726c13e",
+      "trial_sha256": "285ea2a50d8d0f4eea7cec13b9b6e4f48aa4e5d830b8e7dd41fd12ca3f7d540c",
+      "checks": {
+        "primitives": 1,
+        "triangles": 4410,
+        "line_segments": 0,
+        "position_corners_byte_exact": 13230,
+        "normal_corners_changed_bytes": 11401,
+        "protected_faces": 3,
+        "authored_smooth_primitives_retained": 0,
+        "protected_faces_in_flat_primitives": 3,
+        "protected_faces_in_authored_smooth_primitives": 0,
+        "newly_opposed_normal_corners": 0,
+        "max_normal_length_error": 4.0693650227296985e-08
+      }
+    }
+  ],
+  "guard_replay_check": [
+    {
+      "path": "RobotModel/Motoman/MH12/Visual/glb/BaseLink.glb",
+      "status": "new guards output byte-identical"
+    },
+    {
+      "path": "RobotModel/Motoman/MH12/Visual/glb/Link1.glb",
+      "status": "new guards output byte-identical"
+    },
+    {
+      "path": "RobotModel/Motoman/MH12/Visual/glb/Link2.glb",
+      "status": "new guards output byte-identical"
+    },
+    {
+      "path": "RobotModel/Motoman/MH12/Visual/glb/Link3.glb",
+      "status": "new guards output byte-identical"
+    },
+    {
+      "path": "RobotModel/Motoman/MH12/Visual/glb/Link4.glb",
+      "status": "new guards output byte-identical"
+    },
+    {
+      "path": "RobotModel/Motoman/MH12/Visual/glb/Link5.glb",
+      "status": "new guards output byte-identical"
+    },
+    {
+      "path": "RobotModel/Motoman/MH12/Visual/glb/Link6.glb",
+      "status": "new guards output byte-identical"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/BaseLink.glb",
+      "status": "new guards output byte-identical"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link1.glb",
+      "status": "new guards output byte-identical"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link2.glb",
+      "status": "new guards output byte-identical"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link3.glb",
+      "status": "new guards output byte-identical"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link4.glb",
+      "status": "new guards output byte-identical"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link5.glb",
+      "status": "new guards output byte-identical"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link6.glb",
+      "status": "new guards output byte-identical"
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/BaseLink.glb",
+      "status": "new guards output byte-identical"
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link1.glb",
+      "status": "new guards output byte-identical"
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link2.glb",
+      "status": "new guards output byte-identical"
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link3.glb",
+      "status": "new guards output byte-identical"
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link4.glb",
+      "status": "new guards output byte-identical"
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link5.glb",
+      "status": "new guards output byte-identical"
+    },
+    {
+      "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link6.glb",
+      "status": "new guards output byte-identical"
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/BaseLink.glb",
+      "status": "oriented target output byte-identical"
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link1.glb",
+      "status": "oriented target output byte-identical"
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link2.glb",
+      "status": "oriented target output byte-identical"
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link3.glb",
+      "status": "oriented target output byte-identical"
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link4.glb",
+      "status": "oriented target output byte-identical"
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link5.glb",
+      "status": "oriented target output byte-identical"
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link6.glb",
+      "status": "oriented target output byte-identical"
+    }
+  ],
+  "independent_rebuild_after_guards": {
+    "files": 21,
+    "all_output_sha_match": true,
+    "refiner_sha256": "897e3ad41763091a73acd6a7d888047d0ae0cb297ed169d84661d054128f4a7a",
+    "records": [
+      {
+        "path": "RobotModel/Motoman/MH12/Visual/glb/BaseLink.glb",
+        "output_sha256": "5dab9bcfd1708f1311256275cfdbbe212835a2dba18b1c07b621a29202078d8b",
+        "byte_identical_to_reviewed_trial": true
+      },
+      {
+        "path": "RobotModel/Motoman/MH12/Visual/glb/Link1.glb",
+        "output_sha256": "65640e64f24d58d59d242597805623e8c20c6d4be9da6746024c20cf86fa8ae3",
+        "byte_identical_to_reviewed_trial": true
+      },
+      {
+        "path": "RobotModel/Motoman/MH12/Visual/glb/Link2.glb",
+        "output_sha256": "e841a03a9bad5b833939131765329964250e9ecc06a78ae865561ba671b703ab",
+        "byte_identical_to_reviewed_trial": true
+      },
+      {
+        "path": "RobotModel/Motoman/MH12/Visual/glb/Link3.glb",
+        "output_sha256": "d6e4f217124e42ce8e4c1442db23592c8cc6df6ad29cb0218606ec4154c16621",
+        "byte_identical_to_reviewed_trial": true
+      },
+      {
+        "path": "RobotModel/Motoman/MH12/Visual/glb/Link4.glb",
+        "output_sha256": "8575a404955a4f1444bde14b9e27050064d542dbf2a96de6150f6553967ec6b6",
+        "byte_identical_to_reviewed_trial": true
+      },
+      {
+        "path": "RobotModel/Motoman/MH12/Visual/glb/Link5.glb",
+        "output_sha256": "5768d36cc5a5b0b63533b1c7ef874996a91e99a0cac5a1f3fdd6b5f32674b5c2",
+        "byte_identical_to_reviewed_trial": true
+      },
+      {
+        "path": "RobotModel/Motoman/MH12/Visual/glb/Link6.glb",
+        "output_sha256": "c0682508b6e4f6f02fecdeed515eaf60a53287bbe8d996bcd7cf58472d2cb5d6",
+        "byte_identical_to_reviewed_trial": true
+      },
+      {
+        "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/BaseLink.glb",
+        "output_sha256": "5c077ed589d53020221745c7cce64036759a55460ca1b55e181fd6bc295348e0",
+        "byte_identical_to_reviewed_trial": true
+      },
+      {
+        "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link1.glb",
+        "output_sha256": "cfa21e5bb6be74cb6ffa5b0fddf45764ba710fe7f0b97553375fb28727287580",
+        "byte_identical_to_reviewed_trial": true
+      },
+      {
+        "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link2.glb",
+        "output_sha256": "cd502fc554d28378a20a80f98fd9558440fd53311b04b6248915357caa7721f6",
+        "byte_identical_to_reviewed_trial": true
+      },
+      {
+        "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link3.glb",
+        "output_sha256": "0129693da926b64505002a2aa1651e347fb058aa369dca9cd8fd4b2be3ccee82",
+        "byte_identical_to_reviewed_trial": true
+      },
+      {
+        "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link4.glb",
+        "output_sha256": "90dda565d426d052d70851d1de6aaa44175aa91bf7e5513df0b24721c074c56d",
+        "byte_identical_to_reviewed_trial": true
+      },
+      {
+        "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link5.glb",
+        "output_sha256": "2a6ba3c384fe0c4ac53cb235d82b7c4fb44fac0727633760301ebbcd88699152",
+        "byte_identical_to_reviewed_trial": true
+      },
+      {
+        "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link6.glb",
+        "output_sha256": "4b167fc73271f405b7fa7c5b72073876c9f924afdb167f533dd0523b69f4a113",
+        "byte_identical_to_reviewed_trial": true
+      },
+      {
+        "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/BaseLink.glb",
+        "output_sha256": "d50a402dcbdc1c354c27f6aab79d01b9547be49f38e5ececed2c398adad11190",
+        "byte_identical_to_reviewed_trial": true
+      },
+      {
+        "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link1.glb",
+        "output_sha256": "e7c20d363813427f195b9f999dc109afe7e026e8d9add78d852dc5448a5e14eb",
+        "byte_identical_to_reviewed_trial": true
+      },
+      {
+        "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link2.glb",
+        "output_sha256": "aa71bd14f7f86c3123e7b08f747a52b1f41a953158d466ccfd0967fe38b6a352",
+        "byte_identical_to_reviewed_trial": true
+      },
+      {
+        "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link3.glb",
+        "output_sha256": "ddb80efd6210ebfed2ac62c9c36749cb430ab17f7108dcef5c43f3f557c1f440",
+        "byte_identical_to_reviewed_trial": true
+      },
+      {
+        "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link4.glb",
+        "output_sha256": "a32fbce7432928f81ae177fda04d49ee95e9746ac9031b4b54afd31100530959",
+        "byte_identical_to_reviewed_trial": true
+      },
+      {
+        "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link5.glb",
+        "output_sha256": "204c9cea76b09651e04602bf9f807a0b7443357bb33f719e0506a71206f8f61d",
+        "byte_identical_to_reviewed_trial": true
+      },
+      {
+        "path": "RobotModel/ABB/IRB2600_12_165/Visual/glb/Link6.glb",
+        "output_sha256": "285ea2a50d8d0f4eea7cec13b9b6e4f48aa4e5d830b8e7dd41fd12ca3f7d540c",
+        "byte_identical_to_reviewed_trial": true
+      }
+    ]
+  },
+  "interpretation": {
+    "protected_faces_in_flat_primitives": "2203 faces protected by the local refinement policy, byte-exact authored corner normals retained.",
+    "protected_faces_in_authored_smooth_primitives": "Additional original smooth normals differ from their flat geometric face; whole original smooth primitives remain byte-exact and are not eligible for refinement.",
+    "triangle_scope": "All source primitives, including refined and retained groups, not only the 238062 faces in refined groups."
+  }
+}

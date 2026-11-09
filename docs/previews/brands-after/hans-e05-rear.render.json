@@ -1,0 +1,28 @@
+{
+  "pack": "/tmp/assetsmodel-session-final-brand-after-packs/hans-e05",
+  "view": "rear",
+  "azimuth_degrees": 125.00000000000001,
+  "elevation_degrees": 22.0,
+  "width": 1000,
+  "height": 900,
+  "samples": 128,
+  "theme": "dark",
+  "engine": "BLENDER_EEVEE",
+  "view_transform": "AgX",
+  "single_sided_materials": "native culling",
+  "blender": "5.2.2 LTS",
+  "parts": 12,
+  "bounds_m": [
+    [
+      -0.07800000160932541,
+      -0.1740615150622115,
+      0.0
+    ],
+    [
+      0.11544019728899002,
+      0.08298822736621961,
+      1.1765000000039152
+    ]
+  ],
+  "ortho_scale": 2.7454850673675537
+}

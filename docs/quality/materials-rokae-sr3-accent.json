@@ -1,0 +1,325 @@
+{
+  "summary": {
+    "mode": "apply",
+    "visual_glbs": 21,
+    "changed_glbs": 1,
+    "imported_visual_glbs_excluded": 0,
+    "changed_materials": 1,
+    "roles": {
+      "plastic": 1
+    },
+    "all_changed_geometry_unchanged": true,
+    "profile": "assetsmodel-brand-materials-v1",
+    "palette_linear_rgba": {
+      "peitian_yellow": [
+        0.86315721,
+        0.4735315,
+        0.00972122,
+        1.0
+      ],
+      "kuka_orange": [
+        0.86315721,
+        0.1746474,
+        0.01520851,
+        1.0
+      ],
+      "kuka_agilus_white": [
+        0.80695226,
+        0.82278575,
+        0.79910274,
+        1.0
+      ],
+      "fanuc_yellow": [
+        0.90466117,
+        0.59720179,
+        0.00802319,
+        1.0
+      ],
+      "motoman_blue": [
+        0.0,
+        0.15592646,
+        0.47932018,
+        1.0
+      ],
+      "ur_blue": [
+        0.19120168,
+        0.40197778,
+        0.57112483,
+        1.0
+      ],
+      "rokae_soft_cyan": [
+        0.48514994,
+        0.72305513,
+        0.83076988,
+        1.0
+      ],
+      "white_paint": [
+        0.77582222,
+        0.79129794,
+        0.7605245,
+        1.0
+      ],
+      "franka_shell": [
+        0.83879901,
+        0.85499261,
+        0.86315721,
+        1.0
+      ],
+      "graphite": [
+        0.03433981,
+        0.04373503,
+        0.05126946,
+        1.0
+      ],
+      "black_polymer": [
+        0.01444384,
+        0.01938236,
+        0.02518686,
+        1.0
+      ],
+      "aluminium": [
+        0.52099557,
+        0.55834039,
+        0.59061884,
+        1.0
+      ],
+      "fanuc_m20_casting": [
+        0.05448028,
+        0.05780543,
+        0.05780543,
+        1.0
+      ],
+      "fanuc_m710_casting": [
+        0.02955683,
+        0.03433981,
+        0.03820437,
+        1.0
+      ],
+      "fanuc_r2000_casting": [
+        0.03688945,
+        0.04231141,
+        0.04666509,
+        1.0
+      ],
+      "fanuc_dark_interface": [
+        0.02955683,
+        0.03433981,
+        0.03820437,
+        1.0
+      ]
+    }
+  },
+  "generated_at": "2026-11-03T15:35:10.105206+00:00",
+  "files": [
+    {
+      "path": "RobotModel/Rokae/SR3/Visual/glb/BaseLink.glb",
+      "status": "unchanged",
+      "before_sha256": "bdfe8f933c38e6ac3f2f58f0dc3fe097d4bad4fcf662c6e8610ade0704d074d9",
+      "bin_sha256": "b3d9ba19f5bceba531a7cd9a02b6f90066ff6fefe28c54360c8263a07d019e96",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Rokae/SR3/Visual/glb/BaseLink.stl.glb",
+      "status": "unchanged",
+      "before_sha256": "56a0ecfe0c8dce7681e8122b48b5560a467f9fb7655e074087f9d46bc2cb1e2f",
+      "bin_sha256": "8da8310d7738dc5c2b7ea4db3f0ba89f7503b6c0b6baa94e7178501653ae389d",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Rokae/SR3/Visual/glb/Link1.glb",
+      "status": "unchanged",
+      "before_sha256": "cdffc8887fcecbd41da0aaf5aaefde55366d6baa68660ebe0dda88089d057527",
+      "bin_sha256": "36127340a28d5f172a0027219c81e44811328cf09aaee94f31aeab101ea9300a",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Rokae/SR3/Visual/glb/Link1.stl.glb",
+      "status": "unchanged",
+      "before_sha256": "8130fe93ff53843e98ddda74a306c33ab0c419a745d39f1aba76df0bdbdb4d7d",
+      "bin_sha256": "46fca400834d7e82d9132323a3cda4b3fca347fb2c1af512ddc32e977a90a8c2",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Rokae/SR3/Visual/glb/Link2.glb",
+      "status": "unchanged",
+      "before_sha256": "4ab55208078a877345055f012e17722932e11c5a99ce1118cccb24efc26f3fdb",
+      "bin_sha256": "aaad8782fa5a973e03f1d99a65b2b43ee9825f4bd16c3b7b43b68e7cadd2e7ea",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Rokae/SR3/Visual/glb/Link2.stl.glb",
+      "status": "unchanged",
+      "before_sha256": "0ec76036654007b45f1f008cbcccd2188720d2bad8312f654a522a3b806cb6b6",
+      "bin_sha256": "2cd8a117c98370d7dff42e96bd8d12bd8069fe204edd37c5bbab0c1b6211f049",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Rokae/SR3/Visual/glb/Link3.glb",
+      "status": "applied",
+      "before_sha256": "2a0cde15866c329b4ffc9a65208bc725e1628acd977137e59c5afe89ea4a574a",
+      "bin_sha256": "862acc183450d47d472154568b60f557d873ec0405487ee5a8734791756becaf",
+      "materials": [
+        {
+          "index": 1,
+          "name": "Material_004-material",
+          "role": "plastic",
+          "palette": "rokae_soft_cyan",
+          "before": {
+            "name": "Material_004-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.02244371,
+                0.3420936,
+                0.8000001,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.46
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "plastic",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "Material_004-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.48514994,
+                0.72305513,
+                0.83076988,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.46
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "plastic",
+                "palette": "rokae_soft_cyan"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "3d1d45fc1f7c22517d17004984a4019a96c6c269a261a41abf6d4786af8460de",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 19998
+    },
+    {
+      "path": "RobotModel/Rokae/SR3/Visual/glb/Link3.stl.glb",
+      "status": "unchanged",
+      "before_sha256": "d91b5086da32283dd9a4fb27fbdc30a05a2570de2e181a346edd34276ca93062",
+      "bin_sha256": "3897a232386a9502684f76894e58e995c229ffdd2f1a423e4e4f901b2a276d37",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Rokae/SR3/Visual/glb/Link4.glb",
+      "status": "unchanged",
+      "before_sha256": "5f1925b222e37d30fdfe87df3fb5e217205bf02240a5b7caaa14a3830d31c1e0",
+      "bin_sha256": "2b889e2ff8379087ba49f5844250a7ca4f1079433c05702b0d663f07703940bf",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Rokae/SR3/Visual/glb/Link4.stl.glb",
+      "status": "unchanged",
+      "before_sha256": "e585d873bae583d729bc9345f4680737121f212441996b7fb7a43cb4842df6f1",
+      "bin_sha256": "190dac7bf5c85f4fd52092fd881ce16b49eaa9e0f72118e893f13279b9c86061",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Rokae/SR3/Visual/glb/Link5.glb",
+      "status": "unchanged",
+      "before_sha256": "3673f1b679bb112e59e9da132fe31d5f2b747e4240a6de9ae8e9de673bc9cda2",
+      "bin_sha256": "2441987bab08bf2294269f4b89f73f844a0760b30dcc9d5cb80ff70b92a8dbc8",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Rokae/SR3/Visual/glb/Link5.stl.glb",
+      "status": "unchanged",
+      "before_sha256": "63619eb193bc346cc4352c76d88e689faa39103fb2fb78f2b8610aca7aaf7c25",
+      "bin_sha256": "cabe5ca519d871b083859a9c52f92fcdb56ce5d5b38ab82c686a07a4a0ae957a",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Rokae/SR3/Visual/glb/Link6.glb",
+      "status": "unchanged",
+      "before_sha256": "d4a429d9f51a7242f00bef0422a6e9427b912ec2568af34d34fd16e6dbd1d047",
+      "bin_sha256": "50bde9a40530631374ae3763b7c47f1107ebd248077521f6003b9c1cf0855cea",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Rokae/SR3/Visual/glb/Link6.stl.glb",
+      "status": "unchanged",
+      "before_sha256": "5f4e008f6e496e08f8887f0a53cba6e23658268c204aa297422283e706be48e9",
+      "bin_sha256": "7d2d4e0a2725831ecc91220958e9ec0285fd03e30b379dba2890631ba8ecc4bd",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Rokae/SR5/Visual/glb/BaseLink.glb",
+      "status": "unchanged",
+      "before_sha256": "2c0b6d147cd6aab1a9df886dcd40d9f89add0363122445708372596ac89bb837",
+      "bin_sha256": "03e1f99cf245f8a625259fd78017d3b7a03ee7c787a24a92509f0a9450b4cfcf",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Rokae/SR5/Visual/glb/Link1.glb",
+      "status": "unchanged",
+      "before_sha256": "41eb7cf7e40d59c6e66d1f502e03e512c5eb5972a8504c9cb8bda4e7229ec20e",
+      "bin_sha256": "44c92a8f39a048bad2081f56ec95f5bc6d2e1262df1cd76bae1c36e1c16dfb12",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Rokae/SR5/Visual/glb/Link2.glb",
+      "status": "unchanged",
+      "before_sha256": "b6b807f1bcdb28d6f3b805ab5a394ba0658ab1c10516ae812b1d304cb4ebcd47",
+      "bin_sha256": "b023fbd23b9b994d4ba643da2f1412091c28a6c6c9c443a4a3cebe37aea836f9",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Rokae/SR5/Visual/glb/Link3.glb",
+      "status": "unchanged",
+      "before_sha256": "a95abf07291525a8cffbbb3bc7808ca5146721a27b6a3892d7e783239faa7639",
+      "bin_sha256": "43baf10099206a47f2423dbbe632dd82c49deccc72aa1265436dcf28eec8e97a",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Rokae/SR5/Visual/glb/Link4.glb",
+      "status": "unchanged",
+      "before_sha256": "908268ba71511d1d3d276fd33105cd1d17c21ea508e1ab4e94dcbac823ba165b",
+      "bin_sha256": "7fd85344ae7085d3060ea6cb2766527c9f49b65f3adcd4dee5d7b247450ae086",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Rokae/SR5/Visual/glb/Link5.glb",
+      "status": "unchanged",
+      "before_sha256": "3281f64b4b49a945aa23b765cc713d6cdf983b069d5ca887dab257c8d12e17e1",
+      "bin_sha256": "e73a5cb2617211a5dc173cf4762acdefde1cf358e16d0e66de0ad5d84e1978b8",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/Rokae/SR5/Visual/glb/Link6.glb",
+      "status": "unchanged",
+      "before_sha256": "83cc829fc04773e3a43fb8bec8fb2cdb182e9e8448bc01dbd88837278145e387",
+      "bin_sha256": "81ea8354945ae363962e1eee3a2c03e36c659d5df4015d1386da2e8b58f4f732",
+      "materials": []
+    }
+  ]
+}

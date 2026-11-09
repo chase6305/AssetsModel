@@ -1,0 +1,28 @@
+{
+  "pack": "/tmp/assetsmodel-session-final-brand-after-packs/kuka-kr10",
+  "view": "hero",
+  "azimuth_degrees": -55.0,
+  "elevation_degrees": 23.0,
+  "width": 1000,
+  "height": 900,
+  "samples": 128,
+  "theme": "dark",
+  "engine": "BLENDER_EEVEE",
+  "view_transform": "AgX",
+  "single_sided_materials": "native culling",
+  "blender": "5.2.2 LTS",
+  "parts": 7,
+  "bounds_m": [
+    [
+      -0.38291800022125244,
+      -0.13949190080165863,
+      -7.019968251142927e-08
+    ],
+    [
+      1.1900000000039883,
+      0.13421019911766052,
+      0.4904207825652949
+    ]
+  ],
+  "ortho_scale": 2.205502986907959
+}

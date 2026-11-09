@@ -1,24 +1,46 @@
-# GLB 转换与进一步优化报告
+# GLB 当前资源与历史转换报告
 
-> 下文记录历史 GLB 转换阶段。后续 FR3 替换、材质修复和网格优化的当前数据见[2026-11-03 质量检查](QUALITY_REVIEW.md)。
+## 当前状态：2026 年 11 月
 
-全部 **783 个 DAE/STL 网格**已经转换为 GLB，**67 个 URDF** 统一引用模型内的 `glb/` 子目录。可直接从[模型目录](CATALOG.md)复制需要的模型。
+当前[库存快照](quality/inventory.json)包含 **71 个 URDF、12 个机器人品牌、841 个 GLB 和 404 个可选 STL**。GLB 约 **215 MiB**，可选 STL 约 **244.5 MiB**，网格合计约 **459 MiB**；精确字节数以库存快照为准。这些数量反映 FR3 资源和本轮新增的 xArm6、Lite6、KUKA iiwa14、Kinova Gen3，不能直接套用下面历史转档阶段的总面数或压缩率。
 
-后续目录整理已移除全部 378 个 DAE 和顶层重复的 GLB 目录。原有 405 个 STL 保留在 `Visual/stl/`、`Collision/stl/` 或 `meshes/stl/`；GLB 位于同级 `glb/`。当前 GLB 与 STL 合计 **556.4 MiB**，其中 GLB 为 311.2 MiB。下面的 DAE/STL 体积是历史阶段数据，现行结构见[资源布局](ASSET_LAYOUT.md)。
+默认 URDF 使用模型内的 `Visual/glb/`、`Collision/glb/` 或 `meshes/glb/`，资源不依赖顶层重复目录；DAE 已移出模型库。当前路径约定见[资源布局](ASSET_LAYOUT.md)，新增型号的固定来源、许可和参数边界见[新增机器人](NEW_ROBOTS.md)。[品牌材质说明](BRAND_MATERIALS.md)记录本轮按漆面、塑料、橡胶、金属分区的 PBR 与颜色校准；其视觉近似不等于厂家认证色号。
 
-## 体积与几何
+当前验证分别保存以下证据，逐文件哈希用于识别报告对应的资产版本：
+
+| 当前检查范围 | 记录 |
+| --- | --- |
+| 71 个 URDF、1,245 个网格的结构与布局 | [0 错误、233 条参数警告](quality/asset-validation.json) |
+| 841 个 GLB 的官方格式检查 | [Khronos：0 错误、0 警告，23 条提示](quality/glb-format-validation.json) |
+| 71 个 URDF 的 213 组加载姿态 | [0 错误](quality/loader-validation.json) |
+| 原有 67 个模型的 201 组基线对比 | [几何装配与链接坐标对比](quality/existing-model-comparison.json) |
+| 原有 781 个 GLB 的全部场景及 908 个受保护文件 | [有向角点与实例变换保持，受保护文件字节一致](quality/existing-surface-preservation.json) |
+| 默认 Python 加载器中的 398 个外观 GLB、60 个机器人 URDF | [法线、位置、PBR 与链接局部变换保留](quality/runtime-visual-validation.json) |
+| 四款新增模型、60 个 GLB、12 组合法姿态 | [固定源描述、几何与许可的独立验证](quality/new-robots-independent-audit.json) |
+
+相对本轮开始时的 781 个 GLB（323,430,588 字节），同一批原有 GLB 当前为 216,673,268 字节，减少 **33.0%**。此降幅来自保留表面的属性共享、法线和静态绘制批次整理，不是删减三角形。新增四款另有 60 个 GLB、8,414,576 字节；当前总量已包含它们。[库存快照](quality/inventory.json)将这两部分分别记录，不能把新增资源混入原有资源的压缩率分母。
+
+未补造缺失动力学参数；新导入模型省略的无效源惯量逐项保存在各模型 `provenance.json` 中。加载姿态检查与源描述一致性检查分别覆盖对应范围，不表示对全部工作空间作出了碰撞或动力学认证。后续修改资产时应同步重跑[维护流程](MESH_WORKFLOW.md)中的检查。
+
+## 2026 年 9 月：DAE/STL → GLB 历史归档
+
+以下保留该阶段 **783 个 DAE/STL 转档结果、67 个 URDF** 的体积、面数、加载计时和验证记录。转档后整理目录时移除了 378 个 DAE、保留了当时的 405 个 STL；当时 GLB 311.2 MiB，与 STL 合计 556.4 MiB。这些数据仅描述当时版本，不是当前文件清单。
+
+[`glb-manifest.json`](glb-manifest.json)保存历史输入路径、输入哈希和当时的 GLB/STL 输出记录；已替换型号和已移除 DAE 不必继续存在。查询当前数量使用 [quality/inventory.json](quality/inventory.json)，查询新增模型来源使用模型内的 `provenance.json`。
+
+### 体积与几何
 
 | 阶段 | 网格体积 | 三角形数 |
 | --- | ---: | ---: |
 | 首轮优化前 | 1,256.9 MiB | 20,608,370 |
 | 完成减面及退化面清理的 DAE/STL | 618.5 MiB | 10,407,054 |
-| 当前 GLB 主资源 | **311.2 MiB** | **10,407,054** |
+| 转档完成时的 GLB 主资源 | **311.2 MiB** | **10,407,054** |
 
-GLB 相比优化后的源格式再减少 **49.7%**，相比最初资源减少约 **75.2%**。其中碰撞资源由 **234.5 MiB 降至 58.0 MiB**。本轮转换保留全部有效三角形；减面记录见[上一轮报告](OPTIMIZATION_REPORT.md)。
+GLB 相比优化后的源格式再减少 **49.7%**，相比最初资源减少约 **75.2%**。其中碰撞资源由 **234.5 MiB 降至 58.0 MiB**。该次转档保留全部有效三角形；减面记录见[上一轮报告](OPTIMIZATION_REPORT.md)。
 
-GLB 并非每个文件都更小：213 个较小资源由于容器元数据或新增外观法线而变大，整套资源的合计体积仍明显下降。逐文件体积、哈希、面数及当前路径见 [`glb-manifest.json`](glb-manifest.json)。其中 `source` 字段记录历史输入路径。
+GLB 并非每个文件都更小：213 个较小资源由于容器元数据或新增外观法线而变大，整套资源的合计体积仍明显下降。逐文件体积、哈希、面数及转档阶段路径见 [`glb-manifest.json`](glb-manifest.json)。其中 `source` 字段记录历史输入路径。
 
-## 本轮实际处理
+### 当时的转换处理
 
 - 合并完全一致的位置及法线属性，避免 STL 的逐三角形重复顶点占用；不同硬边法线仍保留独立顶点。
 - 索引范围允许时使用 16 位整数，大网格自动使用 32 位，避免索引溢出。
@@ -31,7 +53,7 @@ GLB 并非每个文件都更小：213 个较小资源由于容器元数据或新
 
 没有使用 Draco、Meshopt 或量化扩展，资源没有外部贴图依赖。原 DAE 只有纯色材质；两处全白顶点颜色是恒等乘数，转换时省略。未来导入带纹理或非白顶点颜色的 DAE 会明确报错，避免静默丢失外观。
 
-## 验证范围
+### 验证范围
 
 | 检查 | 结果 |
 | --- | --- |
@@ -47,13 +69,13 @@ GLB 并非每个文件都更小：213 个较小资源由于容器元数据或新
 
 姿态检查覆盖零姿态，以及有限位关节范围的 25% 和 75% 位置；使用 trimesh 4.12.2 / yourdfpy 0.0.60。转换只替换 URDF 网格引用，链接、关节、origin、scale、限位和惯量字段通过结构对比。
 
-源库已有的 235 条惯量缺失或零运动限位警告仍保留，未编造动力学参数。这些警告不影响几何和路径检查通过。详见[当前 URDF 和目录校验](asset-validation.json)、[GLB 网格审计](glb-mesh-audit.json)、[转换时多姿态对比](glb-loader-validation.json)。目录迁移后的全部 1,188 个 GLB/STL 也通过[几何审计](mesh-audit.json)，迁移前后再次完成 [201 组姿态对比](layout-validation.json)。
+当时源库的 235 条惯量缺失或零运动限位警告原样保留，未编造动力学参数。这些警告不影响几何和路径检查通过。详见[历史 URDF 和目录校验](asset-validation.json)、[历史 GLB 网格审计](glb-mesh-audit.json)、[转换时多姿态对比](glb-loader-validation.json)。当时目录迁移后的全部 1,188 个 GLB/STL 也通过[几何审计](mesh-audit.json)，迁移前后再次完成 [201 组姿态对比](layout-validation.json)。
 
-完整格式检查使用 [Khronos 官方校验器](https://github.com/KhronosGroup/glTF-Validator)，覆盖 glTF 结构和二进制访问器。逐文件结果与对应内容哈希见 [GLB 格式校验报告](glb-format-validation.json)，该检查已接入 CI。
+完整格式检查使用 [Khronos 官方校验器](https://github.com/KhronosGroup/glTF-Validator)，覆盖 glTF 结构和二进制访问器。逐文件结果与对应内容哈希见 [历史 GLB 格式校验报告](glb-format-validation.json)，该检查已接入 CI。
 
-## 外观和加载约定
+### 外观和加载约定
 
-DAE 的漫反射颜色、透明度、发光颜色及材质分组映射到 glTF 核心 PBR 材质；Phong 高光通过粗糙度近似表达。不同渲染器的光照和色彩管理会影响最终图像，不能保证与 COLLADA 渲染逐像素相同。STL 本身没有材质，装配外观仍依赖 URDF 的颜色设置。
+DAE 的漫反射颜色、透明度、发光颜色及材质分组映射到 glTF 核心 PBR 材质；Phong 高光通过粗糙度近似表达。不同渲染器的光照和色彩管理会影响最终图像，不能保证与 COLLADA 渲染逐像素相同。STL 本身没有材质；该次转档的部分 STL 外观当时依赖 URDF 颜色，后续步骤可将明确颜色嵌入 GLB，不能据此推断所有当前 GLB 都缺少材质。
 
 网格保留 URDF 的局部坐标和米制尺寸。glTF 采用右手坐标、米制和 Y 向上的约定；单独打开机器人零件时，查看器的默认相机可能与机器人查看器不同，加载配套 URDF 时不要再额外旋转网格。[Khronos glTF 2.0 规范](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html)
 
@@ -63,7 +85,7 @@ DAE 的漫反射颜色、透明度、发光颜色及材质分组映射到 glTF �
 | :---: | :---: |
 | ![RealSense D415 GLB](previews/glb-d415.png) | ![AE AIR10-1210 GLB](previews/glb-ae.png) |
 
-## 本机加载测量
+### 历史本机加载测量
 
 在同一台机器、文件系统缓存已预热的条件下，使用 `trimesh.load_scene(process=False)` 预热一次，再取 5 次加载的中位数。计时包含文件解析和场景构造，不代表整个仿真系统的帧率或冷启动性能。
 
@@ -74,12 +96,12 @@ DAE 的漫反射颜色、透明度、发光颜色及材质分组映射到 glTF �
 | Hans E10 外观 Link6 | 35.118 ms | 0.669 ms | 52.53× |
 | AE AIR35_1700 碰撞 Link1 | 8.089 ms | 1.014 ms | 7.97× |
 
-原始计时见 [glb-loading-benchmark.json](glb-loading-benchmark.json)。
+该阶段原始计时见 [glb-loading-benchmark.json](glb-loading-benchmark.json)。
 
-## 后续优化位置
+### 转档当时识别的优化方向
 
-1. **按需打包已支持。** 库中保留了 21 个暂未被 URDF 引用的 GLB，合计约 7.84 MiB。`export_assets.py --referenced-only` 可在干净目录仅导出选定模型实际需要的 GLB 和 URDF；UR5e 的独立打包与资源引用已通过检查。
-2. **高面数碰撞资源仍有潜力。** AE AIR35_1700 碰撞 Link1 为 165,329 面，AIR12_940 碰撞 Link1 为 160,436 面。继续压缩几何宜先按独立零件及机械特征分块，再制作专用碰撞近似或 LOD，并验证间隙、孔洞和接触需求。上一轮有 18 个密集网格未通过减面验收，本轮保留其表面。
+1. **按需打包已支持。** 当时保留了 21 个暂未被 URDF 引用的 GLB，合计约 7.84 MiB；这不是本轮新增型号后的未引用资源统计。`export_assets.py --referenced-only` 可在干净目录导出选定模型实际需要的 GLB、URDF 与随附许可/来源文件；UR5e 的独立打包与资源引用已通过检查。
+2. **高面数碰撞资源仍有潜力。** AE AIR35_1700 碰撞 Link1 为 165,329 面，AIR12_940 碰撞 Link1 为 160,436 面。继续压缩几何宜先按独立零件及机械特征分块，再制作专用碰撞近似或 LOD，并验证间隙、孔洞和接触需求。上一轮有 18 个密集网格未通过减面验收，该次转档保留其表面。
 3. **按渲染距离提供外观 LOD。** 小螺钉和内部细节适合在远景隐藏；近景主资产继续保留。模型级 LOD 需要消费端选择机制，当前通用 URDF 只使用一套外观。
 4. **动力学参数需要真实来源。** 惯量、质量和力矩/速度限位适合按厂商资料补齐，无法从外观转换可靠推导。
 

@@ -1,0 +1,1535 @@
+{
+  "summary": {
+    "mode": "apply",
+    "visual_glbs": 28,
+    "changed_glbs": 20,
+    "imported_visual_glbs_excluded": 0,
+    "changed_materials": 20,
+    "roles": {
+      "paint": 20
+    },
+    "all_changed_geometry_unchanged": true,
+    "profile": "assetsmodel-brand-materials-v1",
+    "palette_linear_rgba": {
+      "peitian_yellow": [
+        0.86315721,
+        0.4735315,
+        0.00972122,
+        1.0
+      ],
+      "kuka_orange": [
+        0.86315721,
+        0.1746474,
+        0.01520851,
+        1.0
+      ],
+      "fanuc_yellow": [
+        0.90466117,
+        0.59720179,
+        0.00802319,
+        1.0
+      ],
+      "motoman_blue": [
+        0.0,
+        0.15592646,
+        0.47932018,
+        1.0
+      ],
+      "ur_blue": [
+        0.19120168,
+        0.40197778,
+        0.57112483,
+        1.0
+      ],
+      "white_paint": [
+        0.77582222,
+        0.79129794,
+        0.7605245,
+        1.0
+      ],
+      "franka_shell": [
+        0.83879901,
+        0.85499261,
+        0.86315721,
+        1.0
+      ],
+      "graphite": [
+        0.03433981,
+        0.04373503,
+        0.05126946,
+        1.0
+      ],
+      "black_polymer": [
+        0.01444384,
+        0.01938236,
+        0.02518686,
+        1.0
+      ],
+      "aluminium": [
+        0.52099557,
+        0.55834039,
+        0.59061884,
+        1.0
+      ]
+    }
+  },
+  "generated_at": "2026-11-03T13:28:41.208767+00:00",
+  "files": [
+    {
+      "path": "RobotModel/AE/AIR10_1210/Visual/glb/BaseLink.glb",
+      "status": "unchanged",
+      "before_sha256": "7f0c742222d1260cfe2d74869ee46b25d5689ffe98e3abcd3399241f7648911e",
+      "bin_sha256": "330155311b7b1b1121591623030ea3c04f3102e0c8cfd9cc1bcf37a85adc8444",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/AE/AIR10_1210/Visual/glb/Link1.glb",
+      "status": "applied",
+      "before_sha256": "8fe51b29b7e1968cce99360a8d3115e26f9cde4ab10c15aca23a69c4daf244dd",
+      "bin_sha256": "e9f0ca577bcb2ab306517d1892c1417967a0398197a64a02560bd31b0858b62f",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Material_008-material",
+          "role": "paint",
+          "palette": "peitian_yellow",
+          "before": {
+            "name": "Material_008-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                1.0,
+                0.9215644,
+                0.01567951,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "Material_008-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.86315721,
+                0.4735315,
+                0.00972122,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": "peitian_yellow"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "44c7bfad0983db204effb9b6d9b607dcf9af0778c8145453661a91e63b4836f6",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 40196
+    },
+    {
+      "path": "RobotModel/AE/AIR10_1210/Visual/glb/Link2.glb",
+      "status": "applied",
+      "before_sha256": "a0e7e05ffb539e842460993cdbc3a0a3d3ca305e0627575b016e7516aa471010",
+      "bin_sha256": "4eafb43a7768ec972420ddc52f9ddcad9622ecfdd312470ed66bd3f65d3f4b3b",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Material_008-material",
+          "role": "paint",
+          "palette": "peitian_yellow",
+          "before": {
+            "name": "Material_008-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                1.0,
+                0.9215644,
+                0.01567951,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "Material_008-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.86315721,
+                0.4735315,
+                0.00972122,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": "peitian_yellow"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "ab3289c5dd4b5884bd377ea1ad81a03b60785633cb1437cd2addde0e0df76bf2",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 33012
+    },
+    {
+      "path": "RobotModel/AE/AIR10_1210/Visual/glb/Link3.glb",
+      "status": "applied",
+      "before_sha256": "f27dcc5f57d7cabd6cb1bb9d5bd0f17490d51df6ff272cb90ab6501a4c999ab7",
+      "bin_sha256": "5922590b837eb9681b470621faf9bb5ecdcca8c369f58bdcfa18d05018dbe008",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Material_008-material",
+          "role": "paint",
+          "palette": "peitian_yellow",
+          "before": {
+            "name": "Material_008-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                1.0,
+                0.9215644,
+                0.01567951,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "Material_008-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.86315721,
+                0.4735315,
+                0.00972122,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": "peitian_yellow"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "aca1728b196de75e741fc596d213271a4be0cfacd3ab9a466337dd6f5ec671b6",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 20000
+    },
+    {
+      "path": "RobotModel/AE/AIR10_1210/Visual/glb/Link4.glb",
+      "status": "applied",
+      "before_sha256": "52ec1f8bee2bff8f64d4e88c77a58a91b945f8e58e302a42f6434d0dd994e033",
+      "bin_sha256": "94e31b66810201562b04b1845bfee36d294f42fdbc0bdc53d94cccc7aa823284",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Material_008-material",
+          "role": "paint",
+          "palette": "peitian_yellow",
+          "before": {
+            "name": "Material_008-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                1.0,
+                0.9215644,
+                0.01567951,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "Material_008-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.86315721,
+                0.4735315,
+                0.00972122,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": "peitian_yellow"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "8d744f84b85da13913b6747dc15beabc7e91e0119c66a52dc93aa7decd001202",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 23357
+    },
+    {
+      "path": "RobotModel/AE/AIR10_1210/Visual/glb/Link5.glb",
+      "status": "applied",
+      "before_sha256": "82941db32f1cc8e6d4e72551a92d051194bc62a8e8e137f4ec25d1ec3766cf0d",
+      "bin_sha256": "150c482b88caf096eb035638560ad805a02df9222d2d5395775ed0b13fbff997",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Material_008-material",
+          "role": "paint",
+          "palette": "peitian_yellow",
+          "before": {
+            "name": "Material_008-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                1.0,
+                0.9215644,
+                0.01567951,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "Material_008-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.86315721,
+                0.4735315,
+                0.00972122,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": "peitian_yellow"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "af20c4c6aeb2be4ba229a309406260a14edaeea7cef4231d1ff8b4c0f6e3e684",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 20000
+    },
+    {
+      "path": "RobotModel/AE/AIR10_1210/Visual/glb/Link6.glb",
+      "status": "unchanged",
+      "before_sha256": "5f7d828ff67051b7e644393cada71ada66a6ce1eb0ad5edffe1668be268a6064",
+      "bin_sha256": "0ea78ccadabca4fe3f4bd319bd03f3edf3d127a657f3f88bb5c81477bb9463d2",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/AE/AIR10_1720/Visual/glb/BaseLink.glb",
+      "status": "unchanged",
+      "before_sha256": "515088c4951e9bc9ba7b448a15b0e9d7f209fdca81a8bd1c5bc1f5bd3c47241a",
+      "bin_sha256": "8f0b5008b56f8878b6191718b2e8e6fa7037b78a416d1af8914c76c5adf75adb",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/AE/AIR10_1720/Visual/glb/Link1.glb",
+      "status": "applied",
+      "before_sha256": "2e7820a3a86dba23192db854f35d777468de0ad83a86932ec452ee88bba62176",
+      "bin_sha256": "41a32ce65f91bcfe7853f3ae6fe8899819e84bc6e2e908f5d5a242ab3bf7e45e",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Material_017-material",
+          "role": "paint",
+          "palette": "peitian_yellow",
+          "before": {
+            "name": "Material_017-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                1.0,
+                0.9215644,
+                0.01567951,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "Material_017-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.86315721,
+                0.4735315,
+                0.00972122,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": "peitian_yellow"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "75779bcfd884f35d04185dfe49fafc2dd4bb6b7ee1c3e2d0f22951c826a760df",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 20000
+    },
+    {
+      "path": "RobotModel/AE/AIR10_1720/Visual/glb/Link2.glb",
+      "status": "applied",
+      "before_sha256": "a7757c06820d176a2346724cb4718c1ffcad72c9d6fbc6b0e0742dcab84c6b67",
+      "bin_sha256": "9fb2d09a69263bfa176cc2e2a881242fc78c3766ca80e4f67591004b87876340",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Material_017-material",
+          "role": "paint",
+          "palette": "peitian_yellow",
+          "before": {
+            "name": "Material_017-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                1.0,
+                0.9215644,
+                0.01567951,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "Material_017-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.86315721,
+                0.4735315,
+                0.00972122,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": "peitian_yellow"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "2ce64ff2650cd421d865bca70726ffc1476931424779488b61cd61df4f7fd6a0",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 48295
+    },
+    {
+      "path": "RobotModel/AE/AIR10_1720/Visual/glb/Link3.glb",
+      "status": "applied",
+      "before_sha256": "f98171d9c8991d028bdae4897fa0a23e7343dedee24809eb4d3eda5bbb715d31",
+      "bin_sha256": "5e835aefc93b2ee3005703a915dedd637342bc3afabe37a46b124e188db75118",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Material_017-material",
+          "role": "paint",
+          "palette": "peitian_yellow",
+          "before": {
+            "name": "Material_017-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                1.0,
+                0.9215644,
+                0.01567951,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "Material_017-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.86315721,
+                0.4735315,
+                0.00972122,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": "peitian_yellow"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "bb2c6e2ce537364a0d214869b71e7a169f880d94e373a316456782f534347e75",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 37332
+    },
+    {
+      "path": "RobotModel/AE/AIR10_1720/Visual/glb/Link4.glb",
+      "status": "applied",
+      "before_sha256": "d075212a7b1b3f963df5ef27a9f8e3e832eed209d1ae3df4534ba61b211dd509",
+      "bin_sha256": "64013b1c92363a830c56ce30cf95925b98653bde3d101106289d1812cba9ba9a",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Material_017-material",
+          "role": "paint",
+          "palette": "peitian_yellow",
+          "before": {
+            "name": "Material_017-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                1.0,
+                0.9215644,
+                0.01567951,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "Material_017-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.86315721,
+                0.4735315,
+                0.00972122,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": "peitian_yellow"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "f99e82a07822320994c54543bc39af5d6f6399903306f2db8f2a3d6854d99bd1",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 20000
+    },
+    {
+      "path": "RobotModel/AE/AIR10_1720/Visual/glb/Link5.glb",
+      "status": "applied",
+      "before_sha256": "67479fb7494eff482c816caed29ef65b9f14919dd5ad3acdc0b43c225b84d42f",
+      "bin_sha256": "a1769e3896016be96c4ff6dcae57c96e0a509192a0c78aa9f8548e78200cc454",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Material_017-material",
+          "role": "paint",
+          "palette": "peitian_yellow",
+          "before": {
+            "name": "Material_017-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                1.0,
+                0.9215644,
+                0.01567951,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "Material_017-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.86315721,
+                0.4735315,
+                0.00972122,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": "peitian_yellow"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "1766f2b14c966228300fe3f773679a1f7d262f772eba982e09b030230bf86103",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 19999
+    },
+    {
+      "path": "RobotModel/AE/AIR10_1720/Visual/glb/Link6.glb",
+      "status": "unchanged",
+      "before_sha256": "edd4e61337963b6b23bdbb61b1162387d9430543dc52be430e0010c33d166db4",
+      "bin_sha256": "7ea85579b2387af9e25786ea8708953b4b3407de60da2871c825df62aea3a2bb",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/AE/AIR12_940/Visual/glb/BaseLink.glb",
+      "status": "unchanged",
+      "before_sha256": "d1b68da36310c0b476a5306c71e51ec455fdb14cdee621fe0ae4a36f9b538963",
+      "bin_sha256": "3f4a1e71bb1bc2ad0018ab9c715ffb0d7e5f81dbc2f8878e9cb6ce0baf6e1239",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/AE/AIR12_940/Visual/glb/Link1.glb",
+      "status": "applied",
+      "before_sha256": "6c5c8be3b91abc572d8281d3fcb0566b96b3de0b28f09c82afd8d9b8e9d957ea",
+      "bin_sha256": "37c1c7f8410af17a8f0d8f8db923e2c9260da0bc4fe3477d49615c05edb03547",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Material_018-material",
+          "role": "paint",
+          "palette": "peitian_yellow",
+          "before": {
+            "name": "Material_018-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                1.0,
+                0.9215644,
+                0.01567951,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "Material_018-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.86315721,
+                0.4735315,
+                0.00972122,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": "peitian_yellow"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "3c8440ee9ec61dbbe7f756c9d9cbf4e750cfbcff8a2048c695e59f1d048b025c",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 160436
+    },
+    {
+      "path": "RobotModel/AE/AIR12_940/Visual/glb/Link2.glb",
+      "status": "applied",
+      "before_sha256": "c4b1c7cbebc4181b8410e0be8d909988a1dd3bf5b50f336349596d21c781c463",
+      "bin_sha256": "3a4a1f1d4f415d5bc123ad76dc2d38320b70644e23236b731e2525e71831dce7",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Material_017-material",
+          "role": "paint",
+          "palette": "peitian_yellow",
+          "before": {
+            "name": "Material_017-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                1.0,
+                0.9215644,
+                0.01567951,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "Material_017-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.86315721,
+                0.4735315,
+                0.00972122,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": "peitian_yellow"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "cff88a8f7724eafd9b71efd4fb61f515394d67c77e1c31cdd551bdb90f7af74f",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 20000
+    },
+    {
+      "path": "RobotModel/AE/AIR12_940/Visual/glb/Link3.glb",
+      "status": "applied",
+      "before_sha256": "51d1c6f22ecbb40203241730d1bb1f25115bd9a0609eb923f3980006e2b40b74",
+      "bin_sha256": "aea7b7440158ab458e13e04fc7479456b687e578bb011d9d85ad470b727554e8",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Material_018-material",
+          "role": "paint",
+          "palette": "peitian_yellow",
+          "before": {
+            "name": "Material_018-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                1.0,
+                0.9215644,
+                0.01567951,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "Material_018-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.86315721,
+                0.4735315,
+                0.00972122,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": "peitian_yellow"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "fa10635eda962ae2a2b97cf2ac417ff9cd54bf5bf54af08b03bd27acb76509c2",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 20000
+    },
+    {
+      "path": "RobotModel/AE/AIR12_940/Visual/glb/Link4.glb",
+      "status": "applied",
+      "before_sha256": "b34348814205ff4ea1fd0e736b21a5ca5e2841185833fdda8c63eb4e95409cf9",
+      "bin_sha256": "aab6ef5ab0b257469a136d7960cc9b7063a9c003ef8f227ec3b0df21e7738a42",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Material_018-material",
+          "role": "paint",
+          "palette": "peitian_yellow",
+          "before": {
+            "name": "Material_018-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                1.0,
+                0.9215644,
+                0.01567951,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "Material_018-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.86315721,
+                0.4735315,
+                0.00972122,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": "peitian_yellow"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "b99e923fc0bad6a35e7be452e01be39285f7d13785276612eaf3eea641da3a5a",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 42504
+    },
+    {
+      "path": "RobotModel/AE/AIR12_940/Visual/glb/Link5.glb",
+      "status": "applied",
+      "before_sha256": "d3127e8f16c6d94bc0d987f4e6d62961eaa3ce91291d745e470b6c2f0265d8b0",
+      "bin_sha256": "e500f7ef3b562769ad6670ce7811b9721cb1d532606dfe87c0f71a0326066f91",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Material_022-material",
+          "role": "paint",
+          "palette": "peitian_yellow",
+          "before": {
+            "name": "Material_022-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                1.0,
+                0.9215644,
+                0.01567951,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "Material_022-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.86315721,
+                0.4735315,
+                0.00972122,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": "peitian_yellow"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "4c8a905875f12b5daf0ded587a4d5c2fd8172d7fc79f0e325c7f60cad903313b",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 20000
+    },
+    {
+      "path": "RobotModel/AE/AIR12_940/Visual/glb/Link6.glb",
+      "status": "unchanged",
+      "before_sha256": "0d5418054a10d7ae4d5626f92a0aaefde9b6a76334c99f1904bf661faa658ad3",
+      "bin_sha256": "c4f2e20a183625df75e6dd81390ccc1ef159a844a930c807e55f5d846051aa06",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/AE/AIR35_1700/Visual/glb/BaseLink.glb",
+      "status": "unchanged",
+      "before_sha256": "8b72bc6619b1bb4b7dc5d7fb17fb33ce0edbbc958e56c2cb44a8640c14ef6786",
+      "bin_sha256": "93f95cea7c3ceec768c668688bab4010e3e9a41d8f24053f44bd18eea8d79913",
+      "materials": []
+    },
+    {
+      "path": "RobotModel/AE/AIR35_1700/Visual/glb/Link1.glb",
+      "status": "applied",
+      "before_sha256": "49a4c15ddcf25f243e351f26eefe1949177b5877855657d06531a6af2927876e",
+      "bin_sha256": "017fbf84458ed450645559187eb150bfb637b2167cba49086e15797becd0b08b",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Material_017-material",
+          "role": "paint",
+          "palette": "peitian_yellow",
+          "before": {
+            "name": "Material_017-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                1.0,
+                0.9215644,
+                0.01567951,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "Material_017-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.86315721,
+                0.4735315,
+                0.00972122,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": "peitian_yellow"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "18cfaa26d9d527e65e68fd0473db7e30def2e72ef5a21b535589a2364e55587b",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 94474
+    },
+    {
+      "path": "RobotModel/AE/AIR35_1700/Visual/glb/Link2.glb",
+      "status": "applied",
+      "before_sha256": "b0460512058f04719c5ce6f948697e91d191f3105c7c85ee8e38a343429c9460",
+      "bin_sha256": "15067d0ad78482a10e4914239ba70d680779582d56c68be21d8fa0669b5074b0",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Material_018-material",
+          "role": "paint",
+          "palette": "peitian_yellow",
+          "before": {
+            "name": "Material_018-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                1.0,
+                0.9215644,
+                0.01567951,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "Material_018-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.86315721,
+                0.4735315,
+                0.00972122,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": "peitian_yellow"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "f2ea9e4eae60f7f9039a8081631c89b0c86fa05ed3367e9449722f047b6859ad",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 30690
+    },
+    {
+      "path": "RobotModel/AE/AIR35_1700/Visual/glb/Link3.glb",
+      "status": "applied",
+      "before_sha256": "ebeb77f15b2a8f0ea15533d91d1e666360243483ff56befba9b8bff346a29bdc",
+      "bin_sha256": "9aa67557cf8512ac715b4366ba183cb2c85bab7717f0172e85241deca8c1ff31",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Material_022-material",
+          "role": "paint",
+          "palette": "peitian_yellow",
+          "before": {
+            "name": "Material_022-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                1.0,
+                0.9215644,
+                0.01567951,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "Material_022-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.86315721,
+                0.4735315,
+                0.00972122,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": "peitian_yellow"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "a6d4bceb906bb2999c8a52738d1ed0149474ffd670b83b4ba0629a74209f8162",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 47466
+    },
+    {
+      "path": "RobotModel/AE/AIR35_1700/Visual/glb/Link4.glb",
+      "status": "applied",
+      "before_sha256": "435684437d66a89c493a3b47d2c491fe541dab317b7065a3004cace62ab093ac",
+      "bin_sha256": "e4ddde5800e2d3d4d649004375da3ef92e2de829ed98abb4a5a8d1fab0a28318",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Material_006-material",
+          "role": "paint",
+          "palette": "peitian_yellow",
+          "before": {
+            "name": "Material_006-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                1.0,
+                0.9215644,
+                0.01567951,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "Material_006-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.86315721,
+                0.4735315,
+                0.00972122,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": "peitian_yellow"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "dbe00fe40d091365807f8846488a7b34743ae567bf80be7752cd8c89ff68c0f3",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 96889
+    },
+    {
+      "path": "RobotModel/AE/AIR35_1700/Visual/glb/Link5.glb",
+      "status": "applied",
+      "before_sha256": "27ff63f5dae734aafb0016472c5e1600ca0c6aa93b104b97308411d47ec9e422",
+      "bin_sha256": "ebe1e65c97d83146f5ce7ed8f4b47cd50c1b1c5cecc85929c370b1e803f5d356",
+      "materials": [
+        {
+          "index": 0,
+          "name": "Material_006-material",
+          "role": "paint",
+          "palette": "peitian_yellow",
+          "before": {
+            "name": "Material_006-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                1.0,
+                0.9215644,
+                0.01567951,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": null
+              }
+            }
+          },
+          "after": {
+            "name": "Material_006-material",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.86315721,
+                0.4735315,
+                0.00972122,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.36
+            },
+            "doubleSided": false,
+            "emissiveFactor": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "extras": {
+              "assetsmodel_material": {
+                "profile": "assetsmodel-brand-materials-v1",
+                "role": "paint",
+                "palette": "peitian_yellow"
+              }
+            }
+          }
+        }
+      ],
+      "after_sha256": "d30388269f997749a0672edc4eef552966ee48649e9565323df1f1ed817a7bce",
+      "geometry_unchanged": true,
+      "non_material_json_unchanged": true,
+      "triangles": 20000
+    },
+    {
+      "path": "RobotModel/AE/AIR35_1700/Visual/glb/Link6.glb",
+      "status": "unchanged",
+      "before_sha256": "d10b204443bd8508dd3732ddabf0f4e97b8be2069eb43f91ae3b565ab081c146",
+      "bin_sha256": "6ea50ce710a774dd45e5b8e0852e280593995f3324e0480260fc9b6cd7d82945",
+      "materials": []
+    }
+  ]
+}

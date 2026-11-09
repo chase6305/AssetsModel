@@ -1,0 +1,252 @@
+{
+  "generated_at": "2026-11-03T13:23:58.145397+00:00",
+  "scope": "Six KR210_L150 visual trial GLBs only; current asset files are not modified.",
+  "summary": {
+    "files": 6,
+    "independent_corner_comparisons_passed": 6,
+    "khronos_trial_tree_meshes": 14,
+    "khronos_errors": 0,
+    "khronos_warnings": 0,
+    "current_high_draw_call_candidates_minimum_5": 27,
+    "minimum_5_draw_call_candidates_outside_six_trial_files": 23,
+    "khronos_reproduced_six_meshes": 6,
+    "khronos_reproduced_six_errors": 0,
+    "khronos_reproduced_six_warnings": 0,
+    "regression_tests_passed": 15,
+    "all_six_reproduced_sha256_identical_to_initial_trial": true
+  },
+  "verification_method": "Independent stdlib struct decoder and Counter over every oriented triangle/line corner raw attribute tuple, full material JSON and every scene. Does not call batch_visual_meshes.scene_corner_multisets. Flat identity transforms checked explicitly.",
+  "files": [
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link1.glb",
+      "source_sha256": "f33129ffd38803f52569a7a44eda4f61c5760567ca1752d82080bab178b25323",
+      "trial_sha256": "721b2ca7be567485c1def0d05f7ad7ff36b2475ed03f9418a107033198613a66",
+      "independent_corner_attribute_material_multisets_equal_per_scene": true,
+      "identity_flat_nodes_verified": true,
+      "scene_surface_primitive_counts": [
+        11282,
+        11289
+      ],
+      "source_cross_material_opposite_winding_groups": 2032,
+      "source_cross_material_same_winding_groups": 0,
+      "all_source_materials_single_sided": true
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link2.glb",
+      "source_sha256": "6f5d7908b0e10b6cac04797183764007f85745b4bcf2b2db3cd06baf06fd2263",
+      "trial_sha256": "879491f619e24548d2ff0603afadfd07bd23f7afb11d016a320e09cd429370fe",
+      "independent_corner_attribute_material_multisets_equal_per_scene": true,
+      "identity_flat_nodes_verified": true,
+      "scene_surface_primitive_counts": [
+        30004,
+        30007
+      ],
+      "source_cross_material_opposite_winding_groups": 0,
+      "source_cross_material_same_winding_groups": 0,
+      "all_source_materials_single_sided": true
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link3.glb",
+      "source_sha256": "2c1644f67030a136ecb466ce38d3e3eb5be283ae21d1f20cb5ed4d59c7ec1031",
+      "trial_sha256": "ab74bea73c36ba42e72f1b5e62294472f0058e3a378c485d2a10c83f05281e2d",
+      "independent_corner_attribute_material_multisets_equal_per_scene": true,
+      "identity_flat_nodes_verified": true,
+      "scene_surface_primitive_counts": [
+        11806
+      ],
+      "source_cross_material_opposite_winding_groups": 628,
+      "source_cross_material_same_winding_groups": 0,
+      "all_source_materials_single_sided": true
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link4.glb",
+      "source_sha256": "c4a83a2bd4d2e4fc63834602ac5c0542bb7e97c7efbeef62c6b62dcab2e7998c",
+      "trial_sha256": "f64024f021299a59e32502bac65fdcf349ea259a8337aa180d242b8ba8bf2f4a",
+      "independent_corner_attribute_material_multisets_equal_per_scene": true,
+      "identity_flat_nodes_verified": true,
+      "scene_surface_primitive_counts": [
+        6760,
+        6790
+      ],
+      "source_cross_material_opposite_winding_groups": 0,
+      "source_cross_material_same_winding_groups": 0,
+      "all_source_materials_single_sided": true
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link5.glb",
+      "source_sha256": "f35f751c634c640d649f76be17923ace32900d54f1335fc6386430a0c3d4ad9e",
+      "trial_sha256": "fd21613832f83e0be19ce3ff314cf94af512dd2a756941ddc3ab0358c6debb4a",
+      "independent_corner_attribute_material_multisets_equal_per_scene": true,
+      "identity_flat_nodes_verified": true,
+      "scene_surface_primitive_counts": [
+        14022,
+        14023
+      ],
+      "source_cross_material_opposite_winding_groups": 0,
+      "source_cross_material_same_winding_groups": 0,
+      "all_source_materials_single_sided": true
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link6.glb",
+      "source_sha256": "8896c76b8a16713baf4dc22769f0076afa9bf3442ba21a07ec6472e7aa60f7dd",
+      "trial_sha256": "bd090a3656bad758a9af529f0cbbb46219e72b71e990d491d5f8a324319107ba",
+      "independent_corner_attribute_material_multisets_equal_per_scene": true,
+      "identity_flat_nodes_verified": true,
+      "scene_surface_primitive_counts": [
+        11712
+      ],
+      "source_cross_material_opposite_winding_groups": 0,
+      "source_cross_material_same_winding_groups": 0,
+      "all_source_materials_single_sided": true
+    }
+  ],
+  "expansion_candidates_only": [
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link1.glb",
+      "draw_calls": 67,
+      "semantic_material_groups": 2
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link6.glb",
+      "draw_calls": 50,
+      "semantic_material_groups": 1
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link3.glb",
+      "draw_calls": 24,
+      "semantic_material_groups": 2
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/BaseLink.glb",
+      "draw_calls": 18,
+      "semantic_material_groups": 2
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3/Visual/glb/Link2.glb",
+      "draw_calls": 11,
+      "semantic_material_groups": 3
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link2.glb",
+      "draw_calls": 11,
+      "semantic_material_groups": 3
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Visual/glb/link6.glb",
+      "draw_calls": 8,
+      "semantic_material_groups": 6
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR10e/Visual/glb/Link2.glb",
+      "draw_calls": 8,
+      "semantic_material_groups": 4
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5e/Visual/glb/Link2.glb",
+      "draw_calls": 8,
+      "semantic_material_groups": 4
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Visual/glb/link0.glb",
+      "draw_calls": 7,
+      "semantic_material_groups": 5
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_2/Visual/glb/Link1.glb",
+      "draw_calls": 7,
+      "semantic_material_groups": 2
+    },
+    {
+      "path": "RobotModel/KUKA/KR5_ARC/Visual/glb/Link1.glb",
+      "draw_calls": 7,
+      "semantic_material_groups": 2
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR10e/Visual/glb/Link3.glb",
+      "draw_calls": 7,
+      "semantic_material_groups": 4
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link3.glb",
+      "draw_calls": 7,
+      "semantic_material_groups": 4
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5/Visual/glb/upperarm.glb",
+      "draw_calls": 7,
+      "semantic_material_groups": 4
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR5e/Visual/glb/Link3.glb",
+      "draw_calls": 7,
+      "semantic_material_groups": 4
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_2/Visual/glb/Link3.glb",
+      "draw_calls": 6,
+      "semantic_material_groups": 2
+    },
+    {
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link2.glb",
+      "draw_calls": 6,
+      "semantic_material_groups": 1
+    },
+    {
+      "path": "RobotModel/KUKA/KR5_ARC/Visual/glb/Link2.glb",
+      "draw_calls": 6,
+      "semantic_material_groups": 5
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3/Visual/glb/Link1.glb",
+      "draw_calls": 6,
+      "semantic_material_groups": 3
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3/Visual/glb/Link3.glb",
+      "draw_calls": 6,
+      "semantic_material_groups": 3
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR3e/Visual/glb/Link1.glb",
+      "draw_calls": 6,
+      "semantic_material_groups": 3
+    },
+    {
+      "path": "RobotModel/Franka/FR3/Visual/glb/hand.glb",
+      "draw_calls": 5,
+      "semantic_material_groups": 3
+    },
+    {
+      "path": "RobotModel/KUKA/KR120_R2500_PRO/Visual/glb/Link3.glb",
+      "draw_calls": 5,
+      "semantic_material_groups": 2
+    },
+    {
+      "path": "RobotModel/KUKA/KR150_2/Visual/glb/Link4.glb",
+      "draw_calls": 5,
+      "semantic_material_groups": 2
+    },
+    {
+      "path": "RobotModel/KUKA/KR16_2/Visual/glb/Link3.glb",
+      "draw_calls": 5,
+      "semantic_material_groups": 2
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR10/Visual/glb/Link3.glb",
+      "draw_calls": 5,
+      "semantic_material_groups": 4
+    }
+  ],
+  "additional_format_fixture": {
+    "description": "Normalized RGB unsigned-byte vertex colors with four-byte aligned rows after compaction",
+    "validator": "Khronos glTF-Validator",
+    "version": "2.0.0-dev.3.10",
+    "errors": 0,
+    "warnings": 0
+  },
+  "adoption": {
+    "status": "applied",
+    "applied_report": "batching-applied.json",
+    "visual_validation": "batching-eevee-comparison.json"
+  }
+}

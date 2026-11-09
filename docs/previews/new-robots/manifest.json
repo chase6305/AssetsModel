@@ -1,0 +1,92 @@
+{
+  "renders": [
+    {
+      "id": "ufact-xarm6",
+      "label": "UFACTORY xArm6",
+      "urdf": "RobotModel/UFACTORY/xArm6/xArm6.urdf",
+      "view": "hero",
+      "joints": {},
+      "image": "ufact-xarm6-hero.png",
+      "source_sha256": "e99bfd29be0cbd6e150ef8040359f1a15bc63d65e67957a2776051053f205330"
+    },
+    {
+      "id": "ufact-xarm6",
+      "label": "UFACTORY xArm6",
+      "urdf": "RobotModel/UFACTORY/xArm6/xArm6.urdf",
+      "view": "rear",
+      "joints": {},
+      "image": "ufact-xarm6-rear.png",
+      "source_sha256": "cd5a03ba2d8efe35b5e6cda14c97153f56fdf91d9bf3e7863dbf977146c9f790"
+    },
+    {
+      "id": "ufact-lite6",
+      "label": "UFACTORY Lite6",
+      "urdf": "RobotModel/UFACTORY/Lite6/Lite6.urdf",
+      "view": "hero",
+      "joints": {},
+      "image": "ufact-lite6-hero.png",
+      "source_sha256": "fbc61ba259ed82ff10801d7447ec3adf9126d5e31cefb240e6bc3af8f92b557b"
+    },
+    {
+      "id": "ufact-lite6",
+      "label": "UFACTORY Lite6",
+      "urdf": "RobotModel/UFACTORY/Lite6/Lite6.urdf",
+      "view": "rear",
+      "joints": {},
+      "image": "ufact-lite6-rear.png",
+      "source_sha256": "5fdd219245ecb3d02c1a3c2503e82684fedc609dc2d79d375c80253ecf5acccc"
+    },
+    {
+      "id": "kuka-iiwa14",
+      "label": "KUKA LBR iiwa 14 R820",
+      "urdf": "RobotModel/KUKA/iiwa14/iiwa14.urdf",
+      "view": "hero",
+      "joints": {
+        "iiwa_joint_2": 0.65,
+        "iiwa_joint_4": -1.1,
+        "iiwa_joint_6": 0.8
+      },
+      "image": "kuka-iiwa14-hero.png",
+      "source_sha256": "271a02d5ee2863d6c136013f83f389e2d1973155568bd312f349e872a98924f3"
+    },
+    {
+      "id": "kuka-iiwa14",
+      "label": "KUKA LBR iiwa 14 R820",
+      "urdf": "RobotModel/KUKA/iiwa14/iiwa14.urdf",
+      "view": "rear",
+      "joints": {
+        "iiwa_joint_2": 0.65,
+        "iiwa_joint_4": -1.1,
+        "iiwa_joint_6": 0.8
+      },
+      "image": "kuka-iiwa14-rear.png",
+      "source_sha256": "ce8ecf1e83a1484ec14a38944833e0e968e441c3071500603fdb57d6a1e5072a"
+    },
+    {
+      "id": "kinova-gen3",
+      "label": "Kinova Gen3 \u00b7 7 DOF",
+      "urdf": "RobotModel/Kinova/Gen3/Gen3.urdf",
+      "view": "hero",
+      "joints": {
+        "joint_2": 0.5,
+        "joint_4": 1.1,
+        "joint_6": -0.6
+      },
+      "image": "kinova-gen3-hero.png",
+      "source_sha256": "f63774a397e7ef8fdc4e3262ed4674e1a7389ac41e112be5885a35fa316d27f6"
+    },
+    {
+      "id": "kinova-gen3",
+      "label": "Kinova Gen3 \u00b7 7 DOF",
+      "urdf": "RobotModel/Kinova/Gen3/Gen3.urdf",
+      "view": "rear",
+      "joints": {
+        "joint_2": 0.5,
+        "joint_4": 1.1,
+        "joint_6": -0.6
+      },
+      "image": "kinova-gen3-rear.png",
+      "source_sha256": "03a059230e17912f2cd5e8b39caaf08d5c85de16dd6530fa22ac28badaf0d9ee"
+    }
+  ]
+}

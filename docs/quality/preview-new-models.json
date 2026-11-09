@@ -1,0 +1,50 @@
+{
+  "models": [
+    {
+      "id": "ufact-xarm6",
+      "label": "UFACTORY xArm6",
+      "urdf": "RobotModel/UFACTORY/xArm6/xArm6.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ]
+    },
+    {
+      "id": "ufact-lite6",
+      "label": "UFACTORY Lite6",
+      "urdf": "RobotModel/UFACTORY/Lite6/Lite6.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ]
+    },
+    {
+      "id": "kuka-iiwa14",
+      "label": "KUKA LBR iiwa 14 R820",
+      "urdf": "RobotModel/KUKA/iiwa14/iiwa14.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "joints": {
+        "iiwa_joint_2": 0.65,
+        "iiwa_joint_4": -1.1,
+        "iiwa_joint_6": 0.8
+      }
+    },
+    {
+      "id": "kinova-gen3",
+      "label": "Kinova Gen3 \u00b7 7 DOF",
+      "urdf": "RobotModel/Kinova/Gen3/Gen3.urdf",
+      "views": [
+        "hero",
+        "rear"
+      ],
+      "joints": {
+        "joint_2": 0.5,
+        "joint_4": 1.1,
+        "joint_6": -0.6
+      }
+    }
+  ]
+}

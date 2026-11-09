@@ -1,0 +1,28 @@
+{
+  "pack": "/tmp/assetsmodel-session-final-brand-before-packs/ur5e",
+  "view": "rear",
+  "azimuth_degrees": 125.00000000000001,
+  "elevation_degrees": 22.0,
+  "width": 1000,
+  "height": 900,
+  "samples": 128,
+  "theme": "dark",
+  "engine": "BLENDER_EEVEE",
+  "view_transform": "AgX",
+  "single_sided_materials": "native culling",
+  "blender": "5.2.2 LTS",
+  "parts": 27,
+  "bounds_m": [
+    [
+      -0.8563469296405517,
+      -0.23293517941236486,
+      0.0
+    ],
+    [
+      0.07549899071455002,
+      0.07552540302276611,
+      0.2345237781405449
+    ]
+  ],
+  "ortho_scale": 2.421643018722534
+}

@@ -1,0 +1,262 @@
+{
+  "observed_at": "2026-11-03T13:26:20.658033+00:00",
+  "scope": "Independent documentation/image/invariant review; observed state only, not final session completion.",
+  "documents_updated": [
+    "docs/BRAND_MATERIALS.md",
+    "docs/VISUAL_QUALITY.md"
+  ],
+  "primary_sources_verified": [
+    {
+      "url": "https://www.peitianrobot.com/desktop/271.html",
+      "supports": "AIR10-1210 belongs to Peitian; retain AE directory"
+    },
+    {
+      "url": "https://www.huayan-robotics.com/elfin",
+      "supports": "Elfin E05/E10 family; aluminium-alloy body, dielectric coating approximation"
+    },
+    {
+      "url": "https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html#default-material",
+      "supports": "glTF default material and property defaults"
+    },
+    {
+      "url": "https://www.agile-robots.com/en/products/diana-7/",
+      "supports": "Diana 7 identity and product imagery"
+    },
+    {
+      "url": "https://franka.de/franka-research-3",
+      "supports": "FR3 identity"
+    },
+    {
+      "url": "https://www.fanucamerica.com/docs/default-source/fanuc-robot-datasheets-new/flyer-m-10id-12-en.pdf",
+      "supports": "M-10iD/12 official sheet"
+    },
+    {
+      "url": "https://www.kuka.com/en-de/products/robotics-systems/industrial-robots/kr-agilus",
+      "supports": "KR AGILUS family"
+    },
+    {
+      "url": "https://new.abb.com/products/robotics/nl/onze-robots/articulated-robots/irb-1200",
+      "supports": "IRB1200 variants"
+    }
+  ],
+  "image_reviews": [
+    {
+      "path": "docs/previews/brands-after/abb-irb1200-hero.png",
+      "sha256": "417653a3c190f8bc64a2f3bc659bdbdf3d9e6f564104d0510314f146765eaf43",
+      "status": "viewed"
+    },
+    {
+      "path": "docs/previews/brands-before/ae-air10-hero.png",
+      "sha256": "27a59df0251dfc0895b3cc28e4ac72e1db93c3a6c158cc40de13d25a5ededdf1",
+      "status": "viewed"
+    },
+    {
+      "path": "docs/previews/brands-after/ae-air10-hero.png",
+      "sha256": "f04a43d02145a43b971adea5907965dacb5dbc08e9c97906bdd8e4d3bef837b3",
+      "status": "viewed"
+    },
+    {
+      "path": "docs/previews/brands-before/agile-diana7-hero.png",
+      "sha256": "c6d4e107766b0e28fe6bb4ebda89fd24f4a66c54fa6f80ef72d853a9a3da023c",
+      "status": "viewed"
+    },
+    {
+      "path": "docs/previews/brands-after/agile-diana7-hero.png",
+      "sha256": "35159f0385dbdda7c50196b6818283ad226daca5069550bb936e005abbea6071",
+      "status": "viewed"
+    },
+    {
+      "path": "docs/previews/new-robots/ufact-xarm6-hero.png",
+      "sha256": "b430c4099f9bb7bfeea8492600b14e54a440b0296b8b4575f05a326e7d23a477",
+      "status": "viewed"
+    },
+    {
+      "path": "docs/previews/new-robots/ufact-lite6-hero.pending.png",
+      "sha256": null,
+      "status": "pending_image_viewed_then_replaced_by_active_queue"
+    }
+  ],
+  "paired_render_metadata": [
+    {
+      "model": "abb-irb1200",
+      "view": "hero",
+      "metadata_equal_except_pack_path": true
+    },
+    {
+      "model": "abb-irb1200",
+      "view": "rear",
+      "metadata_equal_except_pack_path": true
+    },
+    {
+      "model": "ae-air10",
+      "view": "hero",
+      "metadata_equal_except_pack_path": true
+    },
+    {
+      "model": "ae-air10",
+      "view": "rear",
+      "metadata_equal_except_pack_path": true
+    },
+    {
+      "model": "agile-diana7",
+      "view": "hero",
+      "metadata_equal_except_pack_path": true
+    },
+    {
+      "model": "agile-diana7",
+      "view": "rear",
+      "metadata_equal_except_pack_path": true
+    }
+  ],
+  "visual_findings": [
+    {
+      "model": "ABB IRB1200",
+      "finding": "Dark background separates white silhouette. Some source shoulder/elbow faceting remains visible; the image alone does not establish a new defect.",
+      "action": "Inspect source geometry/normals before further smoothing."
+    },
+    {
+      "model": "Peitian AIR10-1210 (AE)",
+      "finding": "Source CAD yellow renders lemon-like; official same-model image is warmer gold/amber. Current pass changes finish while retaining this source color.",
+      "action": "Root notified of warm-yellow calibration candidate; no unrendered color change claimed.",
+      "reference_image": "https://www.peitianrobot.com/uploads/20260306/d85482bc77ba615aa34e41bd9f56b99b.webp"
+    },
+    {
+      "model": "Agile Diana 7",
+      "finding": "Light outer shells, dark inset/joint surfaces and metallic end flange; incorrect prose describing an entirely dark-grey body was corrected."
+    },
+    {
+      "model": "UFACTORY xArm6",
+      "finding": "Hero assembly and white/grey partition appear coherent."
+    },
+    {
+      "model": "UFACTORY Lite6",
+      "finding": "Unfinished pending hero showed inner-elbow dark patches/faceting; root/new-model owner aware.",
+      "action": "Recheck after source-normal investigation and successful new render."
+    }
+  ],
+  "verified_invariants": {
+    "existing_urdfs": 67,
+    "urdf_differences": [],
+    "collision_files": 729,
+    "collision_differences": [],
+    "tool_files": 21,
+    "tool_differences": []
+  },
+  "tests": {
+    "command": "python3 -m unittest discover -s tests -v",
+    "passed": 54,
+    "failed": 0
+  },
+  "material_scope_bug": {
+    "before_fix": {
+      "scanned": 397,
+      "proposed": 8,
+      "affected": "new KUKA iiwa14"
+    },
+    "root_fix": "Default skip model directories with provenance.json; --include-imported explicitly opts in.",
+    "verified_after_fix": {
+      "mode": "dry-run",
+      "visual_glbs": 389,
+      "changed_glbs": 0,
+      "imported_visual_glbs_excluded": 8,
+      "changed_materials": 0,
+      "roles": {},
+      "all_changed_geometry_unchanged": true,
+      "profile": "assetsmodel-brand-materials-v1",
+      "palette_linear_rgba": {
+        "kuka_orange": [
+          0.86315721,
+          0.1746474,
+          0.01520851,
+          1.0
+        ],
+        "fanuc_yellow": [
+          0.90466117,
+          0.59720179,
+          0.00802319,
+          1.0
+        ],
+        "motoman_blue": [
+          0.0,
+          0.15592646,
+          0.47932018,
+          1.0
+        ],
+        "ur_blue": [
+          0.19120168,
+          0.40197778,
+          0.57112483,
+          1.0
+        ],
+        "white_paint": [
+          0.77582222,
+          0.79129794,
+          0.7605245,
+          1.0
+        ],
+        "franka_shell": [
+          0.83879901,
+          0.85499261,
+          0.86315721,
+          1.0
+        ],
+        "graphite": [
+          0.03433981,
+          0.04373503,
+          0.05126946,
+          1.0
+        ],
+        "black_polymer": [
+          0.01444384,
+          0.01938236,
+          0.02518686,
+          1.0
+        ],
+        "aluminium": [
+          0.52099557,
+          0.55834039,
+          0.59061884,
+          1.0
+        ]
+      }
+    }
+  },
+  "export_notices": {
+    "status": "Root fix observed in exporter and passing test_export_assets test",
+    "patterns": [
+      "LICENSE*",
+      "NOTICE*",
+      "COPYING*",
+      "provenance.json"
+    ]
+  },
+  "page_followups_for_root_at_review_time": [
+    "Historical Panda caption/preview remains although current model is FR3.",
+    "GLB/URDF/byte totals predate FR3 replacement and four additions; regenerate from current tree.",
+    "Brand gallery references 40 images; only 12 final-path PNGs existed at first review. Complete stable render queue.",
+    "A pending PNG has not passed the batch success/cache path and is unfinished evidence."
+  ],
+  "documentation_current_vs_history": {
+    "observed_at": "2026-11-03T13:40:16.452295+00:00",
+    "files": [
+      "docs/ASSET_LAYOUT.md",
+      "docs/MESH_WORKFLOW.md",
+      "docs/GLB_REPORT.md"
+    ],
+    "local_links_checked": 53,
+    "bash_blocks_syntax_checked": 14,
+    "errors": 0,
+    "current_counts": {
+      "urdfs": 71,
+      "vendors": 12,
+      "glbs": 841,
+      "stls": 404
+    },
+    "current_measured_bytes": {
+      "glb": 331793144,
+      "stl": 256415586
+    },
+    "historical_metrics_preserved": "2026 September: 783 GLBs /67 URDFs /311.2 MiB /10,407,054 triangles plus old validation/load timings",
+    "inventory_refresh_requested_from_root": true
+  }
+}
