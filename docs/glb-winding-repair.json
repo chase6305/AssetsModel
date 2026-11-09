@@ -1,0 +1,118 @@
+{
+  "summary": {
+    "audited_glbs": 781,
+    "eligible_files": 2,
+    "repaired_files": 2,
+    "repaired_triangles": 2,
+    "positions_normals_materials_unchanged": true
+  },
+  "method": "All three stored corner normals oppose the triangle winding, all three manifold edges conflict with their normally oriented neighbor, and no duplicate triangle exists. Swap index corners 1 and 2 only.",
+  "meshes": [
+    {
+      "path": "RobotModel/UniversalRobots/UR10/Visual/glb/Link4.glb",
+      "status": "repaired",
+      "faces": 1,
+      "evidence": [
+        {
+          "mesh": 2,
+          "primitive": 0,
+          "triangle": 7908,
+          "index_accessor": 7,
+          "indices_before": [
+            7338,
+            6912,
+            7321
+          ],
+          "neighbor_triangles": [
+            6038,
+            5842,
+            5843
+          ],
+          "corner_normal_cosines": [
+            -0.46851380226674766,
+            -0.9992647282068621,
+            -0.9984004553005671
+          ],
+          "neighbor_corner_normal_cosines": [
+            [
+              0.9995456267518819,
+              0.2967456363090718,
+              0.989364646400322
+            ],
+            [
+              0.9982871369973518,
+              0.9970254698568435,
+              0.9993766717524593
+            ],
+            [
+              0.4135955834384724,
+              0.9995702798307997,
+              0.9997560281612632
+            ]
+          ],
+          "centroid": [
+            0.01807480677962303,
+            0.07370310525099437,
+            -0.04857657104730606
+          ],
+          "area": 3.4579270047236208e-06
+        }
+      ],
+      "sha256_before": "0e96b5d4300820184611269411f52fb8bedb5560450e53b1b6289bb1280f3193",
+      "sha256_after": "4f2f994457e3967b279f9d67f550bd7ba81f8a46663db913d952cf9dcfd69867"
+    },
+    {
+      "path": "RobotModel/UniversalRobots/UR10/Visual/glb/Link1.glb",
+      "status": "repaired",
+      "faces": 1,
+      "evidence": [
+        {
+          "mesh": 3,
+          "primitive": 0,
+          "triangle": 1356,
+          "index_accessor": 10,
+          "indices_before": [
+            4717,
+            4744,
+            4705
+          ],
+          "neighbor_triangles": [
+            5999,
+            1361,
+            1371
+          ],
+          "corner_normal_cosines": [
+            -0.8132338726182972,
+            -0.8314880034587421,
+            -0.9852226720244952
+          ],
+          "neighbor_corner_normal_cosines": [
+            [
+              0.8760752427707205,
+              0.9610530534330791,
+              0.8937962170307951
+            ],
+            [
+              0.9999250645309299,
+              0.7488114229103028,
+              0.930261180520786
+            ],
+            [
+              0.9985846124000508,
+              0.9904966678323174,
+              0.9712425450746183
+            ]
+          ],
+          "centroid": [
+            0.07346248378356297,
+            0.00036360835656523705,
+            0.056952252984046936
+          ],
+          "area": 5.993706649570028e-07
+        }
+      ],
+      "sha256_before": "ec7b2b3729e8c3b6df9cab7842cee00debdc885a3f8495a6cbd4c3cc0e8d6f63",
+      "sha256_after": "9311721bc67db73e02d5e96ef35434217b41a87f784f179ed18e0061fea37b45"
+    }
+  ]
+}

@@ -199,3 +199,7 @@ python3 scripts/render_catalog.py \
 `--only kuka-kr10 ur5e` 可限制为对应清单中的模型 ID。历史非法零姿态仅在显式传入 `--allow-outside-limits` 时允许；警告及解析后的全部关节值保存在 `pose.json`。展示配置不表示已通过机器人碰撞检查。
 
 也可传入单个 STL/DAE/GLB；线段等非表面图元不参与预览。批处理使用源文件与脚本指纹判断缓存，并在实际生成 PNG 后记录成功；PNG 旁的 `.render.json` 保存实际渲染参数。色彩、法线、基础形状与不支持的输入范围详见[预览精度](VISUAL_QUALITY.md)，实际对比页见 [preview.html](preview.html)。
+
+## 早期质量检查工具
+
+[2026-11-03 检查](QUALITY_REVIEW.md)记录合批、双面压缩、绕序修复与碰撞审计的原始验证范围。该报告及截图对应当时提交；后续品牌材质、法线与新增模型以当前主分支为准。

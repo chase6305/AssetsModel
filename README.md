@@ -97,3 +97,5 @@ The supplied models are not all ready for dynamic simulation: the validator repo
 3. Preserve link frames, units, material assignments, and meaningful mechanical details.
 4. Run validation and the geometry audit; add the model to the generated catalog.
 5. Document physical parameter sources and include a preview when available.
+
+The [November 3 quality review](docs/QUALITY_REVIEW.md) records the earlier geometry and collision audit. Its asset counts, hashes and screenshots describe that historical revision; subsequent brand materials, normals and imported models are retained.

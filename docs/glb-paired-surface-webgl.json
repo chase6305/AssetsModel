@@ -1,0 +1,273 @@
+{
+  "renderer": "Three.js WebGLRenderer / GLTFLoader, Chrome SwiftShader",
+  "resolution": [
+    800,
+    700
+  ],
+  "settings": {
+    "same_lights_camera_tone_mapping": true,
+    "shadows": false,
+    "antialias": true
+  },
+  "meshes": [
+    {
+      "name": "Link1",
+      "sha256_before": "54d6b49501bf85917f8a1cbbe403abcfc51db2cb83446d2daaaf7b5f327d29c9",
+      "sha256_after": "134c5c17a5e2e7c21a775a61414815b7d625c50829c81c1635c4e76b34b1a64a",
+      "views": [
+        {
+          "azimuth": 0,
+          "rgb_mean_absolute_error_255": 4.464285714285714e-05,
+          "maximum_channel_error_255": 21.0,
+          "changed_pixels": 2,
+          "channel_error_p99": 0.0,
+          "before": {
+            "three": "150",
+            "draws": 2,
+            "triangles": 11282
+          },
+          "after": {
+            "three": "150",
+            "draws": 3,
+            "triangles": 9928
+          }
+        },
+        {
+          "azimuth": 180,
+          "rgb_mean_absolute_error_255": 0.0,
+          "maximum_channel_error_255": 0.0,
+          "changed_pixels": 0,
+          "channel_error_p99": 0.0,
+          "before": {
+            "three": "150",
+            "draws": 2,
+            "triangles": 11282
+          },
+          "after": {
+            "three": "150",
+            "draws": 3,
+            "triangles": 9928
+          }
+        }
+      ],
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link1.glb"
+    },
+    {
+      "name": "Link2",
+      "sha256_before": "5e9d3db5c22fd10df4deac9b87297ed0190c70eb62cd885fcb36a652b86b2721",
+      "sha256_after": "f2001559c55036fe08a58439367c2822072d8639a401884314184eabd01f1b2a",
+      "views": [
+        {
+          "azimuth": 0,
+          "rgb_mean_absolute_error_255": 0.0,
+          "maximum_channel_error_255": 0.0,
+          "changed_pixels": 0,
+          "channel_error_p99": 0.0,
+          "before": {
+            "three": "150",
+            "draws": 6,
+            "triangles": 30004
+          },
+          "after": {
+            "three": "150",
+            "draws": 2,
+            "triangles": 27142
+          }
+        },
+        {
+          "azimuth": 180,
+          "rgb_mean_absolute_error_255": 0.0,
+          "maximum_channel_error_255": 0.0,
+          "changed_pixels": 0,
+          "channel_error_p99": 0.0,
+          "before": {
+            "three": "150",
+            "draws": 6,
+            "triangles": 30004
+          },
+          "after": {
+            "three": "150",
+            "draws": 2,
+            "triangles": 27142
+          }
+        }
+      ],
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link2.glb"
+    },
+    {
+      "name": "Link3",
+      "sha256_before": "ccf073a532e285a7fb5920641879e206adec9bd7243b06951610acfef102a31c",
+      "sha256_after": "6e1b7a431981dd70206616d5b161d16c5715e6661630c516c69609045217827e",
+      "views": [
+        {
+          "azimuth": 0,
+          "rgb_mean_absolute_error_255": 2.0833333333333333e-05,
+          "maximum_channel_error_255": 14.0,
+          "changed_pixels": 1,
+          "channel_error_p99": 0.0,
+          "before": {
+            "three": "150",
+            "draws": 2,
+            "triangles": 11806
+          },
+          "after": {
+            "three": "150",
+            "draws": 3,
+            "triangles": 10276
+          }
+        },
+        {
+          "azimuth": 180,
+          "rgb_mean_absolute_error_255": 0.0,
+          "maximum_channel_error_255": 0.0,
+          "changed_pixels": 0,
+          "channel_error_p99": 0.0,
+          "before": {
+            "three": "150",
+            "draws": 2,
+            "triangles": 11806
+          },
+          "after": {
+            "three": "150",
+            "draws": 3,
+            "triangles": 10276
+          }
+        }
+      ],
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link3.glb"
+    },
+    {
+      "name": "Link4",
+      "sha256_before": "d6adc23c994ca3f26484adb18bbf05e5525e925c8d6e311f70aadacedbc8419b",
+      "sha256_after": "29e43563429490bbcce6e76c9c5fee75e520024100e8eca728fd7e3b44a695d1",
+      "views": [
+        {
+          "azimuth": 0,
+          "rgb_mean_absolute_error_255": 7.5e-05,
+          "maximum_channel_error_255": 25.0,
+          "changed_pixels": 3,
+          "channel_error_p99": 0.0,
+          "before": {
+            "three": "150",
+            "draws": 1,
+            "triangles": 6760
+          },
+          "after": {
+            "three": "150",
+            "draws": 2,
+            "triangles": 5586
+          }
+        },
+        {
+          "azimuth": 180,
+          "rgb_mean_absolute_error_255": 3.630952380952381e-05,
+          "maximum_channel_error_255": 28.0,
+          "changed_pixels": 1,
+          "channel_error_p99": 0.0,
+          "before": {
+            "three": "150",
+            "draws": 1,
+            "triangles": 6760
+          },
+          "after": {
+            "three": "150",
+            "draws": 2,
+            "triangles": 5586
+          }
+        }
+      ],
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link4.glb"
+    },
+    {
+      "name": "Link5",
+      "sha256_before": "645fe4d3ff77f3983574039e869cf3eacccfd71e67269dce0bc13f0f465b0176",
+      "sha256_after": "115d0697b6d2e9bbd1f7272e53e7b7adaa1e820fa73852e94373b5f67045e815",
+      "views": [
+        {
+          "azimuth": 0,
+          "rgb_mean_absolute_error_255": 0.0,
+          "maximum_channel_error_255": 0.0,
+          "changed_pixels": 0,
+          "channel_error_p99": 0.0,
+          "before": {
+            "three": "150",
+            "draws": 1,
+            "triangles": 14022
+          },
+          "after": {
+            "three": "150",
+            "draws": 2,
+            "triangles": 11747
+          }
+        },
+        {
+          "azimuth": 180,
+          "rgb_mean_absolute_error_255": 0.0,
+          "maximum_channel_error_255": 0.0,
+          "changed_pixels": 0,
+          "channel_error_p99": 0.0,
+          "before": {
+            "three": "150",
+            "draws": 1,
+            "triangles": 14022
+          },
+          "after": {
+            "three": "150",
+            "draws": 2,
+            "triangles": 11747
+          }
+        }
+      ],
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link5.glb"
+    },
+    {
+      "name": "Link6",
+      "sha256_before": "e8fe1f97ac16c7392b116c967bf8f419a40e0b8c1b83e4bb57513787176c8810",
+      "sha256_after": "52373f7bd1a23d20de750c3d3ed9a15331b2f922dbb7ff0727cc840809e52424",
+      "views": [
+        {
+          "azimuth": 0,
+          "rgb_mean_absolute_error_255": 6.964285714285715e-05,
+          "maximum_channel_error_255": 22.0,
+          "changed_pixels": 2,
+          "channel_error_p99": 0.0,
+          "before": {
+            "three": "150",
+            "draws": 1,
+            "triangles": 11712
+          },
+          "after": {
+            "three": "150",
+            "draws": 2,
+            "triangles": 8033
+          }
+        },
+        {
+          "azimuth": 180,
+          "rgb_mean_absolute_error_255": 0.0,
+          "maximum_channel_error_255": 0.0,
+          "changed_pixels": 0,
+          "channel_error_p99": 0.0,
+          "before": {
+            "three": "150",
+            "draws": 1,
+            "triangles": 11712
+          },
+          "after": {
+            "three": "150",
+            "draws": 2,
+            "triangles": 8033
+          }
+        }
+      ],
+      "path": "RobotModel/KUKA/KR210_L150/Visual/glb/Link6.glb"
+    }
+  ],
+  "stage": "After material batching versus exact paired-surface compaction.",
+  "summary": {
+    "files": 6,
+    "view_pairs": 12,
+    "maximum_changed_pixels_per_view": 3,
+    "maximum_rgb_mean_absolute_error_255": 7.5e-05
+  }
+}

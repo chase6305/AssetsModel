@@ -40,30 +40,67 @@ def arguments():
 
 
 def material_for(part, pack):
+    """Build the packed glTF PBR material; color factors are already linear."""
+    properties = part.get("material")
+    if properties is None:  # Backward compatibility with historical review packs.
+        properties = {**part, "base_color": part["color"]}
     material = bpy.data.materials.new("surface")
     material.use_nodes = True
-    shader = material.node_tree.nodes.get("Principled BSDF")
-    shader.inputs["Base Color"].default_value = part["color"]
-    shader.inputs["Metallic"].default_value = part.get("metallic", 0.12)
-    shader.inputs["Roughness"].default_value = part.get("roughness", 0.38)
-    # glTF factors are linear, embedded base-color textures are sRGB.
-    if part.get("texture"):
-        texture = material.node_tree.nodes.new("ShaderNodeTexImage")
-        texture.image = bpy.data.images.load(str((pack / part["texture"]).resolve()), check_existing=True)
-        multiply = material.node_tree.nodes.new("ShaderNodeMixRGB")
+    nodes, links = material.node_tree.nodes, material.node_tree.links
+    shader = nodes.get("Principled BSDF")
+    color = properties["base_color"]
+    material.diffuse_color = color
+    shader.inputs["Base Color"].default_value = color
+    shader.inputs["Metallic"].default_value = properties.get("metallic", 1.0)
+    shader.inputs["Roughness"].default_value = properties.get("roughness", 1.0)
+    shader.inputs["Emission Color"].default_value = (*properties.get("emissive", [0, 0, 0]), 1)
+    shader.inputs["Emission Strength"].default_value = 1
+    alpha_mode = properties.get("alpha_mode", "OPAQUE")
+    alpha = nodes.new("ShaderNodeValue")
+    alpha.outputs[0].default_value = color[3]
+    if "base_color_texture" in properties:
+        info = properties["base_color_texture"]
+        image = nodes.new("ShaderNodeTexImage")
+        image.image = bpy.data.images.load(str((pack / info["file"]).resolve()), check_existing=True)
+        image.image.colorspace_settings.name = "sRGB"
+        image.extension = info.get("extension", "REPEAT")
+        image.interpolation = info.get("interpolation", "Linear")
+        multiply = nodes.new("ShaderNodeMixRGB")
         multiply.blend_type = "MULTIPLY"
         multiply.inputs[0].default_value = 1
-        multiply.inputs[2].default_value = part["color"]
-        material.node_tree.links.new(texture.outputs["Color"], multiply.inputs[1])
-        material.node_tree.links.new(multiply.outputs[0], shader.inputs["Base Color"])
-    alpha_mode = part.get("alpha_mode", "OPAQUE")
-    if alpha_mode != "OPAQUE":
-        alpha = part["color"][3]
-        shader.inputs["Alpha"].default_value = (float(alpha >= part.get("alpha_cutoff", .5))
-                                                if alpha_mode == "MASK" else alpha)
-        if hasattr(material, "surface_render_method"):
-            material.surface_render_method = "DITHERED"
-    material.use_backface_culling = not part.get("double_sided", True)
+        multiply.inputs[2].default_value = color
+        links.new(image.outputs["Color"], multiply.inputs[1])
+        links.new(multiply.outputs[0], shader.inputs["Base Color"])
+        factor = nodes.new("ShaderNodeMath")
+        factor.operation = "MULTIPLY"
+        links.new(image.outputs["Alpha"], factor.inputs[0])
+        links.new(alpha.outputs[0], factor.inputs[1])
+        alpha = factor
+    if alpha_mode == "MASK":
+        cutoff = nodes.new("ShaderNodeMath")
+        cutoff.operation = "LESS_THAN"
+        links.new(alpha.outputs[0], cutoff.inputs[0])
+        cutoff.inputs[1].default_value = properties.get("alpha_cutoff", 0.5)
+        keep = nodes.new("ShaderNodeMath")
+        keep.operation = "SUBTRACT"
+        keep.inputs[0].default_value = 1
+        links.new(cutoff.outputs[0], keep.inputs[1])
+        links.new(keep.outputs[0], shader.inputs["Alpha"])
+    elif alpha_mode == "BLEND":
+        links.new(alpha.outputs[0], shader.inputs["Alpha"])
+    elif alpha_mode != "OPAQUE":
+        raise ValueError(f"Unknown alpha mode: {alpha_mode}")
+    if not properties.get("double_sided", False):
+        # Cycles ignores viewport backface culling. Explicitly make back faces
+        # transparent so an open CAD surface is not silently rendered double-sided.
+        geometry = nodes.new("ShaderNodeNewGeometry")
+        transparent = nodes.new("ShaderNodeBsdfTransparent")
+        mix = nodes.new("ShaderNodeMixShader")
+        links.new(geometry.outputs["Backfacing"], mix.inputs[0])
+        links.new(shader.outputs[0], mix.inputs[1])
+        links.new(transparent.outputs[0], mix.inputs[2])
+        links.new(mix.outputs[0], nodes.get("Material Output").inputs["Surface"])
+        material.use_backface_culling = True
     return material
 
 

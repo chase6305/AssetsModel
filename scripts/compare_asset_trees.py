@@ -24,6 +24,8 @@ def main():
     parser.add_argument("--allow-added-models", action="store_true",
                         help="Compare every baseline model while allowing additional URDFs in the target")
     parser.add_argument("--assets", "--glb", dest="assets", type=Path, default=Path(__file__).resolve().parents[1])
+    parser.add_argument("--allow-visual-reduction", action="store_true",
+                        help="Allow fewer visual triangles; collision counts and bounds must still match")
     parser.add_argument("--json", type=Path, required=True)
     args = parser.parse_args()
     logging.basicConfig(level=logging.ERROR)
@@ -79,7 +81,8 @@ def main():
                         if not all(s.bounds is not None and np.isfinite(s.bounds).all() for s in scenes):
                             raise ValueError(f"Invalid {kind} bounds")
                         if args.source and counts[0] != counts[1]:
-                            raise ValueError(f"{kind} triangle count changed: {counts}")
+                            if not (args.allow_visual_reduction and kind == "scene" and counts[1] < counts[0]):
+                                raise ValueError(f"{kind} triangle count changed: {counts}")
                         if args.source:
                             delta = float(np.max(np.abs(scenes[0].bounds - scenes[1].bounds)))
                             max_bounds_error = max(max_bounds_error, delta)
@@ -94,6 +97,7 @@ def main():
     summary = {"urdfs": len(results), "poses": sum(x.get("poses", 0) for x in results),
                "errors": sum(x["status"] == "error" for x in results),
                "mode": "comparison" if args.source else "load",
+               "visual_reduction_allowed": args.allow_visual_reduction,
                "yourdfpy": yourdfpy.__version__}
     if args.source:
         summary["added_models_not_compared"] = added_paths
