@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "cards": 7,
+  "selections": 20,
+  "imageReferences": 40,
+  "verified_jpegs": 40,
+  "browser_exit": 0,
+  "source": "docs/preview.html",
+  "images": "DOM interactions in private temporary Chromium; published JPEG headers/dimensions verified with Pillow",
+  "preview_source_sha256": "60db04300d4fbbba7d84d89b0567eeca76102f658e61fdebfa172891f23a9092",
+  "browser_version": "Google Chrome 155.0.8059.84"
+}
