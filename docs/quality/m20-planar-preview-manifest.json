@@ -1,0 +1,431 @@
+{
+  "baseline_commit": "a7d0c4d2e1c4baa465ced42bddd7238136f46974",
+  "source_sha256": "2c6bdb161588c77f2eeff03faa07c54a41a3992629049efe37e6cb506cb15f4c",
+  "target_sha256": "235663deae306b8cedbf458024b3c2fba0cc83ce9ef6d229de30f060665a4007",
+  "views": [
+    {
+      "image": "before-assembled-hero.png",
+      "original_png_sha256": "ce9386cb05b0b22315d7548b59ad335993ba70da0af3c86e661f212b119bd799",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 900,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 13,
+        "bounds_m": [
+          [
+            -0.19036899507045746,
+            -0.3885897397994995,
+            2.384185793236071e-08
+          ],
+          [
+            1.1100000983476639,
+            0.2515001595020294,
+            1.5730001652240753
+          ]
+        ],
+        "ortho_scale": 3.2960500717163086
+      }
+    },
+    {
+      "image": "before-assembled-rear.png",
+      "original_png_sha256": "23c6cf3302b21d609cafbb7045727ff214e88a0ce5a6dcc7ebef0005c141094b",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 1000,
+        "height": 900,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 13,
+        "bounds_m": [
+          [
+            -0.19036899507045746,
+            -0.3885897397994995,
+            2.384185793236071e-08
+          ],
+          [
+            1.1100000983476639,
+            0.2515001595020294,
+            1.5730001652240753
+          ]
+        ],
+        "ortho_scale": 3.279139518737793
+      }
+    },
+    {
+      "image": "before-isolated-hero.png",
+      "original_png_sha256": "a0f80ad5c259b7f902664fa85fff9bfec195953b3f3cc0298458e581f72122a3",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 900,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.09550005197525024,
+            -0.0484999418258667,
+            -0.05650001019239426
+          ],
+          [
+            0.10000009834766388,
+            0.060036949813365936,
+            0.04449998959898949
+          ]
+        ],
+        "ortho_scale": 2.730210304260254
+      }
+    },
+    {
+      "image": "before-isolated-rear.png",
+      "original_png_sha256": "7d40d8b3bd441072eb95b6c89594efdc89a07605607eac95a0c82d737731043b",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 1000,
+        "height": 900,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.09550005197525024,
+            -0.0484999418258667,
+            -0.05650001019239426
+          ],
+          [
+            0.10000009834766388,
+            0.060036949813365936,
+            0.04449998959898949
+          ]
+        ],
+        "ortho_scale": 2.730210304260254
+      }
+    },
+    {
+      "image": "candidate-assembled-hero.png",
+      "original_png_sha256": "7178bedf3a6ba4bc4aa19e8186c6d0753db31e525ade6411f72ace3d5bd723d9",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 900,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 13,
+        "bounds_m": [
+          [
+            -0.19036899507045746,
+            -0.3885897397994995,
+            2.384185793236071e-08
+          ],
+          [
+            1.1100000983476639,
+            0.2515001595020294,
+            1.5730001652240753
+          ]
+        ],
+        "ortho_scale": 3.2960500717163086
+      }
+    },
+    {
+      "image": "candidate-assembled-rear.png",
+      "original_png_sha256": "5264ec16a7b6ba9a62d361de20dc8e56805c14d63d75ba4ea4dbe139713ae29a",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 1000,
+        "height": 900,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 13,
+        "bounds_m": [
+          [
+            -0.19036899507045746,
+            -0.3885897397994995,
+            2.384185793236071e-08
+          ],
+          [
+            1.1100000983476639,
+            0.2515001595020294,
+            1.5730001652240753
+          ]
+        ],
+        "ortho_scale": 3.279139518737793
+      }
+    },
+    {
+      "image": "candidate-isolated-hero.png",
+      "original_png_sha256": "71c17efc7376712db3b7ab5a5f2f27b2a60c5ba1fdff8bfd68e0e2c730ed605a",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 900,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.09550005197525024,
+            -0.0484999418258667,
+            -0.05650001019239426
+          ],
+          [
+            0.10000009834766388,
+            0.060036949813365936,
+            0.04449998959898949
+          ]
+        ],
+        "ortho_scale": 2.730210304260254
+      }
+    },
+    {
+      "image": "candidate-isolated-rear.png",
+      "original_png_sha256": "ce70b0433b29e95beceff31eb6b22ce8924aa6881c70b320e685a28cf3fdb666",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 1000,
+        "height": 900,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.09550005197525024,
+            -0.0484999418258667,
+            -0.05650001019239426
+          ],
+          [
+            0.10000009834766388,
+            0.060036949813365936,
+            0.04449998959898949
+          ]
+        ],
+        "ortho_scale": 2.730210304260254
+      }
+    },
+    {
+      "image": "poses/before-hero.png",
+      "original_png_sha256": "433edfea62b331938ed52929c6b415fa736e7932f52f4cdaec74651dfdd9096d",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 13,
+        "bounds_m": [
+          [
+            -0.19036899507045746,
+            -0.2811586392047982,
+            2.384185793236071e-08
+          ],
+          [
+            1.0937955947238227,
+            0.6256493831105945,
+            1.8858041174343116
+          ]
+        ],
+        "ortho_scale": 4.206948280334473
+      }
+    },
+    {
+      "image": "poses/candidate-hero.png",
+      "original_png_sha256": "6d75242da7902717c470903bf61463f2f533df7ffedbb0d83316de07591ea95f",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 13,
+        "bounds_m": [
+          [
+            -0.19036899507045746,
+            -0.2811586392047982,
+            2.384185793236071e-08
+          ],
+          [
+            1.0937955947238227,
+            0.6256493831105945,
+            1.8858041174343116
+          ]
+        ],
+        "ortho_scale": 4.206948280334473
+      }
+    },
+    {
+      "image": "poses/before-rear.png",
+      "original_png_sha256": "1396f4aec59226b4e20d86c08233aafedae9715c6d9aafbcbab192e2853989c4",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 13,
+        "bounds_m": [
+          [
+            -0.19036899507045746,
+            -0.2811586392047982,
+            2.384185793236071e-08
+          ],
+          [
+            1.0937955947238227,
+            0.6256493831105945,
+            1.8858041174343116
+          ]
+        ],
+        "ortho_scale": 4.186478137969971
+      }
+    },
+    {
+      "image": "poses/candidate-rear.png",
+      "original_png_sha256": "c4144cc61192318373e042b0d4756c765e07153dffc1c4995509e47a346213af",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 13,
+        "bounds_m": [
+          [
+            -0.19036899507045746,
+            -0.2811586392047982,
+            2.384185793236071e-08
+          ],
+          [
+            1.0937955947238227,
+            0.6256493831105945,
+            1.8858041174343116
+          ]
+        ],
+        "ortho_scale": 4.186478137969971
+      }
+    }
+  ],
+  "pose": {
+    "purpose": "Single static visual review pose; not an executable or collision-validated motion",
+    "units": "radians",
+    "joints": {
+      "Joint1": 0.5,
+      "Joint2": 0.35,
+      "Joint3": 0.8,
+      "Joint4": 1.0,
+      "Joint5": -0.75,
+      "Joint6": 0.3
+    },
+    "limits": {
+      "Joint1": {
+        "lower": -2.96706,
+        "upper": 2.96706,
+        "value": 0.5
+      },
+      "Joint2": {
+        "lower": -1.745329,
+        "upper": 2.792527,
+        "value": 0.35
+      },
+      "Joint3": {
+        "lower": -3.228859,
+        "upper": 4.766843,
+        "value": 0.8
+      },
+      "Joint4": {
+        "lower": -3.490658,
+        "upper": 3.490658,
+        "value": 1.0
+      },
+      "Joint5": {
+        "lower": -2.443461,
+        "upper": 2.443461,
+        "value": -0.75
+      },
+      "Joint6": {
+        "lower": -4.712389,
+        "upper": 4.712389,
+        "value": 0.3
+      }
+    },
+    "views": [
+      "hero",
+      "rear"
+    ],
+    "width": 1000,
+    "height": 700,
+    "samples": 48,
+    "blender_threads": 2
+  }
+}

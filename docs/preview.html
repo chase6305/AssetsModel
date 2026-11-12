@@ -34,6 +34,7 @@
   .brand-section .comparison { aspect-ratio: 10 / 9; }
   .brand-section .description { display: flex; flex-wrap: wrap; align-items: start; justify-content: space-between; gap: 12px; }
   .brand-section select { padding: 7px; border: 1px solid #ccd4dd; background: white; border-radius: 5px; }
+  .camera-section .comparison { aspect-ratio: 10 / 7; }
   .glb-section { margin-top: 48px; }
   .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 24px 0; }
   .stat { border-radius: 14px; background: #eaf2ef; padding: 20px; }
@@ -49,13 +50,24 @@
   <div class="eyebrow">ASSETSMODEL / ROBOT APPEARANCE REVIEW</div>
   <h1>品牌色彩，机械细节。</h1>
   <p class="intro">对比真实机器人模型的品牌主色与表面材质，查看新增常用机械臂。前后图使用相同相机、光照、姿态与色彩管理；下方同时保留早期减面案例。</p>
-  <nav class="links" aria-label="预览快速导航"><a href="#appearance">品牌外观</a><a href="#new-robots">新增机械臂</a><a href="#geometry-history">历史减面对比</a><a href="NORMAL_REFINEMENT.md">曲面法线改进</a></nav>
+  <nav class="links" aria-label="预览快速导航"><a href="#appearance">品牌外观</a><a href="#camera-finishes">相机材质</a><a href="#new-robots">新增机械臂</a><a href="#geometry-history">历史减面对比</a><a href="NORMAL_REFINEMENT.md">曲面法线改进</a></nav>
   <section class="brand-section" id="appearance" aria-label="品牌材质优化对比">
     <h2>品牌材质与表面细节</h2>
     <p>同一相机、光照与色彩管理下比较实际 GLB：区分烤漆、塑料、密封圈与金属，并让品牌主色更接近产品外观。配色是视觉近似。部分模型使用记录在清单中的有效展示姿态。</p>
     <p>KUKA KR10 R1100-2 按新代 AGILUS 标准白色展示，旧代 sixx 保留橙色；底座和法兰按具体型号复核。</p>
     <div class="links"><a href="BRAND_MATERIALS.md">配色依据与参数 ↗</a><a href="quality/preview-models.json">相机视角与关节姿态清单 ↗</a></div>
     <div class="grid" id="brand-gallery"></div>
+  </section>
+  <section class="brand-section camera-section" id="camera-finishes" aria-label="相机材质优化对比">
+    <h2>相机外壳与连接器材质</h2>
+    <p>保留 GLB 原始基色与几何，改善金属外壳的反射层次，为 USB 插头补充石墨色展示材质。前后图采用相同相机与灯光；光学分区缺失和插头内部金属没有据此重建。</p>
+    <div class="links"><a href="CAMERA_MATERIALS.md">范围、参数与验证 ↗</a></div>
+    <div class="grid" id="camera-gallery"></div>
+  </section>
+  <section class="gallery" id="fanuc-wrist" aria-label="FANUC 腕部局部法线改善">
+    <h2>FANUC 腕部平面的反射条纹</h2>
+    <p>局部修正平面上的放射状明暗条纹，保留圆形法兰与机械边缘。以下对比采用相同网格位置、材质、相机和灯光；<a href="NORMAL_REFINEMENT.md">查看范围与验证</a>。</p>
+    <img src="previews/m20-planar-isolated.jpg" alt="FANUC 腕部正背视角原始与局部法线修正对比" loading="lazy">
   </section>
   <section class="gallery" id="new-robots" aria-label="新增常用机器人">
     <h2>四款新增机械臂</h2><p>独立来源的真实网格与运动学。复制模型目录即可使用；<a href="NEW_ROBOTS.md">查看配置、来源与使用说明</a>。</p>
@@ -122,6 +134,22 @@
       });
     });
     gallery.append(article);
+  }
+  const cameraModels = ['d405', 'd415', 'd435', 'd436', 'd455', 'd585', 'plug'];
+  for (const id of cameraModels) {
+    const label = id === 'plug' ? 'USB 插头 · 统一展示材质' : `RealSense ${id.toUpperCase()}`;
+    const views = id === 'plug' ? ['hero', 'rear'] : ['hero', 'right', 'rear'];
+    const viewLabels = {hero: '正面斜视', right: '正面', rear: '背面斜视'};
+    const article = document.createElement('article');
+    article.innerHTML = `<div class="description"><h2>${label}</h2><select aria-label="${label} 观察角度">${views.map(view => `<option value="${view}">${viewLabels[view]}</option>`).join('')}</select></div>
+      <div class="comparison" id="camera-${id}"><img data-version="after" src="previews/cameras-after/${id}-hero.jpg" alt="${label} 材质更新后" loading="lazy"><img class="before" data-version="before" src="previews/cameras-before/${id}-hero.jpg" alt="${label} 材质更新前" loading="lazy"><div class="divider"></div><span class="label left">原始材质</span><span class="label right">更新后</span></div>
+      <div class="controls"><span>材质对比</span><input type="range" min="0" max="100" value="50" aria-label="${label} 原始材质显示比例" data-target="camera-${id}"></div>`;
+    article.querySelector('select').addEventListener('change', event => {
+      article.querySelectorAll('img[data-version]').forEach(img => {
+        img.src = `previews/cameras-${img.dataset.version}/${id}-${event.target.value}.jpg`;
+      });
+    });
+    document.getElementById('camera-gallery').append(article);
   }
   document.querySelectorAll('input[data-target]').forEach(input => {
     input.addEventListener('input', () => {

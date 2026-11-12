@@ -1,0 +1,450 @@
+{
+  "summary": {
+    "baseline_ref": "a7d0c4d",
+    "baseline_commit": "a7d0c4d2e1c4baa465ced42bddd7238136f46974",
+    "baseline_asset_files": 1441,
+    "unchanged_asset_files": 1430,
+    "verified_camera_changes": 10,
+    "verified_normal_changes": 1,
+    "verified_asset_changes": 11,
+    "m20_normal_update_enabled": true,
+    "verified_material_roles": {
+      "satin_housing": 6,
+      "plug_polymer": 4
+    },
+    "errors": 0
+  },
+  "scope": "All files under CameraModel, RobotModel and ToolModel; ten camera GLBs, plus the exact M20 normal update only when explicitly enabled",
+  "verified_changes": [
+    {
+      "path": "CameraModel/RealSense/RealSense_D405/meshes/glb/d405.glb",
+      "before_sha256": "d719a86a38f3bca370b7855d833fda80403afd45c16c7a0ddaa368df46588c3f",
+      "after_sha256": "b540301af2d8b2179853644ac524865c8274d0a688cf4a69e764d7d6556f6436",
+      "bin_sha256": "5518d312f1829d0256b03f90fcba8e7d4a1b7e0b7e1a02db8a8b00ed4a1dc00b",
+      "bin_identical": true,
+      "non_material_json_identical": true,
+      "added_triangle_material_bindings": 0,
+      "material_changes": [
+        {
+          "index": 0,
+          "name": "URDF color",
+          "role": "satin_housing",
+          "before": {
+            "baseColorFactor": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "metallicFactor": 0.0,
+            "roughnessFactor": 1.0
+          },
+          "after": {
+            "baseColorFactor": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "metallicFactor": 0.65,
+            "roughnessFactor": 0.38
+          }
+        }
+      ]
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D405/meshes/glb/plug.glb",
+      "before_sha256": "2b9af32fed5900b0e8820290dd6c2de7b7f325b19abfc4c0aa4cd97822cf065f",
+      "after_sha256": "5c706cf963fad96b2fd8048976daad52f4ea23392824cd26b30df12fcd71cf7d",
+      "bin_sha256": "5bc56014bce4e5591ce47e11365423f8561ca35b246ef24c1c012bce532e15f2",
+      "bin_identical": true,
+      "non_material_json_identical": true,
+      "added_triangle_material_bindings": 1,
+      "material_changes": [
+        {
+          "index": 0,
+          "name": "Camera USB plug graphite polymer",
+          "role": "plug_polymer",
+          "after": {
+            "baseColorFactor": [
+              0.01938236,
+              0.02415763,
+              0.02955683,
+              1.0
+            ],
+            "metallicFactor": 0.0,
+            "roughnessFactor": 0.55
+          }
+        }
+      ]
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D415/meshes/glb/d415.glb",
+      "before_sha256": "0732e63ec5f199467d054e77715b272a0f4908c03cc79ffcbcf25f4b4a6c0dbe",
+      "after_sha256": "d1f63bb4a3d73cd07259a3d46bd3013ee0793138faed9fe20251b1ec1106e984",
+      "bin_sha256": "3d76769122cb2f4cb47396284e66ce7718614ae8e7d093bc4c350203fa1b55f0",
+      "bin_identical": true,
+      "non_material_json_identical": true,
+      "added_triangle_material_bindings": 0,
+      "material_changes": [
+        {
+          "index": 0,
+          "name": "URDF color",
+          "role": "satin_housing",
+          "before": {
+            "baseColorFactor": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "metallicFactor": 0.0,
+            "roughnessFactor": 1.0
+          },
+          "after": {
+            "baseColorFactor": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "metallicFactor": 0.65,
+            "roughnessFactor": 0.38
+          }
+        }
+      ]
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D415/meshes/glb/plug.glb",
+      "before_sha256": "2b9af32fed5900b0e8820290dd6c2de7b7f325b19abfc4c0aa4cd97822cf065f",
+      "after_sha256": "5c706cf963fad96b2fd8048976daad52f4ea23392824cd26b30df12fcd71cf7d",
+      "bin_sha256": "5bc56014bce4e5591ce47e11365423f8561ca35b246ef24c1c012bce532e15f2",
+      "bin_identical": true,
+      "non_material_json_identical": true,
+      "added_triangle_material_bindings": 1,
+      "material_changes": [
+        {
+          "index": 0,
+          "name": "Camera USB plug graphite polymer",
+          "role": "plug_polymer",
+          "after": {
+            "baseColorFactor": [
+              0.01938236,
+              0.02415763,
+              0.02955683,
+              1.0
+            ],
+            "metallicFactor": 0.0,
+            "roughnessFactor": 0.55
+          }
+        }
+      ]
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D435/meshes/glb/d435.glb",
+      "before_sha256": "36563b82f402a540bd6e4dc3a419873bc7fa61e93cc32a187d21339f8ab67c28",
+      "after_sha256": "66e53c0fe4ff07f1bcc533d215192026edec07f2a1a37c91dbb5f809215f8f33",
+      "bin_sha256": "823d95ee11ad377d5f943ce9c65d00b1f1d4f593d2efe4529450def47b51b054",
+      "bin_identical": true,
+      "non_material_json_identical": true,
+      "added_triangle_material_bindings": 0,
+      "material_changes": [
+        {
+          "index": 0,
+          "name": "ID10",
+          "role": "satin_housing",
+          "before": {
+            "baseColorFactor": [
+              0.74902,
+              0.74902,
+              0.74902,
+              1.0
+            ],
+            "metallicFactor": 0.0,
+            "roughnessFactor": 1.0
+          },
+          "after": {
+            "baseColorFactor": [
+              0.74902,
+              0.74902,
+              0.74902,
+              1.0
+            ],
+            "metallicFactor": 0.65,
+            "roughnessFactor": 0.38
+          }
+        }
+      ]
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D435/meshes/glb/plug.glb",
+      "before_sha256": "2b9af32fed5900b0e8820290dd6c2de7b7f325b19abfc4c0aa4cd97822cf065f",
+      "after_sha256": "5c706cf963fad96b2fd8048976daad52f4ea23392824cd26b30df12fcd71cf7d",
+      "bin_sha256": "5bc56014bce4e5591ce47e11365423f8561ca35b246ef24c1c012bce532e15f2",
+      "bin_identical": true,
+      "non_material_json_identical": true,
+      "added_triangle_material_bindings": 1,
+      "material_changes": [
+        {
+          "index": 0,
+          "name": "Camera USB plug graphite polymer",
+          "role": "plug_polymer",
+          "after": {
+            "baseColorFactor": [
+              0.01938236,
+              0.02415763,
+              0.02955683,
+              1.0
+            ],
+            "metallicFactor": 0.0,
+            "roughnessFactor": 0.55
+          }
+        }
+      ]
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D436/meshes/glb/d436.glb",
+      "before_sha256": "856814dee16e0e3c733a90cad1b8ea4e6115a920a2e14266de9334739ba0a4d6",
+      "after_sha256": "610b7f5439a70fddbd5f8afad5f0bc68747bdee80d848d8d09f84f638c412f55",
+      "bin_sha256": "823d95ee11ad377d5f943ce9c65d00b1f1d4f593d2efe4529450def47b51b054",
+      "bin_identical": true,
+      "non_material_json_identical": true,
+      "added_triangle_material_bindings": 0,
+      "material_changes": [
+        {
+          "index": 0,
+          "name": "ID10",
+          "role": "satin_housing",
+          "before": {
+            "baseColorFactor": [
+              0.74902,
+              0.74902,
+              0.74902,
+              1.0
+            ],
+            "metallicFactor": 0.0,
+            "roughnessFactor": 1.0
+          },
+          "after": {
+            "baseColorFactor": [
+              0.74902,
+              0.74902,
+              0.74902,
+              1.0
+            ],
+            "metallicFactor": 0.65,
+            "roughnessFactor": 0.38
+          }
+        }
+      ]
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D436/meshes/glb/plug.glb",
+      "before_sha256": "2b9af32fed5900b0e8820290dd6c2de7b7f325b19abfc4c0aa4cd97822cf065f",
+      "after_sha256": "5c706cf963fad96b2fd8048976daad52f4ea23392824cd26b30df12fcd71cf7d",
+      "bin_sha256": "5bc56014bce4e5591ce47e11365423f8561ca35b246ef24c1c012bce532e15f2",
+      "bin_identical": true,
+      "non_material_json_identical": true,
+      "added_triangle_material_bindings": 1,
+      "material_changes": [
+        {
+          "index": 0,
+          "name": "Camera USB plug graphite polymer",
+          "role": "plug_polymer",
+          "after": {
+            "baseColorFactor": [
+              0.01938236,
+              0.02415763,
+              0.02955683,
+              1.0
+            ],
+            "metallicFactor": 0.0,
+            "roughnessFactor": 0.55
+          }
+        }
+      ]
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D455/meshes/glb/d455.glb",
+      "before_sha256": "17ff631dab7f961cb709ec5c2dd721853e515921e57058ca2784612b401d4243",
+      "after_sha256": "4a1d2c7706ca399fdf9bd412a5ef486c2f2ef7a1ea4782d359e2519abbeb3818",
+      "bin_sha256": "ae4893e8a39dd4cc771d55b8db65ec38544a433a7dba43551631ad3cb160a015",
+      "bin_identical": true,
+      "non_material_json_identical": true,
+      "added_triangle_material_bindings": 0,
+      "material_changes": [
+        {
+          "index": 0,
+          "name": "URDF color",
+          "role": "satin_housing",
+          "before": {
+            "baseColorFactor": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "metallicFactor": 0.0,
+            "roughnessFactor": 1.0
+          },
+          "after": {
+            "baseColorFactor": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "metallicFactor": 0.65,
+            "roughnessFactor": 0.54
+          }
+        }
+      ]
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D585/meshes/glb/d585.glb",
+      "before_sha256": "a072030e315b58c8ef20f57f64ea813ec3ef8378dfe0c70eda2c7a91918528a3",
+      "after_sha256": "d7be7e10941f49fd049b74ed59af0f526028e52a414d857ec48637b607157a4d",
+      "bin_sha256": "b2a4a01e42b0984cea9a937587aaa2748e7cd1c17ee67de677b6581b63a7cf4d",
+      "bin_identical": true,
+      "non_material_json_identical": true,
+      "added_triangle_material_bindings": 0,
+      "material_changes": [
+        {
+          "index": 0,
+          "name": "URDF color",
+          "role": "satin_housing",
+          "before": {
+            "baseColorFactor": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "metallicFactor": 0.0,
+            "roughnessFactor": 1.0
+          },
+          "after": {
+            "baseColorFactor": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "metallicFactor": 0.65,
+            "roughnessFactor": 0.38
+          }
+        }
+      ]
+    }
+  ],
+  "verified_normal_updates": [
+    {
+      "path": "RobotModel/Fanuc/M_20iA/Visual/glb/Link5.glb",
+      "kind": "m20_planar_normal_update",
+      "before_sha256": "2c6bdb161588c77f2eeff03faa07c54a41a3992629049efe37e6cb506cb15f4c",
+      "after_sha256": "235663deae306b8cedbf458024b3c2fba0cc83ce9ef6d229de30f060665a4007",
+      "geometry_and_unselected_normals_preserved": true,
+      "evidence_sha256": "6bda54ed1dac09ec0af7ce3c5af0bb0e0826cde84cef05fc70faae3f5ba78ca2",
+      "verification": {
+        "geometry": {
+          "scenes": 1,
+          "all_scene_triangles": 4866,
+          "all_scene_line_segments": 0,
+          "all_scene_position_corners": 14598,
+          "distinct_effective_transforms": 1,
+          "max_effective_transform_error": 0.0,
+          "scene_details": [
+            {
+              "scene": 0,
+              "source": {
+                "triangles": 4866,
+                "line_segments": 0,
+                "position_corners": 14598,
+                "geometry_node_instances": 1,
+                "non_normal_attributes": [
+                  "POSITION"
+                ],
+                "distinct_oriented_records": 4866
+              },
+              "current": {
+                "triangles": 4866,
+                "line_segments": 0,
+                "position_corners": 14598,
+                "geometry_node_instances": 1,
+                "non_normal_attributes": [
+                  "POSITION"
+                ],
+                "distinct_oriented_records": 4866
+              }
+            }
+          ],
+          "all_scene_oriented_position_and_non_normal_corner_bytes_exact": true,
+          "texture_resources_and_bindings_preserved": true
+        },
+        "triangles": 4866,
+        "position_corners_ordered_byte_exact": 14598,
+        "selected_corners": 244,
+        "changed_normal_corners": 244,
+        "unselected_normal_corners_byte_exact": 14354,
+        "source_opposed_normal_corners": 123,
+        "output_opposed_normal_corners": 123,
+        "newly_opposed_normal_corners": 0,
+        "degenerate_triangles": 0,
+        "max_source_normal_length_error": 4.6562234290448146e-08,
+        "max_output_normal_length_error": 4.6562234290448146e-08,
+        "primitives": [
+          {
+            "mesh": 0,
+            "primitive": 0,
+            "selected_corners": 244,
+            "edge_analysis": {
+              "shared_edges": 7299,
+              "open_edges": 0,
+              "nonmanifold_edges": 0,
+              "same_direction_paired_edges": 0,
+              "cross_primitive_shared_edges": 0,
+              "near_coplanar_endpoint_pairs": 8698,
+              "near_coplanar_10_to_15_seams_added": 0,
+              "near_coplanar_gap_growth_gt_1deg": 0,
+              "near_coplanar_new_gap_above_1deg": 0,
+              "near_coplanar_gap_growth_gt_0_001deg": 0,
+              "near_coplanar_max_gap_growth_deg": 1.2074182697257333e-06,
+              "selected_boundary_endpoint_pairs": 112,
+              "selected_boundary_max_output_gap_deg": 102.18240924267295,
+              "selected_boundary_near_coplanar_max_output_gap_deg": 0.0,
+              "selected_boundary_smooth_geometry_max_output_gap_deg": 0.0,
+              "geometric_and_authored_30deg_hard_endpoint_pairs": 273,
+              "hard_endpoint_pairs_below_30deg_after": 0,
+              "source_large_normal_gaps_reduced_on_geometrically_smooth_pairs": 18,
+              "positive_gap_growth_examples": []
+            }
+          }
+        ],
+        "cross_primitive_edge_analysis_supported": true,
+        "whole_file_contact_edge_analysis": {
+          "shared_edges": 7299,
+          "open_edges": 0,
+          "nonmanifold_edges": 0,
+          "same_direction_paired_edges": 0,
+          "cross_primitive_shared_edges": 0,
+          "near_coplanar_endpoint_pairs": 8698,
+          "near_coplanar_10_to_15_seams_added": 0,
+          "near_coplanar_gap_growth_gt_1deg": 0,
+          "near_coplanar_new_gap_above_1deg": 0,
+          "near_coplanar_gap_growth_gt_0_001deg": 0,
+          "near_coplanar_max_gap_growth_deg": 1.2074182697257333e-06,
+          "selected_boundary_endpoint_pairs": 112,
+          "selected_boundary_max_output_gap_deg": 102.18240924267295,
+          "selected_boundary_near_coplanar_max_output_gap_deg": 0.0,
+          "selected_boundary_smooth_geometry_max_output_gap_deg": 0.0,
+          "geometric_and_authored_30deg_hard_endpoint_pairs": 273,
+          "hard_endpoint_pairs_below_30deg_after": 0,
+          "source_large_normal_gaps_reduced_on_geometrically_smooth_pairs": 18,
+          "positive_gap_growth_examples": []
+        },
+        "material_node_scene_metadata_exact": true
+      }
+    }
+  ],
+  "errors": []
+}

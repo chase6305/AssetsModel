@@ -26,6 +26,7 @@ MARKER = 'assetsmodel_camera_material'
 BODY_MODELS = ('405', '415', '435', '436', '455', '585')
 PLUG_MODELS = ('405', '415', '435', '436')
 BODY_FINISH = {'metallicFactor': .65, 'roughnessFactor': .38}
+MODEL_FINISHES = {'D455': {'metallicFactor': .65, 'roughnessFactor': .54}}
 SOURCE_COMMIT = '7a87097c499e3b0b69518d54a8e7a9ac1924e87c'
 SOURCE_PREFIX = (f'https://github.com/realsenseai/realsense-ros/blob/{SOURCE_COMMIT}/'
                  'realsense2_description/urdf/')
@@ -41,6 +42,11 @@ def target_paths(include_plugs=False):
         targets.extend((Path(f'CameraModel/RealSense/RealSense_D{model}/meshes/glb/plug.glb'), 'plug')
                        for model in PLUG_MODELS)
     return targets
+
+
+def housing_finish(model=None):
+    """D455's broad rounded shoulder uses a softer reviewed highlight."""
+    return MODEL_FINISHES.get(model, BODY_FINISH)
 
 
 def _reject_extensions(value):
@@ -111,13 +117,14 @@ def plug_material():
         'extras': {MARKER: {'profile': PROFILE, 'role': 'plug_polymer'}}}
 
 
-def refine_camera(tree, kind):
+def refine_camera(tree, kind, model=None):
     """Plan scalar finish edits or missing plug bindings without editing input."""
     if kind not in ('housing', 'plug'):
         raise ValueError(f'Unknown camera target role: {kind}')
     triangles = supported_input(tree)
     target, changes = copy.deepcopy(tree), []
     if kind == 'housing':
+        finish = housing_finish(model)
         used = set()
         for mi, pi in triangles:
             index = tree['meshes'][mi]['primitives'][pi].get('material')
@@ -127,7 +134,7 @@ def refine_camera(tree, kind):
         for index in sorted(used):
             material = target['materials'][index]
             before = copy.deepcopy(material)
-            material.setdefault('pbrMetallicRoughness', {}).update(BODY_FINISH)
+            material.setdefault('pbrMetallicRoughness', {}).update(finish)
             material.setdefault('extras', {})[MARKER] = {'profile': PROFILE, 'role': 'satin_housing'}
             if material != before:
                 changes.append({'kind': 'finish', 'material': index, 'before': before,
@@ -148,7 +155,7 @@ def refine_camera(tree, kind):
     return target, changes
 
 
-def assert_allowed_changes(before, after, kind, original_bin, new_bin):
+def assert_allowed_changes(before, after, kind, original_bin, new_bin, model=None):
     """Independently remove only permitted edits, then compare the complete JSON."""
     if original_bin != new_bin:
         raise ValueError('Embedded BIN changed')
@@ -156,17 +163,18 @@ def assert_allowed_changes(before, after, kind, original_bin, new_bin):
     old_materials = before.get('materials', [])
     new_materials = restored.get('materials', [])
     if kind == 'housing':
+        finish = housing_finish(model)
         if len(old_materials) != len(new_materials):
             raise ValueError('Housing material count changed')
         used = {p['material'] for m in before['meshes'] for p in m['primitives']
                 if p.get('mode', 4) == 4}
         for index in used:
             old, new = old_materials[index], new_materials[index]
-            if any(new.get('pbrMetallicRoughness', {}).get(k) != v for k, v in BODY_FINISH.items()):
+            if any(new.get('pbrMetallicRoughness', {}).get(k) != v for k, v in finish.items()):
                 raise ValueError('Unexpected camera housing finish')
             if new.get('extras', {}).get(MARKER) != {'profile': PROFILE, 'role': 'satin_housing'}:
                 raise ValueError('Unexpected camera housing metadata')
-            for key in BODY_FINISH:
+            for key in finish:
                 if key in old.get('pbrMetallicRoughness', {}):
                     new['pbrMetallicRoughness'][key] = old['pbrMetallicRoughness'][key]
                 else:
@@ -215,11 +223,29 @@ def report_destination(root, report):
     """Keep reports outside every asset category, following symlink targets."""
     root, report = Path(root).resolve(), Path(report)
     destination = report.resolve()
-    if report.suffix.lower() != '.json':
-        raise ValueError('Report must use a .json extension, not an asset filename')
+    if report.suffix.lower() != '.json' or destination.suffix.lower() != '.json':
+        raise ValueError('Report path must resolve to a .json file')
     for category in ('CameraModel', 'RobotModel', 'ToolModel'):
         if destination.is_relative_to((root / category).resolve()):
             raise ValueError('Report must be outside CameraModel, RobotModel and ToolModel')
+    return destination
+
+
+def preflight_report(root, report):
+    """Check report writes before apply without changing an existing report."""
+    destination = report_destination(root, report)
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    if destination.exists():
+        # No O_TRUNC or writes: retain report bytes/mtime. NONBLOCK prevents a
+        # FIFO from hanging and NOFOLLOW rejects a new symlink after resolve.
+        descriptor = os.open(destination, os.O_WRONLY | os.O_NONBLOCK | getattr(os, 'O_NOFOLLOW', 0))
+        try:
+            if not stat.S_ISREG(os.fstat(descriptor).st_mode):
+                raise ValueError('Existing report must be a regular writable file')
+        finally:
+            os.close(descriptor)
+    with tempfile.NamedTemporaryFile(prefix='.' + destination.name + '.preflight-', dir=destination.parent):
+        pass
     return destination
 
 
@@ -246,15 +272,16 @@ def run(root, *, include_plugs=False, apply=False, backup_dir=None):
     records, plans = [], []
     for relative, kind in target_paths(include_plugs):
         path = root / relative
+        model = relative.parts[2].removeprefix('RealSense_')
         if path.resolve() != path or not path.is_file():
             raise ValueError(f'Expected regular camera target without symlinks: {relative}')
         old = path.read_bytes()
         validate_glb(old)
         original, binary = read_glb(old)
-        target, changes = refine_camera(original, kind)
+        target, changes = refine_camera(original, kind, model=model)
         new = encode_glb(target, binary) if changes else old
         actual, actual_bin = read_glb(new)
-        assert_allowed_changes(original, actual, kind, binary, actual_bin)
+        assert_allowed_changes(original, actual, kind, binary, actual_bin, model=model)
         info = validate_glb(new)
         copy_path = backup / relative if backup else None
         if changes and apply:
@@ -313,13 +340,11 @@ def main():
     if args.apply and args.backup_dir is None:
         parser.error('--apply requires --backup-dir')
     try:
-        report_path = report_destination(args.root, args.report)
-    except ValueError as exc:
+        report_path = preflight_report(args.root, args.report)
+        report = run(args.root, include_plugs=args.include_plugs, apply=args.apply, backup_dir=args.backup_dir)
+        report_path.write_text(json.dumps(report, indent=2, ensure_ascii=False, allow_nan=False) + '\n')
+    except (ValueError, OSError) as exc:
         parser.error(str(exc))
-    # Resolve the report destination and create its parent before asset edits.
-    report_path.parent.mkdir(parents=True, exist_ok=True)
-    report = run(args.root, include_plugs=args.include_plugs, apply=args.apply, backup_dir=args.backup_dir)
-    report_path.write_text(json.dumps(report, indent=2, ensure_ascii=False) + '\n')
     print(json.dumps(report['summary']))
 
 

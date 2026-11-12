@@ -1,0 +1,10 @@
+{
+  "mode": "dry-run",
+  "profile": "assetsmodel-camera-materials-v1",
+  "visual_glbs": 10,
+  "changed_glbs": 0,
+  "include_plugs": true,
+  "all_bin_unchanged": true,
+  "only_allowed_json_changed": true,
+  "collision_assets_in_scope": false
+}

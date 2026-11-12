@@ -60,6 +60,8 @@ All resource references are relative to the URDF directory and point to `glb/` s
 
 ## Mesh quality
 
+The latest finishing pass adds satin housings to six RealSense cameras, graphite connector visuals, and a local FANUC M-20iA wrist shading correction. View the [camera comparisons](docs/preview.html#camera-finishes), [camera parameters](docs/CAMERA_MATERIALS.md), and [normal verification](docs/NORMAL_REFINEMENT.md).
+
 The November 2026 update refines brand colors and distinguishes painted surfaces, polymers, rubber and metal. It smooths flat CAD shading on curved surfaces while retaining mechanical creases, and batches compatible static surfaces without changing their geometry. It also adds **xArm6, Lite6, KUKA iiwa14 and Kinova Gen3** using fixed upstream sources, with licenses and provenance retained. View the [material comparisons](docs/preview.html), [brand notes](docs/BRAND_MATERIALS.md) and [new-model verification](docs/quality/new-robots-independent-audit.json).
 
 Existing GLBs are **33.0% smaller** than the November task baseline. An [independent check of all 781 existing GLBs](docs/quality/existing-surface-preservation.json) confirms unchanged oriented geometry in every scene; old URDFs, collision assets and optional STL files remain byte-identical. Compatible [static draw batches](docs/MESH_BATCHING.md) fall from 265 to 53 across the 20 processed files.

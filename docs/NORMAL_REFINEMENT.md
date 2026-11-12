@@ -102,3 +102,27 @@ python3 scripts/repair_ur5_local_normals.py \
 ```
 
 最新[可复现输出记录](quality/ur5-local-normal-trial.json)包含当前脚本和清单 SHA；补充 `CameraModel` 报告路径保护后，重新生成的两个 GLB 与已采用版本逐字节相同。采用记录中的原脚本 SHA 保留为采用时的历史值。
+
+
+## 2026-11-12：FANUC M-20iA 腕部平面的局部法线
+
+`M_20iA/Visual/glb/Link5.glb` 的大平面和后端盖存在放射状明暗条纹。本轮重新生成已记录的 244 角点候选，并以实际材质检查独立部件、整机及非零关节姿态。修正使侧面和平面端盖的反射更连续；圆形凸台、末端法兰和机械轮廓保留。其它源曲面的细微明暗起伏仍然存在。
+
+本次只采用固定输入 SHA、`mesh0/primitive0` 的 244 个角点；其余 **14,354 个角点法线逐字节保留**。4,866 个三角形的位置、顺序、绕序、材质和场景保持一致；273 个同时具有几何和源法线硬边的端点没有被合并，未增加相反朝向法线或近共面接缝。原文件已有的 123 个相反朝向角点保留，未进行全局方向修复。
+
+![FANUC 腕部局部法线前后对比](previews/m20-planar-isolated.jpg)
+
+![FANUC 整机前后对比](previews/m20-planar-assembled.jpg)
+
+[查看非零关节展示姿态的前后对比](previews/m20-planar-posed.jpg)。
+
+[采用与独立检查记录](quality/m20-planar-normal-applied.json)包含固定源/目标 SHA、几何与局部边界检查；[整树检查](quality/camera-material-verification.json)还检查相机材质和全部范围外资产。`scripts/refine_m20_planar_normals.py` 根据既有审核记录中的显式清单重建目标，要求目标 GLB 散列完全相同，不自动寻找其它平面。对照原始提交生成独立副本：
+
+```bash
+python3 scripts/refine_m20_planar_normals.py \
+  --root /path/to/assetsmodel-at-a7d0c4d \
+  --output-model /tmp/m20-planar-review \
+  --report /tmp/m20-planar-review.json
+```
+
+实际采用需 `--apply --backup-dir /tmp/m20-before-new-pass`；只能对已审核源 SHA 执行，已经是目标文件时重复采用报告零改动。预览姿态用于外观检查，不是经过碰撞验证的机器人运动指令。

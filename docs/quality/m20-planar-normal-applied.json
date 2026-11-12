@@ -1,0 +1,118 @@
+{
+  "source_model": "/tmp/assetsmodel-glb-beautify-20261112/RobotModel/Fanuc/M_20iA",
+  "path": "RobotModel/Fanuc/M_20iA/Visual/glb/Link5.glb",
+  "source_sha256": "2c6bdb161588c77f2eeff03faa07c54a41a3992629049efe37e6cb506cb15f4c",
+  "target_sha256": "235663deae306b8cedbf458024b3c2fba0cc83ce9ef6d229de30f060665a4007",
+  "selected_corners": 244,
+  "status": "applied",
+  "applied": true,
+  "output_model": null,
+  "backup_path": "/tmp/assetsmodel-m20-normal-before-20261112/RobotModel/Fanuc/M_20iA/Visual/glb/Link5.glb",
+  "verification": {
+    "path": "RobotModel/Fanuc/M_20iA/Visual/glb/Link5.glb",
+    "kind": "m20_planar_normal_update",
+    "before_sha256": "2c6bdb161588c77f2eeff03faa07c54a41a3992629049efe37e6cb506cb15f4c",
+    "after_sha256": "235663deae306b8cedbf458024b3c2fba0cc83ce9ef6d229de30f060665a4007",
+    "geometry_and_unselected_normals_preserved": true,
+    "evidence_sha256": "6bda54ed1dac09ec0af7ce3c5af0bb0e0826cde84cef05fc70faae3f5ba78ca2",
+    "verification": {
+      "geometry": {
+        "scenes": 1,
+        "all_scene_triangles": 4866,
+        "all_scene_line_segments": 0,
+        "all_scene_position_corners": 14598,
+        "distinct_effective_transforms": 1,
+        "max_effective_transform_error": 0.0,
+        "scene_details": [
+          {
+            "scene": 0,
+            "source": {
+              "triangles": 4866,
+              "line_segments": 0,
+              "position_corners": 14598,
+              "geometry_node_instances": 1,
+              "non_normal_attributes": [
+                "POSITION"
+              ],
+              "distinct_oriented_records": 4866
+            },
+            "current": {
+              "triangles": 4866,
+              "line_segments": 0,
+              "position_corners": 14598,
+              "geometry_node_instances": 1,
+              "non_normal_attributes": [
+                "POSITION"
+              ],
+              "distinct_oriented_records": 4866
+            }
+          }
+        ],
+        "all_scene_oriented_position_and_non_normal_corner_bytes_exact": true,
+        "texture_resources_and_bindings_preserved": true
+      },
+      "triangles": 4866,
+      "position_corners_ordered_byte_exact": 14598,
+      "selected_corners": 244,
+      "changed_normal_corners": 244,
+      "unselected_normal_corners_byte_exact": 14354,
+      "source_opposed_normal_corners": 123,
+      "output_opposed_normal_corners": 123,
+      "newly_opposed_normal_corners": 0,
+      "degenerate_triangles": 0,
+      "max_source_normal_length_error": 4.6562234290448146e-08,
+      "max_output_normal_length_error": 4.6562234290448146e-08,
+      "primitives": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "selected_corners": 244,
+          "edge_analysis": {
+            "shared_edges": 7299,
+            "open_edges": 0,
+            "nonmanifold_edges": 0,
+            "same_direction_paired_edges": 0,
+            "cross_primitive_shared_edges": 0,
+            "near_coplanar_endpoint_pairs": 8698,
+            "near_coplanar_10_to_15_seams_added": 0,
+            "near_coplanar_gap_growth_gt_1deg": 0,
+            "near_coplanar_new_gap_above_1deg": 0,
+            "near_coplanar_gap_growth_gt_0_001deg": 0,
+            "near_coplanar_max_gap_growth_deg": 1.2074182697257333e-06,
+            "selected_boundary_endpoint_pairs": 112,
+            "selected_boundary_max_output_gap_deg": 102.18240924267295,
+            "selected_boundary_near_coplanar_max_output_gap_deg": 0.0,
+            "selected_boundary_smooth_geometry_max_output_gap_deg": 0.0,
+            "geometric_and_authored_30deg_hard_endpoint_pairs": 273,
+            "hard_endpoint_pairs_below_30deg_after": 0,
+            "source_large_normal_gaps_reduced_on_geometrically_smooth_pairs": 18,
+            "positive_gap_growth_examples": []
+          }
+        }
+      ],
+      "cross_primitive_edge_analysis_supported": true,
+      "whole_file_contact_edge_analysis": {
+        "shared_edges": 7299,
+        "open_edges": 0,
+        "nonmanifold_edges": 0,
+        "same_direction_paired_edges": 0,
+        "cross_primitive_shared_edges": 0,
+        "near_coplanar_endpoint_pairs": 8698,
+        "near_coplanar_10_to_15_seams_added": 0,
+        "near_coplanar_gap_growth_gt_1deg": 0,
+        "near_coplanar_new_gap_above_1deg": 0,
+        "near_coplanar_gap_growth_gt_0_001deg": 0,
+        "near_coplanar_max_gap_growth_deg": 1.2074182697257333e-06,
+        "selected_boundary_endpoint_pairs": 112,
+        "selected_boundary_max_output_gap_deg": 102.18240924267295,
+        "selected_boundary_near_coplanar_max_output_gap_deg": 0.0,
+        "selected_boundary_smooth_geometry_max_output_gap_deg": 0.0,
+        "geometric_and_authored_30deg_hard_endpoint_pairs": 273,
+        "hard_endpoint_pairs_below_30deg_after": 0,
+        "source_large_normal_gaps_reduced_on_geometrically_smooth_pairs": 18,
+        "positive_gap_growth_examples": []
+      },
+      "material_node_scene_metadata_exact": true
+    }
+  }
+}

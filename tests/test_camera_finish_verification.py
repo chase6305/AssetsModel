@@ -9,7 +9,8 @@ import tempfile
 import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from verify_camera_finishes import check_glb, report_destination, verify_tree
+from verify_camera_finishes import (M20_PATH, check_glb, check_m20_normal_update,
+                                    report_destination, verify_tree)
 
 
 BODY = "CameraModel/RealSense/RealSense_D405/meshes/glb/d405.glb"
@@ -74,6 +75,42 @@ class CameraFinishVerificationTests(unittest.TestCase):
         self.assertTrue(report["bin_identical"])
         self.assertEqual(report["added_triangle_material_bindings"], 0)
         self.assertEqual(report["material_changes"][0]["role"], "satin_housing")
+
+    def test_d455_requires_its_reviewed_roughness_override(self):
+        before = sample()
+        after = finish(before)
+        path = "CameraModel/RealSense/RealSense_D455/meshes/glb/d455.glb"
+        with self.assertRaisesRegex(ValueError, "finish factors"):
+            check_glb(path, container(before), container(after))
+        after["materials"][0]["pbrMetallicRoughness"]["roughnessFactor"] = 0.54
+        self.assertTrue(check_glb(path, container(before), container(after))["bin_identical"])
+
+    def test_m20_update_is_outside_default_camera_scope(self):
+        with self.assertRaisesRegex(ValueError, "outside the camera finish allowlist"):
+            check_glb(M20_PATH, container(sample()), container(finish(sample())))
+
+    def test_m20_optin_rejects_wrong_bytes_instead_of_skipping_the_asset(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            subprocess.run(["git", "init", "-q", str(root)], check=True)
+            path = root / M20_PATH
+            path.parent.mkdir(parents=True)
+            original = container(sample())
+            path.write_bytes(original)
+            subprocess.run(["git", "-C", str(root), "add", "."], check=True)
+            subprocess.run(["git", "-C", str(root), "-c", "user.name=Verification test", "-c",
+                            "user.email=test@example.invalid", "commit", "-qm", "synthetic baseline"], check=True)
+            path.write_bytes(b"unreviewed candidate")
+            strict = verify_tree(root, "HEAD")
+            self.assertEqual(strict["errors"][0]["error"], "Off-scope asset bytes changed")
+            opted_in = verify_tree(root, "HEAD", include_m20_normal_update=True)
+            self.assertEqual(opted_in["summary"]["errors"], 1)
+            self.assertEqual(opted_in["summary"]["verified_normal_changes"], 0)
+            self.assertIn("M20 source SHA", opted_in["errors"][0]["error"])
+            # Invalid source/target bytes are rejected before reading mask files
+            # or attempting geometry work, even when callers opt in explicitly.
+            with self.assertRaisesRegex(ValueError, "M20 source SHA"):
+                check_m20_normal_update(root, original, path.read_bytes())
 
     def test_rejects_binary_change_even_with_unchanged_json(self):
         before = sample()

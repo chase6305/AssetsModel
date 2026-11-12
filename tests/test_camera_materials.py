@@ -1,14 +1,17 @@
 """Camera appearance edits must remain selective, reversible and geometry-free."""
 import copy
+import contextlib
+import io
 import struct
 import sys
 import tempfile
 import unittest
+from unittest import mock
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from glb_format import read_glb
-from refine_camera_materials import (assert_allowed_changes, plug_material, refine_camera,
+from refine_camera_materials import (assert_allowed_changes, main, plug_material, preflight_report, refine_camera,
                                      report_destination, run, target_paths)
 from refine_materials import encode_glb
 
@@ -76,6 +79,31 @@ class CameraMaterialTests(unittest.TestCase):
         tree['meshes'][0]['primitives'][0].pop('material')
         with self.assertRaisesRegex(ValueError, 'missing an existing material'):
             refine_camera(tree, 'housing')
+
+    def test_d455_override_is_selected_by_model_and_other_housings_keep_default(self):
+        tree, binary = sample_body()
+        default, _ = refine_camera(tree, 'housing')
+        d455, _ = refine_camera(tree, 'housing', model='D455')
+        self.assertEqual(default['materials'][0]['pbrMetallicRoughness']['roughnessFactor'], .38)
+        self.assertEqual(d455['materials'][0]['pbrMetallicRoughness']['roughnessFactor'], .54)
+        assert_allowed_changes(tree, d455, 'housing', binary, binary, model='D455')
+        with self.assertRaisesRegex(ValueError, 'Unexpected camera housing finish'):
+            assert_allowed_changes(tree, d455, 'housing', binary, binary, model='D435')
+        repeated, edits = refine_camera(d455, 'housing', model='D455')
+        self.assertEqual(repeated, d455)
+        self.assertEqual(edits, [])
+        with tempfile.TemporaryDirectory() as directory:
+            base = Path(directory)
+            root = base / 'assets'
+            fixture(root)
+            run(root, apply=True, backup_dir=base / 'backup')
+            for relative, _ in target_paths():
+                parsed, _ = read_glb(root / relative)
+                pbr = parsed['materials'][0]['pbrMetallicRoughness']
+                with self.subTest(path=str(relative)):
+                    self.assertEqual(pbr['roughnessFactor'], .54 if relative.name == 'd455.glb' else .38)
+                    self.assertEqual(pbr['metallicFactor'], .65)
+                    self.assertEqual(pbr['baseColorFactor'], [.5, .5, .5, 1])
 
     def test_plug_embeds_linear_graphite_and_does_not_touch_authored_material(self):
         tree, binary = sample_plug()
@@ -180,6 +208,62 @@ class CameraMaterialTests(unittest.TestCase):
                 run(root, apply=True)
             with self.assertRaisesRegex(ValueError, 'outside the asset root'):
                 run(root, apply=True, backup_dir=root / 'backup')
+
+    def test_report_symlink_must_resolve_to_json_and_safe_reports_remain_supported(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory) / 'assets'
+            script = root / 'scripts' / 'protected.py'
+            script.parent.mkdir(parents=True)
+            script.write_bytes(b'protected script')
+            alias = root / 'report.json'
+            alias.symlink_to(script)
+            with self.assertRaisesRegex(ValueError, 'resolve to a .json'):
+                report_destination(root, alias)
+            self.assertEqual(script.read_bytes(), b'protected script')
+            docs = root / 'docs' / 'quality' / 'report.json'
+            external = Path(directory) / 'external-report.json'
+            self.assertEqual(report_destination(root, docs), docs)
+            self.assertEqual(report_destination(root, external), external)
+
+    def test_report_preflight_does_not_truncate_rewrite_or_touch_existing_report_mtime(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            report = root / 'docs' / 'quality' / 'report.json'
+            report.parent.mkdir(parents=True)
+            report.write_bytes(b'{"keep":"previous report"}\n')
+            before, timestamp = report.read_bytes(), report.stat().st_mtime_ns
+            self.assertEqual(preflight_report(root, report), report)
+            self.assertEqual(report.read_bytes(), before)
+            self.assertEqual(report.stat().st_mtime_ns, timestamp)
+            self.assertEqual(list(report.parent.iterdir()), [report])
+            future = root / 'new-docs' / 'report.json'
+            self.assertEqual(preflight_report(root, future), future)
+            self.assertFalse(future.exists())
+
+    def test_invalid_report_parent_or_write_permissions_prevent_apply(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory) / 'assets'
+            root.mkdir()
+            blocker = root / 'regular-file'
+            blocker.write_bytes(b'not a directory')
+            existing = root / 'report.json'
+            existing.write_bytes(b'{"original":true}')
+            argv = ['refine_camera_materials.py', '--root', str(root), '--apply',
+                    '--backup-dir', str(Path(directory) / 'backup'), '--report']
+            for path, denied_operation in ((blocker / 'report.json', None),
+                                          (existing, 'refine_camera_materials.os.open'),
+                                          (root / 'new-report.json', 'refine_camera_materials.tempfile.NamedTemporaryFile')):
+                with self.subTest(path=path, denied_operation=denied_operation):
+                    permission = (mock.patch(denied_operation, side_effect=PermissionError('report is unwritable'))
+                                  if denied_operation else contextlib.nullcontext())
+                    with permission, mock.patch('sys.argv', argv + [str(path)]), \
+                            mock.patch('refine_camera_materials.run') as apply_run, \
+                            contextlib.redirect_stderr(io.StringIO()), self.assertRaises(SystemExit) as error:
+                        main()
+                    self.assertEqual(error.exception.code, 2)
+                    apply_run.assert_not_called()
+            self.assertEqual(existing.read_bytes(), b'{"original":true}')
+            self.assertEqual(blocker.read_bytes(), b'not a directory')
 
     def test_late_backup_conflict_prevents_every_asset_write(self):
         with tempfile.TemporaryDirectory() as directory:

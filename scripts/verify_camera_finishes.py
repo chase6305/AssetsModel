@@ -2,7 +2,8 @@
 
 The checker uses only the standard library and its own GLB container reader.
 It compares every file under the three asset categories, including untracked
-additions. Only six RealSense bodies and four visual plugs may differ.
+additions. Only six RealSense bodies and four visual plugs may differ by default.
+The explicit M20 opt-in verifies one exact historical normal update separately.
 """
 from __future__ import annotations
 
@@ -32,6 +33,11 @@ MARKER = "assetsmodel_camera_material"
 # Kept as independent acceptance criteria, not imported from the transformer.
 PROFILE = "assetsmodel-camera-materials-v1"
 HOUSING_FACTORS = {"metallicFactor": 0.65, "roughnessFactor": 0.38}
+D455_PATH = "CameraModel/RealSense/RealSense_D455/meshes/glb/d455.glb"
+M20_PATH = "RobotModel/Fanuc/M_20iA/Visual/glb/Link5.glb"
+M20_SOURCE_SHA = "2c6bdb161588c77f2eeff03faa07c54a41a3992629049efe37e6cb506cb15f4c"
+M20_TARGET_SHA = "235663deae306b8cedbf458024b3c2fba0cc83ce9ef6d229de30f060665a4007"
+M20_EVIDENCE_SHA = "6bda54ed1dac09ec0af7ce3c5af0bb0e0826cde84cef05fc70faae3f5ba78ca2"
 PLUG_MATERIAL = {
     "name": "Camera USB plug graphite polymer",
     "pbrMetallicRoughness": {
@@ -120,8 +126,11 @@ def check_glb(path, before_data, after_data):
                 if index not in used:
                     raise ValueError("Unused body material changed")
                 metadata = check_finish(new, "satin_housing")
+                expected = dict(HOUSING_FACTORS)
+                if path == D455_PATH:
+                    expected["roughnessFactor"] = 0.54
                 if any(new.get("pbrMetallicRoughness", {}).get(key) != value
-                       for key, value in HOUSING_FACTORS.items()):
+                       for key, value in expected.items()):
                     raise ValueError("Unexpected camera housing finish factors")
                 if without_finish(old) != without_finish(new):
                     raise ValueError("Body material changed beyond roughness, metallic and finish metadata")
@@ -167,7 +176,62 @@ def git(root, *args):
     return subprocess.check_output(["git", "-C", str(root), *args])
 
 
-def verify_tree(root, baseline_ref):
+def reviewed_m20_mask(root):
+    """Load the one persisted mask; never accept a caller-supplied exclusion."""
+    evidence = Path(root) / "docs/quality/source-normal-outlier-review.json"
+    payload = evidence.read_bytes()
+    if digest(payload) != M20_EVIDENCE_SHA:
+        raise ValueError("M20 historical evidence SHA does not match")
+    candidate = json.loads(payload)["planar_followup"]["candidate"]
+    if candidate.get("schema") != 1 or len(candidate["files"]) != 1:
+        raise ValueError("M20 historical mask file scope differs")
+    entry = candidate["files"][0]
+    if entry.get("path") != "Visual/glb/Link5.glb" or entry.get("source_sha256") != M20_SOURCE_SHA:
+        raise ValueError("M20 historical mask source differs")
+    if len(entry["primitives"]) != 1:
+        raise ValueError("M20 mask must select only mesh0/primitive0")
+    primitive = entry["primitives"][0]
+    expected = {"mesh": 0, "primitive": 0, "corner_count": 14598, "selected_corner_count": 244,
+                "material_name": "RAL9005_003-material",
+                "source_corner_normals_sha256": "fd7e14454daecbb1012047a7570c89f1f652b0fe792d4ba3e3e2aa23e4f2fc50",
+                "expected_output_corner_normals_sha256": "4ed3552acd55250c25195455b22aacea8559e9251676e313e7306b9a32491626"}
+    if {key: primitive.get(key) for key in expected} != expected:
+        raise ValueError("M20 historical corner-mask metadata differs")
+    selection = primitive.get("selected_corner_indices", [])
+    if (len(selection) != 244 or any(type(index) is not int for index in selection)
+            or selection != sorted(set(selection)) or selection[0] < 0 or selection[-1] >= 14598):
+        raise ValueError("M20 historical selection is not the exact valid 244-corner mask")
+    return copy.deepcopy(entry)
+
+
+def check_m20_normal_update(root, before, after):
+    """Verify exact file hashes and independently inspect every changed corner."""
+    if digest(before) != M20_SOURCE_SHA:
+        raise ValueError("M20 source SHA does not match the reviewed source")
+    if digest(after) != M20_TARGET_SHA:
+        raise ValueError("M20 target SHA does not match the reviewed candidate")
+    # This checker uses the independent standard-library accessor decoder,
+    # never the production normal smoother or writer.
+    from verify_masked_normals import verify_masked_update
+    verification = verify_masked_update(before, after, reviewed_m20_mask(root))
+    if (verification["selected_corners"] != 244 or verification["changed_normal_corners"] != 244
+            or verification["newly_opposed_normal_corners"]):
+        raise ValueError("M20 independent corner-mask verification failed")
+    analyses = [p["edge_analysis"] for p in verification["primitives"]]
+    if verification["whole_file_contact_edge_analysis"] is None:
+        raise ValueError("M20 independent contact-edge analysis is unavailable")
+    analyses.append(verification["whole_file_contact_edge_analysis"])
+    for analysis in analyses:
+        if any(analysis[key] for key in ("nonmanifold_edges", "same_direction_paired_edges",
+                                       "hard_endpoint_pairs_below_30deg_after",
+                                       "near_coplanar_gap_growth_gt_0_001deg")):
+            raise ValueError("M20 independent manifold/crease/boundary check failed")
+    return {"path": M20_PATH, "kind": "m20_planar_normal_update", "before_sha256": digest(before),
+            "after_sha256": digest(after), "geometry_and_unselected_normals_preserved": True,
+            "evidence_sha256": M20_EVIDENCE_SHA, "verification": verification}
+
+
+def verify_tree(root, baseline_ref, *, include_m20_normal_update=False):
     root = Path(root).resolve()
     baseline = git(root, "rev-parse", "--verify", "--end-of-options", baseline_ref + "^{commit}").decode().strip()
     entries = {}
@@ -190,7 +254,7 @@ def verify_tree(root, baseline_ref):
     errors = [{"path": path, "error": "Asset symlinks are not allowed"} for path in symlinks]
     errors.extend({"path": path, "error": "Asset file removed"} for path in sorted(set(entries) - current))
     errors.extend({"path": path, "error": "Asset file added"} for path in sorted(current - set(entries)))
-    changed, unchanged = [], 0
+    changed, normal_updates, unchanged = [], [], 0
     # Stream one blob at a time. Avoid loading the entire asset baseline into RAM.
     process = subprocess.Popen(["git", "-C", str(root), "cat-file", "--batch"],
                                stdin=subprocess.PIPE, stdout=subprocess.PIPE)
@@ -209,12 +273,15 @@ def verify_tree(root, baseline_ref):
             actual = (root / path).read_bytes()
             if original == actual:
                 unchanged += 1
-            elif path not in ALLOWED_PATHS:
+            elif path not in ALLOWED_PATHS and not (include_m20_normal_update and path == M20_PATH):
                 errors.append({"path": path, "error": "Off-scope asset bytes changed"})
             else:
                 try:
-                    changed.append(check_glb(path, original, actual))
-                except (ValueError, TypeError, KeyError, IndexError, struct.error) as exc:
+                    if path == M20_PATH:
+                        normal_updates.append(check_m20_normal_update(root, original, actual))
+                    else:
+                        changed.append(check_glb(path, original, actual))
+                except (ValueError, AssertionError, TypeError, KeyError, IndexError, struct.error) as exc:
                     errors.append({"path": path, "error": str(exc)})
     finally:
         process.stdin.close()
@@ -223,11 +290,14 @@ def verify_tree(root, baseline_ref):
     return {"summary": {"baseline_ref": baseline_ref, "baseline_commit": baseline,
                         "baseline_asset_files": len(entries), "unchanged_asset_files": unchanged,
                         "verified_camera_changes": len(changed),
+                        "verified_normal_changes": len(normal_updates),
+                        "verified_asset_changes": len(changed) + len(normal_updates),
+                        "m20_normal_update_enabled": include_m20_normal_update,
                         "verified_material_roles": dict(Counter(edit["role"] for row in changed
                                                                 for edit in row["material_changes"])),
                         "errors": len(errors)},
-            "scope": "All files under CameraModel, RobotModel and ToolModel; only ten camera GLBs may change",
-            "verified_changes": changed, "errors": errors}
+            "scope": "All files under CameraModel, RobotModel and ToolModel; ten camera GLBs, plus the exact M20 normal update only when explicitly enabled",
+            "verified_changes": changed, "verified_normal_updates": normal_updates, "errors": errors}
 
 
 def report_destination(root, output):
@@ -245,13 +315,15 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--baseline-ref", required=True)
+    parser.add_argument("--include-m20-normal-update", action="store_true",
+                        help="Also verify the one exact reviewed 244-corner FANUC M20 Link5 update")
     parser.add_argument("--json", type=Path, required=True)
     args = parser.parse_args()
     try:
         destination = report_destination(args.root, args.json)
     except ValueError as exc:
         parser.error(str(exc))
-    report = verify_tree(args.root, args.baseline_ref)
+    report = verify_tree(args.root, args.baseline_ref, include_m20_normal_update=args.include_m20_normal_update)
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_text(json.dumps(report, indent=2, allow_nan=False) + "\n")
     print(json.dumps(report["summary"]))
