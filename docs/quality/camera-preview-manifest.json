@@ -1353,7 +1353,952 @@
     "comparison_images": 40,
     "camera_models": 6,
     "plug_views_per_phase": 2,
-    "parameter_trial_models": 2,
-    "parameter_trial_renders": 18
-  }
+    "parameter_trial_models": 3,
+    "parameter_trial_renders": 27
+  },
+  "parameter_trials": [
+    {
+      "model": "d405",
+      "metallic": 0.35,
+      "roughness": 0.28,
+      "reference_geometry_bin_sha256": "5518d312f1829d0256b03f90fcba8e7d4a1b7e0b7e1a02db8a8b00ed4a1dc00b",
+      "original_png_sha256": "bec30f5a0bebb52f7b4aaa8a5eb7a2c9db384426a57ed91d9a7089f58d099382",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 4.666531085968018
+      }
+    },
+    {
+      "model": "d405",
+      "metallic": 0.35,
+      "roughness": 0.38,
+      "reference_geometry_bin_sha256": "5518d312f1829d0256b03f90fcba8e7d4a1b7e0b7e1a02db8a8b00ed4a1dc00b",
+      "original_png_sha256": "b2d7ffa1a17998312c37e351a323dc5c1463e709567bba961016cacd2e05e2f8",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 4.666531085968018
+      }
+    },
+    {
+      "model": "d405",
+      "metallic": 0.35,
+      "roughness": 0.5,
+      "reference_geometry_bin_sha256": "5518d312f1829d0256b03f90fcba8e7d4a1b7e0b7e1a02db8a8b00ed4a1dc00b",
+      "original_png_sha256": "5189d7a14c8e95d91b00ea2349b793a423fdcb6cead13a9a08fd087a5664dcdd",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 4.666531085968018
+      }
+    },
+    {
+      "model": "d405",
+      "metallic": 0.65,
+      "roughness": 0.28,
+      "reference_geometry_bin_sha256": "5518d312f1829d0256b03f90fcba8e7d4a1b7e0b7e1a02db8a8b00ed4a1dc00b",
+      "original_png_sha256": "5cbe88dea20e9df8ece69117de0dbd68569d1b8dfa59704798db457b2fd7374c",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 4.666531085968018
+      }
+    },
+    {
+      "model": "d405",
+      "metallic": 0.65,
+      "roughness": 0.38,
+      "reference_geometry_bin_sha256": "5518d312f1829d0256b03f90fcba8e7d4a1b7e0b7e1a02db8a8b00ed4a1dc00b",
+      "original_png_sha256": "01c91930852d4d6887821ac942817cdd7ea2c77c549d40410e1af2f970a3732b",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 4.666531085968018
+      }
+    },
+    {
+      "model": "d405",
+      "metallic": 0.65,
+      "roughness": 0.5,
+      "reference_geometry_bin_sha256": "5518d312f1829d0256b03f90fcba8e7d4a1b7e0b7e1a02db8a8b00ed4a1dc00b",
+      "original_png_sha256": "7e7c5be300646b8a5e121e3a2eac0551b2cbea71b2585a4c8dfa2e1111e09bde",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 4.666531085968018
+      }
+    },
+    {
+      "model": "d405",
+      "metallic": 0.9,
+      "roughness": 0.28,
+      "reference_geometry_bin_sha256": "5518d312f1829d0256b03f90fcba8e7d4a1b7e0b7e1a02db8a8b00ed4a1dc00b",
+      "original_png_sha256": "9844c272a9a1e05dad99e2f9db2103b8724b97dc3dad7e2ee662ae125f4ef585",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 4.666531085968018
+      }
+    },
+    {
+      "model": "d405",
+      "metallic": 0.9,
+      "roughness": 0.38,
+      "reference_geometry_bin_sha256": "5518d312f1829d0256b03f90fcba8e7d4a1b7e0b7e1a02db8a8b00ed4a1dc00b",
+      "original_png_sha256": "4815042073e566c9d7dc37c8ffdf586965c17b7f6b0c6eca8e29ff64e79c34d5",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 4.666531085968018
+      }
+    },
+    {
+      "model": "d405",
+      "metallic": 0.9,
+      "roughness": 0.5,
+      "reference_geometry_bin_sha256": "5518d312f1829d0256b03f90fcba8e7d4a1b7e0b7e1a02db8a8b00ed4a1dc00b",
+      "original_png_sha256": "048b8de36062f294685433b399b71b3a2cddc1e54068dafc8b58f1571868a853",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 4.666531085968018
+      }
+    },
+    {
+      "model": "d435",
+      "metallic": 0.35,
+      "roughness": 0.28,
+      "reference_geometry_bin_sha256": "823d95ee11ad377d5f943ce9c65d00b1f1d4f593d2efe4529450def47b51b054",
+      "original_png_sha256": "ba0196e8c465284b277d0771bd23cdcab5189e3a949361c18f5efb6dae910717",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1890170574188232
+      }
+    },
+    {
+      "model": "d435",
+      "metallic": 0.35,
+      "roughness": 0.38,
+      "reference_geometry_bin_sha256": "823d95ee11ad377d5f943ce9c65d00b1f1d4f593d2efe4529450def47b51b054",
+      "original_png_sha256": "e7bd9116fb22aab1801931e09e9e6486b7b59710fd3542ca211d65179dad03dc",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1890170574188232
+      }
+    },
+    {
+      "model": "d435",
+      "metallic": 0.35,
+      "roughness": 0.5,
+      "reference_geometry_bin_sha256": "823d95ee11ad377d5f943ce9c65d00b1f1d4f593d2efe4529450def47b51b054",
+      "original_png_sha256": "6d439d8202c4c30fe222fcb0cc5ec49bb48d690f721f5533c992faf6cf9d3ade",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1890170574188232
+      }
+    },
+    {
+      "model": "d435",
+      "metallic": 0.65,
+      "roughness": 0.28,
+      "reference_geometry_bin_sha256": "823d95ee11ad377d5f943ce9c65d00b1f1d4f593d2efe4529450def47b51b054",
+      "original_png_sha256": "bccc7694b223facdbe92e2bcf495207e00be3d0d077c1f7beee9e16ff91b430a",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1890170574188232
+      }
+    },
+    {
+      "model": "d435",
+      "metallic": 0.65,
+      "roughness": 0.38,
+      "reference_geometry_bin_sha256": "823d95ee11ad377d5f943ce9c65d00b1f1d4f593d2efe4529450def47b51b054",
+      "original_png_sha256": "09c9159acef68396ff5855b6b83c2dc0922d7d27b70ff56a92418f443deac7b1",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1890170574188232
+      }
+    },
+    {
+      "model": "d435",
+      "metallic": 0.65,
+      "roughness": 0.5,
+      "reference_geometry_bin_sha256": "823d95ee11ad377d5f943ce9c65d00b1f1d4f593d2efe4529450def47b51b054",
+      "original_png_sha256": "1507a156787fbe3b3ec76dcb6372f2de1bb5aa5e61939839e9bc9979725f2eb1",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1890170574188232
+      }
+    },
+    {
+      "model": "d435",
+      "metallic": 0.9,
+      "roughness": 0.28,
+      "reference_geometry_bin_sha256": "823d95ee11ad377d5f943ce9c65d00b1f1d4f593d2efe4529450def47b51b054",
+      "original_png_sha256": "6825042608f43b5d5c2158b87a02114e55e12f5e3cd99805f0c973a9804ce0c2",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1890170574188232
+      }
+    },
+    {
+      "model": "d435",
+      "metallic": 0.9,
+      "roughness": 0.38,
+      "reference_geometry_bin_sha256": "823d95ee11ad377d5f943ce9c65d00b1f1d4f593d2efe4529450def47b51b054",
+      "original_png_sha256": "6e7c9673229c6fa3814d469c0c7e639d50cab10f1712a3ebd61baa9188d83901",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1890170574188232
+      }
+    },
+    {
+      "model": "d435",
+      "metallic": 0.9,
+      "roughness": 0.5,
+      "reference_geometry_bin_sha256": "823d95ee11ad377d5f943ce9c65d00b1f1d4f593d2efe4529450def47b51b054",
+      "original_png_sha256": "61ebd5ef0f54f9612e166e0548c31df28bbf159c342c1b98b1e9c73774b7933e",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1890170574188232
+      }
+    },
+    {
+      "model": "d455",
+      "metallic": 0.65,
+      "roughness": 0.38,
+      "reference_geometry_bin_sha256": "ae4893e8a39dd4cc771d55b8db65ec38544a433a7dba43551631ad3cb160a015",
+      "original_png_sha256": "9c31d9483f2da131e6373e4ea994987db68f85c50f8aea69b193bd9448a2fe4c",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 1.9965919256210327
+      }
+    },
+    {
+      "model": "d455",
+      "metallic": 0.65,
+      "roughness": 0.38,
+      "reference_geometry_bin_sha256": "ae4893e8a39dd4cc771d55b8db65ec38544a433a7dba43551631ad3cb160a015",
+      "original_png_sha256": "efb43303121b1d2b42c33cd46800327f02a063a9c1cd8d5b4a101a30b4d81b41",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 1.9500117301940918
+      }
+    },
+    {
+      "model": "d455",
+      "metallic": 0.65,
+      "roughness": 0.38,
+      "reference_geometry_bin_sha256": "ae4893e8a39dd4cc771d55b8db65ec38544a433a7dba43551631ad3cb160a015",
+      "original_png_sha256": "1442d8a7429c495a30be84c60e682ce8d75757a0d69608abb31ee1b4170f88c7",
+      "settings": {
+        "view": "right",
+        "azimuth_degrees": 0.0,
+        "elevation_degrees": 5.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 2.4000000953674316
+      }
+    },
+    {
+      "model": "d455",
+      "metallic": 0.65,
+      "roughness": 0.46,
+      "reference_geometry_bin_sha256": "ae4893e8a39dd4cc771d55b8db65ec38544a433a7dba43551631ad3cb160a015",
+      "original_png_sha256": "a3d60725e923005c30a32d6abf163111a8ff60c90986032884b6678b3bf998e7",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 1.9965919256210327
+      }
+    },
+    {
+      "model": "d455",
+      "metallic": 0.65,
+      "roughness": 0.46,
+      "reference_geometry_bin_sha256": "ae4893e8a39dd4cc771d55b8db65ec38544a433a7dba43551631ad3cb160a015",
+      "original_png_sha256": "83e14853970b957172f98314db06bf1c572bb55624fa375174ede2614a8cc777",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 1.9500117301940918
+      }
+    },
+    {
+      "model": "d455",
+      "metallic": 0.65,
+      "roughness": 0.46,
+      "reference_geometry_bin_sha256": "ae4893e8a39dd4cc771d55b8db65ec38544a433a7dba43551631ad3cb160a015",
+      "original_png_sha256": "4dc4ebeb6eb74876e8c25462d5b1bba0b743f3bcf943bcd46d916a2be49e89d1",
+      "settings": {
+        "view": "right",
+        "azimuth_degrees": 0.0,
+        "elevation_degrees": 5.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 2.4000000953674316
+      }
+    },
+    {
+      "model": "d455",
+      "metallic": 0.65,
+      "roughness": 0.54,
+      "reference_geometry_bin_sha256": "ae4893e8a39dd4cc771d55b8db65ec38544a433a7dba43551631ad3cb160a015",
+      "original_png_sha256": "fcdd260bcfe150f546644c6ea5f519bbee3acc0acb0d3932fb76dea64ef9046e",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 1.9965919256210327
+      }
+    },
+    {
+      "model": "d455",
+      "metallic": 0.65,
+      "roughness": 0.54,
+      "reference_geometry_bin_sha256": "ae4893e8a39dd4cc771d55b8db65ec38544a433a7dba43551631ad3cb160a015",
+      "original_png_sha256": "3640e4cddc2fc71f32465cfc291ce63ed2a30dc55f77dc8f56f0f9beaefcb3dc",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 1.9500117301940918
+      }
+    },
+    {
+      "model": "d455",
+      "metallic": 0.65,
+      "roughness": 0.54,
+      "reference_geometry_bin_sha256": "ae4893e8a39dd4cc771d55b8db65ec38544a433a7dba43551631ad3cb160a015",
+      "original_png_sha256": "48e0cb4cd49e905a7515e4d050b85e5d577418a145ffbfdde7790e9e69a5d63c",
+      "settings": {
+        "view": "right",
+        "azimuth_degrees": 0.0,
+        "elevation_degrees": 5.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 2.4000000953674316
+      }
+    }
+  ],
+  "selected_housing_parameters": {
+    "default": {
+      "metallic": 0.65,
+      "roughness": 0.38
+    },
+    "d455": {
+      "metallic": 0.65,
+      "roughness": 0.54
+    },
+    "note": "Visual approximations chosen from matched views; not measured or uniquely optimal finishes."
+  },
+  "parameter_grids": [
+    {
+      "image": "docs/previews/cameras-d405-parameter-grid.jpg",
+      "sha256": "3efd2cc8b4f29c6d034f40a3a33cc9abd51b068707ad1ca813733d1961526e1c"
+    },
+    {
+      "image": "docs/previews/cameras-d435-parameter-grid.jpg",
+      "sha256": "c38c2984e0d79029baad4118fd9257492a5cfabb0a46bbb58bf473b47a587e60"
+    },
+    {
+      "image": "docs/previews/cameras-d455-roughness-grid.jpg",
+      "sha256": "0bbc43d000470eed8be09a1812d984722f925b3a1d97bddded5911359e3054d6"
+    }
+  ]
 }
