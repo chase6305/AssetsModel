@@ -6,7 +6,7 @@ Portable URDF assets for robot planning, simulation, and visualization.
 
 [Model catalog](docs/CATALOG.md) · [New robots](docs/NEW_ROBOTS.md) · [Brand materials](docs/BRAND_MATERIALS.md) · [Camera materials](docs/CAMERA_MATERIALS.md) · [Surface normals](docs/NORMAL_REFINEMENT.md) · [Asset layout](docs/ASSET_LAYOUT.md) · [Before / after viewer](docs/preview.html) · [GLB conversion report](docs/GLB_REPORT.md) · [工具使用说明](docs/MESH_WORKFLOW.md)
 
-All URDFs now reference **GLB meshes in their model directories**. Visual and collision resources use format subdirectories such as `Visual/glb/`, `Visual/stl/`, `Collision/glb/` and `Collision/stl/`; cameras and tools use `meshes/glb/` and `meshes/stl/`. **The runtime tree contains no DAE files or duplicate top-level GLB tree.** Imported source archives retain original DAE inputs for traceability. GLBs occupy **227.7 MiB**; retained STL alternatives occupy **245.0 MiB**. Copy a model directory, or export only its GLB runtime resources using the [workflow](docs/MESH_WORKFLOW.md).
+All URDFs now reference **GLB meshes in their model directories**. Visual and collision resources use format subdirectories such as `Visual/glb/`, `Visual/stl/`, `Collision/glb/` and `Collision/stl/`; cameras and tools use `meshes/glb/` and `meshes/stl/`. **The runtime tree contains no DAE files or duplicate top-level GLB tree.** Imported source archives retain original DAE inputs for traceability. GLBs occupy **227.5 MiB**; retained STL alternatives occupy **245.0 MiB**. Copy a model directory, or export only its GLB runtime resources using the [workflow](docs/MESH_WORKFLOW.md).
 
 | Peitian AIR10-1210 | Franka FR3 | Universal Robots UR5e |
 | :---: | :---: | :---: |

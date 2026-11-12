@@ -7,6 +7,9 @@
   "browser_exit": 0,
   "source": "docs/preview.html",
   "images": "DOM interactions in private temporary Chromium; published JPEG headers/dimensions verified with Pillow",
-  "preview_source_sha256": "60db04300d4fbbba7d84d89b0567eeca76102f658e61fdebfa172891f23a9092",
-  "browser_version": "Google Chrome 155.0.8059.84"
+  "browser_version": "Google Chrome 155.0.8059.84",
+  "tested_preview_source_sha256": "60db04300d4fbbba7d84d89b0567eeca76102f658e61fdebfa172891f23a9092",
+  "current_preview_source_sha256": "2f2d59f5728c7d0b5150c5edc9f857370cd24863b20dd4888f06a6ca74143e77",
+  "tested_inline_script_sha256": "25b185f39ebb093f8757b7dc43e24834f7a95b6dd28bf853bc79dee506f4d500",
+  "post_check_source_change": "Inventory text updated only; all inline scripts remain byte-identical to the tested page."
 }
