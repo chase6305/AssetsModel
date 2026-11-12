@@ -1,0 +1,100 @@
+{
+  "blender": "5.3.0",
+  "engine": "BLENDER_EEVEE",
+  "opaque_controls": {
+    "front": [
+      1.0,
+      0.3137255012989044,
+      0.02352941408753395
+    ],
+    "back": [
+      0.02352941408753395,
+      0.250980406999588,
+      1.0
+    ]
+  },
+  "png_channel_tolerance": 0.00784313725490196,
+  "cases": [
+    {
+      "case": "front-order0-joined0",
+      "center_png_rgb": [
+        1.0,
+        0.3137255012989044,
+        0.02352941408753395
+      ],
+      "max_control_error": 0.0,
+      "passed": true
+    },
+    {
+      "case": "front-order0-joined1",
+      "center_png_rgb": [
+        1.0,
+        0.3137255012989044,
+        0.02352941408753395
+      ],
+      "max_control_error": 0.0,
+      "passed": true
+    },
+    {
+      "case": "front-order1-joined0",
+      "center_png_rgb": [
+        1.0,
+        0.3137255012989044,
+        0.02352941408753395
+      ],
+      "max_control_error": 0.0,
+      "passed": true
+    },
+    {
+      "case": "front-order1-joined1",
+      "center_png_rgb": [
+        1.0,
+        0.3137255012989044,
+        0.02352941408753395
+      ],
+      "max_control_error": 0.0,
+      "passed": true
+    },
+    {
+      "case": "back-order0-joined0",
+      "center_png_rgb": [
+        0.02352941408753395,
+        0.250980406999588,
+        1.0
+      ],
+      "max_control_error": 0.0,
+      "passed": true
+    },
+    {
+      "case": "back-order0-joined1",
+      "center_png_rgb": [
+        0.02352941408753395,
+        0.250980406999588,
+        1.0
+      ],
+      "max_control_error": 0.0,
+      "passed": true
+    },
+    {
+      "case": "back-order1-joined0",
+      "center_png_rgb": [
+        0.02352941408753395,
+        0.250980406999588,
+        1.0
+      ],
+      "max_control_error": 0.0,
+      "passed": true
+    },
+    {
+      "case": "back-order1-joined1",
+      "center_png_rgb": [
+        0.02352941408753395,
+        0.250980406999588,
+        1.0
+      ],
+      "max_control_error": 0.0,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

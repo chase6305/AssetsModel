@@ -1,0 +1,229 @@
+{
+  "review": "Actual D435_and_plug URDF assembly; same transforms and renderer for before/after, dark hero/rear plus light hero. Uniform connector finish is a visualization approximation.",
+  "plan": {
+    "purpose": "Uniform graphite detail/readability in real D435 URDF assembly across matched views and backgrounds; not manufacturer connector material partition restoration",
+    "inputs": [
+      {
+        "phase": "before",
+        "urdf": "/tmp/assetsmodel-beautify-baseline/CameraModel/RealSense/RealSense_D435/RealSense_D435_and_plug.urdf",
+        "urdf_sha256": "cc373fc7f23569cc4ef5fe9aadd2a738a4e18cc43464089305bb3ba8afcd8843"
+      },
+      {
+        "phase": "after",
+        "urdf": "/tmp/assetsmodel-glb-beautify-20261112/CameraModel/RealSense/RealSense_D435/RealSense_D435_and_plug.urdf",
+        "urdf_sha256": "cc373fc7f23569cc4ef5fe9aadd2a738a4e18cc43464089305bb3ba8afcd8843"
+      }
+    ],
+    "urdf_bytes_identical": true,
+    "frames": 6,
+    "views": [
+      {
+        "theme": "dark",
+        "view": "hero"
+      },
+      {
+        "theme": "dark",
+        "view": "rear"
+      },
+      {
+        "theme": "light",
+        "view": "hero"
+      }
+    ],
+    "width": 1000,
+    "height": 700,
+    "samples": 48,
+    "blender_threads": 2
+  },
+  "images": [
+    {
+      "image": "after-dark-hero.png",
+      "original_png_sha256": "0cb73b32ec592141bac4011503aefdf7f45afeea36091597465ca4951e4d734b",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 19,
+        "bounds_m": [
+          [
+            -0.010450000655695773,
+            -0.08014999589921072,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 1.8834842443466187
+      }
+    },
+    {
+      "image": "after-dark-rear.png",
+      "original_png_sha256": "bfb9b768299ae79f1f65b10b240a11db3b42cc6707cf1ff8713f0189b4dc5550",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 19,
+        "bounds_m": [
+          [
+            -0.010450000655695773,
+            -0.08014999589921072,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 1.8363478183746338
+      }
+    },
+    {
+      "image": "after-light-hero.png",
+      "original_png_sha256": "deee633c14e27cc482ffac4f04a58c1c8910df8271b98d08afb34330f2b70140",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "light",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 19,
+        "bounds_m": [
+          [
+            -0.010450000655695773,
+            -0.08014999589921072,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 1.8834842443466187
+      }
+    },
+    {
+      "image": "before-dark-hero.png",
+      "original_png_sha256": "c1c23f7b451eec67ed50b2f04d279b0e0d7baf48bf98387ce00f5f0130325eef",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 19,
+        "bounds_m": [
+          [
+            -0.010450000655695773,
+            -0.08014999589921072,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 1.8834842443466187
+      }
+    },
+    {
+      "image": "before-dark-rear.png",
+      "original_png_sha256": "fe37b0592b93c33fd355b52ac7f14b8ed1cb59bf331913db75df4d9e4edce45c",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 19,
+        "bounds_m": [
+          [
+            -0.010450000655695773,
+            -0.08014999589921072,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 1.8363478183746338
+      }
+    },
+    {
+      "image": "before-light-hero.png",
+      "original_png_sha256": "0da580a2d8e7a42ae8501e7f654172d392937efd054ae9963f9ebff9d05299ac",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "light",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 19,
+        "bounds_m": [
+          [
+            -0.010450000655695773,
+            -0.08014999589921072,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 1.8834842443466187
+      }
+    }
+  ],
+  "comparison_image": "docs/previews/cameras-assembly-d435.jpg",
+  "comparison_image_sha256": "5583919aacd728a034bc12b57d1fc0161a16c904aa50fe59969c7245f2b8f2f4",
+  "renderer_sha256": "e4dc1f50a4a26df74cb15a30d60d2d80e2aaa799f09cbace5cb8f3c7dcbc464a"
+}

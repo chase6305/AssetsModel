@@ -1,6 +1,6 @@
 # 资源目录与使用约定
 
-当前资源包含 **75 个 URDF、12 个机器人品牌、874 个 GLB 和 420 个可选 STL**，统计依据为[本轮库存快照](quality/inventory.json)。默认 URDF 全部使用模型目录内的 GLB，不维护顶层 `GLB/` 副本，运行目录内没有 DAE；迁入模型的原始 DAE/Xacro 输入保存在 `source.tar.gz` 中。2026 年 9 月迁移时移除的 378 个 DAE、当时的 783 个 GLB / 405 个 STL 属于[历史转档记录](GLB_REPORT.md)，不代表当前库存。
+当前资源包含 **75 个 URDF、12 个机器人品牌、874 个 GLB 和 420 个可选 STL**，统计依据为[本轮库存快照](quality/finish-inventory.json)。默认 URDF 全部使用模型目录内的 GLB，不维护顶层 `GLB/` 副本，运行目录内没有 DAE；迁入模型的原始 DAE/Xacro 输入保存在 `source.tar.gz` 中。2026 年 9 月迁移时移除的 378 个 DAE、当时的 783 个 GLB / 405 个 STL 属于[历史转档记录](GLB_REPORT.md)，不代表当前库存。
 
 ```text
 RobotModel/<Vendor>/<Model>/
@@ -33,9 +33,9 @@ ToolModel/Robotiq2F85/
 
 | 当前资源 | 数量 | 网格体积 |
 | --- | ---: | ---: |
-| 默认 GLB | 874 | 227.7 MiB |
+| 默认 GLB | 874 | 227.5 MiB |
 | 可选 STL | 420 | 245.0 MiB |
-| 合计 | 1,294 | 472.7 MiB |
+| 合计 | 1,294 | 472.5 MiB |
 | DAE | 0 | 0 |
 
 体积仅统计网格文件，不含 URDF、许可、文档和 Git 历史。精确字节数以库存快照中的 `glb_bytes` / `stl_bytes` 为准；MiB 使用 2²⁰ 字节。GLB 和 STL 可能表达同一个零件，上表不能用来统计装配的唯一表面数量。历史转档的 10,407,054 个三角形也不能直接作为新增型号后的总面数。
@@ -50,7 +50,7 @@ GLB 保留 URDF 网格的局部坐标与米制单位。独立 GLB 查看器的�
 
 历史上同目录同时有 `Link.dae` 和 `Link.stl` 时，两个 GLB 分别命名为 `glb/Link.glb` 和 `glb/Link.stl.glb`，保留各自几何。对应 STL 位于 `stl/Link.stl`。转换工具默认拒绝覆盖内容不同的同名 GLB。
 
-[`glb-manifest.json`](glb-manifest.json) 是历史 DAE/STL → GLB 的逐文件转档记录；`glb` 和 `retained_stl` 为转档阶段的资源路径，`source`、`source_bytes`、`source_sha256` 保存历史输入。已移除的 DAE 路径和已替换型号不必仍然存在，不能用该文件判断当前资源总数。当前总量见 [quality/inventory.json](quality/inventory.json)，新增模型的固定提交与输入/输出哈希见各模型内的 `provenance.json`。
+[`glb-manifest.json`](glb-manifest.json) 是历史 DAE/STL → GLB 的逐文件转档记录；`glb` 和 `retained_stl` 为转档阶段的资源路径，`source`、`source_bytes`、`source_sha256` 保存历史输入。已移除的 DAE 路径和已替换型号不必仍然存在，不能用该文件判断当前资源总数。当前总量见 [quality/inventory.json](quality/finish-inventory.json)，新增模型的固定提交与输入/输出哈希见各模型内的 `provenance.json`。
 
 迁入前的 [71 个 URDF 的 213 组加载姿态](quality/loader-validation.json)通过检查；迁入前的 [841 个 GLB 的 Khronos 格式校验](quality/glb-format-validation.json)记录为 0 错误、0 警告，另有 23 条提示。格式报告中的逐文件哈希用于确认验证对应的资源版本。其他应用的格式支持取决于其实际加载器。转换、导出与校验命令见[工作流程](MESH_WORKFLOW.md)。
 

@@ -1,0 +1,2304 @@
+{
+  "baseline_commit": "a7d0c4d2e1c4baa465ced42bddd7238136f46974",
+  "current_assets_sha256": {
+    "CameraModel/RealSense/RealSense_D405/RealSense_D405.urdf": "b1262ee897166c07e54a552f800035d96d8fd4b00b8f5c294e47a073ad9642fb",
+    "CameraModel/RealSense/RealSense_D405/RealSense_D405_and_plug.urdf": "08251ab766e06cc0de50ae8bc0bed57e9e2d20616315628cc580bf37ad214f53",
+    "CameraModel/RealSense/RealSense_D415/RealSense_D415.urdf": "d8ec1d7108aba767dd6c25b734a7f8740196ac1719045897fea1efe30e6fd265",
+    "CameraModel/RealSense/RealSense_D415/RealSense_D415_and_plug.urdf": "c14877f51bc9db1911924f3491f3d76f8f7e98dadb3262ca69afe0eea7536845",
+    "CameraModel/RealSense/RealSense_D435/RealSense_D435.urdf": "ad3322653cec5c8f595d7793816ee5a0c95a64ce823fd3cede0b02d554a3f894",
+    "CameraModel/RealSense/RealSense_D435/RealSense_D435_and_plug.urdf": "cc373fc7f23569cc4ef5fe9aadd2a738a4e18cc43464089305bb3ba8afcd8843",
+    "CameraModel/RealSense/RealSense_D436/RealSense_D436.urdf": "9e81cc578b9c8775ba71dcd03801cc6bf27d925d15e48c9105aaab77d0a4e69f",
+    "CameraModel/RealSense/RealSense_D436/RealSense_D436_and_plug.urdf": "d533a98c89abe15c3c4a92b1f88e35971d2a5c4c3956ac63c57d8de6c710ac78",
+    "CameraModel/RealSense/RealSense_D455/RealSense_D455.urdf": "5ae402a597b077fb4a80863d790c9c7b9b17583ea1053ccee1eaec3b1dc0b013",
+    "CameraModel/RealSense/RealSense_D585/RealSense_D585.urdf": "2c97bad582467f49488bf6149e16754dc9126cc3decffc7c4df18f518d41dfaa",
+    "CameraModel/RealSense/RealSense_D405/meshes/glb/d405.glb": "b540301af2d8b2179853644ac524865c8274d0a688cf4a69e764d7d6556f6436",
+    "CameraModel/RealSense/RealSense_D405/meshes/glb/plug.glb": "5c706cf963fad96b2fd8048976daad52f4ea23392824cd26b30df12fcd71cf7d",
+    "CameraModel/RealSense/RealSense_D415/meshes/glb/d415.glb": "d1f63bb4a3d73cd07259a3d46bd3013ee0793138faed9fe20251b1ec1106e984",
+    "CameraModel/RealSense/RealSense_D415/meshes/glb/plug.glb": "5c706cf963fad96b2fd8048976daad52f4ea23392824cd26b30df12fcd71cf7d",
+    "CameraModel/RealSense/RealSense_D435/meshes/glb/d435.glb": "66e53c0fe4ff07f1bcc533d215192026edec07f2a1a37c91dbb5f809215f8f33",
+    "CameraModel/RealSense/RealSense_D435/meshes/glb/plug.glb": "5c706cf963fad96b2fd8048976daad52f4ea23392824cd26b30df12fcd71cf7d",
+    "CameraModel/RealSense/RealSense_D436/meshes/glb/d436.glb": "610b7f5439a70fddbd5f8afad5f0bc68747bdee80d848d8d09f84f638c412f55",
+    "CameraModel/RealSense/RealSense_D436/meshes/glb/plug.glb": "5c706cf963fad96b2fd8048976daad52f4ea23392824cd26b30df12fcd71cf7d",
+    "CameraModel/RealSense/RealSense_D455/meshes/glb/d455.glb": "4a1d2c7706ca399fdf9bd412a5ef486c2f2ef7a1ea4782d359e2519abbeb3818",
+    "CameraModel/RealSense/RealSense_D585/meshes/glb/d585.glb": "d7be7e10941f49fd049b74ed59af0f526028e52a414d857ec48637b607157a4d"
+  },
+  "render_scripts_sha256": {
+    "prepare_preview.py": "3d0da1a995098e15726a89c5ef8aabed3a16c19acc0a7aa4b336035e5f8e1c79",
+    "render_preview.py": "e4dc1f50a4a26df74cb15a30d60d2d80e2aaa799f09cbace5cb8f3c7dcbc464a"
+  },
+  "encoding": "JPEG quality95/chroma444 for documentation; original PNG SHA256 retained. PBR/geometry acceptance uses GLB byte checks, not JPEG pixel equality.",
+  "images": [
+    {
+      "phase": "before",
+      "image": "docs/previews/cameras-before/d405-hero.jpg",
+      "image_sha256": "b2e5fb7a7dcca26a2a25295e89c5442f109bf485231f635ed14b4cde4cea07a3",
+      "original_png_sha256": "7d40cf92c10bf8bbaf2866d789f49e898eb9f1cbfd4787d2c2f867bf38404994",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 4.666531085968018
+      }
+    },
+    {
+      "phase": "before",
+      "image": "docs/previews/cameras-before/d405-rear.jpg",
+      "image_sha256": "6c3b2d9dffb1c5019985d3bf1d501d30ac15b96055e021aa7d564eda5f22313e",
+      "original_png_sha256": "f21636b1cae46f5c22be82af86b0a6c20cf91672bd5161e90f1eb3e696782694",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 4.626767635345459
+      }
+    },
+    {
+      "phase": "before",
+      "image": "docs/previews/cameras-before/d405-right.jpg",
+      "image_sha256": "6a8d15f7d543bb2b08312d230a409d3fe869e737859f89342e3bd243bf7f1e08",
+      "original_png_sha256": "5dfb129296bb0776fa50088dd1a403738a07381cd90eccaa0c936bd1f238e854",
+      "settings": {
+        "view": "right",
+        "azimuth_degrees": 0.0,
+        "elevation_degrees": 5.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 3.5715110301971436
+      }
+    },
+    {
+      "phase": "before",
+      "image": "docs/previews/cameras-before/d415-hero.jpg",
+      "image_sha256": "96211c142eeafb06c1d4c2194f4deed14a4244eb5b3639d6a55d0ab1c3a92a58",
+      "original_png_sha256": "d20213fe124cf493c7e28ea048f3021dc541b39be2aaff23214e98c528096714",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010180000399470104,
+            -0.0494032241403467,
+            -2.194198228628111e-05
+          ],
+          [
+            0.009870000000241652,
+            0.04952076822526941,
+            0.02302194291345566
+          ]
+        ],
+        "ortho_scale": 1.9882947206497192
+      }
+    },
+    {
+      "phase": "before",
+      "image": "docs/previews/cameras-before/d415-rear.jpg",
+      "image_sha256": "2b9f2dd27aabbadfadb34f36b9ff3833117f763005f9253e72d1dc5bb167e869",
+      "original_png_sha256": "fc99ab0764ac0a5c9df52c2296b1ac6b407715f306461180efd14b4ca5e0143c",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010180000399470104,
+            -0.0494032241403467,
+            -2.194198228628111e-05
+          ],
+          [
+            0.009870000000241652,
+            0.04952076822526941,
+            0.02302194291345566
+          ]
+        ],
+        "ortho_scale": 1.9419152736663818
+      }
+    },
+    {
+      "phase": "before",
+      "image": "docs/previews/cameras-before/d415-right.jpg",
+      "image_sha256": "d3c0cd28fbfd16dc94d9f57ec9f8e394c2583970289894e73ff325c0c4ed4237",
+      "original_png_sha256": "b51e31c7f1dcd729ad40de68cae4ee4a0c9e1293644af152567ebeaae77e01c4",
+      "settings": {
+        "view": "right",
+        "azimuth_degrees": 0.0,
+        "elevation_degrees": 5.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010180000399470104,
+            -0.0494032241403467,
+            -2.194198228628111e-05
+          ],
+          [
+            0.009870000000241652,
+            0.04952076822526941,
+            0.02302194291345566
+          ]
+        ],
+        "ortho_scale": 2.4000003337860107
+      }
+    },
+    {
+      "phase": "before",
+      "image": "docs/previews/cameras-before/d435-hero.jpg",
+      "image_sha256": "68347a6b4c48c41e32b35a2aa72c6eb69a5cd66ef97b90e588aeb7bc56ab1f37",
+      "original_png_sha256": "effeb41437363c0fc2532ff4642026f69b0a3eef1f354a75b9734661c37defa2",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1890170574188232
+      }
+    },
+    {
+      "phase": "before",
+      "image": "docs/previews/cameras-before/d435-rear.jpg",
+      "image_sha256": "e6446f7406f86d89fcdb6b84fc4aa358f49aed7a9a94be60799fda5296c2290b",
+      "original_png_sha256": "12d0e6537571415a8ed5fa1b8a0d598afbbc8b308bce2315dff411f365c5c15a",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1412596702575684
+      }
+    },
+    {
+      "phase": "before",
+      "image": "docs/previews/cameras-before/d435-right.jpg",
+      "image_sha256": "021ebee60c50ac98c48d39c94ed7c6b3d527fa3d23c3f31bd6e8d89c6eb2f782",
+      "original_png_sha256": "2f1da8c48d9717ef471fd72433cb864fbb98fdf85f2cf1a44e70d8e552f25506",
+      "settings": {
+        "view": "right",
+        "azimuth_degrees": 0.0,
+        "elevation_degrees": 5.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.4000003337860107
+      }
+    },
+    {
+      "phase": "before",
+      "image": "docs/previews/cameras-before/d436-hero.jpg",
+      "image_sha256": "68347a6b4c48c41e32b35a2aa72c6eb69a5cd66ef97b90e588aeb7bc56ab1f37",
+      "original_png_sha256": "22fad651e55c8261b65ea93f5666dd9ec0dc76ea59d1f8c397a8466439a589c7",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1890170574188232
+      }
+    },
+    {
+      "phase": "before",
+      "image": "docs/previews/cameras-before/d436-rear.jpg",
+      "image_sha256": "e6446f7406f86d89fcdb6b84fc4aa358f49aed7a9a94be60799fda5296c2290b",
+      "original_png_sha256": "0547fd5b77788bd84acfc2dd8fbeb057c1e0381f102f3064ad2fbe9937523bea",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1412596702575684
+      }
+    },
+    {
+      "phase": "before",
+      "image": "docs/previews/cameras-before/d436-right.jpg",
+      "image_sha256": "021ebee60c50ac98c48d39c94ed7c6b3d527fa3d23c3f31bd6e8d89c6eb2f782",
+      "original_png_sha256": "321fe13172e01b4c1118deff4857324a41742cea3bfc06d3fba2e93ceab1151a",
+      "settings": {
+        "view": "right",
+        "azimuth_degrees": 0.0,
+        "elevation_degrees": 5.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.4000003337860107
+      }
+    },
+    {
+      "phase": "before",
+      "image": "docs/previews/cameras-before/d455-hero.jpg",
+      "image_sha256": "bbda0879b7678cf3942056dffeab5898ead9d504dd4506d00ad3104512857536",
+      "original_png_sha256": "8f05b0c15a4fa64bad79a070c594dda006802fcb0f63272d3dd4306328573f88",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 1.9965919256210327
+      }
+    },
+    {
+      "phase": "before",
+      "image": "docs/previews/cameras-before/d455-rear.jpg",
+      "image_sha256": "fb501c19ace27de2082072fb74e57cabd282042ac854c4081530f65b461c0547",
+      "original_png_sha256": "a96fe6625a4bf0e13aaff194560aa366ae38d8bab99835653dbcb5b1d074f225",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 1.9500117301940918
+      }
+    },
+    {
+      "phase": "before",
+      "image": "docs/previews/cameras-before/d455-right.jpg",
+      "image_sha256": "ee973c0e344551a8eabeb6c9c72584922b5a36cd211c15fa7cdb63c7de67d196",
+      "original_png_sha256": "423a12ca4bb442c27e418075949d5fff51b02306cac34050180f38293dba3acb",
+      "settings": {
+        "view": "right",
+        "azimuth_degrees": 0.0,
+        "elevation_degrees": 5.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 2.4000000953674316
+      }
+    },
+    {
+      "phase": "before",
+      "image": "docs/previews/cameras-before/d585-hero.jpg",
+      "image_sha256": "d3065f65694b4176bb5c13b5d3e73ab31e9b7313696901e720a65b2d06f83971",
+      "original_png_sha256": "a1dd5284adc0afe504e6f00f04c9d7207527d9bfdb8b220dcff2e3412d256b6e",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.03599766957781789,
+            -0.09100000560283661,
+            -6.778547043465033e-08
+          ],
+          [
+            0.05700161364697332,
+            0.0906577780842781,
+            0.04300033414360285
+          ]
+        ],
+        "ortho_scale": 2.383054733276367
+      }
+    },
+    {
+      "phase": "before",
+      "image": "docs/previews/cameras-before/d585-rear.jpg",
+      "image_sha256": "18fd896e4878d62d76d139380e08daf261e44ba23aab201f8071778d8e103241",
+      "original_png_sha256": "2c1350bc2593b649609cb605b1cbc9d083068ef0322444b8cf8258ac9c269f96",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.03599766957781789,
+            -0.09100000560283661,
+            -6.778547043465033e-08
+          ],
+          [
+            0.05700161364697332,
+            0.0906577780842781,
+            0.04300033414360285
+          ]
+        ],
+        "ortho_scale": 2.383054733276367
+      }
+    },
+    {
+      "phase": "before",
+      "image": "docs/previews/cameras-before/d585-right.jpg",
+      "image_sha256": "db9deb89f5e438ff930b7138b71f2c7be775603d413f0853c2e284f04962bb8a",
+      "original_png_sha256": "bde8ba836c4d41ccfe64ac78a1e2cfaa64814228a7e46ba628c10bc779ddd5e4",
+      "settings": {
+        "view": "right",
+        "azimuth_degrees": 0.0,
+        "elevation_degrees": 5.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.03599766957781789,
+            -0.09100000560283661,
+            -6.778547043465033e-08
+          ],
+          [
+            0.05700161364697332,
+            0.0906577780842781,
+            0.04300033414360285
+          ]
+        ],
+        "ortho_scale": 2.4000003337860107
+      }
+    },
+    {
+      "phase": "before",
+      "image": "docs/previews/cameras-before/plug-hero.jpg",
+      "image_sha256": "4ad547354cc757b1d9eb1a5f5fcac009bbc9eac9e650c045b0660311ed7e4087",
+      "original_png_sha256": "18c0f381baf08300b814d03cabec44af51b38edea321c3429f1d90457c4671a0",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.02242499589920044,
+            -0.0040000006556510925,
+            -0.009249996393918991
+          ],
+          [
+            0.022424999624490738,
+            0.0040000006556510925,
+            0.00925000011920929
+          ]
+        ],
+        "ortho_scale": 2.2659456729888916
+      }
+    },
+    {
+      "phase": "before",
+      "image": "docs/previews/cameras-before/plug-rear.jpg",
+      "image_sha256": "d086bcb00eb0d9616953b0dfe339453cc09bede2c456f15b0ae3e246daa91cbf",
+      "original_png_sha256": "6ae3817deb09c6358d6b18554a335ff531ab9820b9e9045f12349a08da60490a",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.02242499589920044,
+            -0.0040000006556510925,
+            -0.009249996393918991
+          ],
+          [
+            0.022424999624490738,
+            0.0040000006556510925,
+            0.00925000011920929
+          ]
+        ],
+        "ortho_scale": 2.2356042861938477
+      }
+    },
+    {
+      "phase": "after",
+      "image": "docs/previews/cameras-after/d405-hero.jpg",
+      "image_sha256": "8d8644739c674b9c07b258b8b6029cd33402cc98161b797a50399d29c2d36da1",
+      "original_png_sha256": "15f6365e57f2748729f9236b52cb09f323a8803c73bc2dd8a34a6b5606d04ebb",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 4.666531085968018
+      }
+    },
+    {
+      "phase": "after",
+      "image": "docs/previews/cameras-after/d405-rear.jpg",
+      "image_sha256": "c9c99a59f237c921617f56ce8b4ed85b878759fe3be49fe082ed2503a602a2ab",
+      "original_png_sha256": "79f21f69df106416030906d65c54821bde4838250264ad97d8c820bbd0a711c4",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 4.626767635345459
+      }
+    },
+    {
+      "phase": "after",
+      "image": "docs/previews/cameras-after/d405-right.jpg",
+      "image_sha256": "252a6765a20de01e13bf2016c67396bea656fbf6c487f75a9b833332e29918fc",
+      "original_png_sha256": "23cd98f986a90e7ed033d2f31cad47fde0d971700c2851d11eade9c35a7a3064",
+      "settings": {
+        "view": "right",
+        "azimuth_degrees": 0.0,
+        "elevation_degrees": 5.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 3.5715110301971436
+      }
+    },
+    {
+      "phase": "after",
+      "image": "docs/previews/cameras-after/d415-hero.jpg",
+      "image_sha256": "fb9082180d98c755176fe62e294dd7af185911a9d4036bdae3a0bdef3fae5857",
+      "original_png_sha256": "7bca9a49a7623e9ece221d8431fffabb7c7c9956c66653e85863c9c1ceae84b6",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010180000399470104,
+            -0.0494032241403467,
+            -2.194198228628111e-05
+          ],
+          [
+            0.009870000000241652,
+            0.04952076822526941,
+            0.02302194291345566
+          ]
+        ],
+        "ortho_scale": 1.9882947206497192
+      }
+    },
+    {
+      "phase": "after",
+      "image": "docs/previews/cameras-after/d415-rear.jpg",
+      "image_sha256": "b5e8da7defc8d802473e066df09451b777dcc5874bd29ec4cd3015175e64fbd6",
+      "original_png_sha256": "df2b77664622c3e3142add9a46c1badc2a56d007f2207c7f8c9fbd01305f30ff",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010180000399470104,
+            -0.0494032241403467,
+            -2.194198228628111e-05
+          ],
+          [
+            0.009870000000241652,
+            0.04952076822526941,
+            0.02302194291345566
+          ]
+        ],
+        "ortho_scale": 1.9419152736663818
+      }
+    },
+    {
+      "phase": "after",
+      "image": "docs/previews/cameras-after/d415-right.jpg",
+      "image_sha256": "be3afe0c7ececfca9c53e4e766428a15d1828358a9b41bcd62e45ad6b9d3f611",
+      "original_png_sha256": "b24a7a81f0d677f718d17fa43f7589bb2f5762de4ea33ddee750c59b41fce9b4",
+      "settings": {
+        "view": "right",
+        "azimuth_degrees": 0.0,
+        "elevation_degrees": 5.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010180000399470104,
+            -0.0494032241403467,
+            -2.194198228628111e-05
+          ],
+          [
+            0.009870000000241652,
+            0.04952076822526941,
+            0.02302194291345566
+          ]
+        ],
+        "ortho_scale": 2.4000003337860107
+      }
+    },
+    {
+      "phase": "after",
+      "image": "docs/previews/cameras-after/d435-hero.jpg",
+      "image_sha256": "ea7d43966834b62203e38c6fc6ee07dabe5f384b6e8ece5d2f4a1de1b9cb5f2b",
+      "original_png_sha256": "8c32343876fa21bc3106302189549d760c75d5f2c635741adba4791312134dc8",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1890170574188232
+      }
+    },
+    {
+      "phase": "after",
+      "image": "docs/previews/cameras-after/d435-rear.jpg",
+      "image_sha256": "558d6a140a16b65a7ea24cb699c799585745b81364756db039fbf531541f20ca",
+      "original_png_sha256": "6e31c359b34bb79fc2885d86ab0e744ebc2e20216d9b35fe15052e60d0dc6901",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1412596702575684
+      }
+    },
+    {
+      "phase": "after",
+      "image": "docs/previews/cameras-after/d435-right.jpg",
+      "image_sha256": "4d8755dfe101273587b03f6470240a0ae0b8c4a3f663b6e6fb5b4391a6b9044f",
+      "original_png_sha256": "e49b63ee1fda12d9fba239838e7259f3e1f7c7c6318fe0e73ca65d622e8e9d93",
+      "settings": {
+        "view": "right",
+        "azimuth_degrees": 0.0,
+        "elevation_degrees": 5.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.4000003337860107
+      }
+    },
+    {
+      "phase": "after",
+      "image": "docs/previews/cameras-after/d436-hero.jpg",
+      "image_sha256": "ea7d43966834b62203e38c6fc6ee07dabe5f384b6e8ece5d2f4a1de1b9cb5f2b",
+      "original_png_sha256": "a7310a32b3fb317b17cd24389e8b1c17044f27076b6a18b1b022ec0cd3a3d1f1",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1890170574188232
+      }
+    },
+    {
+      "phase": "after",
+      "image": "docs/previews/cameras-after/d436-rear.jpg",
+      "image_sha256": "558d6a140a16b65a7ea24cb699c799585745b81364756db039fbf531541f20ca",
+      "original_png_sha256": "a3232e2395d66e8ad19619b95ad0db38bc53bb8ae8317d888d310523d74bc4cf",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1412596702575684
+      }
+    },
+    {
+      "phase": "after",
+      "image": "docs/previews/cameras-after/d436-right.jpg",
+      "image_sha256": "4d8755dfe101273587b03f6470240a0ae0b8c4a3f663b6e6fb5b4391a6b9044f",
+      "original_png_sha256": "8b4b69326d3d0fba58c172d06b06c5a4535d964eecbbb2ce647a698cf046cf99",
+      "settings": {
+        "view": "right",
+        "azimuth_degrees": 0.0,
+        "elevation_degrees": 5.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.4000003337860107
+      }
+    },
+    {
+      "phase": "after",
+      "image": "docs/previews/cameras-after/d455-hero.jpg",
+      "image_sha256": "365ee700ef7242583232d2222db89706da3d08f2b9e10065a0eaa1356503cc36",
+      "original_png_sha256": "d2e561f4193ca566e7597db602ef76e6e41f0f00aea686cadc9e729444bb0b07",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 1.9965919256210327
+      }
+    },
+    {
+      "phase": "after",
+      "image": "docs/previews/cameras-after/d455-rear.jpg",
+      "image_sha256": "4725ad78cbf531ac0bcba24c01eac2d4e6376d90315eaf56cba6a7bc8f7ffaba",
+      "original_png_sha256": "0f4263c6d42fc551cfb77b2f9db5de19175fd00a675a50940418d24813e661f3",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 1.9500117301940918
+      }
+    },
+    {
+      "phase": "after",
+      "image": "docs/previews/cameras-after/d455-right.jpg",
+      "image_sha256": "07dfaca024e073edf0624022ef13c0362fbd140e6b4f5cbedff13c1c064a7d42",
+      "original_png_sha256": "dfb2f8250d7112b55e0acf07e563eb2e93db12e7fc7edbc4f7ced78233dde448",
+      "settings": {
+        "view": "right",
+        "azimuth_degrees": 0.0,
+        "elevation_degrees": 5.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 2.4000000953674316
+      }
+    },
+    {
+      "phase": "after",
+      "image": "docs/previews/cameras-after/d585-hero.jpg",
+      "image_sha256": "48700d80f389f133ef06139c7e5aeaf1937e22a4b4051951e056ce062054239f",
+      "original_png_sha256": "7c74f1aed142558a824f9a31cc2c041c8106434bc5d3e4c879e0d660608c56ff",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.03599766957781789,
+            -0.09100000560283661,
+            -6.778547043465033e-08
+          ],
+          [
+            0.05700161364697332,
+            0.0906577780842781,
+            0.04300033414360285
+          ]
+        ],
+        "ortho_scale": 2.383054733276367
+      }
+    },
+    {
+      "phase": "after",
+      "image": "docs/previews/cameras-after/d585-rear.jpg",
+      "image_sha256": "782d6b205c634ee9588492184ca1b5775b522056c99aecd88f08343d72d0e65b",
+      "original_png_sha256": "e95268033db82c07095858192a842e1b4367627af023ea5de5e7759f2162767a",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.03599766957781789,
+            -0.09100000560283661,
+            -6.778547043465033e-08
+          ],
+          [
+            0.05700161364697332,
+            0.0906577780842781,
+            0.04300033414360285
+          ]
+        ],
+        "ortho_scale": 2.383054733276367
+      }
+    },
+    {
+      "phase": "after",
+      "image": "docs/previews/cameras-after/d585-right.jpg",
+      "image_sha256": "bdf42fef3e73d4299e6ed182e1165056275a992b54998e6e9365e0023a31ae38",
+      "original_png_sha256": "d4f76a4441bfcdca6dcf0bd7faa3f31c2f0bd446937819cde2f3134d4b8baa27",
+      "settings": {
+        "view": "right",
+        "azimuth_degrees": 0.0,
+        "elevation_degrees": 5.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.03599766957781789,
+            -0.09100000560283661,
+            -6.778547043465033e-08
+          ],
+          [
+            0.05700161364697332,
+            0.0906577780842781,
+            0.04300033414360285
+          ]
+        ],
+        "ortho_scale": 2.4000003337860107
+      }
+    },
+    {
+      "phase": "after",
+      "image": "docs/previews/cameras-after/plug-hero.jpg",
+      "image_sha256": "644c4520d787a4c6d398e14bfb25e33d7f4976a32abee106e44e304bf39f25bf",
+      "original_png_sha256": "c7ffc3d49298a373f549a2e0dd7fa941d28539191441891a1fb8a89be039813f",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.02242499589920044,
+            -0.0040000006556510925,
+            -0.009249996393918991
+          ],
+          [
+            0.022424999624490738,
+            0.0040000006556510925,
+            0.00925000011920929
+          ]
+        ],
+        "ortho_scale": 2.2659456729888916
+      }
+    },
+    {
+      "phase": "after",
+      "image": "docs/previews/cameras-after/plug-rear.jpg",
+      "image_sha256": "5e613f20e63587b4292343cad2b95322f0caa6cf15f2da78ab2f6ecf49c52641",
+      "original_png_sha256": "90e4b9db7b9fe4fdf30ba8d68e121f4e7b0466ce3b3f9abc4f817ec2a7c0fbaa",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 1000,
+        "height": 700,
+        "samples": 48,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.02242499589920044,
+            -0.0040000006556510925,
+            -0.009249996393918991
+          ],
+          [
+            0.022424999624490738,
+            0.0040000006556510925,
+            0.00925000011920929
+          ]
+        ],
+        "ortho_scale": 2.2356042861938477
+      }
+    }
+  ],
+  "summary": {
+    "comparison_images": 40,
+    "camera_models": 6,
+    "plug_views_per_phase": 2,
+    "parameter_trial_models": 3,
+    "parameter_trial_renders": 27
+  },
+  "parameter_trials": [
+    {
+      "model": "d405",
+      "metallic": 0.35,
+      "roughness": 0.28,
+      "reference_geometry_bin_sha256": "5518d312f1829d0256b03f90fcba8e7d4a1b7e0b7e1a02db8a8b00ed4a1dc00b",
+      "original_png_sha256": "bec30f5a0bebb52f7b4aaa8a5eb7a2c9db384426a57ed91d9a7089f58d099382",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 4.666531085968018
+      }
+    },
+    {
+      "model": "d405",
+      "metallic": 0.35,
+      "roughness": 0.38,
+      "reference_geometry_bin_sha256": "5518d312f1829d0256b03f90fcba8e7d4a1b7e0b7e1a02db8a8b00ed4a1dc00b",
+      "original_png_sha256": "b2d7ffa1a17998312c37e351a323dc5c1463e709567bba961016cacd2e05e2f8",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 4.666531085968018
+      }
+    },
+    {
+      "model": "d405",
+      "metallic": 0.35,
+      "roughness": 0.5,
+      "reference_geometry_bin_sha256": "5518d312f1829d0256b03f90fcba8e7d4a1b7e0b7e1a02db8a8b00ed4a1dc00b",
+      "original_png_sha256": "5189d7a14c8e95d91b00ea2349b793a423fdcb6cead13a9a08fd087a5664dcdd",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 4.666531085968018
+      }
+    },
+    {
+      "model": "d405",
+      "metallic": 0.65,
+      "roughness": 0.28,
+      "reference_geometry_bin_sha256": "5518d312f1829d0256b03f90fcba8e7d4a1b7e0b7e1a02db8a8b00ed4a1dc00b",
+      "original_png_sha256": "5cbe88dea20e9df8ece69117de0dbd68569d1b8dfa59704798db457b2fd7374c",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 4.666531085968018
+      }
+    },
+    {
+      "model": "d405",
+      "metallic": 0.65,
+      "roughness": 0.38,
+      "reference_geometry_bin_sha256": "5518d312f1829d0256b03f90fcba8e7d4a1b7e0b7e1a02db8a8b00ed4a1dc00b",
+      "original_png_sha256": "01c91930852d4d6887821ac942817cdd7ea2c77c549d40410e1af2f970a3732b",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 4.666531085968018
+      }
+    },
+    {
+      "model": "d405",
+      "metallic": 0.65,
+      "roughness": 0.5,
+      "reference_geometry_bin_sha256": "5518d312f1829d0256b03f90fcba8e7d4a1b7e0b7e1a02db8a8b00ed4a1dc00b",
+      "original_png_sha256": "7e7c5be300646b8a5e121e3a2eac0551b2cbea71b2585a4c8dfa2e1111e09bde",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 4.666531085968018
+      }
+    },
+    {
+      "model": "d405",
+      "metallic": 0.9,
+      "roughness": 0.28,
+      "reference_geometry_bin_sha256": "5518d312f1829d0256b03f90fcba8e7d4a1b7e0b7e1a02db8a8b00ed4a1dc00b",
+      "original_png_sha256": "9844c272a9a1e05dad99e2f9db2103b8724b97dc3dad7e2ee662ae125f4ef585",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 4.666531085968018
+      }
+    },
+    {
+      "model": "d405",
+      "metallic": 0.9,
+      "roughness": 0.38,
+      "reference_geometry_bin_sha256": "5518d312f1829d0256b03f90fcba8e7d4a1b7e0b7e1a02db8a8b00ed4a1dc00b",
+      "original_png_sha256": "4815042073e566c9d7dc37c8ffdf586965c17b7f6b0c6eca8e29ff64e79c34d5",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 4.666531085968018
+      }
+    },
+    {
+      "model": "d405",
+      "metallic": 0.9,
+      "roughness": 0.5,
+      "reference_geometry_bin_sha256": "5518d312f1829d0256b03f90fcba8e7d4a1b7e0b7e1a02db8a8b00ed4a1dc00b",
+      "original_png_sha256": "048b8de36062f294685433b399b71b3a2cddc1e54068dafc8b58f1571868a853",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.008350001907348636,
+            -0.021090000867843628,
+            -1.5795230852433395e-09
+          ],
+          [
+            0.014650000000000002,
+            0.021000001579523087,
+            0.04200000157952309
+          ]
+        ],
+        "ortho_scale": 4.666531085968018
+      }
+    },
+    {
+      "model": "d435",
+      "metallic": 0.35,
+      "roughness": 0.28,
+      "reference_geometry_bin_sha256": "823d95ee11ad377d5f943ce9c65d00b1f1d4f593d2efe4529450def47b51b054",
+      "original_png_sha256": "ba0196e8c465284b277d0771bd23cdcab5189e3a949361c18f5efb6dae910717",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1890170574188232
+      }
+    },
+    {
+      "model": "d435",
+      "metallic": 0.35,
+      "roughness": 0.38,
+      "reference_geometry_bin_sha256": "823d95ee11ad377d5f943ce9c65d00b1f1d4f593d2efe4529450def47b51b054",
+      "original_png_sha256": "e7bd9116fb22aab1801931e09e9e6486b7b59710fd3542ca211d65179dad03dc",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1890170574188232
+      }
+    },
+    {
+      "model": "d435",
+      "metallic": 0.35,
+      "roughness": 0.5,
+      "reference_geometry_bin_sha256": "823d95ee11ad377d5f943ce9c65d00b1f1d4f593d2efe4529450def47b51b054",
+      "original_png_sha256": "6d439d8202c4c30fe222fcb0cc5ec49bb48d690f721f5533c992faf6cf9d3ade",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1890170574188232
+      }
+    },
+    {
+      "model": "d435",
+      "metallic": 0.65,
+      "roughness": 0.28,
+      "reference_geometry_bin_sha256": "823d95ee11ad377d5f943ce9c65d00b1f1d4f593d2efe4529450def47b51b054",
+      "original_png_sha256": "bccc7694b223facdbe92e2bcf495207e00be3d0d077c1f7beee9e16ff91b430a",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1890170574188232
+      }
+    },
+    {
+      "model": "d435",
+      "metallic": 0.65,
+      "roughness": 0.38,
+      "reference_geometry_bin_sha256": "823d95ee11ad377d5f943ce9c65d00b1f1d4f593d2efe4529450def47b51b054",
+      "original_png_sha256": "09c9159acef68396ff5855b6b83c2dc0922d7d27b70ff56a92418f443deac7b1",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1890170574188232
+      }
+    },
+    {
+      "model": "d435",
+      "metallic": 0.65,
+      "roughness": 0.5,
+      "reference_geometry_bin_sha256": "823d95ee11ad377d5f943ce9c65d00b1f1d4f593d2efe4529450def47b51b054",
+      "original_png_sha256": "1507a156787fbe3b3ec76dcb6372f2de1bb5aa5e61939839e9bc9979725f2eb1",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1890170574188232
+      }
+    },
+    {
+      "model": "d435",
+      "metallic": 0.9,
+      "roughness": 0.28,
+      "reference_geometry_bin_sha256": "823d95ee11ad377d5f943ce9c65d00b1f1d4f593d2efe4529450def47b51b054",
+      "original_png_sha256": "6825042608f43b5d5c2158b87a02114e55e12f5e3cd99805f0c973a9804ce0c2",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1890170574188232
+      }
+    },
+    {
+      "model": "d435",
+      "metallic": 0.9,
+      "roughness": 0.38,
+      "reference_geometry_bin_sha256": "823d95ee11ad377d5f943ce9c65d00b1f1d4f593d2efe4529450def47b51b054",
+      "original_png_sha256": "6e7c9673229c6fa3814d469c0c7e639d50cab10f1712a3ebd61baa9188d83901",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1890170574188232
+      }
+    },
+    {
+      "model": "d435",
+      "metallic": 0.9,
+      "roughness": 0.5,
+      "reference_geometry_bin_sha256": "823d95ee11ad377d5f943ce9c65d00b1f1d4f593d2efe4529450def47b51b054",
+      "original_png_sha256": "61ebd5ef0f54f9612e166e0548c31df28bbf159c342c1b98b1e9c73774b7933e",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 18,
+        "bounds_m": [
+          [
+            -0.010155946782438977,
+            -0.04491489753118715,
+            -2.982095793462036e-07
+          ],
+          [
+            0.014904013904604326,
+            0.04500209540138768,
+            0.024999930336970667
+          ]
+        ],
+        "ortho_scale": 2.1890170574188232
+      }
+    },
+    {
+      "model": "d455",
+      "metallic": 0.65,
+      "roughness": 0.38,
+      "reference_geometry_bin_sha256": "ae4893e8a39dd4cc771d55b8db65ec38544a433a7dba43551631ad3cb160a015",
+      "original_png_sha256": "9c31d9483f2da131e6373e4ea994987db68f85c50f8aea69b193bd9448a2fe4c",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 1.9965919256210327
+      }
+    },
+    {
+      "model": "d455",
+      "metallic": 0.65,
+      "roughness": 0.38,
+      "reference_geometry_bin_sha256": "ae4893e8a39dd4cc771d55b8db65ec38544a433a7dba43551631ad3cb160a015",
+      "original_png_sha256": "efb43303121b1d2b42c33cd46800327f02a063a9c1cd8d5b4a101a30b4d81b41",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 1.9500117301940918
+      }
+    },
+    {
+      "model": "d455",
+      "metallic": 0.65,
+      "roughness": 0.38,
+      "reference_geometry_bin_sha256": "ae4893e8a39dd4cc771d55b8db65ec38544a433a7dba43551631ad3cb160a015",
+      "original_png_sha256": "1442d8a7429c495a30be84c60e682ce8d75757a0d69608abb31ee1b4170f88c7",
+      "settings": {
+        "view": "right",
+        "azimuth_degrees": 0.0,
+        "elevation_degrees": 5.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 2.4000000953674316
+      }
+    },
+    {
+      "model": "d455",
+      "metallic": 0.65,
+      "roughness": 0.46,
+      "reference_geometry_bin_sha256": "ae4893e8a39dd4cc771d55b8db65ec38544a433a7dba43551631ad3cb160a015",
+      "original_png_sha256": "a3d60725e923005c30a32d6abf163111a8ff60c90986032884b6678b3bf998e7",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 1.9965919256210327
+      }
+    },
+    {
+      "model": "d455",
+      "metallic": 0.65,
+      "roughness": 0.46,
+      "reference_geometry_bin_sha256": "ae4893e8a39dd4cc771d55b8db65ec38544a433a7dba43551631ad3cb160a015",
+      "original_png_sha256": "83e14853970b957172f98314db06bf1c572bb55624fa375174ede2614a8cc777",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 1.9500117301940918
+      }
+    },
+    {
+      "model": "d455",
+      "metallic": 0.65,
+      "roughness": 0.46,
+      "reference_geometry_bin_sha256": "ae4893e8a39dd4cc771d55b8db65ec38544a433a7dba43551631ad3cb160a015",
+      "original_png_sha256": "4dc4ebeb6eb74876e8c25462d5b1bba0b743f3bcf943bcd46d916a2be49e89d1",
+      "settings": {
+        "view": "right",
+        "azimuth_degrees": 0.0,
+        "elevation_degrees": 5.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 2.4000000953674316
+      }
+    },
+    {
+      "model": "d455",
+      "metallic": 0.65,
+      "roughness": 0.54,
+      "reference_geometry_bin_sha256": "ae4893e8a39dd4cc771d55b8db65ec38544a433a7dba43551631ad3cb160a015",
+      "original_png_sha256": "fcdd260bcfe150f546644c6ea5f519bbee3acc0acb0d3932fb76dea64ef9046e",
+      "settings": {
+        "view": "hero",
+        "azimuth_degrees": -55.0,
+        "elevation_degrees": 23.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 1.9965919256210327
+      }
+    },
+    {
+      "model": "d455",
+      "metallic": 0.65,
+      "roughness": 0.54,
+      "reference_geometry_bin_sha256": "ae4893e8a39dd4cc771d55b8db65ec38544a433a7dba43551631ad3cb160a015",
+      "original_png_sha256": "3640e4cddc2fc71f32465cfc291ce63ed2a30dc55f77dc8f56f0f9beaefcb3dc",
+      "settings": {
+        "view": "rear",
+        "azimuth_degrees": 125.00000000000001,
+        "elevation_degrees": 22.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 1.9500117301940918
+      }
+    },
+    {
+      "model": "d455",
+      "metallic": 0.65,
+      "roughness": 0.54,
+      "reference_geometry_bin_sha256": "ae4893e8a39dd4cc771d55b8db65ec38544a433a7dba43551631ad3cb160a015",
+      "original_png_sha256": "48e0cb4cd49e905a7515e4d050b85e5d577418a145ffbfdde7790e9e69a5d63c",
+      "settings": {
+        "view": "right",
+        "azimuth_degrees": 0.0,
+        "elevation_degrees": 5.0,
+        "width": 700,
+        "height": 490,
+        "samples": 24,
+        "theme": "dark",
+        "engine": "BLENDER_EEVEE",
+        "view_transform": "AgX",
+        "single_sided_materials": "native culling",
+        "blender": "5.3.0",
+        "parts": 1,
+        "bounds_m": [
+          [
+            -0.010200093668914247,
+            -0.061998274177256577,
+            -6.850070768428529e-08
+          ],
+          [
+            0.01580001267401321,
+            0.061998274177369125,
+            0.028998920179846472
+          ]
+        ],
+        "ortho_scale": 2.4000000953674316
+      }
+    }
+  ],
+  "selected_housing_parameters": {
+    "default": {
+      "metallic": 0.65,
+      "roughness": 0.38
+    },
+    "d455": {
+      "metallic": 0.65,
+      "roughness": 0.54
+    },
+    "note": "Visual approximations chosen from matched views; not measured or uniquely optimal finishes."
+  },
+  "parameter_grids": [
+    {
+      "image": "docs/previews/cameras-d405-parameter-grid.jpg",
+      "sha256": "3efd2cc8b4f29c6d034f40a3a33cc9abd51b068707ad1ca813733d1961526e1c"
+    },
+    {
+      "image": "docs/previews/cameras-d435-parameter-grid.jpg",
+      "sha256": "c38c2984e0d79029baad4118fd9257492a5cfabb0a46bbb58bf473b47a587e60"
+    },
+    {
+      "image": "docs/previews/cameras-d455-roughness-grid.jpg",
+      "sha256": "0bbc43d000470eed8be09a1812d984722f925b3a1d97bddded5911359e3054d6"
+    }
+  ]
+}

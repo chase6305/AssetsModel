@@ -1,0 +1,10 @@
+{
+  "source_model": "/tmp/assetsmodel-glb-beautify-20261112/RobotModel/Fanuc/M_20iA",
+  "path": "RobotModel/Fanuc/M_20iA/Visual/glb/Link5.glb",
+  "source_sha256": "235663deae306b8cedbf458024b3c2fba0cc83ce9ef6d229de30f060665a4007",
+  "target_sha256": "235663deae306b8cedbf458024b3c2fba0cc83ce9ef6d229de30f060665a4007",
+  "selected_corners": 244,
+  "status": "unchanged",
+  "applied": false,
+  "exact_reviewed_target": true
+}

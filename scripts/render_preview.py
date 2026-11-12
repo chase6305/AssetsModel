@@ -1,6 +1,6 @@
 """Render a prepared model with its PBR materials in a repeatable studio.
 
-blender -b --factory-startup --threads 4 --python scripts/render_preview.py -- PACK OUT.png
+blender -b --factory-startup --threads 2 --python scripts/render_preview.py -- PACK OUT.png
 """
 
 import argparse
@@ -90,17 +90,10 @@ def material_for(part, pack):
         links.new(alpha.outputs[0], shader.inputs["Alpha"])
     elif alpha_mode != "OPAQUE":
         raise ValueError(f"Unknown alpha mode: {alpha_mode}")
-    if not properties.get("double_sided", False):
-        # Cycles ignores viewport backface culling. Explicitly make back faces
-        # transparent so an open CAD surface is not silently rendered double-sided.
-        geometry = nodes.new("ShaderNodeNewGeometry")
-        transparent = nodes.new("ShaderNodeBsdfTransparent")
-        mix = nodes.new("ShaderNodeMixShader")
-        links.new(geometry.outputs["Backfacing"], mix.inputs[0])
-        links.new(shader.outputs[0], mix.inputs[1])
-        links.new(transparent.outputs[0], mix.inputs[2])
-        links.new(mix.outputs[0], nodes.get("Material Output").inputs["Surface"])
-        material.use_backface_culling = True
+    # Native EEVEE culling handles coincident CAD front/back layers. A transparent
+    # backface shader can punch through both layers; Cycles remains the documented
+    # double-sided studio approximation rather than adding that unsafe workaround.
+    material.use_backface_culling = not properties.get("double_sided", False)
     return material
 
 

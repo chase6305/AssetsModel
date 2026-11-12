@@ -1,0 +1,493 @@
+{
+  "summary": {
+    "mode": "verified-baseline-replay",
+    "profile": "assetsmodel-camera-materials-v1",
+    "visual_glbs": 10,
+    "changed_glbs": 10,
+    "include_plugs": true,
+    "all_bin_unchanged": true,
+    "only_allowed_json_changed": true,
+    "collision_assets_in_scope": false,
+    "all_final_hashes_verified": true
+  },
+  "generated_at": "2026-11-12T13:30:19.990975+00:00",
+  "finish_note": "Visualization approximations; source housing colors retained. No measured manufacturer finish or missing optical detail is claimed.",
+  "source_urls": [
+    "https://github.com/realsenseai/realsense-ros/blob/7a87097c499e3b0b69518d54a8e7a9ac1924e87c/realsense2_description/urdf/_d405.urdf.xacro",
+    "https://github.com/realsenseai/realsense-ros/blob/7a87097c499e3b0b69518d54a8e7a9ac1924e87c/realsense2_description/urdf/_d415.urdf.xacro",
+    "https://github.com/realsenseai/realsense-ros/blob/7a87097c499e3b0b69518d54a8e7a9ac1924e87c/realsense2_description/urdf/_d435.urdf.xacro",
+    "https://github.com/realsenseai/realsense-ros/blob/7a87097c499e3b0b69518d54a8e7a9ac1924e87c/realsense2_description/urdf/_d436.urdf.xacro",
+    "https://github.com/realsenseai/realsense-ros/blob/7a87097c499e3b0b69518d54a8e7a9ac1924e87c/realsense2_description/urdf/_d455.urdf.xacro",
+    "https://github.com/realsenseai/realsense-ros/blob/7a87097c499e3b0b69518d54a8e7a9ac1924e87c/realsense2_description/urdf/_d585.urdf.xacro",
+    "https://github.com/realsenseai/realsense-ros/blob/7a87097c499e3b0b69518d54a8e7a9ac1924e87c/realsense2_description/urdf/_materials.urdf.xacro"
+  ],
+  "files": [
+    {
+      "path": "CameraModel/RealSense/RealSense_D405/meshes/glb/d405.glb",
+      "role": "housing",
+      "status": "verified",
+      "before_sha256": "d719a86a38f3bca370b7855d833fda80403afd45c16c7a0ddaa368df46588c3f",
+      "after_sha256": "b540301af2d8b2179853644ac524865c8274d0a688cf4a69e764d7d6556f6436",
+      "bin_sha256": "5518d312f1829d0256b03f90fcba8e7d4a1b7e0b7e1a02db8a8b00ed4a1dc00b",
+      "bin_unchanged": true,
+      "only_allowed_json_changed": true,
+      "triangles": 3892,
+      "changes": [
+        {
+          "kind": "finish",
+          "material": 0,
+          "before": {
+            "name": "URDF color",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.5,
+                0.5,
+                0.5,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 1.0
+            }
+          },
+          "after": {
+            "name": "URDF color",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.5,
+                0.5,
+                0.5,
+                1.0
+              ],
+              "metallicFactor": 0.65,
+              "roughnessFactor": 0.38
+            },
+            "extras": {
+              "assetsmodel_camera_material": {
+                "profile": "assetsmodel-camera-materials-v1",
+                "role": "satin_housing"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D415/meshes/glb/d415.glb",
+      "role": "housing",
+      "status": "verified",
+      "before_sha256": "0732e63ec5f199467d054e77715b272a0f4908c03cc79ffcbcf25f4b4a6c0dbe",
+      "after_sha256": "d1f63bb4a3d73cd07259a3d46bd3013ee0793138faed9fe20251b1ec1106e984",
+      "bin_sha256": "3d76769122cb2f4cb47396284e66ce7718614ae8e7d093bc4c350203fa1b55f0",
+      "bin_unchanged": true,
+      "only_allowed_json_changed": true,
+      "triangles": 20000,
+      "changes": [
+        {
+          "kind": "finish",
+          "material": 0,
+          "before": {
+            "name": "URDF color",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.5,
+                0.5,
+                0.5,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 1.0
+            }
+          },
+          "after": {
+            "name": "URDF color",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.5,
+                0.5,
+                0.5,
+                1.0
+              ],
+              "metallicFactor": 0.65,
+              "roughnessFactor": 0.38
+            },
+            "extras": {
+              "assetsmodel_camera_material": {
+                "profile": "assetsmodel-camera-materials-v1",
+                "role": "satin_housing"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D435/meshes/glb/d435.glb",
+      "role": "housing",
+      "status": "verified",
+      "before_sha256": "36563b82f402a540bd6e4dc3a419873bc7fa61e93cc32a187d21339f8ab67c28",
+      "after_sha256": "66e53c0fe4ff07f1bcc533d215192026edec07f2a1a37c91dbb5f809215f8f33",
+      "bin_sha256": "823d95ee11ad377d5f943ce9c65d00b1f1d4f593d2efe4529450def47b51b054",
+      "bin_unchanged": true,
+      "only_allowed_json_changed": true,
+      "triangles": 89493,
+      "changes": [
+        {
+          "kind": "finish",
+          "material": 0,
+          "before": {
+            "name": "ID10",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.74902,
+                0.74902,
+                0.74902,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 1.0
+            },
+            "doubleSided": false
+          },
+          "after": {
+            "name": "ID10",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.74902,
+                0.74902,
+                0.74902,
+                1.0
+              ],
+              "metallicFactor": 0.65,
+              "roughnessFactor": 0.38
+            },
+            "doubleSided": false,
+            "extras": {
+              "assetsmodel_camera_material": {
+                "profile": "assetsmodel-camera-materials-v1",
+                "role": "satin_housing"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D436/meshes/glb/d436.glb",
+      "role": "housing",
+      "status": "verified",
+      "before_sha256": "856814dee16e0e3c733a90cad1b8ea4e6115a920a2e14266de9334739ba0a4d6",
+      "after_sha256": "610b7f5439a70fddbd5f8afad5f0bc68747bdee80d848d8d09f84f638c412f55",
+      "bin_sha256": "823d95ee11ad377d5f943ce9c65d00b1f1d4f593d2efe4529450def47b51b054",
+      "bin_unchanged": true,
+      "only_allowed_json_changed": true,
+      "triangles": 89493,
+      "changes": [
+        {
+          "kind": "finish",
+          "material": 0,
+          "before": {
+            "name": "ID10",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.74902,
+                0.74902,
+                0.74902,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 1.0
+            },
+            "doubleSided": false
+          },
+          "after": {
+            "name": "ID10",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.74902,
+                0.74902,
+                0.74902,
+                1.0
+              ],
+              "metallicFactor": 0.65,
+              "roughnessFactor": 0.38
+            },
+            "doubleSided": false,
+            "extras": {
+              "assetsmodel_camera_material": {
+                "profile": "assetsmodel-camera-materials-v1",
+                "role": "satin_housing"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D455/meshes/glb/d455.glb",
+      "role": "housing",
+      "status": "verified",
+      "before_sha256": "17ff631dab7f961cb709ec5c2dd721853e515921e57058ca2784612b401d4243",
+      "after_sha256": "4a1d2c7706ca399fdf9bd412a5ef486c2f2ef7a1ea4782d359e2519abbeb3818",
+      "bin_sha256": "ae4893e8a39dd4cc771d55b8db65ec38544a433a7dba43551631ad3cb160a015",
+      "bin_unchanged": true,
+      "only_allowed_json_changed": true,
+      "triangles": 20000,
+      "changes": [
+        {
+          "kind": "finish",
+          "material": 0,
+          "before": {
+            "name": "URDF color",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.5,
+                0.5,
+                0.5,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 1.0
+            }
+          },
+          "after": {
+            "name": "URDF color",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.5,
+                0.5,
+                0.5,
+                1.0
+              ],
+              "metallicFactor": 0.65,
+              "roughnessFactor": 0.54
+            },
+            "extras": {
+              "assetsmodel_camera_material": {
+                "profile": "assetsmodel-camera-materials-v1",
+                "role": "satin_housing"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D585/meshes/glb/d585.glb",
+      "role": "housing",
+      "status": "verified",
+      "before_sha256": "a072030e315b58c8ef20f57f64ea813ec3ef8378dfe0c70eda2c7a91918528a3",
+      "after_sha256": "d7be7e10941f49fd049b74ed59af0f526028e52a414d857ec48637b607157a4d",
+      "bin_sha256": "b2a4a01e42b0984cea9a937587aaa2748e7cd1c17ee67de677b6581b63a7cf4d",
+      "bin_unchanged": true,
+      "only_allowed_json_changed": true,
+      "triangles": 48913,
+      "changes": [
+        {
+          "kind": "finish",
+          "material": 0,
+          "before": {
+            "name": "URDF color",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.5,
+                0.5,
+                0.5,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 1.0
+            }
+          },
+          "after": {
+            "name": "URDF color",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.5,
+                0.5,
+                0.5,
+                1.0
+              ],
+              "metallicFactor": 0.65,
+              "roughnessFactor": 0.38
+            },
+            "extras": {
+              "assetsmodel_camera_material": {
+                "profile": "assetsmodel-camera-materials-v1",
+                "role": "satin_housing"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D405/meshes/glb/plug.glb",
+      "role": "plug",
+      "status": "verified",
+      "before_sha256": "2b9af32fed5900b0e8820290dd6c2de7b7f325b19abfc4c0aa4cd97822cf065f",
+      "after_sha256": "5c706cf963fad96b2fd8048976daad52f4ea23392824cd26b30df12fcd71cf7d",
+      "bin_sha256": "5bc56014bce4e5591ce47e11365423f8561ca35b246ef24c1c012bce532e15f2",
+      "bin_unchanged": true,
+      "only_allowed_json_changed": true,
+      "triangles": 5845,
+      "changes": [
+        {
+          "kind": "added_material",
+          "material": 0,
+          "after": {
+            "name": "Camera USB plug graphite polymer",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.01938236,
+                0.02415763,
+                0.02955683,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.55
+            },
+            "extras": {
+              "assetsmodel_camera_material": {
+                "profile": "assetsmodel-camera-materials-v1",
+                "role": "plug_polymer"
+              }
+            }
+          }
+        },
+        {
+          "kind": "added_binding",
+          "mesh": 0,
+          "primitive": 0,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D415/meshes/glb/plug.glb",
+      "role": "plug",
+      "status": "verified",
+      "before_sha256": "2b9af32fed5900b0e8820290dd6c2de7b7f325b19abfc4c0aa4cd97822cf065f",
+      "after_sha256": "5c706cf963fad96b2fd8048976daad52f4ea23392824cd26b30df12fcd71cf7d",
+      "bin_sha256": "5bc56014bce4e5591ce47e11365423f8561ca35b246ef24c1c012bce532e15f2",
+      "bin_unchanged": true,
+      "only_allowed_json_changed": true,
+      "triangles": 5845,
+      "changes": [
+        {
+          "kind": "added_material",
+          "material": 0,
+          "after": {
+            "name": "Camera USB plug graphite polymer",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.01938236,
+                0.02415763,
+                0.02955683,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.55
+            },
+            "extras": {
+              "assetsmodel_camera_material": {
+                "profile": "assetsmodel-camera-materials-v1",
+                "role": "plug_polymer"
+              }
+            }
+          }
+        },
+        {
+          "kind": "added_binding",
+          "mesh": 0,
+          "primitive": 0,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D435/meshes/glb/plug.glb",
+      "role": "plug",
+      "status": "verified",
+      "before_sha256": "2b9af32fed5900b0e8820290dd6c2de7b7f325b19abfc4c0aa4cd97822cf065f",
+      "after_sha256": "5c706cf963fad96b2fd8048976daad52f4ea23392824cd26b30df12fcd71cf7d",
+      "bin_sha256": "5bc56014bce4e5591ce47e11365423f8561ca35b246ef24c1c012bce532e15f2",
+      "bin_unchanged": true,
+      "only_allowed_json_changed": true,
+      "triangles": 5845,
+      "changes": [
+        {
+          "kind": "added_material",
+          "material": 0,
+          "after": {
+            "name": "Camera USB plug graphite polymer",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.01938236,
+                0.02415763,
+                0.02955683,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.55
+            },
+            "extras": {
+              "assetsmodel_camera_material": {
+                "profile": "assetsmodel-camera-materials-v1",
+                "role": "plug_polymer"
+              }
+            }
+          }
+        },
+        {
+          "kind": "added_binding",
+          "mesh": 0,
+          "primitive": 0,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D436/meshes/glb/plug.glb",
+      "role": "plug",
+      "status": "verified",
+      "before_sha256": "2b9af32fed5900b0e8820290dd6c2de7b7f325b19abfc4c0aa4cd97822cf065f",
+      "after_sha256": "5c706cf963fad96b2fd8048976daad52f4ea23392824cd26b30df12fcd71cf7d",
+      "bin_sha256": "5bc56014bce4e5591ce47e11365423f8561ca35b246ef24c1c012bce532e15f2",
+      "bin_unchanged": true,
+      "only_allowed_json_changed": true,
+      "triangles": 5845,
+      "changes": [
+        {
+          "kind": "added_material",
+          "material": 0,
+          "after": {
+            "name": "Camera USB plug graphite polymer",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.01938236,
+                0.02415763,
+                0.02955683,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.55
+            },
+            "extras": {
+              "assetsmodel_camera_material": {
+                "profile": "assetsmodel-camera-materials-v1",
+                "role": "plug_polymer"
+              }
+            }
+          }
+        },
+        {
+          "kind": "added_binding",
+          "mesh": 0,
+          "primitive": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "baseline_commit": "a7d0c4d2e1c4baa465ced42bddd7238136f46974"
+}
