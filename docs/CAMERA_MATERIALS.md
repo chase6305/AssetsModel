@@ -89,3 +89,12 @@ blender -b --factory-startup --threads 2 --python-exit-code 1 \
 ```
 
 对比基线时，从固定提交 `a7d0c4d` 的副本准备相同模型，使用当前同一份脚本与参数渲染。批量命令应在共享重任务锁内串行执行。
+
+
+## 装配后的可读性
+
+另用未修改的 `RealSense_D435_and_plug.urdf` 准备前后装配体，在深色背景正背视角及浅色背景正面补充 6 张对照图。石墨色连接器装配后仍能与银灰外壳区分；线缆弯折、接头轮廓和散热槽保留。该结果用于检查统一展示材质的可读性，不表示已还原连接器的金属卡扣或镜头玻璃分区。
+
+![D435 与插头在深浅背景下的装配前后对比](previews/cameras-assembly-d435.jpg)
+
+[装配预览记录](quality/camera-assembly-previews.json)保留相同 URDF 的散列、相机、灯光主题、采样及原始 PNG 散列。
