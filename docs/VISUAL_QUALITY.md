@@ -27,7 +27,7 @@ python3 scripts/prepare_preview.py \
 安装仓库的可选网格依赖并确保 Blender 在 `PATH` 中。准备好上述 FR3 预览包后，可直接渲染：
 
 ```bash
-blender -b --factory-startup --threads 4 --python-exit-code 1 \
+blender -b --factory-startup --threads 2 --python-exit-code 1 \
   --python scripts/render_preview.py -- /tmp/fr3-preview /tmp/fr3-preview.png \
   --view hero --samples 48 --width 1000 --height 900
 ```

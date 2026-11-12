@@ -63,7 +63,7 @@ def main():
     parser.add_argument('--engine', choices=('cycles', 'eevee'), default='eevee')
     parser.add_argument('--width', type=int, default=900)
     parser.add_argument('--height', type=int, default=800)
-    parser.add_argument('--threads', type=int, default=4)
+    parser.add_argument('--threads', type=int, default=2)
     parser.add_argument('--force', action='store_true')
     parser.add_argument('--only', nargs='+', help='Render only these manifest IDs')
     args = parser.parse_args()
