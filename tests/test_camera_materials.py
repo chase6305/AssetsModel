@@ -105,6 +105,19 @@ class CameraMaterialTests(unittest.TestCase):
                     self.assertEqual(pbr['metallicFactor'], .65)
                     self.assertEqual(pbr['baseColorFactor'], [.5, .5, .5, 1])
 
+    def test_second_used_housing_material_requires_review_without_overwriting_partitions(self):
+        tree, _ = sample_body()
+        tree['materials'].append({'name': 'Future optical partition', 'pbrMetallicRoughness': {
+            'baseColorFactor': [.01, .01, .01, 1], 'metallicFactor': 0, 'roughnessFactor': .1}})
+        # An unused retained CAD material is outside the used-partition guard.
+        target, _ = refine_camera(tree, 'housing')
+        self.assertEqual(target['materials'][1], tree['materials'][1])
+        tree['meshes'][0]['primitives'].append({'attributes': {'POSITION': 0}, 'indices': 1, 'material': 1})
+        original = copy.deepcopy(tree)
+        with self.assertRaisesRegex(ValueError, 'one authored housing material'):
+            refine_camera(tree, 'housing')
+        self.assertEqual(tree, original)
+
     def test_plug_embeds_linear_graphite_and_does_not_touch_authored_material(self):
         tree, binary = sample_plug()
         tree['materials'] = [{'name': 'authored label', 'pbrMetallicRoughness': {'baseColorFactor': [1, .2, .1, 1]}}]

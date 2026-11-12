@@ -131,6 +131,8 @@ def refine_camera(tree, kind, model=None):
             if index is None:
                 raise ValueError('Camera housing triangle is missing an existing material')
             used.add(index)
+        if len(used) != 1:
+            raise ValueError('Expected one authored housing material; review additional visual partitions')
         for index in sorted(used):
             material = target['materials'][index]
             before = copy.deepcopy(material)
