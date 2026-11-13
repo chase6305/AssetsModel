@@ -1,0 +1,33 @@
+{
+  "glb": {
+    "sha256": "235663deae306b8cedbf458024b3c2fba0cc83ce9ef6d229de30f060665a4007",
+    "triangles": 4866,
+    "source_surface_instances": 1,
+    "loaded_surface_instances": 1,
+    "duplicate_position_triangle_records": 0,
+    "material_instance_partitions": 1,
+    "max_position_error_m": 0.0,
+    "max_normal_component_error": 0.0,
+    "max_transform_error": 0.0,
+    "max_linear_basecolor_rounding_error": 0.0019145286274509805,
+    "max_metallic_error": 0.0,
+    "max_roughness_error": 0.0,
+    "embedded_pbr_texture_visuals": true,
+    "authored_normal_cache_retained": true
+  },
+  "urdf": {
+    "visual_mesh_elements": 7,
+    "resource_link_groups": 7,
+    "triangles": 86872,
+    "source_surface_instances": 13,
+    "loaded_surface_instances": 13,
+    "embedded_pbr_texture_visuals": true,
+    "authored_normal_cache_retained": true,
+    "max_position_error_m": 0.0,
+    "max_normal_component_error": 0.0,
+    "max_transform_error": 0.0,
+    "max_linear_basecolor_rounding_error": 0.0019145286274509805,
+    "max_metallic_error": 0.0,
+    "max_roughness_error": 0.0
+  }
+}

@@ -1,0 +1,602 @@
+{
+  "glbs": [
+    {
+      "path": "CameraModel/RealSense/RealSense_D405/meshes/glb/d405.glb",
+      "sha256": "b540301af2d8b2179853644ac524865c8274d0a688cf4a69e764d7d6556f6436",
+      "triangles": 3892,
+      "source_surface_instances": 1,
+      "loaded_surface_instances": 1,
+      "duplicate_position_triangle_records": 0,
+      "material_instance_partitions": 1,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "max_transform_error": 0.0,
+      "max_linear_basecolor_rounding_error": 0.0019607843137254832,
+      "max_metallic_error": 0.0,
+      "max_roughness_error": 0.0,
+      "embedded_pbr_texture_visuals": true,
+      "authored_normal_cache_retained": true,
+      "quality": {
+        "triangles": 3892,
+        "degenerate_triangles": 0,
+        "triangles_without_authored_normals": 0,
+        "zero_normal_vertices": 0,
+        "off_unit_normal_vertices": 0,
+        "max_normal_length_error": 5.960464477539063e-08,
+        "opposed_normal_corners": 0,
+        "minimum_valid_triangle_area_local": 3.3734892982383025e-10,
+        "materials": [
+          {
+            "name": "URDF color",
+            "color_linear": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "metallic": 0.65,
+            "roughness": 0.38,
+            "textured": false,
+            "double_sided": false
+          }
+        ],
+        "embedded_images": 0
+      }
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D405/meshes/glb/plug.glb",
+      "sha256": "5c706cf963fad96b2fd8048976daad52f4ea23392824cd26b30df12fcd71cf7d",
+      "triangles": 5845,
+      "source_surface_instances": 1,
+      "loaded_surface_instances": 1,
+      "duplicate_position_triangle_records": 0,
+      "material_instance_partitions": 1,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "max_transform_error": 0.0,
+      "max_linear_basecolor_rounding_error": 0.0018157190196078435,
+      "max_metallic_error": 0.0,
+      "max_roughness_error": 0.0,
+      "embedded_pbr_texture_visuals": true,
+      "authored_normal_cache_retained": true,
+      "quality": {
+        "triangles": 5845,
+        "degenerate_triangles": 0,
+        "triangles_without_authored_normals": 0,
+        "zero_normal_vertices": 0,
+        "off_unit_normal_vertices": 0,
+        "max_normal_length_error": 5.960464477539063e-08,
+        "opposed_normal_corners": 0,
+        "minimum_valid_triangle_area_local": 1.4542183419516482e-10,
+        "materials": [
+          {
+            "name": "Camera USB plug graphite polymer",
+            "color_linear": [
+              0.01938236,
+              0.02415763,
+              0.02955683,
+              1.0
+            ],
+            "metallic": 0.0,
+            "roughness": 0.55,
+            "textured": false,
+            "double_sided": false
+          }
+        ],
+        "embedded_images": 0
+      }
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D415/meshes/glb/d415.glb",
+      "sha256": "d1f63bb4a3d73cd07259a3d46bd3013ee0793138faed9fe20251b1ec1106e984",
+      "triangles": 20000,
+      "source_surface_instances": 1,
+      "loaded_surface_instances": 1,
+      "duplicate_position_triangle_records": 0,
+      "material_instance_partitions": 1,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "max_transform_error": 0.0,
+      "max_linear_basecolor_rounding_error": 0.0019607843137254832,
+      "max_metallic_error": 0.0,
+      "max_roughness_error": 0.0,
+      "embedded_pbr_texture_visuals": true,
+      "authored_normal_cache_retained": true,
+      "quality": {
+        "triangles": 20000,
+        "degenerate_triangles": 0,
+        "triangles_without_authored_normals": 0,
+        "zero_normal_vertices": 0,
+        "off_unit_normal_vertices": 0,
+        "max_normal_length_error": 5.960464477539063e-08,
+        "opposed_normal_corners": 0,
+        "minimum_valid_triangle_area_local": 3.8868160301625335e-10,
+        "materials": [
+          {
+            "name": "URDF color",
+            "color_linear": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "metallic": 0.65,
+            "roughness": 0.38,
+            "textured": false,
+            "double_sided": false
+          }
+        ],
+        "embedded_images": 0
+      }
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D415/meshes/glb/plug.glb",
+      "sha256": "5c706cf963fad96b2fd8048976daad52f4ea23392824cd26b30df12fcd71cf7d",
+      "triangles": 5845,
+      "source_surface_instances": 1,
+      "loaded_surface_instances": 1,
+      "duplicate_position_triangle_records": 0,
+      "material_instance_partitions": 1,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "max_transform_error": 0.0,
+      "max_linear_basecolor_rounding_error": 0.0018157190196078435,
+      "max_metallic_error": 0.0,
+      "max_roughness_error": 0.0,
+      "embedded_pbr_texture_visuals": true,
+      "authored_normal_cache_retained": true,
+      "quality": {
+        "triangles": 5845,
+        "degenerate_triangles": 0,
+        "triangles_without_authored_normals": 0,
+        "zero_normal_vertices": 0,
+        "off_unit_normal_vertices": 0,
+        "max_normal_length_error": 5.960464477539063e-08,
+        "opposed_normal_corners": 0,
+        "minimum_valid_triangle_area_local": 1.4542183419516482e-10,
+        "materials": [
+          {
+            "name": "Camera USB plug graphite polymer",
+            "color_linear": [
+              0.01938236,
+              0.02415763,
+              0.02955683,
+              1.0
+            ],
+            "metallic": 0.0,
+            "roughness": 0.55,
+            "textured": false,
+            "double_sided": false
+          }
+        ],
+        "embedded_images": 0
+      }
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D435/meshes/glb/d435.glb",
+      "sha256": "66e53c0fe4ff07f1bcc533d215192026edec07f2a1a37c91dbb5f809215f8f33",
+      "triangles": 89493,
+      "source_surface_instances": 18,
+      "loaded_surface_instances": 18,
+      "duplicate_position_triangle_records": 0,
+      "material_instance_partitions": 1,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "max_transform_error": 0.0,
+      "max_linear_basecolor_rounding_error": 3.921568627607286e-07,
+      "max_metallic_error": 0.0,
+      "max_roughness_error": 0.0,
+      "embedded_pbr_texture_visuals": true,
+      "authored_normal_cache_retained": true,
+      "quality": {
+        "triangles": 89493,
+        "degenerate_triangles": 0,
+        "triangles_without_authored_normals": 0,
+        "zero_normal_vertices": 0,
+        "off_unit_normal_vertices": 0,
+        "max_normal_length_error": 5.960464477539063e-08,
+        "opposed_normal_corners": 0,
+        "minimum_valid_triangle_area_local": 1.7025877235843367e-13,
+        "materials": [
+          {
+            "name": "ID10",
+            "color_linear": [
+              0.74902,
+              0.74902,
+              0.74902,
+              1.0
+            ],
+            "metallic": 0.65,
+            "roughness": 0.38,
+            "textured": false,
+            "double_sided": false
+          }
+        ],
+        "embedded_images": 0
+      }
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D435/meshes/glb/plug.glb",
+      "sha256": "5c706cf963fad96b2fd8048976daad52f4ea23392824cd26b30df12fcd71cf7d",
+      "triangles": 5845,
+      "source_surface_instances": 1,
+      "loaded_surface_instances": 1,
+      "duplicate_position_triangle_records": 0,
+      "material_instance_partitions": 1,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "max_transform_error": 0.0,
+      "max_linear_basecolor_rounding_error": 0.0018157190196078435,
+      "max_metallic_error": 0.0,
+      "max_roughness_error": 0.0,
+      "embedded_pbr_texture_visuals": true,
+      "authored_normal_cache_retained": true,
+      "quality": {
+        "triangles": 5845,
+        "degenerate_triangles": 0,
+        "triangles_without_authored_normals": 0,
+        "zero_normal_vertices": 0,
+        "off_unit_normal_vertices": 0,
+        "max_normal_length_error": 5.960464477539063e-08,
+        "opposed_normal_corners": 0,
+        "minimum_valid_triangle_area_local": 1.4542183419516482e-10,
+        "materials": [
+          {
+            "name": "Camera USB plug graphite polymer",
+            "color_linear": [
+              0.01938236,
+              0.02415763,
+              0.02955683,
+              1.0
+            ],
+            "metallic": 0.0,
+            "roughness": 0.55,
+            "textured": false,
+            "double_sided": false
+          }
+        ],
+        "embedded_images": 0
+      }
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D436/meshes/glb/d436.glb",
+      "sha256": "610b7f5439a70fddbd5f8afad5f0bc68747bdee80d848d8d09f84f638c412f55",
+      "triangles": 89493,
+      "source_surface_instances": 18,
+      "loaded_surface_instances": 18,
+      "duplicate_position_triangle_records": 0,
+      "material_instance_partitions": 1,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "max_transform_error": 0.0,
+      "max_linear_basecolor_rounding_error": 3.921568627607286e-07,
+      "max_metallic_error": 0.0,
+      "max_roughness_error": 0.0,
+      "embedded_pbr_texture_visuals": true,
+      "authored_normal_cache_retained": true,
+      "quality": {
+        "triangles": 89493,
+        "degenerate_triangles": 0,
+        "triangles_without_authored_normals": 0,
+        "zero_normal_vertices": 0,
+        "off_unit_normal_vertices": 0,
+        "max_normal_length_error": 5.960464477539063e-08,
+        "opposed_normal_corners": 0,
+        "minimum_valid_triangle_area_local": 1.7025877235843367e-13,
+        "materials": [
+          {
+            "name": "ID10",
+            "color_linear": [
+              0.74902,
+              0.74902,
+              0.74902,
+              1.0
+            ],
+            "metallic": 0.65,
+            "roughness": 0.38,
+            "textured": false,
+            "double_sided": false
+          }
+        ],
+        "embedded_images": 0
+      }
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D436/meshes/glb/plug.glb",
+      "sha256": "5c706cf963fad96b2fd8048976daad52f4ea23392824cd26b30df12fcd71cf7d",
+      "triangles": 5845,
+      "source_surface_instances": 1,
+      "loaded_surface_instances": 1,
+      "duplicate_position_triangle_records": 0,
+      "material_instance_partitions": 1,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "max_transform_error": 0.0,
+      "max_linear_basecolor_rounding_error": 0.0018157190196078435,
+      "max_metallic_error": 0.0,
+      "max_roughness_error": 0.0,
+      "embedded_pbr_texture_visuals": true,
+      "authored_normal_cache_retained": true,
+      "quality": {
+        "triangles": 5845,
+        "degenerate_triangles": 0,
+        "triangles_without_authored_normals": 0,
+        "zero_normal_vertices": 0,
+        "off_unit_normal_vertices": 0,
+        "max_normal_length_error": 5.960464477539063e-08,
+        "opposed_normal_corners": 0,
+        "minimum_valid_triangle_area_local": 1.4542183419516482e-10,
+        "materials": [
+          {
+            "name": "Camera USB plug graphite polymer",
+            "color_linear": [
+              0.01938236,
+              0.02415763,
+              0.02955683,
+              1.0
+            ],
+            "metallic": 0.0,
+            "roughness": 0.55,
+            "textured": false,
+            "double_sided": false
+          }
+        ],
+        "embedded_images": 0
+      }
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D455/meshes/glb/d455.glb",
+      "sha256": "4a1d2c7706ca399fdf9bd412a5ef486c2f2ef7a1ea4782d359e2519abbeb3818",
+      "triangles": 20000,
+      "source_surface_instances": 1,
+      "loaded_surface_instances": 1,
+      "duplicate_position_triangle_records": 0,
+      "material_instance_partitions": 1,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "max_transform_error": 0.0,
+      "max_linear_basecolor_rounding_error": 0.0019607843137254832,
+      "max_metallic_error": 0.0,
+      "max_roughness_error": 0.0,
+      "embedded_pbr_texture_visuals": true,
+      "authored_normal_cache_retained": true,
+      "quality": {
+        "triangles": 20000,
+        "degenerate_triangles": 0,
+        "triangles_without_authored_normals": 0,
+        "zero_normal_vertices": 0,
+        "off_unit_normal_vertices": 0,
+        "max_normal_length_error": 5.960464477539063e-08,
+        "opposed_normal_corners": 0,
+        "minimum_valid_triangle_area_local": 1.497852716073736e-12,
+        "materials": [
+          {
+            "name": "URDF color",
+            "color_linear": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "metallic": 0.65,
+            "roughness": 0.54,
+            "textured": false,
+            "double_sided": false
+          }
+        ],
+        "embedded_images": 0
+      }
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D585/meshes/glb/d585.glb",
+      "sha256": "d7be7e10941f49fd049b74ed59af0f526028e52a414d857ec48637b607157a4d",
+      "triangles": 48913,
+      "source_surface_instances": 1,
+      "loaded_surface_instances": 1,
+      "duplicate_position_triangle_records": 0,
+      "material_instance_partitions": 1,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "max_transform_error": 0.0,
+      "max_linear_basecolor_rounding_error": 0.0019607843137254832,
+      "max_metallic_error": 0.0,
+      "max_roughness_error": 0.0,
+      "embedded_pbr_texture_visuals": true,
+      "authored_normal_cache_retained": true,
+      "quality": {
+        "triangles": 48913,
+        "degenerate_triangles": 0,
+        "triangles_without_authored_normals": 0,
+        "zero_normal_vertices": 0,
+        "off_unit_normal_vertices": 0,
+        "max_normal_length_error": 5.960464477539063e-08,
+        "opposed_normal_corners": 0,
+        "minimum_valid_triangle_area_local": 1.5605119735480344e-13,
+        "materials": [
+          {
+            "name": "URDF color",
+            "color_linear": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "metallic": 0.65,
+            "roughness": 0.38,
+            "textured": false,
+            "double_sided": false
+          }
+        ],
+        "embedded_images": 0
+      }
+    }
+  ],
+  "urdfs": [
+    {
+      "path": "CameraModel/RealSense/RealSense_D405/RealSense_D405.urdf",
+      "visual_mesh_elements": 1,
+      "resource_link_groups": 1,
+      "triangles": 3892,
+      "source_surface_instances": 1,
+      "loaded_surface_instances": 1,
+      "embedded_pbr_texture_visuals": true,
+      "authored_normal_cache_retained": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "max_transform_error": 0.0,
+      "max_linear_basecolor_rounding_error": 0.0019607843137254832,
+      "max_metallic_error": 0.0,
+      "max_roughness_error": 0.0
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D405/RealSense_D405_and_plug.urdf",
+      "visual_mesh_elements": 2,
+      "resource_link_groups": 2,
+      "triangles": 9737,
+      "source_surface_instances": 2,
+      "loaded_surface_instances": 2,
+      "embedded_pbr_texture_visuals": true,
+      "authored_normal_cache_retained": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "max_transform_error": 0.0,
+      "max_linear_basecolor_rounding_error": 0.0019607843137254832,
+      "max_metallic_error": 0.0,
+      "max_roughness_error": 0.0
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D415/RealSense_D415.urdf",
+      "visual_mesh_elements": 1,
+      "resource_link_groups": 1,
+      "triangles": 20000,
+      "source_surface_instances": 1,
+      "loaded_surface_instances": 1,
+      "embedded_pbr_texture_visuals": true,
+      "authored_normal_cache_retained": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "max_transform_error": 0.0,
+      "max_linear_basecolor_rounding_error": 0.0019607843137254832,
+      "max_metallic_error": 0.0,
+      "max_roughness_error": 0.0
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D415/RealSense_D415_and_plug.urdf",
+      "visual_mesh_elements": 2,
+      "resource_link_groups": 2,
+      "triangles": 25845,
+      "source_surface_instances": 2,
+      "loaded_surface_instances": 2,
+      "embedded_pbr_texture_visuals": true,
+      "authored_normal_cache_retained": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "max_transform_error": 0.0,
+      "max_linear_basecolor_rounding_error": 0.0019607843137254832,
+      "max_metallic_error": 0.0,
+      "max_roughness_error": 0.0
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D435/RealSense_D435.urdf",
+      "visual_mesh_elements": 1,
+      "resource_link_groups": 1,
+      "triangles": 89493,
+      "source_surface_instances": 18,
+      "loaded_surface_instances": 18,
+      "embedded_pbr_texture_visuals": true,
+      "authored_normal_cache_retained": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "max_transform_error": 0.0,
+      "max_linear_basecolor_rounding_error": 3.921568627607286e-07,
+      "max_metallic_error": 0.0,
+      "max_roughness_error": 0.0
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D435/RealSense_D435_and_plug.urdf",
+      "visual_mesh_elements": 2,
+      "resource_link_groups": 2,
+      "triangles": 95338,
+      "source_surface_instances": 19,
+      "loaded_surface_instances": 19,
+      "embedded_pbr_texture_visuals": true,
+      "authored_normal_cache_retained": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "max_transform_error": 0.0,
+      "max_linear_basecolor_rounding_error": 0.0018157190196078435,
+      "max_metallic_error": 0.0,
+      "max_roughness_error": 0.0
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D436/RealSense_D436.urdf",
+      "visual_mesh_elements": 1,
+      "resource_link_groups": 1,
+      "triangles": 89493,
+      "source_surface_instances": 18,
+      "loaded_surface_instances": 18,
+      "embedded_pbr_texture_visuals": true,
+      "authored_normal_cache_retained": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "max_transform_error": 0.0,
+      "max_linear_basecolor_rounding_error": 3.921568627607286e-07,
+      "max_metallic_error": 0.0,
+      "max_roughness_error": 0.0
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D436/RealSense_D436_and_plug.urdf",
+      "visual_mesh_elements": 2,
+      "resource_link_groups": 2,
+      "triangles": 95338,
+      "source_surface_instances": 19,
+      "loaded_surface_instances": 19,
+      "embedded_pbr_texture_visuals": true,
+      "authored_normal_cache_retained": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "max_transform_error": 0.0,
+      "max_linear_basecolor_rounding_error": 0.0018157190196078435,
+      "max_metallic_error": 0.0,
+      "max_roughness_error": 0.0
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D455/RealSense_D455.urdf",
+      "visual_mesh_elements": 1,
+      "resource_link_groups": 1,
+      "triangles": 20000,
+      "source_surface_instances": 1,
+      "loaded_surface_instances": 1,
+      "embedded_pbr_texture_visuals": true,
+      "authored_normal_cache_retained": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "max_transform_error": 0.0,
+      "max_linear_basecolor_rounding_error": 0.0019607843137254832,
+      "max_metallic_error": 0.0,
+      "max_roughness_error": 0.0
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D585/RealSense_D585.urdf",
+      "visual_mesh_elements": 1,
+      "resource_link_groups": 1,
+      "triangles": 48913,
+      "source_surface_instances": 1,
+      "loaded_surface_instances": 1,
+      "embedded_pbr_texture_visuals": true,
+      "authored_normal_cache_retained": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "max_transform_error": 0.0,
+      "max_linear_basecolor_rounding_error": 0.0019607843137254832,
+      "max_metallic_error": 0.0,
+      "max_roughness_error": 0.0
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "glbs": 10,
+    "urdfs": 10,
+    "errors": 0
+  }
+}

@@ -5,6 +5,7 @@ GLB baseColorFactor is linear and is copied without an 8-bit/sRGB round trip.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import math
 import warnings
@@ -87,45 +88,134 @@ def gltf_material(source):
             "material_name": source.get("name", "")}
 
 
-def load_parts(path, transform, color):
-    path = Path(path)
-    if path.suffix.lower() == ".glb":
-        tree, binary = read_glb(path)
-        if tree.get("skins") or tree.get("animations"):
-            raise ValueError(f"Animated/skinned GLB preview is unsupported: {path}")
-        nodes = tree.get("nodes", [])
-        scene = tree.get("scenes", [])[tree.get("scene", 0)]
-        stack = [(index, transform, set()) for index in reversed(scene.get("nodes", []))]
-        while stack:
-            index, parent, ancestors = stack.pop()
-            if index in ancestors:
-                raise ValueError("Cyclic GLB node hierarchy")
-            node = nodes[index]
-            matrix = parent @ node_matrix(node)
-            stack.extend((child, matrix, ancestors | {index}) for child in reversed(node.get("children", [])))
-            if "mesh" not in node:
-                continue
+def transform_part(vertices, faces, normals, matrix):
+    """Bake transforms, preserving front faces under mirrored mesh scales."""
+    linear = matrix[:3, :3]
+    if abs(np.linalg.det(linear)) < 1e-15:
+        raise ValueError("Preview cannot apply a singular mesh transform")
+    vertices = trimesh.transform_points(vertices, matrix)
+    if normals is None:
+        triangles = vertices[faces]
+        face_normals = np.cross(triangles[:, 1] - triangles[:, 0], triangles[:, 2] - triangles[:, 0])
+        normals = np.repeat(face_normals, 3, axis=0)
+        if np.linalg.det(linear) < 0:
+            normals *= -1
+    else:
+        normals = normals[faces].reshape(-1, 3) @ np.linalg.inv(linear)
+    normals /= np.maximum(np.linalg.norm(normals, axis=1, keepdims=True), 1e-15)
+    if np.linalg.det(linear) < 0:
+        faces = faces[:, ::-1]
+        normals = normals.reshape(-1, 3, 3)[:, ::-1].reshape(-1, 3)
+    return vertices, faces, normals
+
+
+def embedded_image(tree, binary, info):
+    if info.get("texCoord", 0) != 0 or info.get("extensions"):
+        raise ValueError("Preview supports TEXCOORD_0 without texture transforms")
+    texture = tree["textures"][info["index"]]
+    image = tree["images"][texture["source"]]
+    if "bufferView" not in image:
+        raise ValueError("Preview requires an embedded GLB image")
+    view = tree["bufferViews"][image["bufferView"]]
+    start = view.get("byteOffset", 0)
+    mime = image.get("mimeType")
+    if mime not in ("image/png", "image/jpeg"):
+        raise ValueError(f"Unsupported preview image type: {mime}")
+    sampler = tree.get("samplers", [])[texture["sampler"]] if "sampler" in texture else {}
+    wraps = (sampler.get("wrapS", 10497), sampler.get("wrapT", 10497))
+    if wraps[0] != wraps[1] or wraps[0] not in (10497, 33071, 33648):
+        raise ValueError("Preview requires equal S/T texture wrap modes")
+    return {"data": binary[start:start + view["byteLength"]],
+            "suffix": ".png" if mime == "image/png" else ".jpg",
+            "extension": {10497: "REPEAT", 33071: "EXTEND", 33648: "MIRROR"}[wraps[0]],
+            "interpolation": "Closest" if sampler.get("magFilter") == 9728 else "Linear"}
+
+
+def glb_material(tree, binary, index, color):
+    # A URDF color is a fallback for unpainted source STL meshes. Embedded GLB
+    # material groups take precedence so imported CAD colors are not flattened.
+    if index is None:
+        standalone = color is None
+        color = [1, 1, 1, 1] if standalone else color
+        return {"base_color": color, "metallic": 1.0 if standalone else 0.0, "roughness": 1.0,
+                "emissive": [0, 0, 0], "alpha_mode": "BLEND" if color[3] < 1 else "OPAQUE", "double_sided": False}
+    material = tree["materials"][index]
+    pbr = material.get("pbrMetallicRoughness", {})
+    unsupported = [key for key in material if key.endswith("Texture")]
+    unsupported += [key for key in pbr if key.endswith("Texture") and key != "baseColorTexture"]
+    if material.get("extensions") or unsupported:
+        raise ValueError(f"Unsupported preview material features: {unsupported or material['extensions']}")
+    result = {"base_color": pbr.get("baseColorFactor", [1, 1, 1, 1]),
+              "metallic": pbr.get("metallicFactor", 1.0),
+              "roughness": pbr.get("roughnessFactor", 1.0),
+              "emissive": material.get("emissiveFactor", [0, 0, 0]),
+              "alpha_mode": material.get("alphaMode", "OPAQUE"),
+              "alpha_cutoff": material.get("alphaCutoff", 0.5),
+              "double_sided": material.get("doubleSided", False)}
+    if "baseColorTexture" in pbr:
+        result["base_color_texture"] = embedded_image(tree, binary, pbr["baseColorTexture"])
+    return result
+
+
+def glb_parts(path, transform, color):
+    tree, binary = read_glb(path)
+    if tree.get("skins") or tree.get("animations"):
+        raise ValueError(f"Animated/skinned GLB preview is unsupported: {path}")
+    if tree.get("extensionsRequired"):
+        raise ValueError("Preview does not support required GLB extensions")
+
+    def walk(index, parent, ancestors):
+        if index in ancestors:
+            raise ValueError("Cyclic GLB node hierarchy")
+        node = tree["nodes"][index]
+        if "skin" in node or node.get("weights"):
+            raise ValueError("Preview does not support skinned or morphed geometry")
+        if "matrix" in node:
+            local = np.asarray(node["matrix"], dtype=float).reshape(4, 4).T
+        else:
+            q = node.get("rotation", [0, 0, 0, 1])
+            local = trimesh.transformations.quaternion_matrix([q[3], *q[:3]])
+            local[:3, :3] = local[:3, :3] @ np.diag(node.get("scale", [1, 1, 1]))
+            local[:3, 3] = node.get("translation", [0, 0, 0])
+        matrix = parent @ local
+        if "mesh" in node:
             for primitive in tree["meshes"][node["mesh"]]["primitives"]:
                 if primitive.get("mode", 4) != 4:
                     continue
-                attrs = primitive["attributes"]
-                vertices = accessor_array(tree, binary, attrs["POSITION"])
-                faces = (accessor_array(tree, binary, primitive["indices"]).reshape(-1, 3)
-                         if "indices" in primitive else np.arange(len(vertices)).reshape(-1, 3))
-                normals = accessor_array(tree, binary, attrs["NORMAL"])[faces].reshape(-1, 3) if "NORMAL" in attrs else None
-                if "COLOR_0" in attrs:
-                    raise ValueError(f"Vertex-colored preview is unsupported: {path}")
-                # URDF color may supply an appearance for a material-less resource.
-                # A standalone GLB must use glTF's default white metal material.
-                material = fallback_material(color) if color is not None else gltf_material({})
-                if "material" in primitive:
-                    source = tree["materials"][primitive["material"]]
-                    pbr = source.get("pbrMetallicRoughness", {})
-                    # Fail visibly rather than produce an inaccurate untextured review image.
-                    if any("Texture" in key for key in pbr) or any("Texture" in key for key in source):
-                        raise ValueError(f"Textured GLB preview requires texture export support: {path}")
-                    material = gltf_material(source)
-                yield surface_part(vertices, faces, normals, matrix, material)
+                if primitive.get("targets") or primitive.get("extensions"):
+                    raise ValueError("Preview does not support morphed or extended primitives")
+                attributes = primitive["attributes"]
+                if set(attributes) - {"POSITION", "NORMAL", "TEXCOORD_0"}:
+                    raise ValueError(f"Unsupported preview vertex attributes: {set(attributes)}")
+                vertices = accessor_array(tree, binary, attributes["POSITION"])
+                indices = (accessor_array(tree, binary, primitive["indices"]).ravel()
+                           if "indices" in primitive else np.arange(len(vertices)))
+                faces = indices.reshape(-1, 3)
+                normals = accessor_array(tree, binary, attributes["NORMAL"]) if "NORMAL" in attributes else None
+                vertices, faces, normals = transform_part(vertices, faces, normals, matrix)
+                material = glb_material(tree, binary, primitive.get("material"), color)
+                part = {"vertices": vertices, "faces": faces, "normals": normals, "material": material}
+                if "base_color_texture" in material:
+                    if "TEXCOORD_0" not in attributes:
+                        raise ValueError("Textured primitive has no TEXCOORD_0")
+                    uv = accessor_array(tree, binary, attributes["TEXCOORD_0"]).astype(float)
+                    uv[:, 1] = 1 - uv[:, 1]  # glTF top-left origin -> Blender bottom-left.
+                    part["uv"] = uv[faces].reshape(-1, 2)
+                yield part
+        for child in node.get("children", []):
+            yield from walk(child, matrix, ancestors | {index})
+
+    scene = tree["scenes"][tree.get("scene", 0)]
+    for index in scene.get("nodes", []):
+        yield from walk(index, transform, set())
+
+
+def load_parts(path, transform, color):
+    path = Path(path)
+    if path.suffix.lower() == ".glb":
+        for part in glb_parts(path, transform, color):
+            part["material"]["color"] = part["material"]["base_color"]
+            yield part
     elif path.suffix.lower() == ".dae":
         doc = collada.Collada(str(path))
         for geometry in doc.scene.objects("geometry"):
@@ -259,6 +349,25 @@ def joint_frames(robot, values=None, allow_outside_limits=False):
     return frames, resolved
 
 
+def write_pack(items, output):
+    output.mkdir(parents=True, exist_ok=True)
+    metadata = []
+    for index, item in enumerate(items):
+        path = output / f"part-{index}.npz"
+        arrays = {key: item[key] for key in ("vertices", "faces", "normals", "uv") if key in item}
+        np.savez(path, **arrays)
+        material = dict(item["material"])
+        if "base_color_texture" in material:
+            image = dict(material["base_color_texture"])
+            data = image.pop("data")
+            image["file"] = "texture-" + hashlib.sha256(data).hexdigest()[:16] + image.pop("suffix")
+            (output / image["file"]).write_bytes(data)
+            material["base_color_texture"] = image
+        metadata.append({"file": path.name, **material, "color": material.get("base_color", material.get("color")), "material": material})
+    (output / "scene.json").write_text(json.dumps(metadata, indent=2, allow_nan=False) + "\n")
+    return len(metadata)
+
+
 def prepare(asset, output, joints=None, allow_outside_limits=False):
     asset, output = Path(asset), Path(output)
     output.mkdir(parents=True, exist_ok=True)
@@ -295,13 +404,8 @@ def prepare(asset, output, joints=None, allow_outside_limits=False):
         items.extend(load_parts(asset, np.eye(4), None))
     if not items:
         raise ValueError("No visual meshes")
-    metadata = []
-    for index, part in enumerate(items):
-        path = output / f"part-{index}.npz"
-        arrays = {key: value for key, value in part.items() if key != "material"}
-        np.savez(path, **arrays)
-        metadata.append({"file": path.name, **part["material"]})
-    (output / "scene.json").write_text(json.dumps(metadata, indent=2) + "\n")
+    write_pack(items, output)
+    metadata = json.loads((output / "scene.json").read_text())
     (output / "pose.json").write_text(json.dumps({"asset": str(asset), "joints": resolved,
                                                    "allow_outside_limits": allow_outside_limits}, indent=2) + "\n")
     return metadata

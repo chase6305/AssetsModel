@@ -1,0 +1,43 @@
+{
+  "summary": {
+    "changed": 5,
+    "binary_unchanged": true
+  },
+  "files": [
+    {
+      "path": "CameraModel/RealSense/RealSense_D405/meshes/glb/d405.glb",
+      "changed": true,
+      "reason": "embedded unique URDF color",
+      "sha256_before": "6ac0947d46a35e7fcb02903915f11f2929a2e62a4ad0a58f8e1bd97e33c2dcc4",
+      "sha256_after": "d719a86a38f3bca370b7855d833fda80403afd45c16c7a0ddaa368df46588c3f"
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D415/meshes/glb/d415.glb",
+      "changed": true,
+      "reason": "embedded unique URDF color",
+      "sha256_before": "446d7734343c1f90240947567347211f5f9ccbdb90bb5274beb0eeff1993bd46",
+      "sha256_after": "0732e63ec5f199467d054e77715b272a0f4908c03cc79ffcbcf25f4b4a6c0dbe"
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D455/meshes/glb/d455.glb",
+      "changed": true,
+      "reason": "embedded unique URDF color",
+      "sha256_before": "79ca654071dbe54fc368c6b0320dce1b1f3ce500510b97bd4e2bc70323a07b5e",
+      "sha256_after": "17ff631dab7f961cb709ec5c2dd721853e515921e57058ca2784612b401d4243"
+    },
+    {
+      "path": "CameraModel/RealSense/RealSense_D585/meshes/glb/d585.glb",
+      "changed": true,
+      "reason": "embedded unique URDF color",
+      "sha256_before": "fa077be25b5871934e23ba57038f22a65b47e9a6629373989c6fd7335361389c",
+      "sha256_after": "a072030e315b58c8ef20f57f64ea813ec3ef8378dfe0c70eda2c7a91918528a3"
+    },
+    {
+      "path": "RobotModel/ABB/IRB1200_5_90/Visual/glb/Link5.glb",
+      "changed": true,
+      "reason": "embedded unique URDF color",
+      "sha256_before": "e61e7739561c7788b9cefc6585f59fe9f1f75e1bcc3cca18c7a3864179127bd3",
+      "sha256_after": "6175e62d8ab84792226c6c19e96179baa8d8af428ca9f4232afe8347432649b0"
+    }
+  ]
+}

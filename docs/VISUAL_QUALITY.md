@@ -2,9 +2,9 @@
 
 预览准备器直接读取 GLB 的默认场景、节点变换、三角形分组、原始 `NORMAL` 和 PBR 材质。`baseColorFactor` 使用 glTF 线性色彩值；不再通过 trimesh 的 8 位 `main_color` 量化，也不再把各表面的金属度和粗糙度统一为一个值。外观材质优先采用 GLB 内的分区；仅无内置材质的表面使用显式 URDF 颜色作为回退值。独立 GLB 或没有显式 URDF 颜色的表面使用 [glTF 默认材质](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html#default-material)：白色、金属度 1、粗糙度 1、单面。
 
-各 part 的 `scene.json` 字段包含 `color`、`metallic`、`roughness`、`alpha_mode`、`alpha_cutoff`、`double_sided`。`.npz` 包含模型装配后的 `vertices`、`faces` 与逐角点 `normals`。法线使用逆转置对应的行向量变换，非均匀缩放后归一化；镜像变换同步反转三角形绕序，避免表面朝向翻转。GLB 可选 CAD 辅助线场景不参与模型预览。
+各 part 的 `scene.json` 以 `material` 对象保存线性 `base_color`、`metallic`、`roughness`、`emissive`、`alpha_mode`、`alpha_cutoff` 和 `double_sided`；顶层颜色等字段为旧预览包保留兼容。`.npz` 包含模型装配后的 `vertices`、`faces` 与逐角点 `normals`，有基色贴图时还包含逐角点 `uv`。法线使用逆转置对应的行向量变换，非均匀缩放后归一化；镜像变换同步反转三角形绕序，避免表面朝向翻转。GLB 可选 CAD 辅助线场景不参与模型预览。
 
-当前机器人外观 GLB 的材质均为不透明材质，且没有贴图。若输入含贴图、顶点颜色、蒙皮或动画，准备器会明确报错，避免输出丢失这些外观信息的评审图。尚不支持纹理导出，也不声称支持完整 glTF 渲染规范。标量 `alpha_cutoff` 已由渲染脚本用于 glTF `MASK` 的 0/1 截断；现有不透明机器人材质不使用该分支。
+本轮相机与 FANUC 修正的外观 GLB 都是不透明、无贴图的材质。预览管线另支持 GLB 内嵌的 PNG/JPEG 基色贴图与 `TEXCOORD_0`：准备器原样提取图片字节和 UV，渲染器按 sRGB 读取基色图片，并与线性基色因子相乘。外置图片、纹理坐标变换、其它材质贴图、顶点颜色、蒙皮、动画以及材质或 primitive 扩展会明确报错，不会静默丢弃。此基础贴图路径不代表完整 glTF 材质或采样器支持。
 
 URDF 的 `box`、`cylinder`、`sphere` 外观也可准备。基础形状在本地按给定尺寸生成预览三角面，再应用视觉元素原点和链接姿态；盒体与圆柱端盖保持平面法线，圆柱侧壁与球面使用解析平滑法线。这些三角面仅用于展示，不会写回 URDF 或替换模型碰撞几何。
 
@@ -27,7 +27,7 @@ python3 scripts/prepare_preview.py \
 安装仓库的可选网格依赖并确保 Blender 在 `PATH` 中。准备好上述 FR3 预览包后，可直接渲染：
 
 ```bash
-blender -b --factory-startup --threads 4 --python-exit-code 1 \
+blender -b --factory-startup --threads 2 --python-exit-code 1 \
   --python scripts/render_preview.py -- /tmp/fr3-preview /tmp/fr3-preview.png \
   --view hero --samples 48 --width 1000 --height 900
 ```
@@ -62,4 +62,4 @@ python3 -m unittest discover -s tests -p test_preview.py -v
 
 本次用四种面/对象排列的最小场景做了实测：Cycles 中仅切换 `use_backface_culling` 不改变背面；使用透明背面节点会让共面前后层穿孔。因此本流程保留源面，以默认 EEVEE 验收这类资产。不要把背面透明节点当作 CAD 共面层的修复。
 
-标量 `alphaMode=MASK` 已按 `alpha_cutoff` 转为 0/1；当前资产没有纹理，带纹理的输入仍明确拒绝。每个 PNG 的 `.render.json` 记录实际引擎和单面处理方式。
+`alphaMode=MASK` 将基色因子与可选基色贴图的 alpha 相乘后，按 `alpha_cutoff` 转为 0/1；`BLEND` 使用相乘后的 alpha，`OPAQUE` 保持不透明。当前相机与 FANUC 材质不依赖透明分支。每个 PNG 的 `.render.json` 记录实际引擎和单面处理方式。

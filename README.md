@@ -4,9 +4,9 @@ Portable URDF assets for robot planning, simulation, and visualization.
 
 **75 URDF variants · 12 robot vendors · 874 GLB meshes · 420 optional STL meshes**
 
-[Model catalog](docs/CATALOG.md) · [New robots](docs/NEW_ROBOTS.md) · [Brand materials](docs/BRAND_MATERIALS.md) · [Surface normals](docs/NORMAL_REFINEMENT.md) · [Asset layout](docs/ASSET_LAYOUT.md) · [Before / after viewer](docs/preview.html) · [GLB conversion report](docs/GLB_REPORT.md) · [工具使用说明](docs/MESH_WORKFLOW.md)
+[Model catalog](docs/CATALOG.md) · [New robots](docs/NEW_ROBOTS.md) · [Brand materials](docs/BRAND_MATERIALS.md) · [Camera materials](docs/CAMERA_MATERIALS.md) · [Surface normals](docs/NORMAL_REFINEMENT.md) · [Asset layout](docs/ASSET_LAYOUT.md) · [Before / after viewer](docs/preview.html) · [GLB conversion report](docs/GLB_REPORT.md) · [工具使用说明](docs/MESH_WORKFLOW.md)
 
-All URDFs now reference **GLB meshes in their model directories**. Visual and collision resources use format subdirectories such as `Visual/glb/`, `Visual/stl/`, `Collision/glb/` and `Collision/stl/`; cameras and tools use `meshes/glb/` and `meshes/stl/`. **The runtime tree contains no DAE files or duplicate top-level GLB tree.** Imported source archives retain original DAE inputs for traceability. GLBs occupy **227.7 MiB**; retained STL alternatives occupy **245.0 MiB**. Copy a model directory, or export only its GLB runtime resources using the [workflow](docs/MESH_WORKFLOW.md).
+All URDFs now reference **GLB meshes in their model directories**. Visual and collision resources use format subdirectories such as `Visual/glb/`, `Visual/stl/`, `Collision/glb/` and `Collision/stl/`; cameras and tools use `meshes/glb/` and `meshes/stl/`. **The runtime tree contains no DAE files or duplicate top-level GLB tree.** Imported source archives retain original DAE inputs for traceability. GLBs occupy **227.5 MiB**; retained STL alternatives occupy **245.0 MiB**. Copy a model directory, or export only its GLB runtime resources using the [workflow](docs/MESH_WORKFLOW.md).
 
 | Peitian AIR10-1210 | Franka FR3 | Universal Robots UR5e |
 | :---: | :---: | :---: |
@@ -60,6 +60,8 @@ All resource references are relative to the URDF directory and point to `glb/` s
 
 ## Mesh quality
 
+The latest finishing pass adds satin housings to six RealSense cameras, graphite connector visuals, and a local FANUC M-20iA wrist shading correction. View the [camera comparisons](docs/preview.html#camera-finishes), [camera parameters](docs/CAMERA_MATERIALS.md), and [normal verification](docs/NORMAL_REFINEMENT.md).
+
 The November 2026 update refines brand colors and distinguishes painted surfaces, polymers, rubber and metal. It smooths flat CAD shading on curved surfaces while retaining mechanical creases, and batches compatible static surfaces without changing their geometry. It also adds **xArm6, Lite6, KUKA iiwa14 and Kinova Gen3** using fixed upstream sources, with licenses and provenance retained. View the [material comparisons](docs/preview.html), [brand notes](docs/BRAND_MATERIALS.md) and [new-model verification](docs/quality/new-robots-independent-audit.json).
 
 Existing GLBs are **33.0% smaller** than the November task baseline. An [independent check of all 781 existing GLBs](docs/quality/existing-surface-preservation.json) confirms unchanged oriented geometry in every scene; old URDFs, collision assets and optional STL files remain byte-identical. Compatible [static draw batches](docs/MESH_BATCHING.md) fall from 265 to 53 across the 20 processed files.
@@ -97,3 +99,5 @@ The supplied models are not all ready for dynamic simulation: the validator repo
 3. Preserve link frames, units, material assignments, and meaningful mechanical details.
 4. Run validation and the geometry audit; add the model to the generated catalog.
 5. Document physical parameter sources and include a preview when available.
+
+The [November 3 quality review](docs/QUALITY_REVIEW.md) records the earlier geometry and collision audit. Its asset counts, hashes and screenshots describe that historical revision; subsequent brand materials, normals and imported models are retained.

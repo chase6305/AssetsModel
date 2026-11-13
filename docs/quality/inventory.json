@@ -17,27 +17,27 @@
     "urdfs": 1,
     "glbs": 10,
     "stls": 10,
-    "glb_bytes": 727804,
+    "glb_bytes": 809408,
     "stl_bytes": 1459840
   },
   "summary": {
     "urdfs": 75,
     "glbs": 874,
     "stls": 420,
-    "glb_bytes": 238710932,
+    "glb_bytes": 238792536,
     "stl_bytes": 256909830,
     "robot_vendors": 12
   },
-  "generated_at": "2026-11-13T03:21:16.236241+00:00",
+  "generated_at": "2026-11-06T13:25:03.063323+00:00",
   "baseline_comparison": {
     "baseline_glbs": 781,
     "baseline_glb_bytes": 323430588,
-    "same_existing_glbs_current_bytes": 216673268,
-    "existing_glb_bytes_saved": 106757320,
-    "existing_glb_reduction_percent": 33.007799497306664,
+    "same_existing_glbs_current_bytes": 216754872,
+    "existing_glb_bytes_saved": 106675716,
+    "existing_glb_reduction_percent": 32.9825687358921,
     "new_glbs": 93,
     "new_glb_bytes": 22037664,
-    "current_total_glb_mib": 227.65248489379883,
+    "current_total_glb_mib": 227.73030853271484,
     "includes_docs_or_git_history": false
   },
   "humanoidassets_migration": {

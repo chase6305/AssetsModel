@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "cards": 7,
+  "selections": 20,
+  "imageReferences": 40,
+  "verified_jpegs": 40,
+  "browser_exit": 0,
+  "source": "docs/preview.html",
+  "images": "DOM interactions in private temporary Chromium; published JPEG headers/dimensions verified with Pillow",
+  "browser_version": "Google Chrome 155.0.8059.84",
+  "tested_preview_source_sha256": "60db04300d4fbbba7d84d89b0567eeca76102f658e61fdebfa172891f23a9092",
+  "current_preview_source_sha256": "8e1c2e0984022b92ce3d812fbd03a76372e1969e7314648a6ec567d6906ea154",
+  "tested_inline_script_sha256": "25b185f39ebb093f8757b7dc43e24834f7a95b6dd28bf853bc79dee506f4d500",
+  "post_check_source_change": "Inventory text and a static assembly comparison image added; all inline scripts remain byte-identical to the tested page."
+}

@@ -1,0 +1,35 @@
+{
+  "RobotModel": {
+    "urdfs": 64,
+    "glbs": 850,
+    "stls": 398,
+    "glb_bytes": 227778424,
+    "stl_bytes": 249594932
+  },
+  "CameraModel": {
+    "urdfs": 10,
+    "glbs": 14,
+    "stls": 12,
+    "glb_bytes": 10001948,
+    "stl_bytes": 5855058
+  },
+  "ToolModel": {
+    "urdfs": 1,
+    "glbs": 10,
+    "stls": 10,
+    "glb_bytes": 809408,
+    "stl_bytes": 1459840
+  },
+  "summary": {
+    "urdfs": 75,
+    "glbs": 874,
+    "stls": 420,
+    "glb_bytes": 238589780,
+    "stl_bytes": 256909830,
+    "robot_vendors": 12
+  },
+  "generated_at": "2026-11-12T14:00:15.532304+00:00",
+  "asset_source_commit": "91e2f84b613b03fadf30aa37c32e37999f7b38cf",
+  "asset_size_manifest_sha256": "84dab6bc6f972a84c88c28686bcb62207557d65cfed38c9a0c6fb43b10355f8f",
+  "scope": "Only URDF/GLB/STL files under the three asset categories; source archives, docs and Git history excluded."
+}
