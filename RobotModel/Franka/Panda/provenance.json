@@ -1,0 +1,363 @@
+{
+  "migration_source": {
+    "repository": "https://github.com/chase6305/HumanoidAssets",
+    "commit": "acdeaeb086b1eafc16dac838b5ba88f2212b7d2a",
+    "directory": "FrankaPanda"
+  },
+  "source_archive": {
+    "path": "source.tar.gz",
+    "sha256": "8efe0a612353247c594ae10b1ac38d6784068e16fb434865fdff8bc67cf08d15",
+    "files": [
+      {
+        "path": "LICENSE",
+        "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
+      },
+      {
+        "path": "NOTICE",
+        "sha256": "6cca4487ef999bd2ea289695d206a57e4fa7322bdcb2e4ecd6a9a62ea02c5936"
+      },
+      {
+        "path": "SOURCE.md",
+        "sha256": "3f6d89cdb3abe7a8316c8e733fb29b15816ef93cb90148ad1e3724c937d0bef8"
+      },
+      {
+        "path": "arm.urdf",
+        "sha256": "914c97790e9cb2bc6e73797f49d3a4d1c370312b3d299fe25c512d28e3b5b108"
+      },
+      {
+        "path": "hand.urdf",
+        "sha256": "db377cabef8a39eaaa888e886d77a0ce132615b188cfd71392812b4959333d87"
+      },
+      {
+        "path": "home.json",
+        "sha256": "c3b920a606b1d362f9eea98c728357779d622afecd1a16bb5c640f9e7fc977c8"
+      },
+      {
+        "path": "robot.urdf",
+        "sha256": "a7c92145c36a9e02ea14587cd700c4a9282bc64cb8f659a6e340306d1f9e1fbc"
+      },
+      {
+        "path": "source/meshes/finger.dae",
+        "sha256": "caefea762f2d18ca9412cf6c2e64e5007ad03571181d790a8e0c828b1b2035cf"
+      },
+      {
+        "path": "source/meshes/hand.dae",
+        "sha256": "fe5d445d509e44a9bd107ff78f0b03c49752c98e5e0a8ebafddf2b6cf5a8b380"
+      },
+      {
+        "path": "source/meshes/link0.dae",
+        "sha256": "050fe608136d11913287eaea6906538ddc9112cdbf7337a3181d9ed03f55f619"
+      },
+      {
+        "path": "source/meshes/link1.dae",
+        "sha256": "b061af1bcfb57f32719a1ffda44290619549a41b33a37a49bfebe781b20039a4"
+      },
+      {
+        "path": "source/meshes/link2.dae",
+        "sha256": "01ec435e7aee5812eb401489a83bf1717834eb5f21f8f6233e553b2da9be00bb"
+      },
+      {
+        "path": "source/meshes/link3.dae",
+        "sha256": "ce28221fe968ee86787d594222b24d00aa0f47bb64f53eaacbaf6172e81c29b4"
+      },
+      {
+        "path": "source/meshes/link4.dae",
+        "sha256": "d3a4029d1396471ad78ea5fd06e440167cb46c3ed7ab57befb2bcdbf1360efbf"
+      },
+      {
+        "path": "source/meshes/link5.dae",
+        "sha256": "07bab2ced87c546bfbc15ce8249038db0e0e582de1607b4243ebd3669dac1f21"
+      },
+      {
+        "path": "source/meshes/link6.dae",
+        "sha256": "4475cb620e2e7293eb0f317b5f968f6520f703a4e5d4f7b95f75249e4302fd21"
+      },
+      {
+        "path": "source/meshes/link7.dae",
+        "sha256": "463227bda9eb9901637107068f59e861fcb81ac89880706d41c26d18c4b46abe"
+      },
+      {
+        "path": "source/robots/common/franka_arm.xacro",
+        "sha256": "5250eceb90296803ae32cd86189edeba4ab977cdfadfdddeb5a44860f4b9ec4e"
+      },
+      {
+        "path": "source/robots/common/franka_hand.xacro",
+        "sha256": "61bfc98d331fdcc9f340f028efff8b6ab6fbaf1db123384afb6c52d1c8ca9f17"
+      },
+      {
+        "path": "source/robots/common/franka_robot.xacro",
+        "sha256": "24bc472b1b8f44cd61fafaef51b9be422dfd216c69a1cdedbb6b45400c00e288"
+      },
+      {
+        "path": "source/robots/common/hand.urdf.xacro",
+        "sha256": "fc573c9e5cdb6d58bdae4d76e5222e082ddcf96b19c108b6ddcd4a9523f9d503"
+      },
+      {
+        "path": "source/robots/common/inertial.yaml",
+        "sha256": "c7d15b15e45876b44e030053bca3ca19cf471806e46031ec090b8500cb9b330b"
+      },
+      {
+        "path": "source/robots/common/utils.xacro",
+        "sha256": "f0124cd8ccb470b94be7c8da5e2dacf69671ec22c385013d34c9bed5409eca9b"
+      },
+      {
+        "path": "source/robots/dual_panda/dual_panda_example.urdf.xacro",
+        "sha256": "bc5531923c22fa273705e243028390fe547d22fef557e401b3f5fbc9f56682c7"
+      },
+      {
+        "path": "source/robots/fr3/fr3.urdf.xacro",
+        "sha256": "1e738feb905a54e2acc76cbb68053104b3b68359f8cba80dad9f7e514e03a699"
+      },
+      {
+        "path": "source/robots/fr3/joint_limits.yaml",
+        "sha256": "dd56c6a40ae28cc299190ef51776bdd60beaeb4e2ff334abce1852ac62579446"
+      },
+      {
+        "path": "source/robots/panda/joint_limits.yaml",
+        "sha256": "c531201d06715a3c90a9d793748b14d83f5b512c007dd56e3dc712eee6106ec7"
+      },
+      {
+        "path": "source/robots/panda/panda.urdf.xacro",
+        "sha256": "221a799a9dbb79bfb9edc4c4317d8b99155fe37cde67849cd5ab3cc0935e2fc4"
+      },
+      {
+        "path": "source-manifest.json",
+        "sha256": "2f074744589a71d2eb9f9ac7dc99d35b3e2335f6784d7b3af103d389bc414807"
+      },
+      {
+        "path": "validation.json",
+        "sha256": "50cc7ef8b54ed72d322870656dd266fcd7829d8b2660801c3c7c165a1d7aea1e"
+      }
+    ]
+  },
+  "policy": {
+    "visuals": "byte-identical GLB copies",
+    "collision": "STL to GLB; original STL retained; no simplification",
+    "urdf": "mesh filenames only; all other model elements unchanged"
+  },
+  "resources": [
+    {
+      "input": "visual/finger.glb",
+      "output": "Visual/glb/finger.glb",
+      "input_sha256": "ad34bfc529af8cc10c59174c1a7409892d0de93f839ba71ff53993371d9df2b6",
+      "output_sha256": "ad34bfc529af8cc10c59174c1a7409892d0de93f839ba71ff53993371d9df2b6",
+      "operation": "byte-identical copy"
+    },
+    {
+      "input": "visual/hand.glb",
+      "output": "Visual/glb/hand.glb",
+      "input_sha256": "f041614def5f8b31107a4e942753c8b8a53539a0d8691a140d2de6aa877efc0c",
+      "output_sha256": "f041614def5f8b31107a4e942753c8b8a53539a0d8691a140d2de6aa877efc0c",
+      "operation": "byte-identical copy"
+    },
+    {
+      "input": "visual/link0.glb",
+      "output": "Visual/glb/link0.glb",
+      "input_sha256": "a40811836d21d6b5e0368500d226c68e3c185951e3ea9ba24329a42c41bbb9e5",
+      "output_sha256": "a40811836d21d6b5e0368500d226c68e3c185951e3ea9ba24329a42c41bbb9e5",
+      "operation": "byte-identical copy"
+    },
+    {
+      "input": "visual/link1.glb",
+      "output": "Visual/glb/link1.glb",
+      "input_sha256": "a4d21fe9513d74c38866e67ac999b3185b380e9abd09371a2d504e52d53af2b7",
+      "output_sha256": "a4d21fe9513d74c38866e67ac999b3185b380e9abd09371a2d504e52d53af2b7",
+      "operation": "byte-identical copy"
+    },
+    {
+      "input": "visual/link2.glb",
+      "output": "Visual/glb/link2.glb",
+      "input_sha256": "080ec8cad65e527a8871ce44d7af0fcf5601cab38aa87e03352ad81021358d36",
+      "output_sha256": "080ec8cad65e527a8871ce44d7af0fcf5601cab38aa87e03352ad81021358d36",
+      "operation": "byte-identical copy"
+    },
+    {
+      "input": "visual/link3.glb",
+      "output": "Visual/glb/link3.glb",
+      "input_sha256": "8e0ad586fab447717284cb6e417ebfd339d092b59c425d0cac1b50e6671df700",
+      "output_sha256": "8e0ad586fab447717284cb6e417ebfd339d092b59c425d0cac1b50e6671df700",
+      "operation": "byte-identical copy"
+    },
+    {
+      "input": "visual/link4.glb",
+      "output": "Visual/glb/link4.glb",
+      "input_sha256": "584536ef7235bd8c498532883948980d822f59e2028627a765368e73208ee6f4",
+      "output_sha256": "584536ef7235bd8c498532883948980d822f59e2028627a765368e73208ee6f4",
+      "operation": "byte-identical copy"
+    },
+    {
+      "input": "visual/link5.glb",
+      "output": "Visual/glb/link5.glb",
+      "input_sha256": "9d79c1ce54779cc333df9859ef690f9f34bab6a8d10fbb9a8c254d579253a33d",
+      "output_sha256": "9d79c1ce54779cc333df9859ef690f9f34bab6a8d10fbb9a8c254d579253a33d",
+      "operation": "byte-identical copy"
+    },
+    {
+      "input": "visual/link6.glb",
+      "output": "Visual/glb/link6.glb",
+      "input_sha256": "0d88ce2127468113d8da6e9f61d9f05511d3660f4f8e4a4e3fb25363c0cf14c2",
+      "output_sha256": "0d88ce2127468113d8da6e9f61d9f05511d3660f4f8e4a4e3fb25363c0cf14c2",
+      "operation": "byte-identical copy"
+    },
+    {
+      "input": "visual/link7.glb",
+      "output": "Visual/glb/link7.glb",
+      "input_sha256": "b4953821bac203d04122f0e6c3c8a0a6d09b873f4b1f881568a501c47829f56b",
+      "output_sha256": "b4953821bac203d04122f0e6c3c8a0a6d09b873f4b1f881568a501c47829f56b",
+      "operation": "byte-identical copy"
+    },
+    {
+      "input": "collision/hand.stl",
+      "output": "Collision/glb/hand.glb",
+      "input_sha256": "94493e94f30fe940f2c8ca2f155c3bbe67bbff406d3edf5e261670d2f0f6e2ed",
+      "output_sha256": "9879ce3c88acae24cfeb352589a9c4e9083e1b1a13165fe02ec51d379c71831b",
+      "retained_stl": "Collision/stl/hand.stl",
+      "conversion": {
+        "faces": 200,
+        "lines": 0,
+        "materials": 0,
+        "vertex_corners_before": 600,
+        "vertices_after": 102,
+        "max_corner_error_m": 0.0,
+        "collision": true,
+        "normal_policy": "omitted"
+      }
+    },
+    {
+      "input": "collision/link0.stl",
+      "output": "Collision/glb/link0.glb",
+      "input_sha256": "dfc6d94330de8ddb005b311bfdba9f3b8e1aa7c256b71592ee7ff32cb9a9a5aa",
+      "output_sha256": "6e12b460c419bf5a44f0cb24ad611794f8464042690f2e5726770e46807e0274",
+      "retained_stl": "Collision/stl/link0.stl",
+      "conversion": {
+        "faces": 200,
+        "lines": 0,
+        "materials": 0,
+        "vertex_corners_before": 600,
+        "vertices_after": 102,
+        "max_corner_error_m": 0.0,
+        "collision": true,
+        "normal_policy": "omitted"
+      }
+    },
+    {
+      "input": "collision/link1.stl",
+      "output": "Collision/glb/link1.glb",
+      "input_sha256": "e41a39a94108fcf56aacff603fc91ec80541f4c1af17b51a0de5617f5566e6d2",
+      "output_sha256": "892ce8cf979e6f7cabee0902a1cea8cb1b17c4ed3d160c7da80cf691b954e283",
+      "retained_stl": "Collision/stl/link1.stl",
+      "conversion": {
+        "faces": 300,
+        "lines": 0,
+        "materials": 0,
+        "vertex_corners_before": 900,
+        "vertices_after": 152,
+        "max_corner_error_m": 0.0,
+        "collision": true,
+        "normal_policy": "omitted"
+      }
+    },
+    {
+      "input": "collision/link2.stl",
+      "output": "Collision/glb/link2.glb",
+      "input_sha256": "370f7605a0fae3529db169ded50f52f171024aa792d4d773bc84197301f6a039",
+      "output_sha256": "49998aadf09c6b0faf51b08924de98a3c4f56a97aba0d52bd2c843060285238f",
+      "retained_stl": "Collision/stl/link2.stl",
+      "conversion": {
+        "faces": 300,
+        "lines": 0,
+        "materials": 0,
+        "vertex_corners_before": 900,
+        "vertices_after": 152,
+        "max_corner_error_m": 0.0,
+        "collision": true,
+        "normal_policy": "omitted"
+      }
+    },
+    {
+      "input": "collision/link3.stl",
+      "output": "Collision/glb/link3.glb",
+      "input_sha256": "0a8d638b9349c6c0eefc4e888636ac4838c4b27170f18a51699321118af709c1",
+      "output_sha256": "abd4a8c39897a016e578edef1aaf04beb6e725dbd9f73cb3d26c94a9905a2c57",
+      "retained_stl": "Collision/stl/link3.stl",
+      "conversion": {
+        "faces": 300,
+        "lines": 0,
+        "materials": 0,
+        "vertex_corners_before": 900,
+        "vertices_after": 152,
+        "max_corner_error_m": 0.0,
+        "collision": true,
+        "normal_policy": "omitted"
+      }
+    },
+    {
+      "input": "collision/link4.stl",
+      "output": "Collision/glb/link4.glb",
+      "input_sha256": "0180ebb5772ec9840cb049750cffb29a9ddc90311752a16ea34757782ef9e48d",
+      "output_sha256": "52ca2a318a09a937df953e1f021a22425783a422401d3d714c336373871f9bd7",
+      "retained_stl": "Collision/stl/link4.stl",
+      "conversion": {
+        "faces": 300,
+        "lines": 0,
+        "materials": 0,
+        "vertex_corners_before": 900,
+        "vertices_after": 152,
+        "max_corner_error_m": 0.0,
+        "collision": true,
+        "normal_policy": "omitted"
+      }
+    },
+    {
+      "input": "collision/link5.stl",
+      "output": "Collision/glb/link5.glb",
+      "input_sha256": "dd17e688c7870e722283525879643d53a74c0024d328b0e14b034b54c8b6c31a",
+      "output_sha256": "90103e93a2f142bfedc003868378e92aa42bbaec1da56718d1f8095637df78a7",
+      "retained_stl": "Collision/stl/link5.stl",
+      "conversion": {
+        "faces": 300,
+        "lines": 0,
+        "materials": 0,
+        "vertex_corners_before": 900,
+        "vertices_after": 152,
+        "max_corner_error_m": 0.0,
+        "collision": true,
+        "normal_policy": "omitted"
+      }
+    },
+    {
+      "input": "collision/link6.stl",
+      "output": "Collision/glb/link6.glb",
+      "input_sha256": "20b768e99a0e0440b5754dcca108016434e57937cc356acd9c352ccd3cb27f77",
+      "output_sha256": "5c8038a413a692f3b56b90425eaa039ea16151a5986188c18a746e7859ff53d6",
+      "retained_stl": "Collision/stl/link6.stl",
+      "conversion": {
+        "faces": 200,
+        "lines": 0,
+        "materials": 0,
+        "vertex_corners_before": 600,
+        "vertices_after": 102,
+        "max_corner_error_m": 0.0,
+        "collision": true,
+        "normal_policy": "omitted"
+      }
+    },
+    {
+      "input": "collision/link7.stl",
+      "output": "Collision/glb/link7.glb",
+      "input_sha256": "92ac6afcf7574c034d3170d8a68e95ac9048ab9d0dd5bbd8311b86e551b9ab1c",
+      "output_sha256": "37db4ee204edf82975c8f4b57ab0a982b91eea8cc7f6e6737f863cec21d0c7be",
+      "retained_stl": "Collision/stl/link7.stl",
+      "conversion": {
+        "faces": 200,
+        "lines": 0,
+        "materials": 0,
+        "vertex_corners_before": 600,
+        "vertices_after": 102,
+        "max_corner_error_m": 0.0,
+        "collision": true,
+        "normal_policy": "omitted"
+      }
+    }
+  ]
+}

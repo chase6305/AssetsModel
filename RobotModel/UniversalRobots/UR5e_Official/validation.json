@@ -1,0 +1,243 @@
+{
+  "migration_source": {
+    "repository": "https://github.com/chase6305/HumanoidAssets",
+    "commit": "acdeaeb086b1eafc16dac838b5ba88f2212b7d2a",
+    "directory": "UniversalRobotsUR5e"
+  },
+  "status": "passed",
+  "all_source_files_match_fixed_git_revision": true,
+  "archive_members_verified": true,
+  "visual_glbs_and_previews_byte_identical": true,
+  "collision_conversion_max_corner_error_m": 0.0,
+  "models": [
+    {
+      "urdf": "robot.urdf",
+      "description": {
+        "name": "ur5e",
+        "links": 13,
+        "joints": 12,
+        "actuated_joints": 6,
+        "root_links": [
+          "world"
+        ],
+        "resources": [
+          "Collision/glb/base.glb",
+          "Collision/glb/forearm.glb",
+          "Collision/glb/shoulder.glb",
+          "Collision/glb/upperarm.glb",
+          "Collision/glb/wrist1.glb",
+          "Collision/glb/wrist2.glb",
+          "Collision/glb/wrist3.glb",
+          "Visual/glb/base.glb",
+          "Visual/glb/forearm.glb",
+          "Visual/glb/shoulder.glb",
+          "Visual/glb/upperarm.glb",
+          "Visual/glb/wrist1.glb",
+          "Visual/glb/wrist2.glb",
+          "Visual/glb/wrist3.glb"
+        ],
+        "errors": [],
+        "warnings": []
+      },
+      "poses": 4,
+      "max_link_transform_error": 0.0,
+      "max_visual_collision_bounds_error_m": 0.0,
+      "all_non_resource_elements_unchanged": true
+    }
+  ],
+  "gltf_format_validation": {
+    "summary": {
+      "meshes": 14,
+      "validator": "Khronos glTF-Validator",
+      "version": "2.0.0-dev.3.10",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "hints": 0
+    },
+    "meshes": [
+      {
+        "path": "Collision/glb/base.glb",
+        "sha256": "b22b4323f14d8d7977c87dbfc8597c05e5701c9fa136daa9b95de73c8d9eef82",
+        "bytes": 5872,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Collision/glb/forearm.glb",
+        "sha256": "39f768ac7f377fd51cf59c098855de87c9a09a97504ac23365150a6d40c13c39",
+        "bytes": 13612,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Collision/glb/shoulder.glb",
+        "sha256": "52a84322d1d5911439063e0c331dac3e8d9e9f68af879c726bbd408b5983d15c",
+        "bytes": 17648,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Collision/glb/upperarm.glb",
+        "sha256": "be71ed8c205dcaf7e3da742222e2f26f60ff4c66537d24af71f6880fd4cf0e47",
+        "bytes": 24756,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Collision/glb/wrist1.glb",
+        "sha256": "cacc9e54cac663af9b0b9b1e857a2d363968ca6e7792cb638a2a8c68421a18e5",
+        "bytes": 15120,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Collision/glb/wrist2.glb",
+        "sha256": "2647a6b2f04dae54e032b1b143e8565651c2e85ff49097dfa82e9830ffef25a5",
+        "bytes": 17040,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Collision/glb/wrist3.glb",
+        "sha256": "5b1cb95e7ff50a00ddcc287f8e4f67523ffc3fd6f3a986430c214b51bbf63849",
+        "bytes": 2540,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Visual/glb/base.glb",
+        "sha256": "16e3ee66114626248832b90a871e8ca9714b84733f53ee70b41475b1ea0bebe1",
+        "bytes": 136588,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Visual/glb/forearm.glb",
+        "sha256": "4f58b655cbb09a0ece0b81230aa8163eed3d5220aa9df55ae32a0e2a755f2dcf",
+        "bytes": 388644,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Visual/glb/shoulder.glb",
+        "sha256": "90d3527307749f56a938e74f66454955357221a4a7fdfbca630e52d8a47333de",
+        "bytes": 521836,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Visual/glb/upperarm.glb",
+        "sha256": "198bb6b29a367442935ba4e0611e1bd65813a03b66830bdbbb17b7ab96b97b73",
+        "bytes": 1031292,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Visual/glb/wrist1.glb",
+        "sha256": "43b7884fb390d9e3b9a0368aa9a006cff75317b2834032296ccec0d2f67ff1b7",
+        "bytes": 419496,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Visual/glb/wrist2.glb",
+        "sha256": "ca4c03ec1e083a6822c1811d1888067bdd6209254ee4a2c3eb641c038364c64d",
+        "bytes": 469712,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      },
+      {
+        "path": "Visual/glb/wrist3.glb",
+        "sha256": "d6f8d7e9b011084c15ac69bd1fc72db4fcd2f178daad3d1d40e673953eabdb0b",
+        "bytes": 31156,
+        "issues": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 0,
+          "numHints": 0,
+          "messages": [],
+          "truncated": false
+        }
+      }
+    ]
+  }
+}
