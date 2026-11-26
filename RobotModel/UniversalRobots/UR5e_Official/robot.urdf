@@ -12,7 +12,7 @@
     <collision>
       <origin rpy="0 0 3.141592653589793" xyz="0 0 0" />
       <geometry>
-        <mesh filename="Collision/glb/base.glb" />
+        <mesh filename="Collision/obj/base.obj" />
       </geometry>
     </collision>
     <inertial>
@@ -31,7 +31,7 @@
     <collision>
       <origin rpy="0 0 3.141592653589793" xyz="0 0 0" />
       <geometry>
-        <mesh filename="Collision/glb/shoulder.glb" />
+        <mesh filename="Collision/obj/shoulder.obj" />
       </geometry>
     </collision>
     <inertial>
@@ -50,7 +50,7 @@
     <collision>
       <origin rpy="1.5707963267948966 0 -1.5707963267948966" xyz="0 0 0.138" />
       <geometry>
-        <mesh filename="Collision/glb/upperarm.glb" />
+        <mesh filename="Collision/obj/upperarm.obj" />
       </geometry>
     </collision>
     <inertial>
@@ -69,7 +69,7 @@
     <collision>
       <origin rpy="1.5707963267948966 0 -1.5707963267948966" xyz="0 0 0.007" />
       <geometry>
-        <mesh filename="Collision/glb/forearm.glb" />
+        <mesh filename="Collision/obj/forearm.obj" />
       </geometry>
     </collision>
     <inertial>
@@ -88,7 +88,7 @@
     <collision>
       <origin rpy="1.5707963267948966 0 0" xyz="0 0 -0.127" />
       <geometry>
-        <mesh filename="Collision/glb/wrist1.glb" />
+        <mesh filename="Collision/obj/wrist1.obj" />
       </geometry>
     </collision>
     <inertial>
@@ -107,7 +107,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 -0.0997" />
       <geometry>
-        <mesh filename="Collision/glb/wrist2.glb" />
+        <mesh filename="Collision/obj/wrist2.obj" />
       </geometry>
     </collision>
     <inertial>
@@ -126,7 +126,7 @@
     <collision>
       <origin rpy="1.5707963267948966 0 0" xyz="0 -0.0005 -0.0989" />
       <geometry>
-        <mesh filename="Collision/glb/wrist3.glb" />
+        <mesh filename="Collision/obj/wrist3.obj" />
       </geometry>
     </collision>
     <inertial>

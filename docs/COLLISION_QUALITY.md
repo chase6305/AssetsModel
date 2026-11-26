@@ -19,10 +19,10 @@
 
 | 资源 | 观察 |
 | --- | --- |
-| KUKA KR210_L150 Collision Link1、Link3、Link4、Link5、Link6 | 存在重合反向面，总有符号体积约为零。以 [Link5](../RobotModel/KUKA/KR210_L150/Collision/glb/Link5.glb) 为例，14,022 面中有 7,011 个重复几何面，10,440 条非流形边。表面存在不代表可直接解释为有效闭合体积。 |
-| Motoman GP88 [Collision Link3](../RobotModel/Motoman/GP88/Collision/glb/Link3.glb) | 44,474 面，32,175 条边界边、102 条非流形边。Link1 另有 24,685 条边界边；其余链接也有不同程度的开放边界。 |
-| Hans E10 [Collision Link5](../RobotModel/Hans/E10/Collision/glb/Link5.glb) | 没有边界边，但仍有 2,019 条非流形边；“看起来闭合”和边界数为零都不足以判断闭合实体质量。 |
-| Franka FR3 的 10 个 Collision GLB | 全部边闭合、绕序一致，没有非流形边或重复面；这些专用粗几何在本次表面拓扑指标下正常。[link0](../RobotModel/Franka/FR3/Collision/glb/link0.glb) 仅 200 面。 |
+| KUKA KR210_L150 Collision Link1、Link3、Link4、Link5、Link6 | 存在重合反向面，总有符号体积约为零。以 [Link5](https://github.com/chase6305/AssetsModel/blob/e8d8d880530be33fd45c8a7930dcb03756217af7/RobotModel/KUKA/KR210_L150/Collision/glb/Link5.glb) 为例，14,022 面中有 7,011 个重复几何面，10,440 条非流形边。表面存在不代表可直接解释为有效闭合体积。 |
+| Motoman GP88 [Collision Link3](https://github.com/chase6305/AssetsModel/blob/e8d8d880530be33fd45c8a7930dcb03756217af7/RobotModel/Motoman/GP88/Collision/glb/Link3.glb) | 44,474 面，32,175 条边界边、102 条非流形边。Link1 另有 24,685 条边界边；其余链接也有不同程度的开放边界。 |
+| Hans E10 [Collision Link5](https://github.com/chase6305/AssetsModel/blob/e8d8d880530be33fd45c8a7930dcb03756217af7/RobotModel/Hans/E10/Collision/glb/Link5.glb) | 没有边界边，但仍有 2,019 条非流形边；“看起来闭合”和边界数为零都不足以判断闭合实体质量。 |
+| Franka FR3 的 10 个 Collision GLB | 全部边闭合、绕序一致，没有非流形边或重复面；这些专用粗几何在本次表面拓扑指标下正常。[link0](https://github.com/chase6305/AssetsModel/blob/e8d8d880530be33fd45c8a7930dcb03756217af7/RobotModel/Franka/FR3/Collision/glb/link0.glb) 仅 200 面。 |
 | Robotiq 2F85 的 5 个 coarse 碰撞 GLB | 全部边闭合、绕序一致，没有非流形边或重复面。 |
 
 ![实际碰撞网格的边界与非流形边](previews/collision-topology.png)

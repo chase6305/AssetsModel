@@ -34,7 +34,7 @@ def has_cycle(edges):
     return False
 
 
-def validate_urdf(path, glb_only=False):
+def validate_urdf(path, glb_only=False, *, robot_collision_obj=False):
     errors, warnings = [], []
     try:
         robot = ET.parse(path).getroot()
@@ -92,11 +92,16 @@ def validate_urdf(path, glb_only=False):
                 errors.append("Mesh scale cannot be zero")
 
     resources = set()
+    collision_meshes = set(robot.findall("./link/collision/geometry/mesh"))
     for resource in robot.findall(".//mesh") + robot.findall(".//texture"):
         filename = resource.get("filename", "")
         relative = Path(filename)
-        if glb_only and resource.tag == "mesh" and (relative.suffix != ".glb" or relative.parent.name != "glb"):
-            errors.append(f"Mesh reference must use a glb/ format directory: {filename}")
+        if resource.tag == "mesh" and (glb_only or robot_collision_obj):
+            if robot_collision_obj and resource in collision_meshes:
+                if relative.suffix != ".obj" or relative.parent != Path("Collision/obj"):
+                    errors.append(f"Robot collision mesh must use Collision/obj/*.obj: {filename}")
+            elif relative.suffix != ".glb" or relative.parent.name != "glb":
+                errors.append(f"Mesh reference must use a glb/ format directory: {filename}")
         if (not filename or ":" in filename or "\\" in filename or relative.is_absolute()
                 or PureWindowsPath(filename).is_absolute()):
             errors.append(f"Resource must use a relative portable path: {filename!r}")
@@ -196,6 +201,29 @@ def check_mesh(path):
             count = struct.unpack_from("<I", header, 80)[0]
             return count, [] if count else ["Empty STL"]
         return 0, ["Invalid binary STL length (ASCII STL is not supported by this check)"]
+    if path.suffix.lower() == ".obj":
+        vertices = faces = largest_index = 0
+        try:
+            with path.open(encoding="utf-8") as stream:
+                for line in stream:
+                    fields = line.partition("#")[0].split()
+                    if not fields:
+                        continue
+                    if fields[0] == "v":
+                        if len(fields) != 4 or not all(math.isfinite(float(x)) for x in fields[1:]):
+                            raise ValueError("Invalid OBJ vertex")
+                        vertices += 1
+                    elif fields[0] == "f":
+                        indices = [int(x) for x in fields[1:]]
+                        if len(indices) != 3 or len(set(indices)) != 3 or min(indices) < 1:
+                            raise ValueError("Expected triangular OBJ faces with positive vertex indices")
+                        largest_index = max(largest_index, *indices)
+                        faces += 1
+            if not faces or largest_index > vertices:
+                raise ValueError("OBJ has no faces or references a missing vertex")
+            return faces, []
+        except (OSError, ValueError) as exc:
+            return 0, [str(exc)]
     try:
         root = ET.parse(path).getroot()
         namespace = "{http://www.collada.org/2005/11/COLLADASchema}"
@@ -208,19 +236,22 @@ def check_mesh(path):
         return 0, [str(exc)]
 
 
-def layout_errors(path):
-    if path.suffix.lower() == ".dae":
+def layout_errors(path, robot_model=False):
+    suffix = path.suffix.lower()
+    if suffix == ".dae":
         return ["DAE source files must be converted to GLB before adding them to the library"]
-    if path.suffix.lower() in (".stl", ".glb") and path.parent.name != path.suffix.lower()[1:]:
-        return [f"Mesh must be inside its {path.suffix.lower()[1:]}/ format directory"]
+    if robot_model and "Collision" in path.parts and suffix != ".obj":
+        return ["Robot Collision/ directories must use only OBJ meshes"]
+    if suffix in (".stl", ".glb", ".obj") and path.parent.name != suffix[1:]:
+        return [f"Mesh must be inside its {suffix[1:]}/ format directory"]
     return []
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
-    parser.add_argument("--meshes", action="store_true", help="Also check every STL/DAE/GLB container")
-    parser.add_argument("--layout", action="store_true", help="Enforce GLB URDF references, format directories and no DAE sources")
+    parser.add_argument("--meshes", action="store_true", help="Also check each mesh container")
+    parser.add_argument("--layout", action="store_true", help="Enforce runtime mesh formats and directories")
     parser.add_argument("--json", type=Path, help="Write the full machine-readable catalog")
     parser.add_argument("--markdown", type=Path, help="Write a linked model catalog")
     parser.add_argument("--strict", action="store_true", help="Treat simulation-readiness warnings as failures")
@@ -230,7 +261,9 @@ def main():
     for category in CATEGORIES:
         for path in sorted((root / category).rglob("*.urdf")):
             relative = path.relative_to(root).as_posix()
-            models.append({"path": relative, "category": category, **validate_urdf(path, glb_only=args.layout)})
+            models.append({"path": relative, "category": category,
+                           **validate_urdf(path, glb_only=args.layout,
+                                           robot_collision_obj=args.layout and category == "RobotModel")})
     if not models:
         parser.error("No URDF assets found")
     errors = sum(len(x["errors"]) for x in models)
@@ -238,10 +271,10 @@ def main():
     if args.meshes or args.layout:
         for category in CATEGORIES:
             for path in sorted((root / category).rglob("*")):
-                if path.suffix.lower() in (".stl", ".dae", ".glb"):
+                if path.suffix.lower() in (".stl", ".dae", ".glb", ".obj"):
                     faces, issues = check_mesh(path) if args.meshes else (0, [])
                     if args.layout:
-                        issues.extend(layout_errors(path))
+                        issues.extend(layout_errors(path.relative_to(root / category), robot_model=category == "RobotModel"))
                     meshes.append({"path": path.relative_to(root).as_posix(), "bytes": path.stat().st_size,
                                    "faces": faces, "errors": issues})
                     errors += len(issues)

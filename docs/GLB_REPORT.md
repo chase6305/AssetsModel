@@ -1,14 +1,14 @@
-# GLB 当前资源与历史转换报告
+# GLB 历史转换报告
 
-## 当前状态：2026 年 11 月
+## 2026 年 11 月库存快照
 
 当前[库存快照](quality/inventory.json)包含 **71 个 URDF、12 个机器人品牌、841 个 GLB 和 404 个可选 STL**。GLB 约 **215 MiB**，可选 STL 约 **244.5 MiB**，网格合计约 **459 MiB**；精确字节数以库存快照为准。这些数量反映 FR3 资源和本轮新增的 xArm6、Lite6、KUKA iiwa14、Kinova Gen3，不能直接套用下面历史转档阶段的总面数或压缩率。
 
-默认 URDF 使用模型内的 `Visual/glb/`、`Collision/glb/` 或 `meshes/glb/`，资源不依赖顶层重复目录；DAE 已移出模型库。当前路径约定见[资源布局](ASSET_LAYOUT.md)，新增型号的固定来源、许可和参数边界见[新增机器人](NEW_ROBOTS.md)。[品牌材质说明](BRAND_MATERIALS.md)记录本轮按漆面、塑料、橡胶、金属分区的 PBR 与颜色校准；其视觉近似不等于厂家认证色号。
+快照中的 URDF 使用模型内的 `Visual/glb/`、`Collision/glb/` 或 `meshes/glb/`，资源不依赖顶层重复目录；DAE 已移出模型库。当前路径约定见[资源布局](ASSET_LAYOUT.md)，新增型号的固定来源、许可和参数边界见[新增机器人](NEW_ROBOTS.md)。[品牌材质说明](BRAND_MATERIALS.md)记录本轮按漆面、塑料、橡胶、金属分区的 PBR 与颜色校准；其视觉近似不等于厂家认证色号。
 
-当前验证分别保存以下证据，逐文件哈希用于识别报告对应的资产版本：
+当时的验证保存了以下证据，逐文件哈希用于识别报告对应的资产版本：
 
-| 当前检查范围 | 记录 |
+| 当时的检查范围 | 记录 |
 | --- | --- |
 | 71 个 URDF、1,245 个网格的结构与布局 | [0 错误、233 条参数警告](quality/asset-validation.json) |
 | 841 个 GLB 的官方格式检查 | [Khronos：0 错误、0 警告，23 条提示](quality/glb-format-validation.json) |

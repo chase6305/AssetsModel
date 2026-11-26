@@ -1,4 +1,4 @@
-"""Copy selected models and GLB resources to a fresh, self-contained directory."""
+"""Copy selected models and runtime meshes to a fresh, self-contained directory."""
 
 import argparse
 import hashlib
@@ -24,14 +24,15 @@ def export_assets(root, models, output, referenced_only=False):
         raise ValueError("No URDF files found in selected models")
     files = set(urdfs)
     for urdf in sorted(urdfs):
-        result = validate_urdf(urdf, glb_only=True)
+        result = validate_urdf(urdf, glb_only=True,
+                               robot_collision_obj=urdf.is_relative_to(root / "RobotModel"))
         if result["errors"]:
             raise ValueError(f"{urdf}: {result['errors']}")
         tree = ET.parse(urdf)
         for resource in tree.findall(".//mesh") + tree.findall(".//texture"):
             files.add((urdf.parent / resource.get("filename")).resolve())
     if not referenced_only:
-        files.update(p for folder in folders for p in folder.rglob("*.glb"))
+        files.update(p for folder in folders for pattern in ("*.glb", "*.obj") for p in folder.rglob(pattern))
     # Keep the redistribution notices with upstream-derived robot geometry,
     # including in minimal runtime exports.
     for folder in folders:
@@ -49,7 +50,8 @@ def export_assets(root, models, output, referenced_only=False):
         records.append({"path": relative.as_posix(), "bytes": target.stat().st_size,
                         "sha256": hashlib.sha256(target.read_bytes()).hexdigest()})
     report = {"summary": {"urdfs": len(urdfs), "glbs": sum(p.suffix == ".glb" for p in files),
-                           "metadata_files": sum(p.suffix not in (".urdf", ".glb") for p in files),
+                           "objs": sum(p.suffix == ".obj" for p in files),
+                           "metadata_files": sum(p.suffix not in (".urdf", ".glb", ".obj") for p in files),
                            "bytes": sum(x["bytes"] for x in records)}, "files": records}
     (output / "manifest.json").write_text(json.dumps(report, indent=2) + "\n")
     return report
@@ -60,7 +62,7 @@ def main():
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--models", nargs="+", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
-    parser.add_argument("--referenced-only", action="store_true", help="Omit GLBs not referenced by the selected URDFs")
+    parser.add_argument("--referenced-only", action="store_true", help="Omit meshes not referenced by the selected URDFs")
     args = parser.parse_args()
     try:
         report = export_assets(args.root, args.models, args.output, args.referenced_only)

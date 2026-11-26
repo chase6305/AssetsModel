@@ -13,7 +13,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/BaseLink.glb"/>
+        <mesh filename="Collision/obj/BaseLink.obj"/>
       </geometry>
     </collision>
     <inertial>
@@ -33,7 +33,12 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/Link1.glb"/>
+        <mesh filename="Collision/obj/Link1.obj"/>
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/obj/Link1_hull_2.obj"/>
       </geometry>
     </collision>
     <inertial>
@@ -53,7 +58,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/Link2.glb"/>
+        <mesh filename="Collision/obj/Link2.obj"/>
       </geometry>
     </collision>
     <inertial>
@@ -73,7 +78,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/Link3.glb"/>
+        <mesh filename="Collision/obj/Link3.obj"/>
       </geometry>
     </collision>
     <inertial>
@@ -93,7 +98,17 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/Link4.glb"/>
+        <mesh filename="Collision/obj/Link4.obj"/>
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/obj/Link4_hull_2.obj"/>
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/obj/Link4_hull_3.obj"/>
       </geometry>
     </collision>
     <inertial>
@@ -113,7 +128,17 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/Link5.glb"/>
+        <mesh filename="Collision/obj/Link5.obj"/>
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/obj/Link5_hull_2.obj"/>
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/obj/Link5_hull_3.obj"/>
       </geometry>
     </collision>
     <inertial>
@@ -133,7 +158,17 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/Link6.glb"/>
+        <mesh filename="Collision/obj/Link6.obj"/>
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/obj/Link6_hull_2.obj"/>
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/obj/Link6_hull_3.obj"/>
       </geometry>
     </collision>
     <inertial>

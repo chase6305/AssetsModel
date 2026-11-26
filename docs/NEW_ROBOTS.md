@@ -1,15 +1,15 @@
 # 新增常用机械臂
 
-本轮新增四款独立型号，使用上游真实网格和运动学描述，未通过缩放已有型号构造替代品。默认 URDF 引用模型目录内的 GLB；复制完整目录即可加载，无需 ROS 或 xacro。资源不包含控制器、Gazebo 插件或 transmissions。
+本轮新增四款独立型号，使用上游真实网格和运动学描述，未通过缩放已有型号构造替代品。默认 URDF 引用模型目录内的外观 GLB 和碰撞 OBJ，复制完整目录即可加载。资源不包含控制器、Gazebo 插件或 transmissions。
 
-| 型号与配置 | 运动自由度 | GLB | 默认 URDF |
+| 型号与配置 | 运动自由度 | 导入时的 GLB 数 | 默认 URDF |
 | --- | ---: | ---: | --- |
 | UFACTORY xArm6，裸臂 | 6 | 14 | [xArm6.urdf](../RobotModel/UFACTORY/xArm6/xArm6.urdf) |
 | UFACTORY Lite6，裸臂 | 6 | 14 | [Lite6.urdf](../RobotModel/UFACTORY/Lite6/Lite6.urdf) |
 | KUKA LBR iiwa 14 R820，裸臂 | 7 | 16 | [iiwa14.urdf](../RobotModel/KUKA/iiwa14/iiwa14.urdf) |
 | Kinova Gen3，7 自由度、无视觉模块、裸臂 | 7 | 16 | [Gen3.urdf](../RobotModel/Kinova/Gen3/Gen3.urdf) |
 
-每款包含 `Visual/glb/`、`Collision/glb/`、`LICENSE`、`NOTICE` 和 `provenance.json`。60 个 GLB 均内嵌资源；外观与碰撞沿用各自上游几何。没有额外添加夹爪、相机或工具。
+每款包含 `Visual/glb/`、`Collision/obj/`、`LICENSE`、`NOTICE` 和 `provenance.json`。外观使用上游几何，碰撞使用从上游几何生成的粗凸包。
 
 ## 来源与许可
 
@@ -64,7 +64,15 @@ python3 scripts/import_common_robots.py \
 
 输出模型先在临时目录完整构建并校验，然后发布；已有非空模型目录会被拒绝覆盖。`--models Lite6` 可以只导入指定型号。`--exported-sources` 用于携带 `.assetsmodel-source.json` 固定 Git 树 blob 清单的源快照；普通 Git checkout 不需要此选项。
 
-默认资源打包工具会同时保留许可证、NOTICE 和 provenance：
+导入器保留原始 GLB 转换流程供来源核对。核对后，在导入目标目录中生成碰撞 OBJ。
+
+```bash
+python3 scripts/decompose_robot_collisions.py \
+  --root /tmp/common-robots-import \
+  --coacd-dir /path/to/coacd_convex_decomposition
+```
+
+默认资源打包工具会同时保留许可证、NOTICE 和 provenance。
 
 ```bash
 python3 scripts/export_assets.py \
@@ -76,7 +84,7 @@ python3 scripts/export_assets.py \
 
 [独立验证记录](quality/new-robots-independent-audit.json)覆盖四款模型、60 个 GLB 和 12 组合法姿态：逐三角角点比较保持 float32 坐标和 winding；全部运动学链接与源描述、yourdfpy 的姿态矩阵一致；各模型复制到独立目录后加载通过；许可证逐字一致。
 
-使用按 `xarm/`、`iiwa/`、`kortex/` 组织的固定源目录重跑：
+在碰撞迁移前的 `e8d8d88` 工作树中，使用按 `xarm/`、`iiwa/`、`kortex/` 组织的固定源目录重跑导入几何对比。
 
 ```bash
 python3 scripts/verify_common_robot_sources.py \

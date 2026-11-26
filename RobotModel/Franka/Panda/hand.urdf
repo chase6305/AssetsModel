@@ -8,7 +8,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/hand.glb" />
+        <mesh filename="Collision/obj/hand.obj" />
       </geometry>
     </collision>
     <inertial>

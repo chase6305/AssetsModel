@@ -32,7 +32,19 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/link_base.glb" />
+        <mesh filename="Collision/obj/link_base.obj" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/obj/link_base_hull_2.obj" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/obj/link_base_hull_3.obj" />
       </geometry>
       <origin rpy="0 0 0" xyz="0 0 0" />
     </collision>
@@ -51,7 +63,19 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/link1.glb" />
+        <mesh filename="Collision/obj/link1.obj" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/obj/link1_hull_2.obj" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/obj/link1_hull_3.obj" />
       </geometry>
       <origin rpy="0 0 0" xyz="0 0 0" />
     </collision>
@@ -78,7 +102,19 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/link2.glb" />
+        <mesh filename="Collision/obj/link2.obj" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/obj/link2_hull_2.obj" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/obj/link2_hull_3.obj" />
       </geometry>
       <origin rpy="0 0 0" xyz="0 0 0" />
     </collision>
@@ -105,7 +141,19 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/link3.glb" />
+        <mesh filename="Collision/obj/link3.obj" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/obj/link3_hull_2.obj" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/obj/link3_hull_3.obj" />
       </geometry>
       <origin rpy="0 0 0" xyz="0 0 0" />
     </collision>
@@ -132,7 +180,19 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/link4.glb" />
+        <mesh filename="Collision/obj/link4.obj" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/obj/link4_hull_2.obj" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/obj/link4_hull_3.obj" />
       </geometry>
       <origin rpy="0 0 0" xyz="0 0 0" />
     </collision>
@@ -159,7 +219,13 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/link5.glb" />
+        <mesh filename="Collision/obj/link5.obj" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/obj/link5_hull_2.obj" />
       </geometry>
       <origin rpy="0 0 0" xyz="0 0 0" />
     </collision>
@@ -186,7 +252,13 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/link6.glb" />
+        <mesh filename="Collision/obj/link6.obj" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/obj/link6_hull_2.obj" />
       </geometry>
       <origin rpy="0 0 0" xyz="0 0 0" />
     </collision>

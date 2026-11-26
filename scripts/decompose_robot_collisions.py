@@ -110,8 +110,9 @@ def run(root, folders, tool, settings):
         for part, hull in enumerate(hulls, 1):
             stem = source.stem if part == 1 else f"{source.stem}_hull_{part}"
             obj = collision_dir / "obj" / f"{stem}.obj"
-            payload = hull.export(file_type="obj", include_normals=False, include_color=False,
-                                  include_texture=False, digits=10).encode() + b"\n"
+            obj_text = hull.export(file_type="obj", include_normals=False, include_color=False,
+                                   include_texture=False, digits=10)
+            payload = (obj_text.rstrip("\n") + "\n").encode()
             if obj in objects or (obj.exists() and obj.read_bytes() != payload):
                 raise ValueError(f"Refusing to overwrite an existing OBJ: {obj}")
             objects[obj] = payload
@@ -134,6 +135,9 @@ def run(root, folders, tool, settings):
             write_asset(urdf, data)
     for path in legacy:
         path.unlink()
+    for directory in {path.parent for path in legacy if path.parent.name in ("glb", "stl")}:
+        if not any(directory.iterdir()):
+            directory.rmdir()
     return {"parameters": settings,
             "urdfs_updated": sum(data != urdfs[urdf] for urdf, data in updates.items()),
             "source_meshes": len(sources), "objs": len(objects),

@@ -18,7 +18,19 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="Collision/glb/base_link.glb" />
+        <mesh filename="Collision/obj/base_link.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="Collision/obj/base_link_hull_2.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="Collision/obj/base_link_hull_3.obj" />
       </geometry>
     </collision>
   </link>
@@ -40,7 +52,19 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="Collision/glb/shoulder_link.glb" />
+        <mesh filename="Collision/obj/shoulder_link.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="Collision/obj/shoulder_link_hull_2.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="Collision/obj/shoulder_link_hull_3.obj" />
       </geometry>
     </collision>
   </link>
@@ -69,7 +93,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="Collision/glb/half_arm_1_link.glb" />
+        <mesh filename="Collision/obj/half_arm_1_link.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="Collision/obj/half_arm_1_link_hull_2.obj" />
       </geometry>
     </collision>
   </link>
@@ -98,7 +128,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="Collision/glb/half_arm_2_link.glb" />
+        <mesh filename="Collision/obj/half_arm_2_link.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="Collision/obj/half_arm_2_link_hull_2.obj" />
       </geometry>
     </collision>
   </link>
@@ -127,7 +163,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="Collision/glb/forearm_link.glb" />
+        <mesh filename="Collision/obj/forearm_link.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="Collision/obj/forearm_link_hull_2.obj" />
       </geometry>
     </collision>
   </link>
@@ -156,7 +198,19 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="Collision/glb/spherical_wrist_1_link.glb" />
+        <mesh filename="Collision/obj/spherical_wrist_1_link.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="Collision/obj/spherical_wrist_1_link_hull_2.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="Collision/obj/spherical_wrist_1_link_hull_3.obj" />
       </geometry>
     </collision>
   </link>
@@ -185,7 +239,19 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="Collision/glb/spherical_wrist_2_link.glb" />
+        <mesh filename="Collision/obj/spherical_wrist_2_link.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="Collision/obj/spherical_wrist_2_link_hull_2.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="Collision/obj/spherical_wrist_2_link_hull_3.obj" />
       </geometry>
     </collision>
   </link>
@@ -214,7 +280,19 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="Collision/glb/bracelet_no_vision_link.glb" />
+        <mesh filename="Collision/obj/bracelet_no_vision_link.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="Collision/obj/bracelet_no_vision_link_hull_2.obj" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="Collision/obj/bracelet_no_vision_link_hull_3.obj" />
       </geometry>
     </collision>
   </link>

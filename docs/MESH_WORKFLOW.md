@@ -1,6 +1,6 @@
 # 网格优化与校验
 
-默认 URDF 直接位于各模型目录，引用 `Visual/glb/`、`Collision/glb/` 或 `meshes/glb/`。可选 STL 放在相应的 `stl/` 子目录。DAE 和顶层重复的 GLB 目录已移除，具体层级见[资源布局](ASSET_LAYOUT.md)。当前[库存快照](quality/inventory.json)为 71 个 URDF、841 个 GLB、404 个可选 STL；新增型号的来源与复现见[新增机器人](NEW_ROBOTS.md)，外观校准见[品牌材质](BRAND_MATERIALS.md)。
+默认 URDF 直接位于各模型目录。机器人外观引用 `Visual/glb/`，机器人碰撞引用 `Collision/obj/`，相机和独立工具引用 `meshes/glb/`。目录层级见[资源布局](ASSET_LAYOUT.md)。
 
 ## 日常校验
 
@@ -11,7 +11,7 @@ python3 scripts/validate_assets.py --meshes --layout --json /tmp/assets-validati
 python3 -m unittest discover -s tests -v
 ```
 
-`--layout` 要求 URDF 使用 `glb/` 中的网格，STL/GLB 位于各自格式目录，并拒绝新增 DAE。几何和加载检查需要可选依赖：
+`--layout` 要求机器人碰撞网格使用 `Collision/obj/`，外观与相机/工具网格使用 `glb/`，并检查各网格文件的格式目录。几何和加载检查需要可选依赖：
 
 ```bash
 python3 -m pip install -r requirements-mesh.txt
@@ -34,7 +34,7 @@ NODE_PATH=/tmp/assetsmodel-gltf-validation/node_modules \
 
 ## GLB 外观维护
 
-现有默认资源是 GLB。[品牌调色](BRAND_MATERIALS.md)修改嵌入材质，保留原材质分区和 BIN；[曲面法线整理](NORMAL_REFINEMENT.md)只处理审查过的曲面或明确局部缺陷；[静态绘制批处理](MESH_BATCHING.md)合并兼容批次并逐场景核对有向角点。已有平滑法线、共面正反两层和机械硬边不能仅按全局计数自动改写。
+外观网格使用 GLB。[品牌调色](BRAND_MATERIALS.md)修改嵌入材质，保留原材质分区和 BIN；[曲面法线整理](NORMAL_REFINEMENT.md)只处理审查过的曲面或明确局部缺陷；[静态绘制批处理](MESH_BATCHING.md)合并兼容批次并逐场景核对有向角点。已有平滑法线、共面正反两层和机械硬边不能仅按全局计数自动改写。
 
 只读检查当前外观与调色提案：
 
@@ -64,11 +64,35 @@ python3 scripts/convert_glb.py --files /tmp/incoming/Link.dae \
   --output RobotModel/UniversalRobots/UR5e/Visual/glb
 ```
 
-碰撞资源添加 `--collision`。输出默认拒绝覆盖内容不同的同名 GLB；确认替换对象后才使用 `--overwrite`。工具不自动删除外部输入或修改已有 URDF，新增资源后将相应引用设为 `Visual/glb/Link.glb` 等相对路径。需要保留 STL 时将其放入 `stl/`；不要将 DAE 放回模型库。
+相机和独立工具的碰撞 GLB 转换可添加 `--collision`。机器人的碰撞网格使用下述 CoACD 流程。输出默认拒绝覆盖内容不同的同名 GLB；确认替换对象后才使用 `--overwrite`。工具不自动删除外部输入或修改已有 URDF，新增资源后将相应引用设为 `Visual/glb/Link.glb` 等相对路径。需要保留 STL 时将其放入 `stl/`；不要将 DAE 放回模型库。
 
 转换不进行第二次减面。DAE 场景变换烘焙到各网格的局部坐标；位置、角点法线和材质分组分别处理。每个写回的三角形顶点都与转换前比较。碰撞资源省略法线与材质；STL 外观按 30° 阈值平滑局部顶点扇区，并保留硬边。仅位置及法线均一致时才合并外观顶点。小网格使用 16 位索引，超出范围时使用 32 位索引。
 
 GLB 主场景只包含表面；原 DAE 辅助线保存在可选第二场景。输入目录 DAE/STL 同名时分别输出 `Link.glb` 与 `Link.stl.glb`，避免覆盖。常见的全白顶点颜色作为恒等颜色乘数省略；非白顶点颜色或带纹理的源 DAE 会明确报错。2026 年 9 月转档阶段的 783 个 GLB 与误差数据见[历史转换报告](GLB_REPORT.md)，不代表新增型号后的库存。归档的旧格式模型树也可通过显式 `--root` 转换，输出同样使用 `glb/` 子目录。每次新增或替换网格后都应重跑几何、装配加载与官方格式校验。
+
+## 机器人碰撞凸包
+
+批处理脚本调用 `coacd_convex_decomposition/coacd_process.py` 中的网格清理和 CoACD，对每个被机器人 URDF 引用的碰撞 GLB 或 STL 生成一组凸包。GLB 场景变换应用到网格后再分解，URDF 的 `origin` 和 `scale` 沿用原值。每个凸包生成一个 OBJ 和一个 URDF `<collision>` 元素。基本碰撞体保留。脚本在生成所有选中型号的 OBJ 并准备新引用后写入结果，再清理这些型号 `Collision/` 中的旧 GLB 和 STL。
+
+在已有 CoACD 环境中运行。依赖版本以该工具的 README 为准，批处理使用 CoACD 1.0.7、Open3D 0.19.0、trimesh 4.12.2 和 fast-simplification 0.1.13。
+
+```bash
+python3 scripts/decompose_robot_collisions.py \
+  --root /path/to/assets-with-legacy-collisions \
+  --coacd-dir /home/ubuntu/workspace/coacd_convex_decomposition \
+  --report /tmp/robot-collision-coacd.json
+```
+
+重建本次转换可将 `--root` 指向转换前的 `e8d8d88` 工作树。通过 `--models UniversalRobots/UR5e Franka/Panda` 可只处理指定型号。脚本按文件串行处理。大型批次应持有共享资源锁。调整默认参数时，先用少量典型连杆检查凸包数量和形状。
+
+| 参数 | 默认值 | 含义 |
+| --- | ---: | --- |
+| `--threshold` | 0.18 | CoACD 归一化凹度阈值，较大的值通常产生较少的凸包 |
+| `--max-hulls` | 3 | 每个输入网格最多生成的凸包数 |
+| `--max-vertices` | 64 | 单个凸包的顶点预算 |
+| `--merge-vert-ratio` | 0.001 | 清理时的合点距离与网格三轴尺寸中位数的比值 |
+
+报告记录每个输入的面数、凸包数和分解后整体包围盒相对原网格的差值。粗凸包会填平部分凹槽，实际规划间隙取决于模型和姿态。
 
 ## 按模型打包
 
@@ -76,16 +100,16 @@ GLB 主场景只包含表面；原 DAE 辅助线保存在可选第二场景。�
 
 ```bash
 python3 scripts/export_assets.py --models RobotModel/UniversalRobots/UR5e \
-  --referenced-only --output /tmp/ur5e-glb-runtime
+  --referenced-only --output /tmp/ur5e-runtime
 ```
 
-该操作直接复制现有 GLB 与 URDF，保留模型内的格式目录，不带 STL。存在的 `LICENSE*`、`NOTICE*`、`COPYING*` 和 `provenance.json` 也会随包保留，包括 `--referenced-only` 最小运行包；四款新增型号各有 LICENSE、NOTICE 和 provenance 三个来源文件。输出根目录的 `manifest.json` 记录所复制文件的大小和 SHA-256。省略 `--referenced-only` 时保留选定模型的全部 GLB。导出功能只需要标准库。历史转换结果与兼容范围见 [GLB 报告](GLB_REPORT.md)。
+该操作复制 URDF、外观 GLB 和引用的碰撞 OBJ，保留格式目录。存在的 `LICENSE*`、`NOTICE*`、`COPYING*` 和 `provenance.json` 也会随包保留，包括 `--referenced-only` 最小运行包；四款新增型号各有 LICENSE、NOTICE 和 provenance 三个来源文件。输出根目录的 `manifest.json` 记录所复制文件的大小和 SHA-256。省略 `--referenced-only` 时保留选定模型的全部 GLB 和 OBJ。导出功能只需要标准库。历史转换结果与兼容范围见 [GLB 报告](GLB_REPORT.md)。
 
 仓库保留原有 URDF 路径和模型目录结构。日常校验只需要 Python 3.10+；减面和预览额外使用本机 Blender 与 Python 几何库。
 
 ## 检查内容与目录索引
 
-校验内容包括 XML、资源路径、链接与关节重名、唯一根链接、链接环路、多父链接、mimic 引用与环路、坐标和限位数值、惯性矩阵正定性，以及 STL/GLB 文件容器。输出非零退出码表示错误。CI 自动运行布局、几何、模型加载及官方 GLB 格式检查。
+校验内容包括 XML、资源路径、链接与关节重名、唯一根链接、链接环路、多父链接、mimic 引用与环路、坐标和限位数值、惯性矩阵正定性，以及 STL、GLB 和 OBJ 文件。几何检查还验证碰撞 OBJ 是闭合凸体。输出非零退出码表示错误。CI 自动运行布局、几何、模型加载及官方 GLB 格式检查。
 
 带几何但没有惯量的链接、运动关节的零 effort / velocity 会报告为警告。没有几何的固定坐标帧不要求惯量。`--strict` 可将这些警告视为错误；现有资产并非全部具备动力学参数，因此默认 CI 不启用 strict。此工具检查仓库约定，并不是完整的 URDF 标准或仿真引擎兼容性认证。
 
@@ -125,14 +149,14 @@ python3 scripts/cleanup_degenerate.py --audit /tmp/mesh-audit.json \
 先分析一个模型，默认不会修改资源：
 
 ```bash
-python3 scripts/optimize_meshes.py RobotModel/AE/AIR10_1210/Collision/stl \
+python3 scripts/optimize_meshes.py RobotModel/AE/AIR10_1210/Visual/stl \
   --report /tmp/mesh-analysis.json
 ```
 
 写入通过质量检查的结果，必须指定备份目录：
 
 ```bash
-python3 scripts/optimize_meshes.py RobotModel/AE/AIR10_1210/Collision/stl \
+python3 scripts/optimize_meshes.py RobotModel/AE/AIR10_1210/Visual/stl \
   --apply --backup-dir /tmp/assets-before-optimization \
   --report /tmp/mesh-optimization.json
 ```

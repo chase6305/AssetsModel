@@ -13,7 +13,17 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/base.glb"/>
+        <mesh filename="Collision/obj/base.obj"/>
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/obj/base_hull_2.obj"/>
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/obj/base_hull_3.obj"/>
       </geometry>
     </collision>
     <inertial>
@@ -33,7 +43,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/shoulder.glb"/>
+        <mesh filename="Collision/obj/shoulder.obj"/>
       </geometry>
     </collision>
     <inertial>
@@ -53,7 +63,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/upperarm.glb"/>
+        <mesh filename="Collision/obj/upperarm.obj"/>
       </geometry>
     </collision>
     <inertial>
@@ -73,7 +83,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/forearm.glb"/>
+        <mesh filename="Collision/obj/forearm.obj"/>
       </geometry>
     </collision>
     <inertial>
@@ -93,7 +103,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/wrist1.glb"/>
+        <mesh filename="Collision/obj/wrist1.obj"/>
       </geometry>
     </collision>
     <inertial>
@@ -113,7 +123,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/wrist2.glb"/>
+        <mesh filename="Collision/obj/wrist2.obj"/>
       </geometry>
     </collision>
     <inertial>
@@ -133,7 +143,12 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/wrist3.glb"/>
+        <mesh filename="Collision/obj/wrist3.obj"/>
+      </geometry>
+    </collision>
+    <collision>
+      <geometry>
+        <mesh filename="Collision/obj/wrist3_hull_2.obj"/>
       </geometry>
     </collision>
     <inertial>
