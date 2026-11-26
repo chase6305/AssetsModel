@@ -83,7 +83,7 @@ class ValidationTests(unittest.TestCase):
         def signature(element):
             return element.tag, element.attrib, [signature(child) for child in element]
         for filename in ("FR3.urdf", "FR3Hand.urdf", "FR3WithHand.urdf"):
-            result = validator.validate_urdf(folder / filename, glb_only=True)
+            result = validator.validate_urdf(folder / filename, robot_collision_obj=True)
             self.assertEqual(result["errors"], [])
             self.assertEqual(result["warnings"], [])
             robot = ET.parse(folder / filename).getroot()
@@ -97,6 +97,30 @@ class ValidationTests(unittest.TestCase):
         self.assertEqual((float(limit.get("lower")), float(limit.get("upper"))), (0.5445, 4.5169))
         tcp = full.find("joint[@name='fr3_hand_tcp_joint']/origin")
         self.assertEqual(tcp.get("xyz"), "0 0 0.1034")
+
+    def test_robot_layout_accepts_obj_collisions_and_rejects_legacy_meshes(self):
+        with tempfile.TemporaryDirectory() as directory:
+            model = Path(directory)
+            urdf = model / "test.urdf"
+            visual = model / "Visual/glb/part.glb"
+            obj = model / "Collision/obj/part.obj"
+            glb = model / "Collision/glb/part.glb"
+            for mesh in (visual, obj, glb):
+                mesh.parent.mkdir(parents=True)
+                mesh.write_text("v 0 0 0\nv 1 0 0\nv 0 1 0\nf 1 2 3\n")
+            template = ('<robot name="sample"><link name="base">'
+                        '<visual><geometry><mesh filename="Visual/glb/part.glb"/></geometry></visual>'
+                        '<collision><geometry><mesh filename="{}"/></geometry></collision>'
+                        '</link></robot>')
+            urdf.write_text(template.format("Collision/obj/part.obj"))
+            self.assertEqual(validator.validate_urdf(urdf, robot_collision_obj=True)["errors"], [])
+            self.assertEqual(validator.check_mesh(obj), (1, []))
+            obj.write_text("v 0 0 0\nv 1 0 0\nv 0 1 0\nf 1 2 4\n")
+            self.assertTrue(validator.check_mesh(obj)[1])
+            urdf.write_text(template.format("Collision/glb/part.glb"))
+            self.assertTrue(validator.validate_urdf(urdf, robot_collision_obj=True)["errors"])
+            for legacy in ("Collision/glb/part.glb", "Collision/stl/part.stl"):
+                self.assertTrue(validator.layout_errors(Path(legacy), robot_model=True))
 
 
 if __name__ == "__main__":

@@ -21,11 +21,10 @@ Rendering finishes are visual estimates, not measured reflectance data.
 ## Migration and reproduction
 
 Moved from [`HumanoidAssets/UniversalRobotsUR5e`](https://github.com/chase6305/HumanoidAssets/tree/acdeaeb086b1eafc16dac838b5ba88f2212b7d2a/UniversalRobotsUR5e).
-Only mesh filenames change in the URDFs. Visuals live in `Visual/glb/`;
-collision surfaces are converted without decimation to `Collision/glb/`, and
-original collision STL bytes remain in `Collision/stl/`. Primitive collisions
-are unchanged. Link/joint frames, axes, limits, mimic rules and dynamics retain
-their original values.
+Visuals live in `Visual/glb/`. Mesh collisions use CoACD convex hulls in
+`Collision/obj/`, one hull per URDF collision element. Primitive collisions,
+link and joint frames, axes, limits, mimic rules and dynamics retain their
+original values.
 
 `source.tar.gz` stores the original source notes, DAE/Xacro/configuration inputs,
 portable URDFs and import/validation manifests with original bytes. Extract it
@@ -35,13 +34,8 @@ paths. Archived report references are historical evidence, not current checks.
 `provenance.json` records the fixed migration revision, archive members, file
 hashes, resource mapping and per-corner collision-conversion checks.
 
-To regenerate the collision GLBs, run from the model directory with an
-AssetsModel checkout available:
-
-```bash
-python /path/to/AssetsModel/scripts/convert_glb.py --files Collision/stl/*.stl --collision --output Collision/glb
-```
+The batch workflow regenerates the collision OBJ meshes from the pre-migration mesh tree. [Mesh workflow](../../../docs/MESH_WORKFLOW.md#机器人碰撞凸包)
 
 Visual GLBs and the preview are byte-identical to the fixed migration source.
-`validation.json` records checks of the migrated descriptions and runtime meshes;
+`validation.json` records checks of the descriptions and meshes at the original import;
 these do not certify contact dynamics or physical controller accuracy.

@@ -46,7 +46,21 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="Collision/glb/link_0.glb" />
+        <mesh filename="Collision/obj/link_0.obj" />
+      </geometry>
+      <material name="Grey" />
+    </collision>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="Collision/obj/link_0_hull_2.obj" />
+      </geometry>
+      <material name="Grey" />
+    </collision>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="Collision/obj/link_0_hull_3.obj" />
       </geometry>
       <material name="Grey" />
     </collision>
@@ -76,7 +90,14 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="Collision/glb/link_1.glb" />
+        <mesh filename="Collision/obj/link_1.obj" />
+      </geometry>
+      <material name="Orange" />
+    </collision>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="Collision/obj/link_1_hull_2.obj" />
       </geometry>
       <material name="Orange" />
     </collision>
@@ -106,7 +127,14 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="Collision/glb/link_2.glb" />
+        <mesh filename="Collision/obj/link_2.obj" />
+      </geometry>
+      <material name="Orange" />
+    </collision>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="Collision/obj/link_2_hull_2.obj" />
       </geometry>
       <material name="Orange" />
     </collision>
@@ -136,7 +164,14 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="Collision/glb/link_3.glb" />
+        <mesh filename="Collision/obj/link_3.obj" />
+      </geometry>
+      <material name="Orange" />
+    </collision>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="Collision/obj/link_3_hull_2.obj" />
       </geometry>
       <material name="Orange" />
     </collision>
@@ -166,7 +201,14 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="Collision/glb/link_4.glb" />
+        <mesh filename="Collision/obj/link_4.obj" />
+      </geometry>
+      <material name="Orange" />
+    </collision>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="Collision/obj/link_4_hull_2.obj" />
       </geometry>
       <material name="Orange" />
     </collision>
@@ -196,7 +238,14 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="Collision/glb/link_5.glb" />
+        <mesh filename="Collision/obj/link_5.obj" />
+      </geometry>
+      <material name="Orange" />
+    </collision>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="Collision/obj/link_5_hull_2.obj" />
       </geometry>
       <material name="Orange" />
     </collision>
@@ -226,7 +275,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="Collision/glb/link_6.glb" />
+        <mesh filename="Collision/obj/link_6.obj" />
       </geometry>
       <material name="Orange" />
     </collision>
@@ -256,7 +305,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <geometry>
-        <mesh filename="Collision/glb/link_7.glb" />
+        <mesh filename="Collision/obj/link_7.obj" />
       </geometry>
       <material name="Grey" />
     </collision>

@@ -31,6 +31,8 @@ def audit(path):
                     raise ValueError("Non-finite GLB normals")
     else:
         mesh = trimesh.load_mesh(path, process=False)
+        if path.suffix.lower() == ".obj" and (not mesh.is_volume or not mesh.is_convex):
+            raise ValueError("Collision OBJ must be a solid convex hull")
         meshes.append((mesh.vertices, mesh.faces))
     faces_total = degenerate = 0
     bounds = []
@@ -60,7 +62,7 @@ def main():
     results, errors = [], 0
     for category in ("CameraModel", "RobotModel", "ToolModel"):
         for path in sorted((args.root / category).rglob("*")):
-            if path.suffix.lower() not in (".stl", ".dae", ".glb"):
+            if path.suffix.lower() not in (".stl", ".dae", ".glb", ".obj"):
                 continue
             item = {"path": path.relative_to(args.root).as_posix()}
             try:

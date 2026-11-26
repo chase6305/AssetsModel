@@ -89,11 +89,11 @@
 | [RobotModel/ABB/IRB1200_7_70/Visual/Link5.dae](../RobotModel/ABB/IRB1200_7_70/Visual/glb/Link5.glb) | 11,278 | 11,262 | 0.765 | 0.743 |
 | [RobotModel/ABB/IRB1600_10_145/Collision/Link4.stl](../RobotModel/ABB/IRB1600_10_145/Collision/stl/Link4.stl) | 80,314 | 16,062 | 3.830 | 0.766 |
 | [RobotModel/ABB/IRB1600_10_145/Visual/Link4.dae](../RobotModel/ABB/IRB1600_10_145/Visual/glb/Link4.glb) | 80,314 | 19,999 | 6.203 | 1.277 |
-| [RobotModel/ABB/IRB2600_12_165/Collision/Link1.dae](../RobotModel/ABB/IRB2600_12_165/Collision/glb/Link1.glb) | 31,086 | 15,529 | 2.086 | 1.008 |
-| [RobotModel/ABB/IRB2600_12_165/Collision/Link2.dae](../RobotModel/ABB/IRB2600_12_165/Collision/glb/Link2.glb) | 13,450 | 13,448 | 0.915 | 0.915 |
-| [RobotModel/ABB/IRB2600_12_165/Collision/Link3.dae](../RobotModel/ABB/IRB2600_12_165/Collision/glb/Link3.glb) | 38,272 | 13,430 | 2.743 | 0.892 |
-| [RobotModel/ABB/IRB2600_12_165/Collision/Link4.dae](../RobotModel/ABB/IRB2600_12_165/Collision/glb/Link4.glb) | 108,480 | 54,282 | 8.364 | 3.506 |
-| [RobotModel/ABB/IRB2600_12_165/Collision/Link6.dae](../RobotModel/ABB/IRB2600_12_165/Collision/glb/Link6.glb) | 1,484 | 1,482 | 0.083 | 0.083 |
+| [RobotModel/ABB/IRB2600_12_165/Collision/Link1.dae](https://github.com/chase6305/AssetsModel/blob/e8d8d880530be33fd45c8a7930dcb03756217af7/RobotModel/ABB/IRB2600_12_165/Collision/glb/Link1.glb) | 31,086 | 15,529 | 2.086 | 1.008 |
+| [RobotModel/ABB/IRB2600_12_165/Collision/Link2.dae](https://github.com/chase6305/AssetsModel/blob/e8d8d880530be33fd45c8a7930dcb03756217af7/RobotModel/ABB/IRB2600_12_165/Collision/glb/Link2.glb) | 13,450 | 13,448 | 0.915 | 0.915 |
+| [RobotModel/ABB/IRB2600_12_165/Collision/Link3.dae](https://github.com/chase6305/AssetsModel/blob/e8d8d880530be33fd45c8a7930dcb03756217af7/RobotModel/ABB/IRB2600_12_165/Collision/glb/Link3.glb) | 38,272 | 13,430 | 2.743 | 0.892 |
+| [RobotModel/ABB/IRB2600_12_165/Collision/Link4.dae](https://github.com/chase6305/AssetsModel/blob/e8d8d880530be33fd45c8a7930dcb03756217af7/RobotModel/ABB/IRB2600_12_165/Collision/glb/Link4.glb) | 108,480 | 54,282 | 8.364 | 3.506 |
+| [RobotModel/ABB/IRB2600_12_165/Collision/Link6.dae](https://github.com/chase6305/AssetsModel/blob/e8d8d880530be33fd45c8a7930dcb03756217af7/RobotModel/ABB/IRB2600_12_165/Collision/glb/Link6.glb) | 1,484 | 1,482 | 0.083 | 0.083 |
 | [RobotModel/ABB/IRB2600_12_165/Visual/Link1.dae](../RobotModel/ABB/IRB2600_12_165/Visual/glb/Link1.glb) | 31,086 | 19,999 | 2.086 | 1.276 |
 | [RobotModel/ABB/IRB2600_12_165/Visual/Link2.dae](../RobotModel/ABB/IRB2600_12_165/Visual/glb/Link2.glb) | 13,450 | 13,448 | 0.915 | 0.915 |
 | [RobotModel/ABB/IRB2600_12_165/Visual/Link3.dae](../RobotModel/ABB/IRB2600_12_165/Visual/glb/Link3.glb) | 38,272 | 20,026 | 2.743 | 1.295 |

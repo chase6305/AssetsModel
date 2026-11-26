@@ -16,6 +16,7 @@ import xml.etree.ElementTree as ET
 import numpy as np
 
 from glb_format import accessor_bytes, read_glb, validate_glb
+from validate_assets import check_mesh
 
 CATEGORIES = ("CameraModel", "RobotModel", "ToolModel")
 DTYPES = {5120: "i1", 5121: "u1", 5122: "<i2", 5123: "<u2", 5125: "<u4", 5126: "<f4"}
@@ -121,6 +122,14 @@ def audit_glb(path, roles=()):
     return result
 
 
+def audit_obj(path, roles):
+    faces, errors = check_mesh(path)
+    data = path.read_bytes()
+    return {"bytes": len(data), "sha256": hashlib.sha256(data).hexdigest(), "roles": sorted(roles),
+            "stored_triangles": faces, "default_scene_triangles": faces,
+            "default_scene_primitives": int(faces > 0), "errors": errors, "warnings": []}
+
+
 def inventory(root):
     """Keep each URDF reference: repeated fingers/links contribute repeated draws."""
     root = Path(root).resolve()
@@ -147,10 +156,12 @@ def audit_repository(root):
     meshes = []
     by_path = {}
     for category in CATEGORIES:
-        for path in sorted((root / category).rglob("*.glb")):
+        paths = (path for path in (root / category).rglob("*") if path.suffix in (".glb", ".obj"))
+        for path in sorted(paths):
             relative = path.relative_to(root).as_posix()
             try:
-                item = {"path": relative, **audit_glb(path, usage[relative])}
+                audit = audit_glb if path.suffix == ".glb" else audit_obj
+                item = {"path": relative, **audit(path, usage[relative])}
             except Exception as exc:
                 item = {"path": relative, "errors": [str(exc)], "warnings": []}
             meshes.append(item)
@@ -165,7 +176,7 @@ def audit_repository(root):
             # Bytes are unique file transfers, unlike rendering costs above.
             model[f"{role}_unique_bytes"] = sum(by_path.get(p, {}).get("bytes", 0) for p in set(references))
             if missing:
-                model.setdefault("errors", []).append(f"Missing GLB references: {missing}")
+                model.setdefault("errors", []).append(f"Missing runtime mesh references: {missing}")
     summary = {"meshes": len(meshes), "urdfs": len(models),
                "errors": sum(len(x["errors"]) for x in meshes) + sum(len(x.get("errors", [])) for x in models),
                "warnings": sum(len(x["warnings"]) for x in meshes),
@@ -173,7 +184,7 @@ def audit_repository(root):
                "stored_triangles": sum(x.get("stored_triangles", 0) for x in meshes),
                "invalid_normal_vertices": sum(x.get("invalid_normal_vertices", 0) for x in meshes),
                "missing_visual_normal_primitives": sum(x.get("missing_visual_normal_primitives", 0) for x in meshes),
-               "unreferenced_glbs": sum(not usage[x["path"]] for x in meshes)}
+               "unreferenced_glbs": sum(x["path"].endswith(".glb") and not usage[x["path"]] for x in meshes)}
     return {"summary": summary, "models": models, "meshes": meshes}
 
 

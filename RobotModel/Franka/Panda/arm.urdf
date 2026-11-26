@@ -8,7 +8,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/link0.glb" />
+        <mesh filename="Collision/obj/link0.obj" />
       </geometry>
     </collision>
     <inertial>
@@ -31,7 +31,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/link1.glb" />
+        <mesh filename="Collision/obj/link1.obj" />
       </geometry>
     </collision>
     <inertial>
@@ -63,7 +63,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/link2.glb" />
+        <mesh filename="Collision/obj/link2.obj" />
       </geometry>
     </collision>
     <inertial>
@@ -95,7 +95,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/link3.glb" />
+        <mesh filename="Collision/obj/link3.obj" />
       </geometry>
     </collision>
     <inertial>
@@ -127,7 +127,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/link4.glb" />
+        <mesh filename="Collision/obj/link4.obj" />
       </geometry>
     </collision>
     <inertial>
@@ -159,7 +159,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/link5.glb" />
+        <mesh filename="Collision/obj/link5.obj" />
       </geometry>
     </collision>
     <inertial>
@@ -191,7 +191,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/link6.glb" />
+        <mesh filename="Collision/obj/link6.obj" />
       </geometry>
     </collision>
     <inertial>
@@ -223,7 +223,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="Collision/glb/link7.glb" />
+        <mesh filename="Collision/obj/link7.obj" />
       </geometry>
     </collision>
     <inertial>
